@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NWMHS CRM — Deals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="sidebar__logo">
+    <span style="font-family:var(--font-head);font-size:1.1rem;color:var(--white);font-weight:700;">NWMHS <span style="color:var(--gold)">CRM</span></span>
+  </div>
+  <nav class="sidebar__nav">
+    <div class="sidebar__section">Main</div>
+    <a href="dashboard.html" class="nav-item" data-page="dashboard"><span class="nav-item__icon">📊</span> Dashboard</a>
+    <a href="contacts.html"  class="nav-item" data-page="contacts"><span class="nav-item__icon">👥</span> Contacts</a>
+    <a href="deals.html"     class="nav-item" data-page="deals"><span class="nav-item__icon">💼</span> Deals</a>
+    <a href="tasks.html"     class="nav-item" data-page="tasks"><span class="nav-item__icon">✅</span> Tasks</a>
+  </nav>
+  <div class="sidebar__bottom">
+    <div class="sidebar__user">
+      <div class="sidebar__avatar">U</div>
+      <div class="sidebar__user-info">
+        <div class="sidebar__user-name">User</div>
+        <div class="sidebar__user-role">owner</div>
+      </div>
+      <button class="btn-logout" title="Sign out">⏻</button>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div class="topbar">
+    <span class="topbar__title">Deals Pipeline</span>
+    <div class="topbar__actions">
+      <button class="btn btn--gold btn--sm" id="btn-add">+ Add Deal</button>
+    </div>
+  </div>
+  <div class="page-body">
+    <div class="pipeline" id="pipeline"></div>
+  </div>
+</div>
+
+<!-- Add / Edit Modal -->
+<div class="modal-overlay" id="modal" style="display:none">
+  <div class="modal">
+    <div class="modal__header">
+      <span class="modal__title" id="modal-title">Add Deal</span>
+      <button class="modal__close" id="modal-close">✕</button>
+    </div>
+    <form id="deal-form">
+      <div class="modal__body">
+        <div class="form-group"><label>Deal Title *</label><input name="title" required placeholder="Website redesign"></div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Value ($)</label>
+            <input type="number" name="value" placeholder="5000" min="0" step="0.01">
+          </div>
+          <div class="form-group">
+            <label>Stage</label>
+            <select name="stage">
+              <option value="lead">Lead</option>
+              <option value="qualified">Qualified</option>
+              <option value="proposal">Proposal</option>
+              <option value="negotiation">Negotiation</option>
+              <option value="closed_won">Won ✓</option>
+              <option value="closed_lost">Lost ✗</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Contact</label><input name="contactName" id="contact-search" placeholder="Search contact…" autocomplete="off"></div>
+          <div class="form-group"><label>Close Date</label><input type="date" name="closeDate"></div>
+        </div>
+        <input type="hidden" name="contactId" id="contact-id-field">
+        <div class="form-group"><label>Notes</label><textarea name="notes" rows="3" placeholder="Any notes…"></textarea></div>
+      </div>
+      <div class="modal__footer">
+        <button type="button" class="btn btn--outline" id="modal-cancel">Cancel</button>
+        <button type="submit" class="btn btn--primary" id="modal-submit">Save Deal</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="js/api.js"></script>
+<script>
+  if (!requireAuth()) throw new Error();
+  initSidebar('deals');
+
+  const STAGES = ['lead','qualified','proposal','negotiation','closed_won','closed_lost'];
+  const LABELS = { lead:'Lead', qualified:'Qualified', proposal:'Proposal',
+    negotiation:'Negotiation', closed_won:'Won ✓', closed_lost:'Lost ✗' };
+
+  let editId = null;
+  let allDeals = [];
+
+  function renderPipeline(deals) {
+    const byStage = Object.fromEntries(STAGES.map(s => [s, []]));
+    deals.forEach(d => (byStage[d.stage] || byStage['lead']).push(d));
+
+    document.getElementById('pipeline').innerHTML = STAGES.map(stage => `
+      <div class="pipeline-col">
+        <div class="pipeline-col__header">
+          ${LABELS[stage]}
+          <span class="pipeline-col__count">${byStage[stage].length}</span>
+        </div>
+        ${byStage[stage].map(d => `
+          <div class="deal-card" onclick="openEdit('${d.id}')">
+            <div class="deal-card__title">${d.title}</div>
+            ${d.contact_name ? `<div class="deal-card__contact">👤 ${d.contact_name}</div>` : ''}
+            <div class="deal-card__value">${formatCurrency(d.value)}</div>
+            ${d.close_date ? `<div style="font-size:.75rem;color:var(--muted);margin-top:.3rem;">📅 ${new Date(d.close_date).toLocaleDateString()}</div>` : ''}
+          </div>`).join('')}
+        <button class="btn btn--outline btn--sm" style="width:100%;margin-top:.5rem;justify-content:center;"
+          onclick="openAdd('${stage}')">+ Add</button>
+      </div>`).join('');
+  }
+
+  async function load() {
+    allDeals = await api.deals.list();
+    renderPipeline(allDeals);
+  }
+
+  // Modal
+  function openModal(title) {
+    document.getElementById('modal-title').textContent = title;
+    document.getElementById('modal').style.display = 'flex';
+  }
+  function closeModal() {
+    document.getElementById('modal').style.display = 'none';
+    document.getElementById('deal-form').reset();
+    document.getElementById('contact-id-field').value = '';
+    editId = null;
+  }
+  document.getElementById('modal-close').onclick  = closeModal;
+  document.getElementById('modal-cancel').onclick = closeModal;
+
+  document.getElementById('btn-add').onclick = () => openAdd('lead');
+
+  window.openAdd = (stage = 'lead') => {
+    editId = null;
+    document.getElementById('deal-form').stage.value = stage;
+    openModal('Add Deal');
+  };
+
+  window.openEdit = async (id) => {
+    const d = allDeals.find(x => x.id === id);
+    if (!d) return;
+    editId = id;
+    const f = document.getElementById('deal-form');
+    f.title.value       = d.title       || '';
+    f.value.value       = d.value       || '';
+    f.stage.value       = d.stage       || 'lead';
+    f.closeDate.value   = d.close_date  ? d.close_date.slice(0,10) : '';
+    f.notes.value       = d.notes       || '';
+    f.contactName.value = d.contact_name|| '';
+    document.getElementById('contact-id-field').value = d.contact_id || '';
+    openModal('Edit Deal');
+  };
+
+  // Contact autocomplete
+  let contactDebounce;
+  document.getElementById('contact-search').addEventListener('input', e => {
+    clearTimeout(contactDebounce);
+    if (!e.target.value) { document.getElementById('contact-id-field').value = ''; return; }
+    contactDebounce = setTimeout(async () => {
+      const results = await api.contacts.list(e.target.value);
+      // Simple inline suggestion — replace with a proper dropdown if needed
+      if (results[0]) {
+        document.getElementById('contact-id-field').value = results[0].id;
+      }
+    }, 400);
+  });
+
+  document.getElementById('deal-form').addEventListener('submit', async e => {
+    e.preventDefault();
+    const btn = document.getElementById('modal-submit');
+    btn.disabled = true; btn.textContent = 'Saving…';
+    try {
+      const raw  = Object.fromEntries(new FormData(e.target));
+      const data = { title: raw.title, value: raw.value || 0, stage: raw.stage,
+        closeDate: raw.closeDate || null, notes: raw.notes || null,
+        contactId: raw.contactId || null };
+      if (editId) { await api.deals.update(editId, data); toast('Deal updated'); }
+      else        { await api.deals.create(data);         toast('Deal added');   }
+      closeModal(); load();
+    } catch(ex) { toast(ex.message, 'error'); }
+    finally { btn.disabled = false; btn.textContent = 'Save Deal'; }
+  });
+
+  load();
+</script>
+</body>
+</html>

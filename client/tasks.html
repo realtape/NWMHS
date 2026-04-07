@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NWMHS CRM — Tasks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="sidebar__logo">
+    <span style="font-family:var(--font-head);font-size:1.1rem;color:var(--white);font-weight:700;">NWMHS <span style="color:var(--gold)">CRM</span></span>
+  </div>
+  <nav class="sidebar__nav">
+    <div class="sidebar__section">Main</div>
+    <a href="dashboard.html" class="nav-item" data-page="dashboard"><span class="nav-item__icon">📊</span> Dashboard</a>
+    <a href="contacts.html"  class="nav-item" data-page="contacts"><span class="nav-item__icon">👥</span> Contacts</a>
+    <a href="deals.html"     class="nav-item" data-page="deals"><span class="nav-item__icon">💼</span> Deals</a>
+    <a href="tasks.html"     class="nav-item" data-page="tasks"><span class="nav-item__icon">✅</span> Tasks</a>
+  </nav>
+  <div class="sidebar__bottom">
+    <div class="sidebar__user">
+      <div class="sidebar__avatar">U</div>
+      <div class="sidebar__user-info">
+        <div class="sidebar__user-name">User</div>
+        <div class="sidebar__user-role">owner</div>
+      </div>
+      <button class="btn-logout" title="Sign out">⏻</button>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div class="topbar">
+    <span class="topbar__title">Tasks</span>
+    <div class="topbar__actions">
+      <label style="display:flex;align-items:center;gap:.5rem;font-size:.875rem;color:var(--muted);">
+        <input type="checkbox" id="show-done"> Show completed
+      </label>
+      <button class="btn btn--gold btn--sm" id="btn-add">+ Add Task</button>
+    </div>
+  </div>
+
+  <div class="page-body">
+    <div class="grid-2">
+      <div class="card">
+        <div class="card__header"><span class="card__title">Open Tasks</span></div>
+        <div class="card__body" id="open-tasks">
+          <div class="empty"><div class="empty__icon">✅</div><div class="empty__text">Loading…</div></div>
+        </div>
+      </div>
+      <div class="card" id="done-card" style="display:none">
+        <div class="card__header"><span class="card__title">Completed</span></div>
+        <div class="card__body" id="done-tasks"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal-overlay" id="modal" style="display:none">
+  <div class="modal">
+    <div class="modal__header">
+      <span class="modal__title" id="modal-title">Add Task</span>
+      <button class="modal__close" id="modal-close">✕</button>
+    </div>
+    <form id="task-form">
+      <div class="modal__body">
+        <div class="form-group"><label>Title *</label><input name="title" required placeholder="Follow up with client"></div>
+        <div class="form-group"><label>Description</label><textarea name="description" rows="2" placeholder="Details…"></textarea></div>
+        <div class="form-row">
+          <div class="form-group"><label>Due Date</label><input type="datetime-local" name="dueDate"></div>
+          <div class="form-group">
+            <label>Status</label>
+            <select name="completed">
+              <option value="false">Open</option>
+              <option value="true">Completed</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <button type="button" class="btn btn--outline" id="modal-cancel">Cancel</button>
+        <button type="submit" class="btn btn--primary" id="modal-submit">Save Task</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="js/api.js"></script>
+<script>
+  if (!requireAuth()) throw new Error();
+  initSidebar('tasks');
+
+  let editId = null;
+
+  function isOverdue(due) {
+    return due && new Date(due) < new Date();
+  }
+
+  function renderTask(t) {
+    const due     = t.due_date ? new Date(t.due_date) : null;
+    const overdue = !t.completed && isOverdue(due);
+    return `<div class="task-item">
+      <div class="task-check ${t.completed ? 'done' : ''}" onclick="toggleTask('${t.id}', ${!t.completed})">
+        ${t.completed ? '✓' : ''}
+      </div>
+      <div class="task-item__body">
+        <div class="task-item__title ${t.completed ? 'done' : ''}">${t.title}</div>
+        ${t.description ? `<div class="task-item__meta">${t.description}</div>` : ''}
+        ${due ? `<div class="task-item__due ${overdue ? 'overdue' : ''}">
+          ${overdue ? '⚠️ Overdue · ' : '📅 '}${due.toLocaleString([], {dateStyle:'medium',timeStyle:'short'})}
+        </div>` : ''}
+      </div>
+      <div style="display:flex;gap:.25rem;flex-shrink:0;">
+        <button class="btn btn--icon" onclick="openEdit('${t.id}')">✏️</button>
+        <button class="btn btn--icon" onclick="removeTask('${t.id}')">🗑️</button>
+      </div>
+    </div>`;
+  }
+
+  async function load() {
+    const showDone = document.getElementById('show-done').checked;
+    const [open, done] = await Promise.all([
+      api.tasks.list({ completed: false }),
+      showDone ? api.tasks.list({ completed: true }) : Promise.resolve([])
+    ]);
+
+    const openEl = document.getElementById('open-tasks');
+    openEl.innerHTML = open.length
+      ? open.map(renderTask).join('')
+      : '<div class="empty"><div class="empty__icon">🎉</div><div class="empty__text">All caught up!</div></div>';
+
+    const doneCard = document.getElementById('done-card');
+    doneCard.style.display = showDone ? '' : 'none';
+    if (showDone) {
+      document.getElementById('done-tasks').innerHTML = done.length
+        ? done.map(renderTask).join('')
+        : '<div class="empty"><div class="empty__text">No completed tasks.</div></div>';
+    }
+  }
+
+  document.getElementById('show-done').addEventListener('change', load);
+
+  window.toggleTask = async (id, completed) => {
+    await api.tasks.update(id, { completed });
+    toast(completed ? 'Task completed! ✓' : 'Marked as open');
+    load();
+  };
+
+  window.removeTask = async (id) => {
+    if (!confirm('Delete this task?')) return;
+    await api.tasks.remove(id);
+    toast('Task deleted');
+    load();
+  };
+
+  // Modal
+  function openModal(title) {
+    document.getElementById('modal-title').textContent = title;
+    document.getElementById('modal').style.display = 'flex';
+  }
+  function closeModal() {
+    document.getElementById('modal').style.display = 'none';
+    document.getElementById('task-form').reset();
+    editId = null;
+  }
+  document.getElementById('modal-close').onclick  = closeModal;
+  document.getElementById('modal-cancel').onclick = closeModal;
+  document.getElementById('btn-add').onclick      = () => { editId = null; openModal('Add Task'); };
+
+  window.openEdit = async (id) => {
+    const tasks = await api.tasks.list({});
+    const t     = tasks.find(x => x.id === id);
+    if (!t) return;
+    editId = id;
+    const f = document.getElementById('task-form');
+    f.title.value       = t.title       || '';
+    f.description.value = t.description || '';
+    f.dueDate.value     = t.due_date ? new Date(t.due_date).toISOString().slice(0,16) : '';
+    f.completed.value   = String(t.completed);
+    openModal('Edit Task');
+  };
+
+  document.getElementById('task-form').addEventListener('submit', async e => {
+    e.preventDefault();
+    const btn = document.getElementById('modal-submit');
+    btn.disabled = true; btn.textContent = 'Saving…';
+    try {
+      const raw  = Object.fromEntries(new FormData(e.target));
+      const data = { title: raw.title, description: raw.description || null,
+        dueDate: raw.dueDate || null, completed: raw.completed === 'true' };
+      if (editId) { await api.tasks.update(editId, data); toast('Task updated'); }
+      else        { await api.tasks.create(data);         toast('Task added');   }
+      closeModal(); load();
+    } catch(ex) { toast(ex.message, 'error'); }
+    finally { btn.disabled = false; btn.textContent = 'Save Task'; }
+  });
+
+  load();
+</script>
+</body>
+</html>

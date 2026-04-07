@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NWMHS CRM — Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <div class="sidebar__logo">
+    <span style="font-family:var(--font-head);font-size:1.1rem;color:var(--white);font-weight:700;">NWMHS <span style="color:var(--gold)">CRM</span></span>
+  </div>
+  <nav class="sidebar__nav">
+    <div class="sidebar__section">Main</div>
+    <a href="dashboard.html" class="nav-item" data-page="dashboard"><span class="nav-item__icon">📊</span> Dashboard</a>
+    <a href="contacts.html"  class="nav-item" data-page="contacts"><span class="nav-item__icon">👥</span> Contacts</a>
+    <a href="deals.html"     class="nav-item" data-page="deals"><span class="nav-item__icon">💼</span> Deals</a>
+    <a href="tasks.html"     class="nav-item" data-page="tasks"><span class="nav-item__icon">✅</span> Tasks</a>
+  </nav>
+  <div class="sidebar__bottom">
+    <div class="sidebar__user">
+      <div class="sidebar__avatar">U</div>
+      <div class="sidebar__user-info">
+        <div class="sidebar__user-name">User</div>
+        <div class="sidebar__user-role">owner</div>
+      </div>
+      <button class="btn-logout" title="Sign out">⏻</button>
+    </div>
+  </div>
+</div>
+
+<!-- Main -->
+<div class="main">
+  <div class="topbar">
+    <span class="topbar__title">Dashboard</span>
+    <div class="topbar__actions">
+      <a href="contacts.html" class="btn btn--gold btn--sm">+ New Contact</a>
+    </div>
+  </div>
+
+  <div class="page-body">
+
+    <!-- Metrics -->
+    <div class="metrics" id="metrics">
+      <div class="metric-card">
+        <div class="metric-card__icon metric-card__icon--blue">👥</div>
+        <div><div class="metric-card__value" id="m-contacts">—</div><div class="metric-card__label">Total Contacts</div></div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-card__icon metric-card__icon--gold">💰</div>
+        <div><div class="metric-card__value" id="m-pipeline">—</div><div class="metric-card__label">Pipeline Value</div></div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-card__icon metric-card__icon--green">💼</div>
+        <div><div class="metric-card__value" id="m-won">—</div><div class="metric-card__label">Deals Won</div></div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-card__icon metric-card__icon--purple">✅</div>
+        <div><div class="metric-card__value" id="m-tasks">—</div><div class="metric-card__label">Open Tasks</div></div>
+      </div>
+    </div>
+
+    <!-- Bottom grid -->
+    <div class="grid-2">
+
+      <!-- Pipeline by stage -->
+      <div class="card">
+        <div class="card__header">
+          <span class="card__title">Pipeline by Stage</span>
+          <a href="deals.html" class="btn btn--outline btn--sm">View All</a>
+        </div>
+        <div class="card__body" id="pipeline-summary">
+          <div class="empty"><div class="empty__icon">💼</div><div class="empty__text">Loading…</div></div>
+        </div>
+      </div>
+
+      <!-- Recent Activity -->
+      <div class="card">
+        <div class="card__header">
+          <span class="card__title">Recent Activity</span>
+        </div>
+        <div class="card__body" id="activity-feed">
+          <div class="empty"><div class="empty__icon">🕐</div><div class="empty__text">Loading…</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="js/api.js"></script>
+<script>
+  if (!requireAuth()) throw new Error('not auth');
+  initSidebar('dashboard');
+
+  const STAGES = ['lead','qualified','proposal','negotiation','closed_won','closed_lost'];
+  const STAGE_LABELS = { lead:'Lead', qualified:'Qualified', proposal:'Proposal',
+    negotiation:'Negotiation', closed_won:'Won', closed_lost:'Lost' };
+
+  async function load() {
+    const data = await api.dashboard.get();
+
+    document.getElementById('m-contacts').textContent = data.contacts.toLocaleString();
+    document.getElementById('m-pipeline').textContent = formatCurrency(data.pipelineValue);
+    document.getElementById('m-tasks').textContent    = data.tasks.open;
+
+    const won = data.deals.find(d => d.stage === 'closed_won');
+    document.getElementById('m-won').textContent = won ? formatCurrency(won.value) : '$0';
+
+    // Pipeline summary
+    const ps = document.getElementById('pipeline-summary');
+    if (!data.deals.length) {
+      ps.innerHTML = '<div class="empty"><div class="empty__icon">💼</div><div class="empty__text">No deals yet. <a href="deals.html">Add one →</a></div></div>';
+    } else {
+      const stageMap = Object.fromEntries(data.deals.map(d => [d.stage, d]));
+      ps.innerHTML = STAGES.map(s => {
+        const d = stageMap[s] || { count: 0, value: 0 };
+        return `<div style="display:flex;justify-content:space-between;align-items:center;padding:.5rem 0;border-bottom:1px solid var(--border);">
+          <span style="display:flex;align-items:center;gap:.5rem;">
+            <span class="badge badge--${s}">${STAGE_LABELS[s]}</span>
+            <span style="color:var(--muted);font-size:.85rem;">${d.count || 0} deal${d.count != 1 ? 's' : ''}</span>
+          </span>
+          <span style="font-family:var(--font-head);font-size:.9rem;">${formatCurrency(d.value)}</span>
+        </div>`;
+      }).join('');
+    }
+
+    // Activity feed
+    const af = document.getElementById('activity-feed');
+    if (!data.recentActivity.length) {
+      af.innerHTML = '<div class="empty"><div class="empty__icon">🕐</div><div class="empty__text">No activity yet.</div></div>';
+    } else {
+      af.innerHTML = data.recentActivity.map(a =>
+        `<div class="activity-item">
+          <div class="activity-dot"></div>
+          <div class="activity-item__body">
+            <div class="activity-item__text">${a.user_name || 'System'} — ${a.type}${a.body ? ': ' + a.body : ''}</div>
+            <div class="activity-item__time">${timeAgo(a.created_at)}</div>
+          </div>
+        </div>`
+      ).join('');
+    }
+  }
+
+  load().catch(err => console.error(err));
+</script>
+</body>
+</html>
