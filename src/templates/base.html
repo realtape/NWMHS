@@ -3,16 +3,16 @@
   All page templates should extend this via {% extends %}
 -->
 <!DOCTYPE html>
-<html lang="{{ html_lang }}" class="no-js">
+<html lang="{{ content.language }}" class="no-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page_meta.html_title }}</title>
-  <meta name="description" content="{{ page_meta.meta_description }}">
+  <title>{{ content.html_title }}</title>
+  <meta name="description" content="{{ content.meta_description }}">
 
   <!-- Canonical -->
-  {% if page_meta.canonical_url %}
-    <link rel="canonical" href="{{ page_meta.canonical_url }}">
+  {% if content.canonical_url %}
+    <link rel="canonical" href="{{ content.canonical_url }}">
   {% endif %}
 
   <!-- Fonts -->
@@ -25,10 +25,10 @@
 
   {% block head %}{% endblock %}
 </head>
-<body class="{{ body_classes }}">
+<body class="{{ content.css_class }}">
 
   <!-- Navigation -->
-  {% include "./partials/nav.html" %}
+  {% include "src/templates/partials/nav.html" %}
 
   <!-- Page content -->
   <main id="main-content">
@@ -36,7 +36,7 @@
   </main>
 
   <!-- Footer -->
-  {% include "./partials/footer.html" %}
+  {% include "src/templates/partials/footer.html" %}
 
   <!-- Scripts -->
   {{ require_js(get_asset_url("../js/main.js"), {"defer": true}) }}
