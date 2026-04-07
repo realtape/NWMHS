@@ -1,0 +1,26 @@
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav__inner">
+
+      <!-- Logo -->
+      <a class="nav__logo" href="/">
+        <img src="{{ get_asset_url('../../images/logo.png') }}" alt="NWMHS" width="160">
+      </a>
+
+      <!-- Mobile toggle -->
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- Links -->
+      <ul class="nav__links" id="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li class="nav__cta"><a href="/contact" class="btn btn--primary">Contact Us</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,46 @@
+<!--
+  Base layout template — NWMHS
+  All page templates should extend this via {% extends %}
+-->
+<!DOCTYPE html>
+<html lang="{{ html_lang }}" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page_meta.html_title }}</title>
+  <meta name="description" content="{{ page_meta.meta_description }}">
+
+  <!-- Canonical -->
+  {% if page_meta.canonical_url %}
+    <link rel="canonical" href="{{ page_meta.canonical_url }}">
+  {% endif %}
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  {{ require_css(get_asset_url("../css/main.css")) }}
+
+  {% block head %}{% endblock %}
+</head>
+<body class="{{ body_classes }}">
+
+  <!-- Navigation -->
+  {% include "./partials/nav.html" %}
+
+  <!-- Page content -->
+  <main id="main-content">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  {% include "./partials/footer.html" %}
+
+  <!-- Scripts -->
+  {{ require_js(get_asset_url("../js/main.js"), {"defer": true}) }}
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>
