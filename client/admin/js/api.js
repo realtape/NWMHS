@@ -71,12 +71,12 @@ function getUser() {
 function logout() {
   localStorage.removeItem('crm_token');
   localStorage.removeItem('crm_user');
-  window.location.href = '/client/login.html';
+  window.location.href = 'login.html';
 }
 
 function requireAuth() {
   if (!localStorage.getItem('crm_token')) {
-    window.location.href = '/client/login.html';
+    window.location.href = 'login.html';
     return false;
   }
   return true;
