@@ -1,6 +1,6 @@
 /* ── API client — all fetch calls go through here ────────── */
 // Update PROD_API_URL when you move to your final backend host
-const PROD_API_URL = '';  // e.g. 'https://api.nwmhs.com/api'
+const PROD_API_URL = 'https://postgres-production-8e84.up.railway.app/api';
 const API_BASE = window.location.hostname === 'localhost'
   ? 'http://localhost:3000/api'
   : (PROD_API_URL || '/api');
