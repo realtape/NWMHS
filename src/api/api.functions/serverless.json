@@ -1,0 +1,16 @@
+{
+  "runtime": "NODE18_X",
+  "version": "1.0",
+  "environment": {},
+  "secrets": [],
+  "endpoints": {
+    "hello": {
+      "method": "GET",
+      "file": "hello.js"
+    },
+    "contact": {
+      "method": "POST",
+      "file": "contact.js"
+    }
+  }
+}
