@@ -37,6 +37,15 @@ app.use('/api/dashboard', auth, dashboardRoutes);
 
 app.get('/health', (_, res) => res.json({ status: 'ok', ts: new Date() }));
 
+// Temp setup check — remove after onboarding
+app.get('/api/setup-status', async (req, res) => {
+  if (req.query.key !== 'NWMHS2026setup') return res.status(403).json({ error: 'forbidden' });
+  const db = require('./config/db');
+  const orgs  = await db.query('SELECT id, name, slug FROM organizations LIMIT 10');
+  const users = await db.query('SELECT id, email, role, org_id FROM users LIMIT 10');
+  res.json({ orgs: orgs.rows, users: users.rows });
+});
+
 // ── Error handler ──────────────────────────────────────────
 app.use((err, req, res, _next) => {
   console.error(err);
