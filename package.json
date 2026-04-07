@@ -1,0 +1,16 @@
+{
+  "name": "nwmhs-hubspot",
+  "version": "1.0.0",
+  "description": "NWMHS HubSpot CMS — Design Manager mirror",
+  "private": true,
+  "scripts": {
+    "watch": "hs watch src/ src/ --portal=51307244",
+    "upload": "hs upload src/ src/ --portal=51307244",
+    "fetch": "hs fetch --portal=51307244 --overwrite",
+    "fetch:hubspot": "hs fetch @hubspot/ @hubspot/ --portal=51307244 --overwrite",
+    "lint": "hs lint src/ --portal=51307244"
+  },
+  "devDependencies": {
+    "@hubspot/cli": "^8.3.0"
+  }
+}
