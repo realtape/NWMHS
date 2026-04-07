@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NWMHS CRM — Contacts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="sidebar__logo">
+    <span style="font-family:var(--font-head);font-size:1.1rem;color:var(--white);font-weight:700;">NWMHS <span style="color:var(--gold)">CRM</span></span>
+  </div>
+  <nav class="sidebar__nav">
+    <div class="sidebar__section">Main</div>
+    <a href="dashboard.html" class="nav-item" data-page="dashboard"><span class="nav-item__icon">📊</span> Dashboard</a>
+    <a href="contacts.html"  class="nav-item" data-page="contacts"><span class="nav-item__icon">👥</span> Contacts</a>
+    <a href="deals.html"     class="nav-item" data-page="deals"><span class="nav-item__icon">💼</span> Deals</a>
+    <a href="tasks.html"     class="nav-item" data-page="tasks"><span class="nav-item__icon">✅</span> Tasks</a>
+  </nav>
+  <div class="sidebar__bottom">
+    <div class="sidebar__user">
+      <div class="sidebar__avatar">U</div>
+      <div class="sidebar__user-info">
+        <div class="sidebar__user-name">User</div>
+        <div class="sidebar__user-role">owner</div>
+      </div>
+      <button class="btn-logout" title="Sign out">⏻</button>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div class="topbar">
+    <span class="topbar__title">Contacts</span>
+    <div class="topbar__actions">
+      <div class="search-bar">
+        <span class="search-bar__icon">🔍</span>
+        <input type="search" id="search" placeholder="Search contacts…">
+      </div>
+      <button class="btn btn--gold btn--sm" id="btn-add">+ Add Contact</button>
+    </div>
+  </div>
+
+  <div class="page-body">
+    <div class="card">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Company</th>
+              <th>Added</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="contacts-tbody">
+            <tr><td colspan="6" style="text-align:center;color:var(--muted);padding:2rem;">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add / Edit Modal -->
+<div class="modal-overlay" id="modal" style="display:none">
+  <div class="modal">
+    <div class="modal__header">
+      <span class="modal__title" id="modal-title">Add Contact</span>
+      <button class="modal__close" id="modal-close">✕</button>
+    </div>
+    <form id="contact-form">
+      <div class="modal__body">
+        <div class="form-row">
+          <div class="form-group"><label>First Name</label><input name="firstName" placeholder="Jane"></div>
+          <div class="form-group"><label>Last Name</label><input name="lastName" placeholder="Doe"></div>
+        </div>
+        <div class="form-group"><label>Email</label><input type="email" name="email" placeholder="jane@company.com"></div>
+        <div class="form-row">
+          <div class="form-group"><label>Phone</label><input name="phone" placeholder="+1 555 000 0000"></div>
+          <div class="form-group"><label>Company</label><input name="company" placeholder="Acme Corp"></div>
+        </div>
+        <div class="form-group"><label>Notes</label><textarea name="notes" rows="3" placeholder="Any notes…"></textarea></div>
+      </div>
+      <div class="modal__footer">
+        <button type="button" class="btn btn--outline" id="modal-cancel">Cancel</button>
+        <button type="submit" class="btn btn--primary" id="modal-submit">Save Contact</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="js/api.js"></script>
+<script>
+  if (!requireAuth()) throw new Error();
+  initSidebar('contacts');
+
+  let editId = null;
+
+  function initials(c) {
+    return ((c.first_name||'')[0]||(c.email||'?')[0]).toUpperCase();
+  }
+
+  function renderRow(c) {
+    const name = [c.first_name, c.last_name].filter(Boolean).join(' ') || '—';
+    return `<tr>
+      <td><div class="avatar-cell"><div class="avatar">${initials(c)}</div>${name}</div></td>
+      <td>${c.email || '—'}</td>
+      <td>${c.phone || '—'}</td>
+      <td>${c.company || '—'}</td>
+      <td>${new Date(c.created_at).toLocaleDateString()}</td>
+      <td style="text-align:right">
+        <button class="btn btn--icon" onclick="openEdit('${c.id}')">✏️</button>
+        <button class="btn btn--icon" onclick="removeContact('${c.id}')">🗑️</button>
+      </td>
+    </tr>`;
+  }
+
+  async function load(q = '') {
+    const tbody = document.getElementById('contacts-tbody');
+    const rows  = await api.contacts.list(q);
+    if (!rows.length) {
+      tbody.innerHTML = `<tr><td colspan="6"><div class="empty"><div class="empty__icon">👥</div><div class="empty__text">No contacts yet. Add your first one!</div></div></td></tr>`;
+      return;
+    }
+    tbody.innerHTML = rows.map(renderRow).join('');
+  }
+
+  // Search
+  let debounce;
+  document.getElementById('search').addEventListener('input', e => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => load(e.target.value), 300);
+  });
+
+  // Modal helpers
+  function openModal(title) {
+    document.getElementById('modal-title').textContent = title;
+    document.getElementById('modal').style.display = 'flex';
+  }
+  function closeModal() {
+    document.getElementById('modal').style.display = 'none';
+    document.getElementById('contact-form').reset();
+    editId = null;
+  }
+  document.getElementById('modal-close').onclick  = closeModal;
+  document.getElementById('modal-cancel').onclick = closeModal;
+
+  // Add
+  document.getElementById('btn-add').onclick = () => { editId = null; openModal('Add Contact'); };
+
+  // Edit
+  window.openEdit = async (id) => {
+    const c = await api.contacts.get(id);
+    editId   = id;
+    const f  = document.getElementById('contact-form');
+    f.firstName.value = c.first_name || '';
+    f.lastName.value  = c.last_name  || '';
+    f.email.value     = c.email      || '';
+    f.phone.value     = c.phone      || '';
+    f.company.value   = c.company    || '';
+    f.notes.value     = c.notes      || '';
+    openModal('Edit Contact');
+  };
+
+  // Delete
+  window.removeContact = async (id) => {
+    if (!confirm('Delete this contact?')) return;
+    await api.contacts.remove(id);
+    toast('Contact deleted');
+    load();
+  };
+
+  // Save
+  document.getElementById('contact-form').addEventListener('submit', async e => {
+    e.preventDefault();
+    const btn  = document.getElementById('modal-submit');
+    btn.disabled = true; btn.textContent = 'Saving…';
+    try {
+      const data = Object.fromEntries(new FormData(e.target));
+      if (editId) { await api.contacts.update(editId, data); toast('Contact updated'); }
+      else        { await api.contacts.create(data);         toast('Contact added');   }
+      closeModal();
+      load();
+    } catch(ex) { toast(ex.message, 'error'); }
+    finally { btn.disabled = false; btn.textContent = 'Save Contact'; }
+  });
+
+  load();
+</script>
+</body>
+</html>
