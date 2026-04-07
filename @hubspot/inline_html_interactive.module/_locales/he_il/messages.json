@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "כתובת דוא\"ל",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "מספר טלפון",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "הורדת קובץ",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "קישור לפגישות",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "אחד מהעמודים שלך",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "כתובת URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "צור קישור אל",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "קישור לפגישות",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "פתח קישור בכרטיסייה חדשה",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "עמוד",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Inline HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "תוכן לחצן",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML שיוצג בתוך הכפתור. אתה יכול להשתמש בתגים תקפים בתג <a> בלבד.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "לחץ כאן",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "פתח קישור בכרטיסייה חדשה",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "מתקדם",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "כללי CSS מותאמים אישית",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "בורר",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "ערך זה משולב עם הבורר של ה-CTA. לדוגמה ':hover' הופך ל-${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "סגנון",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "הוסיפו CSS מותאם אישית עבור כלל הסגנון שלכם. לדוגמה: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "דרגות CSS מותאם אישית",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "הוסף דרגות של CSS מותאם אישית לקישור ה-CTA שלך.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "גיליון סגנונות של CSS מותאם אישית",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "הוסף גיליון סגנונות CSS מותאם אישית לקריאה לפעולה (CTA). לדוגמה: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "השתמש בסימון ראשוני",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "החל סימון ראשוני על ה-HTML כדי לתמוך ב-CSS קיים",
+    "description": "",
+    "placeholders": null
+  }
+}

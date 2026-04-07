@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Logo max height",
+    "name": "default_logo_max_height",
+    "help_text": "This does not apply when overriding the default logo",
+    "type": "number",
+    "visibility": {
+      "controlling_field": "override_default_logo",
+      "controlling_value_regex": "false",
+      "operator": "EQUAL"
+    },
+    "default": 100,
+    "min": 10,
+    "max": 500,
+    "suffix": "px"
+  },
+  {
+    "label": "Override default logo in this template",
+    "name": "override_default_logo",
+    "type": "boolean",
+    "default": false,
+    "display": "toggle"
+  },
+  {
+    "label": "Company logo image",
+    "name": "company_logo_image",
+    "type": "image",
+    "required": false,
+    "locked": false,
+    "visibility": {
+      "controlling_field": "override_default_logo",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "default": {}
+  }
+]

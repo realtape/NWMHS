@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Pulsante (interattivo)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL link",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Indirizzo e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "File",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Chiudi call-to-action",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Indirizzo e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Numero di telefono",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Scarica file",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Link per riunioni",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Una delle tue pagine",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Una delle tue pagine di blog",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Link a ",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Link per riunioni",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Apri il link in una nuova scheda",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Pagina",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Colore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Ha ricevuto clic",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Sfondo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Bordo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Bordo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Angolo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Aggiungi un angolo arrotondato al tuo pulsante",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Raggio",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Colore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Sfondo al passaggio del puntatore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Bordo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Bordo al passaggio del puntatore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Posiziona il cursore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Carattere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Testo al passaggio del puntatore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stili",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Carattere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Testo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Spaziatura testo",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Aggiungi il link di un pulsante qui",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Testo pulsante",
+    "description": "",
+    "placeholders": null
+  }
+}

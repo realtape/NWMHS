@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Sähköpostin pääasiallinen leipäteksti",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hi&nbsp;{{contact.firstname}},</p>\n<p>Kuvaile, mitä voit tarjota asiakkaalle. Miksi heidän pitäisi lukea tämä? Mitä lupasit heille otsikkorivillä? Kerro heille jotakin siistiä. Naurata heitä. Itketä heitä, tai älä ehkä kuitenkaan...</p>\n<p>Käytä luetteloa seuraaviin:</p>\n<ul>\n<li>Kerro arvosta, jota tarjoat asiakkaille</li>\n<li>Muistuta lukijaa siitä, mitä hän saa toimimalla</li>\n<li>Esittele taitosi luetelmamerkinnän avulla</li>\n<li>Tee sisällöstä helposti skannattavaa</li>\n</ul>\n<p><a href=\"http://hubspot.com\">LINKITÄ SIVUSTOSI SAAPUMISSIVUSTOON</a> (Tämä on todella tärkeä osuus.)</p>\n<p>Kerro lopuksi pienellä muistutuksella, miten paljon arvostat heitä.</p>\n<p>Senkin viekas kettu.</p>\n<p>Terveisin,</p>\n<p>Nimesi</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Sähköpostin leipäteksti",
+    "description": "",
+    "placeholders": null
+  }
+}

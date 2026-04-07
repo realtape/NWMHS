@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Sortétel-táblázat alfejléce",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Most esedékes ismétlődő és egyszeri kifizetések.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Alfejléc szövege",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Ez az alfejléc csak akkor jelenik meg, ha jövőbeli kifizetések vannak.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,65 @@
+{% unless (module.link is string_startingwith "http") or (module.link is string_startingwith "/") or (module.link is string_startingwith "mailto") or (module.link is string_startingwith "#") or !module.link %}
+  {% set link = "//" ~ module.link %}
+{% else %}
+  {% set link = module.link || "" %}
+{% endunless %}
+
+{% set loadingAttr = module.img.loading != "disabled" ? "{{ module.img.loading }}" : "" %}
+
+{% set brand_logo_src = brand_settings.logo.src %}
+{% set override_logo = module.img.override_inherited_src %}
+{% set override_logo_src = module.img.src %}
+{% set hide_company_name = module.img.suppress_company_name %}
+{% set company_name = branding_company_name %}
+
+{% set has_override = override_logo && override_logo_src %}
+{% set missing_override = override_logo && !override_logo_src %}
+
+{% set missing_override_hide_company_name = missing_override && hide_company_name %}
+{% set missing_override_missing_company_name = missing_override && !hide_company_name && !company_name %}
+
+{% set show_nothing_or_placeholder = missing_override_hide_company_name || missing_override_missing_company_name || !brand_logo_src %}
+
+{% macro render_placeholder() %}
+  {% if is_in_editor %}
+    {# show placholder in editor #}
+    {% editor_placeholder %}
+  {% else %}
+    {# show nothing on live page #}
+  {% endif %}
+{% endmacro %}
+
+
+{% if has_override %}
+  {# Show override image #}
+  {% logo "hs_logo_widget"
+    override_inherited_src="{{ override_logo }}",
+    alt="{{ module.img.alt }}",
+    src="{{ override_logo_src }}",
+    link="{{ link }}",
+    width="{{ module.img.width }}",
+    height="{{ module.img.height }}",
+    open_in_new_tab="{{ module.open_in_new_tab }}"
+    loading="{{ loadingAttr }}"
+  %}
+{% elif !has_override && !hide_company_name && company_name %}
+  {# Show company name if it exists #}
+  {% logo "hs_logo_widget"
+    heading_level="{{ module.heading_level }}",
+    link="{{ link }}",
+    open_in_new_tab="{{ module.open_in_new_tab }}",
+    override_inherited_src="{{ override_logo }}",
+    src="",
+    suppress_company_name="{{ hide_company_name }}"
+    loading="{{ loadingAttr }}"
+  %}
+{% elif show_nothing_or_placeholder %}
+  {# Show placeholder or nothing#}
+  {{ render_placeholder() }}
+{% else %}
+  {% logo "hs_logo_widget"
+    link="{{ link }}",
+    open_in_new_tab="{{ module.open_in_new_tab }}"
+    loading="{{ loadingAttr }}"
+  %}
+{% endif %}

@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Tlačítko (interaktivní)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "Adresa URL odkazu",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "E-mailová adresa",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Soubor",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Zavřít výzvu k akci",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "E-mailová adresa",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonní číslo",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Stažení souboru",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Odkaz na schůzky",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Jedna z vašich stránek",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Jedna ze stránek vašeho blogu",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Odkaz na:",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Odkaz na schůzky",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Odkaz otevřít v nové záložce",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Stránka",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Kliknuto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Pozadí",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Ohraničení",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Ohraničení",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Roh",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Nastavit pro tlačítko zakulacené rohy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Rádius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Barva při najetí myší",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Ohraničení",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Ohraničení při najetí myší",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Najet myší",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Písmo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Text při najetí myší",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Styly",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Písmo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Odsazení textu",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Sem vložte odkaz na tlačítko",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Text tlačítka",
+    "description": "",
+    "placeholders": null
+  }
+}

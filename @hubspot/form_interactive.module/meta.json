@@ -1,0 +1,15 @@
+{
+  "label": "Form",
+  "host_template_types": [
+    "WEB_INTERACTIVE"
+  ],
+  "icon": "../img/icon/form-interactive.svg",
+  "extra_classes": "widget-type-form",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "placeholder": {
+    "show_module_icon": true,
+    "title": "No form selected",
+    "description": "Select a form from the dropdown menu in the left sidebar."
+  }
+}

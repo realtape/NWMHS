@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Peamine meili põhiosa",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Tere&nbsp;{{contact.firstname}}!</p>\n<p>Kirjeldage, mida teil on kliendile pakkuda. Miks ta peaks seda lugema? Mida te lubasite talle teemareal? Rääkige talle midagi lahedat. Ajage ta naerma. Ajage ta nutma. Või noh, ärge seda tehke...</p>\n<p>Kasutage loendit, et:</p>\n<ul>\n<li>selgitada oma pakkumise väärtust</li>\n<li>tuletada lugejale meelde, mida ta sellest saab</li>\n<li>uhkeldage oma oskustega täpploendi abil</li>\n<li>muutke oma sisu hõlpsalt sirvitavaks</li>\n</ul>\n<p><a href=\"http://hubspot.com\">LINK SIHTLEHELE OMA VEEBILEHEL</a> (See on kõige tähtsam osa.)</p>\n<p>tõmmake otsad kokku väikse jõulise meeldetuletusega, kui palju te teda armastate.</p>\n<p>Armas. Te mesikeelne saatan.</p>\n<p>Lugupidamisega</p>\n<p>Teie nimi</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Meili põhiosa",
+    "description": "",
+    "placeholders": null
+  }
+}

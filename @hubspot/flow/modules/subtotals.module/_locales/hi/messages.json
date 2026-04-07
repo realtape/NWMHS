@@ -1,0 +1,77 @@
+{
+  "name": {
+    "message": "सबटोटल्स",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "{{ discount_amount }} छूट के बाद",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annual.default": {
+    "message": "वार्षिक",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.frequency_subtotal.default": {
+    "message": "{{ frequency_text }} सबटोटल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "वीकली",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "प्रति दो सप्ताह",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "मासिक",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "एक-बारगी",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "हर छह महीने",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "हर तीन वर्ष",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "हर दो वर्ष",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "प्रति चार साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "प्रति पांच साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "तिमाही",
+    "description": "",
+    "placeholders": null
+  },
+  "subtotal_title.default": {
+    "message": "सबटोटल्स",
+    "description": "",
+    "placeholders": null
+  }
+}

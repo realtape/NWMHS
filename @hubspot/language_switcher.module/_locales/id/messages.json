@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Pengalih Bahasa",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hibrida",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Dilokalkan",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Bahasa teks di pengalih bahasa. PageLang berarti nama bahasa akan ditampilkan dalam bahasa halaman dengan pengalih aktif. Dilokalkan berarti nama setiap bahasa akan ditampilkan dalam bahasa tersebut. Hibrida adalah gabungan dari keduanya.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Mode tampilan",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  }
+}

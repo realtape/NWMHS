@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "費用",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "{{ fee_amount }}% 折扣",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "{{ fee_amount }}% 費用",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "{{ fee_amount }}% 稅項",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "其他費用",
+    "description": "",
+    "placeholders": null
+  }
+}

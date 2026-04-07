@@ -1,0 +1,48 @@
+<!--
+  templateType: membership_self_register_confirmation_page
+  isAvailableForNewContent: true
+-->
+{% set template_css = "../css/templates/membership.css" %}
+{% set font_config = {
+  "Source Serif Pro": ["600"],
+  "Montserrat": ["400", "500", "700"]
+} %}
+{% extends "../membership-base.html" %}
+
+{% block body %}
+  {% if request.query_dict.redirect_url %}
+    {% set redirect_query_param = "?redirect_url=" ~ request.query_dict.redirect_url %}
+  {% endif %}
+
+  <section class="section-wrapper section-wrapper--centered">
+    <img class="success-image" src="{{ get_asset_url("../../img/success.svg") }}" height="76" width="76" loading="eager" alt="">
+
+    {% module "registration_confirmation_heading"
+      path="@hubspot/rich_text",
+      html={{ "<h1>" ~ template_translations.membership_registration_confirmation_heading.message ~ "</h1>" }}
+    %}
+
+    {% module "registration_confirmation_description"
+      path="@hubspot/rich_text",
+      html={{ "<p>" ~ template_translations.membership_registration_confirmation_description.message ~ "</p>" }}
+    %}
+
+    {% module "registration_confirmation_sign_in_button"
+      path="@hubspot/button",
+      extra_classes="button-wrapper button-wrapper--membership-registration-confirmation",
+      button_text={{ template_translations.membership_registration_confirmation_button.message }},
+      link={
+        "url": {
+          "type": "EXTERNAL",
+          "href": "/_hcms/mem/login" ~ redirect_query_param
+        }
+      }
+    %}
+
+    {% module "admin_contact"
+      path="@hubspot/rich_text",
+      html={{ "<p>" ~ template_translations.membership_registration_confirmation_contact_admin.message ~ "</p>" }}
+    %}
+  </section>
+{% endblock body %}
+

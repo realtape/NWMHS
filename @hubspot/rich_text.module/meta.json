@@ -1,0 +1,23 @@
+{
+  "label": "Rich Text",
+  "host_template_types": [
+    "ANY"
+  ],
+  "icon": "../img/icon/edited-richText.svg",
+  "extra_classes": "widget-type-rich_text",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": [
+    "text"
+  ],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

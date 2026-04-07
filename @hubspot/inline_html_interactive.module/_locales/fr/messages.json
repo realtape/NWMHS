@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Adresse e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Numéro de téléphone",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Téléchargement de fichier",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Lien de prise de rendez-vous",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Une de vos pages",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Lien vers",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Lien de prise de rendez-vous",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Ouvrir le lien dans un nouvel onglet",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Page",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "HTML inline",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Contenu du bouton",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML qui sera affiché dans le bouton. Vous pouvez seulement utiliser des balises qui sont valides dans une balise <a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Cliquez ici",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Ouvrir le lien dans un nouvel onglet",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Avancé",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Règles CSS personnalisées",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Sélecteur",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Cette valeur est combinée au sélecteur du CTA. Par exemple, ':hover' devient ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Ajoutez une feuille de style CSS personnalisée pour votre règle de style. Par exemple : border-bottom : 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Catégories de CSS personnalisées",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Ajoutez des catégories de CSS personnalisées à votre lien de CTA.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Feuilles de style CSS personnalisées",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Ajoutez une feuille de style CSS personnalisée à votre CTA. Par exemple : border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Utiliser le balisage hérité",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Envelopper le code HTML dans des balisages héritées afin de prendre en charge les CSS existantes",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "label": "Displayed header",
+    "name": "displayed_header",
+    "type": "richtext",
+    "default": "<h1>Our offerings</h1>",
+    "enabled_features": ["colors", "fonts", "standard_emphasis", "personalize"]
+  }
+]

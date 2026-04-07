@@ -1,0 +1,19 @@
+{
+  "label": "Raw HTML",
+  "host_template_types": [
+    "WEB_INTERACTIVE"
+  ],
+  "extra_classes": "hs-web-interactive-html",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": [
+    "media"
+  ],
+  "content_tags": [
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "inline_help_text": "This module allows you to add custom HTML directly into your interactive content."
+}

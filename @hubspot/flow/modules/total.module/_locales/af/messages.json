@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Totaal",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Nou verskuldig",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Dit word gebruik om die kwotasietotaal te etiketteer wanneer die kwotasie toekomstige betalings het.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Teks vir \"nou verskuldig\"",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Totaal",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Teks van totaal",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Totale kontrakwaarde",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Pasmaak die teks om hierdie waarde akkuraat te beskryf. (Die standaard is 'n jaarlikse waarde as geen voorwaardes gestel is nie.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Teks van totale kontrakwaarde",
+    "description": "",
+    "placeholders": null
+  }
+}

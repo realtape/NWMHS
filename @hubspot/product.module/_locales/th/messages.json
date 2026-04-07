@@ -1,0 +1,362 @@
+{
+  "name": {
+    "message": "ผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "product.label": {
+    "message": "ผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.label": {
+    "message": "ชื่อ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.label": {
+    "message": "ขนาดหัวเรื่อง",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.help_text": {
+    "message": "ตั้งระดับส่วนหัว (h1, h2, h3, h4, h5, h6) สำหรับองค์ประกอบชื่อ ส่วนนี้จำเป็นสำหรับความสามารถในการเข้าถึงและ SEO <a href='https://www.w3.org/WAI/tutorials/page-structure/headings/'>เรียนรู้เพิ่มเติม</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h1": {
+    "message": "หัวเรื่อง 1",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h2": {
+    "message": "หัวเรื่อง 2",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h3": {
+    "message": "หัวเรื่อง 3",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h4": {
+    "message": "หัวเรื่อง 4",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h5": {
+    "message": "หัวเรื่อง 5",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h6": {
+    "message": "หัวเรื่อง 6",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.override_product_name.label": {
+    "message": "แทนที่ชื่อผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.label": {
+    "message": "ชื่อ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.default": {
+    "message": "ชื่อผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.label": {
+    "message": "คำอธิบาย",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.override_product_description.label": {
+    "message": "แทนที่รายละเอียดผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.label": {
+    "message": "คำอธิบาย",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.default": {
+    "message": "คำอธิบายโดยย่อของผลิตภัณฑ์ที่จำหน่าย ขนาดที่พอเหมาะคือหนึ่งหรือสองประโยค",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.label": {
+    "message": "รูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.override_product_image.label": {
+    "message": "แทนที่ภาพผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.image_override.label": {
+    "message": "รูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.label": {
+    "message": "ปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.label": {
+    "message": "ข้อความบนปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.default": {
+    "message": "ดูข้อมูลเพิ่มเติม",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.override_product_button.label": {
+    "message": "แทนที่ปุ่มผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_override.label": {
+    "message": "ปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_price_info_found.default": {
+    "message": "ไม่พบข้อมูลราคา",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "รูปแบบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.label": {
+    "message": "เลย์เอาท์",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.horizontal": {
+    "message": "แนวนอน",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.vertical": {
+    "message": "แนวตั้ง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "รูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.label": {
+    "message": "แสดงภาพเต็ม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.help_text": {
+    "message": "จะตรวจสอบเพื่อความใจว่าจะแสดงทั้งภาพอยู่เสมอ อาจทำให้รูปภาพไม่เต็มคอนเทนเนอร์รูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.label": {
+    "message": "สีพื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.help_text": {
+    "message": "เพิ่มสีพื้นหลังให้กับคอนเทนเนอร์รูปภาพ เหมาะกับกรณีที่ภาพของคุณโปร่งใส",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.label": {
+    "message": "อัตราส่วนกว้างยาว",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.label": {
+    "message": "อัตราความยาวของภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.help_text": {
+    "message": "ตั้งเปอร์เซ็นต์ของการ์ดที่จะจัดสรรให้กับภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.40%": {
+    "message": "40%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.45%": {
+    "message": "45%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.50%": {
+    "message": "50%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.55%": {
+    "message": "55%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.60%": {
+    "message": "60%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.label": {
+    "message": "พื้นที่เนื้อหา",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.label": {
+    "message": "สีพื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.help_text": {
+    "message": "ตั้งสีพื้นหลังสำหรับพื้นที่เนื้อหา",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.horizontal_padding.label": {
+    "message": "ช่องว่างภายในแนวนอน",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.vertical_padding.label": {
+    "message": "ช่องว่างภายในแนวตั้ง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.border.label": {
+    "message": "ขอบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "ชื่อ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_size.label": {
+    "message": "ขนาดแบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_color.label": {
+    "message": "สีแบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.label": {
+    "message": "ราคา",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_size.label": {
+    "message": "ขนาดแบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_color.label": {
+    "message": "สีแบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "คำอธิบาย",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_size.label": {
+    "message": "ขนาดแบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_color.label": {
+    "message": "สีแบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.label": {
+    "message": "ปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.override_defaults.label": {
+    "message": "แทนที่ค่าเริ่มต้น",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.text_color.label": {
+    "message": "สีข้อความ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.button_color.label": {
+    "message": "สีของปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.corner_radius.label": {
+    "message": "รัศมีมุม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.border.label": {
+    "message": "ขอบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.label": {
+    "message": "วางเมาส์เหนือ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.text_color.label": {
+    "message": "สีข้อความ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.button_color.label": {
+    "message": "สีของปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.border_color.label": {
+    "message": "สีขอบ",
+    "description": "",
+    "placeholders": null
+  }
+}

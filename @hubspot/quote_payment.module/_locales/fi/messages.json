@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Maksa nyt",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Maksupainikkeen teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Varmista, että on selvää, että tätä painiketta napsauttamalla asiakas voi maksaa.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Maksun luomisessa ilmeni ongelma. Ota yhtetyttä henkilöön, joka lähetti tämän tarjouksen.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Maksamisen virheviesti",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Kerro asiakkaallesi, mitä tehdä, kun kassalla on ongelmia.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Valitse otsikkotaso. Suurin on H1, jota seuraa H2 jne.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Otsikkotaso",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Maksu",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Otsikon sisältö",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Maksa ensimmäinen maksu:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Asiakas näkee tämän maksupainikkeessa, kunnes on maksanut ensimmäisen erän.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Maksuaikataulujen painiketeksti",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Maksu",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Maksua ei voida suorittaa, koska tarjousta ei ole allekirjoitettu kokonaan.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Selitysteksti, kun allekirjoituksia tarvitaan",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Jos allekirjoituksia vaaditaan ennen maksua, asiakkaasi näkee tämän viestin, kunnes kaikki vaaditut allekirjoitukset on suoritettu.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Maksettu",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Teksti maksun suorittamisesta",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Maksettu  [[ paid_time ]],  [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Maksujen käsittely",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Maksun käsittelyteksti",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Tämän tarjouksen maksutilan lataamisessa ilmeni ongelma. Yritä ladata sivu uudelleen.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Maksutilan virheviesti",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Kerro asiakkaallesi, että hänen on päivitettävä sivu, kun maksun tilan hakeminen epäonnistuu.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Tämä on testitarjous, joten siihen ei voi kerätä oikeita maksuja.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Voit päättää, haluatko kerätä maksun, kun luot tarjouksen tällä mallipohjalla.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Suorita maksu ottamalla yhteyttä tarjouksen lähettäneeseen henkilöön.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "html.default": {
+    "message": "<h2>شيء أقوى</h2><h3>أخبر القارئ بالمزيد</h3><p>يخبرنا العنوان والعنوان الفرعي <a href=\"#\">بما تقدمه</a>، ويغلق رأس النموذج الصفقة. هنا يمكنك توضيح سبب روعة العرض الذي تقدمه ويستحق ملء نموذج من أجله.</p><p>تذكر:</p><ul><li>العلامات النقطية رائعة</li><li>لتوضيح <a href=\"#\">الفوائد</a> و</li><li>لتحويل الزوار إلى عملاء محتملين.</li></ul>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.defaultEmail": {
+    "message": "<h2>العنوان</h2><p>إضافة نص إلى البريد الإلكتروني الخاص بك.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "محتوى النص المنسق",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "النص المنسق",
+    "description": "",
+    "placeholders": null
+  }
+}

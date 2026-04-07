@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "عامل تصفية المنشورات",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "عرض الكل",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "النص الذي سيتم عرضه في حالة توفر عدد أكثر من القيمة القصوى للعرض. اترك الحقل فارغًا لحذف الرابط",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "يقوم الإعداد الافتراضي باستخدام المدونة الحالية عندما تُستخدم في قالب مدونة أو المدونة الأساسية عندما تُستخدم في مكان آخر.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "تحديد مدونة لعرضها",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "أقصى عدد لقيم عامل التصفية المُراد عرضها. اترك الحقل فارغًا لإظهار الكل",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "بحث",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "قائمة القيم لروابط عامل التصفية",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "العلامات",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "‏‏المؤلفون",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "شهور",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "ترتيب المنشورات حسب العلامات",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "عنوان القائمة المُراد عرضه",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "الاسم",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "عدد المنشورات",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "بحث",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "ترتيب القيم لروابط عامل التصفية",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "إظهار كل عوامل التصفية",
+    "description": "",
+    "placeholders": null
+  }
+}

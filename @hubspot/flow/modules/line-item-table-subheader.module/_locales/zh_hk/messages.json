@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "明細項目表格副標題",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>到期應付的經常和單次付款。<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "副標題文字",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "此副標題只會在有後續款項時顯示。",
+    "description": "",
+    "placeholders": null
+  }
+}

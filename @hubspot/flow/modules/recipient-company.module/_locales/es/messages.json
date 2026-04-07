@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Empresa del destinatario",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.default": {
+    "message": "Preparado para",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.label": {
+    "message": "Texto de la empresa del destinatario",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_address.label": {
+    "message": "Dirección principal de la empresa del destinatario",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_city_state_zip.label": {
+    "message": "Ciudad, provincia y código postal de la empresa del destinatario",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_country.label": {
+    "message": "País de la empresa del destinatario",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_name.label": {
+    "message": "Nombre de la empresa del destinatario",
+    "description": "",
+    "placeholders": null
+  }
+}

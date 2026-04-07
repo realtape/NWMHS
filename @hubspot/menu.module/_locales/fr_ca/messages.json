@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertical",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Les menus horizontaux affichent les éléments côte à côte, et les menus verticaux sont de haut en bas",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientation",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Les éléments du sous-menu apparaîtront lorsque vous survolerez le menu parent. Si cette option n'est pas cochée, les éléments du sous-menu apparaîtront toujours",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Autoriser les menus contextuels?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "L'arborescence du menu est la structure de la page qui génère les éléments du menu. Une seule arborescence de menu peut être utilisée avec plusieurs menus. Vous pouvez créer plusieurs menus pour des structures de site Web complexes. Les menus sont créés et gérés dans vos paramètres de contenu",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Détermine le nombre d'enfants dans l'arborescence du menu qui peuvent être développés dans le menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Niveaux maximaux",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Chemin de style fil d'Ariane (utilise le flux horizontal)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dynamique par page - Afficher les pages du menu qui sont liées à la page consultée",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statique - Toujours afficher les pages de premier niveau dans le menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dynamique par section - Afficher les pages du menu qui sont liées à la section consultée",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Les menus avancés montrent les différentes parties d'une arborescence de menus en fonction de la page qui est consultée.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Type de menu avancé",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  }
+}

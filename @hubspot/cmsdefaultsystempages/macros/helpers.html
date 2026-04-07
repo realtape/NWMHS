@@ -1,0 +1,155 @@
+{#
+  Will dynamically load fonts. Set config variable on each template.
+  Config variable is an object.
+  - key = font name
+  - value = weight + optional italic flag (i) => ex: 400i or 400
+
+  {
+    'Source Serif Pro': ['600'],
+    'Montserrat': ['400', '400i', '700']
+  }
+ #}
+{%- macro load_fonts(font_config) -%}
+  {#-
+    If null then will default to include all fonts.
+    Inclusion of all fonts is handled in load_<font> macro
+  -#}
+  {%- if font_config == null -%}
+    {%- set font_config = {
+        'Source Serif Pro': [],
+        'Montserrat': []
+      }
+    -%}
+  {%- endif -%}
+  {#- Load font scripts based off of font config object -#}
+  {{ load_font_scripts(font_config) }}
+
+  <style>
+    {%- for font, font_weight_array in font_config.items() -%}
+      {#- If no font weights are specified, include all all of them -#}
+      {%- if font_weight_array|length == 0 or font_weight_array == null or font_weight_array == undefined -%}
+        {%- set font_weight_array = ["include_all_weights"] -%}
+      {%- endif -%}
+      {#- Load font-face records -#}
+      {{ render_font_face(font, font_weight_array) }}
+    {%- endfor -%}
+  </style>
+{%- endmacro -%}
+
+{%- macro render_font_face(font_name, weight_array) -%}
+  {%- if font_name == "Source Serif Pro" -%}
+    {%- if weight_array is containing "include_all_weights" or weight_array is containing "600" %}
+      @font-face {
+        font-family: 'Source Serif Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src:
+          url('{{ get_asset_url("../fonts/source-serif-pro-600.woff2") }}') format('woff2'),
+          url('{{ get_asset_url("../fonts/source-serif-pro-600.woff") }}') format('woff');
+      }
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- if font_name == "Montserrat" -%}
+    {%- if weight_array is containing "include_all_weights" or weight_array is containing "300" %}
+      /* montserrat-regular - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+      @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src:
+          url('{{ get_asset_url("../fonts/montserrat-300.woff2") }}') format('woff2'),
+          url('{{ get_asset_url("../fonts/montserrat-300.woff") }}') format('woff');
+      }
+    {% endif -%}
+    {%- if weight_array is containing "include_all_weights" or weight_array is containing "400" %}
+      /* montserrat-regular - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+      @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src:
+          url('{{ get_asset_url("../fonts/montserrat-regular.woff2") }}') format('woff2'),
+          url('{{ get_asset_url("../fonts/montserrat-regular.woff") }}') format('woff');
+      }
+    {% endif -%}
+    {%- if weight_array is containing "include_all_weights" or weight_array is containing "400i" %}
+      /* montserrat-italic - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+      @font-face {
+        font-family: 'Montserrat';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src:
+          url('{{ get_asset_url("../fonts/montserrat-italic.woff2") }}') format('woff2'),
+          url('{{ get_asset_url("../fonts/montserrat-italic.woff") }}') format('woff');
+      }
+    {% endif -%}
+    {%- if weight_array is containing "include_all_weights" or weight_array is containing "500" %}
+      /* montserrat-500 - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+      @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src:
+          url('{{ get_asset_url("../fonts/montserrat-500.woff2") }}') format('woff2'),
+          url('{{ get_asset_url("../fonts/montserrat-500.woff") }}') format('woff');
+      }
+    {% endif -%}
+    {%- if weight_array is containing "include_all_weights" or weight_array is containing "700" %}
+      /* montserrat-700 - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+      @font-face {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src:
+          url('{{ get_asset_url("../fonts/montserrat-700.woff2") }}') format('woff2'),
+          url('{{ get_asset_url("../fonts/montserrat-700.woff") }}') format('woff');
+      }
+    {% endif -%}
+  {%- endif -%}
+{%- endmacro -%}
+
+{% macro load_font_scripts(font_config) %}
+  {%- for font, font_weight_array in font_config.items() -%}
+    {%- if font_weight_array|length == 0 or font_weight_array == null or font_weight_array == undefined -%}
+      {%- set font_weight_array = ["include_all_weights"] -%}
+    {%- endif -%}
+
+    {%- if font == "Source Serif Pro" -%}
+      {%- if font_weight_array is containing "include_all_weights" or font_weight_array is containing "600" -%}
+        <link rel="preload" href="{{ get_asset_url("../fonts/source-serif-pro-600.woff2") }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ get_asset_url("../fonts/source-serif-pro-600.woff") }}" as="font" type="font/woff" crossorigin>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if font == "Montserrat" -%}
+      {%- if font_weight_array is containing "include_all_weights" or font_weight_array is containing "300" -%}
+        <link rel="preload" href="{{ get_asset_url("../fonts/montserrat-300.woff2") }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ get_asset_url("../fonts/montserrat-300.woff") }}" as="font" type="font/woff" crossorigin>
+      {%- endif -%}
+      {%- if font_weight_array is containing "include_all_weights" or font_weight_array is containing "400" -%}
+        <link rel="preload" href="{{ get_asset_url("../fonts/montserrat-regular.woff2") }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ get_asset_url("../fonts/montserrat-regular.woff") }}" as="font" type="font/woff" crossorigin>
+      {%- endif -%}
+      {%- if font_weight_array is containing "include_all_weights" or font_weight_array is containing "400i" -%}
+        <link rel="preload" href="{{ get_asset_url("../fonts/montserrat-italic.woff2") }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ get_asset_url("../fonts/montserrat-italic.woff") }}" as="font" type="font/woff" crossorigin>
+      {%- endif -%}
+      {%- if font_weight_array is containing "include_all_weights" or font_weight_array is containing "500" -%}
+        <link rel="preload" href="{{ get_asset_url("../fonts/montserrat-500.woff2") }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ get_asset_url("../fonts/montserrat-500.woff") }}" as="font" type="font/woff" crossorigin>
+      {%- endif -%}
+      {%- if font_weight_array is containing "include_all_weights" or font_weight_array is containing "700" -%}
+        <link rel="preload" href="{{ get_asset_url("../fonts/montserrat-700.woff2") }}" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="{{ get_asset_url("../fonts/montserrat-700.woff") }}" as="font" type="font/woff" crossorigin>
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endmacro -%}
+

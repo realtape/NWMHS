@@ -1,0 +1,301 @@
+{% set default_icon_set = "fontawesome-6.4.2" %}
+
+{% set default_podcast_icon = {
+    "class": "podcast",
+    "icon": {
+      "name": "Podcast",
+      "type": "SOLID",
+      "unicode": "f2ce"
+    },
+    "aria_label": module.default_text.podcast_link_aria_label
+  }
+%}
+
+{%- macro social_icon(social_link, open_in_new_window, force_icon=false, aria_label="") -%}
+  {% set social_url = social_link.href %}
+  {% set icons = {
+      "x.com": {
+        "class": "x-twitter",
+        "icon": {
+          "name": "X Twitter"
+        },
+        "aria_label": module.default_text.twitter_link_aria_label
+      },
+      "twitter.com": {
+        "class": "x-twitter",
+        "icon": {
+          "name": "X Twitter"
+        },
+        "aria_label": module.default_text.twitter_link_aria_label
+      },
+      "youtube.com": {
+        "class": "youtube",
+        "icon": {
+          "name": "YouTube"
+        },
+        "aria_label": module.default_text.youtube_link_aria_label
+      },
+      "facebook.com": {
+        "class": "facebook",
+        "icon": {
+          "name": "Facebook F"
+        },
+        "aria_label": module.default_text.facebook_link_aria_label
+      },
+      "linkedin.com": {
+        "class": "linkedin",
+        "icon": {
+          "name": "LinkedIn"
+        },
+        "aria_label": module.default_text.linkedin_link_aria_label
+      },
+      "instagram.com": {
+        "class": "instagram",
+        "icon": {
+          "name": "Instagram"
+        },
+        "aria_label": module.default_text.instagram_link_aria_label
+      },
+      "github.com": {
+        "class": "github",
+        "icon": {
+          "name": "GitHub"
+        },
+        "aria_label": module.default_text.github_link_aria_label
+      },
+      "spotify.com": {
+        "class": "spotify",
+        "icon": {
+          "name": "Spotify"
+        },
+        "aria_label": module.default_text.spotify_link_aria_label
+      },
+      "soundcloud.com": {
+        "class": "soundcloud",
+        "icon": {
+          "name": "SoundCloud"
+        },
+        "aria_label": module.default_text.soundcloud_link_aria_label
+      },
+      "yelp.com": {
+        "class": "yelp",
+        "icon": {
+          "name": "Yelp"
+        },
+        "aria_label": module.default_text.yelp_link_aria_label
+      },
+      "pinterest.com": {
+        "class": "pinterest",
+        "icon": {
+          "name": "Pinterest"
+        },
+        "aria_label": module.default_text.pinterest_link_aria_label
+      },
+      "tiktok.com": {
+        "icon": {
+          "name": "TikTok"
+        },
+        "aria_label": module.default_text.tiktok_link_aria_label
+      },
+      "email": {
+        "class": "email",
+        "icon": {
+          "name": "Envelope"
+        },
+        "aria_label": module.default_text.email_link_aria_label
+      }
+    }
+  %}
+
+  {% set default_icon = {
+      "class": "link",
+      "icon": {
+        "name": "Link",
+        "type": "SOLID",
+        "unicode": "f0c1"
+      },
+      "aria_label": module.default_text.website_link_aria_label
+    }
+  %}
+
+  {%- if social_link.type == "EMAIL_ADDRESS" -%}
+    {% set host = "email" %}
+    {% set social_url = "mailto:" ~ social_url|replace("mailto:", "") %}
+  {%- else -%}
+    {% set httpProtocolRegex = "https?:\\/\\/" %}
+    {% set host = social_url|replace("www.", "")|replace("open.", "")|regex_replace(httpProtocolRegex, "")|split("/") %}
+    {% set host = host.pop(0) %}
+  {%- endif -%}
+
+  {%- if force_icon -%}
+    {% set icon_definition = force_icon %}
+  {%- else -%}
+    {% set icon_definition = icons[host] or default_icon %}
+  {%- endif -%}
+
+  {% set rel = ["nofollow"] %}
+
+  {% if open_in_new_window %}
+    {% do rel.append("noopener") %}
+  {% endif %}
+
+  {% set aria_label = aria_label ? aria_label : icon_definition.aria_label %}
+
+  <a
+    {% if rel %}
+      rel="{{ rel|join(" ")|escape_attr }}"
+    {% endif %}
+    class="hs-social-follow__link hs-social-follow__link--{{ icon_definition.class|escape_attr }}"
+    {% if open_in_new_window %}
+      target="_blank"
+    {% endif %}
+    aria-label="{{ aria_label|escape_attr }}"
+    href="{{ social_url|escape_url }}"
+  >
+    {% icon
+      extra_classes="hs-social-follow__icon",
+      name="{{ icon_definition.icon.name }}",
+      unicode="{{ icon_definition.icon.unicode }}",
+      purpose="decorative",
+      style="{{ icon_definition.icon.type }}",
+      icon_set="{{ default_icon_set }}"
+    %}
+  </a>
+
+{%- endmacro -%}
+
+{# Module styles #}
+
+{% require_css %}
+  <style>
+    {% scope_css %}
+
+      {# Social follow wrapper #}
+
+      .hs-social-follow {
+        {% if module.styles.group_alignment.alignment.horizontal_align %}
+          {% if module.styles.group_alignment.alignment.horizontal_align == "LEFT" %}
+            justify-content: flex-start;
+          {% elif module.styles.group_alignment.alignment.horizontal_align == "RIGHT" %}
+            justify-content: flex-end;
+          {% endif %}
+        {% endif %}
+
+        {% if module.styles.group_spacing.space_between_icons %}
+          gap: {{ module.styles.group_spacing.space_between_icons ~ "px" }};
+        {% endif %}
+
+        {% if module.styles.group_alignment.spacing.margin.top %}
+          margin-top: {{ module.styles.group_alignment.spacing.margin.top.value ~ module.styles.group_alignment.spacing.margin.top.units }};
+        {% endif %}
+
+        {% if module.styles.group_alignment.spacing.margin.bottom %}
+          margin-bottom: {{ module.styles.group_alignment.spacing.margin.bottom.value ~ module.styles.group_alignment.spacing.margin.bottom.units }};
+        {% endif %}
+      }
+
+      {# Social follow icons #}
+
+      .hs-social-follow__link {
+        {% if module.styles.group_icon.icon_size == "size-small" %}
+          padding: 4px;
+        {% elif module.styles.group_icon.icon_size == "size-regular" %}
+          width: 24px;
+          height: 24px;
+        {% elif module.styles.group_icon.icon_size == "size-large" %}
+          width: 32px;
+          height: 32px;
+        {% endif %}
+
+        {% if module.styles.presets.icon_shape == "circle" %}
+          border-radius: 50%;
+        {% endif %}
+
+        {% if module.styles.group_background.color.color && module.styles.group_background.shape != "none" %}
+          background-color: {{ module.styles.group_background.color.rgb }};
+        {% endif %}
+
+        {% if module.styles.group_background.shape == "rounded" %}
+          border-radius: 4px;
+        {% elif module.styles.group_background.shape == "circle" %}
+          border-radius: 50%;
+        {% endif %}
+
+        {% if module.styles.group_spacing.spacing.padding.bottom %}
+          padding-bottom: {{ module.styles.group_spacing.spacing.padding.bottom.value ~ module.styles.group_spacing.spacing.padding.bottom.units }};
+        {% endif %}
+
+        {% if module.styles.group_spacing.spacing.padding.top %}
+          padding-top: {{ module.styles.group_spacing.spacing.padding.top.value ~ module.styles.group_spacing.spacing.padding.top.units }};
+        {% endif %}
+
+        {% if module.styles.group_spacing.spacing.padding.left %}
+          padding-left: {{ module.styles.group_spacing.spacing.padding.left.value ~ module.styles.group_spacing.spacing.padding.left.units }};
+        {% endif %}
+
+        {% if module.styles.group_spacing.spacing.padding.right %}
+          padding-right: {{ module.styles.group_spacing.spacing.padding.right.value ~ module.styles.group_spacing.spacing.padding.right.units }};
+        {% endif %}
+      }
+
+      .hs-social-follow__icon svg {
+
+        {% if module.styles.group_icon.icon_size == "size-small" %}
+          width: min(16px, 100%);
+          height: min(16px, 100%);
+        {% elif module.styles.group_icon.icon_size == "size-regular" %}
+          width: min(32px, 100%);
+          height: min(32px, 100%);
+        {% elif module.styles.group_icon.icon_size == "size-large" %}
+          width: min(48px, 100%);
+          height: min(48px, 100%);
+        {% endif %}
+
+        {% if module.styles.group_icon.color.color %}
+          fill: {{ module.styles.group_icon.color.color }};
+        {% endif %}
+
+      }
+
+      {% if module.styles.group_background.color.color %}
+        .hs-social-follow__link:hover,
+        .hs-social-follow__link:focus {
+          background-color: rgba({{ color_variant(module.styles.group_background.color.color, -80)|convert_rgb }}, {{ module.styles.group_background.color.opacity }});
+        }
+      {% endif %}
+
+      {% if module.styles.group_background.color.color %}
+        .hs-social-follow__link:active {
+          background-color: rgba({{ color_variant(module.styles.group_background.color.color, 80)|convert_rgb }}, {{ module.styles.group_background.color.opacity }});
+        }
+      {% endif %}
+
+    {% end_scope_css %}
+  </style>
+{% end_require_css %}
+
+{%- if module.group_social_links is truthy -%}
+  <div class="hs-social-follow">
+    {%- for social_link in module.group_social_links -%}
+      {%- if social_link.link.href -%}
+        {% set force_icon = social_link.is_podcast ? default_podcast_icon : false %}
+        {% set aria_label = "" %}
+
+        {% if not social_link.is_podcast and social_link.customize_icon %}
+          {% if social_link.custom_icon.name %}
+            {% set force_icon = {
+                "class": "hs-social-follow__icon--custom",
+                "icon": social_link.custom_icon
+              }
+            %}
+          {% endif %}
+        {% endif %}
+
+        {% if social_link.customize_alt_text and social_link.aria_label %}
+          {% set aria_label = social_link.aria_label %}
+        {% endif %}
+        {{ social_icon(social_link.link, social_link.open_in_new_window, force_icon, aria_label) }}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+{%- endif -%}

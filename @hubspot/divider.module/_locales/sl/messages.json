@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Razdelilnik",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Poravnava",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Središče",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Levo",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Desno",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Višina",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Tip vrstice",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Črtkano",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Pikčasto",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Enobarvno",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Odmik",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Največ 20 slikovnih pik",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Pokazati odmik?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Širina",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Odstotek površine, kamor je nameščen delilnik.",
+    "description": "",
+    "placeholders": null
+  }
+}

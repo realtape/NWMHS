@@ -1,0 +1,24 @@
+{% if additional_fees|length > 0 %}
+  {% for fee in additional_fees %}
+    <div class="totals__row bordered">
+      <div>{{ fee.name|sanitize_html }}</div>
+      <div>
+        {% if fee.is_percentage == true %}
+          <span class="currency-content">{{ fee.monetary_value|format_currency_value(locale=locale, currency=currency)|sanitize_html }}</span>
+
+          {% set fee_amount = fee.amount %}
+
+          {% if fee.category == 'DISCOUNT' %}
+            <span class="currency-content">{{ module.default_text.percent_discount|render|sanitize_html }}</span>
+          {% elif fee.category == 'FEE' %}
+            <span class="currency-content">{{ module.default_text.percent_fee|render|sanitize_html }}</span>
+          {% elif fee.category == 'TAX' %}
+            <span class="currency-content">{{ module.default_text.percent_tax|render|sanitize_html }}</span>
+          {% endif %}
+        {% else %}
+          <span class="currency-content">{{ fee.monetary_value|format_currency_value(locale=locale, currency=currency)|sanitize_html }}</span>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+{% endif %}

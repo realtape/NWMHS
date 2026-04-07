@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "图片库",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "图片说明",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "幻灯片",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "在新标签页中打开链接",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "显示图片说明",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "链接 URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "图片",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "可变高度",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "固定高度",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "可变高度",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "显示导航按钮",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "缩略图导航",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "标准滑块",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox 图片库",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "显示模式",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "循环幻灯片",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "在图片上叠加图片说明",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "图片说明始终置于图片下方",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "图片说明位置",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "自动滚动的间隔时间（以秒计）",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "淡化",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "幻灯片",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "幻灯片过渡方式",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Lightbox 图片库的行数",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "自动前进",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "此模块已被弃用，并由两个经过改进的新模块取代：图像滑块和图像网格<a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">了解详情。</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

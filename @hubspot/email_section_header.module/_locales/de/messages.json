@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Abschnittsüberschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Eine etwas dezentere Unterüberschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Bereichsunterüberschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Eine klare und auffällige Überschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Abschnittsüberschriftinhalte",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Wählen Sie eine Überschriftenebene aus. H1 ist die größte Überschrift, gefolgt von H2 und so weiter.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Überschriftenebene",
+    "description": "",
+    "placeholders": null
+  }
+}

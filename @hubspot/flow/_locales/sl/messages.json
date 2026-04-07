@@ -1,0 +1,572 @@
+{
+  "name": {
+    "message": "Flow",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.label": {
+    "message": "Pasica",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.label": {
+    "message": "Jedro",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.capitalize": {
+    "message": "Uporabi velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.lowercase": {
+    "message": "Male črke",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.none": {
+    "message": "Brez",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.uppercase": {
+    "message": "Velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.label": {
+    "message": "Preoblikuj",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.label": {
+    "message": "Naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.capitalize": {
+    "message": "Uporabi velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.lowercase": {
+    "message": "Male črke",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.none": {
+    "message": "Brez",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.uppercase": {
+    "message": "Velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.label": {
+    "message": "Preoblikuj",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.label": {
+    "message": "Besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.label": {
+    "message": "Referenca",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.label": {
+    "message": "Preoblikuj",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.none": {
+    "message": "Brez",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.capitalize": {
+    "message": "Uporabi velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.uppercase": {
+    "message": "Velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.lowercase": {
+    "message": "Male črke",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.label": {
+    "message": "Ozadje",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.label": {
+    "message": "Barva ozadja",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.inline_help_text": {
+    "message": "Ta barva bo vidna samo v primeru, da je slika oglasne pasice skrita",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.label": {
+    "message": "Ozadje",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.border.label": {
+    "message": "Obroba",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.label": {
+    "message": "Obroba",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.label": {
+    "message": "Kot",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.radius.label": {
+    "message": "Polmer",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.label": {
+    "message": "Gumbi",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.label": {
+    "message": "Razmik",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.spacing.label": {
+    "message": "Razmik",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.label": {
+    "message": "Besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.capitalize": {
+    "message": "Uporabi velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.lowercase": {
+    "message": "Male črke",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.none": {
+    "message": "Brez",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.uppercase": {
+    "message": "Velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.label": {
+    "message": "Preoblikuj",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.label": {
+    "message": "Globalne barve",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.primary_color.label": {
+    "message": "Primarna barva",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.secondary_color.label": {
+    "message": "Sekundarna barva",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.tertiary_color.label": {
+    "message": "Terciarna barva",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.label": {
+    "message": "Globalne oblike pisav",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.primary_font.label": {
+    "message": "Primarna oblika besedila",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.secondary_font.label": {
+    "message": "Sekundarna barva",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "Navpični razmik nadzoruje razmik na vrhu in dnu predloge ponudbe ter med razdelki znotraj vsebine.",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.border.label": {
+    "message": "Obroba",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.label": {
+    "message": "Obroba",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.label": {
+    "message": "Razmik",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.spacing.label": {
+    "message": "Razmik",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.label": {
+    "message": "Ozadje",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.label": {
+    "message": "Besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.label": {
+    "message": "Ozadje",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.label": {
+    "message": "Besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.label": {
+    "message": "Ozadje",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.label": {
+    "message": "Besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.label": {
+    "message": "Jedro",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.label": {
+    "message": "Naslov ena (H1)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.capitalize": {
+    "message": "Uporabi velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.lowercase": {
+    "message": "Male črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.none": {
+    "message": "Brez",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.uppercase": {
+    "message": "Velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.label": {
+    "message": "Preoblikuj",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.label": {
+    "message": "Naslov dva (H2)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.capitalize": {
+    "message": "Uporabi velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.lowercase": {
+    "message": "Male črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.none": {
+    "message": "Brez",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.uppercase": {
+    "message": "Velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.label": {
+    "message": "Preoblikuj",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.label": {
+    "message": "Naslov tri (H3)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.capitalize": {
+    "message": "Uporabi velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.lowercase": {
+    "message": "Male črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.none": {
+    "message": "Brez",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.uppercase": {
+    "message": "Velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.label": {
+    "message": "Preoblikuj",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.label": {
+    "message": "Naslov štiri (H4)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.capitalize": {
+    "message": "Uporabi velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.lowercase": {
+    "message": "Male črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.none": {
+    "message": "Brez",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.uppercase": {
+    "message": "Velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.label": {
+    "message": "Preoblikuj",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.label": {
+    "message": "Naslov pet (H5)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.capitalize": {
+    "message": "Uporabi velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.lowercase": {
+    "message": "Male črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.none": {
+    "message": "Brez",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.uppercase": {
+    "message": "Velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.label": {
+    "message": "Preoblikuj",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.label": {
+    "message": "Naslov šest (H6)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.capitalize": {
+    "message": "Uporabi velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.lowercase": {
+    "message": "Male črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.none": {
+    "message": "Brez",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.uppercase": {
+    "message": "Velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.label": {
+    "message": "Preoblikuj",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.label": {
+    "message": "Povezave",
+    "description": "",
+    "placeholders": null
+  }
+}

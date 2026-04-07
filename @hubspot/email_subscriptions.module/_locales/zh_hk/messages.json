@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "訂閱偏好設定",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "更新偏好設定按鈕文字",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "更新電郵偏好設定",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "通訊偏好設定",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "標題",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "副標題",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "如果這不是你的電郵地址，請忽略此頁面，因為與此頁面關聯的電郵可能是轉寄給你。",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "是，我要重新訂閱！",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "重新訂閱按鈕文字",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "全部取消訂閱標籤",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "退出所有郵寄清單。",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "取消選擇你不希望收到的電郵類型：",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "偏好設定選項說明文字",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "或選擇此項拒絕接收任何電郵：",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "全部取消訂閱說明文字",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "為現未訂閱的用戶取消訂閱所有說明文字",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "你已取消訂閱我們所有電郵。你希望再次收到我們的電郵嗎？",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "單次訂閱按鈕文字",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "取消訂閱",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "單次訂閱確認文字",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "你希望取消訂閱與此內容有關的電郵嗎：",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "單次訂閱範例名稱",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "你選取的訂閱類型",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Halaman tidak ditemukan",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Kami tidak dapat menemukan halaman yang Anda cari.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Buka halaman beranda",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Halaman ini tidak berfungsi",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Terjadi kesalahan server internal, tetapi kami sedang menanganinya!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Buka halaman beranda",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Logo perusahaan",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Preferensi email Anda telah diperbarui.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Anda berhasil batal berlangganan dari semua komunikasi email.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Preferensi email Anda telah diperbarui.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "Perbarui preferensi email untuk",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Pilih email mana yang ingin Anda terima dari {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Pilih email mana yang ingin Anda terima dari {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Pilih bahasa:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Perbarui preferensi email",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Berhenti berlangganan semua email",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Jika ini bukan alamat Anda, email kemungkinan besar diteruskan kepada Anda dari orang lain dan Anda dapat mengabaikan pesan ini.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Anda saat ini batal berlangganan dari semua email kami. Apakah Anda ingin menerima email kami lagi.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Ya, izinkan saya berlangganan lagi!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Kata sandi diperlukan",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Harap masukkan kata sandi Anda untuk melihat halaman ini.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Hasil pencarian untuk \"[[search_term]]\"",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Maaf, Anda tidak memiliki akses",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Anda tidak memiliki izin untuk melihat halaman ini. Hubungi administrator situs untuk pertanyaan.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Buka halaman beranda",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Masuk",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Halaman yang Anda coba lihat hanya tersedia untuk pengguna terdaftar.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "Email",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Ingat saya",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Lupa kata sandi?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Masuk",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Tampilkan",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Mengalami masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Anda telah keluar",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Masuk kembali",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Atau kembali ke <a href=\"{{ '//' ~ request.domain }}\">halaman beranda</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Atur kata sandi Anda",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Selamat datang! Selesaikan pendaftaran Anda dengan mengatur kata sandi Anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "Email",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Konfirmasi kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Simpan kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Tampilkan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Mengalami masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Reset kata sandi Anda",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Masukkan alamat email yang Anda gunakan untuk mendaftar dan kami akan mengirimkan email dengan tautan untuk mereset kata sandi Anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "Email",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Kirim email reset",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Apakah email baru saja masuk? <a href=\"/_hcms/mem/login\">Masuk</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Mengalami masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "Email reset kata sandi dikirim",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Jika akun yang cocok ditemukan untuk {{ user_email }}, email dikirim dengan langkah berikutnya untuk mereset kata sandi Anda. Harap <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">hubungi administrator</a> jika Anda belum menerimanya dalam 20 menit.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Kirim email reset lain",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Buat kata sandi baru",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Kata sandi baru Anda harus berbeda dari kata sandi yang Anda gunakan sebelumnya.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Kata sandi baru",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Konfirmasi kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Simpan kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Tampilkan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Mengalami masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Alamat email Anda sudah dikonfirmasi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Terima kasih atas verifikasi alamat email Anda. Sekarang Anda dapat masuk ke akun dan mengakses konten eksklusif Anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Masuk",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Mengalami masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Tautan masuk satu kali dikirim",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Kami telah mengirim email kepada Anda di {{ user_email }}. Email tersebut berisi tautan yang dapat Anda gunakan untuk masuk.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Jika Anda tidak dapat melihat email tersebut, mohon periksa folder spam Anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Kirim ulang tautan masuk",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "atau",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Masuk dengan kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Mengalami masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Verifikasi alamat email Anda",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Terima kasih telah mendaftar! Silakan periksa email Anda dan klik tautan konfirmasi untuk menyelesaikan pendaftaran.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Mengalami masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Buat kata sandi untuk menyelesaikan pendaftaran",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Langkah terakhir! Setelah membuat kata sandi yang aman, Anda akan dapat masuk dan mengakses konten di {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Buat kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Atau menyalin dan menempel tautan ini ke browser Anda:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Jika Anda memiliki pertanyaan atau mengalami masalah saat menerimanya, harap <a href=\"{{ membership_website_admin }}\">hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Reset kata sandi Anda",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Atur kata sandi baru dan masuk ke akun Anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Reset kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Jika tidak membuat permintaan ini, Anda dapat dengan aman mengabaikan email ini.<br/>Jika ada pertanyaan, harap <a href=\"{{ membership_website_admin }}\">hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Masuk dengan tautan satu kali",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Lanjutkan masuk ke akun Anda. Demi keamanan Anda, tautan ini akan kedaluwarsa setelah 15 menit.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Masuk",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Atau menyalin dan menempel tautan ini ke browser Anda:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Jika tidak membuat permintaan ini, Anda dapat dengan aman mengabaikan email ini.<br/>Jika ada pertanyaan, harap <a href=\"{{ membership_website_admin }}\">hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Kata sandi {{ membership_company_name }} Anda berhasil diubah",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Tidak bermaksud untuk membuat perubahan ini? Gunakan formulir <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">lupa kata sandi</a> untuk mereset kata sandi Anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Jika Anda memiliki pertanyaan, harap hubungi <a href=\"{{ membership_website_admin }}\"> administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Pendaftaran Anda selesai",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Terima kasih telah mendaftar! Anda sekarang sudah siap. Sekarang Anda dapat masuk untuk mengakses dan membuka nilai lebih banyak.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Masuk ke akun baru Anda",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Jika Anda memiliki pertanyaan atau mengalami masalah saat menerimanya, harap <a href=\"{{ membership_website_admin }}\">hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Selamat datang di {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Selesaikan pendaftaran Anda dengan membuat kata sandi yang aman untuk akun Anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Buat kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Atau menyalin dan menempel tautan ini ke browser Anda:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Jika Anda memiliki pertanyaan atau mengalami masalah saat menerimanya, harap <a href=\"{{ membership_website_admin }}\">hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Verifikasi alamat email Anda",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Terima kasih telah mendaftar! Anda perlu memverifikasi alamat email untuk menyelesaikan pendaftaran untuk {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Verifikasi alamat email",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Jika Anda memiliki pertanyaan atau mengalami masalah saat menerimanya, harap <a href=\"{{ membership_website_admin }}\">hubungi administrator situs</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Harap konfirmasi permintaan penghapusan Anda",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Konfirmasi permintaan penghapusan Anda",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Hai {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Kami menerima permintaan untuk menghapus data pribadi Anda dari {{ company_name }} pada:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Perangkat:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Tanggal dan Waktu:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Supaya kami dapat memproses permintaan Anda, harap konfirmasi bahwa Anda ingin menghapus data Anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Ya, hapus data saya",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Tautan ini akan kedaluwarsa dalam 30 menit.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Jika Anda tidak meminta ini untuk dihapus, Anda dapat mengabaikan pesan ini dengan aman.",
+    "description": "",
+    "placeholders": null
+  }
+}

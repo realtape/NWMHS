@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Galeri Imej",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Kapsyen",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Slaid",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Buka pautan dalam tab baharu",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Tunjukkan kapsyen",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL Pautan",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Imej",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Tinggi boleh ubah",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Tinggi tetap",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Tinggi boleh ubah",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Tunjukkan butang navigasi",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Navigasi Imej Kecil",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Penggelongsor standard",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galeri peti cahaya",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Mod paparan",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Gelung slaid",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Tindih kapsyen di atas imej",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Sentiasa kekalkan kapsyen di bawah imej",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Kedudukan Kapsyen",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Masa dalam saat antara autotatal",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Pudar",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Slaid",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Peralihan slaid",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Baris untuk galari peti cahaya",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Automaju",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Modul ini telah ditamatkan dan digantikan dengan dua modul baharu yang ditambah baik, Image Slider dan Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Ketahui lebih lanjut.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

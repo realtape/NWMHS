@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Podnaslov tablice stavke linije",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Ponavljajuća i jednokratna plaćanja čiji je datum dospijeća sada.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Tekst podnaslova",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Ovaj se podnaslov prikazuje samo kada postoje buduća plaćanja.",
+    "description": "",
+    "placeholders": null
+  }
+}

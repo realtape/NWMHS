@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Suma",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Do zapłaty teraz",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Jest to używane do oznaczania kwoty wyceny, jeśli są przewidziane płatności w przyszłości.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Tekst – zapłata teraz",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Suma",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Tekst sumy",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Całkowita kwota umowy",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Dostosuj tekst, aby dokładnie opisywał tę kwotę. (Ustawienie domyślne to kwota roczna, jeśli nie ustalono warunków).",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Tekst całkowitej kwoty umowy",
+    "description": "",
+    "placeholders": null
+  }
+}

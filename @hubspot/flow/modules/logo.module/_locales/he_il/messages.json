@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "סמל",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "סמל",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "גובה מרבי של הלוגו",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "לא חל בעת עקיפת הלוגו המהווה ברירת מחדל",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "תוכל לעקוף את הסמל שחל על תבנית זו באמצעות לחצן דו-מצבי זה.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "עקוף לוגו ברירת מחדת",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "כברירת מחדל, בהצעות המחיר יופיע לוגו החברה מ'ערכת המותג' שלך בהגדרות ברירת המחדל של החשבון או בהגדרות דף אינטרנט.",
+    "description": "",
+    "placeholders": null
+  }
+}

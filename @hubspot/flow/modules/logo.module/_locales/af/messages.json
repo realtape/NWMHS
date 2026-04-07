@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Logo maksimum hoogte",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Dit is nie van toepassing as die versteklogo geïgnoreer word nie",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Jy kan kies om die logo op hierdie sjabloon te oorheers deur middel van hierdie skakelaar.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Oorheers standaardlogo",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Jou kwotasies sal by verstek jou maatskappylogo vertoon van jou handelsmerkstel in \"Account Defaults\" of webwerfbladsyinstellings.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Buyer contact name",
+    "name": "show_contact_name",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "label": "Buyer contact job title",
+    "name": "show_contact_job_title",
+    "type": "boolean",
+    "default": false
+  },
+  {
+    "label": "Buyer contact email",
+    "name": "show_contact_email",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "label": "Buyer contact phone",
+    "name": "show_contact_phone",
+    "type": "boolean",
+    "default": true
+  }
+]

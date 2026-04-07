@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Corp principal e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Salutare,&nbsp;{{contact.firstname}},</p>\n<p>Descrieți ce oferiți clientului. De ce trebuie să citească? Ce le-ați promis în rândul cu subiect? Spuneți-le ceva grozav. Faceți-i să râdă. Faceți-i să plângă. De fapt, să nu mergem așa departe...</p>\n<p>Utilizați o listă pentru a:</p>\n<ul>\n<li>Explica valoarea ofertei dvs.</li>\n<li>Reaminti cititorului ce va obține din executarea acțiunii</li>\n<li>Pentru a vă prezenta abilitățile prin marcatori</li>\n<li>Creați un conținut ușor de scanat</li>\n</ul>\n<p><a href=\"http://hubspot.com\">LINK CĂTRE O PAGINĂ DE PORNIRE DE PE SITE-UL DVS.</a> (Aceasta reprezintă cu adevărat partea importantă.)</p>\n<p>Acum, încheiați cu un mic memento legat de cât de mult îi apreciați.</p>\n<p>Wow, ce șmecherie persuasivă.</p>\n<p>Cu stimă,</p>\n<p>Numele dvs.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Corp e-mail",
+    "description": "",
+    "placeholders": null
+  }
+}

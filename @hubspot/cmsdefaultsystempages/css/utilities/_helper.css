@@ -1,0 +1,27 @@
+/* For content that needs to be visually hidden but stay visible for screenreaders */
+
+/* stylelint-disable declaration-no-important */
+.show-for-sr {
+  position: absolute !important;
+  overflow: hidden !important;
+  height: 1px !important;
+  width: 1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 767px) {
+  .show-for-sr--mobile {
+    position: absolute !important;
+    overflow: hidden !important;
+    height: 1px !important;
+    width: 1px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+  }
+}
+/* stylelint-enable declaration-no-important */

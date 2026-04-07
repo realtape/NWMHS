@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "サイトの検索結果",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "キービジュアルを表示",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>申し訳ありません。[[search_term]]の結果はありません。</p><p>検索語句を書き換えてみるか、サイト内を参照してください。</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "前のページ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "次のページ",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Χρεώσεις",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "{{ fee_amount }}% έκπτωση",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "Χρέωση {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "Φόρος {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "Άλλες χρεώσεις",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,51 @@
+{% set destination = module.destination %}
+{% set trigger_class = '' %}
+
+{% if module.link_to == 'email_address' %}
+{% set destination = 'mailto:' + module.email_address %}
+{% endif %}
+{% if module.link_to == 'tel' %}
+  {% set destination = 'tel:' + module.tel|regex_replace('[-.\\/() ]', '') %}
+{% endif %}
+{% if module.link_to == 'file' %}
+{% set destination = module.file %} {% endif %}
+{% if module.link_to =='meetings_link' %}
+{% set destination = module.meeting_field %} {% endif %}
+{% if module.link_to == 'page' %}
+{% set destination = content_by_id(module.page_field).absolute_url %} {% endif %}
+{% if module.link_to == 'cta' %}
+  {% set trigger_class = 'hs-cta-trigger-button hs-cta-trigger-button-' + module.cta_field.url.content_id %}
+  {% set destination = 'javascript:void' %}
+{% endif %}
+
+{% if not destination %} {% set destination = '#top' %} {% endif %}
+
+{% set link_id = 'hs-inline-web-interactive-' + content.id %}
+
+{% if module.advanced.custom_css_rules %}
+<style data-hubspot-cta-style="{{link_id}}" >
+{% for custom_css_rule in module.advanced.custom_css_rules %}
+  a.{{link_id}}{{custom_css_rule.selector}} {
+    {{custom_css_rule.style}}
+  }
+{% endfor %}
+</style>
+{% endif %}
+
+{% if module.advanced.custom_css_styles %}
+<style data-hubspot-cta-style="{{link_id}}" >
+{{ module.advanced.custom_css_styles }}
+</style>
+{% endif %}
+
+{% if module.advanced.use_legacy_markup %}
+<span class="hs-cta-wrapper hs-web-interactive-wrapper"><span class="hs-cta-node hs-web-interactive-node">
+{% endif %}
+
+<a href="{{ destination }}" {% if module.target %} target="_blank" rel="noopener" {% endif %} class="{{link_id}} {{ module.advanced.custom_classes }} {{ trigger_class }} " data-hubspot-cta-id="{{content.id}}">
+  {{ module.html }}
+</a>
+
+{% if module.advanced.use_legacy_markup %}
+</span></span>
+{% endif %}

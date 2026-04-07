@@ -1,0 +1,18 @@
+[
+  {
+    "name": "sender_information",
+    "label": "Sender information",
+    "required": false,
+    "locked": false,
+    "type": "richtext",
+    "default": "{{ ptoken_sender_full_name }} - {{ personalization_token('template_data.quote.hs_sender_jobtitle', '') }} {{ personalization_token('template_data.quote.hs_sender_company_name', '') }}"
+  },
+  {
+    "name": "include_hubspot_avatar",
+    "label": "Include sender's HubSpot avatar",
+    "required": false,
+    "type": "boolean",
+    "default": true,
+    "display": "checkbox"
+  }
+]

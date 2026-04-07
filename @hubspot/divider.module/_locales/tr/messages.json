@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Bölücü",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Hizalama",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Merkez",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Sol",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Sağ",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Renk",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Yükseklik",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Çizgi türü",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Kesikli",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Noktalı",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Düz",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Doldurma",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maksimum 20 piksel",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Doldurma gösterilsin mi?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Genişlik",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Bölücünün yerleştirildiği alanın yüzdesi.",
+    "description": "",
+    "placeholders": null
+  }
+}

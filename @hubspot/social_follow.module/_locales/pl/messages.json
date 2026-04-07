@@ -1,0 +1,227 @@
+{
+  "inline_help_text": {
+    "message": "Dodaj łącza do profili w mediach społecznościowych. Przeciągnij i upuść, aby zmienić kolejność. Ikony zostaną uzupełnione automatycznie na podstawie adresu URL, ale mogą zostać nadpisane.",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Obserwowanie w mediach społecznościowych",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.label": {
+    "message": "Łącza do mediów społecznościowych",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.link.label": {
+    "message": "Łącze",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.open_in_new_window.label": {
+    "message": "Otwórz łącze w nowym oknie",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.is_podcast.label": {
+    "message": "Łącze jest podcastem",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.is_podcast.inline_help_text": {
+    "message": "Zaznacz to pole, aby wyświetlić ikonę „podcastu”, zamiast ikony domyślnej lub niestandardowej.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_alt_text.label": {
+    "message": "Dostosuj tekst alternatywny",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_alt_text.inline_help_text": {
+    "message": "Tekst alternatywny jest automatycznie uzupełniany, ale można go nadpisać tutaj.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.aria_label.label": {
+    "message": "Etykieta Aria",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.aria_label.help_text": {
+    "message": "Opis tego, co pokazuje ta ikona, np. (Obserwuj nas na Facebooku). Jest to używane przez czytniki ekranu do opisania ikony użytkownikom niedowidzącym.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_icon.label": {
+    "message": "Dostosuj ikonę",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_icon.inline_help_text": {
+    "message": "Ikony są automatycznie uzupełniane, ale można je nadpisać tutaj.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.custom_icon.label": {
+    "message": "Ikona niestandardowa",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.facebook_link_aria_label.default": {
+    "message": "Obserwuj nas na Facebooku",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.twitter_link_aria_label.default": {
+    "message": "Obserwuj nas na X",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.youtube_link_aria_label.default": {
+    "message": "Subskrybuj nas w serwisie YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.linkedin_link_aria_label.default": {
+    "message": "Obserwuj nas w serwisie LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.instagram_link_aria_label.default": {
+    "message": "Obserwuj nas na Instagramie",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pinterest_link_aria_label.default": {
+    "message": "Obserwuj nas na Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.website_link_aria_label.default": {
+    "message": "Odwiedź naszą witrynę internetową",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.spotify_link_aria_label.default": {
+    "message": "Słuchaj nas w Spotify",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.yelp_link_aria_label.default": {
+    "message": "Czytaj nasze recenzje na Yelp",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.soundcloud_link_aria_label.default": {
+    "message": "Słuchaj nas w SoundCloud",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tiktok_link_aria_label.default": {
+    "message": "Obserwuj nas na TikToku",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.github_link_aria_label.default": {
+    "message": "Obserwuj nas na GitHub",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.podcast_link_aria_label.default": {
+    "message": "Słuchaj naszych podcastów",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.email_link_aria_label.default": {
+    "message": "Wyślij nam wiadomość e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.label": {
+    "message": "Rozmiar",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-small": {
+    "message": "małe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-regular": {
+    "message": "średnie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-large": {
+    "message": "duże",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.label": {
+    "message": "Tło",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.label": {
+    "message": "Kształt",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.none": {
+    "message": "brak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.square": {
+    "message": "kwadrat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.rounded": {
+    "message": "zaokrąglone",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.circle": {
+    "message": "okrąg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.label": {
+    "message": "Układ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.alignment.label": {
+    "message": "Wyrównanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  }
+}

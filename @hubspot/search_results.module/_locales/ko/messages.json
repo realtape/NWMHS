@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "사이트 검색 결과",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "주요 이미지 표시",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>죄송합니다. [[search_term]]에 대한 결과가 없습니다.</p><p>검색어를 바꾸거나 사이트를 둘러보십시오.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "이전 페이지",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "다음 페이지",
+    "description": "",
+    "placeholders": null
+  }
+}

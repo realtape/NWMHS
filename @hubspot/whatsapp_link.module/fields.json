@@ -1,0 +1,316 @@
+[
+  {
+    "label": "Connect Whatsapp number",
+    "name": "whatsapp_number",
+    "type": "url",
+    "help_text": "Learn how to connect a WhatsApp channel to your inbox with <a href='https://knowledge.hubspot.com/inbox/connect-whatsapp-to-the-conversations-inbox' target='_blank' rel='noopener noreferrer'>this knowledge base article</a>",
+    "required": true,
+    "supported_types": ["WHATSAPP_NUMBER"],
+    "default": {
+      "type": "WHATSAPP_NUMBER"
+    }
+  },
+  {
+    "label": "Opt in text",
+    "name": "optin_text",
+    "type": "choice",
+    "help_text": "The opt in text gives information on the type of messages your contact would receive from your company, as well as instructions, and the keywords for opting in. To learn more check out <a href='https://knowledge.hubspot.com/inbox/collect-consent-for-whatsapp-conversations' target='_blank' rel='noopener noreferrer'>this knowledge base article</a>",
+    "choices": [
+      ["START", "START"],
+      ["UNSTOP", "UNSTOP"],
+      ["SUBSCRIBE", "SUBSCRIBE"],
+      ["EMPEZAR", "EMPEZAR"],
+      ["COMMENCER", "COMMENCER"],
+      ["INICIAR", "INICIAR"],
+      ["LOSLEGEN", "LOSLEGEN"],
+      ["開始", "開始"]
+    ],
+    "display": "select"
+  },
+  {
+    "label": "Show",
+    "name": "whatsapp_display",
+    "type": "choice",
+    "choices": [
+      ["text_and_icon", "Text and icon"],
+      ["text", "Text only"],
+      ["icon", "Icon only"]
+    ],
+    "display": "select",
+    "default": "text_and_icon"
+  },
+  {
+    "label": "Icon position",
+    "name": "icon_position",
+    "type": "choice",
+    "visibility": {
+      "controlling_field": "whatsapp_display",
+      "controlling_value_regex": "text_and_icon",
+      "operator": "EQUAL"
+    },
+    "choices": [
+      ["left", "Left"],
+      ["right", "Right"]
+    ],
+    "display": "select",
+    "default": "left"
+  },
+  {
+    "label": "Button text",
+    "name": "button_text",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "whatsapp_display",
+      "controlling_value_regex": "icon",
+      "operator": "NOT_EQUAL"
+    },
+    "default": "Chat on WhatsApp"
+  },
+  {
+    "label": "Whatsapp icon title",
+    "name": "whatsapp_icon_title",
+    "type": "text",
+    "help_text": "This text will be read by screen readers to describe the icon.",
+    "locked": true,
+    "default": "WhatsApp Icon"
+  },
+  {
+    "label": "Styles",
+    "name": "styles",
+    "type": "group",
+    "tab": "STYLE",
+    "children": [
+      {
+        "label": "Icon",
+        "name": "group_icon",
+        "type": "group",
+        "children": [
+          {
+            "label": "Size",
+            "name": "size",
+            "type": "number",
+            "display": "text",
+            "max": 100,
+            "step": 1,
+            "suffix": "px",
+            "default": "32"
+          },
+          {
+            "label": "Color",
+            "name": "color",
+            "type": "color",
+            "default": {
+              "color": "#000000",
+              "opacity": 100
+            }
+          },
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "number",
+            "help_text": "Spacing between the icon and button text.",
+            "visibility": {
+              "controlling_field": "whatsapp_display",
+              "controlling_value_regex": "text_and_icon",
+              "operator": "EQUAL"
+            },
+            "display": "text",
+            "max": 100,
+            "step": 1,
+            "suffix": "px"
+          }
+        ]
+      },
+      {
+        "label": "Text",
+        "name": "group_text",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "default": {
+              "size_unit": "px",
+              "size": 24,
+              "color": "#000000",
+              "font": "Helvetica"
+            }
+          },
+          {
+            "label": "Transform",
+            "name": "transform",
+            "type": "choice",
+            "choices": [
+              ["capitalize", "Capitalize"],
+              ["uppercase", "Uppercase"],
+              ["lowercase", "Lowercase"]
+            ],
+            "display": "select",
+            "placeholder": "None"
+          }
+        ]
+      },
+      {
+        "label": "Background",
+        "name": "group_background",
+        "type": "group",
+        "children": [
+          {
+            "label": "Color",
+            "name": "color",
+            "type": "color",
+            "default": {
+              "color": "#23d366",
+              "opacity": 100
+            }
+          }
+        ]
+      },
+      {
+        "label": "Border",
+        "name": "group_border",
+        "type": "group",
+        "children": [
+          {
+            "label": "Border",
+            "name": "border",
+            "type": "border",
+            "default": {
+              "top": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "right": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "bottom": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "left": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "label": "Corner",
+        "name": "group_corner",
+        "type": "group",
+        "visibility": {
+          "controlling_field": "whatsapp_display",
+          "controlling_value_regex": "icon",
+          "operator": "NOT_EQUAL"
+        },
+        "children": [
+          {
+            "label": "Radius",
+            "name": "radius",
+            "type": "number",
+            "display": "text",
+            "max": 100,
+            "step": 1,
+            "suffix": "px",
+            "default": "20"
+          }
+        ]
+      },
+      {
+        "label": "Spacing",
+        "name": "group_spacing",
+        "type": "group",
+        "children": [
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "spacing"
+          }
+        ]
+      },
+      {
+        "label": "Hover",
+        "name": "group_hover",
+        "type": "group",
+        "children": [
+          {
+            "label": "Icon",
+            "name": "group_icon",
+            "type": "group",
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color"
+              }
+            ]
+          },
+          {
+            "label": "Text",
+            "name": "group_text",
+            "type": "group",
+            "children": [
+              {
+                "label": "Font",
+                "name": "font",
+                "type": "font",
+                "visibility": {
+                  "hidden_subfields": {
+                    "size": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "label": "Background",
+            "name": "group_background",
+            "type": "group",
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color"
+              }
+            ]
+          },
+          {
+            "label": "Border",
+            "name": "group_border",
+            "type": "group",
+            "children": [
+              {
+                "label": "Border",
+                "name": "border",
+                "type": "border"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

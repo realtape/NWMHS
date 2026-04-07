@@ -1,0 +1,132 @@
+{
+  "accessibility_options.label": {
+    "message": "אפשרויות נגישות",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.decorative": {
+    "message": "דקורטיבי - התעלמות של קורא המסך",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.semantic": {
+    "message": "אינפורמטיבי - הקראה בקורא המסך",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.help_text": {
+    "message": "סווג לקטגוריה את מטרת סמל זה עבור קוראי המסך. <a href='https://www.w3.org/WAI/tutorials/images/' target='_blank' rel='noopener noreferrer'>לפרטים נוספים</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.label": {
+    "message": "מטרה",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.help_text": {
+    "message": "טקסט זה ייקרא על ידי קוראי מסך כדי לתאר את הסמל.",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.label": {
+    "message": "תיאור",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "סמל",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "סמל",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "יישור",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "יישור",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "צבע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "רקע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "פינה",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "רדיוס",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.custom": {
+    "message": "מותאם אישית",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.round": {
+    "message": "עגול",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.square": {
+    "message": "מרובע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.label": {
+    "message": "סגנון",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.color.label": {
+    "message": "צבע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.label": {
+    "message": "מילוי",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "סגנונות",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.label": {
+    "message": "גודל",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.size.label": {
+    "message": "גודל",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "מרווח",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "מרווח",
+    "description": "",
+    "placeholders": null
+  }
+}

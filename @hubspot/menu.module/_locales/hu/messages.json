@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Vízszintes",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Függőleges",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "A vízszintes menüben egymás mellett jelennek meg az elemek, míg a függőlegesben egymás alatt.",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Tájolás",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Keresés",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Az alárendelt menüelemek akkor jelennek meg, ha a fölérendelt elemre viszi a mutatót. Ha ez nincs bejelölve, az alárendelt menüelemek mindig láthatóak lesznek.",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Engedélyezi az úszó paneleket?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "A menüfa a menü elemeit létrehozó oldalstruktúra. Egy menüfa több menüben is használható. Több menüt is létrehozhat bonyolultabb honlapstruktúrákhoz. A menüket a Tartalombeállításokban kezelheti és hozhatja létre.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menü",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Ez megállapítja az alárendelt menüfaelemek számát, amelyeket ki lehet bontani a menüben",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Szintek maximális száma",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Keresés",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menü",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Útkövetés stílusú menü (vízszintes haladási irányú)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinamikus, oldalanként – azokat az oldalakat mutassa a menüben, amelyek kapcsolódnak a megtekintett oldalhoz",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statikus – mindig a legfelső szintű oldalakat mutassa a menüben",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinamikus, szakaszonként – azokat az oldalakat mutassa a menüben, amelyek kapcsolódnak a megtekintett szakaszhoz",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "A speciális menük a menüfa különböző pontjait mutatják attól függően, hogy melyik oldal van megnyitva.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Speciális menü típusa",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Keresés",
+    "description": "",
+    "placeholders": null
+  }
+}

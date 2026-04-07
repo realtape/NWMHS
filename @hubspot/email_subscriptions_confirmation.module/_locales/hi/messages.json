@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "सब्सक्रिप्शन कन्फर्म मैसेज",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "आपने अपनी ईमेल प्रैफरेंसेज को सफलतापूर्वक अपडेट कर लिया है।",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "सब्सक्रिप्शन अपडेट पर मैसेज करें",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "सबहेडर",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "यदि यह आपका ईमेल एड्रेस नहीं है, तो कृपया इस पेज को इग्नोर करें क्योंकि इस पेज से एसोसिएट की गई ईमेल आपको सबसे ज्यादा फॉरवर्ड की गई थी।",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "आपने सभी ईमेल कम्युनिकेशन्स से सफलतापूर्वक अनसब्सक्राइब हो चुके हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "अनसब्सक्राइब पर मैसेज",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "हेडर टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "हेडर",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "प्राथमिकताएँ बटन टेक्स्ट प्रबंधित करें",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "प्रेफेरेंसेस मैनेज करें",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "प्राथमिकताएं प्रबंधित करें अस्वीकरण लौटाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "कोई गलती हो गई? चिंता न करें, आप अपनी प्राथमिकताएँ बदल सकते हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "सिंगल सब्स्क्रिप्शन के अनसबस्क्राइब सफल होने का टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "आपने सफलतापूर्वक इससे अनसबस्क्राइब कर लिया है:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "सब्स्क्रिप्शन प्लेसहोल्डर टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "आपकी चयनित सब्स्क्रिप्शन का प्रकार",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "हेडर हैडिंग लेवल",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "हेडिंग 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "हेडिंग 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "हेडिंग 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "हेडिंग 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "हेडिंग 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "हेडिंग 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "ईमेल हैडिंग लेवल",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "हेडिंग 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "हेडिंग 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "हेडिंग 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "हेडिंग 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "हेडिंग 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "हेडिंग 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "पैराग्राफ",
+    "description": "",
+    "placeholders": null
+  }
+}

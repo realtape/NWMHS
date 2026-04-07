@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Abonnement-Bestätigungsnachricht",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Sie haben Ihre E-Mail-Einstellungen erfolgreich aktualisiert.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Nachricht bei Abonnement-Update",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Unterüberschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Wenn dies nicht Ihre E-Mail-Adresse ist, ignorieren Sie bitte diese Seite, da die mit dieser Seite verknüpfte E-Mail höchstwahrscheinlich an Sie weitergeleitet wurde.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Sie haben sich von sämtlicher E-Mail-Kommunikation abgemeldet.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Nachricht bei Abmelden",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Überschrifttext",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Überschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Text für „Einstellungen verwalten“-Button",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Einstellungen verwalten",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Haftungsausschluss für Rückgabe unter „Einstellungen verwalten“",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Ihnen ist ein Fehler unterlaufen? Keine Sorge, Sie können Ihre Einstellungen ändern.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Text für erfolgreiche Einzelabonnement-Abmeldung",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Sie haben sich erfolgreich abgemeldet von:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Platzhaltertext für Abonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "Ihr ausgewählter Abonnementtyp",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Überschriftenebene der Überschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Überschrift 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Überschrift 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Überschrift 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Überschrift 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Überschrift 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Überschrift 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Überschriftenebene der E-Mail",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Überschrift 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Überschrift 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Überschrift 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Überschrift 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Überschrift 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Überschrift 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Absatz",
+    "description": "",
+    "placeholders": null
+  }
+}

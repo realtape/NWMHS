@@ -4,11 +4,11 @@
   "description": "NWMHS HubSpot CMS — Design Manager mirror",
   "private": true,
   "scripts": {
-    "watch": "hs watch src/ src/ --portal=51307244",
-    "upload": "hs upload src/ src/ --portal=51307244",
-    "fetch": "hs fetch --portal=51307244 --overwrite",
-    "fetch:hubspot": "hs fetch @hubspot/ @hubspot/ --portal=51307244 --overwrite",
-    "lint": "hs lint src/ --portal=51307244"
+    "watch": "hs cms watch src/ src/ --account=NWMHS",
+    "upload": "hs cms upload src/ src/ --account=NWMHS",
+    "fetch": "hs cms fetch src/ src/ --account=NWMHS --overwrite",
+    "fetch:hubspot": "hs cms fetch @hubspot @hubspot --account=NWMHS --overwrite",
+    "list": "hs cms list --account=NWMHS"
   },
   "devDependencies": {
     "@hubspot/cli": "^8.3.0"

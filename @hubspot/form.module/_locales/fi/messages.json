@@ -1,0 +1,62 @@
+{
+  "follow_up_type_automation.label": {
+    "message": "Lisää työnkulkuun",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.label": {
+    "message": "Lähetä seurantasähköposti",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.help_text": {
+    "message": "Jos haluat lähettää seurantasähköpostin, varmista, että Aseta markkinoinnin yhteyshenkilöiksi määritetyt yhteystiedot -asetus on käytössä. Voit tarkistaa asian asetuksista. <a href='https://knowledge.hubspot.com/contacts/set-contacts-as-marketing#set-the-default-marketing-status-for-new-contacts'>Lisätietoja</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "form.default.message": {
+    "message": "Kiitos lomakkeen lähettämisestä.",
+    "description": "",
+    "placeholders": null
+  },
+  "form.label": {
+    "message": "Lomake",
+    "description": "",
+    "placeholders": null
+  },
+  "form_follow_ups_workflow_id.label": {
+    "message": "Työnkulku",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Lomake",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_are_overridden.label": {
+    "message": "Lähetä lomakeilmoituksia määritettyyn sähköpostiosoitteeseen lomakeoletusvaihtoedon sijaan",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_override_email_addresses.label": {
+    "message": "Sähköpostiosoitteet",
+    "description": "",
+    "placeholders": null
+  },
+  "sfdc_campaign.label": {
+    "message": "Salesforce-kampanja",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Lomakeotsikko",
+    "description": "",
+    "placeholders": null
+  },
+  "simple_email_for_live_id.label": {
+    "message": "Sähköposti",
+    "description": "",
+    "placeholders": null
+  }
+}

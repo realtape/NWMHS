@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Налаштування підписки",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Текст кнопки оновлення налаштувань",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Оновити налаштування електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Налаштування комунікації",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Заголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Підзаголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Якщо це не ваша електронна адреса, проігноруйте цю сторінку, оскільки електронне повідомлення, пов’язане з цією сторінкою, швидше за все, було переадресовано вам.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Так, відновіть мою підписку!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Текст кнопки відновлення підписки",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Скасувати підписку на всі ярлики",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Скасувати мою підписку на всі списки розсилки.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Зніміть прапорці поруч з адресами ел. пошти, від яких ви не хочете отримувати листи:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Текст підказки щодо вибору налаштувань",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Або поставте прапорець тут, щоб взагалі не отримувати електронних повідомлень:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Текст довідки «Скасувати всі підписки» ",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Текст довідки «Скасувати всі підписки» для користувача, який наразі скасував підписки",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Наразі ви відмовилися від підписки на всі наші електронні листи. Чи хотіли б ви знову отримувати наші електронні листи?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Текст кнопки індивідуальної підписки",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Скасувати підписку",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Текст підтвердження індивідуальної підписки",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Ви хочете відмовитись від електронних підписок про:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Приклад назви індивідуальної підписки",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "тип підписки, вибраний вами",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "E poštni naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonska številka",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Prenos datoteke",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Povezava sestankov",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Ena od vaših strani",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Povezava do",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Povezava sestankov",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Odpri povezavo v novem zavihku",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Stran",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "HTML v vrstici",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Vsebina gumba",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML, ki bo upodobljen znotraj gumba. Uporabite lahko le oznake, ki so veljavne v <a> oznaki.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Kliknite tukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Odpri povezavo v novem zavihku",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Napredno",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Pravila CSS po meri",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Selektor",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Ta vrednost je združena z izbirnikom CTA. Na primer ':lebdenje' postane ${ctaSelector}:lebdenje",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Slog",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Dodajte CSS po meri za svoje slogovno pravilo. Na primer: obroba-spodnja: 3px solid #3e4d68. barva: rumena;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Razredi CSS po meri",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Svoji CTA povezavi dodajte razrede CSS po meri.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Slogovna tabela CSS po meri",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Svojemu CTA dodajte slogovno tabelo CSS po meri. Na primer: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Uporabite obstoječo oznako",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Zavijte HTML v obstoječo oznako za podporo obstoječemu CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

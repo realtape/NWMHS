@@ -1,0 +1,12 @@
+{% set no_title = True %}
+
+{% if module.form.form_id %}
+	{% form
+    form_key='{{ name }}',
+    form_to_use='{{ module.form.form_id }}',
+    no_title='{{ no_title }}',
+    override_styles={{module.form.styles}}
+	%}
+{% elif is_in_editor %}
+	{% editor_placeholder %}
+{% endif %}

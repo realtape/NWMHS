@@ -1,0 +1,207 @@
+[
+  {
+    "label": "Table heading",
+    "name": "table_heading",
+    "type": "group",
+    "children": [
+      {
+        "label": "Display table heading",
+        "name": "display_heading",
+        "type": "boolean",
+        "default": true,
+        "display": "checkbox"
+      },
+      {
+        "label": "Table heading",
+        "name": "heading",
+        "type": "text",
+        "required": false,
+        "locked": false,
+        "inline_help_text": "Add a heading to the future payments summary table",
+        "default": "Future Payments Summary",
+        "visibility": {
+          "controlling_field": "table_heading.display_heading",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Columns",
+    "name": "columns",
+    "type": "group",
+    "children": [
+      {
+        "label": "Line item name heading",
+        "name": "line_item_name_heading",
+        "type": "text",
+        "default": "Item"
+      },
+      {
+        "label": "Payment summary heading",
+        "name": "payment_summary_heading",
+        "type": "text",
+        "default": "Payment"
+      }
+    ]
+  },
+  {
+    "label": "Default text",
+    "name": "default_text",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "One-time",
+        "name": "one_time",
+        "type": "text",
+        "default": "One-time"
+      },
+      {
+        "label": "/ week",
+        "name": "every_week",
+        "type": "text",
+        "default": "/ week"
+      },
+      {
+        "label": "/ 2 weeks",
+        "name": "every_two_weeks",
+        "type": "text",
+        "default": "/ 2 weeks"
+      },
+      {
+        "label": "/ month",
+        "name": "every_month",
+        "type": "text",
+        "default": "/ month"
+      },
+      {
+        "label": "/ quarter",
+        "name": "every_quarter",
+        "type": "text",
+        "default": "/ quarter"
+      },
+      {
+        "label": "/ 6 months",
+        "name": "every_six_months",
+        "type": "text",
+        "default": "/ 6 months"
+      },
+      {
+        "label": "/ year",
+        "name": "every_year",
+        "type": "text",
+        "default": "/ year"
+      },
+      {
+        "label": "/ 2 years",
+        "name": "every_two_years",
+        "type": "text",
+        "default": "/ 2 years"
+      },
+      {
+        "label": "/ 3 years",
+        "name": "every_three_years",
+        "type": "text",
+        "default": "/ 3 years"
+      },
+      {
+        "label": "/ 4 years",
+        "name": "every_four_years",
+        "type": "text",
+        "default": "/ 4 years"
+      },
+      {
+        "label": "/ 5 years",
+        "name": "every_five_years",
+        "type": "text",
+        "default": "/ 5 years"
+      },
+      {
+        "label": "Day",
+        "name": "day",
+        "type": "text",
+        "default": "day"
+      },
+      {
+        "label": "Days",
+        "name": "days",
+        "type": "text",
+        "default": "days"
+      },
+      {
+        "label": "Week",
+        "name": "week",
+        "type": "text",
+        "default": "week"
+      },
+      {
+        "label": "Weeks",
+        "name": "weeks",
+        "type": "text",
+        "default": "weeks"
+      },
+      {
+        "label": "Month",
+        "name": "month",
+        "type": "text",
+        "default": "month"
+      },
+      {
+        "label": "Months",
+        "name": "months",
+        "type": "text",
+        "default": "months"
+      },
+      {
+        "label": "Payment",
+        "name": "payment",
+        "type": "text",
+        "default": "payment"
+      },
+      {
+        "label": "Payments",
+        "name": "payments",
+        "type": "text",
+        "default": "payments"
+      },
+      {
+        "label": "Future one time date delay",
+        "name": "future_one_time_date_delay",
+        "type": "text",
+        "default": "{{ formatted_price }} on {{ formatted_first_payment_date }}"
+      },
+      {
+        "label": "Future one time relative delay",
+        "name": "future_one_time_relative_delay",
+        "type": "text",
+        "default": "{{ formatted_price }} due {{ billing_delay_period }} {{ billing_delay_unit }} after initial payment"
+      },
+      {
+        "label": "Future recurring relative delay",
+        "name": "future_recurring_relative_delay",
+        "type": "text",
+        "default": "{{ formatted_price }} {{ recurring_frequency }} starting {{ billing_delay_period }} {{ billing_delay_unit }} after initial payment"
+      },
+      {
+        "label": "Future recurring date delay",
+        "name": "future_recurring_date_delay",
+        "type": "text",
+        "default": "{{ formatted_price }} {{ recurring_frequency }} starting on {{ formatted_first_payment_date }}"
+      },
+      {
+        "label": "Future recurring relative delay fixed",
+        "name": "future_recurring_relative_delay_fixed",
+        "type": "text",
+        "default": "{{ formatted_price }} {{ recurring_frequency }} starting {{ billing_delay_period }} {{ billing_delay_unit }} after initial payment for {{ number_of_payments }} {{ payment_pluralized }}"
+      },
+      {
+        "label": "Future recurring date delay fixed",
+        "name": "future_recurring_date_delay_fixed",
+        "type": "text",
+        "default": "{{ formatted_price }} {{ recurring_frequency }} starting on {{ formatted_first_payment_date }} for {{ number_of_payments }} {{ payment_pluralized }}"
+      }
+    ]
+  }
+]

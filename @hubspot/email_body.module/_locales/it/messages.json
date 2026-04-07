@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Corpo e-mail principale",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hi&nbsp;{{contact.firstname}},</p>\n<p>Descrivi cos'hai da offrire ai clienti. Perché dovrebbero leggere? Cos'hai promesso loro nella riga dell'oggetto? Di' loro qualcosa di accattivante. Falli ridere. Falli piangere. Beh, magari questo no …</p>\n<p>Usa un elenco per:</p>\n<ul>\n<li>Spiegare il valore della tua offerta</li>\n<li>Ricordare ai lettori cosa otterranno se eseguiranno delle azioni a riguardo</li>\n<li>Metti in mostra le tue abilità con degli elenchi</li>\n<li>Rendi facile dare un'occhiata ai tuoi contenuti</li>\n</ul>\n<p><a href=\"http://hubspot.com\">LINK A UNA PAGINA DI DESTINAZIONE SUL TUO SITO</a> (Questa parte è molto importante.)</p>\n<p>Ed ora confeziona tutto con un piccolo e conciso promemoria di quanto ci tieni a loro.</p>\n<p>Wow, sei un vero genio con le parole!</p>\n<p>Cordialmente,</p>\n<p>Il tuo nome</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Corpo e-mail",
+    "description": "",
+    "placeholders": null
+  }
+}

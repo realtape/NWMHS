@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "E-postabonnement på blogg",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Som standard brukes den gjeldende bloggen i en bloggmal eller den primære bloggen andre steder.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Velg blogg som skal vises",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Abonner her!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Tittel som skal vises over skjemaet",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "innbygd respons for brukere",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Takk for at du abonnerer!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "For at skjemaet for bloggabonnement skal vises, må du aktivere abonnementer for bloggen din. Dette kan gjøres i innstillinger. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Les mer</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Overskriftsnivå",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Velg et overskriftsnivå. Overskrifter bør flettes på en hierarkisk måte basert på innholdet ditt. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Mer informasjon</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Abo-Einstellungen",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Text für „Einstellungen aktualisieren“-Button",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Einstellungen aktualisieren",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Kommunikationseinstellungen",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Überschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Unterüberschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Wenn dies nicht Ihre E-Mail-Adresse ist, ignorieren Sie bitte diese Seite, da die mit dieser Seite verknüpfte E-Mail höchstwahrscheinlich an Sie weitergeleitet wurde.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Ja, erneut abonnieren!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Text für „Erneut abonnieren“-Button",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Beschriftung für „Alle Abonnements abbestellen“",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Ich möchte von allen Mailing-Listen abgemeldet werden.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Deaktivieren Sie die Typen von E-Mails, die Sie nicht erhalten möchten:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Hilfetext zur Auswahl von Einstellungen",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Oder klicken Sie hier, um niemals E-Mails zu erhalten:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Hilfetext für „Alle Abonnements abbestellen“",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Hilfetext für „Alle Abonnements abbestellen“ für einen aktuell abgemeldeten Benutzer",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Sie sind derzeit von allen unseren E-Mails abgemeldet. Möchten Sie unsere E-Mails erneut erhalten?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Text für „Einzelabonnement“-Button",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Abmelden",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Bestätigungstext für Einzelabonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Möchten Sie sich von folgenden E-Mails abmelden:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Beispielname für Einzelabonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "Ihr ausgewählter Abonnementtyp",
+    "description": "",
+    "placeholders": null
+  }
+}

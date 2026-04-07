@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Razdjelnik",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Poravnanje",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Sredina",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Lijevo",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Desno",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Boja",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Visina",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Vrsta linije",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Isprekidano",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Točkasto",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Ispunjeno",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Odmak",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maksimalno 20 piksela",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Prikaži podstavu?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Širina",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Postotak područja u koje je umetnut razdjeljivač.",
+    "description": "",
+    "placeholders": null
+  }
+}

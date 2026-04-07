@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Pictogram voor toevoegen",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Koppeling voor knop",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Overig",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Een betaallink gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Knop-target",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Checkout",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Knoptekst",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "In een nieuw tabblad openen",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Glijdende overlay",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Afrekengedrag",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Afrekenen afsluiten",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Links",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Positie",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Betaallink",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Uitlijning",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Uitlijning",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Achtergrond",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Hoek",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Achtergrond",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Rand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Aanwijzen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Grootte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Spatie tussen het pictogram en de knoptekst.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stijlen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Lettertype",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Hoofdletter gebruiken",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Kleine letters",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Hoofdletters",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Transformeren",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  }
+}

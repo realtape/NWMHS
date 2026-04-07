@@ -1,0 +1,199 @@
+<!--
+  templateType: drag_drop_email
+  isAvailableForNewContent: false
+  -->
+
+  {#
+    This 2FA delete request email is sent to customers who have requested to delete their data by clicking the button
+    in the delete_data.module. The delete_data.module is addable to the CMS subscription preferences page.
+
+    If users click the button in this email they will be brought to a static webpage where their delete request will be sent.
+
+    Please note it is not currently possible to edit this email template.
+    However, you can update your portals brand logo in Settings > Website > Pages > Branding and this logo will appear at the
+    top of this email.
+  #}
+
+  {% set template_translations = load_translations("../_locales", html_lang, "en") %}
+
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+    <head>
+      <title>{{ template_translations.privacy_center_2FA_email_title.message }}</title>
+      <meta property="og:title" content="{% if content.html_title and content.html_title != '' %}{{ content.html_title }}{% else %}{{ content.body.subject }}{% endif %}">
+      <meta name="twitter:title" content="{% if content.html_title and content.html_title != '' %}{{ content.html_title }}{% else %}{{ content.body.subject }}{% endif %}">
+      {% if content.meta_description %}<meta name="description" content="{{ content.meta_description }}" />{% endif %}
+      {% style_settings is_json=True %}
+      {"background_color":"#f4f7f9","body_border_color":"#EAF0F6","body_border_width":"1","body_border_color_choice":"BORDER_MANUAL","body_color":"#ffffff","use_email_client_default_settings":false,"primary_font":"Trebuchet MS, sans-serif","primary_font_color":"#000000","primary_font_size":"14","secondary_font":"Arial, sans-serif","secondary_font_color":"#23496d","secondary_font_size":"12","heading_one_font":{"font":"Merriweather,Georgia,sans-serif","size":"28"},"heading_two_font":{"size":"22"},"links_font":{"color":"#415069","underline":true,"bold":false,"italic":false},"user_module_defaults":{"button_email":{"background_color":"#415069","corner_radius":0,"font":"Trebuchet MS, sans-serif","font_size":16,"font_color":"#ffffff","font_style":{"color":"#ffffff","font":"Trebuchet MS, sans-serif","size":{"units":"px","value":16},"styles":{"bold":true,"italic":false,"underline":false,"font-weight":"bold"}}},"email_divider":{"height":1,"color":{"color":"#23496d","opacity":100},"line_type":"solid"}}}
+      {% end_style_settings %}
+      {{ email_standard_header_includes }}
+      {{ outlook_header_includes }}
+      {{ resets_stylesheet }}
+      {{ main_stylesheet }}
+      {{ overrideable_stylesheet }}
+    </head>
+    <body id="hs_body" bgcolor="{{style_settings.background_color}}">
+      {{ preview_snippet }}
+      {{ outlook_background_snippet }}
+      <div class="hse-body-background">
+        <table role="presentation" class="hse-body-wrapper-table" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="hse-body-wrapper-td" valign="top">
+              {% dnd_area "main", full_width=False %}
+
+              {# =====================
+                Header logo
+              ====================== #}
+
+                {% dnd_section
+                  padding={
+                  "top":"10",
+                  "bottom":"10"
+                  },
+                  full_width=False,
+                  background_color="{{style_settings.body_color}}"
+                %}
+                  {% dnd_column width=12 %}
+                    {% dnd_module path="@hubspot/image_email",
+                      css_class="dnd-module",
+                      schema_version=2,
+                      img={
+                        "alt": brand_settings.primaryLogo.alt,
+                        "height": 72,
+                        "src": brand_settings.primaryLogo.src,
+                        "width": 240
+                      },
+                      alignment="center",
+                    %}
+                    {% end_dnd_module %}
+                  {% end_dnd_column %}
+                {% end_dnd_section %}
+
+                {% dnd_section
+                  padding={
+                    "top":"30",
+                    "bottom":"30"
+                  },
+                  full_width=False
+                  background_color="{{style_settings.body_color}}"
+                %}
+                  {% dnd_column width=12 %}
+
+                    {% dnd_module path="@hubspot/email_divider",
+                      color={
+                        "color":"#EAF0F6",
+                        "opacity":100
+                      },
+                      line_type="solid",
+                      height=1,
+                      width=100
+                    %}
+                    {% end_dnd_module %}
+
+                    {# =====================
+                      Header message
+                    ====================== #}
+
+                    {% dnd_module path="@hubspot/rich_text" %}
+                      {% module_attribute "html" %}
+                        <h1 style="text-align: center; font-family: 'Arial';">
+                          {{ template_translations.privacy_center_2FA_email_heading.message }}
+                        </h1>
+                      {% end_module_attribute %}
+                    {% end_dnd_module %}
+
+                    {% dnd_module path="@hubspot/email_divider",
+                      color={
+                        "color":"#EAF0F6",
+                        "opacity":100
+                      },
+                      line_type="solid",
+                      height=1,
+                      width=100
+                    %}
+                    {% end_dnd_module %}
+
+                    {# =====================
+                      Email body
+                    ====================== #}
+
+                    {% dnd_module path="@hubspot/rich_text" %}
+                      {% module_attribute "html" %}
+                        <p style="line-height: 175%; padding-left: 10px; padding-bottom: 10px; font-size: 16px; font-family: 'Arial';">
+                            {{ template_translations.privacy_center_2FA_email_para1.message }}
+                        </p>
+                        <p style="line-height: 175%; padding-left: 10px; padding-bottom: 10px; font-size: 16px; font-family: 'Arial';">
+                            {{ template_translations.privacy_center_2FA_email_para2.message }}
+                        </p>
+                        <ul style="list-style: none; line-height: 175%; padding-left: 20px; font-size: 16px; font-family: 'Arial';">
+                          <li>{{ template_translations.privacy_center_2FA_email_loaction_list1.message }}</li>
+                          <li>{{ template_translations.privacy_center_2FA_email_loaction_list2.message }}</li>
+                        </ul>
+                        <p style="line-height: 175%; padding-left: 10px; font-size: 16px; font-family: 'Arial';">
+                            {{ template_translations.privacy_center_2FA_email_para3.message }}
+                        </p>
+                      {% end_module_attribute %}
+                    {% end_dnd_module %}
+
+                    {# =====================
+                      Email button
+                    ====================== #}
+
+                    {% dnd_module path="@hubspot/button_email",
+                      background_color="#F2545B",
+                      corner_radius=4,
+                      font_color="#ffffff",
+                      font_size=16,
+                      destination="{{ contact_delete_link }}",
+                      text="{{ template_translations.privacy_center_2FA_email_button_text.message }}",
+                      hs_enable_module_padding=True,
+                      hs_wrapper_css={
+                        "padding-left":"20px",
+                        "padding-right":"20px",
+                        "padding-top":"20px",
+                        "padding-bottom":"10px"
+                      },
+                    %}
+                      {% module_attribute "font_style" is_json=True %}{"color":"#ffffff","font":"Arial","size":{"units":"px","value":16},"styles":{"bold":true,"italic":false,"underline":false}}{% end_module_attribute %}
+                    {% end_dnd_module %}
+
+                    {% dnd_module path="@hubspot/rich_text" %}
+                      {% module_attribute "html" %}
+                        <p style="font-size: 16px; font-family: 'Arial'; text-align: center;">
+                          <small style="color: #5e5c5c;">
+                            &#40;{{ template_translations.privacy_center_2FA_email_expiration_warning_text.message }}&#41;
+                          </small>
+                        </p>
+                      {% end_module_attribute %}
+                    {% end_dnd_module %}
+
+                  {% end_dnd_column %}
+                {% end_dnd_section %}
+
+                {# =====================
+                  Footer
+                ====================== #}
+
+                {% dnd_section
+                  full_width=False,
+                  background_color="#F5F8FA"
+                %}
+                  {% dnd_column width=12 %}
+                    {% dnd_module path="@hubspot/rich_text"%}
+                      {% module_attribute "html" %}
+                        <p style="font-size: 16px; font-family: 'Arial'; text-align: center;">
+                          <small style="color: #5e5c5c;">
+                            {{ template_translations.privacy_center_2FA_email_footer.message }}
+                          </small>
+                        </p>
+                      {% end_module_attribute %}
+                    {% end_dnd_module %}
+                  {% end_dnd_column %}
+                {% end_dnd_section %}
+              {% end_dnd_area %}
+            </td>
+          </tr>
+        </table>
+      </div>
+    </body>
+  </html>

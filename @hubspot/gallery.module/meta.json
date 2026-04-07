@@ -1,0 +1,25 @@
+{
+  "label": "Image Gallery",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/gallery-module-icon.svg",
+  "inline_help_text": "This module has been deprecated in favor of two new and improved modules, Image Slider, and Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Learn more.</a>",
+  "extra_classes": "widget-type-gallery",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "is_available_for_new_content": false,
+  "categories": ["media"],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

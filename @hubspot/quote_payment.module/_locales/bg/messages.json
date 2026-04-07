@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Плати сега",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Текст на бутона за плащане",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Уверете се, че е ясно, че щракването върху този бутон ще позволи на вашия клиент да плати.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Възникна проблем при финализирането на покупката. Свържете се с лицето, което ви е изпратило тази оферта.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Съобщение за грешка на финализиране на покупката",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Кажете на клиента си какво да направи, когато има проблем със стартирането на плащането.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Изберете ниво на заглавие. H1 е най-голямото, следвано от H2 и т.н.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Ниво на заглавие",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Плащане",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Съдържание на заглавие",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Направете първо плащане:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Вашият клиент ще вижда това в бутона за плащане, докато не плати първата вноска.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Текст на бутона за графици на плащане",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Плащане",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Плащането не може да бъде извършено, тъй като офертата не е изцяло подписана.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Текст с обяснение, когато са необходими подписи",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Ако преди плащане се изисква подпис, Вашият клиент ще вижда това съобщение, докато не бъдат направени всички необходими подписи.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Платено",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Текст за платено",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Платено в [[ paid_time ]] на [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Обработване на плащането",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Текст за обработка на плащане",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Възникна проблем при зареждане на състоянието на плащане за тази оферта. Опитайте да обновите страницата.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Съобщение за грешка на състоянието на плащане",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Кажете на клиента си да опресни страницата, когато извличането на състоянието на плащането бъде неуспешно.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Това е пробна оферта, така че не може да събират истински плащания.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Можете да решите дали искате да събирате плащане, когато създавате оферта с този шаблон.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "За да финализирате поръчката, моля свържете се с лицето, което Ви е изпратило тази оферта.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,238 @@
+{# Module styles #}
+
+{% macro set_border_top_sides(module_style) %}
+  {% set border_width = module_style.top.width.value ~ module_style.top.width.units %}
+  {% set border_style = module_style.top.style %}
+  {% set border_color = module_style.top.color|convert_rgb %}
+  {% set border_opacity = module_style.top.opacity %}
+  border-top: {{ border_width }} {{ border_style }} rgba({{ border_color }}, {{ border_opacity / 100 }});
+  border-left: {{ border_width }} {{ border_style }} rgba({{ border_color }}, {{ border_opacity / 100 }});
+  border-right: {{ border_width }} {{ border_style }} rgba({{ border_color }}, {{ border_opacity / 100 }});
+{% endmacro %}
+
+{% macro set_border_bottom(module_style) %}
+  {% set border_width = module_style.bottom.width.value ~ module_style.bottom.width.units %}
+  {% set border_style = module_style.bottom.style %}
+  {% set border_color = module_style.bottom.color|convert_rgb %}
+  {% set border_opacity = module_style.bottom.opacity %}
+  border-bottom: {{ border_width }} {{ border_style }} rgba({{ border_color }}, {{ border_opacity / 100 }});
+{% endmacro %}
+
+{% set active_style = module.styles.tabs.active %}
+{% set active_bg_color = active_style.background.color %}
+{% set active_font = active_style.text.font %}
+{% set inactive_style = module.styles.tabs.inactive %}
+{% set inactive_bg_color = inactive_style.background.color %}
+{% set inactive_font = inactive_style.text.font %}
+{% set hover_style = module.styles.tabs.hover %}
+{% set hover_bg_color = hover_style.background.color %}
+{% set hover_font = hover_style.text.font %}
+
+{% require_css %}
+  <style>
+  {% scope_css %}
+    {# Tabs wrapper #}
+
+    .hs-tabs-wrapper {
+      {{ module.styles.tabbed_card.spacing.spacing.css }}
+      {{ module.styles.tabbed_card.border.border.css }}
+    }
+
+    {# Tabs #}
+
+    .hs-tabs__tab {
+      {% if module.styles.tabs.spacing.spacing %}
+        {{ module.styles.tabs.spacing.spacing.css }}
+      {% endif %}
+    }
+
+    {# Active tab #}
+
+    .hs-tabs__tab[aria-selected='true'] {
+
+      {% if active_style.group_top_sides.top_sides.css %}
+        {{ set_border_top_sides(active_style.group_top_sides.top_sides) }}
+      {% endif %}
+
+      {% if active_style.group_bottom.bottom.css %}
+        {{ set_border_bottom(active_style.group_bottom.bottom) }}
+      {% endif %}
+
+      {% if active_bg_color.color %}
+        background-color: rgba({{ active_bg_color.color|convert_rgb }}, {{ active_bg_color.opacity / 100 }});
+      {% endif %}
+      {% if active_font.color %}
+        color: {{ active_font.color }};
+      {% endif %}
+      {% if active_font.size %}
+        font-size: {{ active_font.size ~ active_font.size_unit }};
+      {% endif %}
+      {% if active_font.style %}
+        {{ active_font.style }};
+      {% endif %}
+    }
+
+    {# Applies border to pseudo element to prevent jitter when hovering #}
+
+    .hs-tabs__tab[aria-selected='true']:after {
+      {% if active_style.group_bottom.bottom.css %}
+        {{ set_border_bottom(active_style.group_bottom.bottom) }}
+      {% else %}
+        border-bottom: 2px solid;
+      {% endif %}
+    }
+
+    {# Inactive tabs #}
+
+    .hs-tabs__tab[aria-selected='false'] {
+      {% if inactive_style.group_top_sides.top_sides.css %}
+        {{ set_border_top_sides(inactive_style.group_top_sides.top_sides) }}
+      {% endif %}
+
+      {% if inactive_style.group_bottom.bottom.css %}
+        {{ set_border_bottom(inactive_style.group_bottom.bottom) }}
+      {% endif %}
+      {% if inactive_bg_color.color %}
+        background-color: rgba({{ inactive_bg_color.color|convert_rgb }}, {{ inactive_bg_color.opacity / 100 }});
+      {% endif %}
+      {% if inactive_font.color %}
+        color: {{ inactive_font.color }};
+      {% endif %}
+      {% if inactive_font.size %}
+        font-size: {{ inactive_font.size ~ inactive_font.size_unit }};
+      {% endif %}
+      {% if inactive_font.style %}
+        {{ inactive_font.style }};
+      {% endif %}
+    }
+
+    {# Applies border to pseudo element to prevent jitter when hovering #}
+
+    .hs-tabs__tab[aria-selected='false']:after {
+      {% if inactive_style.group_bottom.bottom.css %}
+        {{ set_border_bottom(inactive_style.group_bottom.bottom) }}
+      {% endif %}
+    }
+
+    {# Tab hover #}
+
+    .hs-tabs__tab[aria-selected='false']:hover,
+    .hs-tabs__tab[aria-selected='false']:focus {
+      {% if hover_style.group_top_sides.top_sides.css %}
+        {{ set_border_top_sides(inactive_style.group_top_sides.top_sides) }}
+      {% endif %}
+
+      {% if hover_style.group_bottom.bottom.css %}
+        {{ set_border_bottom(hover_style.group_bottom.bottom) }}
+      {% endif %}
+      {% if hover_bg_color.color %}
+        background-color: rgba({{ hover_bg_color.color|convert_rgb }}, {{ hover_bg_color.opacity / 100 }});
+      {% endif %}
+      {% if hover_font.color %}
+        color: {{ hover_font.color }};
+      {% endif %}
+      {% if hover_font.size %}
+        font-size: {{ hover_font.size ~ hover_font.size_unit }};
+      {% endif %}
+      {% if hover_font.style %}
+        {{ hover_font.style }};
+      {% endif %}
+    }
+
+    .hs-tabs__tab[aria-selected='false']:hover:after,
+    .hs-tabs__tab[aria-selected='false']:focus:after {
+      {% if hover_style.group_bottom.bottom.css %}
+        {{ set_border_bottom(hover_style.group_bottom.bottom) }}
+      {% endif %}
+    }
+
+    {# Tab content #}
+
+    .hs-tabs__content {
+      {{ module.styles.content.border.border.css }}
+      {% if module.styles.content.background.color.css %}
+        background-color: {{ module.styles.content.background.color.css }};
+      {% endif %}
+    }
+
+    .hs-tabs__content__panel {
+      {{ module.styles.content.spacing.spacing.css }}
+      {% if module.fixed_height %}
+        margin-right: -100%;
+        visibility: hidden;
+      {% else %}
+        display: none;
+      {% endif %}
+    }
+
+    .hs-tabs__content__panel--visible {
+      {% if module.fixed_height %}
+        visibility: visible;
+      {% else %}
+        display: block;
+      {% endif %}
+    }
+
+  {% end_scope_css %}
+  </style>
+{% end_require_css %}
+
+{# Tabs module #}
+<section class="hs-tabs-wrapper">
+
+  {# Tab #}
+  <div class="hs-tabs">
+    <button class="hs-tabs__nudge hs-tabs__nudge--left" aria-label="{{ module.default_text.left_nudge_button_label|escape_attr }}">
+      {% icon "prev_icon"
+        extra_classes="hs-tabs-nudge-icon",
+        name="angle-left",
+        purpose="decorative",
+        style="SOLID",
+        unicode="f105"
+      %}
+    </button>
+    <div class="hs-tabs__scroll" >
+      <div class="hs-tabs__tab-wrapper" role="tablist" aria-label="{{ module.default_text.tabs_list_aria_label|escape_attr }}">
+        {% for tab in module.tabs %}
+          <button
+            class="hs-tabs__tab"
+            role="tab"
+            aria-selected="{{ "true" if loop.first else "false" }}"
+            aria-controls="hs-tabs__content__panel-{{ loop.index|escape_attr }}--{{ name|escape_attr }}"
+            id="hs-tabs__tab-{{ loop.index|escape_attr }}--{{ name|escape_attr }}"
+            {{ 'tabindex="-1"' if !loop.first }}
+          >
+            {{ tab.tab_label|render|sanitize_html }}
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+    <button class="hs-tabs__nudge hs-tabs__nudge--right" aria-label="{{ module.default_text.right_nudge_button_label|escape_attr }}">
+      {% icon "next_icon"
+        extra_classes="hs-tabs-nudge-icon",
+        name="angle-right",
+        purpose="decorative",
+        style="SOLID",
+        unicode="f105"
+      %}
+    </button>
+  </div>
+
+  {# Tab content #}
+  {% set hidden_class = "" %}
+  <div class="hs-tabs__content">
+    {% for tab in module.tabs %}
+      {% set hidden_class = "hs-tabs__content__panel--visible" if loop.first %}
+      <div
+        class="hs-tabs__content__panel {{ hidden_class|escape_attr }}"
+        tabindex="0"
+        role="tabpanel"
+        id="hs-tabs__content__panel-{{ loop.index|escape_attr }}--{{ name|escape_attr }}"
+        aria-labelledby="hs-tabs__tab-{{ loop.index|escape_attr }}--{{ name|escape_attr }}"
+      >
+        {{ tab.content }}
+      </div>
+    {% endfor %}
+  </div>
+
+</section>

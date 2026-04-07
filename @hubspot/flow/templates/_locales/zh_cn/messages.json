@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "此报价已过期",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "报价 {{ personalization_token('quote.hs_quote_number', '') }} 已在 {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }} 过期。",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "请<a href='#'>联系你的销售代表</a>以了解详情。",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "结算频率",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "单位价格",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "价格",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "产品和服务",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "数量",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "执行<br>摘要",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "条款和条件",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "评论",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "项目<br>验收",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "子标题",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "我们的<br>故事",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "我们热爱<br>自己的工作",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "客户<br>评价",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "项目<br>摘要",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "我们的目标",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "工作<br>声明",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "项目<br>估算值",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>合同",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "客户：",
+    "description": "",
+    "placeholders": null
+  }
+}

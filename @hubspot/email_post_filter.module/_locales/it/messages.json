@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filtro articolo",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Visualizza tutto",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Testo da visualizzare se sono disponibili più valori rispetto al valore massimo da visualizzare. Lascia il campo vuoto per omettere il link",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "L'impostazione predefinita userà il blog corrente quando usata in un modello di blog o il blog principale quando usata altrove.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Seleziona il blog da visualizzare",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Numero massimo di valori del filtro da visualizzare. Lascia il campo vuoto per mostrare tutto",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Elenco di valori per i link del filtro",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tag",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autori",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Mesi",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Post per tag",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Elenca i titoli da visualizzare",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nome",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Numero di post",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordinamento dei valori per i link del filtro",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Mostra tutti i filtri",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Empfängerunternehmen",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.default": {
+    "message": "Vorbereitet für:",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.label": {
+    "message": "Empfängerunternehmen, Text",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_address.label": {
+    "message": "Empfängerunternehmen, Hauptadresse",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_city_state_zip.label": {
+    "message": "Empfängerunternehmen, Stadt, Bundesland und Postleitzahl",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_country.label": {
+    "message": "Empfängerunternehmen, Land",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_name.label": {
+    "message": "Empfängerunternehmen, Name",
+    "description": "",
+    "placeholders": null
+  }
+}

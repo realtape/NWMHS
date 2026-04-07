@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "디바이더",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "정렬",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "가운데",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "왼쪽",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "오른쪽",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "높이",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "라인 유형",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "파선",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "점선",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "실선",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "채우기",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "최대 20픽셀",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "여백을 표시할까요?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "너비",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "디바이더가 위치한 영역의 비율",
+    "description": "",
+    "placeholders": null
+  }
+}

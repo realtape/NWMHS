@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "מסנן פוסטים",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "ראה הכול",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "טקסט להצגה אם יש יותר מהערך המקסימלי להצגה. השאר ריק כדי להשמיט את הקישור",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "אפשרות ברירת המחדל תשתמש בבלוג הנוכחי בעת השימוש בתבנית בלוג, או בבלוג הראשי בשימוש בכל מקום אחר.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "בחר בלוג להצגה",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "מספר מרבי של ערכי סינון להצגה",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "חיפוש",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "רשימת ערכים לקישורי מסנן",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "תגיות",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "מחברים",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "חודשים",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "פוסטים לפי תגית",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "כותרת רשימה להצגה",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "שם",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "ספירת פוסטים",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "חיפוש",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "סדר ערכים לקישורי מסנן",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "הצגת כל המסננים",
+    "description": "",
+    "placeholders": null
+  }
+}

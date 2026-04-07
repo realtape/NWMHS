@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Resource unit",
+    "name": "resource",
+    "type": "group",
+    "default": { "resource_title": "Resource unit" },
+    "occurrence": {
+      "min": 0,
+      "max": 6
+    },
+    "expanded": true,
+    "children": [
+      {
+        "label": "Icon",
+        "name": "resource_icon",
+        "type": "image",
+        "default": {
+          "width": "125",
+          "height": "125",
+          "src": "https://7303166.fs1.hubspotusercontent-na1.net/hubfs/7303166/Flow/project-management.png",
+          "alt": "Resource icon"
+        }
+      },
+      {
+        "label": "Description",
+        "name": "resource_description",
+        "type": "richtext",
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit faucibus pellentesque justo.",
+        "enabled_features": [
+          "colors",
+          "fonts",
+          "standard_emphasis",
+          "personalize"
+        ]
+      }
+    ]
+  }
+]

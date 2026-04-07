@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logotyp",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logotyp",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Maxhöjd på logotyp",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Detta gäller inte när standardlogotypen skrivs över",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Du kan välja att åsidosätta logotypen som gäller denna mall genom att använda denna växlingsknapp.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Åtsidosätt standardlogotyp",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Som standard kommer dina offerter att visa din företagslogotyp från din Brand Kit i Kontostandarder eller Inställningar för webbplatssidor.",
+    "description": "",
+    "placeholders": null
+  }
+}

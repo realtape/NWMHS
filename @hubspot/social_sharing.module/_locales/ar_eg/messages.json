@@ -1,0 +1,142 @@
+{
+  "email.custom_link_format.default": {
+    "message": "mailto:?subject=Check out {{ social_link_url|urlencode }} &body=Check out {{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email.custom_link_format.label": {
+    "message": "الرابط",
+    "description": "",
+    "placeholders": null
+  },
+  "email.enabled.label": {
+    "message": "هل تم التمكين؟",
+    "description": "",
+    "placeholders": null
+  },
+  "email.label": {
+    "message": "البريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.custom_link_format.default": {
+    "message": "http://www.facebook.com/share.php?u={{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.custom_link_format.label": {
+    "message": "الرابط",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.enabled.label": {
+    "message": "هل تم التمكين؟",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.label": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "هذا هو رابط الوجهة الذي سيتم اختصاره لمشاركة أسهل على الشبكات الاجتماعية.",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "عنوان URL للرابط",
+    "description": "",
+    "placeholders": null
+  },
+  "link.placeholder": {
+    "message": "عنوان URL لصفحة مخصصة اختيارية",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.custom_link_format.default": {
+    "message": "http://www.linkedin.com/shareArticle?mini=true&url={{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.custom_link_format.label": {
+    "message": "الرابط",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.enabled.label": {
+    "message": "هل تم التمكين؟",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.label": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "المشاركة الاجتماعية",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.custom_link_format.default": {
+    "message": "http://pinterest.com/pin/create/button/?url={{ social_link_url|urlencode }}&media={{ pinterest_media }}",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.custom_link_format.label": {
+    "message": "الرابط",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.enabled.label": {
+    "message": "هل تم التمكين؟",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.label": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.pinterest_media.label": {
+    "message": "تثبيت الصورة",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.custom_link_format.default": {
+    "message": "https://twitter.com/intent/tweet?original_referer={{ social_link_url|urlencode }}&url={{ social_link_url|urlencode }}&source=tweetbutton&text={{ social_page_title|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.custom_link_format.label": {
+    "message": "الرابط",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.enabled.label": {
+    "message": "هل تم التمكين؟",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.label": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.label": {
+    "message": "أيقونة Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.choices.twitter": {
+    "message": "شعار Twitter على شكل عصفور",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.choices.x-twitter": {
+    "message": "Twitter X",
+    "description": "",
+    "placeholders": null
+  }
+}

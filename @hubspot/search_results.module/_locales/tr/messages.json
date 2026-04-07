@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Site Arama Sonuçları",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Öne çıkan görseli görüntüle",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Üzgünüz. [[search_term]] için sonuç bulunamadı.</p><p>Sorgunuzu yeniden ifade etmeyi deneyin veya sitemize göz atın.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Önceki sayfa",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Sonraki sayfa",
+    "description": "",
+    "placeholders": null
+  }
+}

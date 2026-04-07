@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "總計",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "現在到期",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "若報價包含有未來付款，這會用於標記報價總額。",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "現在到期文字",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "總計",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "總計文字",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "合約總值",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "自訂文字以準確描述此值。(如果未設定期限，則預設值為年度值。)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "合約總值文字",
+    "description": "",
+    "placeholders": null
+  }
+}

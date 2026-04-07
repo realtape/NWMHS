@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Post filter",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Se alt",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Tekst som vises hvis mer enn maksimumverdien som kan vises, er tilgjengelig. La være blank for å utelate kopling",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Som standard brukes den gjeldende bloggen i en bloggmal eller den primære bloggen andre steder.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Velg blogg som skal vises",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maks antall filterverdier å vise. La være blank for å vise alle",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Søk",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Liste over verdier for filterkoblinger",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Merker",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Forfattere",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Måneder",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Innlegg etter merke",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Vis titler som skal vises",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Navn",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Antall inlegg",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Søk",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Sortering av verdier for filterkoplinger",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Vis alle filtre",
+    "description": "",
+    "placeholders": null
+  }
+}

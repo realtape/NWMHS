@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Страницата не е намерена",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Не можем да намерим страницата, която търсите.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Към началната страница",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Тази страница не работи",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Възникна вътрешна грешка в сървъра, но ние работим по случая!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Към началната страница",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Лого на компанията",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Предпочитанията ви за имейли бяха актуализирани.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Успешно прекратихте абонамента си за всички имейл съобщения.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Предпочитанията ви за имейли бяха актуализирани.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "Актуализирай предпочитанията за имейли за",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Изберете какви имейли искате да получавате от {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Изберете кои имейли бихте искали да получавате от {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Изберете език",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Актуализиране на имейл предпочитанията",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Прекрати абонамента за всички имейли",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Ако това не е вашият адрес, най-вероятно ви е препратен имейл от някой друг, и можете спокойно да игнорирате това съобщение.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "В момента сте с прекратен абонамент за всички наши имейли. Желаете ли да получавате отново нашите имейли?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Да, искам да подновя абонамента си!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Изисква се парола",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Моля, въведете вашата паролата си, за да видите тази страница.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Парола",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Резултати от търсене за “[[search_term]]”",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Съжаляваме, но нямате достъп",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Нямате разрешение да видите тази страница. За въпроси се обръщайте към администратора на сайта.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Към началната страница",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Влизане",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Страницата, която се опитвате да видите, е достъпна само за регистрирани потребители.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "Имейл",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Парола",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Запомни ме",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Забравена парола?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Влизане",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Покажи",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Имате проблеми? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Свържете се с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Вие сте излезли",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Влезте отново",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Или се върнете в <a href=\"{{ '//' ~ request.domain }}\">началната страница</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Настройте паролата си",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Добре дошли! Завършете регистрацията си, като зададете парола.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "Имейл",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Повторете паролата",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Парола",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Записване на парола",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Покажи",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Имате проблеми? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Свържете се с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Подновяване на вашата парола",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Въведете имейл адреса, който сте използвали за регистрация, и ние ще ви изпратим имейл с връзка за подновяване на паролата ви.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "Имейл",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Изпращане на имейл за подновяване",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Току-що ти се върна при вас? <a href=\"/_hcms/mem/login\">Влизане</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Имате проблеми? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Свържете се с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "Беще изпратен имейл за подновяване на паролата",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Ако е намерен съвпадащ акаунт за {{ user_email }}, е изпратен имейл със следващи стъпки за нулиране на паролата Ви. Моля, <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">свържете се с администратора,</a> ако не го получите до 20 минути.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Изпрати друг имейл за подновяване",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Създай нова парола",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Вашата нова парола трябва да е различна от предишната ви парола.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Нова парола",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Повторете новата парола",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Записване на парола",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Покажи",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Имате проблеми? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Свържете се с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Вашият имейл адрес е потвърден.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Благодарим Ви, че потвърдихте имейл адреса си. Сега можете да се впишете в профила си и да имате достъп до ексклузивното съдържание за Вас.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Влизане",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Имате проблеми? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Свържете се с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Изпратена е връзка за еднократно влизане",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Изпратихме ви имейл на {{ user_email }}. Има връзка, чрез която ще влезете.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Ако не можете да видите имейла, моля, проверете папката си със спам.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Повторно изпращане на връзка за вход",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "или",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Вместо това влезте с парола",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Имате проблеми? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Свържете се с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Потвърдете имейл адреса си",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Благодарим ви, че се регистрирахте! Проверете имейла си и щракнете върху връзката за потвърждение, за да завършите регистрацията.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Имате проблеми? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Свържете се с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Създайте парола, за да завършите регистрацията",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Последна стъпка! След като създадете своята сигурна парола, ще можете да влезете и да получите достъп до съдържанието в {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Създай парола",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Или копирайте и поставете тази връзка в браузъра:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Ако имате въпроси или получавате това по погрешка, <a href=\"{{ membership_website_admin }}\">се свържете с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Подновяване на вашата парола",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Задайте нова парола и влезте в профила си",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Подновяване на парола",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Ако не Вие сте подали тази заявка, просто игнорирайте този имейл.<br/> Ако имате въпроси, <a href=\"{{ membership_website_admin }}\">се свържете с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Влезте с еднократна връзка",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Продължете да влизате в акаунта си. За ваша сигурност тази връзка ще изтече след 15 минути.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Влизане",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Или копирайте и поставете тази връзка в браузъра:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Ако не Вие сте подали тази заявка, просто игнорирайте този имейл.<br/> Ако имате въпроси, <a href=\"{{ membership_website_admin }}\">се свържете с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Паролата Ви {{ membership_company_name }} е успешно сменена",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Не сте искали да направите тази промяна? Използвайте формата за <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">забравена парола</a>, за да подновите паролата си сега.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Ако имате въпроси, <a href=\"{{ membership_website_admin }}\">се свържете с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Регистрацията Ви е завършена",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Благодарим Ви за регистрацията! Всичко е готово. Сега можете да влезете, за да получите достъп и да отключите още повече стойност.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Впишете се в новия си профил",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Ако имате въпроси или получавате това по погрешка, <a href=\"{{ membership_website_admin }}\">се свържете с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Добре дошли в {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Завършете регистрацията си, като създадете сигурна парола за профила си",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Създай парола",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Или копирайте и поставете тази връзка в браузъра:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Ако имате въпроси или получавате това по погрешка, <a href=\"{{ membership_website_admin }}\">се свържете с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Потвърдете имейл адреса си",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Благодарим Ви, че се регистрирахте! Ще трябва да потвърдите имейл адреса си, за да завършите регистрацията за {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Потвърдете имейл адреса си",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Ако имате въпроси или получавате това по погрешка, <a href=\"{{ membership_website_admin }}\">се свържете с администратора на сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Моля, потвърдете заявката си за изтриване",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Потвърдете заявката си за изтриване",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Здравей, {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Полуихме заявка за изтриване на личните Ви данни от {{ company_name }} на:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Устройство:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Дата и час:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "За да обработим заявката Ви, моля, потвърдете, че желаете да изтриете данните си.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Да, изтрийте данните ми",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Тази връзка ще изтече след 30 минути.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Ако не сте посикали изтриването, спокойно можете да игнорирате това съобщение.",
+    "description": "",
+    "placeholders": null
+  }
+}

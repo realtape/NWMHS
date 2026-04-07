@@ -1,0 +1,10 @@
+{
+  "label": "Survey (interactive)",
+  "host_template_types": [
+    "WEB_INTERACTIVE"
+  ],
+  "icon": "../img/icon/form-interactive.svg",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "is_available_for_new_content": false
+}

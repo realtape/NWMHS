@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Tarifas",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "Desconto de {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "Tarifa de {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "Taxa de {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "Outras tarifas",
+    "description": "",
+    "placeholders": null
+  }
+}

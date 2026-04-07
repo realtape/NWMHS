@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Preferințe abonare",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Text buton pentru actualizarea preferințelor",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Actualizare preferințe legate de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Preferințe comunicare",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Antet",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Subtitlu",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Dacă aceasta nu este adresa dvs. de e-mail, ignorați această pagină, deoarece este probabil ca e-mailul asociat cu această pagină să fi fost direcționat către dvs.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Da, reabonați-mă!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Text buton de reabonare",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Etichetă dezabonare totală",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Dezabonați-mă de la toate listele de e-mailuri.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Debifați tipurile de e-mailuri pe care nu doriți să le primiți:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Text de ajutor pentru selectarea preferinței",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Sau bifați aici pentru a nu primi niciodată niciun e-mail:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Text de ajutor pentru dezabonarea totală",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Text de ajutor pentru dezabonarea totală pentru un utilizator dezabonat momentan",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "În acest moment sunteți dezabonat de la toate e-mailurile noastre. Doriți să primiți din nou e-mailurile noastre?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Text buton abonament unic",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Dezabonare",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Text de confirmare abonament unic",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Doriți să vă dezabonați de la e-mailurile despre:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Exemplu de nume pentru abonament unic",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "ați selectat tipul de abonament",
+    "description": "",
+    "placeholders": null
+  }
+}

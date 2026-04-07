@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "সাইট অনুসন্ধান ফলাফল",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "বৈশিষ্ট্যযুক্ত ছবি প্রদর্শন করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>দুঃখিত। [[search_term]]-এর জন্য কোনো ফলাফল পাওয়া যায়নি।</p><p> আপনার প্রশ্ন পুনরায় লেখার চেষ্টা করুন, অথবা আমাদের সাইটে ব্রাউজ করুন।</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "আগের পেজ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "পরের পেজ",
+    "description": "",
+    "placeholders": null
+  }
+}

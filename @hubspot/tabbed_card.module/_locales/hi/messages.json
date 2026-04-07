@@ -1,0 +1,242 @@
+{
+  "name": {
+    "message": "टैब किए गए कार्ड",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.label": {
+    "message": "डिफ़ॉल्ट टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.left_nudge_button_label.default": {
+    "message": "टैब्स को बायीं ओर स्क्रॉल करें",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.right_nudge_button_label.default": {
+    "message": "टैब्स को दायीं ओर स्क्रॉल करें",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tabs_list_aria_label.default": {
+    "message": "टैब्स लिस्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.label": {
+    "message": "बैकग्राउंड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.border.label": {
+    "message": "बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.label": {
+    "message": "बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.label": {
+    "message": "कॉन्टेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "स्टाइल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.label": {
+    "message": "बैकग्राउंड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.label": {
+    "message": "सक्रिय है",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.font.label": {
+    "message": "फ़ॉन्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.label": {
+    "message": "टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_top_sides.label": {
+    "message": "ऊपर/साइड के बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_bottom.label": {
+    "message": "बॉटम बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.label": {
+    "message": "बैकग्राउंड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.label": {
+    "message": "होवर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.font.label": {
+    "message": "फ़ॉन्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.label": {
+    "message": "टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_top_sides.label": {
+    "message": "ऊपर/साइड के बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_bottom.label": {
+    "message": "बॉटम बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.label": {
+    "message": "बैकग्राउंड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.label": {
+    "message": "निष्क्रिय",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.font.label": {
+    "message": "फ़ॉन्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.label": {
+    "message": "टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_top_sides.label": {
+    "message": "ऊपर/साइड के बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_bottom.label": {
+    "message": "बॉटम बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.label": {
+    "message": "टैब",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.label": {
+    "message": "टैब किए गए कार्ड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.border.label": {
+    "message": "बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.default": {
+    "message": "<p>जब ऐसा कॉन्टेंट अधिक मात्रा में होता है जिसे अलग-अलग श्रेणियों में अलग करने की आवश्यकता होती है, तो वेबसाइट पेज पर जानकारी को व्यवस्थित करने के लिए टैब्स एक प्रभावी तरीका होते हैं। अपने टैब को एक या दो शब्दों से लेबल करें जो जानकारी की प्रत्येक श्रेणी को परिभाषित करते हों।</p> <p>अपने टैब को स्टाइल करते समय, चुने गए टैब को ऐसे रंग से हाइलाइट करें जो आपके अचयनित टैब से अलग हो, ताकि आपके विज़िटर्स के लिए नेविगेट करना आसान हो जाए।</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.label": {
+    "message": "कॉन्टेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.label": {
+    "message": "टैब",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.default": {
+    "message": "लाइन आइटम",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.label": {
+    "message": "लेबल",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.label": {
+    "message": "फिक्स्ड टेक्स्ट हाइट",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.help_text": {
+    "message": "प्रत्येक टैब के कॉन्टेंट को समान हाइट पर सेट करता है",
+    "description": "",
+    "placeholders": null
+  }
+}

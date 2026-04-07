@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Makse",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Lisa ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Nupu link",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Muu",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Kasutage makselinki",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Nupu sihtleht",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Tellimuse sooritamine",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Nupu tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Avage uuel vahekaardil",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Libisev ülekate",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Käitumine tellimuse sooritamisel",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Sulgege tellimuse sooritamine",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Vasakul",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Paremal",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Paigutus",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Makselink",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Joondus",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Joondus",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Värv",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Taust",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Ääris",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Ääris",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Nurk",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Raadius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Värv",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Taust",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Ääris",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Ääris",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Värv",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Peal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Kirjatüüp",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Värv",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Suurus",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Ikooni ja nupu teksti vaheline reasamm.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Reasamm",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiilid",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Reasamm",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Reasamm",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Kirjatüüp",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Muuda suurtäheks",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Väiketäht",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Suurtäht",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Kujunda ümber",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Puudub",
+    "description": "",
+    "placeholders": null
+  }
+}

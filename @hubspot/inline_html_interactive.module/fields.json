@@ -1,0 +1,239 @@
+[
+  {
+    "label": "Link to",
+    "name": "link_to",
+    "type": "choice",
+    "choices": [
+      [
+        "email_address",
+        "Email address"
+      ],
+      [
+        "file",
+        "File download"
+      ],
+      [
+        "meetings_link",
+        "Meetings link"
+      ],
+      [
+        "page",
+        "One of your pages"
+      ],
+      [
+        "url",
+        "URL"
+      ],
+      [
+        "cta",
+        "CTA"
+      ],
+      [
+        "tel",
+        "Phone number"
+      ]
+    ],
+    "display": "select",
+    "required": true,
+    "sortable": false,
+    "default": "url"
+  },
+  {
+    "label": "Link URL",
+    "name": "destination",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "url",
+      "operator": "EQUAL"
+    },
+    "placeholder": "http://",
+    "required": true,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "validation_error_message": "Invalid external link."
+  },
+  {
+    "label": "Email address",
+    "name": "email_address",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "email_address",
+      "operator": "EQUAL"
+    },
+    "required": true,
+    "sortable": false,
+    "validation_regex": "(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])"
+  },
+  {
+    "label": "Phone number",
+    "name": "tel",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "tel",
+      "operator": "EQUAL"
+    },
+    "required": true,
+    "sortable": false,
+    "validation_regex": "^((?:[-.\\/() ]*)[+](?:[-\\d.\\/() ]*)\\d(?:[-\\d.\\/() ]*))?((?:[-\\d.\\/() ]*)\\d(?:[-\\d.\\/() ]*))([,;](?:[-\\d.\\/() ]*)\\d(?:[-\\d.\\/() ]*))?$"
+  },
+  {
+    "label": "File",
+    "name": "file",
+    "type": "file",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "file",
+      "operator": "EQUAL"
+    },
+    "picker": "file",
+    "required": true,
+    "sortable": false
+  },
+  {
+    "label": "Meetings link",
+    "name": "meeting_field",
+    "type": "meeting",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "meetings_link",
+      "operator": "EQUAL"
+    },
+    "required": true,
+    "sortable": false
+  },
+  {
+    "label": "Page",
+    "name": "page_field",
+    "type": "page",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "page",
+      "operator": "EQUAL"
+    },
+    "required": true,
+    "sortable": false
+  },
+  {
+    "default": {
+      "url": {
+        "content_id": null,
+        "href": "",
+        "type": "CALL_TO_ACTION"
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+    },
+    "display_width": null,
+    "id": "b2603ac3-f025-ce2f-2c6c-627018cc41bc",
+    "label": "CTA",
+    "locked": false,
+    "name": "cta_field",
+    "required": true,
+    "show_advanced_rel_options": false,
+    "supported_types": [
+      "CALL_TO_ACTION"
+    ],
+    "type": "link",
+    "visibility": {
+      "controlling_field_path": "link_to",
+      "controlling_value_regex": "cta",
+      "operator": "EQUAL"
+    }
+  },
+  {
+    "id": "4e826dd6-cf20-b308-cbb3-de456080195e",
+    "name": "target",
+    "label": "Open link in new tab",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "visibility": {
+      "controlling_field_path": "link_to",
+      "controlling_value_regex": "cta",
+      "operator": "NOT_EQUAL"
+    },
+    "type": "boolean",
+    "default": false
+  },
+  {
+    "type": "richtext",
+    "id": "8712420c-4ef7-b169-f51b-1582f4f3ff73",
+    "label": "Button Content",
+    "name": "html",
+    "help_text": "HTML that will be rendered within the button. You can only use tags that are valid within an <a> tag.",
+    "default": "Click here",
+    "required": true
+  },
+  {
+    "type": "group",
+    "id": "0acf1866-b845-4180-6940-33fdc515a183",
+    "label": "Advanced",
+    "children": [
+      {
+        "type": "text",
+        "id": "6937a847-9d31-775c-a59c-7134811a5f42",
+        "validation_regex": "",
+        "label": "Custom CSS Classes",
+        "name": "custom_classes",
+        "help_text": "Add custom CSS classes to your CTA link."
+      },
+      {
+        "id": "9f1fd553-f6f9-32e1-7bb2-e2b875273e41",
+        "name": "custom_css_rules",
+        "label": "Custom CSS Rules",
+        "sortable": true,
+        "required": false,
+        "locked": false,
+        "occurrence": {
+          "min": 0,
+          "max": null,
+          "sorting_label_field": "f0d010be-4c95-8b19-3069-7ab61089a74b",
+          "default": 0
+        },
+        "children": [
+          {
+            "type": "text",
+            "id": "f0d010be-4c95-8b19-3069-7ab61089a74b",
+            "validation_regex": "",
+            "label": "Selector",
+            "name": "selector",
+            "help_text": "This value is combined with the selector of the CTA. For example ':hover' becomes ${ctaSelector}:hover"
+          },
+          {
+            "type": "text",
+            "id": "f0d010be-4c95-8b19-3069-7ab61089a74a",
+            "validation_regex": "",
+            "label": "Style",
+            "name": "style",
+            "allow_new_line": true,
+            "help_text": "Add custom CSS for your style rule. For example: border-bottom: 3px solid #3e4d68; color: yellow;"
+          }
+        ],
+        "type": "group",
+        "default": []
+      },
+      {
+        "type": "text",
+        "id": "6937a847-9d31-775c-a59c-7134811a5f555",
+        "validation_regex": "",
+        "label": "Custom CSS",
+        "name": "custom_css_styles",
+        "help_text": "Add a custom CSS stylesheet to your CTA"
+      },
+      {
+        "type": "boolean",
+        "id": "b6426d4e-0772-64bd-738e-d3d4d60941ac",
+        "default": false,
+        "display": "checkbox",
+        "label": "Use Legacy Markup",
+        "name": "use_legacy_markup",
+        "inline_help_text": "Wrap HTML in legacy markup to support existing CSS"
+      }
+    ],
+    "name": "advanced",
+    "default": {}
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "E-postadress",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonnummer",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Nedladdning av fil",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Möteslänk",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "En av dina sidor",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Länk till",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Möteslänk",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Öppna länk i ny flik",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Sida",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Inline HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Knappinnehåll",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML som kommer att återges i knappen. Det går bara att använda taggar som är giltiga inom en<a> tagg.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Klicka här",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Öppna länk i ny flik",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Avancerad",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Anpassade CSS-regler",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Väljare",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Detta värde är kombinerat med CTA:ns väljare. Till exempel \":sväva\" blir ${ctaSelector}:sväva",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Lägg till anpassad CSS till din stilregel. Till exempel: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Anpassade CSS-klasser",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Lägg till anpassade CSS-klasser till din CTA-länk.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Anpassat CSS-stilark",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Lägg till en anpassad CSS-stilmall till din CTA. Till exempel: bordborder-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Använd föråldrad stilsättning",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Packa in HTML i äldre uppmärkning för att stödja befintlig CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

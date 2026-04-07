@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "블로그 콘텐츠",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.post": {
+    "message": "게시",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.listing": {
+    "message": "목록",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.label": {
+    "message": "편집할 템플릿",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_source.label": {
+    "message": "블로그 게시물 출처",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_listing_source.label": {
+    "message": "블로그 목록 소스",
+    "description": "",
+    "placeholders": null
+  }
+}

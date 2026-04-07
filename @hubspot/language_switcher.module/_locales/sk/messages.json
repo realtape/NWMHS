@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Prepínač jazykov",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybridné",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Lokalizované",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Jazyk textu v prepínači jazykov. PageLang znamená, že názvy jazykov sa zobrazia v jazyku stránky, na ktorej je prepínač zapnutý. Lokalizované znamená, že názov každého jazyka sa zobrazí v danom jazyku. Možnosť Hybridné je kombináciou uvedených dvoch možností.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Režim zobrazenia",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  }
+}

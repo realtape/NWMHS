@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Commutador d'idioma",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Híbrid",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localitzat",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "L'idioma del text al commutador d'idioma. PageLang significa que els noms dels idiomes es mostraran a l'idioma de la pàgina en què es troba el commutador. Localitzat significa que el nom de cada idioma es mostrarà en aquest idioma. Híbrid és una combinació dels dos.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Mode de visualització",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  }
+}

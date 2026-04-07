@@ -1,0 +1,150 @@
+{#################################### HubSpot Button Module
+##################################### This module is provided as an easy to
+implement option for users. This module references HubL that is only compatible
+with the Drag & Drop Web interactive editor and may not work across the HubSpot
+platform. #-----------------------------------#}
+{% set destination = module.destination %}
+{% if module.link_to == 'email_address' %}
+  {% set destination = 'mailto:' + module.email_address %}
+{% endif %}
+{% if module.link_to == 'tel' %}
+  {% set destination = 'tel:' + module.tel|regex_replace('[-.\\/() ]', '') %}
+{% endif %}
+{% if module.link_to == 'close' %}
+  {% set destination = 'javascript:closeInteractive()' %}
+{% endif %}
+{% if module.link_to == 'file' %}
+  {% set destination = module.file %}
+{% endif %}
+  {% if module.link_to == 'meetings_link' %}
+    {% set destination = module.meeting_field %}
+{% endif %}
+{% if module.link_to == 'page' %}
+  {% set destination = content_by_id(module.page_field).absolute_url %}
+{% endif %}
+{% if module.link_to == 'blog' %}
+  {% set destination = blog_by_id(module.blog_field).absolute_url %}
+{% endif %}
+{% if not destination %}
+  {% set destination = '#top' %}
+{% endif %}
+
+{% set full_width = true %}
+
+{% if module.link_to == 'cta' %}
+  {% set is_embed_trigger = True %}
+{% else %}
+  {% set is_embed_trigger = False %}
+{% endif %}
+
+{% if module.link_to == 'click_to_copy' %}
+  {% set is_click_to_copy = True %}
+{% else %}
+  {% set is_click_to_copy = False %}
+{% endif %}
+
+<style>
+  {% scope_css %}
+
+    /* Button wrapper */
+
+    {% if module.styles.alignment.alignment %}
+      .interactive-button-wrapper {
+        justify-content:{{ module.styles.alignment.alignment.horizontal_align }}
+      }
+      {% set full_width = module.styles.alignment.make_full_width %}
+    {% endif %}
+
+    /* Button */
+
+    .interactive-button {
+      {% if module.styles.background.color.color %}
+        background-color: rgba({{ module.styles.background.color.color|convert_rgb }}, {{ module.styles.background.color.opacity / 100 }});
+      {% endif %}
+      {{ module.styles.border.border.css }}
+      {% if module.styles.corner.radius %}
+        border-radius: {{ module.styles.corner.radius ~ 'px' }};
+      {% endif %}
+      {% if module.styles.text.font.color %}
+        color: {{ module.styles.text.font.color }};
+      {% endif %}
+      {% if module.styles.text.font.size %}
+        font-size: {{ module.styles.text.font.size ~ module.styles.text.font.size_unit }};
+      {% endif %}
+      {% if module.styles.text.font.style %}
+        {{ module.styles.text.font.style }};
+      {% endif %}
+      {{ module.styles.text.padding.css }}
+      {% if module.styles.text.transform %}
+        text-transform: {{ module.styles.text.transform }};
+      {% endif %}
+      {% if full_width %}
+        width: 100%;
+      {% endif %}
+    }
+
+    .interactive-button:hover,
+    .interactive-button:focus {
+      {% if module.styles.hover.background.color.color %}
+        background-color: rgba({{ module.styles.hover.background.color.color|convert_rgb }}, {{ module.styles.hover.background.color.opacity / 100 }});
+      {% endif %}
+      {{ module.styles.hover.border.border.css }}
+      {% if module.styles.hover.text.font.color %}
+        color: {{ module.styles.hover.text.font.color }};
+      {% endif %}
+      {% if module.styles.hover.text.font.size %}
+        font-size: {{ module.styles.hover.text.font.size ~ module.styles.hover.text.font.size_unit }};
+      {% endif %}
+      {% if module.styles.hover.text.font.style %}
+        {{ module.styles.hover.text.font.style }};
+      {% endif %}
+    }
+
+    .interactive-button:active {
+      {% if module.styles.background.clicked.color %}
+        background-color: rgba({{ module.styles.background.clicked.color|convert_rgb }}, {{ module.styles.background.clicked.opacity / 100 }});
+      {% elif module.styles.hover.background.color.color %}
+        background-color: rgba({{ color_variant(module.styles.hover.background.color.color, 80)|convert_rgb }}, {{ module.styles.hover.background.color.opacity / 100 }});
+      {% endif %}
+      {{ module.styles.hover.border.border.css }}
+      {% if module.styles.hover.border.border %}
+        border-color: {{ color_variant(module.styles.hover.border.border.top.color, 80) }};
+      {% endif %}
+      {% if module.styles.hover.text.font.color %}
+        color: {{ module.styles.hover.text.font.color }};
+      {% endif %}
+      {% if module.styles.hover.text.font.size %}
+        font-size: {{ module.styles.hover.text.font.size ~ module.styles.hover.text.font.size_unit }};
+      {% endif %}
+      {% if module.styles.hover.text.font.style %}
+        {{ module.styles.hover.text.font.style }};
+      {% endif %}
+    }
+  {% end_scope_css %}
+</style>
+
+<div class="interactive-button-wrapper">
+  <a
+    class="interactive-button"
+    {%
+    if
+    module.open_in_new_tab
+    %}
+    target="_blank"
+    rel="noopener"
+    {%
+    endif
+    %}
+    {% if is_embed_trigger %}
+      data-cta-trigger="{{module.cta_field.url.content_id}}"
+      href="javascript:void"
+      aria-haspopup="dialog"
+    {% elif is_click_to_copy %}
+      href="javascript:void"
+      data-click-copy-value="{{module.copy_text}}"
+    {% else %}
+      href="{{ destination|escape }}"
+    {% endif %}
+    >{{ module.text }}</a
+  >
+</div>

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "E-Mail-Textkörper",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hallo {{contact.firstname}},</p>\n<p>beschreiben Sie einmal, was Sie Kunden zu bieten haben. Warum sollten sie das lesen? Was haben Sie ihnen in der Betreffzeile versprochen? Erzählen Sie ihnen etwas Cooles. Bringen Sie sie zum Lachen. Bringen Sie sie zum Weinen. Wobei ... das vielleicht besser nicht.</p>\n<p>Benutzen Sie eine Liste, die</p>\n<ul>\n<li>den Wert Ihres Angebots erklärt</li>\n<li>den Leser daran erinnert, was er oder sie davon hat, zu handeln</li>\n<li>Ihre Fähigkeiten in einzelnen Punkten aufführt</li>\n<li>Ihren Inhalt übersichtlich darstellt</li>\n</ul>\n<p><a href=\"http://hubspot.com\">ZU EINER LANDING-PAGE AUF IHRER SEITE VERLINKT</a> (und das ist der wirklich wichtige Teil)</p>\n<p>Und das fassen Sie dann mit einer prägnanten kleinen Erinnerung zusammen, in der Sie Ihren Kunden Ihre Liebe erklären.</p>\n<p>Sie sprachgewandtes Schlitzohr!</p>\n<p>Mit den besten Grüßen</p>\n<p>Ihr Name</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "E-Mail-Text",
+    "description": "",
+    "placeholders": null
+  }
+}

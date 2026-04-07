@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Berichtenoverzicht",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Populairst - afgelopen zes maanden",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Populairst - ooit",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Populairst - afgelopen maand",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Populairst - afgelopen jaar",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Meest recent",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Blogberichten ordenen op",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Met de standaardinstelling wordt het huidige blog gebruikt bij gebruik in een blogtemplate of het primaire blog bij gebruik elders.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Weer te geven blog selecteren",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximum aantal blogberichten om te vermelden",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Recente berichten",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Weer te geven lijsttitel",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Logoraster",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logo's",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stijlen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Logo-afbeelding",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Max. hoogte logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Stelt de maximale hoogte van de logo's in.<br><br>Het instellen van een maximale logo-hoogte is het beste als je meerdere logo's van drastisch verschillende afmetingen visueel even groot wilt maken.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Achtergrond",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Hoogte-breedteverhouding",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Stel de beeldverhouding van de logocontainer in. Heel handig als je het achtergrondkleurveld gebruikt en logo's van drastisch verschillende afmetingen gebruikt.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Achtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Opvulling rond het logo instellen.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Door de responsieve aard van het web kan de weergegeven hoogte van de logo's minder zijn dan de ingestelde waarde op basis van een combinatie van schermgrootte, originele afbeeldingsgrootte, logovulling, rasterafstand en aantal kolommen.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Logoraster",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Aantal kolommen in raster",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Stel het aantal kolommen in het raster in op desktop. Staat standaard op 1 op mobiel.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Het instellen van een achtergrondkleur in <strong>Logo-afbeelding > Achtergrond</strong> kan je helpen bij het visualiseren van het logoraster. ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Rasterafstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Stel de afstand tussen rasterpunten in.<br><br>Het instellen van een achtergrondkleur in <strong>Logo-afbeelding > Achtergrond</strong> kan je helpen bij het visualiseren van het logoraster. ",
+    "description": "",
+    "placeholders": null
+  }
+}

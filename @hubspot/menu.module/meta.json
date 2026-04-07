@@ -1,0 +1,24 @@
+{
+  "label": "Menu",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/edited-menu.svg",
+  "extra_classes": "widget-type-menu",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": ["functionality"],
+  "content_tags": [
+    {
+      "name": "NONPROFIT",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "editable_contexts": ["TEMPLATE"]
+}

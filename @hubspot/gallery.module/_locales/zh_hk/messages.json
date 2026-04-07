@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "圖片庫",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "說明文字",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "投影片",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "在新分頁開啟連結",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "顯示說明文字",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "連結 URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "圖片",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "可變高度",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "固定高度",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "可變高度",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "顯示導覽按鈕",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "縮圖導覽",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "標準滑桿",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "燈箱圖庫",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "顯示模式",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "循環投影片",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "說明文字疊於圖片上層",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "保持說明文字在圖片下層",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "說明文字位置",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "自動捲動前停留的秒數",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "淡出",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "投影片",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "投影片轉場",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "燈箱圖庫橫排",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "自動播放",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "此模組已淘汰並改用兩個全新和改善的版本，「圖片滑桿」及「圖片方格」。<a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">深入了解。</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

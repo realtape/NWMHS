@@ -1,0 +1,16 @@
+{
+  "css_assets": [],
+  "external_js": [
+    "https://static.hsappstatic.com/quote-download-js/ex/quote-download.js"
+  ],
+  "global": false,
+  "host_template_types": [
+    "QUOTE"
+  ],
+  "js_assets": [],
+  "other_assets": [],
+  "label": "Download",
+  "icon": "../img/icon/download.svg",
+  "master_language": "en",
+  "smart_type": "NOT_SMART"
+}

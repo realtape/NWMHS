@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Taalwisselknop",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybride",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Gelokaliseerd",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "De taal van de tekst in de taalwisselaar. PageLang betekent dat de namen van de talen worden weergegeven in de taal van de pagina waar de wisselaar op staat. Gelokaliseerd betekent dat de naam van elke taal in die taal zelf wordt weergegeven. Hybride is een combinatie van de twee.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Weergavemodus",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  }
+}

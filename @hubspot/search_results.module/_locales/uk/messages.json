@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Результати пошуку на сайті",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Відображати вибрані зображення",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Відсутні результати для [[search_term]].</p><p>Спробуйте переформулювати запит або скористайтеся пошуком на нашому сайті.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Попередня сторінка",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Наступна сторінка",
+    "description": "",
+    "placeholders": null
+  }
+}

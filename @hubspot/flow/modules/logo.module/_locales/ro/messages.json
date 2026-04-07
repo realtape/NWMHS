@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Înălțime max. siglă",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Această situație nu se aplică atunci când se înlocuiește sigla implicită",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Puteți alege să înlocuiți sigla aplicată pe acest șablon cu ajutorul acestui element de comutare.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Înlocuire siglă implicită",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "În mod implicit, ofertele dvs. afișează sigla companiei din Kit de mărci din Valori implicite cont sau Setări pagină site web.",
+    "description": "",
+    "placeholders": null
+  }
+}

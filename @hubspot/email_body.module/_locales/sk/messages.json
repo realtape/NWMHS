@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Hlavný text e-mailu",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Dobrý deň, {{contact.firstname}},</p>\n<p>opíšte, čo ponúkate zákazníkovi. Prečo by si to mal zákazník prečítať? Čo ste mu sľúbili v predmete? Povedzte mu niečo zaujímavé. Rozosmejte ho. Rozplačte ho. Teda, to radšej nie...</p>\n<p>Pomocou zoznamu:</p>\n<ul>\n<li>vysvetlite hodnotu svojej ponuky</li>\n<li>pripomeňte čitateľovi, čo získa, ak bude konať</li>\n<li>predveďte svoje zručnosti s odrážkami</li>\n<li>vytvorte obsah tak, aby sa dal jednoducho prezrieť</li>\n</ul>\n<p><a href=\"http://hubspot.com\">ODKAZ NA VSTUPNÚ STRÁNKU VÁŠHO WEBU</a> (Táto časť je skutočne dôležitá.)</p>\n<p>Teraz to všetko zhrňte pripomenutím, ako veľmi zákazníka milujete.</p>\n<p>Sme dojatí. So slovami to skutočne viete.</p>\n<p>S pozdravom</p>\n<p>Vaše meno</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Text e-mailu",
+    "description": "",
+    "placeholders": null
+  }
+}

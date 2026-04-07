@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Deler",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Innretting",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Midstilt",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Venstre",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Høyre",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Farge",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Høyde",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Linjetype",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Kortstreket",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Stiplet",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Heltrukket",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Utfylling",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maks. 20 piksler",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Vise utfylling?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Bredde",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Prosentandel av området som avdeleren er plassert inn i.",
+    "description": "",
+    "placeholders": null
+  }
+}

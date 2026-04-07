@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "部落格電子郵件訂閱",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "用於部落格範本時，將預設為現有部落格；用於其他地方時，則會預設為主要部落格。",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "選取要顯示的部落格",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "由此訂閱！",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "表單上方顯示的標題",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "給使用者的內嵌回應",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "感謝訂閱！",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "要顯示部落格訂閱表單，你需要將你的部落格啟用訂閱。你可以透過設定來啟用。<a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>了解詳情</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "標題層級",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "選擇標題層級。標題應根據你的內容適當分層為巢狀。<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>更多資訊</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

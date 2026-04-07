@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Tulevase makse kokkuvõttetabel",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Tabeli pealkiri",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Kuva tabeli päis",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Tabeli pealkiri",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Lisage tulevaste maksete kokkuvõttetabelisse pealkiri",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "Tulevaste maksete kokkuvõte",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Veerud",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Reaüksuse nime pealkiri",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Ühik",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Makse kokkuvõtte pealkiri",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Makse",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Ühekordne",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "nädalas",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 nädalat",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ kuu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ kvartal",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 kuud",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ aasta",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 aastat",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 aastat",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "päev",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "päeva",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "nädal",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "nädalad",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "kuu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "kuud",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "makse",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "maksed",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} kuupäeval {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} tähtaeg {{ billing_delay_period }} {{ billing_delay_unit }} pärast esialgse makse sooritamist",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} alates kuupäevast  {{ billing_delay_period }} {{ billing_delay_unit }} pärast esialgse makse sooritamist",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} alates kuupäevast {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} alates kuupäevast {{ billing_delay_period }} {{ billing_delay_unit }} pärast esialgse makse sooritamist{{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} alates kuupäevast {{ formatted_first_payment_date }} summale {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 aastat",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 aastat",
+    "description": "",
+    "placeholders": null
+  }
+}

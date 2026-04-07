@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "फ़ीस",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "{{ fee_amount }}% छूट",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "{{ fee_amount }}% फ़ीस",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "{{ fee_amount }}% टैक्स",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "अन्य फ़ीस",
+    "description": "",
+    "placeholders": null
+  }
+}

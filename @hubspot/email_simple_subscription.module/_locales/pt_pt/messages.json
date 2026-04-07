@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Anular a subscrição da cópia de segurança",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Anular a subscrição",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Anular a subscrição de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Texto de marcador de posição de entrada de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "O seu endereço de e-mail:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Texto de ajuda de entrada de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Mensagem de erro",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Ocorreu um problema ao carregar a página. Tente utilizar a mesma ligação de um e-mail mais recente, ou contacte a empresa para atualizar as suas preferências de subscrição.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Subcabeçalho",
+    "description": "",
+    "placeholders": null
+  }
+}

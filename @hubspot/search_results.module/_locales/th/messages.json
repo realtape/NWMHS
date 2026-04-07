@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "ผลลัพธ์การค้นหาในไซท์",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "แสดงรูปภาพแนะนำ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>ขออภัย ไม่มีผลลัพธ์สำหรับ [[search_term]]</p><p>โปรดลองใช้คำค้นหาอื่น หรือลองเลือกดูในเว็บไซต์ของเรา</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "หน้าก่อน",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "หน้าถัดไป",
+    "description": "",
+    "placeholders": null
+  }
+}

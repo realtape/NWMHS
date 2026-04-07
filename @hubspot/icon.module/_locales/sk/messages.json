@@ -1,0 +1,132 @@
+{
+  "accessibility_options.label": {
+    "message": "Možnosti zjednodušenia prístupu",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.decorative": {
+    "message": "Dekoratívne – ignorované čítačkou obrazovky",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.semantic": {
+    "message": "Informačné – čítať pomocou čítačky obrazovky",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.help_text": {
+    "message": "Kategorizujte účel tejto ikony pre čítačky obrazovky. <a href='https://www.w3.org/WAI/tutorials/images/' target='_blank' rel='noopener noreferrer'>Viac informácií</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.label": {
+    "message": "Účel",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.help_text": {
+    "message": "Tento text budú čítať čítačky obrazovky na opísanie ikony.",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.label": {
+    "message": "Popis",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Zarovnanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Zarovnanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Farba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Pozadie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Roh",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Okruh",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.custom": {
+    "message": "Vlastné",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.round": {
+    "message": "Okrúhle",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.square": {
+    "message": "Štvorec",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.label": {
+    "message": "Štýl",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.color.label": {
+    "message": "Farba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.label": {
+    "message": "Vyplniť",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Štýly",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.label": {
+    "message": "Veľkosť",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.size.label": {
+    "message": "Veľkosť",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Medzery",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Medzery",
+    "description": "",
+    "placeholders": null
+  }
+}

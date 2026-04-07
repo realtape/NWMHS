@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "横",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "縦",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "横メニューでは、項目が並んで表示され、縦メニューでは上から下に表示されます",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "方向",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "親へのマウスオーバーによって子メニューが表示されます。チェックを外した場合、子メニューは常に表示されます",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "フライアウトを有効にしますか？",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "メニューツリーとは、メニューの項目を生成するページ構造のことです。1つのメニューツリーを複数のメニューに使用することができます。複雑なウェブサイト構造には複数のメニューを作成できます。メニューの作成と管理はコンテンツ設定で行います",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "メニュー",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "メニューで展開可能なメニューツリーの子の数を指定します",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "最大レベル数",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "メニュー",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "パンくず形式のパスメニュー（横フローを使用）",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "動的（ページ別） - 表示中のページに関連するページがメニューに表示されます",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "静的 - 常に最上位ページがメニューに表示されます",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "動的（セクション別） - 表示中のセクションに関連するページがメニューに表示されます",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "詳細メニューには、表示されているページに応じてメニューツリーの異なる部分が表示されます。",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "詳細メニュータイプ",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  }
+}

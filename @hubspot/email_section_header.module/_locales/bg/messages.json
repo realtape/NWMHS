@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Горен колонтитул на раздел",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "По-приглушено подзаглавие",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Подзаглавие на раздела",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Ясно и удебелено заглавие",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Съдържание на заглавието на раздела",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Изберете ниво на заглавие. H1 е най-голямото, следвано от H2 и т.н.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Ниво на заглавие",
+    "description": "",
+    "placeholders": null
+  }
+}

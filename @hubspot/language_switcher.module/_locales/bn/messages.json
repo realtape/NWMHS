@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "ভাষা পরিবর্তনকারী",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "হাইব্রিড",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "লোকালাইজড",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "পেজল্যাং",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "ল্যাঙ্গুয়েজ পরিবর্তনকারীতে টেক্সট এর ভাষা। পেজল্যাং-এর অর্থ হ'ল পরিবর্তনকারীটি যে পৃষ্ঠায় চলছে সেই ভাষায় ভাষার নামগুলি প্রদর্শিত হবে। লোকালাইজড অর্থ প্রতিটি ভাষার নাম সেই ভাষায় প্রদর্শিত হবে। হাইব্রিড দুটির সংমিশ্রণ।",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "প্রদর্শন মোড",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "সার্চ করুন",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Şimdi öde",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Ödeme düğmesi metni",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Bu düğmeyi tıklamanın müşterinizin ödeme yapmasına olanak sağlayacağının net olduğundan emin olun.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Ödeme kurulumunda bir sorun oluştu. Lütfen size bu teklifi gönderen kişiyle iletişime geçin.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Ödeme hata mesajı",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Müşterinize, ödeme başlatırken bir sorun olduğunda ne yapması gerektiğini söyleyin.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Bir başlık seviyesi seçin. H1 en büyüğüdür, ardından H2 gelir ve bu böyle devam eder",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Başlık seviyesi",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Ödeme",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Başlık içeriği",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "İlk ödemeyi yapın:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Müşteriniz ilk taksiti ödeyene kadar bunu ödeme düğmesinde görecektir.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Ödeme planları için düğme metni",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Ödeme",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Teklif tam olarak imzalanmadığından ödeme yapılamıyor.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "İmzalar gerekli olduğundaki açıklama metni",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Ödeme öncesi imzalar gerekli olursa, müşteriniz gerekli tüm imzalar tamamlanana kadar bu mesajı görecektir.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Ödendi",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Ödendi metni",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "[[ pay_date ]] tarihinde [[ pay_time ]] saatinde ödendi",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Odeme yapılıyor",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Ödeme işleme metni",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Bu teklif için ödeme durumunu yüklerken bir problem oluştu. Lütfen sayfayı tekrar yüklemeyi deneyin.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Ödeme durumu hata mesajı",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Müşterinize, ödeme durumunu getirme başarısız olduğunda sayfayı yenilemesini söyleyin.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Bu bir deneme teklifidir, gerçek ödemeleri toplayamaz.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Bu şablonla teklif oluşturduğunuzda ödeme toplamak isteyip istemediğinize karar verebilirsiniz.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Ödeme yapmak için, lütfen size bu teklifi gönderen kişiyle iletişime geçin.",
+    "description": "",
+    "placeholders": null
+  }
+}

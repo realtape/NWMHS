@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Страница не найдена",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Не удалось найти страницу, которую вы искали.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Перейти на домашнюю страницу",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Эта страница не работает",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Произошла внутренняя ошибка сервера. В настоящее время мы работаем над решением данной проблемы.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Вернуться на домашнюю страницу",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Логотип компании",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Ваши настройки электронной почты были изменены.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Подписка на все коммуникации по электронной почте отменена.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Ваши настройки электронной почты были изменены.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "Обновить настройки электронной почты для",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Выберите, какие электронные письма вы хотите получать от {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Выберите, какие электронные письма вы хотите получать от {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Выберите язык:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Обновить настройки электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Отменить подписку на все электронные письма",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Если это не ваш адрес, вероятно, данное электронное письмо было перенаправлено вам от другого получателя, и вы можете проигнорировать это сообщение.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "В настоящий момент ваша подписка на все наши электронные письма отменена. Вы хотели бы снова получать наши электронные письма?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Да, возобновить мою подписку!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Необходимо указать пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Для просмотра этой страницы необходимо ввести пароль.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Результаты поиска по запросу «[[search_term]]»",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "К сожалению, у вас нет доступа",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "У вас нет разрешения на просмотр этой страницы. Обратитесь к администратору сайта.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Вернуться на домашнюю страницу",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Вход",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Страница, которую вы пытаетесь просмотреть, доступна только для зарегистрированных пользователей.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "Адрес электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Запомнить меня",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Забыли пароль?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Вход",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Показать",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "У вас возникли проблемы? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Обратитесь к администратору сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Вы вышли из системы",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Снова выполните вход",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Или вернитесь на <a href=\"{{ '//' ~ request.domain }}\">главную страницу</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Настройте пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Добро пожаловать! Для завершения регистрации необходимо настроить пароль.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "Адрес электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Подтвердить пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Сохранить пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Показать",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "У вас возникли проблемы? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Обратитесь к администратору сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Сбросьте пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Введите адрес электронной почты, использованный при регистрации, и мы отправим вам электронное письмо со ссылкой для сброса пароля.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "Адрес электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Отправить электронное письмо со ссылкой для сброса",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Вспомнили пароль? <a href=\"/_hcms/mem/login\">Войти</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "У вас возникли проблемы? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Обратитесь к администратору сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "Вам отправлено электронное письмо со ссылкой для сброса пароля",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Если была найдена соответствующая учетная запись для {{ user_email }}, было отправлено письмо по электронной почте с описанием дальнейших действий по сбросу пароля. Если вы не получили письмо в течение 20 минут, <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">обратитесь к своему администратору</a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Отправить еще одно электронное письмо со ссылкой для сброса",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Создайте новый пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Новый пароль должен отличаться от предыдущего.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Новый пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Подтвердите новый пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Сохранить пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Показать",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "У вас возникли проблемы? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Обратитесь к администратору сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Адрес вашей электронной почты подтвержден",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Благодарим вас за подтверждение адреса вашей электронной почты. Теперь вы можете войти в свою учетную запись и получить доступ к своему эксклюзивному контенту.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Вход",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "У вас возникли проблемы? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Обратитесь к администратору сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Ссылка для однократного входа отправлена",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Мы отправили вам письмо по адресу {{ user_email }}. В нем содержится ссылка для входа в систему.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Если в вашей почте нет этого письма, проверьте папку «Спам».",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Еще раз отправить ссылку для входа",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "или",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Вместо этого войдите в систему, введя пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "У вас возникли проблемы? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Обратитесь к администратору сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Подтвердите адрес своей электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Благодарим Вас за регистрацию! Проверьте свою электронную почту и нажмите на ссылку подтверждения, чтобы завершить регистрацию.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "У вас возникли проблемы? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Обратитесь к администратору сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Создайте пароль для завершения регистрации",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Остался последний шаг! Создав надежный пароль, вы завершите регистрацию и получите доступ к содержимому в {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Создать пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Или скопируйте в буфер и вставьте ссылку в ваш браузер:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Если у вас есть вопросы, или вы получили это сообщение по ошибке, <a href=\"{{ membership_website_admin }}\">обратитесь к администратору сайта.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Сбросьте пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Задайте новый пароль и войдите в свою учетную запись.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Сбросьте пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Если вы не делали этот запрос, можете просто проигнорировать это электронное сообщение. <br/>При наличии вопросов <a href=\"{{ membership_website_admin }}\">свяжитесь с администратором сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Войти по ссылке для однократного входа",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Попробуйте войти в свою учетную запись. В целях безопасности эта ссылка действует в течение 15 минут.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Вход",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Или скопируйте в буфер и вставьте ссылку в ваш браузер:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Если вы не делали этот запрос, можете просто проигнорировать это электронное сообщение. <br/>При наличии вопросов <a href=\"{{ membership_website_admin }}\">свяжитесь с администратором сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Ваш {{ membership_company_name }} пароль был успешно заменен.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Не хотели вносить это изменение? Воспользуйтесь <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">формой забытого пароля</a> для его восстановления сейчас.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "При наличии вопросов <a href=\"{{ membership_website_admin }}\">обратитесь к администратору сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Ваша регистрация завершена",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Спасибо за регистрацию. Теперь все установлено, и вы можете зайти в систему для доступа к содержимому и разблокировать еще больше преимуществ.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Войдите в свою новую учетную запись",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Если у вас есть вопросы, или вы получили это письмо по ошибке, <a href=\"{{ membership_website_admin }}\">обратитесь к администратору сайта.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Добро пожаловать в {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Завершите регистрацию, создав надежный пароль для своей учетной записи.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Создать пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Или скопируйте в буфер и вставьте ссылку в ваш браузер.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Если у вас есть вопросы, или если вы получили это письмо по ошибке, <a href=\"{{ membership_website_admin }}\">обратитесь к администратору сайта.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Подтвердите адрес своей электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Спасибо за регистрацию! Вам необходимо подтвердить свой адрес электронной почты для завершения регистрации для {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Подтвердите адрес своей электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Если у вас есть вопросы, или если вы получили это письмо по ошибке, <a href=\"{{ membership_website_admin }}\">обратитесь к администратору сайта.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Подтвердите свой запрос на удаление",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Подтвердите свой запрос на удаление",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Здравствуйте, {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Мы получили запрос на удаление ваших персональных данных, хранящихся в {{ company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Устройство:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Дата и время:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Чтобы мы могли обработать ваш запрос, просим вас подтвердить, что вы хотите удалить свои данные.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Да, удалить мои данные",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Эта ссылка действительна только в течение 30 минут.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Если вы не направляли запрос на удаление данных, просто игнорируйте это сообщение.",
+    "description": "",
+    "placeholders": null
+  }
+}

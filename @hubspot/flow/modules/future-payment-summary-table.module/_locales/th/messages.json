@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "ตารางสรุปการชำระเงินในอนาคต",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "ส่วนหัวตาราง",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "แสดงส่วนหัวตาราง",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "ส่วนหัวตาราง",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "เพิ่มส่วนหัวให้ตารางสรุปการชำระเงินในอนาคต",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "สรุปการชำระเงินในอนาคต",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "คอลัมน์",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "ส่วนหัวชื่อสินค้าในกลุ่มผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "รายการ",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "ส่วนหัวสรุปการชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "การชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "ครั้งเดียว",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ สัปดาห์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 สัปดาห์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/เดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ไตรมาส",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/6 เดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/2 ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/3 ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "วัน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "วัน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "สัปดาห์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "สัปดาห์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "เดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "เดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "การชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "การชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} เมื่อ {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} ครบกำหนด {{ billing_delay_period }} {{ billing_delay_unit }} หลังการชำระเงินครั้งแรก",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} เริ่มตั้งแต่ {{ billing_delay_period }} {{ billing_delay_unit }} หลังการชำระเงินครั้งแรก",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} ตั้งแต่ {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} เริ่มตั้งแต่ {{ billing_delay_period }} {{ billing_delay_unit }} หลังการชำระเงินครั้งแรก {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} ตั้งแต่ {{ formatted_first_payment_date }} เป็นจำนวน {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 ปี",
+    "description": "",
+    "placeholders": null
+  }
+}

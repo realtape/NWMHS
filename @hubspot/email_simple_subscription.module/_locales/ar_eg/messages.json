@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "إلغاء الاشتراك في النسخ الاحتياطي",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "نص الزر",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "إلغاء الاشتراك",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "إلغاء الاشتراك بالبريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "العنوان",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "نص العنصر النائب لإدخال البريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "عنوان البريد الإلكتروني الخاص بك:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "نص تعليمات إدخال البريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "رسالة خطأ",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "حدثت مشكلة في تحميل الصفحة. حاول استخدام الرابط ذاته من البريد الإلكتروني الأحدث، أو اتصل بالشركة لتحديث تفضيلات الاشتراك الخاصة بك.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "العنوان الفرعي",
+    "description": "",
+    "placeholders": null
+  }
+}

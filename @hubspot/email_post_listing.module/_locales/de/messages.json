@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Beitrag-Listing",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Am beliebtesten – Letzte sechs Monate",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Am beliebtesten – Immer",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Am beliebtesten – Letzter Monat",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Am beliebtesten – Letztes Jahr",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Aktuell",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Suche",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Blogbeiträge auflisten nach",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Standardmäßig wird bei Nutzung in einer Blogvorlage der aktuelle Blog und bei anderweitiger Nutzung der Hauptblog verwendet.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Blog auswählen, der angezeigt werden soll",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximale Anzahl an Blogbeiträgen zum Auflisten",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Neue Beiträge",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Anzuzeigender Listentitel",
+    "description": "",
+    "placeholders": null
+  }
+}

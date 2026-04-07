@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Перемикач мови",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Гібридний",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Локалізовано",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Мова тексту в перемикачі мов PageLang означає, що назви мов показуватимуться мовою сторінки, для якої ввімкнено перемикач. Режим «Локалізовано»  означає, що назва кожної мови показуватиметься цією мовою, а «Гібридний» — це поєднання двох наведених вище режимів.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Режим показу",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Пошук",
+    "description": "",
+    "placeholders": null
+  }
+}

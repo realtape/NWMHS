@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Eメールアドレス",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "電話番号",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "ファイルダウンロード",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "ミーティングリンク",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "いずれかの自分のページ",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "リンク先",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "ミーティングリンク",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "リンクを新しいタブで開く",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "ページ",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "インラインHTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "ボタンの内容",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "ボタン内にレンダリングされるHTML。使用できるタグは<a>タグ内で有効なタグのみです。",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "ここをクリック",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "リンクを新しいタブで開く",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "詳細",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "カスタムCSSルール",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "セレクター",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "この値はCTAのセレクターと組み合わされます。例えば、「:hover」は${ctaSelector}:hoverになります",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "スタイルルールのカスタムCSSを追加します。例：border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "カスタムCSSクラス",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "CTAリンクにカスタムCSSクラスを追加してください。",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "カスタムCSSスタイルシート",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "CTAにカスタムCSSスタイルシートを追加します。例：border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "旧マークアップを使用",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "既存のCSSをサポートするためにHTMLを旧マークアップで囲みます",
+    "description": "",
+    "placeholders": null
+  }
+}

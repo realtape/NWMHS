@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Eメール本文",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>{{contact.firstname}}様</p>\n<p>お客様に何が提供できるか、なぜこのメールを読むべきなのか、件名から何が期待できるかなどを説明してください。洒落た言い回しやユーモアを交えても良いでしょう。涙を誘うのもありです（これはやりすぎかもしれません）。</p>\n<p>リストを使って次のことを行ってください：</p>\n<ul>\n<li>オファーの価値を説明する</li>\n<li>行動することで何が得られるかを強調する</li>\n<li>自分のスキルを箇条書きで示す</li>\n<li>コンテンツの読みやすさを意識する</li>\n</ul>\n<p><a href=\"http://hubspot.com\">サイトのランディングページへのリンクを記載する</a>（これは非常に重要です）</p>\n<p>お客様に対する熱い気持ちを言葉にして締めくくります。</p>\n<p>言葉を選んでください。</p>\n<p>よろしくお願いします。</p>\n<p>あなたの名前</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Eメール本文",
+    "description": "",
+    "placeholders": null
+  }
+}

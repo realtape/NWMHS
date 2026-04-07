@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "この見積もりは期限が切れました",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "見積もり{{ personalization_token('quote.hs_quote_number', '') }}は{{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}に失効しました。",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "詳細については<a href='#'>営業担当にお問い合わせ</a>ください。",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "請求の頻度",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "単価",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "価格",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "製品とサービス",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "数量",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "エグゼクティブ<br>サマリー",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "利用規約",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "コメント",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "プロジェクトの<br>承認",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "小見出し",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "私たちの<br>ストーリー",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "情熱を持って<br>取り組んでいること",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "クライアントから<br>いただいた感想",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "プロジェクト<br>サマリー",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "目標",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "作業<br>明細書",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "プロジェクトの<br>推定",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "契約<br>内容",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "対象：",
+    "description": "",
+    "placeholders": null
+  }
+}

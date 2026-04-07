@@ -1,0 +1,457 @@
+{
+  "name": {
+    "message": "বিষয়বস্তুর লাইব্রেরি",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.label": {
+    "message": "রিসোর্স",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.label": {
+    "message": "নাম",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.default": {
+    "message": "রিসোর্সের নাম",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.label": {
+    "message": "বর্ননা",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.default": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.label": {
+    "message": "রিসোর্স লিংক",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.inline_help_text": {
+    "message": "রিসোর্সে ক্লিক করার পর ফাইলটি ব্যবহারকারীর ডেস্কটপে ডাউনলোড হবে।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.label": {
+    "message": "ছবি ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.default": {
+    "message": "ডিফল্ট ইমেজগুলির একটি তালিকা থেকে বেছে নিন।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.custom": {
+    "message": "একটি কাস্টম ইমেজ ব্যবহার করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.ebook": {
+    "message": "ইবুক",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.pdf-document": {
+    "message": "PDF ডকুমেন্ট",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.infographic": {
+    "message": "ইনফোগ্রাফিক",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.template": {
+    "message": "টেমপ্লেট",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.guide": {
+    "message": "গাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.course": {
+    "message": "কোর্স",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.webinar": {
+    "message": "ওয়েবিনার",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.data-sheet": {
+    "message": "ডেটা শিট",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.video": {
+    "message": "ভিডিও",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.blog-post": {
+    "message": "ব্লগ পোস্ট করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.whitepaper": {
+    "message": "হোয়াইটপেপার",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.case-study": {
+    "message": "কেস স্টাডি",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.custom_image.label": {
+    "message": "কাস্টম ইমেজ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.label": {
+    "message": "লিংক টেক্সট ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.default": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.title": {
+    "message": "ইবুক",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.title": {
+    "message": "PDF ডকুমেন্ট",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.title": {
+    "message": "ইনফোগ্রাফিক",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.title": {
+    "message": "টেমপ্লেট",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.title": {
+    "message": "গাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.title": {
+    "message": "কোর্স",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.title": {
+    "message": "ওয়েবিনার",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.title": {
+    "message": "ডেটা শিট",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.title": {
+    "message": "ভিডিও",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.title": {
+    "message": "ব্লগ পোস্ট করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.title": {
+    "message": "হোয়াইটপেপার",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.title": {
+    "message": "কেস স্টাডি",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.description": {
+    "message": "রিসোর্সের একটি বিবরণ শেয়ার করা হচ্ছে। মাত্র কয়েকটা বাক্য থাকাটাই একদম ঠিক।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.link_text": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.download_aria_label_prefix.default": {
+    "message": "ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.content_aria_label_prefix.default": {
+    "message": "[[resource_name]] কনটেন্ট দেখুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.external_aria_label_prefix.default": {
+    "message": "খোলা",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.new_tab_aria_label_suffix.default": {
+    "message": "নতুন ট্যাবে",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.label": {
+    "message": "লেআউট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.label": {
+    "message": "শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.cards": {
+    "message": "কার্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.tiles": {
+    "message": "টাইলস",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.minimal": {
+    "message": "সামান্যতম",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "নাম",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "বর্ননা",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "ছবি ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.label": {
+    "message": "আনুমানিক অনুপাত",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.label": {
+    "message": "প্রাথমিক রং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.help_text": {
+    "message": "ডিফল্ট গ্রাফিক্সের রঙ ঠিক করে নিন।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.label": {
+    "message": "অপ্রধান রং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.help_text": {
+    "message": "ডিফল্ট গ্রাফিক্সের রঙ ঠিক করে নিন।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.label": {
+    "message": "তৃতীয় পর্যায়ের রং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.help_text": {
+    "message": "ডিফল্ট গ্রাফিক্সের রঙ ঠিক করে নিন।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.label": {
+    "message": "লিংক ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.default_text_color.label": {
+    "message": "ডিফল্ট টেক্সটের রঙ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.hover_text_color.label": {
+    "message": "হোভার করা টেক্সট রঙ ",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "বৈশিষ্ট্যযুক্ত হিসাবে চিহ্নিত যে কোনও সংস্থান প্রথমে পেজে প্রদর্শিত হবে।",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,190 @@
+[
+  {
+    "label": "E-signature",
+    "name": "esignature",
+    "type": "group",
+    "children": [
+      {
+        "name": "heading",
+        "label": "Heading",
+        "type": "richtext",
+        "default": "<h3>Signature</h3>"
+      },
+      {
+        "name": "pretext",
+        "label": "E-signature explanation text",
+        "required": false,
+        "locked": false,
+        "type": "richtext",
+        "default": "Choose a profile to start the e-signature process."
+      },
+      {
+        "name": "verify_button",
+        "label": "Verification email button text",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Verify to sign"
+      },
+      {
+        "name": "sign_now_button",
+        "label": "Sign now button text",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Sign now"
+      },
+      {
+        "name": "failure",
+        "label": "Failure alert text",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "There was a problem retrieving the signature information. Please reload the page."
+      },
+      {
+        "name": "verification_sent",
+        "label": "Verification email sent text",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Verification email sent"
+      },
+      {
+        "name": "redirecting",
+        "label": "Redirecting text",
+        "required": false,
+        "locked": true,
+        "type": "text",
+        "default": "Redirecting..."
+      },
+      {
+        "name": "signed",
+        "label": "Signed text",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Signed"
+      },
+      {
+        "name": "test_mode",
+        "label": "Test mode",
+        "required": false,
+        "locked": true,
+        "type": "text",
+        "default": "This is a test quote, so it can’t collect real signatures."
+      },
+      {
+        "name": "verify_error_rate_limit",
+        "label": "Error message shown when sending verification email fails due to rate limit",
+        "required": false,
+        "locked": true,
+        "type": "text",
+        "default": "You have requested a verification email too recently. Please try again in 5 minutes."
+      },
+      {
+        "name": "verify_error_unknown",
+        "label": "Error message shown when sending verification email fails due to unknown reason",
+        "required": false,
+        "locked": true,
+        "type": "text",
+        "default": "There was a problem sending a verification email. Please try again."
+      },
+      {
+        "name": "sign_now_error_rate_limit",
+        "label": "Error message shown for failed attampt to start an unverified e-signature due to rate limit",
+        "required": false,
+        "locked": true,
+        "type": "text",
+        "default": "You have requested to sign too recently. Please try again in 5 minutes."
+      },
+      {
+        "name": "sign_now_error_unknown",
+        "label": "Error message shown for failed attampt to start an unverified e-signature due to unknown reason",
+        "required": false,
+        "locked": true,
+        "type": "text",
+        "default": "There was a problem starting e-signature. Please try again."
+      }
+    ]
+  },
+  {
+    "label": "Print signature",
+    "name": "print_signature",
+    "type": "group",
+    "children": [
+      {
+        "name": "header",
+        "label": "Header",
+        "required": false,
+        "locked": false,
+        "type": "richtext",
+        "default": "<h3>Signature</h3>"
+      },
+      {
+        "name": "signature",
+        "label": "Signature field",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Signature"
+      },
+      {
+        "name": "date",
+        "label": "Date field",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Date"
+      },
+      {
+        "name": "printed_name",
+        "label": "Printed name field",
+        "required": false,
+        "locked": false,
+        "type": "text",
+        "default": "Printed name"
+      },
+      {
+        "label": "Countersignature",
+        "name": "countersignature",
+        "inline_help_text": "When creating a quote, you can choose whether to display countersignature",
+        "type": "group",
+        "children": [
+          {
+            "name": "header",
+            "label": "Header",
+            "required": false,
+            "locked": false,
+            "type": "richtext",
+            "default": "<h3>Countersignature</h3>"
+          },
+          {
+            "name": "countersignature",
+            "label": "Countersignature field",
+            "required": false,
+            "locked": false,
+            "type": "text",
+            "default": "Countersignature"
+          },
+          {
+            "name": "date",
+            "label": "Date field",
+            "required": false,
+            "locked": false,
+            "type": "text",
+            "default": "Date"
+          },
+          {
+            "name": "printed_name",
+            "label": "Printed name field",
+            "required": false,
+            "locked": false,
+            "type": "text",
+            "default": "Printed name"
+          }
+        ]
+      }
+    ]
+  }
+]

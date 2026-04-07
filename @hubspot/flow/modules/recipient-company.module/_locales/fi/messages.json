@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Vastaanottajayritys",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.default": {
+    "message": "Valmisteltu kohteelle",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.label": {
+    "message": "Vastaanottajayrityksen teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_address.label": {
+    "message": "Vastaanottajan yrityksen pääosoite",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_city_state_zip.label": {
+    "message": "Vastaanottajayrityksen kaupunki, alue ja postinumero",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_country.label": {
+    "message": "Vastaanottajayrityksen maa",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_name.label": {
+    "message": "Vastaanottajayrityksen nimi",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,572 @@
+{
+  "name": {
+    "message": "Flow",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.label": {
+    "message": "ব্যানার ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.label": {
+    "message": "বডি ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.capitalize": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.lowercase": {
+    "message": "ছোট হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.none": {
+    "message": "কোনটাই না",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.uppercase": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.label": {
+    "message": "রূপান্তর করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.label": {
+    "message": "হেডিং ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.capitalize": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.lowercase": {
+    "message": "ছোট হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.none": {
+    "message": "কোনটাই না",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.uppercase": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.label": {
+    "message": "রূপান্তর করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.label": {
+    "message": "রেফারেন্স",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.label": {
+    "message": "রূপান্তর করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.none": {
+    "message": "কোনটাই না",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.capitalize": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.uppercase": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.lowercase": {
+    "message": "ছোট হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.label": {
+    "message": "ব্যাকগ্রাউন্ডের রং",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.inline_help_text": {
+    "message": "ব্যানার ইমেজ লুকানো থাকলেই এই রঙ দেখা যাবে",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.label": {
+    "message": "কোণ",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.radius.label": {
+    "message": "ব্যাসার্ধ ",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.label": {
+    "message": "বোতাম",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.capitalize": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.lowercase": {
+    "message": "ছোট হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.none": {
+    "message": "কোনটাই না",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.uppercase": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.label": {
+    "message": "রূপান্তর করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.label": {
+    "message": "গ্লোবাল রংগুলো",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.primary_color.label": {
+    "message": "প্রধান রং",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.secondary_color.label": {
+    "message": "অপ্রধান রং",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.tertiary_color.label": {
+    "message": "তৃতীয় পর্যায়ের রং",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.label": {
+    "message": "গ্লোবাল ফন্ট",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.primary_font.label": {
+    "message": "প্রধান ফন্ট",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.secondary_font.label": {
+    "message": "অপ্রধান ফন্ট",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "উল্লম্ব ব্যবধান উদ্ধৃতি টেমপ্লেটের উপরের এবং নীচের পাশাপাশি বিষয়বস্তুর ভিতরের অংশগুলির মধ্যে ব্যবধান নিয়ন্ত্রণ করে।",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.label": {
+    "message": "বডি ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.label": {
+    "message": "হেডিং এক (H1) ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.capitalize": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.lowercase": {
+    "message": "ছোট হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.none": {
+    "message": "কোনটাই না",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.uppercase": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.label": {
+    "message": "রূপান্তর করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.label": {
+    "message": "হেডিং দুই (H2)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.capitalize": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.lowercase": {
+    "message": "ছোট হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.none": {
+    "message": "কোনটাই না",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.uppercase": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.label": {
+    "message": "রূপান্তর করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.label": {
+    "message": "হেডিং 3 (H3)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.capitalize": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.lowercase": {
+    "message": "ছোট হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.none": {
+    "message": "কোনটাই না",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.uppercase": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.label": {
+    "message": "রূপান্তর করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.label": {
+    "message": "হেডিং চার (H4)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.capitalize": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.lowercase": {
+    "message": "ছোট হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.none": {
+    "message": "কোনটাই না",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.uppercase": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.label": {
+    "message": "রূপান্তর করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.label": {
+    "message": "হেডিং পাঁচ (H5)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.capitalize": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.lowercase": {
+    "message": "ছোট হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.none": {
+    "message": "কোনটাই না",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.uppercase": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.label": {
+    "message": "রূপান্তর করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.label": {
+    "message": "হেডিং ছয় (H6)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.capitalize": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.lowercase": {
+    "message": "ছোট হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.none": {
+    "message": "কোনটাই না",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.uppercase": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.label": {
+    "message": "রূপান্তর করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.label": {
+    "message": "লিংকগুলি ",
+    "description": "",
+    "placeholders": null
+  }
+}

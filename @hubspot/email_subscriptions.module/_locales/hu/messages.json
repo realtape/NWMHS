@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Feliratkozási beállítások",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Beállítások frissítése gomb felirata",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "E-mail-beállítások frissítése",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Kapcsolattartási beállítások",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Fejléc",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Alfejléc",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Ha ez nem az Ön e-mail-címe, hagyja figyelmen kívül ezt az oldalt, mert az ehhez az oldalhoz kapcsolódó e-mailt valószínűleg továbbították Önnek.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Igen, ismét fel szeretnék iratkozni!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Ismételt feliratkozás gomb felirata",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Mindenről való leiratkozás címkéje",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Leiratkozom az összes levelezőlistáról.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Törölje azoknak az e-mail-típusoknak a kijelölését, amilyeneket nem szeretne kapni.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Preferencia kiválasztásával kapcsolatos súgószöveg",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Vagy pipálja ki ezt, hogy ne kapjon több e-mailt.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Mindenről való leiratkozás súgószövege",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Súgószöveg a mindenről való leiratkozásról egy jelenleg leiratkozott felhasználó számára",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Jelenleg minden e-mailünkről leiratkozott. Ismét meg szeretné kapni az e-mailjeinket?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Egyetlen feliratkozás gomb felirata",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Leiratkozás",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Egyetlen feliratkozás megerősítési szövege",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Szeretne leiratkozni az alábbi témákról szóló e-mailekről:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Egyetlen előfizetés példa neve",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "kiválasztotta az előfizetés típusát",
+    "description": "",
+    "placeholders": null
+  }
+}

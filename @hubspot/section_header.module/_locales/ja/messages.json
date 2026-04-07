@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "セクションの見出し",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "少し控えめな小見出し",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "セクション小見出し",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "明確で力強い見出し",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "セクションの見出しの内容",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "見出しのレベルを選択します。H1が最大で、以降H2のように続きます",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "見出しのレベル",
+    "description": "",
+    "placeholders": null
+  }
+}

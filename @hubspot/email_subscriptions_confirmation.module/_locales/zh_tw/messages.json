@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "訂閱確認訊息",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "你已成功更新電子郵件偏好設定。",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "訂閱更新訊息",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "副標題",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "如果這不是你的電子郵件地址，請忽略此頁面，因為與此頁面關聯的電子郵件可能是轉寄給你。",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "你已成功取消訂閱全部電子郵件通訊。",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "取消訂閱訊息",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "標題文字",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "標題",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "管理偏好設定按鈕文字",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "管理偏好設定",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "管理從偏好設定返回時的免責聲明",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "弄錯了嗎？別擔心，你可以變更偏好設定。",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "單一訂閱順利取消訂閱文字",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "你已成功取消訂閱以下項目：",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "訂閱預留位置文字",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "你選定的訂閱類型",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "標題的標題層級",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "標題 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "標題 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "標題 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "標題 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "標題 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "標題 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "電子郵件的標題層級",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "標題 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "標題 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "標題 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "標題 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "標題 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "標題 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "段落",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Funzione cambio della lingua",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Ibrido",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localizzato",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "La lingua del testo nello strumento di cambio della lingua. PageLang significa che i nomi delle lingue verranno visualizzati nella lingua della pagina su cui si trova lo strumento di cambio. Localizzato significa che il nome di ogni lingua verrà visualizzato in quella lingua. Ibrido è una combinazione delle due opzioni.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Modalità di visualizzazione",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  }
+}

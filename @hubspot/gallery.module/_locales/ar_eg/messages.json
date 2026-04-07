@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "معرض الصور",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "التسمية التوضيحية",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "الشريحة",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "فتح الرابط في نافذة جديدة",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "إظهار التسمية التوضيحية",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "عنوان URL للرابط",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "صورة",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "ارتفاع متغير",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "ارتفاع ثابت",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "بحث",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "ارتفاع متغير",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "إظهار أزرار التنقل",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "التنقل في الصور المصغّرة",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "شريط تمرير قياسي",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "معرض Lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "بحث",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "وضع العرض",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "تكرار الشرائح",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "بحث",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "إضافة تسميات توضيحية أعلى الصور",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "وضع التسميات التوضيحية أسفل الصورة دائمًا",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "موضع التسمية التوضيحية",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "الوقت بالثواني بين التمرير التلقائي",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "‏‏تلاشي",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "الشريحة",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "بحث",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "انتقالات للشرائح",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "صفوف معرض lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "تقدم تلقائي",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "تم إهمال هذه الوحدة لصالح وحدتين جديدتين ومحسنتين، Image Slider وImage Grid  <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">معرفة المزيد.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

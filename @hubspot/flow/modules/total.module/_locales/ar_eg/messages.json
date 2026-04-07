@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "الإجمالي",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "مستحقة الآن",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "يستخدم هذا لتسمية إجمالي عرض الأسعار عندما يكون لعرض الأسعار مدفوعات مستقبلية.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "النص المستحق الآن",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "الإجمالي",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "نص الإجمالي",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "قيمة العقد الإجمالية",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "قم بتخصيص النص لوصف هذه القيمة بدقة. (القيمة الافتراضية هي القيمة السنوية إذا لم يتم تعيين شروط).",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "نص قيمة العقد الإجمالية",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Побудова переліку публікацій",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Найпопулярніші — за останні пів року",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Найпопулярніші — за весь час",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Найпопулярніші — за минулий місяць",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Найпопулярніші — за минулий рік",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Найновіші",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Пошук",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Перелік публікацій блогу за",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "За замовчуванням буде використаний поточний блог, коли він використовується в шаблоні блогу, або основний блог, коли він використовується в іншому місці.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Виберіть блог для показу",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Максимальна кількість записів у блозі для відображення в переліку",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Останні публікації",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Заголовок переліку для відображення",
+    "description": "",
+    "placeholders": null
+  }
+}

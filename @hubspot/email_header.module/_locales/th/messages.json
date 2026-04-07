@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "ส่วนหัว",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "หัวเรื่องที่ชัดเจนและเป็นตัวหนา",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "เนื้อหาหัวเรื่อง",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "เลือกขนาดหัวเรื่อง โดย H1 คือใหญ่ที่สุด ตามด้วย H2 และอื่นๆ",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "เลือกประเภทหัวเรื่อง",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "ขนาดหัวเรื่อง",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "ซ่อนเครื่องมือควบคุมส่วนหัว",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "การซ่อนเครื่องมือควบคุมส่วนหัวจะช่วยไม่ให้ส่วนหัวถูกแก้ไขด้วยเครื่องมือปรับแต่งเนื้อหา",
+    "description": "",
+    "placeholders": null
+  }
+}

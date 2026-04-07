@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Grid logo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Gaya",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Gambar logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Tinggi logo maksimal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Atur tinggi maksimum logo.<br><br>Mengatur tinggi maksimum logo terbaik ketika mencoba untuk membuat beberapa logo dengan dimensi yang sangat berbeda memiliki ukuran yang sama secara visual.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Latar belakang",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Rasio aspek",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Atur rasio aspek kontainer logo. Sangat berguna jika Anda menggunakan bidang warna latar belakang dan menggunakan logo dengan dimensi yang sangat berbeda.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Warna latar belakang",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Spasi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Spasi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Atur bantalan di sektira logo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Karena sifat web yang responsif, tinggi logo yang dirender mungkin kurang dari nilai yang diatur berdasarkan kombinasi ukuran layar, ukuran gambar asli, bantalan logo, celah kisi, dan jumlah kolom.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Grid logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Jumlah kolom grid",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Atur jumlah kolom di kisi pada desktop. Default 1 pada perangkat seluler.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Mengatur warna latar belakang di<strong>Gambar logo > Latar belakang</strong> dapat membantu Anda memvisualisasikan kisi logo. ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Celah kisi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Atur jarak di antara item kisi.<br><br>Mengatur latar belakang di <strong>Gambar logo > Latar belakang</strong> dapat membantu Anda memvisualisasikan kisi logo.",
+    "description": "",
+    "placeholders": null
+  }
+}

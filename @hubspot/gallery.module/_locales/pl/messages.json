@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Galeria obrazów",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Napis",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Slajd",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Otwórz łącze w nowej karcie",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Pokaż napis",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Łącze URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Obraz",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Zmienna wysokość",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Stała wysokość",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Zmienna wysokość",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Pokaż przyciski nawigacyjne",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Nawigacja za pomocą miniaturek",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standardowy suwak",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galeria lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Tryb wyświetlania",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Pętla slajdów",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Nałóż napis na obrazy",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Zawsze utrzymuj napisy poniżej obrazów",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Pozycja napisu",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Czas w sekundach pomiędzy automatycznym przesuwaniem",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Zanikanie",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Slajd",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Przejścia między slajdami",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rzędy galerii lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Automatyczny postęp",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Ten moduł został wycofany na rzecz dwóch nowych i udoskonalonych modułów – Suwak obrazu i Siatka obrazu <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Dowiedz się więcej.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

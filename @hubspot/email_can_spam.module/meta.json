@@ -1,0 +1,15 @@
+{
+  "label": "Office Location Information",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "../img/icon/high-email-1.svg",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

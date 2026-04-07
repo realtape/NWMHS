@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Adresa e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Broj telefona",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Preuzimanje datoteke",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Poveznica na sastanke",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Jedna od vaših stranica",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Poveznica na",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Poveznica na sastanke",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Otvori poveznicu u novoj kartici",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Stranica",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Umetnuti HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Sadržaj gumba",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML koji će se prikazati na gumbu. Možete upotrebljavati samo oznake koje su valjane unutar oznake <a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Kliknite ovdje",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Otvori poveznicu u novoj kartici",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Napredno",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Prilagođena pravila za CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Alat za odabir",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Ova vrijednost kombinira se s alatom za odabir poziva na djelovanje. Primjerice ':zadržavanje pokazivača' postaje ${ctaSelector}:zadržavanje pokazivača",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Dodajte prilagođeni CSS za vaše pravilo stila. Primjerice: obrub-donji: 3px ispunjeno #3e4d68; boja: žuta;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Prilagođene CSS klase",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Dodajte prilagođene CSS klase svojoj CTA vezi.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Prilagođeno stilsko oblikovanje za CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Dodajte prilagođeno stilsko oblikovanje za CSS svom pozivu na djelovanje. Na primjer: obrub-donji: 3px ispunjeno#3e4d68; boja: žuta;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Upotrijebite naslijeđeno označavanje",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Uklopite HTML u naslijeđeno označavanje kako biste podržali postojeći CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

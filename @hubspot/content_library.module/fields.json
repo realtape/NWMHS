@@ -1,0 +1,341 @@
+[
+  {
+    "label": "Resources",
+    "name": "group_resources",
+    "type": "group",
+    "group_occurrence_meta": {
+      "featured_enabled": true,
+      "featured_limit": 1
+    },
+    "occurrence": {
+      "default": 9,
+      "max": 20
+    },
+    "children": [
+      {
+        "label": "Name",
+        "name": "title",
+        "type": "text",
+        "default": "Resource name"
+      },
+      {
+        "label": "Description",
+        "name": "description",
+        "type": "text",
+        "allow_new_line": true,
+        "default": "A description of the resource being shared. Just a couple of sentences should be just right."
+      },
+      {
+        "label": "Link text",
+        "name": "link_text",
+        "type": "text",
+        "required": true,
+        "default": "Download"
+      },
+      {
+        "label": "Resource link",
+        "name": "link",
+        "type": "link",
+        "inline_help_text": "File will download onto the user’s desktop after they click on the resource.",
+        "show_advanced_rel_options": false,
+        "supported_types": ["EXTERNAL", "CONTENT", "FILE", "CALL_TO_ACTION"],
+        "default": {
+          "url": {
+            "content_id": null,
+            "type": "FILE",
+            "href": ""
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        }
+      },
+      {
+        "label": "Image",
+        "name": "image_type",
+        "type": "choice",
+        "choices": [
+          ["default", "Pick from a list of default images"],
+          ["custom", "Use a custom image"]
+        ],
+        "display": "radio",
+        "required": true,
+        "default": "default"
+      },
+      {
+        "label": "",
+        "name": "default_image",
+        "type": "choice",
+        "visibility": {
+          "controlling_field": "group_resources.image_type",
+          "controlling_value_regex": "default",
+          "operator": "EQUAL"
+        },
+        "choices": [
+          ["ebook", "eBook"],
+          ["pdf-document", "PDF Document"],
+          ["infographic", "Infographic"],
+          ["template", "Template"],
+          ["guide", "Guide"],
+          ["course", "Course"],
+          ["webinar", "Webinar"],
+          ["data-sheet", "Data sheet"],
+          ["video", "Video"],
+          ["blog-post", "Blog post"],
+          ["whitepaper", "Whitepaper"],
+          ["case-study", "Case study"]
+        ],
+        "default": "ebook"
+      },
+      {
+        "label": "Custom image",
+        "name": "custom_image",
+        "type": "image",
+        "visibility": {
+          "controlling_field": "group_resources.image_type",
+          "controlling_value_regex": "custom",
+          "operator": "EQUAL"
+        }
+      }
+    ],
+    "default": [
+      {
+        "title": "eBook",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "ebook"
+      },
+      {
+        "title": "PDF Document",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "pdf-document"
+      },
+      {
+        "title": "Infographic",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "infographic"
+      },
+      {
+        "title": "Template",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "template"
+      },
+      {
+        "title": "Guide",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "guide"
+      },
+      {
+        "title": "Course",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "course"
+      },
+      {
+        "title": "Webinar",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "webinar"
+      },
+      {
+        "title": "Data sheet",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "data-sheet"
+      },
+      {
+        "title": "Video",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "video"
+      },
+      {
+        "title": "Blog post",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "blog-post"
+      },
+      {
+        "title": "Whitepaper",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "whitepaper"
+      },
+      {
+        "title": "Case study",
+        "description": "A description of the resource being shared. Just a couple of sentences should be just right.",
+        "link_text": "Download",
+        "image_type": "default",
+        "default_image": "case-study"
+      }
+    ]
+  },
+  {
+    "label": "Default text",
+    "name": "default_text",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Download aria label prefix",
+        "name": "download_aria_label_prefix",
+        "type": "text",
+        "default": "Download"
+      },
+      {
+        "label": "Content aria label prefix",
+        "name": "content_aria_label_prefix",
+        "type": "text",
+        "default": "View [[resource_name]] content"
+      },
+      {
+        "label": "External aria label prefix",
+        "name": "external_aria_label_prefix",
+        "type": "text",
+        "default": "Open"
+      },
+      {
+        "label": "In new tab aria label suffix",
+        "name": "new_tab_aria_label_suffix",
+        "type": "text",
+        "default": "in new tab"
+      }
+    ]
+  },
+  {
+    "label": "Styles",
+    "name": "styles",
+    "type": "group",
+    "tab": "STYLE",
+    "children": [
+      {
+        "label": "Layout",
+        "name": "group_layout",
+        "type": "group",
+        "children": [
+          {
+            "label": "Style",
+            "name": "style",
+            "type": "choice",
+            "choices": [
+              ["cards", "Cards"],
+              ["tiles", "Tiles"],
+              ["minimal", "Minimal"]
+            ],
+            "display": "buttons",
+            "preset": "layout",
+            "required": true,
+            "default": "cards"
+          }
+        ]
+      },
+      {
+        "label": "Name",
+        "name": "group_name",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "default": {
+              "size": 24,
+              "size_unit": "px",
+              "color": "#000"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Description",
+        "name": "group_description",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "default": {
+              "size": 16,
+              "size_unit": "px",
+              "color": "#000"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Image",
+        "name": "group_image",
+        "type": "group",
+        "children": [
+          {
+            "label": "Aspect ratio",
+            "name": "aspect_ratio",
+            "type": "choice",
+            "choices": [
+              ["1/1", "1:1"],
+              ["4/3", "4:3"],
+              ["16/9", "16:9"]
+            ],
+            "display": "select",
+            "default": "1/1"
+          },
+          {
+            "label": "Primary color",
+            "name": "svg_primary",
+            "type": "color",
+            "help_text": "Adjust the colors of the default graphics.",
+            "default": "#516747"
+          },
+          {
+            "label": "Secondary color",
+            "name": "svg_secondary",
+            "type": "color",
+            "help_text": "Adjust the colors of the default graphics.",
+            "default": "#734E36"
+          },
+          {
+            "label": "Tertiary color",
+            "name": "svg_tertiary",
+            "type": "color",
+            "help_text": "Adjust the colors of the default graphics.",
+            "default": "#878cab"
+          }
+        ]
+      },
+      {
+        "label": "Link",
+        "name": "group_link",
+        "type": "group",
+        "children": [
+          {
+            "label": "Default text color",
+            "name": "default_text_color",
+            "type": "color",
+            "default": "#000"
+          },
+          {
+            "label": "Hover text color",
+            "name": "hover_text_color",
+            "type": "color",
+            "default": "#000"
+          }
+        ]
+      }
+    ]
+  }
+]

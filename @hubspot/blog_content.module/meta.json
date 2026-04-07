@@ -1,0 +1,28 @@
+{
+  "label": "Blog Content",
+  "host_template_types": [
+    "BLOG_POST",
+    "BLOG_LISTING"
+  ],
+  "icon": "../img/icon/edited-blog.svg",
+  "extra_classes": "widget-type-blog_content",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": [
+    "blog"
+  ],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "editable_contexts": [
+    "TEMPLATE"
+  ],
+  "is_available_for_new_content": false
+}

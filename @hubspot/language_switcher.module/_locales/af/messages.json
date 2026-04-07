@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Taalwisselaar",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hibried",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Gelokaliseer",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "Bladsytaal",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Die taal van die teks in die taalwisselaar. Bladsytaal beteken die name van tale sal in die taal van die bladsy wees waarop die wisselaar is. Gelokaliseer beteken die naam van elke taal sal in daardie taal wees. Hibried is 'n kombinasie van die twee.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Vertoonmodus",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Soek",
+    "description": "",
+    "placeholders": null
+  }
+}

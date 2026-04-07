@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "שלם עכשיו",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "טקסט לחצן תשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "ודא שזה ברור שלחיצה על לחצן זה תאפשר ללקוח שלך לשלם.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "אירעה בעיה בעת הגדרת הצ'ק אאוט. פנה למי ששלח לך הצעת מחיר זו.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "הודעת שגיאת צ'ק אאוט",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "ספר ללקוח שלך מה לעשות כשקיימת בעיה להתחיל תשלום.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "בחר סגנון כותרת. H1 הוא הגדול ביותר, אחריו H2 וכן הלאה",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "רמת כותרת",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "תשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "תוכן כותרת",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "בצע תשלום ראשון:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "הלקוח שלך יראה זאת בלחצן התשלום עד שהוא יבצע את התשלום הראשון.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "טקסט לחצן תוכניות התשלומים",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "תשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "לא ניתן לבצע תשלום משום שהצעת המחיר לא נחתמה באופן מלא.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "טקסט הסברה כאשר יש צורך בחתימות",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "אם יש צורך בחתימות לפני התשלום, הלקוח שלך יראה הודעה זו עד להשלמת כל החתימות הדרושות.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "שולם",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "טקסט שולם",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "שולם בשעה [[ paid_time ]] בתאריך [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "עיבוד התשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "טקסט עיבוד תשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "אירעה בעיה בטעינת מצב התשלום עבור הצעת מחיר זו. נסה לרענן את הדף.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "הודעת שגיאה במצב התשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "אמור ללקוח שלך לרענן את הדף כאשר הבאת מצב תשלום נכשלת.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "זוהי הצעת מחיר לצורך בדיקה, ולכן אינה יכולה לגבות תשלומים אמיתיים.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "אפשר לבחור אם לגבות תשלום בעת יצירה של הצעת מחיר עם תבנית זו.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "כדי לבצע תשלום בקופה, יש לפנות למי ששלח לך הצעת מחיר זו.",
+    "description": "",
+    "placeholders": null
+  }
+}

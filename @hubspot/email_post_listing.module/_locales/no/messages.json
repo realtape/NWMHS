@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Innleggsoppføring",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Mest populære siste seks måneder",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Mest populære – gjennom all tid",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Mest populære  forrige måned",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Mest populære – det siste året",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Nyligst",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Søk",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Vis blogginnlegg etter",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Som standard brukes den gjeldende bloggen i en bloggmal eller den primære bloggen andre steder.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Velg blogg som skal vises",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maks blogginlegg som skal vises",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Nylige innlegg",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Vis titler som skal vises",
+    "description": "",
+    "placeholders": null
+  }
+}

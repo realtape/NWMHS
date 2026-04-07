@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "לוח זמנים לתשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.scheduled_payments.default": {
+    "message": "תשלומים שנקבעו",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.default": {
+    "message": "סכום",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.label": {
+    "message": "סכום",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.default": {
+    "message": "תאריך פרעון",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.label": {
+    "message": "תאריך פרעון",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.label": {
+    "message": "עמודות של לוח זמנים לתשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.default": {
+    "message": "שם",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.label": {
+    "message": "שם",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.default": {
+    "message": "<h2>לוח זמנים לתשלום</h2>",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.label": {
+    "message": "כותרת של תשלום שנקבע",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.due_now.default": {
+    "message": "תאריך היעד הוא כעת",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.paid.default": {
+    "message": "שולם",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.processing.default": {
+    "message": "עיבוד התשלום",
+    "description": "",
+    "placeholders": null
+  }
+}

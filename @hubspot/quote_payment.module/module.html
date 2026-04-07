@@ -1,0 +1,109 @@
+{# Supports checkout with Stripe and Hubspot payments #}
+{% set mock_data = {
+    quote: {
+      hs_currency: "USD",
+      hs_language: "en",
+      hs_locale: "en-US",
+      hs_payment_type: "HUBSPOT",
+      hs_payment_enabled: "true",
+      associated_objects: {
+        totals: {
+          payment_schedule_initial_charge_total: 16000,
+        }
+      }
+    }
+  }
+%}
+
+{% set quote = template_data.quote or mock_data.quote %}
+{% set language = quote_data.hs_language %}
+{% set locale = quote_data.hs_locale %}
+{% set first_payment_currency = quote.hs_currency or 'USD' %}
+{% set first_payment_amount = quote.associated_objects.totals.payment_schedule_initial_charge_total %}
+{% set max_decimal_digits = 6 %}
+
+{% if quote.hs_payment_enabled == 'true' %}
+
+  {# Module heading #}
+  {% if module.heading_text %}
+    <{{ module.heading_tag|escape_html }} class="payment-button__heading">{{ module.heading_text|sanitize_html }}</{{ module.heading_tag|escape_html }}>
+  {% endif %}
+
+  {# This container is populated with content from the template below when the Javascript for this file runs. #}
+  <div id="payment-button-container"></div>
+
+  <template id="payment__template">
+    <div id="payment__loading-spinner"></div>
+
+    <div class="payment__tag payment__tag--processing">
+      <span>{{ module.payment_processing|sanitize_html }}</span>
+    </div>
+
+    <div class="payment__tag payment__tag--paid">
+      <span>{{ module.paid|sanitize_html }}</span>
+    </div>
+
+    <div class="payment__payment-date-time">
+      <span>{{ module.payment_date_time|sanitize_html }}</span>
+    </div>
+
+    <span class="payment__alert--checkout-failed">{{ module.checkout_error|render|sanitize_html }}</span>
+
+    <span class="payment__alert--payment-status-failed">{{ module.payment_status_error|render|sanitize_html }}</span>
+
+    <span class="payment__alert--payment-removed">{{ module.payment_removed|sanitize_html }}</span>
+
+    <button data-test-id="payment-button" class="payment__button--checkout" disabled="true">
+      <svg class="payment__button--icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+        y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+        <g>
+          <path d="M17.8,12.9c0-0.4-0.2-0.7-0.5-1c-0.2-0.1-0.4-0.3-0.6-0.4v2.6c0.3,0,0.5-0.1,0.6-0.3
+          C17.5,13.7,17.8,13.4,17.8,12.9z" />
+          <path d="M14.8,8.6c0,0.3,0.1,0.6,0.3,0.6c0.2,0.1,0.3,0.2,0.5,0.3V7.7c-0.2,0-0.3,0.1-0.4,0.2
+          C15,8.1,14.8,8.4,14.8,8.6z" />
+          <path d="M23.4,3.8H8.6c-1.8,0-3.4,1.5-3.4,3.4v17.7c0,1.8,1.5,3.4,3.4,3.4h14.9c1.8,0,3.4-1.5,3.4-3.4V7.1
+          C26.7,5.3,25.2,3.8,23.4,3.8z M14.1,12.8c0.2,0.5,0.4,1,0.7,1.3c0.3,0.2,0.6,0.3,0.9,0.3v-3.2c-0.6-0.2-1.2-0.6-1.7-1
+          c-0.5-0.4-0.6-1-0.6-1.5c0-0.3,0.1-0.6,0.2-0.7c0.1-0.3,0.3-0.5,0.5-0.6c0.2-0.2,0.5-0.4,0.7-0.5c0.3-0.2,0.6-0.3,1-0.4V5.6
+          c0-0.2,0.2-0.4,0.4-0.3h0.5c0.2,0,0.4,0.1,0.4,0.3v1c0.5,0.1,1,0.2,1.3,0.5c0.5,0.3,0.7,0.6,1,1c0.1,0.6-0.7,1.1-1.5,0.6
+          c-0.3-0.3-0.6-0.6-1-0.7v2.3c0.4,0.2,0.6,0.3,1,0.5l0.9,0.6c0.5,0.5,0.9,1.1,0.7,1.8c0,0.6-0.3,1.3-0.7,1.8c-0.5,0.6-1.1,0.9-1.8,1
+          v0.7c0,0.2-0.2,0.4-0.4,0.3H16c-0.2,0-0.4-0.1-0.4-0.3v-0.7c-0.7-0.1-1.5-0.4-2.1-0.7c-0.6-0.5-1-1.1-1-1.8
+          C12.4,12.5,13.7,12.1,14.1,12.8z M22.7,25.2H9.6c-0.6,0-1-0.4-1-1s0.4-1,1-1h13.1c0.6,0,1,0.4,1,1C23.6,24.7,23.3,25.2,22.7,25.2z
+          M22.7,20.7H9.6c-0.6,0-1-0.4-1-1c0-0.6,0.4-1,1-1h13.1c0.6,0,1,0.4,1,1C23.7,20.3,23.3,20.7,22.7,20.7z" />
+        </g>
+      </svg>
+      <span class="payment__button-text"></span>
+    </button>
+
+    <span class="payment__warning--test-mode">{{ module.test_mode|sanitize_html }}</span>
+
+    <span class="payment__text--checkout">{{ module.checkout|sanitize_html }}</span>
+
+    <span class="payment__text--need-signature">{{ module.need_signature|sanitize_html }}</span>
+
+    <span class="payment__text--make-first-payment">{{ module.make_first_payment|sanitize_html }} {{ first_payment_amount|format_currency_value(locale=locale, currency=first_payment_currency, maxDecimalDigits=max_decimal_digits)|sanitize_html }} </span>
+  </template>
+{% endif %}
+
+{# DO NOT EDIT - these variables are required for payment #}
+{% require_js position="head" %}
+  <script type="application/json" data-module-instance="payment">
+    {
+      "esign_enabled": {{ (quote.hs_esign_enabled || "false")|escapejson }},
+      "payment_enabled": {{ (quote.hs_payment_enabled || "false")|escapejson }},
+      "url_key": "{{ quote.hs_public_url_key|escapejson }}",
+      "api_base_url": "{{ (template_data.hubspot_base_url || mock_data.hubspot_base_url)|escapejson }}",
+      "hubspot_app_url": "{{ template_data.hubspot_app_url|escapejson }}",
+      "is_preview": {{ template_data.is_preview|escapejson }},
+      "payment_type": "{{ quote.hs_payment_type|escapejson }}",
+      "locale": "{{ (quote.hs_locale or "en-US")|escapejson }}",
+      "first_payment_amount": "{{ first_payment_amount|escapejson }}",
+      "test_mode_enabled": {{ (quote.hs_test_mode || "false")|escapejson }}
+    }
+  </script>
+{% end_require_js %}
+
+{% if quote.hs_payment_type == "STRIPE" or (quote.hs_payment_enabled and !quote.hs_payment_type) %}
+  {% require_js position="head" %}
+    <script type="text/javascript" src="https://js.stripe.com/v3"></script>
+  {% end_require_js %}
+{% endif %}

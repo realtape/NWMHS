@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Sidan kunde inte hittas",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Vi kan inte hitta den sida du letade efter.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Gå till startsidan",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Den här sidan fungerar inte",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Ett internt serverfel inträffade men vi försöker att lösa det!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Gå till startsidan",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Företagslogotyp",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Dina e-postpreferenser har uppdaterats.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Du har slutat prenumerera på all e-postkommunikation.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Dina e-postpreferenser har uppdaterats.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "Uppdatera e-postpreferenser för",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Välj vilka e-postmeddelanden du vill få från {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Välj vilka e-postmeddelanden du vill få från {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Välj ett språk:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Uppdatera e-postinställningar",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Avregistrera dig från alla e-postmeddelanden",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Om detta inte är din adress så har e-postmeddelandet troligen vidarebefordrats från någon annan och du kan bortse från detta meddelande.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Du har för närvarande slutat prenumerera på alla våra e-postmeddelanden. Vill du få våra e-postmeddelanden igen?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Ja, jag prenumererar igen!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Lösenord krävs",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Ange ditt lösenord för att se denna sida.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Sökresultat för \"[[search_term]]\"",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Du har tyvärr inte åtkomst",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Du har inte behörighet att se denna sida. Kontakta webbplatsens administratör om du har frågor.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Gå till startsidan",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Logga in",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Den sida du försöker se är bara tillgänglig för registrerade användare.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "E-post",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Kom ihåg mig",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Glömt bort lösenordet?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Logga in",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Visa",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Stött på problem? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakta webbplatsens administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Du är utloggad",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Logga in igen",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Eller gå tillbaka till <a href=\"{{ '//' ~ request.domain }}\">starstidan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Välj ett lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Välkommen! Genomför din registrering genom att välja ett lösenord.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "E-post",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Bekräfta lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Spara lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Visa",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Stött på problem? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakta webbplatsens administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Återställ ditt lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Ange den e-postadress som du använde under registreringen så skickar vi dig ett e-postmeddelande med en länk för att återställa ditt lösenord.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "E-post",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Skicka e-post för återställning",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Kom det nyss tillbaka till dig? <a href=\"/_hcms/mem/login\">Logga in</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Stött på problem? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakta webbplatsens administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "E-postmeddelande skickat för återställning av lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Om ett matchande konto hittades för  {{ user_email }}, skickades ett e-postmeddelande med de kommande stegen för att återställa ditt lösenord. <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">kontakta din administratör</a> om du inte har fått det inom 20 minuter.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Skicka ett till e-postmeddelande för återställning",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Skapa nytt lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Ditt nya lösenord måste skilja sig från det lösenord du använt tidigare.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Nytt lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Bekräfta nytt lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Spara lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Visa",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Stött på problem? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakta webbplatsens administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Din e-postadress är bekräftad",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Tack för att du bekräftat din e-postadress. Nu kan du logga in på ditt konto och komma åt ditt exklusiva innehåll.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Logga in",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Stött på problem? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakta webbplatsens administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "En-gångslänk för inloggning skickad",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Vi skickade ett e-postmeddelande till dig på {{ user_email }}. Det innehåller en länk som du kan logga in med.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Om du inte kan se e-postmeddelandet, titta i din skräppostmapp.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Skicka inloggningslänk",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "eller",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Logga in med lösenord istället",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Stött på problem? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakta webbplatsens administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Bekräfta din e-postadress",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Tack för att du registrerat dig! Kontrollera din e-post och klicka på bekräftelselänken för att slutföra registreringen.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Stött på problem? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakta webbplatsens administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Skapa ett lösenord för att avsluta registreringen",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Sista steget! När du skapat ditt säkra lösenord kan du logga in och få tillgång till innehåll på {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Skapa lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Eller kopiera och klistra in den här länken in din webbläsare:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Om du har frågor eller har fått det här av misstag, vänligen <a href=\"{{ membership_website_admin }}\">kontakta webbplatsens administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Återställ ditt lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Ställ in ett nytt lösenord och logga in på ditt konto.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Återställ lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Om du inte gjorde den här begäran kan du tryggt ignorera det här e-postmeddelandet.<br/>Ifall du har frågor, vänligen <a href=\"{{ membership_website_admin }}\">kontakta webbplatsens administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Logga in med engångslänk",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Fortsätt att logga in på ditt konto. För säkerhets skull kommer denna länk att gå ut om 15 minuter.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Logga in",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Eller kopiera och klistra in den här länken in din webbläsare:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Om du inte gjorde den här begäran kan du tryggt ignorera det här e-postmeddelandet.<br/>Ifall du har frågor, vänligen <a href=\"{{ membership_website_admin }}\">kontakta webbplatsens administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Ändringen av ditt lösenord på {{ membership_company_name }} lyckades",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Avsåg du inte att göra den här ändringen? Använd formuläret för <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">glömt lösenord</a> för att återställa ditt lösenord nu.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Om du har frågor, vänligen kontakta <a href=\"{{ membership_website_admin }}\"> webbplatsens administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Din registrering har slutförts",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Tack för att du registrerade dig! Du är klar. Nu kan du logga in för att få tillgång till och låsa upp ännu mer värdefulla tillgångar. ",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Logga in på ditt nya konto",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Om du har frågor eller har fått det här av misstag, vänligen <a href=\"{{ membership_website_admin }}\">kontakta sidans administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Välkommen till {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Slutför din registrering genom att skapa ett säkert lösenord för ditt konto.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Skapa lösenord",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Eller kopiera och klistra in den här länken in din webbläsare:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Om du har frågor eller har fått det här av misstag, vänligen <a href=\"{{ membership_website_admin }}\">kontakta sidans administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Bekräfta din e-postadress",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Tack för att du registrerade dig! Du måste bekräfta din e-postadress för att slutföra registreringen på {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Verifiera e-postadress",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Om du har frågor eller har fått det här av misstag, vänligen <a href=\"{{ membership_website_admin }}\">kontakta sidans administratör</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Bekräfta din förfrågan om radering",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Bekräfta din begäran om radering",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Hej {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Vi har fått en begäran om att radera dina personuppgifter från {{ company_name }} den:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Enhet:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Tid och datum:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Bekräfta att du vill ta bort dina data för att vi ska kunna behandla din begäran.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Ja, radera mina data",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Denna länk går ut om 30 minuter.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Om du inte begärde att bli raderad kan du med säkerhet ignorera detta meddelande.",
+    "description": "",
+    "placeholders": null
+  }
+}

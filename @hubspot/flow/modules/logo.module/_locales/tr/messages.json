@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Logo maks. yükseklik",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Bu, varsayılan logo geçersiz kılınırken uygulanmaz",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Bu seçimi kullanarak bu şablona uygulanan logoyu geçersiz kılmayı seçebilirsiniz.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Varsayılan logoyu geçersiz kıl",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Teklifleriniz, Hesap Varsayılanları veya Web Sitesi Sayfası Ayarlarında Marka Kitinizden şirketinizin logosunu, varsayılan olarak gösterecektir.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Wiadomość z potwierdzeniem subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Twoje preferencje e-maili zostały zaktualizowane.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Wiadomość aktualizacji subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Podtytuł",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Jeśli to nie jest Twój adres e-mail, zignoruj tę stronę, gdyż powiązana z nią wiadomość najprawdopodobniej została do Ciebie przekazana.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Wszystkie subskrypcje e-maili zostały anulowane.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Wiadomość anulowania subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Tekst nagłówka",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Nagłówek",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Tekst przycisku zarządzania preferencjami",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Zarządzaj preferencjami",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Powrót do zarządzania preferencjami",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Wprowadzono błędne ustawienia? Nie martw się, możesz zmienić swoje preferencje.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Tekst potwierdzający pomyślne anulowanie pojedynczej subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Pomyślnie anulowano subskrypcję:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Tekst zastępczy subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "wybrany typ subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Poziom nagłówka w hierarchii",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Nagłówek 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Nagłówek 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Nagłówek 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Nagłówek 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Nagłówek 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Nagłówek 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Poziom wiadomości e-mail w hierarchii",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Nagłówek 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Nagłówek 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Nagłówek 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Nagłówek 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Nagłówek 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Nagłówek 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Akapit",
+    "description": "",
+    "placeholders": null
+  }
+}

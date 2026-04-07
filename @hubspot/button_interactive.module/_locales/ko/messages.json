@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "버튼(인터랙티브)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "링크 URL",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "이메일 주소",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "파일",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "행동 유도 옵션 닫기",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "이메일 주소",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "전화번호",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "파일 다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "미팅 링크",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "페이지 중 하나",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "블로그 페이지 중 하나",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "연결 대상",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "미팅 링크",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "새 탭에서 링크 열기",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "페이지",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "블로그",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "클릭함",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "배경",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "테두리",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "테두리",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "코너",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "둥근 모서리를 버튼에 추가",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "반경",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "배경에 마우스 올리기",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "테두리",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "테두리에 마우스 올리기",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "호버",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "텍스트에 마우스 올리기",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "스타일",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "텍스트 패딩",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "여기에 버튼 링크 추가",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "버튼 텍스트",
+    "description": "",
+    "placeholders": null
+  }
+}

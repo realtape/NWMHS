@@ -1,0 +1,57 @@
+{
+  "name": {
+    "message": "Vídeo",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.label": {
+    "message": "Tipus de vídeo",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.embed": {
+    "message": "Incrusta",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.hubspot_video": {
+    "message": "Vídeo de HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "hubspot_video.label": {
+    "message": "Vídeo de HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "embed_field.label": {
+    "message": "Incrusta",
+    "description": "",
+    "placeholders": null
+  },
+  "oembed_thumbnail.label": {
+    "message": "Miniatura personalitzada",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.label": {
+    "message": "Opcions de l'estil",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.oembed_thumbnail_play_button_color.label": {
+    "message": "Color del botó Reprodueix",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_title.default": {
+    "message": "No s'ha seleccionat cap vídeo",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_description.default": {
+    "message": "Selecciona un tipus de vídeo a la barra lateral.",
+    "description": "",
+    "placeholders": null
+  }
+}

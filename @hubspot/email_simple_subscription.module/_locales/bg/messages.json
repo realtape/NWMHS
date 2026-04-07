@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Архивиране на отмяна на абонамент",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Текст на бутон",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Отмяна на абонамент",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Отмяна на абонамент за получаване на имейли",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Заглавие",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Текст на контейнер за въвеждане на имейл",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Вашият имейл адрес:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Помощен текст за въвеждане на имейл",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Съобщение за грешка",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Възникна проблем при зареждане на страницата. Опитайте да използвате същата връзка от по-скорошен имейл или се свържете с компанията, за да актуализирате предпочитанията си за абонамента.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Подзаглавие",
+    "description": "",
+    "placeholders": null
+  }
+}

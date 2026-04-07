@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Assinatura de email do blog",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "O padrão usará o blog atual quando usado em um modelo de blog ou o blog principal quando usado em outro lugar.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selecione o blog para exibir",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Assine aqui!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Título para exibir acima do formulário",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Resposta integrada para os usuários",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Obrigado por assinar!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Para que o formulário de assinatura do blog seja exibido, você precisa ativar as assinaturas para o seu blog. Isso pode ser feito nas configurações. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Saiba mais</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Nível do título",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Escolha um nível de cabeçalho. Os cabeçalhos devem ser aninhados de forma hierárquica com base no seu conteúdo. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Saiba mais</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

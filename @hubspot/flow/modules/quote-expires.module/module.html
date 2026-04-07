@@ -1,0 +1,9 @@
+{# Displays the date the quote expires #}
+{% set quote = template_data.quote or mock_data.quote %}
+{% set timezone = quote.hs_timezone or 'US/Eastern' %}
+{% set locale = quote.hs_locale or 'en-US' %}
+
+<div class="quote-expiration">
+  <span class="quote-expiration__text">{{ module.quote_expires_text|sanitize_html }}</span>
+  <span class="quote-expiration__expiration-date">{{ quote.hs_expiration_date|int|format_date('long', timezone, locale)|sanitize_html }}</span>
+</div>

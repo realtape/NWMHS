@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Abonelik onay mesajı",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "E-posta tercihlerinizi başarıyla güncellediniz.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Abonelik güncellemesiyle ilgili mesaj",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Alt başlık",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Bu sizin e-posta adresiniz değilse bu sayfayla ilişkili e-posta büyük olasılıkla size iletildiği için lütfen bu sayfayı yok sayın.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Tüm e-posta iletişimlerinden başarıyla çıktınız.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Abonelikten çıkma mesajı",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Başlık metni",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Başlık",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Tercihleri yönet düğme metni",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Tercihleri yönet",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Tercihleri yönet i̇ade feragatnamesi̇",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Bir hata mı yaptınız? Endişelenmeyin, tercihlerinizi değiştirebilirsiniz.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Tek abonelik abonelik iptali başarılı metni",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Şu aboneliğinizin iptali başarılı:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Abonelik yer tutucusu metni",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "seçili abonelik türünüz",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Üstbilgi başlık seviyesi",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Başlık 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Başlık 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Başlık 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Başlık 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Başlık 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Başlık 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "E-posta başlık seviyesi",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Başlık 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Başlık 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Başlık 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Başlık 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Başlık 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Başlık 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Paragraf",
+    "description": "",
+    "placeholders": null
+  }
+}

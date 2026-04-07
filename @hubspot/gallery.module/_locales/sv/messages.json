@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Bildgalleri",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Bildtext",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Bild",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Öppna länk i ny flik",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Visa bildtext",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Länk-URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Bild",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Varierande höjd",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Fast höjd",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Varierande höjd",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Visa navigeringsknappar",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Miniatyrbildsnavigering",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standardreglage",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Ljuslådegalleri",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Visningsläge",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Slingbilder",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Lägg skärmdumparna ovanpå bilderna",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Bevara alltid bidtexten nedanför bilden",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Bildtextens position",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tid i sekunder mellan automatisk bläddring",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Avta",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Bild",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Bildövergångar",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rader för ljuslådegalleri",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Avancera automatiskt",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Den här modulen har fasats ut och ersatts av två nya och förbättrade moduler, Image Slider och Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Läs mer.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

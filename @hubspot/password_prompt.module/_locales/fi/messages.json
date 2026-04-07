@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Salasanakehote",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Salasanapaikkamerkki",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Huonon salasanan viesti",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Pahoittelemme, yritä uudelleen.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Lähetä",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Lähetä painiketeksti",
+    "description": "",
+    "placeholders": null
+  }
+}

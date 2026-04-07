@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Corps principal du courriel",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hi&nbsp{{contact.firstname}},</p>\n<p>Décrivez ce que vous avez à offrir aux clients. Pourquoi devraient-ils lire? Que leur avez-vous promis en objet? Dites-leur quelque chose de drôle. Faites-les rire. Faites-les pleurer. Utilisez une liste pour...</p>\n<p>Utilisez une liste pour :</p>\n<ul>\n<li>Expliquer la valeur de votre offre</li>\n<li>Rappeler au lecteur ce qu'il retirera de l'action</li>\n<li>Montrer votre compétence par des points de suspension</li>\n<li>Rendre votre contenu facile à numériser </li>\n</ul>\n<p><a href=\"http://hubspot.com\">LIEZ À UNE PAGE D'ACCUEIL SUR VOTRE SITE</a>(C'est la partie vraiment importante.)</p>\n<p>Maintenant, terminez avec un petit rappel de votre amour pour eux.</p>\n<p>Vous, espèce de beau parleur.</p>\n<p>Sincèrement,</p>\n<p>votre nom</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Corps du courriel",
+    "description": "",
+    "placeholders": null
+  }
+}

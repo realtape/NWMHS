@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Passwort-Eingabeaufforderung",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Platzhalter für Passwort",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Passwort",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Nachricht zu ungültigem Passwort",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Bitte versuchen Sie es erneut.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Einsenden",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Text für Einsende-Button",
+    "description": "",
+    "placeholders": null
+  }
+}

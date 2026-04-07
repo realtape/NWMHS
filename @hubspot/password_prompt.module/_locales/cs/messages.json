@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Výzva k zadání hesla",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Zástupný symbol hesla",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Zpráva o nesprávném hesle",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Zkuste to znovu.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Odeslat",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Text tlačítka odeslání",
+    "description": "",
+    "placeholders": null
+  }
+}

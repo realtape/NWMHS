@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "사무실 위치 정보",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p id=\"footer\" style=\"font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: center; font-size: 12px; line-height: 1.34em; color: {{ secondary_font_color }}; display: block;\">{{ site_settings.company_name }} &nbsp;&nbsp;{{ site_settings.company_street_address_1 }} &nbsp;{{ site_settings.company_street_address_2 }} &nbsp;{{ site_settings.company_city }} &nbsp;{{ site_settings.company_state }} &nbsp;&nbsp;{{ site_settings.company_zip }} &nbsp;&nbsp;{{ site_settings.company_country }} <br><br>{{ site_settings.company_name }}에서 {{ subscription_name }}을(를) 구독했기 때문에 이 이메일이 수신되었습니다. <br><br> 수신 이메일 유형을 선택하려면 <a target=\"_blank\" rel=\"noopener\" href=\"{{ unsubscribe_link }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">이메일 기본 설정</a>을 업데이트하십시오. <br><br> &nbsp;<a target=\"_blank\" rel=\"noopener\" href=\"{{ unsubscribe_link_all }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">향후 모든 이메일 구독 취소</a> &nbsp;</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "위치 텍스트",
+    "description": "",
+    "placeholders": null
+  }
+}

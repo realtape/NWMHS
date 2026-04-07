@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Demande de mot de passe",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Espace réservé au mot de passe",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Mot de passe",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Message de mauvais mot de passe",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Désolé, veuillez réessayer.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Soumettre",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Texte du bouton Soumettre",
+    "description": "",
+    "placeholders": null
+  }
+}

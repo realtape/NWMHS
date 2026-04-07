@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Este orçamento expirou",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "O orçamento {{ personalization_token('quote.hs_quote_number', '') }} expirou em {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Contacte <a href='#'>o seu representante de vendas</a> para mais detalhes.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Frequência de faturação",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Preço unitário",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Preço",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Produtos e serviços",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Quantidade",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Sumário<br> Executivo",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Termos e Condições",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Comentários",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Aceitação do<br>projeto",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Subcabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "A nossa<br> história",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Temos orgulho<br>no que fazemos",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "O que os nossos clientes<br>dizem sobre nós",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Resumo do<br>projeto",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Os nossos objetivos",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Declaração<br>de trabalho",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Estimativa<br>do projeto",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "O<br>Contrato",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Preparado para",
+    "description": "",
+    "placeholders": null
+  }
+}

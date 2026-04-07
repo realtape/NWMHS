@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Pedido de palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Marcador de posição da palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Mensagem de palavra-passe errada",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Lamentamos. Tente novamente.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Submeter",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Texto do botão Submeter",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "이미지 갤러리",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "캡션",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "슬라이드",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "새 탭에서 링크 열기",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "캡션 표시",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "링크 URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "이미지",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "가변 높이",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "고정 높이",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "가변 높이",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "탐색 버튼 표시",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "섬네일 탐색",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "표준 슬라이더",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "라이트박스 갤러리",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "디스플레이 모드",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "루프 슬라이드",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "이미지 맨위에 캡션을 겹쳐서 표시",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "캡션을 항상 이미지 아래에 유지",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "캡션 위치",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "자동 스크롤 간격(초)",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "페이드",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "슬라이드",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "슬라이드 전환",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "라이트박스 갤러리 열",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "자동 전환",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "이 모듈은 새로 향상된 두 가지 모듈인 Image Slider 및 Image Grid로 인해 사용 중단됩니다. <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">자세히 알아보십시오.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

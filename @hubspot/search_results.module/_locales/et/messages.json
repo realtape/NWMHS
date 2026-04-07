@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Lehe otsingutulemused",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Kuva esiletoodud pildid",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Vabandust. Otsingusõna [[search_term]] ei andnud tulemusi.</p><p>Proovige oma küsimus ümber sõnastada või sirvige meie lehte.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Eelmine lehekülg",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Järgmine lehekülg",
+    "description": "",
+    "placeholders": null
+  }
+}

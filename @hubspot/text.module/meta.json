@@ -1,0 +1,22 @@
+{
+  "label": "One Line of Text",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "content_types": ["LANDING_PAGE", "SITE_PAGE", "BLOG_POST", "BLOG_LISTING", "QUOTE_TEMPLATE", "SUBSCRIPTION", "MEMBERSHIP"],
+  "icon": "../img/icon/high-text.svg",
+  "extra_classes": "widget-type-text",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": [
+    "text"
+  ],
+  "content_tags": [
+    {
+      "name": "COMMERCE",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

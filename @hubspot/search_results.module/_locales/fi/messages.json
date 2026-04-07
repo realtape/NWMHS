@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Sivuston hakutulokset",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Näytä esitellyt kuvat",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Pahoittelut. Ei tuloksia haulle [[search_term]].</p><p>Yritä muotoilla kyselysi uudelleen tai selaa sivustoa.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Edellinen sivu",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Seuraava sivu",
+    "description": "",
+    "placeholders": null
+  }
+}

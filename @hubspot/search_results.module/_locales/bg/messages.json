@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Резултати от търсенето в сайта",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Показване на избрани изображения",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Съжаляваме. Нямаше резултати за [[search_term]].</p><p>Опитайте да преоформите заявката си или прегледайте нашия сайт.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Предишна страница",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Следваща страница",
+    "description": "",
+    "placeholders": null
+  }
+}

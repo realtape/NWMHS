@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horisontaal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertikaal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Horisontale kieslyste wys items langs mekaar, en vertikale kieslyste is van bo na onder",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Oriëntasie",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Soek",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Kinderkieslysitems sal verskyn as jy die muiswyser oor die ouer hou. Indien dit nie gemerk is nie, sal kinderkieslysitems altyd verskyn",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Wil jy opspringkieslyste aktiveer?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Die kieslysboom is die bladsystruktuur wat die items in die kieslys genereer. Een kieslysboom kan vir veelvuldige kieslyste gebruik word. Jy kan veelvoudige kieslyste vir komplekse webwerfstrukture skep. Kieslyste word in jou Inhoudinstellings geskep en bestuur",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Kieslys",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Bepaal die aantal kieslysboomkinders wat in die kieslys uitgevou kan word",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Maksimum vlakke",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Soek",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Kieslys",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Broodkrummelstylroetekieslys (gebruik horisontale vloei)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinamika per blad - Wys blaaie in kieslys wat verwant is aan die bladsy wat bekyk word ",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Staties - Wys altyd topvlakblaaie in kieslys",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinamika per afdeling - Wys blaaie in kieslys wat verwant is aan die afdeling wat bekyk word",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Gevorderde kieslyste wys verskillende dele van 'n kieslysboom volgens die bladsy wat bekyk word.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Gevorderde kieslystipe",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Soek",
+    "description": "",
+    "placeholders": null
+  }
+}

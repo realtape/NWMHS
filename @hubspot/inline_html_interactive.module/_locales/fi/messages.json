@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Sähköpostiosoite",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Puhelinnumero",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Tiedoston lataus",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Kokouslinkki",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Yksi sivuistasi",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Linkitä kohteeseen",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Kokouslinkki",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Avaa linkki uudessa välilehdessä",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Sivu",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Inline-HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Painikkeen sisältö",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML, joka renderöidään painikkeen sisällä. Voit käyttää vain tunnisteen sisällä kelvollisia <a> tunnisteita.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Napsauta tästä",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Avaa linkki uudessa välilehdessä",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Edistynyt",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Mukautetut CSS-säännöt",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Valitsin",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Tämä arvo yhdistetään toimintakehotuksen valitsimeen. Esimerkiksi \":hover\" muuttuu ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Tyyli",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Lisää mukautettua CSS:ää tyylisääntöäsi varten. Esimerkiksi: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Mukautetut CSS-luokat",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Lisää mukautettuja CSS-luokkia CTA-linkkiin.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Mukautetut CSS-tyylitaulukot",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Lisää mukautettu CSS-tyylisivu CTA:llesi.  Esimerkki: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Käytä vanhaa markupia",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Kääri HTML vanhaan markupiin tukeaksesi olemassa olevaa CSS:ää",
+    "description": "",
+    "placeholders": null
+  }
+}

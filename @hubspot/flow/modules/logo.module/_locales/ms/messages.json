@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Tinggi maksimum logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Ini tidak terpakai semasa menggantikan logo lalai",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Anda boleh memilih untuk membatalkan logo yang digunakan pada templat ini dengan menggunakan togol ini.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Menggantikan logo lalai",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Secara lalai, sebut harga anda akan menunjukkan logo syarikat anda dari Kit Jenama anda di Tetapan Lalai Akaun atau Halaman Laman Web.",
+    "description": "",
+    "placeholders": null
+  }
+}

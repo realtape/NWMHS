@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Tabela podsumowująca przyszłą płatność",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Nagłówek tabeli",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Wyświetl nagłówek tabeli",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Nagłówek tabeli",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Dodaj nagłówek do tabeli podsumowującej przyszłe płatności",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "Podsumowanie przyszłych płatności",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Kolumny",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Nagłówek nazwy pozycji",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Pozycja",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Nagłówek podsumowania płatności",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Płatność",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Jednorazowo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ tydz.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 tygodnie",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ mies.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ kwartał",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 miesięcy",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ rok",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 lata",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 lata",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "dzień",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "dn.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "tydzień",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "tyg.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "miesiąc",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "miesiące",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "płatność",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "płatności",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} w dniu {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} w terminie {{ billing_delay_period }} {{ billing_delay_unit }} po pierwszej płatności",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }}/{{ recurring_frequency }} od {{ billing_delay_period }} {{ billing_delay_unit }} po pierwszej płatności",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} od {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} od {{ billing_delay_period }} {{ billing_delay_unit }} po pierwszej płatności w ramach {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} od {{ formatted_first_payment_date }} w ramach {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 lata",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 lat",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "follow_up_type_automation.label": {
+    "message": "Tambahkan kepada aliran kerja",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.label": {
+    "message": "Hantarkan e-mel susulan",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.help_text": {
+    "message": "Untuk menghantarkan e-mel susulan, pastikan tetapan  'Tetapkan kenalan yang dicipta sebagai kenalan pemasaran’ dihidupkan. Anda boleh mengurus tetapan ini dalam pilihan. <a href='https://knowledge.hubspot.com/contacts/set-contacts-as-marketing#set-the-default-marketing-status-for-new-contacts'>Ketahui lebih lanjut</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "form.default.message": {
+    "message": "Terima kasih kerana menghantar borang ini.",
+    "description": "",
+    "placeholders": null
+  },
+  "form.label": {
+    "message": "Borang",
+    "description": "",
+    "placeholders": null
+  },
+  "form_follow_ups_workflow_id.label": {
+    "message": "Aliran Kerja",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Borang",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_are_overridden.label": {
+    "message": "Hantarkan pemberitahuan borang kepada alamat e-mel yang ditentukan dan bukannya lalai borang",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_override_email_addresses.label": {
+    "message": "Alamat E-mel",
+    "description": "",
+    "placeholders": null
+  },
+  "sfdc_campaign.label": {
+    "message": "Kempen Salesforce",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Tajuk Borang",
+    "description": "",
+    "placeholders": null
+  },
+  "simple_email_for_live_id.label": {
+    "message": "E-mel",
+    "description": "",
+    "placeholders": null
+  }
+}

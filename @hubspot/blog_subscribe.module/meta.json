@@ -1,0 +1,21 @@
+{
+  "label": "Blog Email Subscription",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/blog-subscribe-icon.svg",
+  "inline_help_text": "For the blog subscription form to appear, you need to turn on subscriptions for your blog. This can be done in settings. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Learn more</a>",
+  "extra_classes": "widget-type-blog_subscribe",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": ["blog"],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "editable_contexts": ["TEMPLATE"]
+}

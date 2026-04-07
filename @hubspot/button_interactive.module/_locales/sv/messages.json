@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Knapp (interaktiv)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "Länk-URL",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "E-postadress",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Fil",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Stäng Call-to-Action",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "E-postadress",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonnummer",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Nedladdning av fil",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Möteslänk",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "En av dina sidor",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "En av dina bloggsidor",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Länk till",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Möteslänk",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Öppna länk i ny flik",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Sida",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blogg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Färg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Klickat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Bakgrund",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Kant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Kant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Hörn",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Lägg till avrundade hörn i knappen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Färg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Håll musen över bakgrunden",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Kant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Håll musen över kanten",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Sväva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Teckensnitt",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Håll musen över texten",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiler",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Teckensnitt",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Textvaddering",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Lägg till en knapp här",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Knapptext",
+    "description": "",
+    "placeholders": null
+  }
+}

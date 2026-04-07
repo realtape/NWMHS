@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Grelha do logótipo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logótipos",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logótipo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estilos",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Imagem do logótipo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Altura máxima do logótipo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Define a altura máxima dos logótipos.<br><br>Definir uma altura máxima para o logótipo é o melhor quando se tenta fazer com que vários logótipos de dimensões drasticamente diferentes pareçam visualmente iguais em tamanho.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Proporção",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Defina a proporção do recipiente do logótipo. Mais útil se estiver a utilizar o campo de cor de fundo e estiver a usar logótipos com dimensões drasticamente diferentes.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Definir espaçamento em volta do logótipo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Devido à natureza responsiva da Web, a altura renderizada dos logótipos pode ser menor do que o valor definido com base numa combinação de tamanho de ecrã, tamanho da imagem original, espaçamento do logótipo, intervalo da grelha e contagem de colunas.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Grelha do logótipo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Contagem de colunas da grelha",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Defina a quantidade de colunas na grelha no desktop. A predefinição é 1 para telemóvel.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Definir uma cor de fundo em <strong>Imagem do logótipo > Fundo</strong> pode ajudá-lo a visualizar a grelha do logótipo. ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Intervalo da grelha",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Defina o espaçamento entre os itens da grelha.<br><br>Definir uma cor de fundo em <strong>Imagem do logótipo > Fundo</strong> pode ajudá-lo a visualizar a grelha do logótipo.",
+    "description": "",
+    "placeholders": null
+  }
+}

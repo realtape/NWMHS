@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "ब्लॉग ईमेल सब्सक्रिप्शन",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "किसी ब्लॉग टेम्पलेट में उपयोग किए जाने पर डिफ़ॉल्ट रूप से वर्तमान ब्लॉग का उपयोग किया जाएगा या कहीं और ब्लॉग में उपयोग किए जाने पर प्राइमरी ब्लॉग का उपयोग किया जाएगा।",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "डिस्प्ले करने के लिए ब्लॉग सेलेक्ट करें",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "यहाँ सब्सक्राइब करें!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "ऊपर दिए गए फ़ॉर्म को डिस्प्ले करने के लिए टाइटल",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "यूजर्स के लिए इनलाइन रिस्पॉन्स",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "सब्सक्राइब करने के लिए धन्यवाद!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "ब्लॉग सब्सक्रिप्शन फॉर्म दिखाने के लिए, आपको अपने ब्लॉग के लिए सब्सक्रिप्शन को ऑन करना होगा। यह सेटिंग में किया जा सकता है। <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>और अधिक जानें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "हेडिंग लेवल",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "हेडिंग लेवल चुनें। शीर्षक को आपके कंटेन्ट के आधार पर एक पदानुक्रमिक तरीके से नेस्टेड होना चाहिए। <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>अधिक जानकारी</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

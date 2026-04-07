@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "此報價已到期",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "報價 {{ personalization_token('quote.hs_quote_number', '') }} 已於 {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }} 過期。",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "請<a href='#'>連絡你的銷售代表</a>取得進一步詳細資料。",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "帳單頻率",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "單價",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "價格",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "產品與服務",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "數量",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "執行<br>摘要",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "條款和細則",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "留言",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "專案<br>接受度",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "副標題",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "我們的<br>故事",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "我們<br>對工作內容充滿熱情",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "客戶<br>對我們的評價",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "專案<br>摘要",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "我們的目標",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "工作<br>說明",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "專案<br>預估",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "專案<br>合約",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "準備對象：",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "পেমেন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "আইকন যুক্ত করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "বোতাম লিঙ্ক",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "অন্যান্য",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "একটি পেমেন্ট লিঙ্ক ব্যবহার করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "বোতাম টার্গেট",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "চেকআউট",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "বোতাম টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "একটি নতুন ট্যাবে খুলুন",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "স্লাইডিং ওভারলে",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "আচরণ লক্ষ্য করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "চেকআউট বন্ধ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "আইকন ",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "আইকন ",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "বাম ",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "ডানদিক",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "অবস্থান",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "পেমেন্ট লিঙ্ক",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "সরলরেখায় বিন্যাসকরণ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "সরলরেখায় বিন্যাসকরণ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "কোণ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "ব্যাসার্ধ ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "আইকন ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "হোভার করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "আইকন ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "আকার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "আইকন এবং বোতাম টেক্সটের মধ্যে ব্যবধান।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "ছোট হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "বড় হাতের অক্ষর",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "রূপান্তর করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "কোনটাই না",
+    "description": "",
+    "placeholders": null
+  }
+}

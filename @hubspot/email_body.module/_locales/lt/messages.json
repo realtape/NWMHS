@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Pagrindinis el. laiško tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Sveiki, {{contact.firstname}},</p>\n<p>apibūdinkite, ką galite pasiūlyti klientams. Kodėl jie turėtų skaityti? Ką jiems pažadėjote temos eilutėje? Nurodykite ką nors šaunaus. Prajuokinkite. Pravirkdykite. Nors paskutinis gal nelabai tinka...</p>\n<p>Pasinaudokite sąrašu, kuris pravers toliau nurodytais tikslais.</p>\n<ul>\n<li>Paaiškinkite savo pasiūlymo vertę</li>\n<li>Priminkite skaitytojams, ką jie gaus už tai, kad imsis veiksmų</li>\n<li>Pademonstruokite punktų ženklelių naudojimo įgūdžius</li>\n<li>Pateikite lengvai suprantamą turinį</li>\n</ul>\n<p><a href=\"http://hubspot.com\">NUORODA Į JŪSŲ ĮĖJIMO TINKLALAPĮ</a> (Šis dalis yra labai svarbi.)</p>\n<p>Viską užbaikite glaustu priminimu apie tai, kaip mylite savo klientus.</p>\n<p>Jūs tikri saldžialiežuvavimo meistrai.</p>\n<p>Pagarbiai</p>\n<p>Jūsų vardas ir pavardė</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Pagrindinis el. laiško tekstas",
+    "description": "",
+    "placeholders": null
+  }
+}

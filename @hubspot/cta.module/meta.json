@@ -1,0 +1,22 @@
+{
+  "label": "Call-to-Action (CTA)",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "content_types": ["LANDING_PAGE", "SITE_PAGE", "BLOG_POST", "BLOG_LISTING", "QUOTE_TEMPLATE", "SUBSCRIPTION", "MEMBERSHIP"],
+  "icon": "../img/icon/edited-ctas-2.svg",
+  "extra_classes": "widget-type-cta",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": [
+    "forms_and_buttons"
+  ],
+  "content_tags": [
+    {
+      "name": "AVIATION",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

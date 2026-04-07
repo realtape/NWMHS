@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Post Filter",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "See all",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Default will use the current blog when used in a blog template or the primary blog when used elsewhere.",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximum number of filter values to display. Leave blank to show all",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "List of values for filter links",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Posts by Tag",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Select blog to display",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Name",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordering of values for filter links",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tags",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Post Count",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Text to display if more than the maximum value to display are available. Leave blank to omit link",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Authors",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Months",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "List title to display",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Show all filters",
+    "description": "",
+    "placeholders": null
+  }
+}

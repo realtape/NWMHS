@@ -1,0 +1,224 @@
+/* Tabs container */
+.hs-tabs,
+.hs-tabs__scroll {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hs-tabs__scroll {
+  overflow-x: auto;
+}
+
+.hs-tabs__nudge {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: none;
+  box-sizing: border-box;
+  height: 80%;
+  width: 16px;
+  align-items: center;
+}
+
+.hs-tabs__nudge,
+.hs-tabs__nudge:hover,
+.hs-tabs__nudge:focus,
+.hs-tabs__nudge:active {
+  /* No button */
+  /* stylelint-disable */
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  background: none;
+  color: initial;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  text-align: left;
+  text-decoration: none;
+  transition: none;
+
+  margin: auto 0;
+  padding: 0;
+  background: #fff;
+  /* stylelint-enable */
+}
+
+.hs-tabs__nudge--show {
+  display: flex;
+}
+
+.hs-tabs__nudge--right,
+.hs-tabs__nudge--right:active,
+.hs-tabs__nudge--right:hover,
+.hs-tabs__nudge--right:focus {
+  right: 0;
+  border: 1px solid #ccc;
+  border-right: none;
+  justify-content: flex-end;
+}
+
+.hs-tabs__nudge--left,
+.hs-tabs__nudge--left:active,
+.hs-tabs__nudge--left:hover,
+.hs-tabs__nudge--left:focus {
+  z-index: 1;
+  left: 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  justify-content: flex-start;
+}
+
+.hs-tabs-nudge-icon {
+  display: flex;
+  height: 100%;
+  width: 8px;
+  align-items: center;
+  fill: currentColor;
+}
+
+.hs-tabs-nudge-icon svg {
+  width: 8px;
+}
+
+.hs-tabs__tab-wrapper {
+  display: flex;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  justify-content: space-between;
+  gap: 0.25rem;
+}
+
+/* Tabs */
+.hs-tabs__tab {
+  position: relative;
+  box-sizing: border-box;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hs-tabs__tab,
+.hs-tabs__tab:hover,
+.hs-tabs__tab:focus,
+.hs-tabs__tab:active {
+  /* No button */
+  /* stylelint-disable */
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  background: none;
+  color: initial;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  text-align: left;
+  text-decoration: none;
+  transition: none;
+
+  /* Tab styles that we need to override from the above no-button styles */
+  padding: 0.7rem 1.4rem;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background-color: #eee;
+  /* stylelint-enable */
+}
+
+.hs-tabs__tab:hover,
+.hs-tabs__tab:focus,
+.hs-tabs__tab:active {
+  background: #fff;
+}
+
+.hs-tabs__tab[aria-selected='true'] {
+  border-bottom-color: #fff;
+  background: #fff;
+  font-weight: bold;
+}
+
+.hs-tabs__tab-wrapper--has-nudges > .hs-tabs__tab:first-child {
+  padding-left: 18px;
+
+  /* Add this as a helper for checking bounding box */
+  margin-left: 1px;
+}
+
+.hs-tabs__tab-wrapper--has-nudges > .hs-tabs__tab:last-child {
+  padding-right: 18px;
+
+  /* Add this as a helper for checking bounding box */
+  margin-right: 1px;
+}
+
+/* Applies border to pseudo element to prevent jitter when hovering over tabs */
+
+.hs-tabs__tab:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+}
+
+.hs-tabs__tab[aria-selected='false']:hover:after,
+.hs-tabs__tab[aria-selected='false']:focus:after,
+.hs-tabs__tab[aria-selected='true']:after {
+  border-bottom: 2px solid;
+}
+
+/* Tab content */
+
+.hs-tabs__content {
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.hs-tabs__content__panel {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2.8rem;
+}
+
+@media screen and (max-width: 767px) {
+  .hs-tabs__scroll {
+    width: calc(100% - 112px);
+    margin-left: 56px;
+  }
+
+  .hs-tabs__nudge {
+    display: flex;
+    width: 48px;
+    justify-content: center;
+  }
+
+  .hs-tabs__nudge--mobile-disabled {
+    opacity: 30%;
+  }
+
+  .hs-tabs__nudge--right,
+  .hs-tabs__nudge--right:active,
+  .hs-tabs__nudge--right:hover,
+  .hs-tabs__nudge--right:focus {
+    justify-content: center;
+  }
+
+  .hs-tabs__nudge--left,
+  .hs-tabs__nudge--left:active,
+  .hs-tabs__nudge--left:hover,
+  .hs-tabs__nudge--left:focus {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Vizualizare ca pagină web",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<div style=\"padding-top: 15px; font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: right; font-size: 9px; line-height: 1.34em; color: {{ secondary_font_color }};\">Nu este afișat în mod corect? Vizualizați acest e-mail ca pagină web <a target=\"_blank\" rel=\"noopener\" href=\"{{ view_as_page_url }}\" style=\"color: {{ secondary_font_color }}; text-decoration: underline; white-space: nowrap;\" data-viewaswebpage=\"true\">aici</a>.</div>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Text pentru vizualizarea ca pagină web",
+    "description": "",
+    "placeholders": null
+  }
+}

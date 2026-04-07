@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "备份取消订阅",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "按钮文本",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "取消订阅",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "电子邮件取消订阅",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "标题",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "电子邮件输入占位符文本",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "你的电子邮件地址：",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "电子邮件输入帮助文本",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "错误消息",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "加载页面时出错。请使用较新电子邮件中的相同链接，请联系公司以更新你的订阅首选项。",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "副标题",
+    "description": "",
+    "placeholders": null
+  }
+}

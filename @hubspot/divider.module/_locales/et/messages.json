@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Eraldaja",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Joondus",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Keskel",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Vasakul",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Paremal",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Värv",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Kõrgus",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Joone tüüp",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Katkendjoonega",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Punktiirjoonega",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Pidev",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Plokid",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maksimaalselt 20 pikslit",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Kuva polsterdus?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Laius",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Ala osakaal, kuhu eraldaja on paigutatud.",
+    "description": "",
+    "placeholders": null
+  }
+}

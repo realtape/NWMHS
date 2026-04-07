@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "향후 결제 요약 표",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "표 제목",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "표 제목 표시",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "표 제목",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "향후 결제 요약 표에 제목 추가",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "향후 결제 요약",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "열",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "라인 항목 이름 제목",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "항목",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "결제 요약 제목",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "결제",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "일회성",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ 주",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2주",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ 월",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ 분기",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6개월",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ 년",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2년",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3년",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "일",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "일",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "주",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "주",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "월",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "월",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "결제",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "결제",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_first_payment_date }}의 {{ formatted_price }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": " 최초 결제 후 {{ billing_delay_period }}{{ billing_delay_unit }} 이내 {{ formatted_price }} 결제",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "최초 결제 후 {{ billing_delay_period }}{{ billing_delay_unit }}부터 {{ formatted_price }}/{{ recurring_frequency }} 결제",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_first_payment_date }}에 시작되는 {{ formatted_price }} {{ recurring_frequency }} ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "최초 결제 후 {{ billing_delay_period }}{{ billing_delay_unit }}부터 {{ formatted_price }}/{{ recurring_frequency }} 결제(총 {{ number_of_payments }}{{ payment_pluralized }})",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ number_of_payments }}{{ payment_pluralized }}용으로 {{ formatted_first_payment_date }}에 시작되는 {{ formatted_price }}{{ recurring_frequency }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4년",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5년",
+    "description": "",
+    "placeholders": null
+  }
+}

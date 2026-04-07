@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Maximální výška loga",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Neplatí při přepisování výchozího loga",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Pomocí tohoto přepínače můžete nastavit, že se má logo v této šabloně přepsat.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Přepsat výchozí logo",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Ve výchozím nastavení se v nabídkách bude zobrazovat logo vaší společnosti ze sady značky ve výchozích nastaveních účtu nebo v nastavení webových stránek.",
+    "description": "",
+    "placeholders": null
+  }
+}

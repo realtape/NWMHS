@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Divisor",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Alinhamento",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Centralizado",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Esquerda",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Direita",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Altura",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Tipo de linha",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Tracejado",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Pontilhado",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Sólido",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Máx. de 20 pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Mostrar preenchimento?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Percentual da área em que o divisor foi colocado.",
+    "description": "",
+    "placeholders": null
+  }
+}

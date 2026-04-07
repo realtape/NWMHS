@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "การลงรายการโพสต์",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "นิยมสูงสุด - 6 เดือนที่ผ่านมา",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "นิยมสูงสุด - ตลอดเวลา",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "นิยมสูงสุด - เดือนที่แล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "นิยมสูงสุด - ปีที่แล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "ล่าสุด",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "ค้นหา",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "แสดงรายการโพสต์ในบล็อกตาม",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "ค่าเริ่มต้นจะใช้บล็อกปัจจุบันเมื่อใช้ในเทมเพลตบล็อก หรือบล็อกพื้นฐานเมื่อใช้ในส่วนอื่นๆ",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "เลือกบล็อกที่จะแสดง",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "จำนวนโพสต์ในบล็อกสูงสุดที่สามารถลงรายการ",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "โพสต์ล่าสุด",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "ลงรายการชื่อเรื่องที่จะแสดง",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "sender_user.default": {
+    "message": "<span class=\"sender-information\">{{ personalization_token('template_data.quote.hs_sender_firstname', '') }} {{ personalization_token('template_data.quote.hs_sender_lastname', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_email', '') }}</span>",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_user.label": {
+    "message": "Usuario del remitente",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Usuario del remitente",
+    "description": "",
+    "placeholders": null
+  }
+}

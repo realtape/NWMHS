@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Yatay",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Dikey",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Yatay menüler öğeleri yan yana görüntüler ve dikey menüler ise yukarıdan aşağıya",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Yönelim",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Üst öğenin üzerine geldiğinizde alt menü öğeleri görünecektir. İşaretlenmemişse alt menü öğeleri her zaman görünecektir",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Açılır pencereler etkinleştirilsin mi?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Menü ağacı, menüdeki öğeleri oluşturan sayfa yapısıdır. Birden fazla menü ile tek bir menü ağacı kullanılabilir. Karmaşık web sitesi yapıları için birden çok menü oluşturabilirsiniz. Menüler, İçerik Ayarlarınızda oluşturulur ve yönetilir",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menü",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Menüde genişletilebilen menü ağacı çocuklarının sayısını belirler",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Maks. seviye",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menü",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "İçerik haritası stili yol menüsü (yatay akışı kullanır)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Sayfaya göre dinamik - Görüntülenen sayfayla ilgili sayfaları menüde gösterin",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statik - Her zaman menüde en üst düzey sayfaları göster",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Bölüme göre dinamik - Görüntülenmekte olan bölümle ilgili sayfaları menüde göster",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Gelişmiş menüler, görüntülenen sayfaya bağlı olarak bir menü ağacının farklı kısımlarını gösterir.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Gelişmiş menü türü",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  }
+}

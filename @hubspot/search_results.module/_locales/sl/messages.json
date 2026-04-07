@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Rezultati iskanja po spletnem mestu",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Prikaži predstavljene slike",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Za [[search_term]] ni rezultatov. </p><p>Poskusite preoblikovati svojo poizvedbo ali prebrskajte po našem spletnem mestu.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Prejšnja stran",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Naslednja stran",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Lưới logo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Kiểu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Hình ảnh logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Chiều cao tối đa của logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Đặt chiều cao tối đa của logo.<br><br>Tốt nhất nên đặt chiều cao tối đa khi muốn đặt nhiều logo có kích thước khác nhau đáng kể thành kích thước hiển thị bằng nhau.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Tỷ lệ khung hình",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Đặt tỉ lệ khung hình của bộ chứa logo. Hữu ích nhất nếu bạn đang sử dụng trường màu nền và sử dụng các logo có kích thước khác nhau nhiều.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Màu nền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Đặt khoảng đệm quanh logo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Do tính chất phản hồi của web, chiều cao kết xuất của logo có thể thấp hơn giá trị đã đặt dựa trên tổ hợp kích thước màn hình, kích thước ảnh gốc, khoảng đệm logo, khoảng cách lưới và số cột.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Lưới logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Số lượng cột lưới",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Đặt số lượng cột trong lưới trên máy tính. Mặc định là 1 trên di động.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Đặt màu nền trong <strong>Ảnh logo > Nền</strong> có thể giúp bạn hiển thị lưới logo. ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Khoảng cách lưới",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Đặt khoảng cách giữa các mục trong lưới.<br><br>Đặt nền trong <strong>Ảnh logo > Nền</strong> có thể giúp bạn hiển thị lưới logo.",
+    "description": "",
+    "placeholders": null
+  }
+}

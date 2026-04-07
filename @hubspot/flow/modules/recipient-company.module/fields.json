@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Recipient company text",
+    "name": "recipient_company_text",
+    "type": "text",
+    "default": "Prepared for"
+  },
+  {
+    "label": "Recipient company name",
+    "name": "show_company_name",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "label": "Recipient company main address",
+    "name": "show_company_address",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "label": "Recipient company city, state, and zip",
+    "name": "show_company_city_state_zip",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "label": "Recipient company country",
+    "name": "show_company_country",
+    "type": "boolean",
+    "default": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "ऑफिस लोकेशन इन्फॉर्मेशन",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p id=\"footer\" style=\"font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: center; font-size: 12px; line-height: 1.34em; color: {{ secondary_font_color }}; display: block;\">{{ site_settings.company_name }}&nbsp;&nbsp; {{ site_settings.company_street_address_1 }} &nbsp;{{ site_settings.company_street_address_2 }}  &nbsp;{{ site_settings.company_city }} &nbsp;{{ site_settings.company_state }} &nbsp;&nbsp;{{ site_settings.company_zip }} &nbsp;&nbsp;{{ site_settings.company_country }}<br><br> आपको यह ईमेल इसलिए प्राप्त हुआ है क्योंकि आपने से सदस्यता ली है।{{ subscription_name }}  से {{ site_settings.company_name }} <br><br> अपडेट करें <a target=\"_blank\" rel=\"noopener\" href=\"{{ unsubscribe_link }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">ईमेल प्राथमिकताएं</a> प्राप्त होने वाले ईमेल के प्रकारों को चुनने| <br><br> &nbsp;<a target=\"_blank\" rel=\"noopener\" href=\"{{ unsubscribe_link_all }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">भविष्य के सभी ईमेल से सदस्यता छोड़ें</a> &nbsp;</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "लोकेशन टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Empresa remitent",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_image.inline_help_text": {
+    "message": "Si tries una imatge, es mostrarà com a logotip de la teva empresa.",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_image.label": {
+    "message": "Imatge de l'empresa remitent",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_address.label": {
+    "message": "Adreça de l'empresa del remitent",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_address.default": {
+    "message": "<span style='font-weight: bold;'>{{ personalization_token('template_data.quote.hs_sender_company_name', '') }}</span><br>{{ personalization_token('template_data.quote.hs_sender_company_address', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_address2', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_city', '')}}, {{ personalization_token('template_data.quote.hs_sender_company_state', '')}} {{ personalization_token('template_data.quote.hs_sender_company_zip', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_country', '') }}<br>",
+    "description": "",
+    "placeholders": null
+  }
+}

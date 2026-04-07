@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "ตารางโลโก้",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "โลโก้",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "โลโก้",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "รูปแบบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "รูปโลโก้",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "ความสูงสูงสุดของโลโก้",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "กำหนดความสูงสูงสุดของโลโก้<br><br>การตั้งค่าความสูงสูงสุดของโลโก้มีประโยชน์เมื่อต้องการทำให้โลโก้หลายๆ ชิ้นที่มีขนาดแตกต่างกันมากดูเท่ากัน",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "พื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "อัตราส่วนกว้างยาว",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "ตั้งอัตราส่วนภาพของคอนเทนเนอร์โลโก้ มีประโยชน์ในกรณีที่คุณใช้ฟิลด์สีในพื้นหลังและใช้โลโก้ที่มีขนาดต่างกันมาก",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "สีพื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "เว้นวรรค",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "เว้นวรรค",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "ตั้งค่าระยะห่างรอบโลโก้",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "เนื่องจากลักษณะการตอบสนองของเว็บ ความสูงที่เรนเดอร์ของโลโก้อาจน้อยกว่าค่าที่ตั้งไว้ โดยอ้างอิงจากขนาดหน้าจอ ขนาดรูปภาพต้นฉบับ การเพิ่มระยะห่างของโลโก้ ช่องว่างในกริด และจำนวนคอลัมน์ร่วมกัน",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "ตารางโลโก้",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "จำนวนคอลัมน์ตาราง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "ตั้งค่าจำนวนคอลัมน์ในกริดบนเดสก์ท็อป ค่าเริ่มต้นคือ 1 บนมือถือ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "การตั้งค่าสีพื้นหลังใน <strong>ภาพโลโก้ > พื้นหลัง</strong> อาจช่วยให้คุณมองเห็นกริดโลโก้ได้ดีขึ้น",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "ช่องตาราง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "ตั้งค่าระยะห่างระหว่างรายการตาราง<br><br>การตั้งค่าพื้นหลังใน <strong>รูปภาพโลโก้ > พื้นหลัง</strong> อาจช่วยให้คุณมองเห็นตารางโลโก้ชัดเจนขึ้น",
+    "description": "",
+    "placeholders": null
+  }
+}

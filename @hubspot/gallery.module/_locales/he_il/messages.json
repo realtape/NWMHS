@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "גלריית תמונות",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "כיתוב",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "שקופית",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "פתח קישור בכרטיסייה חדשה",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "הצג כיתוב",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "כתובת URL של קישור",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "תמונה",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "גובה משתנה",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "גובה קבוע",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "חיפוש",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "גובה משתנה",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "הצג לחצני ניווט",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "ניווט בתמונות ממוזערות",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "סרגל רגיל",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "גלריית תיבות תאורה",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "חיפוש",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "מצב תצוגה",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "הצג שקופיות בלולאה חוזרת",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "חיפוש",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "הצג כיתובים על גבי תמונות",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "שמור תמיד את הכיתובים מתחת לתמונות",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "מיקום כיתוב",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "משך זמן בשניות בין גלילות אוטומטיות",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "עמעום",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "שקופית",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "חיפוש",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "מעברי שקופיות",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "שורות לגלריית תיבות תאורה",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "התקדמות אוטומטית",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "מודול זה יצא משימוש לטובת שני מודולים חדשים ומשופרים: 'סרגל תמונות' ו'רשת תמונות' <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">קבל מידע נוסף.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "de863304-d116-95df-701d-946282fb63fc",
+    "name": "menu_tree",
+    "label": "Simple menu",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "type": "simplemenu",
+    "default": []
+  },
+  {
+    "id": "b9755df2-ad38-55a3-f10e-f1bb67127be6",
+    "name": "orientation",
+    "label": "Menu orientation",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "display": "radio",
+    "placeholder": "Search",
+    "choices": [["horizontal", "Horizontal"], ["vertical", "Vertical"]],
+    "type": "choice",
+    "default": "vertical"
+  }
+]

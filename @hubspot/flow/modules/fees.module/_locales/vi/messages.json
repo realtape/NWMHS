@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Các khoản phí",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "chiết khấu {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "{{ fee_amount }}% phí",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "{{ fee_amount }}% thuế",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "Các khoản phí khác",
+    "description": "",
+    "placeholders": null
+  }
+}

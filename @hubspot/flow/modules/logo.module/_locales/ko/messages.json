@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "로고",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "로고",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "로고 최대 높이",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "기본 로고를 재정의할 때는 해당되지 않음",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "이 토글을 사용하여 이 템플릿에 적용된 로고를 재정의할 수도 있습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "기본 로고 재정의",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "기본적으로 견적서에는 브랜드 키트에 있는 회사 로고가 계정 기본값 또는 웹사이트 페이지 설정에 표시됩니다.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Tabela de resumo dos pagamentos futuros",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Cabeçalho da tabela",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Exibir título da tabela",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Cabeçalho da tabela",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Adicione um cabeçalho à tabela de resumo dos pagamentos futuros",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "Resumo dos pagamentos futuros",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Colunas",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Cabeçalho Nome do item de linha",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Item",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Cabeçalho Resumo do pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Único",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/semana",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/duas semanas",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/mês",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/trimestre",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/6 meses",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ano",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/2 anos",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/3 anos",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "dia",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "dias",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "semana",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "semanas",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "mês",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "meses",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "pagamentos",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} em {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} vence {{ billing_delay_period }} {{ billing_delay_unit }} após o pagamento inicial",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} a partir de {{ billing_delay_period }} {{ billing_delay_unit }} após o pagamento inicial",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} a partir de {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} a partir de {{ billing_delay_period }} {{ billing_delay_unit }} após o pagamento inicial de {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} a partir de {{ formatted_first_payment_date }} por {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 anos",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 anos",
+    "description": "",
+    "placeholders": null
+  }
+}

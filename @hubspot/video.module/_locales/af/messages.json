@@ -1,0 +1,57 @@
+{
+  "name": {
+    "message": "Video",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.label": {
+    "message": "Videotipe",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.embed": {
+    "message": "Inbed",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.hubspot_video": {
+    "message": "HubSpot-video",
+    "description": "",
+    "placeholders": null
+  },
+  "hubspot_video.label": {
+    "message": "HubSpot-video",
+    "description": "",
+    "placeholders": null
+  },
+  "embed_field.label": {
+    "message": "Inbed",
+    "description": "",
+    "placeholders": null
+  },
+  "oembed_thumbnail.label": {
+    "message": "Pasgemaakte miniprent",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.label": {
+    "message": "Stylopsies",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.oembed_thumbnail_play_button_color.label": {
+    "message": "Speelknoppieteks",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_title.default": {
+    "message": "Geen video is gekies nie",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_description.default": {
+    "message": "Kies 'n videotipe in die sybalk.",
+    "description": "",
+    "placeholders": null
+  }
+}

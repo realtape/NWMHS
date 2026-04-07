@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "페이지를 찾을 수 없음",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "찾으시던 페이지를 찾을 수 없습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "홈페이지로 이동",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "이 페이지는 작동하지 않습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "내부 서버 오류가 발생했지만 해결하는 중입니다!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "홈페이지로 이동",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "회사 로고",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "이메일 기본 설정이 업데이트되었습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "모든 이메일 구독을 취소했습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "이메일 기본 설정이 업데이트되었습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "이메일 기본 설정 업데이트",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "{{ site_settings.company_name }}(으)로부터 수신하려는 이메일 선택:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "{{ business_unit().name }}(으)로부터 수신하려는 이메일 선택:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "언어 선택:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "이메일 기본 설정 업데이트",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "모든 이메일 구독 취소",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "이것이 귀하의 주소가 아니라면 다른 사람이 귀하에게 이메일을 전달했을 가능성이 큽니다. 이 메시지는 무시하셔도 됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "현재 모든 이메일 구독을 취소한 상태입니다. 이메일을 다시 수신하시겠습니까?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "예, 다시 구독하겠습니다!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "암호 필수",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "이 페이지를 보려면 암호를 입력하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "암호",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "\"[[search_term]]\"에 대한 검색 결과",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "죄송합니다. 액세스 권한이 없습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "이 페이지를 볼 권한이 없습니다. 필요하다면 사이트 관리자에게 문의하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "홈페이지로 이동",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "등록",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "지금 보려는 페이지는 등록된 사용자만 이용할 수 있습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "이메일",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "암호",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "사용자 저장",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "암호를 잊어버리셨나요?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "등록",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "표시",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "문제가 있나요? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">사이트 관리자에게 문의</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "로그아웃하셨습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "다시 로그인",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "또는 <a href=\"{{ '//' ~ request.domain }}\">홈페이지</a>로 돌아가기",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "암호 설정",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "환영합니다! 암호를 설정하여 등록을 완료하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "이메일",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "암호 확인",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "암호",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "암호 저장",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "표시",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "문제가 있나요? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">사이트 관리자에게 문의</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "암호 재설정",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "등록에 사용했던 이메일 주소를 입력하시면 암호를 재설정하기 위한 링크가 포함된 이메일을 보내드리겠습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "이메일",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "재설정 이메일 전송",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "생각이 나셨나요? <a href=\"/_hcms/mem/login\">로그인</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "문제가 있나요? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">사이트 관리자에게 문의</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "암호 재설정 이메일이 전송됨",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "{{ user_email }}에 대해 일치하는 계정을 찾지 못해 암호를 다시 설정하기 위한 다음 단계가 포함된 이메일이 발송되었습니다. 20분 내로 이메일이 수신되지 않으면 <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">관리자에게 문의</a>하세요.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "다른 재설정 이메일 전송",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "새 암호 만들기",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "새 암호는 이전에 사용한 암호와 달라야 합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "새 암호",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "새 암호 확인",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "암호 저장",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "표시",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "문제가 있나요? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">사이트 관리자에게 문의</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "이메일 주소가 확인되었습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "이메일 주소를 확인해 주셔서 감사합니다. 이제 본인 계정에 로그인하여 독점 콘텐츠에 액세스할 수 있습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "등록",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "문제가 있나요? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">사이트 관리자에게 문의</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "일회용 로그인 링크 전송됨",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>로그인할 수 있는 링크가 포함된 이메일을 귀하({{ user_email }})에게 전송했습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "이메일이 보이지 않는다면 스팸 폴더를 확인하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "로그인 링크 재전송",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "또는",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "대신 암호를 사용하여 로그인",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "문제가 있나요? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">사이트 관리자에게 문의</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "이메일 주소 확인",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "가입해주셔서 감사합니다! 이메일을 확인하고 확정 링크를 클릭하여 등록을 완료하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "문제가 있나요? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">사이트 관리자에게 문의</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "등록을 완료하려면 암호를 생성",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "마지막 단계입니다! 보안 암호를 만들면 {{ membership_domain }}의 콘텐츠에 액세스할 수 있습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "암호 생성",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "또는 다음 링크를 복사하여 브라우저에 붙여넣으십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "질문이 있거나 오류로 인해 이 메시지를 받은 경우에는 <a href=\"{{ membership_website_admin }}\">사이트 관리자에게 문의</a>하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "암호 재설정",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "새 암호를 설정하고 본인의 계정에 로그인하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "암호 재설정",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "이 요청을 하지 않았다면 본 이메일을 무시하셔도 됩니다. <br/>질문이 있다면 <a href=\"{{ membership_website_admin }}\">사이트 관리자에게 문의</a>하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "일회용 링크를 사용하여 로그인",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "계정 로그인을 계속하십시오. 보안을 위해 이 링크는 15분 후 만료됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "등록",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "또는 다음 링크를 복사하여 브라우저에 붙여넣으십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "이 요청을 하지 않았다면 본 이메일을 무시하셔도 됩니다. <br/>질문이 있다면 <a href=\"{{ membership_website_admin }}\">사이트 관리자에게 문의</a>하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "귀하의 {{ membership_company_name }} 암호가 성공적으로 변경되었습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "이것을 변경하려는 의도가 아니었나요? <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">암호 찾기</a> 양식을 사용하여 암호를 재설정하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "질문이 있다면 <a href=\"{{ membership_website_admin }}\">사이트 관리자</a>에게 문의하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "등록이 완료되었습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "등록해 주셔서 감사합니다. 모든 설정이 완료되었습니다. 이제 로그인하여 훨씬 더 많은 가치를 찾아 보십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "새 계정에 로그인",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "질문이 있거나 오류로 인해 이 메시지를 받은 경우에는 <a href=\"{{ membership_website_admin }}\">사이트 관리자에게 문의</a>하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "{{ membership_company_name }}에 오신 것을 환영합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "계정의 보안 암호를 만들어 등록을 완료하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "암호 생성",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "또는 다음 링크를 복사하여 브라우저에 붙여넣으십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "질문이 있거나 오류로 인해 이 메시지를 받은 경우에는 <a href=\"{{ membership_website_admin }}\">사이트 관리자에게 문의</a>하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "이메일 주소 확인",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "등록해 주셔서 감사합니다! {{ membership_domain }} 등록을 완료하려면 이메일 주소를 확인해야 합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "이메일 주소 확인",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "질문이 있거나 오류로 인해 이 메시지를 받은 경우에는 <a href=\"{{ membership_website_admin }}\">사이트 관리자에게 문의</a>하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "삭제 요청을 확인하십시오",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "삭제 요청 확인",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "{{ first_name }}님,",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "귀하의 개인 데이터를 다음 날짜와 시간에 {{ company_name }}에서 삭제하라는 요청을 받았습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>기기:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>날짜 및 시간:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "귀하의 요청을 처리할 수 있습니다. 데이터 삭제를 원하는지 확인해 주십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "예, 데이터를 삭제해 주십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "이 링크는 30분 후에 만료됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "삭제 요청을 하지 않았다면 이 메시지를 무시해도 괜찮습니다.",
+    "description": "",
+    "placeholders": null
+  }
+}

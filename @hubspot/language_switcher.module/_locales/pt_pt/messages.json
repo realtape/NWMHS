@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Comutador de idiomas",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Híbrido",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localizado",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "O idioma do texto no comutador de idiomas. \"PageLang\" significa que os nomes dos idiomas serão apresentados no idioma da página em que o comutador está. \"Localizado\" significa que o nome de cada idioma será apresentado nesse idioma. \"Híbrido\" é uma combinação dos dois.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Modo de apresentação",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Procurar",
+    "description": "",
+    "placeholders": null
+  }
+}

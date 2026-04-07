@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Yedek abonelikten ayrıl",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Düğme metni",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Abonelikten ayrıl",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "E-posta aboneliğinden ayrıl",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Başlık",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "E-posta girişi yer tutucu metni",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "E-posta adresiniz:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "E-posta girişi yardım metni",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Hata mesajı",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Sayfa yüklenirken bir sorun oluştu. Daha yeni bir e-postadaki aynı bağlantıyı kullanmayı deneyin veya abonelik tercihlerinizi güncellemek için şirket ile iletişime geçin.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Altbaşlık",
+    "description": "",
+    "placeholders": null
+  }
+}

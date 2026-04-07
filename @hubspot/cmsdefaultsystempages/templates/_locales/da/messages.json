@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Siden blev ikke fundet",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Vi kan ikke finde den side, du leder efter.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Gå til hjemmeside",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Denne side fungerer ikke",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Der opstod en intern serverfejl, men vi arbejder på at løse problemet.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Gå til hjemmeside",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Firmaets logo",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Dine e-mailpræferencer blev opdateret.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Du er nu afmeldt al e-mailkommunikation.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Dine e-mailpræferencer blev opdateret.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "Opdater e-mailpræferencer for",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Vælg hvilke e-mails, du gerne vil modtage fra {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Vælg, hvilke e-mails du gerne vil modtage fra {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Vælg et sprog:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Opdater e-mailpræferencer",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Afmeld abonnement på alle e-mails",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Hvis dette ikke er din adresse, er en e-mail mest sandsynligt blevet videresendt til dig fra en anden person, og du kan trygt ignorere denne meddelelse.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Du er afmeldt alle vores e-mails i øjeblikket. Ønsker du at modtage e-mails fra os igen?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Ja, tilmeld mig igen.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Adgangskode påkrævet",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "indtast din adgangskode for at se denne side.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Søgeresultater for \"[[search_term]]\"",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Beklager, men du har ikke adgang",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Du har ikke tilladelse til at få vist denne side. Kontakt webstedets administrator, hvis du har spørgsmål.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Gå til hjemmeside",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Log på",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Siden, du prøver at få vist er kun tilgængelig for registrerede brugere.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Husk mig",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Har du glemt din adgangskode?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Log på",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Vis",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Har du problemer? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakt webstedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Du er logget ud",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Log på igen",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Eller gå tilbage til <a href=\"{{ '//' ~ request.domain }}\">startsiden</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Opret din adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Velkommen! Fuldend din registrering ved at oprette din adgangskode.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Bekræft adgangskoden",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Gem adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Vis",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Har du problemer? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakt webstedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Nulstil din adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Indtast den e-mailadresse, som du brugte til at registrere dig. Så sender vi en e-mail til dig med et link til at nulstille din adgangskode.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Send e-mail til nulstilling",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Fik du den tilbage? <a href=\"/_hcms/mem/login\">Log på</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Har du problemer? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakt webstedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "E-mail til nulstilling af adgangskode er blevet sendt",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Hvis en matchende konto blev fundet for {{ user_email }}, er der blevet sendt en e-mail med de næste trin til nulstilling af din adgangskode. <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakt din administrator</a>, hvis du ikke har modtaget den efter 20 minutter.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Send endnu en e-mail til nulstilling",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Opret ny adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Din nye adgangskode skal være anderledes end din tidligere brugte adgangskode.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Ny adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Bekræft ny adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Gem adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Vis",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Har du problemer? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakt webstedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Din e-mailadresse er bekræftet",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Tak, fordi du bekræftede din e-mailadresse. Du kan nu logge på din konto og få adgang til dit eksklusive indhold.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Log på",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Har du problemer? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakt webstedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Link til engangslogin sendt",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Vi har sendt dig en e-mail til {{ user_email }}. Den indeholder et link til login.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Tjek din mappe med uønsket post, hvis du ikke kan se e-mailen.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Send link til login igen",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "eller",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Log på med adgangskode i stedet",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Har du problemer? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakt webstedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Bekræft din e-mailadresse",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Tak, fordi du har tilmeldt dig. Tjek din e-mail, og klik på bekræftelseslinket for at fuldende registreringen.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Har du problemer? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontakt webstedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Opret en adgangskode for at afslutte registrering",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Sidste trin! Når du har oprettet din sikre adgangskode, kan du logge ind og få adgang til indhold på {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Opret adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Eller kopier og indsæt dette link i din browser:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Hvis du har spørgsmål eller har modtaget dette ved en fejl, bedes du <a href=\"{{ membership_website_admin }}\">kontakte webstedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Nulstil din adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Indstil en ny adgangskode, og log ind på din konto.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Nulstil adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Hvis du ikke har fremsat denne anmodning, kan du roligt ignorere denne e-mail. <br/>Hvis du har spørgsmål, bedes du <a href=\"{{ membership_website_admin }}\">kontakte stedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Log på med engangslink",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Fortsæt til login på din konto. Af hensyn til din sikkerhed udløber linket om 15 minutter.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Log på",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Eller kopier og indsæt dette link i din browser:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Hvis du ikke har fremsat denne anmodning, kan du roligt ignorere denne e-mail. <br/>Hvis du har spørgsmål, bedes du <a href=\"{{ membership_website_admin }}\">kontakte stedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Din {{ membership_company_name }}-adgangskode er blevet ændret",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Var det ikke meningen at foretage denne ændring? Brug formularen til <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">glemt adgangskode</a> til at nulstille din adgangskode nu.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Hvis du har spørgsmål, bedes du kontakte <a href=\"{{ membership_website_admin }}\">stedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Din registrering er gennemført",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Tak for registreringen! Så er du klar. Nu kan du logge ind for at få adgang og låse op for endnu mere værdi.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Log ind på din nye konto",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Hvis du har spørgsmål eller har modtaget dette ved en fejl, bedes du <a href=\"{{ membership_website_admin }}\">kontakte webstedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Velkommen til {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Gennemfør din registrering ved at oprette en sikker adgangskode til din konto.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Opret adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Eller kopier og indsæt dette link i din browser:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Hvis du har spørgsmål eller har modtaget dette ved en fejl, bedes du <a href=\"{{ membership_website_admin }}\">kontakte webstedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Bekræft din e-mailadresse",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Tak, fordi du har registreret dig! Du skal bekræfte din e-mailadresse for at fuldføre registreringen til {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Bekræft e-mailadresse",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Hvis du har spørgsmål eller har modtaget dette ved en fejl, bedes du <a href=\"{{ membership_website_admin }}\">kontakte webstedets administrator</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Bekræft din anmodning om sletning",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Bekræft din anmodning om sletning",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Hej {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Vi har modtaget en anmodning om at slette dine personoplysninger fra {{ company_name }} den:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Enhed:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Dato og tidspunkt:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "For at vi kan behandle din anmodning, bedes du bekræfte, at du ønsker at slette dine oplysninger.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Ja, slet mine oplysninger",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Dette link udløber om 30 minutter.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Hvis du ikke har bedt om at blive slettet, kan du roligt ignorere denne besked.",
+    "description": "",
+    "placeholders": null
+  }
+}

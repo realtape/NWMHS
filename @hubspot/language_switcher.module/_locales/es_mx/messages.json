@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Selector de idiomas",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Híbrido",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localizado",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "Idioma de la página",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Cómo se presenta el selector de idiomas. Idioma significa que los nombres de cada lengua se mostrarán en el idioma de la página en la que se encuentra el selector. Localizado significa que el nombre de cada idioma se mostrará en esa misma lengua. Híbrido es una combinación de los dos.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Modo de visualización",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Buscar",
+    "description": "",
+    "placeholders": null
+  }
+}

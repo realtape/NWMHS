@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "تفضيلات الاشتراك",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "نص زر تحديث التفضيلات",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "تحديث تفضيلات البريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "تفضيلات الاتصال",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "رأس الصفحة",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "رأس الصفحة الفرعي",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "إذا لم يكن هذا هو عنوان بريدك الإلكتروني، فيُرجى تجاهل هذه الصفحة لأن البريد الإلكتروني المرتبط بهذه الصفحة قد تمت إعادة توجيهه إليك على الأرجح.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "أجل، قم بإعادة الاشتراك لي!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "نص زر إعادة الاشتراك",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "إلغاء الاشتراك في جميع التسميات",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "إلغاء الاشتراك لي من جميع القوائم البريدية.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "إلغاء تحديد أنواع رسائل البريد الإلكتروني التي لا تريد أن تتلقاها:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "نص تعليمات اختيار التفضيل",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "أو ضع علامة هنا لكي لا تتلقى أبدًا أي رسائل بريد إلكتروني:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "إلغاء الاشتراك في جميع نصوص التعليمات",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "إلغاء الاشتراك في كل نصوص التعليمات لمستخدم غير مشترك حاليًا",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "أنت غير مشترك حاليًا في جميع رسائل البريد الإلكتروني الخاصة بنا. هل ترغب في تلقي رسائل البريد الإلكتروني الخاصة بنا مرة أخرى؟",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "نص زر الاشتراك الفردي",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "إلغاء الاشتراك",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "رسالة نصية لتأكيد الاشتراك الفردي",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "هل تريد إلغاء الاشتراك في الرسائل الإلكترونية المتعلقة بـ:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "مثال على اسم اشتراك فردي",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "نوع الاشتراك الذي اخترته",
+    "description": "",
+    "placeholders": null
+  }
+}

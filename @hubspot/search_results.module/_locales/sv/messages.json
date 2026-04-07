@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Sökresultat på webbplatsen",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Visa utvalda bilder",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Förlåt. Det fanns inga resultat för [[search_term]].</p><p>Försök att ändra ordföljden i din fråga eller bläddra genom vår sida.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Föregående sida",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Nästa sida",
+    "description": "",
+    "placeholders": null
+  }
+}

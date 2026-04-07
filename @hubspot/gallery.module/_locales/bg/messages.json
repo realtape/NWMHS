@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Галерия с изображения",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Надпис",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Отваряне на връзката в нов раздел",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Показване на надпис",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL адрес на връзка",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Променлива височина",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Фиксирана височина",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Търсене",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Променлива височина",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Показване на бутоните за навигация",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Навигация в миниатюрите",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Стандартен плъзгач",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Галерия с лайтбокс",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Търсене",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Режим на показване",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Циклични слайдове",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Търсене",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Наслагване на надписи върху изображения",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Надписите да са винаги под изображението",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Позиция на надпис",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Време в секунди между автоматично превъртане",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Избледняване",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Търсене",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Преходи на слайдове",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Редове за галерия с лайтбокс",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Автоматично преминаване",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Този модул е остарял в полза на два нови и подобрени модула, Image Slider и Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">За повече информация.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

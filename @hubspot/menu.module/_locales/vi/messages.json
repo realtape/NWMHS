@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Chiều ngang",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Chiều dọc",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Menu ngang hiển thị các mục cạnh nhau, còn menu dọc hiển thị các mục từ trên xuống dưới",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Hướng",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Tìm kiếm",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Các mục menu con sẽ xuất hiện khi bạn di chuột qua mục mẹ. Nếu không chọn, các mục menu con sẽ luôn xuất hiện",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Bật ô nổi lên?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Cây menu là cấu trúc trang tạo ra các mục trong menu. Một cây menu đơn có thể được sử dụng với nhiều menu. Bạn có thể tạo nhiều menu cho các cấu trúc website phức tạp. Menu được tạo và quản lý trong Cài đặt nội dung của bạn",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Xác định số lượng thành phần con của cây menu có thể được mở rộng trong menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Mức tối đa",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Tìm kiếm",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Menu đường dẫn kiểu breadcrumb (sử dụng luồng theo chiều ngang)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Động theo trang - Hiển thị các trang trong menu có liên quan đến trang đang được xem",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Tĩnh - Luôn hiển thị các trang mức cao nhất trong menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Động theo phần - Hiển thị các trang trong menu có liên quan đến phần đang được xem",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Các menu nâng cao hiển thị các phần khác nhau của cây menu dựa trên trang đang được xem.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Loại menu nâng cao",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Tìm kiếm",
+    "description": "",
+    "placeholders": null
+  }
+}

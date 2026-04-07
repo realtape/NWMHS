@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Galleria immagini",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Didascalia",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Diapositiva",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Apri il link in una nuova scheda",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Mostra didascalia",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL link",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Immagine",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Altezza variabile",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Altezza fissa",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Altezza variabile",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Mostra pulsanti di spostamento",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Spostamento anteprima",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Dispositivo di scorrimento standard",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Raccolta dei riquadri",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Modalità di visualizzazione",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Riproduci a ciclo continuo le diapositive",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Sovrapponi le didascalie sopra le immagini",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Mantieni le didascalie sempre sotto l'immagine",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Posizione della didascalia",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tempo in secondi tra lo scorrimento automatico",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Dissolvenza",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Diapositiva",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Transizioni diapositiva",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Righe per la raccolta dei riquadri",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Avanzamento automatico",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Questo modulo è stato deprecato in favore di due nuovi moduli migliorati, Griglia immagini e Scorrimento immagini <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Scopri di più.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

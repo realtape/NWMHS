@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Thư viện hình ảnh",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Chú thích",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Trang chiếu",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Mở liên kết trong tab mới",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Hiển thị chú thích",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL liên kết",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Hình ảnh",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Chiều cao thay đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Chiều cao cố định",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Tìm kiếm",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Chiều cao thay đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Hiển thị các nút điều hướng",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Điều hướng hình thu nhỏ",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Thanh trượt tiêu chuẩn",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Thư viện lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Tìm kiếm",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Chế độ hiển thị",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Lặp lại trang chiếu",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Tìm kiếm",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Đặt chú thích chồng lên hình ảnh",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Luôn đặt chú thích bên dưới hình ảnh",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Vị trí chú thích",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Thời gian tính bằng giây giữa các lần cuộn tự động",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Mờ dần",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Trang chiếu",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Tìm kiếm",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Chuyển tiếp trang chiếu",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Hàng của thư viện lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Tiến tự động",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Mô-đun này đã không được dùng nữa vì có hai mô-đun cải tiến mới, Thanh trượt ảnh và Lưới ảnh <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Tìm hiểu thêm.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

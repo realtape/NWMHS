@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Фирма получател",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.default": {
+    "message": "Подготвен за",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.label": {
+    "message": "Текст на фирмата получател",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_address.label": {
+    "message": "Recipient company main address",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_city_state_zip.label": {
+    "message": "Град, щат и пощенски код на фирмата получател",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_country.label": {
+    "message": "Държава на фирмата получател",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_name.label": {
+    "message": "Име на фирмата получател",
+    "description": "",
+    "placeholders": null
+  }
+}

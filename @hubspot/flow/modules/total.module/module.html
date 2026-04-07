@@ -1,0 +1,18 @@
+{% set quote = template_data.quote or mock_data.quote %}
+{% set currency = quote.hs_currency or 'USD' %}
+{% set display_tcv_on_quote = quote.hs_display_tcv_on_quote %}
+{% set locale = quote.hs_locale or 'en-US' %}
+{% set future_charges = quote.associated_objects.line_items_by_start_date.FUTURE %}
+
+<div class="totals__container">
+  <div class="totals__row total-cost {{ display_tcv_on_quote ? '' : 'only-child' }}">
+    <div class="line-items__total-name" style="white-space: pre;">{{ future_charges|length > 0 ? module.first_payment_title|sanitize_html : module.total_title|sanitize_html }}</div>
+    <div class="line-items__total-value">{{ totals.total_first_payment|format_currency_value(locale=locale, currency=currency)|sanitize_html }}</div>
+  </div>
+  {% if display_tcv_on_quote %}
+    <div class="totals__row total-cost total-contract-value">
+      <div class="line-items__total-name" style="white-space: pre;">{{ module.total_contract_value_title|sanitize_html }}</div>
+      <div class="line-items__total-value">{{ totals.total_contract_value|format_currency_value(locale=locale, currency=currency)|sanitize_html }}</div>
+    </div>
+  {% endif %}
+</div>

@@ -1,0 +1,416 @@
+[
+  {
+    "label": "Line item columns",
+    "name": "line_item_columns",
+    "type": "group",
+    "occurrence": {
+      "default": 5,
+      "max": 6,
+      "min": 0,
+      "sorting_label_field": "title"
+    },
+    "children": [
+      {
+        "label": "Title",
+        "name": "title",
+        "type": "text",
+        "placeholder": "Column description"
+      },
+      {
+        "label": "Use additional product property",
+        "id": "use_additional_product_property",
+        "name": "use_additional_product_property",
+        "type": "boolean",
+        "inline_help_text": "Allow column selection from additional product properties",
+        "default": false
+      },
+      {
+        "label": "Additional product properties",
+        "name": "additional_product_property",
+        "type": "choice",
+        "display": "select",
+        "choices": [
+          ["price", "Unit price"],
+          ["item_description", "Item & description"],
+          ["quantity", "Item quantity"],
+          ["amount", "Total"],
+          ["hs_recurring_billing_start_date", "Start date"],
+          ["discount", "Unit discount"],
+          ["hs_term_in_months", "Term in months"]
+        ],
+        "visibility": {
+          "controlling_field": "use_additional_product_property",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL"
+        }
+      },
+      {
+        "name": "crm_product_property",
+        "label": "CRM product property",
+        "locked": false,
+        "object_type": "product",
+        "type": "crmobjectproperty",
+        "visibility": {
+          "controlling_field": "use_additional_product_property",
+          "controlling_value_regex": "false",
+          "operator": "EQUAL"
+        }
+      }
+    ],
+    "default": [
+      {
+        "use_additional_product_property": true,
+        "title": "Products & services",
+        "additional_product_property": "item_description"
+      },
+      {
+        "use_additional_product_property": false,
+        "title": "Billing frequency",
+        "crm_product_property": {
+          "property": "recurringbillingfrequency"
+        }
+      },
+      {
+        "use_additional_product_property": true,
+        "title": "Quantity",
+        "additional_product_property": "quantity"
+      },
+      {
+        "use_additional_product_property": true,
+        "title": "Unit price",
+        "additional_product_property": "price"
+      },
+      {
+        "use_additional_product_property": true,
+        "title": "Total",
+        "additional_product_property": "amount"
+      }
+    ]
+  },
+  {
+    "label": "Line item subheadings",
+    "name": "line_item_subheadings",
+    "type": "group",
+    "children": [
+      {
+        "label": "Due now text",
+        "name": "due_now_text",
+        "type": "text",
+        "default": "Items due now"
+      },
+      {
+        "label": "Due later text",
+        "name": "due_later_text",
+        "type": "text",
+        "default": "Items due later"
+      },
+      {
+        "label": "Font style",
+        "name": "font_style",
+        "type": "font",
+        "default": {
+          "styles": {
+            "font-weight": "bold"
+          }
+        },
+        "visibility": {
+          "hidden_subfields": {
+            "font": true,
+            "size": true
+          }
+        }
+      },
+      {
+        "label": "Background color",
+        "name": "background_color",
+        "type": "color"
+      }
+    ]
+  },
+  {
+    "label": "Display payment start date",
+    "inline_help_text": "Display the \"Payment starts\" text under each line item that has a future billing date.",
+    "name": "display_payment_starts",
+    "type": "boolean",
+    "default": true,
+    "display": "checkbox"
+  },
+  {
+    "label": "Future charges",
+    "name": "future_charges",
+    "type": "group",
+    "locked": true
+  },
+  {
+    "label": "Default text",
+    "name": "default_text",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Day",
+        "name": "day",
+        "type": "text",
+        "default": "day"
+      },
+      {
+        "label": "Days",
+        "name": "days",
+        "type": "text",
+        "default": "days"
+      },
+      {
+        "label": "Week",
+        "name": "week",
+        "type": "text",
+        "default": "week"
+      },
+      {
+        "label": "Weeks",
+        "name": "weeks",
+        "type": "text",
+        "default": "weeks"
+      },
+      {
+        "label": "Month",
+        "name": "month",
+        "type": "text",
+        "default": "month"
+      },
+      {
+        "label": "Year",
+        "name": "year",
+        "type": "text",
+        "default": "year"
+      },
+      {
+        "label": "Years",
+        "name": "years",
+        "type": "text",
+        "default": "years"
+      },
+      {
+        "label": "Months",
+        "name": "months",
+        "type": "text",
+        "default": "months"
+      },
+      {
+        "label": "Weekly",
+        "name": "weekly",
+        "type": "text",
+        "default": "Weekly"
+      },
+      {
+        "label": "Per two weeks",
+        "name": "per_two_weeks",
+        "type": "text",
+        "default": "Per two weeks"
+      },
+      {
+        "label": "Monthly",
+        "name": "monthly",
+        "type": "text",
+        "default": "Monthly"
+      },
+      {
+        "label": "Quarterly",
+        "name": "quarterly",
+        "type": "text",
+        "default": "Quarterly"
+      },
+      {
+        "label": "Annually",
+        "name": "annually",
+        "type": "text",
+        "default": "Annually"
+      },
+      {
+        "label": "Per six months",
+        "name": "per_six_months",
+        "type": "text",
+        "default": "Per six months"
+      },
+      {
+        "label": "Per two years",
+        "name": "per_two_years",
+        "type": "text",
+        "default": "Per two years"
+      },
+      {
+        "label": "Per three years",
+        "name": "per_three_years",
+        "type": "text",
+        "default": "Per three years"
+      },
+      {
+        "label": "Per four years",
+        "name": "per_four_years",
+        "type": "text",
+        "default": "Per four years"
+      },
+      {
+        "label": "Per five years",
+        "name": "per_five_years",
+        "type": "text",
+        "default": "Per five years"
+      },
+      {
+        "label": "One-time",
+        "name": "one_time",
+        "type": "text",
+        "default": "One-time"
+      },
+      {
+        "label": "/ week",
+        "name": "every_week",
+        "type": "text",
+        "default": "/ week"
+      },
+      {
+        "label": "/ 2 weeks",
+        "name": "every_two_weeks",
+        "type": "text",
+        "default": "/ 2 weeks"
+      },
+      {
+        "label": "/ month",
+        "name": "every_month",
+        "type": "text",
+        "default": "/ month"
+      },
+      {
+        "label": "/ quarter",
+        "name": "every_quarter",
+        "type": "text",
+        "default": "/ quarter"
+      },
+      {
+        "label": "/ 6 months",
+        "name": "every_six_months",
+        "type": "text",
+        "default": "/ 6 months"
+      },
+      {
+        "label": "/ year",
+        "name": "every_year",
+        "type": "text",
+        "default": "/ year"
+      },
+      {
+        "label": "/ 2 years",
+        "name": "every_two_years",
+        "type": "text",
+        "default": "/ 2 years"
+      },
+      {
+        "label": "/ 3 years",
+        "name": "every_three_years",
+        "type": "text",
+        "default": "/ 3 years"
+      },
+      {
+        "label": "/ 4 years",
+        "name": "every_four_years",
+        "type": "text",
+        "default": "/ 4 years"
+      },
+      {
+        "label": "/ 5 years",
+        "name": "every_five_years",
+        "type": "text",
+        "default": "/ 5 years"
+      },
+      {
+        "label": "percent value",
+        "name": "percent_value",
+        "type": "text",
+        "default": "{{ percentage_amount }}%"
+      },
+      {
+        "label": "line item tax value",
+        "name": "line_item_tax",
+        "type": "text",
+        "default": "+{{ taxAmount }} {{line_item.hs_tax_label }}"
+      },
+      {
+        "label": "line item tax with label value",
+        "name": "line_item_tax_with_label",
+        "type": "text",
+        "default": "+{{ taxAmount }} {{ taxLabel }}"
+      },
+      {
+        "label": "line item tax without labelvalue",
+        "name": "line_item_tax_without_label",
+        "type": "text",
+        "default": "+{{ taxAmount }} tax"
+      },
+      {
+        "label": "after discount",
+        "name": "after_discount",
+        "type": "text",
+        "default": "after {{ discount_amount }} discount"
+      },
+      {
+        "label": "for weeks",
+        "name": "for_weeks",
+        "type": "text",
+        "default": "for {{ week }} {{ week_text }}"
+      },
+      {
+        "label": "for months",
+        "name": "for_months",
+        "type": "text",
+        "default": "for {{ line_item.hs_term_in_months }} {{ month_text }}"
+      },
+      {
+        "label": "for years",
+        "name": "for_years",
+        "type": "text",
+        "default": "for {{ year }} {{ year_text }}"
+      },
+      {
+        "label": "Line items",
+        "name": "line_items",
+        "type": "text",
+        "default": "Line items"
+      },
+      {
+        "label": "Future payments",
+        "name": "future_charges",
+        "type": "text",
+        "default": "Future payments"
+      },
+      {
+        "label": "First payment date",
+        "name": "first_payment_date",
+        "type": "text",
+        "default": "First payment: {{ formatted_first_payment_date }}"
+      },
+      {
+        "label": "Payment start date",
+        "name": "payment_start_date",
+        "type": "text",
+        "default": "Payment starts: {{ formatted_first_payment_date }}"
+      },
+      {
+        "label": "Relative payment start date",
+        "name": "relative_payment_start_date",
+        "type": "text",
+        "default": "Payment starts: {{ billing_delay_period }} {{ billing_delay_unit }} after initial payment"
+      },
+      {
+        "label": "Payment due date",
+        "name": "payment_due_date",
+        "type": "text",
+        "default": "Payment due: {{ formatted_first_payment_date }}"
+      },
+      {
+        "label": "Relative payment due date",
+        "name": "relative_payment_due_date",
+        "type": "text",
+        "default": "Payment due: {{ billing_delay_period }} {{ billing_delay_unit }} after initial payment"
+      }
+    ]
+  }
+]

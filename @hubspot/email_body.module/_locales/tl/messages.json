@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Body ng Pangunahing Email",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Kumusta&nbsp;{{contact.firstname}},</p>\n<p>Ilarawan kung ano ang inaalok mo sa customer. Bakit nila kailangan basahin ito? Ano ang ipinangako mo sa kanila sa line ng paksa?  Ipaalam sa kanila ang isang bagay na astig. Patawanin sila. Paiyakin sila. Pero huwag mong gawin iyon....</p>\n<p>Gumamit ng list para:</p>\n<ul>\n<li>Ipaliwanag ang kahalagahan ng iyong inaalok</li>\n<li>Ipaalala sa nagbabasa kung anong makukuha nila sa paggawa ng aksyon</li>\n<li>Ipakita ang iyong kakayahan gamit ang mga bullet point</li>\n<li>Gawing madaling i-scan ang content mo</li>\n</ul>\n<p><a href=\"http://hubspot.com\">MAG-LINK NG LANDING PAGE SA IYONG SITE</a> (Napakahalagang bahagi ito.)</p>\n<p>Tapusin ito nang may kaunting paalala kung gaano mo kagusto sila.</p>\n<p>Aw. Bolero ka talaga.</p>\n<p>Taos-puso,</p>\n<p>Pangalan mo</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Body ng email",
+    "description": "",
+    "placeholders": null
+  }
+}

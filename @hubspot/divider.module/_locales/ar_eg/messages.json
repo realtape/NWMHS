@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "المقسّم",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "محاذاة",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "الوسط",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "اليسار",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "اليمين",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "اللون",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "الارتفاع",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "نوع الخط",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "متقطع",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "منقط",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "متصل",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "ترك مساحة",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "بحد أقصى 20 بكسل",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "هل تريد عرض المساحة المتروكة؟",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "العرض",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "النسبة المئوية للمنطقة التي تم وضع المقسّم فيها.",
+    "description": "",
+    "placeholders": null
+  }
+}

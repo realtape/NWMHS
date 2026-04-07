@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Διεύθυνση email",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Τηλέφωνο",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Λήψη αρχείου",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Σύνδεσμος συναντήσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Μία από τις σελίδες σας",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Σύνδεσμος προς",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Σύνδεσμος συναντήσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Άνοιγμα συνδέσμου σε νέα καρτέλα",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Σελίδα",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Ενσωματωμένο HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Περιεχόμενο κουμπιού",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML που θα αποδοθεί μέσα στο κουμπί. Μπορείτε να χρησιμοποιήσετε μόνο ετικέτες που είναι έγκυρες σε μια <a> ετικέτα.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Κάντε κλικ εδώ",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Άνοιγμα συνδέσμου σε νέα καρτέλα",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Σύνθετα",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Προσαρμοσμένοι κανόνες CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Επιλογέας",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Αυτή η τιμή συνδυάζεται με τον επιλογέα προτροπής. Για παράδειγμα, το ':hover' γίνεται ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Στυλ",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Προσθέστε προσαρμοσμένο CSS για τον κανόνα στυλ σας. Για παράδειγμα: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Προσαρμοσμένες κλάσεις CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Προσθέστε προσαρμοσμένες κλάσεις CSS στον σύνδεσμο προτροπής.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Προσαρμοσμένο φύλλο στυλ CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Προσθέστε προσαρμοσμένο φύλλο στυλ CSS για την προτροπή. Για παράδειγμα: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Χρήση παλαιού Markup",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Ενσωμάτωση HTML σε παλαιό markup για την υποστήριξη του υπάρχοντος CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

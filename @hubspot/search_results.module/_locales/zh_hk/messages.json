@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "網站搜尋結果",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "顯示精選圖片",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>抱歉，「[[search_term]]」沒有結果。</p><p>請嘗試更改查詢的字詞，或瀏覽我們的網誌。</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "上一頁",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "下一頁",
+    "description": "",
+    "placeholders": null
+  }
+}

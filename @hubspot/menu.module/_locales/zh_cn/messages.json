@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "水平",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "垂直",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "水平菜单并排显示项目，而垂直菜单是上下显示",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "方向",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "系统会在你将鼠标悬停在父级菜单上方时显示子菜单项。 如果未选中，系统会始终显示子菜单项",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "启用弹出项目？",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "菜单树是在菜单中生成条目的页面结构。多个菜单可以使用相同的菜单树。 你可以为复杂的网站结构创建多个菜单。 创建和管理菜单的工作在“内容设置”中进行",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "菜单",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "确定可以在菜单中展开的菜单树子项的数量",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "菜单最大级数",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "菜单",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "痕迹导航式路径菜单（使用横向流）",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "按页面动态显示 - 在菜单中显示所查看页面的相关页",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "静态 - 始终在菜单中显示顶级页面",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "按章节动态显示 - 在菜单中显示与所查看部分相关的页面",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "高级菜单会根据所查看页面显示菜单树的不同部分。",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "高级菜单类型",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  }
+}

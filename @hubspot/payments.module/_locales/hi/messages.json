@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "पेमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "आइकॉन जोड़ें",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "बटन का लिंक",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "अन्य",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "पेमेंट लिंक का उपयोग करें",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "बटन टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "चेकआउट करें",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "बटन टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "एक नए टैब में खोलें",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "स्लाइडिंग ओवरले",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "चेकआउट टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "चेकआउट बंद करें",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "आइकॉन",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "आइकॉन",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "बाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "दाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "पोजीशन",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "पेमेंट लिंक",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "अलाइनमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "अलाइनमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "बैकग्राउंड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "कॉर्नर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "रेडियस",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "बैकग्राउंड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "आइकॉन",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "होवर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "फ़ॉन्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "आइकॉन",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "साइज़",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "आइकन और बटन टेक्स्ट के बीच की दूरी।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "स्टाइल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "फ़ॉन्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "कैपिटलाइज़",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "लोअरकेस",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "अपरकेस",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "बदलाव करें",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "कोई नहीं",
+    "description": "",
+    "placeholders": null
+  }
+}

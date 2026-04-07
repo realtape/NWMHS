@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Логотип",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Логотип",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Максимальна висота логотипу",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Це не застосовується під час перевизначення логотипа за замовчуванням",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "За допомогою цього перемикача можна перевизначити логотип, застосований до цього шаблону.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Перевизначити стандартний логотип",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "За замовчуванням у ваших цінових пропозиціях відображатиметься логотип вашої компанії з вашого Brand Kit у налаштуваннях облікового запису за замовчуванням або на сторінці вебсайту.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Total",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Scadent acum",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Acesta este utilizat pentru a eticheta totalul ofertei când oferta are plăți viitoare.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Text Scadent acum",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Total",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Text Total",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Valoare totală contract",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Personalizați textul pentru a descrie valoarea cu exactitate. (Valoarea implicită este o valoare anuală dacă nu este setat niciun termen.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Text valoare totală contract",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "가로",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "세로",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "가로 메뉴는 항목들을 나란히 표시하며, 세로 메뉴는 위에서 아래로 표시합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "방향",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "부모 항목 위에 마우스를 대면 자식 메뉴 항목이 나타납니다. 선택을 취소하면 자식 메뉴 항목이 항상 나타납니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "플라이아웃 사용?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "메뉴 트리는 메뉴에서 항목을 생성하는 페이지 구조입니다. 단일 메뉴 트리를 여러 메뉴와 함께 사용할 수 있습니다. 복잡한 웹사이트 구조를 위해 여러 메뉴를 만들 수 있습니다. 메뉴는 콘텐츠 설정에서 생성 및 관리됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "메뉴",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "메뉴에서 확장할 수 있는 메뉴 트리 자식의 수를 결정합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "최대 레벨 수",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "메뉴",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Breadcrumb 스타일 경로 메뉴(수평 흐름 사용)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "페이지별 동적 - 보고 있는 페이지와 관련된 페이지를 메뉴에 표시합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "정적 - 항상 메뉴의 최상위 페이지에 표시합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "섹션별 동적 - 보고 있는 섹션과 관련된 페이지를 메뉴에 표시합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "고급 메뉴는 어떤 페이지를 보고 있는지에 따라 메뉴 트리의 서로 다른 부분을 표시합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "고급 메뉴 유형",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  }
+}

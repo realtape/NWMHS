@@ -1,0 +1,34 @@
+[
+  {
+    "label": "Buyer company name",
+    "name": "show_company_name",
+    "type": "boolean",
+    "required": false,
+    "locked": false,
+    "default": true
+  },
+  {
+    "label": "Buyer company main address",
+    "name": "show_company_address",
+    "type": "boolean",
+    "required": false,
+    "locked": false,
+    "default": true
+  },
+  {
+    "label": "Buyer company city, state, and zip",
+    "name": "show_company_city_state_zip",
+    "type": "boolean",
+    "required": false,
+    "locked": false,
+    "default": true
+  },
+  {
+    "label": "Buyer company country",
+    "name": "show_company_country",
+    "type": "boolean",
+    "required": false,
+    "locked": false,
+    "default": true
+  }
+]

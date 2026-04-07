@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Celkom",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "So splatnosťou teraz",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Toto sa používa na označenie celkovej sumy cenovej ponuky, keď cenová ponuka má budúce platby.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Text aktuálnej splatnosti",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Celkom",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Text celkovej sumy",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Celková hodnota zmluvy",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Prispôsobte text tak, aby presne opisoval túto hodnotu. (Ak nie sú nastavené žiadne podmienky, predvolená hodnota je ročná hodnota.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Celková hodnota zmluvy – text",
+    "description": "",
+    "placeholders": null
+  }
+}

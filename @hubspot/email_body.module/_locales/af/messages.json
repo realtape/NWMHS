@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Hoofdeel van e-pos",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Haai&nbsp;{{contact.firstname}},</p>\n<p>Beskryf wat jy vir die kliënt kan aanbied. Waarom moet hulle dit lees? Wat het jy vir hulle in die onderwerplyn belowe? Vertel hulle iets ouliks. Laat hulle lag. Laat hulle huil. Wel, miskien moet jy nie dit doen nie ...</p>\n<p>Gebruik 'n lys om:</p>\n<ul>\n<li>Die waarde van jou aanbieding te verduidelik</li>\n<li>Die leser te herinner aan wat hulle daaruit sal kry as hulle aksie neem</li>\n<li>Jou slag te wys met kollyspunte</li>\n<li>Dit maklik te maak om jou inhoud te vluglees</li>\n</ul>\n<p><a href=\"http://hubspot.com\">SIT 'N SKAKEL IN NA 'N LANDINGSBLAD OP JOU WEBWERF</a> (Dit is die baie belangrike deel.)</p>\n<p>Sluit nou af met 'n pittige herinnerinkie van hoe lief jy vir hulle is.</p>\n<p>Aw. Jou gladdebek!</p>\n<p>Beste groete,</p>\n<p>Jou naam</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "E-posteks",
+    "description": "",
+    "placeholders": null
+  }
+}

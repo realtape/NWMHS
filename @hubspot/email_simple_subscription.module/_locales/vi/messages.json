@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Hủy đăng ký dự phòng",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Văn bản trên nút",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Hủy đăng ký",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Hủy đăng ký email",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Đầu đề",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Văn bản chỗ dành sẵn để nhập email",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Địa chỉ email của bạn:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Văn bản trợ giúp nhập email",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Lỗi tin nhắn",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Đã xảy ra sự cố khi tải trang. Hãy thử sử dụng cùng một liên kết từ một email gần đây hơn hoặc liên hệ với công ty để cập nhật tùy chọn đăng ký của bạn.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Tiêu đề phụ",
+    "description": "",
+    "placeholders": null
+  }
+}

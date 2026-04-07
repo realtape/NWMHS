@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "电子邮件地址",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "电话号码",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "文件下载",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "会议链接",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "你的某个页面",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "链接至",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "会议链接",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "在新标签页中打开链接",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "页码",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "内联 HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "按钮内容",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "在按钮内呈现的 HTML。你只能使用 <a>标记内有效的标记。",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "点击此处",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "在新标签页中打开链接",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "高级",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "自定义 CSS 规则",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "选择器",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "此值与 CTA 的选择器相结合。例如：“:hover”变成 ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "样式",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "为你的风格规则添加自定义 CSS。例如：border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "自定义 CSS 类",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "将自定义的 CSS 类添加到你的 CTA 链接。",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "自定义 CSS 样式表",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "为你的 CTA 添加自定义 CSS 样式表。例如：border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "使用传统标记",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "将 HTML 包装在传统标记中，以支持现有的 CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

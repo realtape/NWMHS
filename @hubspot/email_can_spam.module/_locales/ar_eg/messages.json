@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "معلومات موقع المكتب",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p id=\"footer\" style=\"font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: center; font-size: 12px; line-height: 1.34em; color: {{ secondary_font_color }}; display: block;\">{{ site_settings.company_name }} &nbsp;&nbsp;{{ site_settings.company_street_address_1 }} &nbsp;{{ site_settings.company_street_address_2 }} &nbsp;{{ site_settings.company_city }} &nbsp;{{ site_settings.company_state }} &nbsp;&nbsp;{{ site_settings.company_zip }} &nbsp;&nbsp;{{ site_settings.company_country }} <br><br> لقد تلقيت هذا البريد الإلكتروني لأنك مشترك في {{ subscription_name }} من {{ site_settings.company_name }} . <br><br> قم بتحديث <a target=\"_blank\" rel=\"noopener\" href=\"{{ unsubscribe_link }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">تفضيلات البريد الإلكتروني الخاصة بك</a> لاختيار أنواع رسائل البريد الإلكتروني التي تتلقاها. <br><br> &nbsp;<a target=\"_blank\" rel=\"noopener\" href=\"{{ unsubscribe_link_all }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">إلغاء الاشتراك من جميع رسائل البريد الإلكتروني في المستقبل</a> &nbsp;</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "نص الموقع",
+    "description": "",
+    "placeholders": null
+  }
+}

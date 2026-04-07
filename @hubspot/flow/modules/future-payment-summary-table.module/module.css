@@ -1,0 +1,22 @@
+.line-items__future-payments-summary td {
+  border: 0;
+  height: auto;
+}
+
+.line-items__future-payments-summary tr td {
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+.line-items__future-payments-summary tr:first-child td {
+  border-top: 1px solid;
+}
+
+.line-items__future-payments-summary tr.future-payment__group--first td {
+  padding-top: 1em;
+}
+
+.line-items__future-payments-summary tr.future-payment__group--last td {
+  border-bottom: 1px solid;
+  padding-bottom: 1em;
+}

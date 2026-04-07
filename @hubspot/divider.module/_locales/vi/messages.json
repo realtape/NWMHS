@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Thanh chia",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Căn chỉnh",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Chính giữa",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Bên trái",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Bên phải",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Chiều cao",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Loại dòng",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Nét đứt",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Chấm chấm",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Liền nét",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Khoảng đệm",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Tối đa 20 pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Hiển thị khoảng đệm?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Chiều rộng",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Phần trăm của khu vực mà thanh chia được đặt vào.",
+    "description": "",
+    "placeholders": null
+  }
+}

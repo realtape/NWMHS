@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "El. pašto adresas",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefono numeris",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Atsisiųsti failą",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Susitikimų nuoroda",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Vienas iš jūsų puslapių",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Susieti su ",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Susitikimų nuoroda",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Atidaryti nuorodą naujame skirtuke",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Puslapis",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Įterptinis HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Mygtuko turinys",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML, kuris bus perteikiamas mygtuke. Galite naudoti tik tas žymas, kurios galioja <a> žymoje.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Spustelėkite čia",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Atidaryti nuorodą naujame skirtuke",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Išplėstinis",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Pasirenkamosios CSS taisyklės",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Parinkties įrankis",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Ši vertė derinama su CTA parinkties įrankiu. Pavyzdžiui, ':hover' tampa ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Stilius",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Pridėkite pasirenkamąjį CSS savo stiliaus taisyklei. Pavyzdys: rėmelio apačia: 3px solid #3e4d68; spalva: geltona;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Pasirenkamosios CSS klasės",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Pridėti pasirenkamųjų CSS klasių savo CTA nuorodai.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Pasirenkamieji CSS stilių rinkiniai",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Prie savo CTA pridėkite pasirenkamąjį CSS stilių rinkinį.  Pavyzdys: rėmelio apačia: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Naudoti senąjį žymėjimą",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Naudoti senąjį HTML žymėjimą pagal esamą CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

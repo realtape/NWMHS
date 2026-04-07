@@ -1,0 +1,127 @@
+{
+  "email.custom_link_format.default": {
+    "message": "mailto:?subject=Check out {{ social_link_url }} &body=Check out {{ social_link_url }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email.custom_link_format.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "email.enabled.label": {
+    "message": "I-enable?",
+    "description": "",
+    "placeholders": null
+  },
+  "email.label": {
+    "message": "Email",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.custom_link_format.default": {
+    "message": "http://www.facebook.com/share.php?u={{ social_link_url }}",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.custom_link_format.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.enabled.label": {
+    "message": "I-enable?",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.label": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "Ito ang destinasyon na link na paiikliin para sa mas madaling pagbabahagi sa mga social network.",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "I-link ang URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link.placeholder": {
+    "message": "Opsyonal na Custom Page URL",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.custom_link_format.default": {
+    "message": "http://www.linkedin.com/shareArticle?mini=true&url={{ social_link_url }}",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.custom_link_format.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.enabled.label": {
+    "message": "I-enable?",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.label": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Pagbabahagi sa Social",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.custom_link_format.default": {
+    "message": "http://pinterest.com/pin/create/button/?url={{ social_link_url }}&media={{ pinterest_media }}",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.custom_link_format.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.enabled.label": {
+    "message": "I-enable?",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.label": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.pinterest_media.label": {
+    "message": "I-pin ang larawan",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.custom_link_format.default": {
+    "message": "https://twitter.com/intent/tweet?original_referer={{ social_link_url }}&url={{ social_link_url }}&source=tweetbutton&text={{ social_page_title|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.custom_link_format.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.enabled.label": {
+    "message": "I-enable?",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.label": {
+    "message": "X",
+    "description": "",
+    "placeholders": null
+  }
+}

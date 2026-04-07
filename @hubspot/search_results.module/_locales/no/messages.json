@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Sidesøkresultater",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Vis fremhevede bilder",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Beklager, det var ingen resultater for [[search_term]].</p><p>Prøv å bruke andre ord i forespørselen, eller bla gjennom nettstedet vårt.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Forrige side",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Neste side",
+    "description": "",
+    "placeholders": null
+  }
+}

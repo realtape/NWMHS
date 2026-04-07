@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "อีเมล",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "หมายเลขโทรศัพท์",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "ดาวน์โหลดไฟล์",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "ลิงก์การประชุม",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "หนึ่งในหน้าต่างๆ ของคุณ",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "ลิงก์ไปยัง",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "ลิงก์การประชุม",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "เปิดลิงก์ในแท็บใหม่",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "หน้า",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "HTML อินไลน์",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "เนื้อหาปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML ที่จะแสดงผลในปุ่ม คุณสามารถใช้ได้เฉพาะแท็กที่ถูกต้องภายในแท็ก <a> เท่านั้น",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "คลิกที่นี่",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "เปิดลิงก์ในแท็บใหม่",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "ขั้นสูง",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "กฎ CSS ที่กำหนดเอง",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "เครื่องมือเลือก",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "ค่านี้จะผสานกับเครื่องมือเลือกของ CTA ยกตัวอย่างเช่น ':hover' จะเป็น ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "รูปแบบ",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "เพิ่ม CSS ที่กำหนดเองให้กฎสำหรับสไตล์ของคุณ ยกตัวอย่างเช่น: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "คลาส CSS ที่กำหนดเอง",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "เพิ่มคลาส CSS ที่กำหนดเองให้ลิงก์ CTA ของคุณ",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "สไตล์ชีท CSS ที่กำหนดเอง",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "เพิ่มสไตล์ชีต CSS แบบกำหนดเองให้กับ CTA ของคุณ ตัวอย่างเช่น: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "ใช้มาร์กอัปแบบดั้งเดิม",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "รวม HTML ในมาร์กอัปแบบดั้งเดิมเพื่อรองรับ CSS ที่มี",
+    "description": "",
+    "placeholders": null
+  }
+}

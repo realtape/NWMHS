@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "找不到页面",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "我们找不到你所查找的页面：",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "转至主页",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "此页面无法正常工作",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "发生了内部服务器错误，我们正在处理！",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "转至主页",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "公司徽标",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "你的电子邮件首选项已更新。",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "你已成功取消订阅所有电子邮件通讯。",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "你的电子邮件首选项已更新。",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "更新以下电子邮件首选项",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "选择要接收的 {{ site_settings.company_name }} 发送的电子邮件：",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "选择要接收 {{ business_unit().name }} 发送的哪些电子邮件：",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "选择语言：",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "更新电子邮件首选项",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "取消订阅所有电子邮件",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "如果这不是你的地址，则很可能是其他人向你转发了一封电子邮件，你可以放心地忽略此消息。",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "你目前已取消订阅我们的所有电子邮件。是否想再次接收我们的电子邮件？",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "好，我要重新订阅！",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "需要密码",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "请输入你的密码以查看此页面。",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "密码",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "“[[search_term]]”的搜索结果",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "抱歉，你没有相关权限",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "你没有查看此页面的权限。请联系网站管理员以解决问题。",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "转至主页",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "登录",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "你尝试查看的页面仅面向注册用户显示。",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "电子邮件",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "密码",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "记住我",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "忘记了密码？",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "登录",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "显示",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "出现问题了？<a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">请联系网站管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "你已退出",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "重新登录",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "或返回<a href=\"{{ '//' ~ request.domain }}\">主页</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "设置你的密码",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "欢迎！请设置密码以完成注册。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "电子邮件",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "确认密码",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "密码",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "保存密码",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "显示",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "出现问题了？<a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">请联系网站管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "重置密码",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "输入你用于注册的电子邮件地址，我们会向你发送包含密码重置链接的电子邮件。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "电子邮件",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "发送重置电子邮件",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "你刚才想起来了吗？<a href=\"/_hcms/mem/login\">请登录</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "出现问题了？<a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">请联系网站管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "密码重置电子邮件已发送",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "如果找到了与 {{ user_email }} 匹配的帐户，系统就会发送一封电子邮件，通知你重置密码的后续步骤。如果你在 20 分钟内还没有收到该电子邮件，请<a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">联系管理员</a>。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "再发送一封重置电子邮件",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "创建新密码",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "你的新密码必须与你之前使用的密码不一致。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "新密码",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "确认新密码",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "保存密码",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "显示",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "出现问题了？<a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">请联系网站管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "你的电子邮件地址已确认",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "感谢你验证电子邮件地址。你现在可以登录你的帐户并访问你的专有内容。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "登录",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "出现问题了？<a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">请联系网站管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "已发送一次性登录链接",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>我们向你发送了一封电子邮件 ({{ user_email }})。其中包含可供你登录的链接。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "如果你看不到该电子邮件，请检查你的垃圾邮件文件夹。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "重新发送登录链接",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "或",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "改为使用密码登录",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "出现问题了？<a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">请联系网站管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "验证你的电子邮件地址",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "感谢你注册！请查看你的电子邮件并单击确认链接以完成注册。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "出现问题了？<a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">请联系网站管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "创建密码以完成注册",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "最后一步！在你创建了安全密码后，你将能够登录 {{ membership_domain }} 并访问其中的内容。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "创建密码",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "或者将此链接复制并粘贴到你的浏览器中：",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "如果你有疑问或误收到此信息，请<a href=\"{{ membership_website_admin }}\">联系站点管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "重置密码",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "设置新密码，然后登录你的帐户。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "重置密码",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "如果你未提出此请求，可以放心地忽略此电子邮件。<br/>如果你有疑问，请<a href=\"{{ membership_website_admin }}\">联系站点管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "使用一次性链接登录",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "继续登录你的帐户。出于安全起见，此链接将在 15 分钟后到期。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "登录",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "或者将此链接复制并粘贴到你的浏览器中：",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "如果你未提出此请求，可以放心地忽略此电子邮件。<br/>如果你有疑问，请<a href=\"{{ membership_website_admin }}\">联系站点管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "你的 {{ membership_company_name }} 密码已成功更改",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "不打算进行此更改？请立即使用<a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">忘记密码</a>表单重置密码。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "如果你有疑问，请联系<a href=\"{{ membership_website_admin }}\">站点管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "你的注册已完成",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "感谢你的注册！一切都已就绪。现在，你可以登录以进行访问并解锁更多价值。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "登录你的新帐户",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "如果你有疑问或误收到此信息，请<a href=\"{{ membership_website_admin }}\">联系站点管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "欢迎访问 {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "为你的帐户创建安全密码，以完成你的注册。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "创建密码",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "或者将此链接复制并粘贴到你的浏览器中：",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "如果你有疑问或误收到此信息，请<a href=\"{{ membership_website_admin }}\">联系站点管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "验证你的电子邮件地址",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "感谢你的注册！接下来你需要验证电子邮件地址，以完成对{{ membership_domain }} 的注册。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "验证电子邮件地址",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "如果你有疑问或误收到此信息，请<a href=\"{{ membership_website_admin }}\">联系站点管理员</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "请确认你的删除请求",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "确认你的删除请求",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "{{ first_name }}：你好。",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "我们收到了从 {{ company_name }} 删除你的个人数据的请求，具体如下：",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>设备：</strong>{{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>日期和时间：</strong>{{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "因此我们可以处理你的请求，请确认你希望删除你的数据。",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "是，删除我的数据",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "此链接将于 30 分钟后失效。",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "如果你没有要求删除，则可以放心地忽略此信息。",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "ค่าธรรมเนียม",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "{{ fee_amount }}ลด %",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "ค่าธรรมเนียม {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "ภาษี {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "ค่าธรรมเนียมอื่นๆ",
+    "description": "",
+    "placeholders": null
+  }
+}

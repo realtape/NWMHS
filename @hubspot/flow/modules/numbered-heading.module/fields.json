@@ -1,0 +1,18 @@
+[ 
+  {
+    "label" : "Number",
+    "name": "title_number",
+    "type" : "number",
+    "display" : "text",
+    "min": 1,
+    "step" : 1,
+    "default" : 1
+  },
+  {
+    "label": "Text",
+    "name": "title_text",
+    "type": "richtext",
+    "default": "<h2>Executive<br> Summary</h2>",
+    "enabled_features": ["block", "colors", "fonts", "standard_emphasis", "personalize", "source_code"]
+  }
+]

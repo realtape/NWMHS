@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "水平",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "垂直",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "水平功能表會並列顯示項目，垂直功能表則由上而下顯示",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "顯示方向",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "將滑鼠暫留在父項上時即顯示子功能表。若取消勾選，則一律顯示子功能表",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "是否啟用飛出視窗？",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "功能表結構樹是一種頁面結構，可產生功能表中的項目。單一的功能表結構樹可與多個功能表一同使用。你可以為複雜的網站結構建立多個功能表。請在「內容設定」中建立和管理功能表",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "功能表",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "指定功能表中可展開的樹狀功能表子項數目",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "最大層級",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "功能表",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "階層連結樣式路徑功能表 (使用水平流程)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "按頁面動態呈現 － 在功能表中顯示與目前所瀏覽頁面相關的頁面",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "靜態呈現 － 功能表中一律顯示最上層頁面",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "按區段動態呈現 － 在功能表中顯示與目前所瀏覽區段相關的頁面",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "進階功能表會依據目前瀏覽的頁面，顯示功能表結構樹的不同部分。",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "進階功能表類型",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  }
+}

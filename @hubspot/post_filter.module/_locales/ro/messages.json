@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filtru postare",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Vizualizare toate",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Text de afișat dacă la afișare este disponibilă o valoare peste valoarea maximă. Lăsați gol pentru a omite linkul",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "În modul implicit, va fi folosit blogul curent atunci când este utilizat într-un șablon sau blogul principal atunci când este utilizat în alt mod.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selectați blogul de afișat",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Număr maxim de valori de filtru de afișat",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Căutare",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Lista de valori pentru linkurile filtrului",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Etichete",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autori",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Luni",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Postări în funcție de etichetă",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Titlu listă de afișat",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nume",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Număr postări",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Căutare",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordonare valori pentru linkurile de filtru",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Afișare toate filtrele",
+    "description": "",
+    "placeholders": null
+  }
+}

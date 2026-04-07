@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Leiratkozás a biztonsági mentésről",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Gombfelirat",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Leiratkozás",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Leiratkozás az e-mailről",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Fejléc",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "E-mail-beviteli helyőrző szöveg",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@pelda.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Az Ön e-mail-címe:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "E-mail-beviteli súgószöveg",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Hibaüzenet",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Hiba történt az oldal betöltésekor. Próbálja meg ugyanazt a hivatkozást használni egy frissebb e-mailből, vagy vegye fel a kapcsolatot a céggel az előfizetési beállításai frissítése érdekében.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Alfejléc",
+    "description": "",
+    "placeholders": null
+  }
+}

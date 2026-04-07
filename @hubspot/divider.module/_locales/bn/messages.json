@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "ডিভাইডার",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "সরলরেখায় বিন্যাসকরণ",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "কেন্দ্র",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "বাম ",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "ডানদিক",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "উচ্চতা",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "লাইনের প্রকার",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "ড্যাশ যুক্ত ",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "ডটযুক্ত",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "সলিড",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "প্যাডিং",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "সর্বোচ্চ 20 পিক্সেল",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "প্যাডিং দেখান?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "প্রস্থ",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "বিভাজকটি যে এলাকায় স্থাপন করা হয়েছে তার শতাংশ।",
+    "description": "",
+    "placeholders": null
+  }
+}

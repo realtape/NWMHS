@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Настройки подписки",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Текст кнопки изменения настроек",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Обновить настройки электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Настройки коммуникации",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Заголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Подзаголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Если это не ваш адрес электронной почты, проигнорируйте эту страницу, так как связанное с ней электронное письмо, вероятнее всего, было переслано вам.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Да, возобновить мою подписку!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Текст кнопки возобновления подписки",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Метка «Отменить все подписки»",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Отменить подписку на все списки рассылки.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Снимите флажки рядом с адресами эл. почты, от которых вы не хотите получать письма:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Текст справки по выбору настроек",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Или щелкните здесь, чтобы никогда не получать никаких электронных писем:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Текст справки «Отменить все подписки»",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Текст справки «Отменить все подписки» для пользователя, который в данный момент отменил подписки",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "В настоящий момент ваша подписка на все наши электронные письма отменена. Вы хотели бы снова получать наши электронные письма?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Текст кнопки индивидуальной подписки",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Отменить подписку",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Текст подтверждения индивидуальной подписки",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Отписаться от электронных писем на тему:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Пример названия индивидуальной подписки",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "выбранный тип подписки",
+    "description": "",
+    "placeholders": null
+  }
+}

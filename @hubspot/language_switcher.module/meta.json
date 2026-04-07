@@ -1,0 +1,20 @@
+{
+  "label": "Language Switcher",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/edited-language.svg",
+  "extra_classes": "widget-type-language_switcher",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": ["functionality"],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "editable_contexts": ["TEMPLATE"]
+}

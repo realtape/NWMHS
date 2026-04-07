@@ -1,0 +1,9 @@
+{# Displays the date the quote was created #}
+{% set quote = template_data.quote or mock_data.quote %}
+{% set timezone = quote.hs_timezone or 'US/Eastern' %}
+{% set locale = quote.hs_locale or 'en-US' %}
+
+<div class="quote-created">
+  <span class="quote-created__text">{{ module.quote_created_text|sanitize_html }}</span>
+  <span class="quote-created__create-date">{{ quote.hs_createdate|int|format_date('long', timezone, locale)|sanitize_html }}</span>
+</div>

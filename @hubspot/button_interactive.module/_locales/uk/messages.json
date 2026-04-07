@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Кнопка (інтерактивна)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL-адреса для посилання",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Адреса електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Файл",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Закрити заклик до дії",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Адреса електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Номер телефону",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Завантаження файлу",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Посилання на зустрічі",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Одна з ваших сторінок",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Одна зі сторінок вашого блогу",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL-адреса",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Посилання на",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Посилання на зустрічі",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Відкрити посилання в новій вкладці",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Сторінка",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Блог",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Колір",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Натиснуто",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Межа",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Межа",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Кут",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Додати закруглений кут до вашої кнопки",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Радіус",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Колір",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Фон при наведенні",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Межа",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Межа при наведенні",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "При наведенні",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Шрифт",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Текст при наведенні",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Стилі",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Шрифт",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Текст",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Заповнення текстом",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Додати тут посилання на кнопку ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Текст кнопки",
+    "description": "",
+    "placeholders": null
+  }
+}

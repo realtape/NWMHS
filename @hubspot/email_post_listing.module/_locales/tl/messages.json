@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Listing ng Post",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Pinakasikat - nakalipas na anim na buwan",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Pinakasikat - lahat ng panahon",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Pinakasikat - nakaraang buwan",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Pinakasikat - nakaraang taon",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Pinakakamakailan",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Maghanap",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "I-list ang mga blog post ayon sa",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Gagamitin ng default ang kasalukuyang blog kapag ginamit sa template ng blog o ang pangunahing blog kapag ginamit sa iba pa.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Pumili ng blog na ipapakita",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximum blog post na ili-list",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Mga Kamakailan na Post",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "I-list ang pamagat na ipapakita",
+    "description": "",
+    "placeholders": null
+  }
+}

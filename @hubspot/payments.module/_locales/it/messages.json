@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Aggiungi icona",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Link pulsante",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Altro",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Utilizza un link di pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Target pulsante",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Testo pulsante",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Apri in una nuova scheda",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Sovrapposizione a scorrimento",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Comportamento pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Chiudi pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Icona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Icona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "A sinistra",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "A destra",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Posizione",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Link di pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Allineamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Allineamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Colore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Sfondo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Bordo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Bordo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Angolo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Raggio",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Colore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Sfondo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Bordo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Bordo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Colore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Icona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Posiziona il cursore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Carattere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Testo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Colore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Icona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Dimensioni",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Spazio tra l'icona e il testo del pulsante.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Spaziatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stili",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Spaziatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Spaziatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Carattere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Testo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Usa maiuscolo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Minuscolo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Maiuscolo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Trasforma",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Nessuno",
+    "description": "",
+    "placeholders": null
+  }
+}

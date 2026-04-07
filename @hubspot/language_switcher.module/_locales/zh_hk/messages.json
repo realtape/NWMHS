@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "語言轉換器",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "混合式",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "本地化",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "頁面語言",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "語言轉換器顯示文字的語言。 頁面語言表示語言名稱會以轉換器當時所在頁面的語言顯示；本地化表示語言名稱會以該語言顯示；混合式則結合兩者。",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "顯示模式",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  }
+}

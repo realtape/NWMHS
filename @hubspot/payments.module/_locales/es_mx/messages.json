@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Pago",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Agregar ícono",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Enlace de botón",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Otro",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Usar un enlace de pago",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Destino del botón",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Pago",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto del botón",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Abrir en una nueva pestaña",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Superposición deslizante",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Comportamiento en la confirmación",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Cerrar confirmación",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Ícono",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ícono",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Izquierda",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Derecha",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Posición",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Enlace de pago",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Alineación",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Alineación",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Fondo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Borde",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Borde",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Esquina",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radio",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Fondo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Borde",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Borde",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Ícono",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Cursor encima",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Fuente",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Texto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Ícono",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Tamaño",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Espaciado entre el ícono y el texto del botón.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Espaciado",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estilos",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Espaciado",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Espaciado",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Fuente",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Texto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Escribir en mayúsculas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Minúsculas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Mayúsculas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Transformar",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Ninguno",
+    "description": "",
+    "placeholders": null
+  }
+}

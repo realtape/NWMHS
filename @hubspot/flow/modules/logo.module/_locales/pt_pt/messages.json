@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logótipo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logótipo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Altura máxima do logótipo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Isto não se aplica quando se anula o logótipo predefinido",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Pode optar por ignorar o logótipo aplicado neste modelo utilizando este sinalizador.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Ignorar o logótipo predefinido",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Como predefinição, os seus orçamentos mostrarão o logótipo da sua empresa existente no seu Kit de marca nas Predefinições da conta ou Definições da página do website.",
+    "description": "",
+    "placeholders": null
+  }
+}

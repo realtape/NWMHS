@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Betala nu",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Text på betalningsknapp",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Se till att det är tydligt att när man klickar på denna knapp kan kunden betala.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Ett problem inträffade när utcheckning ställdes in. Kontakta personen som skickade dig den här offerten.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Meddelande om utcheckningsfel",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Säg till kunden vad denna ska göra om det uppstår problem vid betalning.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Välj en rubriknivå. H1 är störst och följs av H2 osv.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Rubriknivå",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Betalning",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Rubrikinnehåll",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Gör första betalningen:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Din kund kommer att se detta i betalningsknappen tills de gjorts din första avbetalning.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Knapptext för avbetalningsplaner",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Betalning",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Betalning kan inte göras eftersom offerten inte är fullständigt underskriven.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Förklaringstext när signaturer behövs",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Om signaturer krävs innan betalning kommer din kund att se detta meddelande tills alla nödvändiga signaturer är slutförda.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Betald",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Text för betald",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Betald kl. [[ paid_time ]] den [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Betalningsbehandling",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Text för betalningsbehandling",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Det uppstod ett problem med att ladda betalningsstatusen för denna offert. Prova att uppdatera sidan.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Meddelande om betalningsstatusfel",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Säg åt din kund att uppdatera sidan när det inte går att hämta betalningstatus.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Detta är en testoffert så den kan inte samla in riktiga betalningar.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Du kan bestämma om du vill ta emot betalning när du skapar en offert med den här mallen.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Kontakta personen som skickade den här offerten till dig om du vill gå till utcheckningen.",
+    "description": "",
+    "placeholders": null
+  }
+}

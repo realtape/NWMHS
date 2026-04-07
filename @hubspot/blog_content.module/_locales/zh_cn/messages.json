@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "博客内容",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.post": {
+    "message": "帖子",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.listing": {
+    "message": "列表",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.label": {
+    "message": "可编辑的模板",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_source.label": {
+    "message": "博客帖子来源",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_listing_source.label": {
+    "message": "博客列表来源",
+    "description": "",
+    "placeholders": null
+  }
+}

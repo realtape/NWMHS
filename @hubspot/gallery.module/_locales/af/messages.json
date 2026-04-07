@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Beeldgalery",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Byskrif",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Skyfie",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Maak skakel oop in 'n nuwe oortjie",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Wys byskrif",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Skakel-URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Beeld",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Veranderlike hoogte",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Vaste hoogte",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Soek",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Veranderlike hoogte",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Wys navigasieknoppies",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Miniprentnavigasie",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standaardglyer",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Ligboksgalery",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Soek",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Vertoonmodus",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Sit skyfies in lusloop",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Soek",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Superponeer byskrifte bo-oor beelde",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Hou byskrifte altyd onder die beeld",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Byskrifposisie",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tyd in sekondes tussen outorol",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Vervaag",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Skyfie",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Soek",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Skyfie-oorgange",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rye vir ligboksgalery",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Outo-aanskuiwing",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Hierdie module is afgekeur ten gunste van twee nuwe en verbeterde modules, Image Slider en Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Kom meer te wete.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

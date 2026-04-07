@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Obavijest o lozinki",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Rezervirano mjesto za lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Lozinka",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Poruka o neodgovarajućoj lozinki",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Žao nam je, pokušajte ponovno.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Pošalji",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Tekst gumba za slanje",
+    "description": "",
+    "placeholders": null
+  }
+}

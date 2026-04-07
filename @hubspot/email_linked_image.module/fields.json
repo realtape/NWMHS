@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Image",
+    "name": "img",
+    "id": "c0659ae1-c6f6-be47-f874-aee733929395",
+    "type": "image",
+    "resizable": true,
+    "responsive": true,
+    "show_loading": true,
+    "default": {
+      "src": "https://static.hubspot.com/final/img/content/email-template-images/placeholder_200x200.png",
+      "alt": "placeholder_200x200",
+      "loading": "disabled",
+      "width": 200,
+      "height": 200
+    }
+  },
+  {
+    "label": "Link (optional)",
+    "name": "link",
+    "id": "63e5353d-6345-69dd-c6dc-bbd2a3049d97",
+    "type": "text",
+    "help_text": "This is where you'd like to send your visitors when they click on the image. Please include a protocol (i.e. \"http://\") in the URL.",
+    "placeholder": "http://...",
+    "validation_regex": "",
+    "default": ""
+  },
+  {
+    "label": "Open link in new tab",
+    "name": "target",
+    "id": "4e826dd6-cf20-b308-cbb3-de456080195e",
+    "type": "boolean",
+    "visibility": {
+      "controlling_field": "63e5353d-6345-69dd-c6dc-bbd2a3049d97",
+      "controlling_value_regex": null,
+      "operator": "NOT_EMPTY",
+      "access": null,
+      "hidden_subfields": null
+    },
+    "default": false
+  }
+]

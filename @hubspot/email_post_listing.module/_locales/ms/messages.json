@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Penyenaraian Siaran",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Paling popular - enam bulan lalu",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Paling popular - sepanjang masa",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Paling popular - bulan lalu",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Paling popular - tahun lalu",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Terkini",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Senaraikan siaran blog mengikut",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Lalai akan menggunakan blog semasa apabila digunakan dalam templat blog atau blog utama apabila digunakan di tempat lain.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Pilih blog untuk dipaparkan",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Siaran blog maksimum untuk disenaraikan",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Siaran Baru-baru Ini",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Tajuk senarai untuk dipaparkan",
+    "description": "",
+    "placeholders": null
+  }
+}

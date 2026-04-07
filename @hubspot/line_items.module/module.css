@@ -1,0 +1,60 @@
+.line-items__table {
+  width: 100%;
+}
+
+.line-items__table--totals {
+  width: auto;
+}
+
+.line-items__table tr>th:first-child,
+.line-items__table tr>td:first-child {
+  min-width: 120px;
+  text-align: left;
+}
+
+.line-items__table td,
+.line-items__table th {
+  text-align: right;
+}
+
+.line-items__table td {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.line-items__table {
+  margin-bottom: 0;
+}
+
+.line-items__discount-percentage {
+  display: block;
+}
+
+.line-items__image {
+  max-width: 150px;
+  height: auto;
+}
+
+.line-items__description {
+  white-space: pre-wrap;
+}
+
+.line-items__future-payment {
+  font-weight: bold;
+}
+
+.line-items__table .currency__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.line-items__table .currency__content {
+  white-space: nowrap;
+}
+
+.line-items__table .currency__content--full-width {
+  width: 100%;
+}

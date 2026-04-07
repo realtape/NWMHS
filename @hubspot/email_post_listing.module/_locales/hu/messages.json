@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Bejegyzések listázása",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Legnépszerűbb – elmúlt hat hónap",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Legnépszerűbb – teljes élettartam",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Legnépszerűbb – elmúlt hónap",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Legnépszerűbb – elmúlt év",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Legújabb",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Keresés",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Blogbejegyzések rendezési elve",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Az alapbeállítás a jelenlegi blogot fogja használni blogsablonban és az elsődleges blogot minden egyéb esetben.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Válassza ki a megjelenítendő blogot",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Listázható blogbejegyzések maximális száma",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Legújabb bejegyzések",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Megjelenítendő listacím",
+    "description": "",
+    "placeholders": null
+  }
+}

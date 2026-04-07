@@ -1,0 +1,628 @@
+[
+  {
+    "label": "Slide",
+    "name": "slides",
+    "type": "group",
+    "children": [
+      {
+        "label": "Image",
+        "name": "img",
+        "type": "image",
+        "inline_help_text": "For best results, add images of similar shape and size.",
+        "resizable": false
+      },
+      {
+        "label": "Caption",
+        "name": "caption",
+        "type": "richtext",
+        "enabled_features": ["standard_emphasis", "alignment"]
+      },
+      {
+        "label": "Link URL",
+        "name": "link_url",
+        "type": "link"
+      }
+    ],
+    "occurrence": {
+      "min": 0,
+      "max": 20,
+      "sorting_label_field": "slide.img",
+      "default": 5
+    },
+    "default": [
+      {
+        "img": {
+          "src": "",
+          "alt": "Default image alt text"
+        },
+        "caption": "<strong>1</strong> An optional caption for the image that will be added to the gallery. Enter any descriptive text for this image that you would like visitors to be able to read."
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": "Default image alt text"
+        },
+        "caption": "<strong>2</strong> An optional caption for the image that will be added to the gallery. Enter any descriptive text for this image that you would like visitors to be able to read."
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": "Default image alt text"
+        },
+        "caption": "<strong>3</strong> An optional caption for the image that will be added to the gallery. Enter any descriptive text for this image that you would like visitors to be able to read."
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": "Default image alt text"
+        },
+        "caption": "<strong>4</strong> An optional caption for the image that will be added to the gallery. Enter any descriptive text for this image that you would like visitors to be able to read."
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": "Default image alt text"
+        },
+        "caption": "<strong>5</strong> An optional caption for the image that will be added to the gallery. Enter any descriptive text for this image that you would like visitors to be able to read."
+      }
+    ]
+  },
+  {
+    "label": "Settings",
+    "name": "slideshow_settings",
+    "type": "group",
+    "children": [
+      {
+        "label": "Slides",
+        "name": "slides",
+        "type": "group",
+        "children": [
+          {
+            "label": "Slides per page",
+            "name": "per_page",
+            "type": "number",
+            "display": "slider",
+            "inline_help_text": "Captions and thumbnails disappear when you show more than 1 slide per page.",
+            "max": 5,
+            "min": 1,
+            "step": 1,
+            "default": 1
+          },
+          {
+            "label": "Image Sizing",
+            "name": "sizing",
+            "type": "choice",
+            "choices": [
+              ["natural", "Uploaded aspect ratio"],
+              ["force_aspect_ratio", "Force aspect ratio"]
+            ],
+            "display": "radio",
+            "inline_help_text": "For best results, use images with similar aspect ratios and sizes.",
+            "default": "natural"
+          },
+          {
+            "label": "Aspect ratio",
+            "name": "aspect_ratio",
+            "type": "choice",
+            "visibility": {
+              "controlling_field": "slideshow_settings.slides.sizing",
+              "controlling_value_regex": "force_aspect_ratio",
+              "operator": "EQUAL"
+            },
+            "choices": [
+              ["1/1", "1:1"],
+              ["3/2", "3:2"],
+              ["2/3", "2:3"],
+              ["4/3", "4:3"],
+              ["3/4", "3:4"],
+              ["16/9", "16:9"]
+            ],
+            "display": "select",
+            "default": "16/9"
+          },
+          {
+            "label": "Show captions",
+            "name": "show_captions",
+            "type": "boolean",
+            "visibility": {
+              "controlling_field": "slideshow_settings.slides.per_page",
+              "controlling_value_regex": "1",
+              "operator": "EQUAL"
+            },
+            "display": "checkbox",
+            "inline_help_text": "When <strong>Force aspect ratio</strong> is selected, captions are overlayed on top of images.",
+            "default": true
+          },
+          {
+            "label": "Caption position",
+            "name": "caption_position",
+            "type": "choice",
+            "advanced_visibility": {
+              "boolean_operator": "AND",
+              "criteria": [
+                {
+                  "controlling_field": "slideshow_settings.slides.per_page",
+                  "controlling_value_regex": "1",
+                  "operator": "EQUAL"
+                },
+                {
+                  "controlling_field": "slideshow_settings.slides.sizing",
+                  "controlling_value_regex": "natural",
+                  "operator": "EQUAL"
+                }
+              ]
+            },
+            "choices": [
+              ["below", "Position captions below the images"],
+              ["overlay", "Overlay captions on top of images"]
+            ],
+            "display": "select",
+            "visibility_rules": "ADVANCED",
+            "default": "below"
+          }
+        ]
+      },
+      {
+        "label": "Movement",
+        "name": "movement",
+        "type": "group",
+        "children": [
+          {
+            "label": "Slide transitions",
+            "name": "transition",
+            "type": "choice",
+            "visibility": {
+              "controlling_field": "slideshow_settings.slides.per_page",
+              "controlling_value_regex": "1",
+              "operator": "EQUAL"
+            },
+            "choices": [["slide", "Slide"], ["fade", "Fade"]],
+            "display": "select",
+            "inline_help_text": "Transitions may not show in the editor, but will be present in a previewed or published page.",
+            "default": "slide"
+          },
+          {
+            "label": "Loop slides",
+            "name": "loop_slides",
+            "type": "boolean",
+            "default": false
+          },
+          {
+            "label": "Autoplay",
+            "name": "auto_advance",
+            "type": "boolean",
+            "inline_help_text": "Autoplay requires more slides than the slides per page setting to work properly.",
+            "default": false
+          },
+          {
+            "label": "Time in seconds between auto scrolling",
+            "name": "auto_advance_speed_seconds",
+            "type": "number",
+            "visibility": {
+              "controlling_field": "slideshow_settings.movement.auto_advance",
+              "controlling_value_regex": "true",
+              "operator": "EQUAL"
+            },
+            "display": "text",
+            "step": 1,
+            "default": 5
+          }
+        ]
+      },
+      {
+        "label": "Navigation",
+        "name": "navigation",
+        "type": "group",
+        "children": [
+          {
+            "label": "Show navigation arrows",
+            "name": "show_main_arrows",
+            "type": "boolean",
+            "default": true
+          },
+          {
+            "label": "Show thumbnails",
+            "name": "show_thumbnails",
+            "type": "boolean",
+            "visibility": {
+              "controlling_field": "slideshow_settings.slides.per_page",
+              "controlling_value_regex": "1",
+              "operator": "EQUAL"
+            },
+            "default": false
+          },
+          {
+            "label": "Show dot navigation",
+            "name": "show_dots",
+            "type": "boolean",
+            "default": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Default text",
+    "name": "default_text",
+    "type": "group",
+    "children": [
+      {
+        "label": "Default caption",
+        "name": "default_caption",
+        "type": "text",
+        "locked": true,
+        "default": "An optional caption for the image that will be added to the gallery. Enter any descriptive text for this image that you would like visitors to be able to read."
+      },
+      {
+        "label": "Default image alt text",
+        "name": "default_image_alt_text",
+        "type": "text",
+        "locked": true,
+        "default": "Default image alt text"
+      },
+      {
+        "label": "Slider aria label",
+        "name": "slider_aria_label",
+        "type": "text",
+        "locked": true,
+        "default": "Image carousel with {{ slide_count }} slides."
+      },
+      {
+        "label": "Aria label including thumbnail navigation",
+        "name": "aria_label_thumbnails",
+        "type": "text",
+        "locked": true,
+        "default": "Includes thumbnail navigation."
+      },
+      {
+        "label": "Slider thumbnail navigation aria label",
+        "name": "slider_nav_aria_label",
+        "type": "text",
+        "locked": true,
+        "default": "Carousel thumbnails navigation. Selecting a thumbnail will change the carousel."
+      },
+      {
+        "label": "Previous slide",
+        "name": "prev",
+        "type": "text",
+        "locked": true,
+        "default": "Previous slide"
+      },
+      {
+        "label": "Next slide",
+        "name": "next",
+        "type": "text",
+        "default": "Next slide"
+      },
+      {
+        "label": "Go to first slide",
+        "name": "first",
+        "type": "text",
+        "default": "Go to first slide"
+      },
+      {
+        "label": "Go to slide %s",
+        "name": "slideX",
+        "type": "text",
+        "default": "Go to slide %s"
+      },
+      {
+        "label": "Go to page %s",
+        "name": "pageX",
+        "type": "text",
+        "default": "Go to page %s"
+      },
+      {
+        "label": "Start autoplay",
+        "name": "play",
+        "type": "text",
+        "default": "Start autoplay"
+      },
+      {
+        "label": "Pause autoplay",
+        "name": "pause",
+        "type": "text",
+        "default": "Pause autoplay"
+      },
+      {
+        "label": "carousel",
+        "name": "carousel",
+        "type": "text",
+        "default": "carousel"
+      },
+      {
+        "label": "Select a slide to show",
+        "name": "select",
+        "type": "text",
+        "default": "Select a slide to show"
+      },
+      {
+        "label": "slide",
+        "name": "slide",
+        "type": "text",
+        "default": "slide"
+      },
+      {
+        "label": "%s of %s",
+        "name": "slideLabel",
+        "type": "text",
+        "default": "%s of %s"
+      }
+    ],
+    "locked": true
+  },
+  {
+    "label": "Styles",
+    "name": "styles",
+    "type": "group",
+    "tab": "STYLE",
+    "children": [
+      {
+        "label": "Slides",
+        "name": "slide",
+        "type": "group",
+        "children": [
+          {
+            "label": "Images",
+            "name": "image",
+            "type": "group",
+            "children": [
+              {
+                "label": "Corner radius",
+                "name": "corner",
+                "type": "number",
+                "display": "slider",
+                "max": 100,
+                "step": 1,
+                "suffix": "px"
+              },
+              {
+                "label": "Space between images",
+                "name": "gap",
+                "type": "number",
+                "visibility": {
+                  "controlling_field": "slideshow_settings.slides.per_page",
+                  "controlling_value_regex": "1",
+                  "operator": "NOT_EQUAL"
+                },
+                "display": "text",
+                "inline_help_text": "Customize the space between your images when you have more than 1 slide per page.",
+                "max": 100,
+                "step": 5,
+                "suffix": "px",
+                "default": 15
+              }
+            ]
+          },
+          {
+            "label": "Captions",
+            "name": "caption",
+            "type": "group",
+            "children": [
+              {
+                "label": "Background",
+                "name": "background",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "Spacing",
+                    "name": "spacing",
+                    "type": "spacing"
+                  },
+                  {
+                    "label": "Color",
+                    "name": "background",
+                    "type": "color"
+                  }
+                ]
+              },
+              {
+                "label": "Text",
+                "name": "text",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "Font",
+                    "name": "font",
+                    "type": "font"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Navigation",
+        "name": "navigation",
+        "type": "group",
+        "children": [
+          {
+            "label": "Slider arrows",
+            "name": "slider_arrows",
+            "type": "group",
+            "children": [
+              {
+                "label": "Background color",
+                "name": "background_color",
+                "type": "color"
+              },
+              {
+                "label": "Left icon",
+                "name": "left_icon",
+                "type": "icon",
+                "default": {
+                  "name": "angle-left",
+                  "unicode": "f104",
+                  "type": "SOLID"
+                }
+              },
+              {
+                "label": "Right icon",
+                "name": "right_icon",
+                "type": "icon",
+                "default": {
+                  "name": "angle-right",
+                  "unicode": "f105",
+                  "type": "SOLID"
+                }
+              },
+              {
+                "label": "Icon color",
+                "name": "fill_color",
+                "type": "color"
+              }
+            ]
+          },
+          {
+            "label": "Dots and autoplay button",
+            "name": "dots",
+            "type": "group",
+            "advanced_visibility": {
+              "boolean_operator": "OR",
+              "criteria": [
+                {
+                  "controlling_field": "slideshow_settings.movement.auto_advance",
+                  "controlling_value_regex": "true",
+                  "operator": "EQUAL"
+                },
+                {
+                  "controlling_field": "slideshow_settings.navigation.show_dots",
+                  "controlling_value_regex": "true",
+                  "operator": "EQUAL"
+                }
+              ]
+            },
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color",
+                "visibility": {
+                  "hidden_subfields": {
+                    "opacity": true
+                  }
+                }
+              }
+            ],
+            "visibility_rules": "ADVANCED"
+          },
+          {
+            "label": "Thumbnail navigation",
+            "name": "thumb_nav",
+            "type": "group",
+            "advanced_visibility": {
+              "boolean_operator": "AND",
+              "criteria": [
+                {
+                  "controlling_field": "slideshow_settings.slides.per_page",
+                  "controlling_value_regex": "1",
+                  "operator": "EQUAL"
+                },
+                {
+                  "controlling_field": "slideshow_settings.navigation.show_thumbnails",
+                  "controlling_value_regex": "true",
+                  "operator": "EQUAL"
+                }
+              ]
+            },
+            "children": [
+              {
+                "label": "Arrow background color",
+                "name": "arrow_background_color",
+                "type": "color"
+              },
+              {
+                "label": "Arrow left icon",
+                "name": "left_icon",
+                "type": "icon",
+                "default": {
+                  "name": "angle-left",
+                  "unicode": "f104",
+                  "type": "SOLID"
+                }
+              },
+              {
+                "label": "Arrow right icon",
+                "name": "right_icon",
+                "type": "icon",
+                "default": {
+                  "name": "angle-right",
+                  "unicode": "f105",
+                  "type": "SOLID"
+                }
+              },
+              {
+                "label": "Arrow icon fill color",
+                "name": "fill_color",
+                "type": "color"
+              },
+              {
+                "label": "Thumbnail images",
+                "name": "thumbnail",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "Aspect ratio",
+                    "name": "aspect_ratio",
+                    "type": "choice",
+                    "choices": [
+                      ["1/1", "1:1"],
+                      ["3/2", "3:2"],
+                      ["2/3", "2:3"],
+                      ["4/3", "4:3"],
+                      ["3/4", "3:4"],
+                      ["16/9", "16:9"]
+                    ],
+                    "display": "select",
+                    "default": "16/9"
+                  },
+                  {
+                    "label": "Width",
+                    "name": "width",
+                    "type": "number",
+                    "display": "text",
+                    "max": 270,
+                    "min": 135,
+                    "step": 5,
+                    "suffix": "px",
+                    "default": 270
+                  },
+                  {
+                    "label": "Radius",
+                    "name": "radius",
+                    "type": "number",
+                    "display": "text",
+                    "max": 100,
+                    "step": 1,
+                    "suffix": "px"
+                  }
+                ]
+              }
+            ],
+            "visibility_rules": "ADVANCED"
+          }
+        ]
+      },
+      {
+        "label": "Slider",
+        "name": "slider",
+        "type": "group",
+        "children": [
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "group",
+            "children": [
+              {
+                "label": "Spacing",
+                "name": "spacing",
+                "type": "spacing"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

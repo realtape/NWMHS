@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "डिवाइडर",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "अलाइनमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "सेंटर",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "बाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "दाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "ऊँचाई",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "लाइन प्रकार",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "डैश किया हुआ",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "डॉटेड",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "सॉलिड",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "पैडिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "अधिकतम 20 पिक्सेल",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "पैडिंग दिखाएँ?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "चौड़ाई",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "क्षेत्र का प्रतिशत जिसमें डिवाइडर रखा गया है।",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "備份取消訂閱",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "按鈕文字",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "取消訂閱",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "電郵取消訂閱",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "標題",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "輸入電郵預留位置文字",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "你的電郵地址：",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "電郵輸入說明文字",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "錯誤訊息",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "載入頁面時發生問題。請嘗試使用來自更近期電郵的相同連結，或聯絡該公司以更新你的訂閱偏好設定。",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "副標題",
+    "description": "",
+    "placeholders": null
+  }
+}

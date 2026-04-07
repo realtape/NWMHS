@@ -1,0 +1,457 @@
+{
+  "name": {
+    "message": "คลังเนื้อหา",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.label": {
+    "message": "ทรัพยากร",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.label": {
+    "message": "ชื่อ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.default": {
+    "message": "ชื่อแหล่งข้อมูล",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.label": {
+    "message": "คำอธิบาย",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.default": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.label": {
+    "message": "ลิงก์แหล่งข้อมูล",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.inline_help_text": {
+    "message": "ไฟล์จะดาวน์โหลดลงเครื่องเดสก์ท็อปของผู้ใช้หลังจากที่คลิกทรัพยากร",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.label": {
+    "message": "รูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.default": {
+    "message": "เลือกจากรายการภาพที่เป็นค่าเริ่มต้น",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.custom": {
+    "message": "ใช้ภาพที่กำหนดเอง",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.ebook": {
+    "message": "อีบุ๊ก",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.pdf-document": {
+    "message": "เอกสาร PDF",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.infographic": {
+    "message": "อินโฟกราฟิก",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.template": {
+    "message": "เทมเพลต",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.guide": {
+    "message": "คู่มือ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.course": {
+    "message": "หลักสูตร",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.webinar": {
+    "message": "การสัมมนาออนไลน์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.data-sheet": {
+    "message": "เอกสารข้อมูล",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.video": {
+    "message": "วิดีโอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.blog-post": {
+    "message": "โพสต์ในบล็อก",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.whitepaper": {
+    "message": "เอกสารไวท์เปเปอร์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.case-study": {
+    "message": "กรณีศึกษา",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.custom_image.label": {
+    "message": "ภาพที่กำหนดเอง",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.label": {
+    "message": "ข้อความลิงก์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.default": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.title": {
+    "message": "อีบุ๊ก",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.title": {
+    "message": "เอกสาร PDF",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.title": {
+    "message": "อินโฟกราฟิก",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.title": {
+    "message": "เทมเพลต",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.title": {
+    "message": "คู่มือ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.title": {
+    "message": "หลักสูตร",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.title": {
+    "message": "การสัมมนาออนไลน์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.title": {
+    "message": "เอกสารข้อมูล",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.title": {
+    "message": "วิดีโอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.title": {
+    "message": "โพสต์ในบล็อก",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.title": {
+    "message": "เอกสารไวท์เปเปอร์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.title": {
+    "message": "กรณีศึกษา",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.description": {
+    "message": "คำอธิบายของแหล่งข้อมูลที่แชร์ เพียง 2-3 ประโยคก็พอ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.link_text": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.download_aria_label_prefix.default": {
+    "message": "ดาวน์โหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.content_aria_label_prefix.default": {
+    "message": "ดูเนื้อหา [[resource_name]]",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.external_aria_label_prefix.default": {
+    "message": "เปิด",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.new_tab_aria_label_suffix.default": {
+    "message": "ในแท็บใหม่",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "รูปแบบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.label": {
+    "message": "เลย์เอาท์",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.label": {
+    "message": "รูปแบบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.cards": {
+    "message": "บัตร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.tiles": {
+    "message": "ตาราง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.minimal": {
+    "message": "มินิมอล",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "ชื่อ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font.label": {
+    "message": "แบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "คำอธิบาย",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font.label": {
+    "message": "แบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "รูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.label": {
+    "message": "อัตราส่วนกว้างยาว",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.label": {
+    "message": "แม่สี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.help_text": {
+    "message": "ปรับสีของกราฟิกตามค่าเริ่มต้น",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.label": {
+    "message": "สีขั้นที่สอง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.help_text": {
+    "message": "ปรับสีของกราฟิกตามค่าเริ่มต้น",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.label": {
+    "message": "สีขั้นที่สาม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.help_text": {
+    "message": "ปรับสีของกราฟิกตามค่าเริ่มต้น",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.label": {
+    "message": "ลิงก์",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.default_text_color.label": {
+    "message": "สีข้อความตามค่าเริ่มต้น",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.hover_text_color.label": {
+    "message": "สีข้อความเมื่อวางเมาส์เหนือ",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "แหล่งข้อมูลที่ทำเครื่องหมายเป็นแนะนำจะแสดงเป็นลำดับแรกๆ ในหน้า",
+    "description": "",
+    "placeholders": null
+  }
+}

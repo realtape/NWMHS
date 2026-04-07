@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Galeria d'imatges",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Llegenda",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Diapositiva",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Obre l'enllaç en una pestanya nova",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Mostra la llegenda",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL de l'enllaç",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Imatge",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Alçada variable",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Alçada fixa",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Alçada variable",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Mostra els botons de navegació",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Navegació de miniatura",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Control lliscant estàndard",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galeria de Lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Mode de visualització",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Repeteix diapositives",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Superposa les llegendes a sobre de les imatges",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Mantén sempre les llegendes a sota de la imatge",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Posició de la llegenda",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Temps en segons entre el desplaçament automàtic",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Esvaeix",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Diapositiva",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Transicions de diapositiva",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Files per a la galeria de Lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Avanç automàtic",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Aquest mòdul ha quedat obsolet a favor de dos mòduls millorats nous: el Control lliscant d'imatges i la Quadrícula d'imatges <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Obtén més informació.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

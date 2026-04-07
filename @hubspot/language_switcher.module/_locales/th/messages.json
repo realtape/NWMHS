@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "ตัวสลับภาษา",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "ไฮบริด",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "ภาษาท้องถิ่น",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "ภาษาของข้อความในตัวสลับภาษา PageLang หมายถึงชื่อภาษาที่จะแสดงในภาษาของหน้าที่มีตัวสลับภาษาอยู่ ภาษาท้องถิ่นหมายถึงชื่อของแต่ละภาษาที่จะแสดงในภาษานั้น ไฮบริดคือการผสมสองตัวเลือกนี้เข้าด้วยกัน",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "โหมดจอแสดงผล",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "ค้นหา",
+    "description": "",
+    "placeholders": null
+  }
+}

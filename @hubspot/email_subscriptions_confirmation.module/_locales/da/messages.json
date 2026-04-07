@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Meddelelse med abonnementsbekræftelse",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Du har nu opdateret dine e-mailindstillinger",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Besked om abonnementopdatering",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Underoverskrift",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Hvis dette ikke er din e-mailadresse, skal du ignorere denne side, da den e-mail, der er tilknyttet siden, højst sandsynligt er videresendt til dig.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Du er nu afmeldt al e-mailkommunikation.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Besked om afmelding",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Overskrifttekst",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Overskrift",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Administrer tekst til præferenceknap",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Administrer præferencer",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Administrer præferencer returner ansvarsfraskrivelse",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Har du begået en fejl? Bare rolig, du kan ændre dine præferencer.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Tekst om succesfuld afmelding af enkeltabonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Du har nu afmeldt dig:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Pladsholdertekst til abonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "din valgte abonnementstype",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Overskriftsniveau",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Overskrift 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Overskrift 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Overskrift 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Overskrift 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Overskrift 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Overskrift 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "E-mail-overskriftsniveau",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Overskrift 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Overskrift 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Overskrift 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Overskrift 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Overskrift 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Overskrift 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Afsnit",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Ana e-posta gövdesi",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Merhaba&nbsp;{{contact.firstname}},</p>\n<p>Müşteriye ne sunmanız gerektiğini açıklayın. Neden okumalılar? Konu satırında onlara ne vaat ettiniz? Onlara havalı bir şey söyle. Onları güldür. Ağlatın onları. Belki bunu yapmayın...</p>\n<p>Listeyi şunlar için kullanın:</p>\n<ul>\n<li>Teklifinizin değerini açıklayın</li>\n<li>Okuyucuya eyleme geçmekle ne elde edeceklerini hatırlatın</li>\n<li>Maddeler halinde becerinizi gösterin</li>\n<li>İçeriğinizi taranması kolay tutun</li>\n</ul>\n<p><a href=\"http://hubspot.com\">SİTENİZDEKİ AÇILIŞ SAYFASINA BAĞLANTI</a> (Bu gerçekten önemli kısım.)</p>\n<p>Şimdi hepsini, onları ne kadar sevdiğinizi gösteren küçük bir hatırlatma ile tamamlayın.</p>\n<p>Ah. Seni gümüş dilli şeytan seni.</p>\n<p>İçtenlikle,</p>\n<p>Adınız</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "E-posta gövdesi",
+    "description": "",
+    "placeholders": null
+  }
+}

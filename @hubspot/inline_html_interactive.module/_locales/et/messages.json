@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Meiliaadress",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefoninumber",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Faili alla laadimine",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Koosolekute link",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Üks teie lehtedest",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Link lehele",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Koosolekute link",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Avage link uuel vahekaardil",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Lehekülg",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Tekstisisene HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Nupu sisu",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML, mis renderdatakse nupu sees. Saate kasutada ainult neid silte, mis kehtivad <a> sildi sees.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Klõpsake siin",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Avage link uuel vahekaardil",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Täpsem",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Kohandatud CSS-reeglid",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Valija",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "See väärtus kombineeritakse CTA valijaga. Näiteks „:hover” muutub ${ctaSelector}:hover'iks.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Stiil",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Lisage oma stiilireeglile kohandatud CSS. Näiteks: serva laius: 3px tahke #3e4d68; värv: kollane;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Kohandatud CSS-klassid",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Lisa kohandatud CSS-klassid oma CTA-lingile.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Kohandatud CSS-stiilileht",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Lisa oma CTA-le kohandatud CSS-stiilileht. Nt: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Kasuta pärandmärgistust",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Olemasoleva CSS-i toetamiseks mähi HTML pärandmärgistusse",
+    "description": "",
+    "placeholders": null
+  }
+}

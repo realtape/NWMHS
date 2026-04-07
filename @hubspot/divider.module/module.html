@@ -1,0 +1,13 @@
+{% macro buildStyles() %}
+  width: {{ module.width ~ "%" }};
+  border: 0 none;
+  border-bottom-width: {{ module.height ~ "px" }};
+  border-bottom-style: {{ module.line_type }};
+  border-bottom-color: rgba({{ module.color.color|convert_rgb }}, {{ module.color.opacity / 100 }});
+  margin-left: {{ "auto" if (module.alignment == "center" or module.alignment == "right") else "0" }};
+  margin-right: {{ "auto" if (module.alignment == "center" or module.alignment == "left") else "0" }};
+  margin-top: {{ module.padding ~ "px" if module.show_padding else "0" }};
+  margin-bottom: {{ module.padding ~ "px" if module.show_padding else "0" }};
+{% endmacro %}
+
+<hr style="{{ buildStyles()|escape_attr }}">

@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Jelszókérés",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Jelszó helyőrzője",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Jelszó",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Nem megfelelő jelszóval kapcsolatos üzenet",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Sajnálom, próbálja meg újra.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Beküldés",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Beküldés gomb felirata",
+    "description": "",
+    "placeholders": null
+  }
+}

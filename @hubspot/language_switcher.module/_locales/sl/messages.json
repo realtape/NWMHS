@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Preklopnik jezika",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hibridno",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Lokalizirano",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Jezik besedila v preklopniku jezika. PageLang pomeni, da bodo imena jezikov prikazana v jeziku strani, na kateri je vklopljen preklopnik. Lokalizirano pomeni, da bo ime vsakega jezika prikazano v tem jeziku. Hibrid je kombinacija obeh.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Način prikaza",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Išči",
+    "description": "",
+    "placeholders": null
+  }
+}

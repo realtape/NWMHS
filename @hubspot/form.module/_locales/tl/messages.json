@@ -1,0 +1,62 @@
+{
+  "follow_up_type_automation.label": {
+    "message": "Idagdag sa workflow",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.label": {
+    "message": "Magpadala ng follow-up email",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.help_text": {
+    "message": "Para magpadala ng follow-up email, tiyaking naka-on ang \"Itakda bilang mga marketing contact ang mga ginawang contact'. Maaari mong pangasiwaan ang opsyong ito. <a href='https://knowledge.hubspot.com/contacts/set-contacts-as-marketing#set-the-default-marketing-status-for-new-contacts'>Alamin pa</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "form.default.message": {
+    "message": "Salamat sa pagsusumite ng form",
+    "description": "",
+    "placeholders": null
+  },
+  "form.label": {
+    "message": "Form",
+    "description": "",
+    "placeholders": null
+  },
+  "form_follow_ups_workflow_id.label": {
+    "message": "Workflow",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Form",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_are_overridden.label": {
+    "message": "Magpadala ng mga form notification sa mga partikular na email addres sa halip na mga default na form",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_override_email_addresses.label": {
+    "message": "Mga Email Address",
+    "description": "",
+    "placeholders": null
+  },
+  "sfdc_campaign.label": {
+    "message": "Salesforce campaign",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Form Title",
+    "description": "",
+    "placeholders": null
+  },
+  "simple_email_for_live_id.label": {
+    "message": "Email",
+    "description": "",
+    "placeholders": null
+  }
+}

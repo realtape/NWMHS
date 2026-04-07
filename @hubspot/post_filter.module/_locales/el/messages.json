@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Φίλτρο ανάρτησης",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Προβολή όλων",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Κείμενο προς εμφάνιση αν υπάρχουν διαθέσιμα περισσότερα από τη μέγιστη τιμή προς προβολή. Αφήστε το κενό για παράλειψη του συνδέσμου",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Ως προεπιλογή θα χρησιμοποιηθεί το τρέχον ιστολόγιο όταν χρησιμοποιείται σε πρότυπο ιστολογίου ή το κύριο ιστολόγιο όταν χρησιμοποιείται αλλού.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Επιλέξτε ιστολόγιο για προβολή",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Μέγιστος αριθμός τιμών φίλτρου για προβολή",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Λίστα τιμών για συνδέσμους φίλτρου",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Ετικέτες",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Συντάκτες",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Μήνες",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Αναρτήσεις ανά ετικέτα",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Τίτλος λίστας προς προβολή",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Όνομα",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Πλήθος αναρτήσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ταξινόμηση τιμών για συνδέσμους φίλτρου",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Προβολή όλων των φίλτρων",
+    "description": "",
+    "placeholders": null
+  }
+}

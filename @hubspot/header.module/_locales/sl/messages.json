@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Jasen in izrazit naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Vsebina naslova",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Izberite slog naslova. H1 je največji, sledi H2, itd.",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Izberite vrsto glave",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Slog naslova",
+    "description": "",
+    "placeholders": null
+  }
+}

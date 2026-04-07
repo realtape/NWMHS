@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Indirizzo e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Numero di telefono",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Scarica file",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Link per riunioni",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Una delle tue pagine",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Link a ",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Link per riunioni",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Apri il link in una nuova scheda",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Pagina",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "HTML inline",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Contenuto del pulsante",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML di cui verrà eseguito il rendering all'interno del pulsante. Puoi utilizzare solo tag validi all'interno di un <a> tag.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Fai clic qui",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Apri il link in una nuova scheda",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Avanzate",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Regole Cascading Style Sheets personalizzate",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Delettore",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Questo valore è combinato con il selettore della CTA. Ad esempio, ':passa il puntatore' diventa ${ctaSelector}:passa il puntatore",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Stile",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Aggiungi regole per i Cascading Style Sheets personalizzati. Ad esempio: bordo-inferiore: 3px tinta unita #3e4d68; colore: giallo;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Classi Cascading Style Sheets personalizzate",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Aggiungi classi Cascading Style Sheets personalizzate al link della CTA.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Foglio di stile CSS personalizzato",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Aggiungi Cascading Style Sheets personalizzati alla CTA. Ad esempio: bordo-inferiore: 3px tinta unita #3e4d68; colore: giallo;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Usa markup legacy",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "HTML con ritorno a capo nel markup legacy per supportare Cascading Style Sheets esistenti",
+    "description": "",
+    "placeholders": null
+  }
+}

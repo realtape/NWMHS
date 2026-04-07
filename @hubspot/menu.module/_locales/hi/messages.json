@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "हॉरिजॉन्टल",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "वर्टिकल",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "हॉरिजॉन्टल मेनू आइटम साथ-साथ डिस्प्ले करते हैं, और वर्टिकल मेनू ऊपर से नीचे डिस्प्ले करते हैं",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "ओरीएन्टेशन",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "खोजें",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "जब आप पेरेंट पर होवर करते हैं तो चाइल्ड मेनू आइटम दिखाई देंगे। यदि अनचेक किया गया है, तो चाइल्ड मेनू आइटम हमेशा दिखाई देंगे",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "फ्लाईआउट्स को सक्षम करें?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "मेनू ट्री पेज की संरचना है जो मेनू में आइटम बनाती है। एक मेनू ट्री का उपयोग कई मेनू के साथ किया जा सकता है। आप जटिल वेबसाइट संरचनाओं के लिए एक से अधिक मेनू बना सकते हैं। मेनू आपकी सामग्री सेटिंग में बनाए और प्रबंधित किए जाते हैं",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "मेन्यू",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "मेन्यू ट्री चिल्ड्रन की संख्या निर्धारित करता है जिसे मेन्यू में एक्सपैंडेड किया जा सकता है",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "अधिकतम स्तर",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "खोजें",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "मेन्यू",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "ब्रेडक्रंब स्टाइल पाथ मेनू (हॉरिजॉन्टल फ्लो का उपयोग करता है)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "पेज के अनुसार डायनामिक - मेनू में ऐसे पेज दिखाता है जो देखे जा रहे पेज से संबंधित हैं ",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "स्टेटिक - मेनू में हमेशा टॉप-लेवल पेज दिखाता है",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "सेक्शन के अनुसार डायनामिक - मेनू में ऐसे पेज दिखाता है जो देखे जा रहे सेक्शन से संबंधित हैं",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "एडवांस्ड मेनू देखे जा रहे पेज के आधार पर मेनू ट्री के विभिन्न भागों को दिखाते हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "एडवांस्ड मेनू का प्रकार",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "खोजें",
+    "description": "",
+    "placeholders": null
+  }
+}

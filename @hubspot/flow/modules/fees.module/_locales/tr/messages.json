@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Ücretler",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "%{{ fee_amount }} indirim",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "%{{ fee_amount }} ücret",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "%{{ fee_amount }} vergi",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "Diğer ücretler",
+    "description": "",
+    "placeholders": null
+  }
+}

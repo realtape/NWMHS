@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Zaplatit",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Text tlačítka platby",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Zákazníkovi musí být jasné, že po kliknutí na toto tlačítko bude moci zaplatit.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Došlo k problému s nastavením pokladny. Obraťte se na odesílatele této nabídky.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Chybová zpráva týkající se pokladny",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Informujte zákazníka, jak má postupovat, pokud bude mít potíže s přechodem k pokladně.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "N1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "N2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "N3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "N4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "N5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "N6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Vyberte úroveň nadpisu. Nadpis N1 je největší, nadpis N2 o něco menší a tak dále.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Úroveň nadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Platba",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Obsah nadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Odeslat první platbu:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Tento text zákazník uvidí na tlačítku platby, dokud neuhradí první splátku.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Text tlačítka u plánů plateb",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Platba",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Platbu nelze provést, protože nabídka není plně podepsána.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Text vysvětlení v případě, že chybí podpisy",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Pokud jsou před platbou nutné podpisy, tato zpráva se zákazníkovi bude zobrazovat, dokud se všechny potřebné podpisy nedoplní.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Uhrazeno",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Placený text",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Uhrazeno [[ paid_date ]] v [[ paid_time ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Zpracování plateb",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Text ke zpracování plateb",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Při načítání stavu platby u této cenové nabídky došlo k chybě. Zkuste stránku obnovit.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Chybová zpráva týkající se stavu platby",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Poraďte zákazníkovi, aby aktualizoval stránku, pokud se nedaří načíst stav platby.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Jedná se o zkušební nabídku, takže skutečné platby nemohou být vybírány.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Při tvorbě nabídky s použitím této šablony si můžete zvolit, jestli chcete vybírat platby.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Pokud chcete zaplatit, obraťte se na odesílatele této nabídky.",
+    "description": "",
+    "placeholders": null
+  }
+}

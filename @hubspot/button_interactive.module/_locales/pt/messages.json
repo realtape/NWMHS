@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Botão (interativo)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL do link",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Endereço de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Arquivo",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Fechar call to action",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Endereço de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Número de telefone",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Download do arquivo",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Link de reuniões",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Uma das suas páginas",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Uma das suas páginas do blog",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Link para",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Link de reuniões",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Abrir link em nova guia",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Página",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Clicado",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Plano de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Borda",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Borda",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Canto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Adicionar cantos arredondados ao botão",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Raio",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Plano de fundo de foco",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Borda",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Borda de foco",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Passar o mouse",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Texto de foco",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estilos",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Texto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Deslocamento de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Adicione um link de botão aqui",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Texto do botão",
+    "description": "",
+    "placeholders": null
+  }
+}

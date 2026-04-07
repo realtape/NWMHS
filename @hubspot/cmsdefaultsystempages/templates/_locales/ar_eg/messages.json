@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "تعذر العثور على الصفحة",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "لا يمكننا العثور على الصفحة التي تبحث عنها.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "الانتقال إلى الصفحة الرئيسية",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "هذه الصفحة لا تعمل",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "حدث خطأ داخلي في الخادم، لكننا نعمل على معالجة الأمر!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "الانتقال إلى الصفحة الرئيسية",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "شعار الشركة",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "تم تحديث تفضيلات البريد الإلكتروني الخاصة بك.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "لقد قمت بإلغاء اشتراكك بنجاح من جميع اتصالات البريد الإلكتروني.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "تم تحديث تفضيلات البريد الإلكتروني الخاصة بك.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "تحديث تفضيلات البريد الإلكتروني لـ",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "اختر رسائل البريد الإلكتروني التي ترغب في تلقيها من {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "اختر رسائل البريد الإلكتروني التي ترغب في تلقيها من {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "حدد لغة:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "تحديث تفضيلات البريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "إلغاء الاشتراك من جميع رسائل البريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "إذا لم يكن هذا عنوانك، فمن المرجح أنه تمت إعادة توجيه بريد إلكتروني إليك من شخص آخر ويمكنك تجاهل هذه الرسالة بأمان.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "أنت غير مشترك حاليًا في جميع رسائل البريد الإلكتروني الخاصة بنا. هل ترغب في تلقي رسائل البريد الإلكتروني الخاصة بنا مرة أخرى؟",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "أجل، قم بإعادة الاشتراك لي!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "كلمة المرور مطلوبة",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "يُرجى إدخال كلمة المرور الخاصة بك لعرض هذه الصفحة.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "كلمة المرور",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "نتائج البحث عن \"[[search_term]]\"",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "عذرًا، ليس لديك حق الوصول",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "ليس لديك إذن لعرض هذه الصفحة. اتصل بمسؤول الموقع لطرح الأسئلة.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "الانتقال إلى الصفحة الرئيسية",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "تسجيل الدخول",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "الصفحة التي تحاول عرضها متاحة فقط للمستخدمين المسجلين.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "البريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "كلمة المرور",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "تذكر بياناتي",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "هل نسيت كلمة المرور؟",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "تسجيل الدخول",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "عرض",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "هل تواجه مشكلة؟ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">اتصل بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "تم تسجيل خروجك",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "تسجيل الدخول مرة أخرى",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "أو العودة إلى <a href=\"{{ '//' ~ request.domain }}\">الصفحة الرئيسية</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "تعيين كلمة المرور الخاصة بك",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "مرحبًا! أكمل التسجيل بتعيين كلمة المرور الخاصة بك.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "البريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "تأكيد كلمة المرور",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "كلمة المرور",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "حفظ كلمة المرور",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "عرض",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "هل تواجه مشكلة؟ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">اتصل بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "إعادة تعيين كلمة المرور الخاصة بك",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "أدخل عنوان البريد الإلكتروني الذي استخدمته للتسجيل وسنرسل لك بريدًا إلكترونيًا يحتوي على رابط لإعادة تعيين كلمة المرور الخاصة بك.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "البريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "إرسال بريد إلكتروني لإعادة تعيين كلمة المرور",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "هل تذكرتها للتو؟ <a href=\"/_hcms/mem/login\">قم بتسجيل الدخول</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "هل تواجه مشكلة؟ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">اتصل بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "تم إرسال بريد إلكتروني لإعادة تعيين كلمة المرور",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "إذا تم العثور على حساب مطابق لـ {{ user_email }} ، فقد تم إرسال بريد إلكتروني يحتوي على الخطوات التالية لإعادة تعيين كلمة المرور الخاصة بك. يرجى <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">الاتصال بالمسؤول</a> إذا لم تستلمها خلال 20 دقيقة.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "إرسال بريد إلكتروني آخر لإعادة تعيين كلمة المرور",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "إنشاء كلمة مرور جديدة",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "يجب أن تكون كلمة المرور الجديدة مختلفة عن كلمة المرور المستخدمة مسبقًا.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "كلمة المرور الجديدة",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "تأكيد كلمة المرور الجديدة",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "حفظ كلمة المرور",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "عرض",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "هل تواجه مشكلة؟ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">اتصل بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "تم تأكيد عنوان بريدك الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "شكرًا لك على التحقق من عنوان البريد الإلكتروني الخاص بك. يمكنك الآن تسجيل الدخول إلى حسابك والوصول إلى المحتوى الحصري الخاص بك.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "تسجيل الدخول",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "هل تواجه مشكلة؟ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">اتصل بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "تم إرسال رابط تسجيل الدخول لمرة واحدة",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>لقد أرسلنا إليك رسالة بريد إلكتروني على {{ user_email }}. تحتوي على الرابط الذي يمكنك من خلاله تسجيل الدخول.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "إذا لم تتمكن من رؤية رسالة البريد الإلكتروني، يُرجى التحقق من مجلد البريد العشوائي.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "إعادة إرسال رابط تسجيل الدخول",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "أو",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "تسجيل الدخول باستخدام كلمة المرور بدلاً من ذلك",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "هل تواجه مشكلة؟ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">تواصل مع مسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "تحقق من عنوان بريدك الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "شكرًا لك على التسجيل! يُرجى التحقق من بريدك الإلكتروني والنقر فوق رابط التأكيد لإكمال التسجيل الخاص بك.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "هل تواجه مشكلة؟ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">اتصل بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "إنشاء كلمة مرور لإنهاء التسجيل",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "الخطوة الأخيرة! بمجرد إنشاء كلمة مرور آمنة ستتمكن من تسجيل الدخول والوصول إلى المحتوى على {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "إنشاء كلمة مرور",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "أو انسخ والصق هذا الرابط في متصفحك:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "إذا كانت لديك أسئلة أو إذا كنت تلقيت هذا عن طريق الخطأ، يرجى <a href=\"{{ membership_website_admin }}\">الاتصال بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "إعادة تعيين كلمة المرور الخاصة بك",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "قم بتعيين كلمة مرور جديدة وقم بتسجيل الدخول إلى حسابك.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "إعادة تعيين كلمة المرور",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "إذا لم تقدم هذا الطلب، فيمكنك تجاهل هذا البريد الإلكتروني بأمان. <br/>إذا كانت لديك أسئلة، فيرجى <a href=\"{{ membership_website_admin }}\">الاتصال بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "تسجيل الدخول باستخدام رابط لمرة واحدة",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "استمر في تسجيل الدخول إلى حسابك. للحفاظ على أمانك، ستنتهي صلاحية هذا الرابط خلال 15 دقيقة.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "سجّل الدخول",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "أو انسخ والصق هذا الرابط في متصفحك:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "إذا لم تقدم هذا الطلب، يمكنك تجاهل هذا البريد الإلكتروني بأمان. <br/>إذا كانت لديك أسئلة، يُرجى <a href=\"{{ membership_website_admin }}\">التواصل مع مسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "كلمة مرور {{ membership_company_name }} تم تغييرها بنجاح",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "ألم تقصد إجراء هذا التغيير؟ استخدم نموذج <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">كلمة المرور المنسية</a> لإعادة تعيين كلمة المرور الخاصة بك الآن.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "إذا كانت لديك أسئلة، يرجى <a href=\"{{ membership_website_admin }}\">الاتصال بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "اكتمل تسجيلك",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "شكرًا لتسجيلك! أنت جاهز تمامًا. الآن يمكنك تسجيل الدخول للوصول وفتح المزيد من القيمة.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "تسجيل الدخول إلى حسابك الجديد",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "إذا كانت لديك أسئلة أو إذا كنت تلقيت هذا عن طريق الخطأ، يرجى <a href=\"{{ membership_website_admin }}\">الاتصال بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "مرحبًا في {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "أكمل تسجيلك بإنشاء كلمة مرور آمنة لحسابك.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "إنشاء كلمة مرور",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "أو انسخ والصق هذا الرابط في متصفحك:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "إذا كانت لديك أسئلة أو إذا كنت تلقيت هذا عن طريق الخطأ، يرجى <a href=\"{{ membership_website_admin }}\">الاتصال بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "تحقق من عنوان بريدك الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "شكرًا لتسجيلك! ستحتاج إلى التحقق من عنوان بريدك الإلكتروني لإكمال التسجيل في {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "تحقق من عنوان البريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "إذا كانت لديك أسئلة أو إذا كنت تلقيت هذا عن طريق الخطأ، يرجى <a href=\"{{ membership_website_admin }}\">الاتصال بمسؤول الموقع</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "يُرجى تأكيد طلب الحذف الخاص بك",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "أكِّد طلب الحذف الخاص بك",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "مرحبًا {{ first_name }}،",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "لقد تلقينا طلبًا بحذف بياناتك الشخصية من شركة {{ company_name }} بتاريخ:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>الجهاز:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>الوقت والتاريخ:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "حتى نتمكن من معالجة طلبك، يرجى تأكيد رغبتك في حذف بياناتك.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "نعم، احذف بياناتي",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "ستنتهي صلاحية هذا الرابط خلال 30 دقيقة.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "إذا لم تطلب الحذف، فيمكنك تجاهل هذه الرسالة.",
+    "description": "",
+    "placeholders": null
+  }
+}

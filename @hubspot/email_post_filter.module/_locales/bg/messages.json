@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Филтър на публикация",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Показване на всички",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Текст за показване, ако са налични повече от максималните стойности за показване. Оставете празно за пропускане на връзка",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "По подразбиране ще използваме настоящия блог, когато се използва в шаблон на блог, или основния блок, когато се използва на друго място.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Изберете блог за показване",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Максимален брой стойности на филтъра за показване. Оставете празно за показване на всички",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Търсене",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Списък със стойности за връзки на филтъра",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Етикети",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Автори",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Месеци",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Публикации по етикет",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Заглавие на списък за показване",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Име",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Брояч на публикации",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Търсене",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Подреждане на стойности за връзки на филтър",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Покажи всички филтри",
+    "description": "",
+    "placeholders": null
+  }
+}

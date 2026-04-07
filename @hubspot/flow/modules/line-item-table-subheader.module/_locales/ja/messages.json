@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "商品項目テーブルの小見出し",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>本日期限の定期的な支払いと1回限りの支払い。<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "小見出しのテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "この小見出しは、今後の支払いがある場合のみ表示されます。",
+    "description": "",
+    "placeholders": null
+  }
+}

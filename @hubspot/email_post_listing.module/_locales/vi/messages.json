@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Danh sách bài đăng",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Phổ biến nhất - sáu tháng qua",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Phổ biến nhất - mọi lúc",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Phổ biến nhất - tháng trước",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Phổ biến nhất - năm ngoái",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Gần đây nhất",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Tìm kiếm",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Liệt kê các bài đăng blog theo",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Lựa chọn Mặc định sẽ sử dụng blog hiện tại khi được dùng trong mẫu blog hoặc blog chính khi được dùng ở nơi khác.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Chọn blog để hiển thị",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Số bài đăng blog tối đa cần liệt kê",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Bài đăng gần đây",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Tiêu đề danh sách cần hiển thị",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,171 @@
+[
+  {
+    "label": "Video type",
+    "name": "video_type",
+    "type": "choice",
+    "display": "radio",
+    "visibility_rules": "ADVANCED",
+    "advanced_visibility": {
+      "boolean_operator": "OR",
+      "criteria": [
+        {
+          "access": {
+            "operator": "HAS_ALL",
+            "scopes": [ "marketing-video" ]
+          }
+        },
+        {
+          "controlling_field": "video_type",
+          "operator": "EQUAL",
+          "controlling_value_regex": "hubspot_video"
+        }
+      ]
+    },
+    "choices": [
+      [
+        "embed",
+        "Embed"
+      ],
+      [
+        "hubspot_video",
+        "HubSpot video"
+      ]
+    ],
+    "default": "embed"
+  },
+  {
+    "label": "HubSpot video",
+    "name": "hubspot_video",
+    "type": "videoplayer",
+    "visibility": {
+      "controlling_field": "video_type",
+      "controlling_value_regex": "hubspot_video",
+      "operator": "EQUAL"
+    },
+    "show_advanced_options": true
+  },
+  {
+    "label": "Embed",
+    "name": "embed_field",
+    "type": "embed",
+    "supported_source_types": [ "oembed", "html" ],
+    "supported_oembed_types": [ "video" ],
+    "visibility": { "controlling_field": "video_type", "operator": "EQUAL", "controlling_value_regex": "embed" }
+  },
+  {
+    "label": "Custom thumbnail",
+    "name": "oembed_thumbnail",
+    "type": "image",
+    "visibility_rules": "ADVANCED",
+    "advanced_visibility": {
+      "boolean_operator": "AND",
+      "criteria": [
+        {
+          "controlling_field": "video_type",
+          "operator": "EQUAL",
+          "controlling_value_regex": "embed"
+        },
+        {
+          "controlling_field": "embed_field",
+          "operator": "MATCHES_REGEX",
+          "controlling_value_regex": "(?=.*\"source_type\":\"oembed\")"
+        },
+        {
+          "controlling_field": "embed_field",
+          "operator": "MATCHES_REGEX",
+          "controlling_value_regex": "(?=.*\"oembed_url\":\"(?!\")+)"
+        }
+      ]
+    },
+    "responsive": true,
+    "resizable": false
+  },
+  {
+    "label": "Style options",
+    "name": "style_options",
+    "type": "group",
+    "children": [
+      {
+        "label": "Play button color",
+        "name": "oembed_thumbnail_play_button_color",
+        "type": "color",
+        "visibility_rules": "ADVANCED",
+        "advanced_visibility": {
+          "boolean_operator": "OR",
+          "children": [
+            {
+              "boolean_operator": "AND",
+              "criteria": [
+                {
+                  "controlling_field": "video_type",
+                  "operator": "EQUAL",
+                  "controlling_value_regex": "hubspot_video"
+                },
+                {
+                  "controlling_field": "hubspot_video",
+                  "operator": "MATCHES_REGEX",
+                  "controlling_value_regex": "(?=.*\"player_id\":\\d+)"
+                }
+              ]
+            },
+            {
+              "boolean_operator": "AND",
+              "criteria": [
+                {
+                  "controlling_field": "video_type",
+                  "operator": "EQUAL",
+                  "controlling_value_regex": "embed"
+                },
+                {
+                  "controlling_field": "embed_field",
+                  "operator": "MATCHES_REGEX",
+                  "controlling_value_regex": "(?=.*\"source_type\":\"oembed\")"
+                },
+                {
+                  "controlling_field": "embed_field",
+                  "operator": "MATCHES_REGEX",
+                  "controlling_value_regex": "(?=.*\"oembed_url\":\"(?!\")+)"
+                },
+                {
+                  "controlling_field": "oembed_thumbnail",
+                  "operator": "MATCHES_REGEX",
+                  "controlling_value_regex": "(?=.*\"src\":\"(?!\")+)"
+                }
+              ]
+            }
+          ]
+        },
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#ffffff"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Placeholder text",
+    "name": "placeholder_fields",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Video placeholder title",
+        "name": "placeholder_title",
+        "type": "text",
+        "locked": true,
+        "default": "No video selected"
+      },
+      {
+        "label": "Video placeholder description",
+        "name": "placeholder_description",
+        "type": "text",
+        "locked": true,
+        "default": "Select a video type in the sidebar."
+      }
+    ]
+  }
+]

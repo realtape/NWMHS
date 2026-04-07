@@ -1,0 +1,57 @@
+{
+  "name": {
+    "message": "Video",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.label": {
+    "message": "Video type",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.embed": {
+    "message": "Embed",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.hubspot_video": {
+    "message": "HubSpot video",
+    "description": "",
+    "placeholders": null
+  },
+  "hubspot_video.label": {
+    "message": "HubSpot video",
+    "description": "",
+    "placeholders": null
+  },
+  "embed_field.label": {
+    "message": "Embed",
+    "description": "",
+    "placeholders": null
+  },
+  "oembed_thumbnail.label": {
+    "message": "Custom thumbnail",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.label": {
+    "message": "Style options",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.oembed_thumbnail_play_button_color.label": {
+    "message": "Play button colour",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_title.default": {
+    "message": "No video selected",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_description.default": {
+    "message": "Select a video type in the sidebar.",
+    "description": "",
+    "placeholders": null
+  }
+}

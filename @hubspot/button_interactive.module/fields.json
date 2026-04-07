@@ -1,0 +1,399 @@
+[
+  {
+    "label": "Link to",
+    "name": "link_to",
+    "type": "choice",
+    "choices": [
+      [
+        "close",
+        "Close call-to-action"
+      ],
+      [
+        "email_address",
+        "Email address"
+      ],
+      [
+        "file",
+        "File download"
+      ],
+      [
+        "meetings_link",
+        "Meetings link"
+      ],
+      [
+        "page",
+        "One of your pages"
+      ],
+      [
+        "blog",
+        "One of your blog pages"
+      ],
+      [
+        "url",
+        "URL"
+      ],
+      [
+        "cta",
+        "CTA"
+			],
+      [
+        "click_to_copy",
+        "Click to copy"
+      ],
+      [
+        "tel",
+        "Phone number"
+      ]
+    ],
+    "display": "select",
+    "required": true,
+    "sortable": false,
+    "default": "url"
+  },
+  {
+    "label": "Link URL",
+    "name": "destination",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "url",
+      "operator": "EQUAL"
+    },
+    "placeholder": "http://",
+    "required": true,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "validation_error_message": "Invalid external link."
+  },
+  {
+    "label": "Email address",
+    "name": "email_address",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "email_address",
+      "operator": "EQUAL"
+    },
+    "required": true,
+    "sortable": false,
+    "validation_regex": "(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])"
+  },
+  {
+    "label": "Phone number",
+    "name": "tel",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "tel",
+      "operator": "EQUAL"
+    },
+    "required": true,
+    "sortable": false,
+    "validation_regex": "^((?:[-.\\/() ]*)[+](?:[-\\d.\\/() ]*)\\d(?:[-\\d.\\/() ]*))?((?:[-\\d.\\/() ]*)\\d(?:[-\\d.\\/() ]*))([,;](?:[-\\d.\\/() ]*)\\d(?:[-\\d.\\/() ]*))?$"
+  },
+  {
+    "label": "File",
+    "name": "file",
+    "type": "file",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "file",
+      "operator": "EQUAL"
+    },
+    "picker": "file",
+    "required": true,
+    "sortable": false
+  },
+  {
+    "label": "Meetings link",
+    "name": "meeting_field",
+    "type": "meeting",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "meetings_link",
+      "operator": "EQUAL"
+    },
+    "required": true,
+    "sortable": false
+  },
+  {
+    "label": "Page",
+    "name": "page_field",
+    "type": "page",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "page",
+      "operator": "EQUAL"
+    },
+    "required": true,
+    "sortable": false
+  },
+  {
+    "label": "Blog",
+    "name": "blog_field",
+    "type": "blog",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "blog",
+      "operator": "EQUAL"
+    },
+    "required": true,
+    "sortable": false
+  },
+  {
+    "label": "Text to copy",
+    "name": "copy_text",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "click_to_copy",
+      "operator": "EQUAL"
+    },
+    "required": true,
+    "sortable": false
+  },
+  {
+		"default": {
+			"url": {
+				"content_id": null,
+				"href": "",
+				"type": "CALL_TO_ACTION"
+			},
+			"open_in_new_tab": false,
+			"no_follow": false
+		},
+		"display_width": null,
+		"id": "b2603ac3-f025-ce2f-2c6c-627018cc41bc",
+		"label": "CTA",
+		"locked": false,
+		"name": "cta_field",
+		"required": false,
+		"show_advanced_rel_options": false,
+		"supported_types": [
+			"CALL_TO_ACTION"
+		],
+		"type": "link",
+		"visibility": {
+			"controlling_field_path": "link_to",
+			"controlling_value_regex": "cta",
+			"operator": "EQUAL"
+		}
+	},
+  {
+    "label": "Open link in new tab",
+    "name": "open_in_new_tab",
+    "type": "boolean",
+    "visibility": {
+      "controlling_field_path": "link_to",
+      "controlling_value_regex": "^(?!cta\\b|close\\b|click_to_copy\\b)",
+      "operator": "MATCHES_REGEX"
+    },
+    "display": "toggle",
+    "required": true,
+    "default": true
+  },
+  {
+    "label": "Button text",
+    "name": "text",
+    "type": "richtext",
+    "required": true,
+    "sortable": false,
+    "default": "Add a button link here"
+  },
+  {
+    "label": "Styles",
+    "name": "styles",
+    "type": "group",
+    "tab": "STYLE",
+    "children": [
+      {
+        "label": "Text",
+        "name": "text",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "default": {
+              "size": 16,
+              "size_unit": "px",
+              "font": "arial, helvetica, sans-serif",
+              "color": "#FFFFFF"
+            }
+          },
+          {
+            "label": "Text padding",
+            "name": "padding",
+            "type": "spacing",
+            "visibility": {
+              "hidden_subfields": {
+                "margin": true
+              }
+            },
+            "default": {
+              "padding": {
+                "top": {
+                  "value": 12,
+                  "units": "px"
+                },
+                "bottom": {
+                  "value": 12,
+                  "units": "px"
+                },
+                "left": {
+                  "value": 18,
+                  "units": "px"
+                },
+                "right": {
+                  "value": 18,
+                  "units": "px"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "label": "Background",
+        "name": "background",
+        "type": "group",
+        "children": [
+          {
+            "label": "Color",
+            "name": "color",
+            "type": "color",
+            "show_opacity": true,
+            "default": {
+              "opacity": 100,
+              "color": "#197FC4"
+            }
+          },
+          {
+            "label": "Clicked",
+            "name": "clicked",
+            "type": "color",
+            "show_opacity": true
+          }
+        ]
+      },
+      {
+        "label": "Border",
+        "name": "border",
+        "type": "group",
+        "children": [
+          {
+            "label": "Border",
+            "name": "border",
+            "type": "border",
+            "default": {
+              "top": {
+                "width": {
+                  "value": 0,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "right": {
+                "width": {
+                  "value": 0,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "bottom": {
+                "width": {
+                  "value": 0,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "left": {
+                "width": {
+                  "value": 0,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "label": "Corner",
+        "name": "corner",
+        "type": "group",
+        "children": [
+          {
+            "label": "Radius",
+            "name": "radius",
+            "type": "number",
+            "help_text": "Add a rounded corner to your button",
+            "display": "text",
+            "max": 100,
+            "step": 1,
+            "suffix": "px",
+            "default": 8
+          }
+        ]
+      },
+      {
+        "label": "Hover",
+        "name": "hover",
+        "type": "group",
+        "children": [
+          {
+            "label": "Hover Text",
+            "name": "text",
+            "type": "group",
+            "children": [
+              {
+                "label": "Font",
+                "name": "font",
+                "type": "font",
+                "visibility": {
+                  "hidden_subfields": {
+                    "size": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "label": "Hover Background",
+            "name": "background",
+            "type": "group",
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color",
+                "show_opacity": true
+              }
+            ]
+          },
+          {
+            "label": "Hover Border",
+            "name": "border",
+            "type": "group",
+            "children": [
+              {
+                "label": "Border",
+                "name": "border",
+                "type": "border"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

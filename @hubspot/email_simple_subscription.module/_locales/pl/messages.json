@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Cofnij anulowanie subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Tekst przycisku",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Anulowanie subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Anuluj subskrypcję e-maila",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Nagłówek",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Tekst symbolu zastępczego e-maila",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@przykład.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Twój adres e-mail:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Tekst pomocniczy wiadomości e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Komunikat o błędzie",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Wystąpił problem z załadowaniem strony. Spróbuj użyć tego samego łącza z nowszej wiadomości e-mail lub skontaktuj się z firmą, aby zaktualizować swoje preferencje subskrypcji.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Podtytuł",
+    "description": "",
+    "placeholders": null
+  }
+}

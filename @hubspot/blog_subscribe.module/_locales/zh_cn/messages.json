@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "博客电子邮件订阅",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "当在博客模板中使用时，默认将使用当前的博客；而在其他地方使用时，默认将使用主要博客。",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "选择要显示的博客",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "在此订阅！",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "在表单上方显示的标题",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "用户内联响应",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "感谢订阅！",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "如要使博客订阅表单显示，你需要开启博客的订阅功能。此操作可在设置中完成。<a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>了解详情</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "标题级别",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "请选择标题级别。标题应该按照内容的层次结构进行嵌套。<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>更多信息</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

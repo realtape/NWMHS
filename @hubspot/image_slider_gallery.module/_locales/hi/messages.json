@@ -1,0 +1,467 @@
+{
+  "name": {
+    "message": "इमेज स्लाइडर",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "स्लाइड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "इमेज",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "अच्छे परिणामों के लिए, समान आकृति और आकार की इमेज जोड़ें।",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "कैप्शन",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL लिंक",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.label": {
+    "message": "सेटिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.label": {
+    "message": "स्लाईड्स",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.label": {
+    "message": "प्रति पेज स्लाइड्स",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.inline_help_text": {
+    "message": "जब आप प्रति पेज 1 से अधिक स्लाइड दिखाते हैं तो कैप्शन और थंबनेल गायब हो जाते हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.label": {
+    "message": "इमेज साइज़िंग",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.inline_help_text": {
+    "message": "अच्छे परिणामों के लिए, समान एस्पेक्ट रेशियो और आकार वाली इमेज का उपयोग करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.natural": {
+    "message": "अपलोड किया गया एस्पेक्ट रेशियो",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.force_aspect_ratio": {
+    "message": "फोर्स एस्पेक्ट रेशियो",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.label": {
+    "message": "एस्पेक्ट रेशियो",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.label": {
+    "message": "कैप्शन दिखाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.inline_help_text": {
+    "message": "जब <strong>फोर्स एस्पेक्ट रेशियो</strong> का चयन किया जाता है, तो कैप्शन इमेज के उपर आ जाते हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.label": {
+    "message": "कैप्शन पोजीशन",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.below": {
+    "message": "कैप्शन को इमेज के नीचे रखें",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.overlay": {
+    "message": "इमेजेज़ के ऊपर ओवरले कैप्शन",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.label": {
+    "message": "मूवमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.label": {
+    "message": "स्लाइड ट्रांज़िशन्स",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.slide": {
+    "message": "स्लाइड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.fade": {
+    "message": "फेड",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.inline_help_text": {
+    "message": "हो सकता है कि ट्रैन्ज़िशन  एडिटर में दिखाई न दें, लेकिन प्रीव्यू या पब्लिश पेज में मौजूद होंगे।",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.loop_slides.label": {
+    "message": "लूप स्लाइड",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.label": {
+    "message": "ऑटोप्ले",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.inline_help_text": {
+    "message": "ऑटोप्ले को ठीक से काम करने के लिए स्लाइड पर पेज सेटिंग की तुलना में अधिक स्लाइड की आवश्यकता होती है।",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance_speed_seconds.label": {
+    "message": "ऑटो स्क्रॉलिंग के बीच सेकंड में समय",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.label": {
+    "message": "नेवीगेशन",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_main_arrows.label": {
+    "message": "नेविगेशन एरो दिखाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_thumbnails.label": {
+    "message": "थंबनेल दिखाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_dots.label": {
+    "message": "डॉट नेविगेशन दिखाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_caption.default": {
+    "message": "इमेज के लिए एक वैकल्पिक कैप्शन जिसे गैलरी में जोड़ा जाएगा। इस इमेज के लिए कोई डिस्क्रिप्टिव टेक्स्ट दर्ज करें जिसे आप चाहते हैं कि विजिटर्स पढ़ सकें।",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_aria_label.default": {
+    "message": "{{ slide_count }} स्लाइड के साथ इमेज कैरोसल।",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.aria_label_thumbnails.default": {
+    "message": "थंबनेल नेविगेशन सहित",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_nav_aria_label.default": {
+    "message": "कैरोसल थंबनेल नेविगेशन। थंबनेल चुनने से कैरोसल बदल जाएगा।",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.prev.default": {
+    "message": "पहली स्लाइड",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.next.default": {
+    "message": "अगली स्लाइड",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first.default": {
+    "message": "पहली स्लाईड पर जाएँ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideX.default": {
+    "message": "स्लाईड पर जाएँ %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pageX.default": {
+    "message": "पेज पर जाएँ%s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.play.default": {
+    "message": "ऑटोप्ले शुरू करें",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pause.default": {
+    "message": "ऑटोप्ले को पॉज़ करें",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.carousel.default": {
+    "message": "कैरोसल ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.select.default": {
+    "message": "दिखाने के लिए एक स्लाईड चुनें",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slide.default": {
+    "message": "स्लाईड",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideLabel.default": {
+    "message": "%s का%s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "डिफ़ॉल्ट इमेज आल्ट टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "स्टाइल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.label": {
+    "message": "स्लाईड्स",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.label": {
+    "message": "इमेज",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.corner.label": {
+    "message": "कॉर्नर रेडियस",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.label": {
+    "message": "परिणामों के बीच का स्थान",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.inline_help_text": {
+    "message": "जब आपके पास हर पेज पर 1 से अधिक स्लाइड हों, तो अपनी इमेजज़ के बीच के स्पेस को कस्टमाइज़ करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.label": {
+    "message": "कैपशंस",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.label": {
+    "message": "बैकग्राउंड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.background.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.label": {
+    "message": "टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.font.label": {
+    "message": "फ़ॉन्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.label": {
+    "message": "नेवीगेशन",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.label": {
+    "message": "स्लाइडर एरो",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.background_color.label": {
+    "message": "बैकग्राउंड का कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.left_icon.label": {
+    "message": "लेफ्ट आइकान",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.right_icon.label": {
+    "message": "राइट आइकान",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.fill_color.label": {
+    "message": "आइकॉन कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.label": {
+    "message": "डॉट्स और ऑटोप्ले बटन",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.label": {
+    "message": "थमनेल नेवीगेशन",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.arrow_background_color.label": {
+    "message": "एरो बैगराउन्ड कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.left_icon.label": {
+    "message": "एरो लेफ्ट आइकान",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.right_icon.label": {
+    "message": "एरो राइट आइकान",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.fill_color.label": {
+    "message": "एरो आइकान में रंग भरें",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.label": {
+    "message": "थमनेल इमेजज",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.label": {
+    "message": "एस्पेक्ट रेशियो",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.width.label": {
+    "message": "चौड़ाई",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.radius.label": {
+    "message": "रेडियस",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.label": {
+    "message": "स्लाइडर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  }
+}

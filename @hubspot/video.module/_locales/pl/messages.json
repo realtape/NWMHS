@@ -1,0 +1,57 @@
+{
+  "name": {
+    "message": "Wideo",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.label": {
+    "message": "Typ filmu wideo",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.embed": {
+    "message": "Osadź",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.hubspot_video": {
+    "message": "Filmy HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "hubspot_video.label": {
+    "message": "Filmy HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "embed_field.label": {
+    "message": "Osadź",
+    "description": "",
+    "placeholders": null
+  },
+  "oembed_thumbnail.label": {
+    "message": "Niestandardowa miniatura",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.label": {
+    "message": "Opcje stylu",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.oembed_thumbnail_play_button_color.label": {
+    "message": "Kolor przycisku odtwarzania",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_title.default": {
+    "message": "Nie wybrano filmu.",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_description.default": {
+    "message": "Wybierz typ filmu na pasku bocznym",
+    "description": "",
+    "placeholders": null
+  }
+}

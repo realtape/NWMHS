@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Vodoravno",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Navpično",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Vodoravni meniji prikazujejo elemente drug ob drugem, navpični meniji pa od zgoraj navzdol",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Usmerjenost",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Išči",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Elementi podrejenega menija se bodo pojavili, ko premaknete miškin kazalec nad glavni meni. Če tega polja ne potrdite, se bodo vedno pojavili podrejeni elementi menija",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Omogoči pojavni meni?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Drevo menija je struktura strani, ki generira elemente v meniju. Eno drevo menijev je mogoče uporabiti z več meniji. Za strukture zapletenih spletnih mest lahko ustvarite več menijev. Meniji se ustvarjajo in upravljajo v nastavitvah vsebine.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Meni",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Določa število podrejenih elementov drevesa menijev, ki jih je mogoče razširiti v meniju",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Najvišje ravni",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Išči",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Meni",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Meni v slogu orientacijske poti (uporablja vodoravni tok)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinamično po strani - v meniju prikaži strani, ki so povezane s stranjo, ki si jo ogledujete",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statično - v meniju vedno prikaži strani najvišje ravni",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinamično po odsekih - v meniju prikaži strani, ki so povezane z ogledanim razdelkom",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Napredni meniji prikazujejo različne dele drevesa menijev glede na to, katero stran si ogledujete.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Napredna vrsta menija",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Išči",
+    "description": "",
+    "placeholders": null
+  }
+}

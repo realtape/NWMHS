@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Predvoľby odberu",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Text tlačidla Aktualizovať predvoľby",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Aktualizovať predvoľby e-maiov",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Predvoľby komunikácie",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Hlavička",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Podnadpis",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Ak toto nie je vaša e-mailová adresa, ignorujte túto stránku, keďže e-mail prepojený s touto stránkou bol pravdepodobne preposlaný vám.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Áno, znova ma prihlásiť na odber!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Text tlačidla na opätovnú aktiváciu odberu",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Zrušiť odber všetkých štítkov",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Odhláste ma z odberu všetkých zoznamov e-mailov.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Zrušte označenie typov e-mailov, ktoré nechcete dostávať:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Text pomocníka výberu predvoľby",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Alebo začiarknite tu, ak nechcete nikdy dostávať e-maily:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Zrušiť odber všetkých textov pomocníka",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Zrušiť odber všetkých textov pomocníka pre používateľa, ktorý aktuálne nemá aktivované odbery",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Aktuálne nemáte aktívny odber žiadnych našich e-mailov. Chcete naše e-maily znova dostávať?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Text tlačidla pre jeden odber",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Zrušiť odber",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Text potvrdenia jedného odberu",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Chcete sa odhlásiť z odberu e-mailov oo:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Príklad názvu jednorazového predplatného",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "vami zvolený typ predplatného",
+    "description": "",
+    "placeholders": null
+  }
+}

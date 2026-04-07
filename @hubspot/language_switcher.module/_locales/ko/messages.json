@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "언어 전환기",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "하이브리드",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "현지화됨",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "언어 전환기의 텍스트 언어. PageLang은 언어의 이름이 전환기가 열려 있는 페이지의 언어로 표시됨을 의미합니다. 현지화란 각 언어의 이름이 그 언어로 표시됨을 의미합니다. 하이브리드는 PageLang과 현지화의 조합을 의미합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "디스플레이 모드",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  }
+}

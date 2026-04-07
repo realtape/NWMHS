@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Logo mreža",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logotipi",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logotip",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stili",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Slika logotipa",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Največja višina logotipa",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Nastavi največjo višino logotipov. <br><br>Nastavitev največje višine logotipa je najboljša, če želite narediti več logotipov drastično različnih dimenzij vizualno enakih velikosti.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Ozadje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Presečno razmerje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Nastavite razmerje stranic vsebnika z logotipom. Najbolj uporabno, če uporabljate polje z barvo ozadja in logotipe drastično različnih dimenzij.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Barva ozadja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Razmik",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Razmik",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Okoli logotipa nastavite oblazinjenje.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Zaradi odzivne narave spleta je lahko upodobljena višina logotipov manjša od nastavljene vrednosti na podlagi kombinacije velikosti zaslona, izvirne velikosti slike, oblazinjenja logotipa, vrzeli v mreži in števila stolpcev.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Logo mreža",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Število stolpcev mreže",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Na namizju določite število stolpcev v mreži. Privzeta vrednost je 1 v mobilni napravi.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Nastavitev barve ozadja v <strong>Slika logotipa > Ozadje</strong> vam lahko pomaga vizualizirati mrežo logotipa.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Vrzel v mreži",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Nastavite razmik med elementi mreže. <br><br>Nastavitev ozadja v <strong>Slika logotipa > Ozadje</strong> vam lahko pomaga vizualizirati mrežo logotipa.",
+    "description": "",
+    "placeholders": null
+  }
+}

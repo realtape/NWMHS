@@ -1,0 +1,160 @@
+[
+  {
+    "label": "Icon",
+    "name": "icon",
+    "type": "icon",
+    "icon_set": "fontawesome-6.4.2",
+    "required": true,
+    "default": {
+      "name": "arrow-alt-circle-up",
+      "type": "SOLID",
+      "unicode": "f35b"
+    }
+  },
+  {
+    "label": "Accessibility options",
+    "name": "accessibility_options",
+    "type": "group",
+    "children": [
+      {
+        "label": "Purpose",
+        "name": "purpose",
+        "id": "accessibility_options.purpose",
+        "type": "choice",
+        "help_text": "Categorize the purpose of this icon for screen readers. <a href='https://www.w3.org/WAI/tutorials/images/' target='_blank' rel='noopener noreferrer'>Learn More</a>",
+        "choices": [
+          ["decorative", "Decorative - Ignored by screen reader"],
+          ["semantic", "Informative - Read by screen reader"]
+        ],
+        "required": true,
+        "default": "decorative"
+      },
+      {
+        "label": "Description",
+        "name": "title",
+        "type": "text",
+        "help_text": "This text will be read by screen readers to describe the icon.",
+        "visibility": {
+          "controlling_field": "accessibility_options.purpose",
+          "controlling_value_regex": "semantic",
+          "operator": "EQUAL"
+        },
+        "required": true
+      }
+    ]
+  },
+  {
+    "label": "Styles",
+    "name": "styles",
+    "type": "group",
+    "tab": "STYLE",
+    "children": [
+      {
+        "label": "Fill",
+        "name": "fill",
+        "type": "group",
+        "children": [
+          {
+            "label": "Color",
+            "name": "color",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "label": "Size",
+        "name": "size",
+        "type": "group",
+        "children": [
+          {
+            "label": "Size",
+            "name": "size",
+            "type": "number",
+            "display": "text",
+            "max": 100,
+            "min": 1,
+            "step": 1,
+            "suffix": "px"
+          }
+        ]
+      },
+      {
+        "label": "Background",
+        "name": "background",
+        "type": "group",
+        "children": [
+          {
+            "label": "Color",
+            "name": "color",
+            "type": "color"
+          }
+        ]
+      },
+      {
+        "label": "Corner",
+        "name": "corner",
+        "type": "group",
+        "children": [
+          {
+            "label": "Style",
+            "name": "style",
+            "type": "choice",
+            "choices": [
+              ["round", "Round"],
+              ["square", "Square"],
+              ["custom", "Custom"]
+            ],
+            "default": "round",
+            "display": "select",
+            "required": true
+          },
+          {
+            "label": "Radius",
+            "name": "radius",
+            "type": "number",
+            "display": "slider",
+            "max": 100,
+            "step": 1,
+            "suffix": "px",
+            "default": null,
+            "visibility": {
+              "controlling_field": "styles.corner.style",
+              "controlling_value_regex": "custom",
+              "operator": "EQUAL"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Spacing",
+        "name": "spacing",
+        "type": "group",
+        "children": [
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "spacing"
+          }
+        ]
+      },
+      {
+        "label": "Alignment",
+        "name": "alignment",
+        "type": "group",
+        "children": [
+          {
+            "label": "Alignment",
+            "name": "alignment",
+            "type": "alignment",
+            "alignment_direction": "HORIZONTAL"
+          }
+        ]
+      }
+    ]
+  }
+]

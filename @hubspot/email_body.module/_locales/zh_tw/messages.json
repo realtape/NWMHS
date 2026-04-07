@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "主要電子郵件內文",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>{{contact.firstname}} 你好：</p>\n<p>告訴客戶你可以提供什麼產品和服務。為什麼客戶要閱讀？你在主旨提及什麼？內容要吸引讀者，逗他們笑，弄哭他們 (還是不要吧...)</p>\n<p>使用清單達到以下目的：</p>\n<ul>\n<li>解釋你提供的產品和服務價值</li>\n<li>強調讀者採取行動後得到的好處</li>\n<li>利用條列式強調你的技能</li>\n<li>讓內容更容易閱讀</li>\n</ul>\n<p><a href=\"http://hubspot.com\">你的網站登陸頁面的連結</a> (這部分非常重要)</p>\n<p>簡單總結，再次告訴客戶你有多重視他們。</p>\n<p>你真會說話！</p>\n<p>敬啟</p>\n<p>你的名字</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "電子郵件內文",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Backup Unsubscribe",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/email-simple-subscription-module-icon.svg",
+  "extra_classes": "widget-type-email_simple_subscription",
+  "master_language": "en",
+  "content_tags": [
+    { "name": "OTHER_INDUSTRY", "source": "MARKETPLACE" },
+    { "name": "COMPATIBLE_EMAIL", "source": "MARKETPLACE" }
+  ]
+}

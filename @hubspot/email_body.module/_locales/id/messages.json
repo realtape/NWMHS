@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Isi Email Utama",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hai&nbsp;{{contact.firstname}},</p>\n<p>Jelaskan penawaran yang Anda miliki kepada pelanggan. Mengapa mereka harus membaca? Apa yang Anda janjikan di baris subjek? Beri tahu mereka penawaran yang keren. Buat mereka tertawa. Buat mereka menangis. Yah, sebaiknya jangan...</p>\n<p>Gunakan daftar untuk:</p>\n<ul>\n<li>Menjelaskan nilai penawaran Anda</li>\n<li>Mengingatkan pembaca konsekuensi dari tindakan mereka</li>\n<li>Menampilkan keterampilan Anda dengan poin</li>\n<li>Memudahkan pemindaian konten Anda</li>\n</ul>\n<p><a href=\"http://hubspot.com\">TAUTAN KE HALAMAN LANDING DI SITUS ANDA</a> (Ini adalah bagian yang sangat penting.)</p>\n<p>Sekarang bungkus semuanya dengan sedikit pengingat tentang betapa Anda mencintai mereka.</p>\n<p>Oh, Anda memang sangat pandai berkata-kata.</p>\n<p>Hormat saya,</p>\n<p>Nama Anda</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Isi email",
+    "description": "",
+    "placeholders": null
+  }
+}

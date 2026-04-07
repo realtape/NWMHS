@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Mga Resulta ng Paghananap sa Site",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Ipakita ang mga itinatampok na imahe",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Pasensya na. Walang nakitang resulta para sa [[search_term]].</p><p>Subukang baguhin ang iyong query, o mag-browse sa aming site.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Nakaraang pahina",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Susunod na pahina",
+    "description": "",
+    "placeholders": null
+  }
+}

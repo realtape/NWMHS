@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Підзаголовок таблиці позицій",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Регулярні та одноразові платежі, що підлягають сплаті зараз.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Текст підзаголовку",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Цей підзаголовок відображається лише тоді, коли є подальші платежі.",
+    "description": "",
+    "placeholders": null
+  }
+}

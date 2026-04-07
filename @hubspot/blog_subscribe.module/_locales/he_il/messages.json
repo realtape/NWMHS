@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "מינוי דוא\"ל לבלוג",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "אפשרות ברירת המחדל תשתמש בבלוג הנוכחי בעת השימוש בתבנית בלוג, או בבלוג הראשי בשימוש בכל מקום אחר.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "בחר בלוג להצגה",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "הירשם כאן!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "כותרת להצגה מעל טופס",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "תגובה משולבת למשתמשים",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "תודה על ההרשמה למינוי!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "כדי שיופיע טופס לרישום כמנוי על הבלוג, יש להפעיל את המינויים עבור הבלוג שלך. אפשר לעשות זאת בהגדרות. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>למידע נוסף</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "רמת כותרת",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "בחר רמת כותרת. את הכותרות יש לקנן בסדר היררכי, לפי התוכן שלך. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>עוד מידע</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

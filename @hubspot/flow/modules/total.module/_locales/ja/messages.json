@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "合計",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "現在のご請求",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "これは、見積もりに今後の支払いが含まれる場合に見積もりの合計のラベルとして使用されます。",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "現在のご請求のテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "合計",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "合計テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "合計契約額",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "テキストをカスタマイズして、この額を正確に説明してください（期間を設定しない場合の既定値は年間の額になります）。",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "合計契約額のテキスト",
+    "description": "",
+    "placeholders": null
+  }
+}

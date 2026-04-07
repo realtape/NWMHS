@@ -1,0 +1,10 @@
+{% if should_display_line_item_taxes and additional_fees|length == 0 %}
+  <div class="totals__row bordered">
+    <div>{{ module.line_item_taxes_title|sanitize_html }}</div>
+    <div>
+      <span class="currency__content">
+        {{ totals.tax_total|format_currency_value(locale=locale, currency=currency)|sanitize_html }}
+      </span>
+    </div>
+  </div>
+{% endif %}

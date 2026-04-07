@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Divider",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Alignment",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Centre",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Left",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Right",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Colour",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Height",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Line type",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Dashed",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Dotted",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Solid",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Padding",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Max of 20 pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Show padding?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Width",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Percentage of the area the divider is placed into.",
+    "description": "",
+    "placeholders": null
+  }
+}

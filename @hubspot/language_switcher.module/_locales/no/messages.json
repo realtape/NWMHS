@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Språkveksler",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybrid",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Lokalisert",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Språket til teksten i språkveksleren. PageLang betyr at navnet på språkene vises i språket til siden som veksleren er på. Lokalisert betyr at navnet på hvert språk vises på det språket. Hybrid er en kombinasjon av disse to.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Visningsmodus",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Søk",
+    "description": "",
+    "placeholders": null
+  }
+}

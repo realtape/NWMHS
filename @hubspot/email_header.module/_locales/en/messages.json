@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Header",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "A clear and bold heading",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Choose a heading level. H1 is the largest, followed by H2, and so on",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Select a heading type",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Heading level",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Heading content",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Hide header level controls",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Hiding the header level controls will prevent the header level from being changed in the content tools",
+    "description": "",
+    "placeholders": null
+  }
+}

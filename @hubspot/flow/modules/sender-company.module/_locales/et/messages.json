@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Saatja ettevõte",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_image.inline_help_text": {
+    "message": "Kui valite pildi, kuvatakse seda teie ettevõtte logona",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_image.label": {
+    "message": "Saatja ettevõtte pilt",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_address.label": {
+    "message": "Saatja ettevõtte aadress",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_address.default": {
+    "message": "<span style='font-weight: bold;'>{{ personalization_token('template_data.quote.hs_sender_company_name', '') }}</span><br>{{ personalization_token('template_data.quote.hs_sender_company_address', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_address2', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_city', '')}}, {{ personalization_token('template_data.quote.hs_sender_company_state', '')}} {{ personalization_token('template_data.quote.hs_sender_company_zip', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_country', '') }}<br>",
+    "description": "",
+    "placeholders": null
+  }
+}

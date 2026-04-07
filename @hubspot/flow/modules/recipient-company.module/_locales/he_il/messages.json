@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "חברת הנמען",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.default": {
+    "message": "מוכנים לקראת",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.label": {
+    "message": "טקסט חברת נמען",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_address.label": {
+    "message": "כתובת ראשית של חברת הנמען",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_city_state_zip.label": {
+    "message": "עיר, מדינה ומיקוד של החברה המקבלת",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_country.label": {
+    "message": "מ",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_name.label": {
+    "message": "שם ההחברה המקבלת",
+    "description": "",
+    "placeholders": null
+  }
+}

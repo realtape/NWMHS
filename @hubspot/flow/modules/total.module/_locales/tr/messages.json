@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Toplam",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Vadesi şimdi",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Bu, teklifin gelecek ödemeleri olduğunda, teklif toplamını etiketlemek için kullanılır.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Vadesi şimdi metni",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Toplam",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Toplam metni",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Toplam sözleşme değeri",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Bu değeri doğru şekilde açıklamak için metni özelleştirin. (Hiçbir şart ayarlanmamışsa varsayılan değer yıllık bir değerdir.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Toplam sözleşme değeri metni",
+    "description": "",
+    "placeholders": null
+  }
+}

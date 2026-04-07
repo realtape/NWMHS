@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Sprachauswahl",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybrid",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localized",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Die Sprache des Texts in der Sprachauswahl. „PageLang“ bedeutet, dass die Namen der Sprachen in der Sprache der Seite angezeigt werden, auf der sich die Sprachauswahl befindet. „Localized“ bedeutet, dass die Namen jeder Sprache in ihrer eigenen Sprache angezeigt werden. „Hybrid“ ist eine Kombination aus beidem.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Anzeigemodus",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Suchen",
+    "description": "",
+    "placeholders": null
+  }
+}

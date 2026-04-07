@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Gönderi listesi",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "En popüler - son altı ay",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "En popüler - tüm zamanlar",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "En popüler - geçen ay",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "En popüler - geçen yıl",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "En yeni",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Blog gönderilerini şuna göre listele:",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Varsayılan bir blog şablonunda kullanıldığında mevcut blogu veya başka bir yerde kullanıldığında birincil blogu kullanır.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Görüntülenecek blogu seçin",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Listelenecek maksimum blog gönderisi",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Yakın zamanda yayınlananlar",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Görüntülenecek liste başlığı",
+    "description": "",
+    "placeholders": null
+  }
+}

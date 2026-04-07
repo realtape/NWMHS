@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Jakoelementti",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Kohdistus",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Keskus",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Vasen",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Oikea",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Väri",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Korkeus",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Rivityyppi",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Katkoviiva",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Pisteviiva",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Yhtenäinen",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Täyttö",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maksimi 20 pikseliä",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Näytetäänkö täyttö?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Leveys",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Sen alueen prosentuaalinen osuus, johon jakoelementti asetetaan.",
+    "description": "",
+    "placeholders": null
+  }
+}

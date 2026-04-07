@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "수수료",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "{{ fee_amount }}% 할인",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "{{ fee_amount }}% 수수료",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "{{ fee_amount }}% 세금",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "기타 요금",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "أفقي",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "رأسي",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "تعرض القوائم الأفقية العناصر جنبًا إلى جنب، والقوائم الرأسية من أعلى إلى أسفل",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "الاتجاه",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "بحث",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "ستظهر عناصر القائمة الفرعية عند التمرير فوق العنصر الرئيسي. إذا لم يتم تحديده، فستظهر عناصر القائمة الفرعية دائمًا",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "تمكين القوائم المنبثقة؟",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "تُعد شجرة القائمة بنية الصفحة التي تولد العناصر في القائمة. ويمكن استخدام شجرة قائمة واحدة مع قوائم متعددة. كما يمكنك إنشاء قوائم متعددة لهياكل مواقع الويب المعقدة. يتم إنشاء القوائم وإدارتها في \"إعدادات المحتوى\" الخاصة بك",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "القائمة",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "يحدد عدد العناصر الفرعية لشجرة القائمة التي يمكن توسيعها في القائمة",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "المستويات القصوى",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "بحث",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "القائمة",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "قائمة مسار نمط مسار التنقل المتقدم (تستخدم التدفق الأفقي)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "الصفحة الديناميكية - إظهار الصفحات في القائمة المتعلقة بالصفحة التي يتم عرضها",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "ثابتة - عرض الصفحات ذات المستوى الأعلى في القائمة دائمًا",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "القسم الديناميكي - إظهار الصفحات في القائمة المتعلقة بالقسم الذي يتم عرضه",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "تعرض القوائم المتقدمة أجزاءً مختلفة من شجرة القوائم بناءً على الصفحة التي يتم عرضها.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "نوع القائمة المتقدمة",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "بحث",
+    "description": "",
+    "placeholders": null
+  }
+}

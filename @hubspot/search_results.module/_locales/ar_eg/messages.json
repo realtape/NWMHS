@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "نتائج البحث في الموقع",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "عرض الصور المميزة",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>معذرة. لا توجد نتائج لـ [[search_term]].</p><p>حاول إعادة صياغة استعلامك، أو تصفح موقعنا.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "الصفحة السابقة",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "الصفحة التالية",
+    "description": "",
+    "placeholders": null
+  }
+}

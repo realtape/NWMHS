@@ -1,0 +1,20 @@
+.testimonial__container {
+  display: flex;
+  padding-top: 25px;
+}
+
+.testimonial__content__text,
+.testimonial__content__author,
+.testimonial_content__company {
+  display: inline-block;
+  width: 100%;
+}
+
+.hs-quotes .testimonial__container img {
+  height: 200px;
+  max-height: 200px;
+  max-width: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 200px;
+}

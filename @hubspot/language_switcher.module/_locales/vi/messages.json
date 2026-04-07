@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Trình chuyển đổi ngôn ngữ",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hỗn hợp",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Được bản địa hóa",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "Ngôn ngữ trang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Ngôn ngữ của văn bản trong trình chuyển đổi ngôn ngữ. Ngôn ngữ trang có nghĩa là tên của các ngôn ngữ sẽ hiển thị bằng ngôn ngữ của trang chứa trình chuyển đổi. Bản địa hóa có nghĩa là tên của mỗi ngôn ngữ sẽ hiển thị bằng chính ngôn ngữ đó. Hỗn hợp là sự kết hợp của cả hai.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Chế độ hiển thị",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Tìm kiếm",
+    "description": "",
+    "placeholders": null
+  }
+}

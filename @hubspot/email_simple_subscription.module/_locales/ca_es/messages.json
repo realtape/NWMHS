@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Cancel·lació de la subscripció a la còpia de seguretat",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Text del botó",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Cancel·la la subscripció",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Cancel·lació de la subscripció al correu electrònic",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Títol",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Text del contenidor d'entrada de correu electrònic",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "correu@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "La teva adreça electrònica:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Text d'ajuda d'entrada de correu electrònic",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Missatge d'error",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Hi ha hagut un problema en carregar la pàgina. Prova d'utilitzar el mateix enllaç des d'un correu electrònic més recent o contacta amb l'empresa per actualitzar les preferències de subscripció.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Subtítol",
+    "description": "",
+    "placeholders": null
+  }
+}

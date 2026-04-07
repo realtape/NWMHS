@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "이 견적은 만료되었습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "견적 {{ personalization_token('quote.hs_quote_number', '') }}은(는) {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}에 만료되었습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "자세한 내용을 확인하려면 <a href='#'>영업 담당자에게 문의</a>하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "청구 빈도",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "단가",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "가격",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "제품 및 서비스",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "수량",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "요약<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "사용 약관",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "메모",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "프로젝트<br>수락",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "부제목",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "우리의<br> 이야기",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "하는 일에<br>열정을 갖고 있는 우리",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "클라이언트가<br>우리에 대해 하는 말",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "프로젝트<br>요약",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "우리의 목표",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "작업<br>설명서",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "프로젝트<br>추정치",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>계약",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "준비됨",
+    "description": "",
+    "placeholders": null
+  }
+}

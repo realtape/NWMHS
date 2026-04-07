@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horitzontal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertical",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Els menús horitzontals mostren els elements en paral·lel i els menús verticals els mostren de dalt a baix",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientació",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Els elements secundaris del menú apareixeran quan et desplacis per sobre del principal. Si l'opció està desactivada, els elements secundaris del menú apareixeran sempre.",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Vols habilitar els desplegables?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "L'arbre de menú és l'estructura de pàgines que genera els elements del menú. Un sol arbre de menú es pot utilitzar amb diversos menús. Pots crear diversos menús per a estructures de lloc web complexes. Els menús es creen i es gestionen a Configuració del contingut.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menú",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Determina el nombre d'elements secundaris de l'arbre de menú que es poden expandir al menú",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Nivells màxims",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menú",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Menú del camí de l'estil de la ruta de navegació (utilitza flux horitzontal)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinàmic per pàgina: mostra les pàgines del menú que estan relacionades amb la pàgina que s'està visualitzant",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Estàtic: mostra sempre les pàgines de nivell superior del menú",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinàmic per secció: mostra les pàgines del menú que estan relacionades amb la secció que s'està visualitzant",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Els menús avançats mostren diferents parts d'un arbre de menú en funció de la pàgina que s'està visualitzant.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Tipus de menú avançat",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  }
+}

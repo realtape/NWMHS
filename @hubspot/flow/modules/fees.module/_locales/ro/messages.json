@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Taxe",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "{{ fee_amount }}% reducere",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "Comision {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "Taxă {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "Alte taxe",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Cancelación de suscripción con copia de seguridad",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto del botón",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Darme de baja",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Cancelar suscripción al correo",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Encabezado",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Texto del parámetro de sustitución de entrada de correo",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "correo@ejemplo.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Tu dirección de correo:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Texto de ayuda de entrada de correo",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Mensaje de error",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Ha habido un problema al cargar la página. Intenta utilizar el mismo enlace desde un correo más reciente o contacta con la empresa para actualizar tus preferencias de suscripción.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Subtítulo",
+    "description": "",
+    "placeholders": null
+  }
+}

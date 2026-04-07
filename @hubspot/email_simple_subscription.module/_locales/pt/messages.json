@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Cancelar assinatura de backup",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Cancelar assinatura",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Cancelar assinatura de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Texto do espaço reservado para entrada de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@exemplo.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Seu endereço de e-mail:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Texto de ajuda para entrada de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Mensagem de erro",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Ocorreu um problema ao carregar a página. Tente usar o mesmo link de um e-mail mais recente ou entre em contato com a empresa para atualizar suas preferências de assinatura.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Subtítulo",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": {
+    "message": "مقطع فيديو",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.label": {
+    "message": "نوع مقطع الفيديو",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.embed": {
+    "message": "تضمين",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.hubspot_video": {
+    "message": "مقطع فيديو HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "hubspot_video.label": {
+    "message": "مقطع فيديو HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "embed_field.label": {
+    "message": "تضمين",
+    "description": "",
+    "placeholders": null
+  },
+  "oembed_thumbnail.label": {
+    "message": "صورة مصغّرة مخصصة",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.label": {
+    "message": "خيارات النمط",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.oembed_thumbnail_play_button_color.label": {
+    "message": "لون زر التشغيل",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_title.default": {
+    "message": "لم يتم تحديد مقطع فيديو",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_description.default": {
+    "message": "قم بتحديد نوع مقطع الفيديو في الشريط الجانبي.",
+    "description": "",
+    "placeholders": null
+  }
+}

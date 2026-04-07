@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Имейл адрес",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Телефонен номер",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Изтегляне на файл",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Връзка към срещи",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Една от вашите страници",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL адрес",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Връзка към",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Връзка към срещи",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Отваряне на връзката в нов раздел",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Страница",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Вграден HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Съдържание на бутон",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML, който ще бъде визуализиран в бутона. Можете да използвате само етикети, които са валидни в <a> етикет.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Щракнете тук",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Отваряне на връзката в нов раздел",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Разширен",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Персонализирани CSS правила",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Селектор",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Тази стойност се комбинира със селектора на CTA. Например ':hover' става ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Стил",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Добавете персонализиран CSS за правилото за стила ви. Например: border-bottom: 3px solid #3e4d68; цвят: жълт;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Персонализирани CSS класове",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Добавете персонализирани CSS класове към връзката CTA.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Персонализирани CSS файлове за оформление",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Добавете персонализиран CSS стилов набор към Вашия CTA. Например: border-bottom: 3px solid #3e4d68; цвят: жълт;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Използване на наследена маркировка",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Обвиване на HTML в наследенa маркировкa за поддръжка на съществуващите CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

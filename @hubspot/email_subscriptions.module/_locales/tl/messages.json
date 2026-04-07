@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Mga Kagustuhan sa Subscription",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Button text para i-update ang mga kagustuhan",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "I-update ang mga kagustuhan sa email",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Mga Kagustuhan sa Pakikipag-ugnayan",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Header",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Subheader",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Kung hindi mo email address ito, huwag pansinin ang page na ito dahil ang email na nauugnay sa page na ito ay malamang na ipinasa sa iyo.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Oo, muling i-subscribe ako!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Button text para muling mag-subscribe",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Mag-unsubscribe sa lahat ng label",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "I-unsubscribe ako mula sa lahat ng listahan ng mail.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Alisan ng tsek ang mga uri ng email na hindi mo gustong matanggap:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Help text para pagpipilian ng kagustuhan",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "O maglagay ng tsek dito para hindi kailanman makatanggap ng anumang email:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Mag-unsubscribe sa lahat ng help text",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "I-unsubscribe ang lahat ng help text para sa kasalukuyang naka-unsubscribe na user",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Kasalukuyan kang naka-unsubscribe sa lahat ng aming email. Gusto mo bang makatanggap muli ng mga email namin?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Button text ng single subscription",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Mag-unsubscribe",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Text ng kumpirmasyon ng single subscription",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Gusto mo bang mag-unsubscribe sa mga email na tungkol sa:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Halimbawang pangalan ng single subscription",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "pinili mong uri ng subscription",
+    "description": "",
+    "placeholders": null
+  }
+}

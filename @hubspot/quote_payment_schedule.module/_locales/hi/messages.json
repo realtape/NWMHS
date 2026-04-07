@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "भुगतान का शेड्यूल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.scheduled_payments.default": {
+    "message": "शिड्यूल्ड पेमेंट्स",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.default": {
+    "message": "राशि",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.label": {
+    "message": "राशि",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.default": {
+    "message": "बकाया",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.label": {
+    "message": "बकाया",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.label": {
+    "message": "पेमेंट शिड्यूल्ड कॉलम्स",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.default": {
+    "message": "नाम",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.label": {
+    "message": "नाम",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.default": {
+    "message": "<h2>पेमेंट शिड्यूल्ड</h2>",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.label": {
+    "message": "शिड्यूल्ड पेमेंट हेडिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.due_now.default": {
+    "message": "अभी देय है",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.paid.default": {
+    "message": "भुगतान किया गया",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.processing.default": {
+    "message": "भुगतान प्रोसेस हो रहा है",
+    "description": "",
+    "placeholders": null
+  }
+}

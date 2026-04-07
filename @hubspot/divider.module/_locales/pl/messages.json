@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Separator",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Wyrównanie",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Środek",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Po lewej",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Po prawej",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Wysokość",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Typ linii",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Kreskowane",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Kropkowane",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Jednolite",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Odstęp",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maks. 20 pikseli",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Pokazać padding?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Szerokość",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Procentowy udział obszaru, na którym umieszczony jest znak podziału.",
+    "description": "",
+    "placeholders": null
+  }
+}

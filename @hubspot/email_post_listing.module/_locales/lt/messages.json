@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Įrašų sąrašas",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Populiariausi – pastarųjų šešių mėnesių",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Populiariausi – viso laiko",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Populiariausi – pastarojo mėnesio",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Populiariausi – pastarųjų metų",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Naujausi",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Paieška",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Tinklaraščio sąrašus teikti pagal",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Taikant numatytąsias nuostatas, naudojant tinklaraščio šablone bus taikomas esamas tinklaraštis, o naudojant kitur – pirminis tinklaraštis.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Pasirinkite rodytiną tinklaraštį",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Didžiausias sąraše pateikiamas tinklaraščių įrašų skaičius",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Naujausi įrašai",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Rodytinas sąrašo pavadinimas",
+    "description": "",
+    "placeholders": null
+  }
+}

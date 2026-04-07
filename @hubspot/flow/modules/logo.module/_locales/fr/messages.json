@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Hauteur maximale du logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Cela ne s'applique pas en cas de remplacement du logo par défaut",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Vous pouvez choisir de remplacer le logo appliqué sur ce modèle en utilisant ce bouton.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Remplacer le logo par défaut",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Par défaut, vos devis afficheront le logo de votre entreprise via votre Kit de marque dans les paramètres par défaut du compte ou des pages du site web.",
+    "description": "",
+    "placeholders": null
+  }
+}

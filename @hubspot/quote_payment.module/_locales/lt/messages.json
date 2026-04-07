@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Apmokėti dabar",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Apmokėjimo mygtuko tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Pasirūpinkite, kad būtų aišku, jog šio mygtuko spustelėjimas leis klientui sumokėti. ",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Inicijuojant pirkimą iškilo problema. Susisiekite su asmeniu, atsiuntusiu šį pasiūlymą.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Pirkimo klaidos pranešimas",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Nurodykite klientui, ką daryti, jei pradėjus atsiskaitymą iškiltų problema.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "1 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "2 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "3 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "4 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "5 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "6 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Pasirinkite antraštės lygį. 1 antraštės lygis yra aukščiausias, paskui eina 2 antraštė ir t. t.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Antraštės lygis",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Mokėjimas",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Antraštės turinys",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Atlikti pirmąjį mokėjimą:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Jūsų klientas matys šį užrašą ant mokėjimo mygtuko, kol nesumokės pirmosios įmokos.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Mokėjimų grafiko mygtuko tekstas ",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Mokėjimas",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Mokėjimas negalimas, nes pasiūlymas nėra visiškai pasirašytas.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Paaiškinimo tekstas, kai reikalingi parašai",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Jei prieš mokėjimą reikia pasirašyti, jūsų klientas matys šį pranešimą tol, kol nebus gauti visi reikalingi parašai.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Sumokėta",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Mokamas tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Apmokėta [[ paid_time ]] [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Apdorojamas mokėjimas",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Mokėjimo apdorojimo tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Įkeliant apmokėjimo būseną įvyko klaida. Pabandykite atnaujinti puslapį. ",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Mokėjimo būsenos klaidos pranešimas",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Jei apmokėjimo būsenos įkelti nepavyko, nurodykite klientui atnaujinti puslapį.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Ši sąmata bandomoji, todėl negali rinkti tikrų mokėjimų.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Galite nuspręsti, ar norite prašyti mokėjimo, kai kuriate pasiūlymą naudodami šį šabloną.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Jei norite atsiskaityti, susisiekite su asmeniu, atsiuntusiu šį pasiūlymą.",
+    "description": "",
+    "placeholders": null
+  }
+}

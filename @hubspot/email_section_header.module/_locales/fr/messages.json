@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "En-tête de section",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Un sous-titre plus sobre",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Sous-titre de section",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Un en-tête clair et en gras",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Contenu de l'en-tête de section",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "En-tête 5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "En-tête 6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Sélectionnez un niveau d'en-tête. L'en-tête 1 est le plus grand, suivi de l'en-tête 2, et ainsi de suite",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Niveau d'en-tête",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Bildergalerien",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Bildunterschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Folie",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Link in neuem Tab öffnen",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Bildunterschrift anzeigen",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Link-URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Bild",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Variable Höhe",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Feste Höhe",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Suchen",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Variable Höhe",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Navigations-Buttons anzeigen",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Thumbnail-Navigation",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standard-Schieberegler",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox-Galerie",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Suchen",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Anzeigemodus",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Loop-Folien",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Suchen",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Überlagernde Bildunterschriften werden auf die Bilder gelegt.",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Bildunterschriften sollten sich immer unter dem Bild befinden.",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Position der Bildunterschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Zeit in Sekunden zwischen automatischem Scrollen",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Ausblenden",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Folie",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Suche",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Folienübergänge",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Zeilen für die Lightbox-Galerie",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Automatischer Fortschritt",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Dieses Modul wurde zugunsten von zwei neuen und verbesserten Modulen (Bild-Schieberegler und Bildraster) eingestellt. <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Mehr erfahren.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

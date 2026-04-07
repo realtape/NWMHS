@@ -1,0 +1,38 @@
+{
+  "label": "Logo",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/edited-logo.svg",
+  "extra_classes": "widget-type-logo",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "placeholder": {
+    "show_module_icon": true,
+    "title": "No logo",
+    "description": "Click to add a logo"
+  },
+  "categories": [
+    "media"
+  ],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "content_types": [
+    "LANDING_PAGE",
+    "SITE_PAGE",
+    "BLOG_POST",
+    "BLOG_LISTING",
+    "QUOTE_TEMPLATE",
+    "SUBSCRIPTION",
+    "MEMBERSHIP",
+    "KNOWLEDGE_BASE",
+    "CUSTOMER_PORTAL",
+    "CASE_STUDY"
+  ]
+}

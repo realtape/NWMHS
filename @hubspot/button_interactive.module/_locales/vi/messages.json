@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Nút (tương tác)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL liên kết",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Địa chỉ email",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Tệp",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Đóng kêu gọi hành động",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Địa chỉ email",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Số điện thoại",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Tải xuống tệp",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Liên kết cuộc họp",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Một trong các trang của bạn",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Một trong các trang blog của bạn",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Liên kết đến",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Liên kết cuộc họp",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Mở liên kết trong tab mới",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Trang",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Đã nhấp",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Góc",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Thêm một góc tròn vào nút của bạn",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Bán kính",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Nền di chuột",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Viền di chuột",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Di chuột",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Văn bản di chuột",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Kiểu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Khoảng đệm văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Thêm liên kết nút ở đây",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Văn bản trên nút",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Išvalyta ir paryškinta antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Antraštės turinys",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Pasirinkite antraštės lygį. 1 antraštės lygis yra aukščiausias, paskui eina 2 antraštė ir t. t.",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "1 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "2 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "3 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "4 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "5 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "6 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Pasirinkti antraštės tipą",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Antraštės lygis",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Slėpti antraštės lygio valdiklius",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Paslėpus antraštės lygio valdiklius, turinio įrankių srityje keisti antraštės lygio nebus galima",
+    "description": "",
+    "placeholders": null
+  }
+}

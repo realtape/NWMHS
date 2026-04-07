@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "E-posta adresi",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefon numarası",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Dosya indir",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Toplantı bağlantısı",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Sayfalarınızdan biri",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Şuna bağla:",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Toplantı bağlantısı",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Bağlantıyı yeni sekmede aç",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Sayfa",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Satır içi HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Düğme içeriği",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "Düğme içerisinde oluşturulacak HTML. Yalnızca bir <a>etiket içinde geçerli olan etiketleri kullanabilirsiniz.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Buraya tıklayın",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Bağlantıyı yeni sekmede aç",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Gelişmiş",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Özel CSS Kuralları",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Seçici",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Bu değer CTA'nın seçicisiyle birleştirilir. Örneğin  ':hover'  ${ctaSelector}:hover'a dönüşür",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Stil kuralınıza, özel CSS ekleyin. Örneğin: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Özel CSS Sınıfları",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "CTA bağlantınıza özel CSS sınıfları ekleyin.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Özel CSS Stil sayfası",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "CTA'nıza özel bir CSS stil sayfası ekleyin. Örneğin: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Eski İşaretlemeyi Kullan",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Var olan CSS'yi desteklemek için HTML'yi eski işaretlemeye sarın",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "label": "Post Filter",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "content_types": ["LANDING_PAGE", "SITE_PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/edited-blog-1.svg",
+  "extra_classes": "widget-type-post_filter",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": [
+    "blog"
+  ],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "editable_contexts": [
+    "TEMPLATE"
+  ]
+}

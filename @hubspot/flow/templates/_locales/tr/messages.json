@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Bu teklifin süresi doldu",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "{{ personalization_token('quote.hs_quote_number', '') }} Numaralı teklifin süresi {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }} tarihinde doldu.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Daha fazla ayrıntı için lütfen <a href='#'>satış temsilciniz ile iletişime geçin</a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Faturalama Sıklığı",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Birim fiyat",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Fiyat",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Ürün ve Hizmetler",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Miktar",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "İdari<br>Özet",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Şartlar ve Koşullar",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Yorumlar",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Proje<br> Kabulü",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Alt başlık",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Hikayemiz<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Yaptığımız işe tutkuyla<br> bağlıyız",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Müşterilerimizin<br> bizim hakkımızda söyledikleri",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Proje<br>Özeti",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Hedeflerimiz",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Çalışma<br>beyanı",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Proje <br>tahmini",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "Sözleşme<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "İçin hazırlandı",
+    "description": "",
+    "placeholders": null
+  }
+}

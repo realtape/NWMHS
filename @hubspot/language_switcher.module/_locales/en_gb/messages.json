@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Language Switcher",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybrid",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localised",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "The language of the text in the language switcher. PageLang means the names of languages will display in the language of the page the switcher is on. Localised means the name of each language will display in that language. Hybrid is a combination of the two.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Display mode",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  }
+}

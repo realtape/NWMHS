@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "密碼提示",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "密碼預留位置",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "密碼",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "密碼錯誤訊息",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "抱歉，請再試一次。",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "提交",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "提交按鈕文字",
+    "description": "",
+    "placeholders": null
+  }
+}

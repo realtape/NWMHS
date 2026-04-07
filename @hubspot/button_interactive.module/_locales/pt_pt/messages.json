@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Botão (interativo)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL de ligação",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Endereço de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Ficheiro",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Fechar Chamada para ação",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Endereço de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Número de telefone",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Transferir ficheiro",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Ligação para reuniões",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Uma das suas páginas",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Uma das suas páginas do blog",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Ligação para",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Ligação para reuniões",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Abrir a ligação num novo separador",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Página",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Clicado",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Limite",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Limite",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Canto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Adicionar um canto arredondado ao botão",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Raio",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Sobreposição do cursor no fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Limite",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Limite de sobreposição do cursor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Pairar",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Tipo de letra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Texto de sobreposição do cursor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estilos",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Tipo de letra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Texto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Enchimento de texto",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Adicionar uma ligação de botão aqui",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Texto do botão",
+    "description": "",
+    "placeholders": null
+  }
+}

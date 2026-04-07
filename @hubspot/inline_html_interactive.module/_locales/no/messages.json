@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "E-postadresse",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonnummer",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Filnedlasting",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Møtekobling",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "En av sidene dine",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Kobling til",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Møtekobling",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Åpne kopling i ny fane",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Side",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Inline HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Knappinnhold",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML som vil bli gjengitt i knappen. Du kan bare bruke koder som er gyldige innenfor en <a>-fane",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Klikk her",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Åpne kopling i ny fane",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Avansert",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Egendefinert CSS-regler",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Velger",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Denne verdien er kombinert med velgeren for CTA-en. For eksempel blir ':hover' ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Legg til egendefinert CSS for stilregelen din. For eksempel: nedre kantlinje: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Egendefinerte CSS-klasser",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Legg til egendefinerte CSS-klasser i din CTA-lenke.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Egendefinert CSS-stilark",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Legg til et egendefinert CSS-stilark i din CTA. For eksempel: nedre kantlinje: 3px solid #3e4d68; farge: gul;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Bruk eldre merking",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Pakk HTML inn i eldre merking for å støtte eksisterende CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

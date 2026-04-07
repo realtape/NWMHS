@@ -1,0 +1,60 @@
+[
+  {
+    "label": "Testimonial",
+    "name": "testimonial",
+    "type": "group",
+    "default": { "resource_unit_title": "Testimonial" },
+    "occurrence": {
+      "min": 0,
+      "max": 6
+    },
+    "expanded": true,
+    "children": [
+      {
+        "label": "Testimonial image",
+        "name": "testimonial_image",
+        "type": "image",
+        "default": {
+          "src": "https://7303166.fs1.hubspotusercontent-na1.net/hubfs/7303166/Flow/testimonial-author-avatar.jpg",
+          "alt": null
+        }
+      },
+      {
+        "label": "Testimonial text",
+        "name": "testimonial_text",
+        "type": "richtext",
+        "default": "&#8220;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus pellentesque justo, eget viverra turpis blandit eget. Maecenas eu leo at nulla convallis viverra. Fusce sit amet erat in massa convallis venenatis.&#8221;",
+        "enabled_features": [
+          "colors",
+          "fonts",
+          "standard_emphasis",
+          "personalize"
+        ]
+      },
+      {
+        "label": "Testimonial author",
+        "name": "testimonial_author",
+        "type": "richtext",
+        "default": "JENNIFER ROBBINS",
+        "enabled_features": [
+          "colors",
+          "fonts",
+          "standard_emphasis",
+          "personalize"
+        ]
+      },
+      {
+        "label": "Testimonial author company",
+        "name": "testimonial_author_company",
+        "type": "richtext",
+        "default": "Company name",
+        "enabled_features": [
+          "colors",
+          "fonts",
+          "standard_emphasis",
+          "personalize"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Скасувати підписку на резервне копіювання",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Текст кнопки",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Скасувати підписку",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Скасувати підписку на електронні повідомлення",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Заголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Текст заповнювача електронної пошти ",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Ваша адреса електронної пошти:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Текст довідки електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Повідомлення про помилку",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Виникла проблема із завантаженням сторінки. Спробуйте використати те саме посилання з останнього повідомлення або зверніться до компанії для оновлення налаштувань передплати.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Підзаголовок",
+    "description": "",
+    "placeholders": null
+  }
+}

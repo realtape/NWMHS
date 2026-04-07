@@ -1,0 +1,27 @@
+{
+  "label": "Post Filter",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "../img/icon/email-post-filter.svg",
+  "extra_classes": "widget-type-post_filter",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "is_available_for_new_content": false,
+  "categories": [
+    "blog"
+  ],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "editable_contexts": [
+    "TEMPLATE"
+  ]
+}

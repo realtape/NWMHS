@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Skyriklis",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Lygiuotė",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Vidurys",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Kairėje",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Dešinėje",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Aukštis",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Linijos tipas",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Brūkšninė",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Taškinė",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Ištisinė",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Užpildymas",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Daugiausia 20 pikselių",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Rodyti užpildymą?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Plotis",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Srities, kurioje yra skyriklis, procentinė dalis",
+    "description": "",
+    "placeholders": null
+  }
+}

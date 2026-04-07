@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Listare postare",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Cele mai populare - ultimele șase luni",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Cele mai populare - dintotdeauna",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Cele mai populare - ultima lună",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Cele mai populare - anul trecut",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Cele mai recente",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Căutare",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Listare postări blog în funcție de",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "În modul implicit, va fi folosit blogul curent atunci când este utilizat într-un șablon sau blogul principal atunci când este utilizat în alt mod.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selectați blogul de afișat",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Număr maxim de postări pe blog de listat",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Postări recente",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Titlu listă de afișat",
+    "description": "",
+    "placeholders": null
+  }
+}

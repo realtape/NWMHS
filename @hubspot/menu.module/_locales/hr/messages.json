@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Vodoravno",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Okomito",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Vodoravni izbornici prikazuju stavke jednu uz drugu, a okomiti izbornici od gore prema dolje",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orijentacija",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Traži",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Podređene stavke izbornika prikazat će se kada mišem pređete preko nadređene stavke. Ako nije označeno, podređene stavke izbornika uvijek će se prikazivati",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Omogućiti potpalete?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Stablo izbornika je struktura stranice koja generira stavke u izborniku. Jedno stablo izbornika može se upotrebljavati s više izbornika. Možete stvoriti više izbornika za složene strukture web-mjesta. Izbornici se stvaraju i njima se upravlja u vašim postavkama sadržaja",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Izbornik",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Određuje broj podređenih stavki stabla izbornika koje se mogu proširiti u izborniku",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Maksimalne razine",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Traži",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Izbornik",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Putanja izbornika u hijerarhijskom stilu (upotrebljava se vodoravni tok)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinamički po stranici - pokazuje stranice u izborniku koje su povezane sa stranicom koja se gleda",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statično - u izborniku uvijek pokazuje stranice najviše razine",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinamički po dijelu - pokazuje stranice u izborniku koje su povezane s dijelom koji se gleda",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Napredni izbornici prikazuju različite dijelove stabla izbornika na temelju toga koja se stranica gleda.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Napredna vrsta izbornika",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Traži",
+    "description": "",
+    "placeholders": null
+  }
+}

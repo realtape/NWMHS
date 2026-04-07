@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Galerie d'images",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Légende",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Diapositive",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Ouvrir le lien dans un nouvel onglet",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Afficher la légende",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Lien URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Hauteur variable",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Hauteur fixe",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Hauteur variable",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Afficher les boutons de navigation",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Navigation par vignettes",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Carrousel standard",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galerie Lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Mode d'affichage",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Diapositives en boucle",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Superposer des légendes en haut des images",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Toujours garder les légendes sous l'image",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Position de la légende",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Temps en secondes entre le défilement automatique",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Fondu",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Diapositive",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Transitions des diapositives",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Des rangées pour la galerie lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Avance automatique",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Ce module est déconseillé en faveur de deux nouveaux modules améliorés : Carrousel d'images et Grille d'images. <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">En savoir plus.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

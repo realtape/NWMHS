@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Bảng tóm tắt khoản thanh toán trong tương lai",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Đầu đề bảng",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Hiển thị đầu đề bảng",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Đầu đề bảng",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Thêm tiêu đề vào bảng tóm tắt khoản thanh toán trong tương lai",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "Tóm tắt các khoản thanh toán trong tương lai",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Cột",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Tiêu đề tên mục dòng",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Mặt hàng",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Tiêu đề tóm tắt khoản thanh toán",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Thanh toán",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Một lần",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ tuần",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 tuần",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/tháng",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/quý",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/6 tháng",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/năm",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/2 năm",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/3 năm",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "ngày",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "ngày",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "tuần",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "tuần",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "tháng",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "tháng",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "khoản thanh toán",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "các khoản thanh toán",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} vào {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} đến hạn vào {{ billing_delay_period }} {{ billing_delay_unit }} sau lần thanh toán đầu tiên",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} bắt đầu vào {{ billing_delay_period }} {{ billing_delay_unit }} sau lần thanh toán đầu tiên",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} bắt đầu vào {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} bắt đầu vào {{ billing_delay_period }} {{ billing_delay_unit }} sau lần thanh toán đầu tiên cho {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} bắt đầu vào {{ formatted_first_payment_date }} cho {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/4 năm",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/5 năm",
+    "description": "",
+    "placeholders": null
+  }
+}

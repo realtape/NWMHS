@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Altura máxima del logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Esto no se aplica al anular el logotipo predeterminado",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Puedes optar por anular el logotipo aplicado en esta plantilla utilizando esta opción.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Anular logotipo predeterminado",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "De forma predeterminada, las cotizaciones mostrarán el logotipo de tu empresa que contenga el kit de marca en la configuración predeterminada de la cuenta o de la página de sitio web.",
+    "description": "",
+    "placeholders": null
+  }
+}

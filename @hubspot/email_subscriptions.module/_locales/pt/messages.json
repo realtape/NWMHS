@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Preferências da assinatura",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto do botão de atualizar preferências",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Atualizar preferências de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Preferências de comunicação",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Subcabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Se esse não for seu endereço de e-mail, ignore esta página, pois o e-mail associado a ela provavelmente foi encaminhado para você.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Sim, assinar novamente!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Texto do botão de nova assinatura",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Rótulo para cancelar todas as assinaturas",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Cancelar a assinatura de todas as listas de correspondência.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Desmarque os tipos de e-mails que não deseja receber:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Texto de ajuda da seleção de preferências",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Ou marque aqui para nunca receber e-mails:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Texto de ajuda para cancelar todas as assinaturas",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Texto de ajuda para cancelar todas as assinaturas para um usuário que cancelou a assinatura",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Você foi removido de todas as nossas assinaturas de e-mail. Gostaria de receber nossos e-mails novamente?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Texto do botão de assinatura única",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Cancelar assinatura",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Texto de confirmação de assinatura única",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Deseja cancelar a assinatura de e-mails sobre:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Exemplo de nome de assinatura única",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "seu tipo de inscrição selecionado",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Præferencer for abonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Tekst til knap for opdatering af indstillinger",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Opdater e-mailpræferencer",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Indstillinger for kommunikation",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Overskrift",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Underoverskrift",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Hvis dette ikke er din e-mailadresse, skal du ignorere denne side, da den e-mail, der er tilknyttet siden, højst sandsynligt er videresendt til dig.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Ja, tilmeld mig igen.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Tekst til gentilmeldingsknap",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Afmeld alle-etiket",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Afmeld mig fra alle maillister",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Fjern markering for alle de e-mailtyper, du ikke vil modtage:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Hjælpetekst til indstillingsvalg",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Eller markér her for aldrig at modtage mails:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Hjælpetekst til Afmeld alle",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Hjælpetekst til Afmeld alle for en aktuel afmeldt bruger",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Du er afmeldt alle vores e-mails i øjeblikket. Ønsker du at modtage e-mails fra os igen?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Tekst til knap til enkelt abonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Afmeld",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Tekst til bekræftelse af enkelt abonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Vil du afmelde dig e-mails om:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Eksempel på navn på enkelt abonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "din valgte abonnementstype",
+    "description": "",
+    "placeholders": null
+  }
+}

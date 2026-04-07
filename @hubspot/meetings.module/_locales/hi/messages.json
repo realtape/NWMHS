@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "मीटिंग्स",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting.label": {
+    "message": "मीटिंग लिंक चुनें",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting.help_text": {
+    "message": "साइडबार से किसी मौजूदा मीटिंग का चयन करें, या <a href='/l/meetings/'>मीटिंग टूल</a> पर नेविगेट करके नई बनाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "select_meeting_title.default": {
+    "message": "किसी मीटिंग का चयन नहीं किया गया",
+    "description": "",
+    "placeholders": null
+  },
+  "select_meeting_description.default": {
+    "message": "साइडबार से किसी मौजूदा मीटिंग का चयन करें, या मीटिंग टूल पर नेविगेट करके एक नई मीटिंग बनाएं",
+    "description": "",
+    "placeholders": null
+  }
+}

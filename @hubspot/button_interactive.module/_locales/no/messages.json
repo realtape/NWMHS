@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Knapp (interaktiv)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "Koblings-URL",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "E-postadresse",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Fil",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Lukk call-to-action",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "E-postadresse",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonnummer",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Filnedlasting",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Møtekobling",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "En av sidene dine",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "En av dine bloggsider",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Kobling til",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Møtekobling",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Åpne kopling i ny fane",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Side",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blogg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Farge",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Klikket",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Bakgrunn",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Kant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Kant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Hjørne",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Legg til et avrundet hjørne på knappen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Farge",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Bakgrunn når peker er over",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Kant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Grense når pekere er over",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Pekerfølsom",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Skrifttype",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Tekst når peker er over",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiler",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Skrifttype",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Tekstutfylling",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Legg til en knappkobling her",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Knappetekst",
+    "description": "",
+    "placeholders": null
+  }
+}

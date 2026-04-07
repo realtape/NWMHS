@@ -1,0 +1,442 @@
+{# Module data #}
+
+{% set mock_data = {
+    quote: {
+      hs_currency: "USD",
+      hs_language: "en",
+      hs_locale: "en-US",
+      associated_objects: {
+        additional_fees: [
+          {
+            amount: 100,
+            name: "Tax"
+          },
+          {
+            amount: 25,
+            category: "DISCOUNT",
+            is_percentage: true,
+            name: "Percent Discount"
+          }
+        ],
+        line_items: [
+          {
+            amount: "900",
+            description: "About first sample line item",
+            discount: "10",
+            hs_total_discount: "100",
+            hs_images: "https://f.hubspotusercontentqa40.net/hubfs/100897848/default_company_logo.png",
+            hs_position_on_quote: "0",
+            hs_term_in_months: 12,
+            quantity: 10,
+            hs_sku: 1234,
+            name: "First sample line item",
+            price: "100",
+            hs_price_jpy: "90",
+            recurringbillingfrequency: "annually",
+            custom_property_text: "Custom property data",
+            custom_property_currency: "5"
+          },
+          {
+            amount: "750",
+            description: "About second sample line item",
+            hs_discount_percentage: "25",
+            hs_images: "https://f.hubspotusercontentqa40.net/hubfs/100897848/default_company_logo.png",
+            hs_position_on_quote: "1",
+            hs_term_in_months: 12,
+            quantity: 10,
+            hs_sku: 456,
+            name: "Second sample line item",
+            price: "100",
+            hs_price_jpy: "90",
+            recurringbillingfrequency: "monthly",
+            custom_property_text: "Custom property data",
+            custom_property_currency: "10"
+          }
+        ],
+        line_items_by_start_date: {
+          "PRESENT": [
+            {
+              "createdate": "1/1/20",
+              "hs_position_on_quote": "0",
+              "id": 1,
+              "name": "First sample line item",
+              "description": "About first sample line item",
+              "price": "1005",
+              "discount": "5",
+              "hs_cost_of_goods_sold": "10",
+              "hs_margin_tcv": "990",
+              "hs_margin_acv": "990",
+              "hs_margin": "990",
+              "hs_tcv": "1000",
+              "hs_acv": "1000",
+              "amount": "1000",
+              "quantity": "1",
+              "hs_line_item_currency_code": "USD",
+              "tax": "10",
+              "hs_lastmodifieddate": "1/1/20",
+              "hs_created_by_user_id": "1",
+              "hs_object_id": "1",
+              "hs_updated_by_user_id": "1",
+              "hs_recurring_billing_period": "P3M",
+              "hs_term_in_months": 12,
+              "hs_sku": "123",
+              "hs_product_id": "123"
+            },
+            {
+              "createdate": "1/1/20",
+              "hs_position_on_quote": "1",
+              "id": 2,
+              "name": "Second sample line item",
+              "description": "About second sample line item",
+              "price": "105",
+              "discount": "5",
+              "recurringbillingfrequency": "monthly",
+              "hs_cost_of_goods_sold": "10",
+              "hs_margin_tcv": "1080",
+              "hs_margin_acv": "1080",
+              "hs_margin_arr": "1080",
+              "hs_margin_mrr": "90",
+              "hs_margin": "90",
+              "hs_tcv": "1200",
+              "hs_acv": "1200",
+              "hs_arr": "1200",
+              "hs_mrr": "100",
+              "amount": "1000",
+              "quantity": "1",
+              "hs_line_item_currency_code": "USD",
+              "tax": "10",
+              "hs_lastmodifieddate": "1/1/20",
+              "hs_created_by_user_id": "1",
+              "hs_object_id": "1",
+              "hs_updated_by_user_id": "1",
+              "hs_recurring_billing_period": "P3M",
+              "hs_term_in_months": 12,
+              "hs_sku": "1234",
+              "hs_product_id": "1234"
+            }
+          ]
+        },
+        totals: {
+          subtotals: {
+            monthly: {
+              subtotal: 100
+            },
+            one_time: {
+              subtotal: 1000
+            }
+          },
+          total: 1100,
+          total_first_payment: 1100
+        }
+      }
+    }
+  }
+%}
+{% set quote_data = template_data.quote or mock_data.quote %}
+{% set currency = quote_data.hs_currency %}
+{% set language = quote_data.hs_language %}
+{% set timezone = quote_data.hs_timezone %}
+{% set locale = quote_data.hs_locale %}
+{% set associated_objects = quote_data.associated_objects %}
+{% set line_items = associated_objects.line_items_by_start_date ? associated_objects.line_items_by_start_date.PRESENT : associated_objects.line_items %}
+{% set future_charges = associated_objects.line_items_by_start_date.FUTURE %}
+{% set additional_fees = associated_objects.additional_fees %}
+{% set max_decimal_digits = 6 %}
+{% set totals = associated_objects.totals %}
+{# Used by Flow Theme line_item_taxes module #}
+{% set should_display_line_item_taxes = totals.tax_total is number %}
+
+{# Calculate tax info for all line items #}
+{% set all_line_items = (line_items or []) + (future_charges or []) %}
+{% set taxable_line_items = all_line_items|selectattr('hs_tax_amount', 'number')|list %}
+{% set maybe_shared_tax_label = (taxable_line_items|first).hs_tax_label %}
+{% set line_items_with_shared_tax_label = taxable_line_items|selectattr('hs_tax_label', 'equalto', maybe_shared_tax_label)|list %}
+{% set has_shared_tax_label = taxable_line_items|length == line_items_with_shared_tax_label|length %}
+{% set show_line_item_tax = taxable_line_items|length > 0 %}
+
+{% require_css %}
+  <style>
+    {% if module.line_item_subheadings.background_color.color && module.line_item_subheadings.background_color.opacity %}
+      .line-items__table tr.line-items__subheading {
+        background-color: rgba({{ module.line_item_subheadings.background_color.color|convert_rgb }}, {{ module.line_item_subheadings.background_color.opacity / 100 }}) !important;
+      }
+    {% endif %}
+
+    .line-items__table tr.line-items__subheading td {
+      {{ module.line_item_subheadings.font_style.css }}
+    }
+  </style>
+{% end_require_css %}
+
+{# Module macros #}
+
+{% macro recurring_frequency_text(frequency) %}
+  {% if frequency == 'weekly' %}
+    {{ module.default_text.every_week }}
+  {% elif frequency == 'biweekly' %}
+    {{ module.default_text.every_two_weeks }}
+  {% elif frequency == 'monthly' %}
+    {{ module.default_text.every_month }}
+  {% elif frequency == 'quarterly' %}
+    {{ module.default_text.every_quarter }}
+  {% elif frequency == 'per_six_months' %}
+    {{ module.default_text.every_six_months }}
+  {% elif frequency == 'annually' %}
+    {{ module.default_text.every_year }}
+  {% elif frequency == 'per_two_years' %}
+    {{ module.default_text.every_two_years }}
+  {% elif frequency == 'per_three_years' %}
+    {{ module.default_text.every_three_years }}
+  {% elif frequency == 'per_four_years' %}
+    {{ module.default_text.every_four_years }}
+  {% elif frequency == 'per_five_years' %}
+    {{ module.default_text.every_five_years }}
+  {% endif %}
+{% endmacro %}
+
+{% macro recurring_billing_frequency_text(frequency) %}
+  {% if frequency == 'weekly' %}
+    {{ module.default_text.weekly }}
+  {% elif frequency == 'biweekly' %}
+    {{ module.default_text.per_two_weeks }}
+  {% elif frequency == 'monthly' %}
+    {{ module.default_text.monthly }}
+  {% elif frequency == "quarterly" %}
+    {{ module.default_text.quarterly }}
+  {% elif frequency == "annually" %}
+    {{ module.default_text.annually }}
+  {% elif frequency == "per_six_months" %}
+    {{ module.default_text.per_six_months }}
+  {% elif frequency == "per_two_years" %}
+    {{ module.default_text.per_two_years }}
+  {% elif frequency == "per_three_years" %}
+   {{ module.default_text.per_three_years }}
+  {% elif frequency == "per_four_years" %}
+    {{ module.default_text.per_four_years }}
+  {% elif frequency == "per_five_years" %}
+    {{ module.default_text.per_five_years }}
+  {% endif %}
+{% endmacro %}
+
+
+
+{% macro first_payment_text(line_item) %}
+  {% if line_item.hs_billing_start_delay_type == 'hs_recurring_billing_start_date' %}
+    {% set formatted_first_payment_date = line_item.hs_recurring_billing_start_date|int|format_date('long', 'UTC', locale) %}
+    {{ line_item.recurringbillingfrequency ? module.default_text.payment_start_date : module.default_text.payment_due_date }}
+  {% elif line_item.hs_billing_start_delay_type == 'hs_billing_start_delay_days' %}
+    {% set billing_delay_period = line_item.hs_billing_start_delay_days %}
+    {% set billing_delay_unit = billing_delay_period == 1 ? module.default_text.day : module.default_text.days %}
+    {{ line_item.recurringbillingfrequency ? module.default_text.relative_payment_start_date : module.default_text.relative_payment_due_date }}
+  {% elif line_item.hs_billing_start_delay_type == 'hs_billing_start_delay_months' %}
+    {% set billing_delay_period = line_item.hs_billing_start_delay_months %}
+    {% set billing_delay_unit = billing_delay_period == 1 ? module.default_text.month : module.default_text.months %}
+    {{ line_item.recurringbillingfrequency ? module.default_text.relative_payment_start_date : module.default_text.relative_payment_due_date }}
+  {% endif %}
+{% endmacro %}
+
+{% macro line_items_table_rows(line_items_arg, subheading_text, is_future_charges, show_tax, shared_tax_label) %}
+  {% if subheading_text %}
+    <tr class="line-items__subheading">
+      <td colspan="100%">{{ subheading_text|sanitize_html }}</td>
+    </tr>
+  {% endif %}
+  {% for line_item in line_items_arg %}
+    <tr class="line-items__item-row">
+      {# Sets table cell data based on column property #}
+
+      {% for column in module.line_item_columns %}
+        {% if column.use_additional_product_property %}
+          {% set property_name = column.additional_product_property %}
+          {# We null the variables below to reset the value if it was set by a column previously #}
+          {% set property_definition = null %}
+          {% set is_product_currency_property = false %}
+          {% set is_product_number_property = false %}
+          {% set is_product_date_property = false %}
+        {% else %}
+          {# Used for CRM product properties #}
+          {% set property_name = column.crm_product_property.property %}
+          {% set property_definition = column.crm_product_property.property_definition %}
+          {# This will capture currency and multicurrency properties like hs_price_jpy #}
+          {% set is_product_currency_property = property_definition.fieldType == 'number' and property_definition.showCurrencySymbol == 'true' %}
+          {% set is_product_number_property = property_definition.fieldType == 'number' and property_definition.showCurrencySymbol == 'false' %}
+          {% set is_product_date_property = property_definition.fieldType == 'date' %}
+        {% endif %}
+
+        {% set property_value = line_item[property_name] %}
+
+        {% if property_name == "hs_images" and property_value %}
+          <td>
+            <img class="line-items__image" src="{{ property_value|escape_url }}" />
+          </td>
+
+        {% elif property_name == "item_description" %}
+          <td>
+            <span class="line-items__name">{{ line_item.name|sanitize_html }}</span><br>
+            <span class="line-items__description">{{ line_item.description|sanitize_html }}</span>
+            {% if module.display_payment_starts and is_future_charges %}
+              <br>
+              <span class="line-items__future-payment">{{ first_payment_text(line_item)|render|sanitize_html }}</span>
+            {% endif %}
+          </td>
+
+        {% elif property_name == 'description' %}
+          <td>
+            <span class="line-items__description">{{ line_item.description|sanitize_html }}</span>
+          </td>
+
+        {% elif property_name == 'quantity' or is_product_number_property %}
+          <td>
+            {{ property_value is number ? property_value|format_number(locale)|sanitize_html : property_value|sanitize_html }}
+          </td>
+
+        {% elif property_name == "amount" %}
+          <td>
+            <div class="currency__container">
+              <span class="currency__content">
+                {{ property_value|format_currency_value(locale=locale, currency=currency, maxDecimalDigits=max_decimal_digits)|sanitize_html }}
+              </span>
+
+              <span class="currency__content">
+                {{ recurring_frequency_text(line_item.recurringbillingfrequency)|render|sanitize_html }}
+              </span>
+
+              {% set has_fixed_discount = line_item.hs_total_discount|float > 0 %}
+              {% set has_percent_discount = line_item.hs_discount_percentage|float > 0 %}
+              {% set has_discount = has_fixed_discount or has_percent_discount %}
+
+              {% if has_discount %}
+                {% if has_percent_discount %}
+                  {% set percentage_amount = line_item.hs_discount_percentage %}
+                  {% set discount_amount = "<span class='currency__content'>{{ module.default_text.percent_value|render|sanitize_html }}</span>" %}
+                {% else %}
+                  {% set discount_amount = "<span class='currency__content'>{{ line_item.hs_total_discount|format_currency_value(locale=locale, currency=currency, maxDecimalDigits=max_decimal_digits)|sanitize_html }}</span>" %}
+                {% endif %}
+                <span class="line-items__discount-percentage currency__content--full-width">{{ module.default_text.after_discount|render|sanitize_html }}</span>
+              {% endif %}
+
+              {% if show_tax %}
+                {% set taxAmount = (line_item.hs_tax_amount or 0)|format_currency_value(locale=locale, currency=currency, maxDecimalDigits=max_decimal_digits) %}
+                {% set taxLabel = line_item.hs_tax_label or (has_shared_tax_label ? shared_tax_label : null) %}
+                <span class="line-items__discount-percentage currency__content currency__content--full-width">
+                  {% if taxLabel %}
+                    {{ module.default_text.line_item_tax_with_label|render|sanitize_html }}
+                  {% else %}
+                    {{ module.default_text.line_item_tax_without_label|render|sanitize_html }}
+                  {% endif %}
+                </span>
+              {% endif %}
+
+              {% if line_item.hs_term_in_months %}
+                <span class="line-items__discount-percentage currency__content currency__content--full-width">
+                  {% if line_item.hs_term_in_months|divisible(12) %}
+                    {% set year = line_item.hs_term_in_months / 12|round(0, 'floor') %}
+                    {% set year_text = year > 1 ? module.default_text.years : module.default_text.year %}
+                    {{ module.default_text.for_years|render|sanitize_html }}
+                  {% else %}
+                    {% set month_text = line_item.hs_term_in_months > 1 ? module.default_text.months : module.default_text.month %}
+                    {{ module.default_text.for_months|render|sanitize_html }}
+                  {% endif %}
+                </span>
+              {% else %}
+                {% set frequency = line_item.recurringbillingfrequency %}
+                {% set payments_count = line_item.hs_recurring_billing_number_of_payments %}
+                {% if (frequency == 'weekly' or frequency == 'biweekly') and payments_count %}
+                  <span class="line-items__discount-percentage currency__content currency__content--full-width">
+                    {% set week = frequency == 'weekly' ? payments_count : payments_count * 2 %}
+                    {% set week_text = week > 1 ? module.default_text.weeks : module.default_text.week %}
+                    {{ module.default_text.for_weeks|render|sanitize_html }}
+                  </span>
+                {% endif %}
+              {% endif %}
+            </div>
+          </td>
+
+        {% elif property_name == "hs_recurring_billing_start_date" %}
+          <td>
+            {% if property_value %}
+              {{ property_value|int|format_date('long', 'UTC', locale)|sanitize_html }}
+            {% endif %}
+          </td>
+
+        {% elif property_name == "recurringbillingfrequency" %}
+          <td>
+            {{ recurring_billing_frequency_text(line_item.recurringbillingfrequency)|render|sanitize_html }}
+          </td>
+
+        {% elif property_name == "price" %}
+          <td>
+            <div class="currency__container">
+              <span class="currency__content">{{ property_value|format_currency_value(locale=locale, currency=currency, maxDecimalDigits=max_decimal_digits)|sanitize_html }}</span>
+              <span class="currency__content">{{ recurring_frequency_text(line_item.recurringbillingfrequency)|render|sanitize_html }}</span>
+            </div>
+          </td>
+
+        {% elif is_product_currency_property %}
+          <td>
+            <span class="currency__content">{{ property_value|format_currency_value(locale=locale, currency=currency, maxDecimalDigits=max_decimal_digits)|sanitize_html }}</span>
+          </td>
+
+        {% elif property_name == "discount" %}
+          {% set has_fixed_discount = line_item.hs_total_discount|float > 0 %}
+          {% set has_percent_discount = line_item.hs_discount_percentage|float > 0 %}
+
+          {% if has_percent_discount %}
+            {% set percentage_amount = line_item.hs_discount_percentage %}
+            <td>{{ module.default_text.percent_value|render|sanitize_html }}</td>
+          {% elif has_fixed_discount %}
+            <td>
+              <span class="currency__content">
+                {{ property_value|format_currency_value(locale=locale, currency=currency, maxDecimalDigits=max_decimal_digits)|sanitize_html }}
+              </span>
+            </td>
+          {% else %}
+            <td></td>
+          {% endif %}
+
+        {% elif is_product_date_property %}
+          {# metadata datetime, or custom date property #}
+          <td>
+            {% if property_value %}
+              {# type date should use UTC, datetime should format with the quote's timezone #}
+              {% set property_timezone = property_definition.type == 'date' ? 'UTC' : timezone %}
+              {{ property_value|int|format_date('long', property_timezone, locale)|sanitize_html }}
+            {% endif %}
+          </td>
+
+        {% else %}
+          <td>{{ property_value|sanitize_html }}</td>
+        {% endif %}
+
+      {% endfor %}
+    </tr>
+  {% endfor %}
+{% endmacro %}
+
+{# Module content #}
+{% if line_items|length > 0 or future_charges|length > 0 %}
+  <div class="line-items">
+    <table aria-label="{{ module.default_text.line_items|escape_attr }}" class="line-items__table">
+      <thead class="line-items__table-header">
+        <tr>
+          {% for column in module.line_item_columns %}
+            <th scope="col">{{ column.title|sanitize_html }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody class="line-items__table-body">
+        {% set has_present_line_items = line_items|length > 0 %}
+        {% set has_future_line_items = future_charges|length > 0 %}
+        {% set has_both_line_items = has_present_line_items and has_future_line_items %}
+
+        {% if has_present_line_items %}
+          {{ line_items_table_rows(line_items, has_both_line_items ? module.line_item_subheadings.due_now_text : null, false, show_line_item_tax, maybe_shared_tax_label) }}
+        {% endif %}
+        {% if has_future_line_items %}
+          {{ line_items_table_rows(future_charges, has_both_line_items ? module.line_item_subheadings.due_later_text : null, true, show_line_item_tax, maybe_shared_tax_label) }}
+        {% endif %}
+      </tbody>
+    </table>
+  </div>
+{% endif %}
+

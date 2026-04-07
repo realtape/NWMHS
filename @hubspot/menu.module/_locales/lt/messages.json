@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horizontalus",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertikalus",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Horizontaliuose meniu elementai rodomi greta, o vertikaliuose – nuo viršaus iki apačios",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Padėtis",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Paieška",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Antrinio meniu elementai bus rodomi laikant pelės žymeklį virš pirminio elemento. Jei atžymėta, antrinio meniu elementai visada bus rodomi",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Įjungti iškėlimus?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Meniu medžio struktūra – tai puslapio struktūra, pagal kurią sugeneruojami meniu elementai. Vieną meniu medį galima taikyti keliems meniu. Galite sukurti keletą sudėtinių svetainės struktūrų meniu. Meniu kuriami ir tvarkomi srityje „Turinio nuostatos“",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Meniu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Nustato meniu medžio antrinių elementų, kuriuos meniu galima išplėsti, skaičių",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Didžiausi lygiai",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Paieška",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Meniu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Naršymo kelio stiliaus kelio meniu (naudojamas horizontalus srautas)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Kintantys priklausomai nuo puslapio – rodomi meniu puslapiai, susiję su peržiūrimu puslapiu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statiniai – visada rodomi aukščiausio lygio meniu puslapiai",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Kintantys priklausomai nuo skirsnio – rodomi meniu puslapiai, susiję su peržiūrimu skirsniu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Papildomuose meniu pateikiamos skirtingos meniu medžio dalys priklausomai nuo to, kuriame puslapyje peržiūrima.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Papildomo meniu tipas",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Paieška",
+    "description": "",
+    "placeholders": null
+  }
+}

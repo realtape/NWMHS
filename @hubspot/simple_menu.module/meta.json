@@ -1,0 +1,19 @@
+{
+  "label": "Simple Menu",
+  "host_template_types": ["PAGE", "BLOG_LISTING", "BLOG_POST"],
+  "icon": "../img/icon/edited-menu-1.svg",
+  "extra_classes": "widget-type-simple_menu",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": ["functionality"],
+  "content_tags": [
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

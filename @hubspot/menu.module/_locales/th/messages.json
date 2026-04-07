@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "แนวนอน",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "แนวตั้ง",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "เมนูแนวนอนแสดงรายการต่างๆ เรียงข้างกัน ส่วนเมนูแนวตั้งแสดงรายการต่างๆ จากบนลงล่าง",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "การวางแนว",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "ค้นหา",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "รายการเมนูสำหรับเด็กจะปรากฏขึ้นเมื่อคุณวางเมาส์เหนือเมนูพ่อแม่ หากไม่ทำเครื่องหมาย รายการเมนูสำหรับเด็กจะปรากฏขึ้นเสมอ",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "เปิดใช้งานเมนูแบบลอยขึ้นหรือไม่",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "แผนภูมิเมนูเป็นโครงสร้างเพจที่สร้างรายการต่างๆ ในเมนู แผนภูมิเมนูเดี่ยวสามารถใช้ได้กับหลายเมนู คุณสามารถสร้างหลายเมนูสำหรับโครงสร้างเว็บไซต์ที่ซับซ้อน โดยสามารถสร้างและจัดการเมนูต่างๆ ได้ใน การตั้งค่าเนื้อหา",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "เมนู",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "กำหนดจำนวนแผนภูมิเมนูสำหรับเด็กที่สามารถขยายได้ในเมนู",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "ระดับสูงสุด",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "ค้นหา",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "เมนู",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "เมนูการแสดงเส้นทางที่แสดงตำแหน่งของหน้าเว็บ (ใช้การแสดงแบบแนวนอน)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "เปลี่ยนไปตามหน้า - แสดงหน้าต่างๆ ในเมนูที่เกี่ยวข้องกับหน้าที่กำลังดูอยู่",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "คงที่ - แสดงหน้าในระดับบนสุดในเมนูเสมอ",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "เปลี่ยนไปตามส่วน - แสดงหน้าต่างๆ ในเมนูที่เกี่ยวข้องกับส่วนที่กำลังดูอยู่",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "เมนูขั้นสูงแสดงส่วนต่างๆ ของแผนภูมิเมนูตามหน้าที่กำลังดูอยู่",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "ประเภทของเมนูขั้นสูง",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "ค้นหา",
+    "description": "",
+    "placeholders": null
+  }
+}

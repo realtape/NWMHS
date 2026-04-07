@@ -1,0 +1,227 @@
+[
+  {
+    "label": "Link URL",
+    "name": "link",
+    "id": "9a398615-5e5e-5824-85f9-f020e3bec27e",
+    "type": "text",
+    "help_text": "This is the destination link that will be shortened for easier sharing on social networks.",
+    "placeholder": "Optional Custom Page URL",
+    "validation_regex": ""
+  },
+  {
+    "label": "Facebook",
+    "name": "facebook",
+    "id": "bbdaf5b8-be6c-3bda-3769-6c70d7fdad08",
+    "type": "group",
+    "children": [
+      {
+        "label": "Enabled?",
+        "name": "enabled",
+        "id": "a6a59b62-7d01-3d33-5c9e-4de364fc8703",
+        "type": "boolean",
+        "required": true,
+        "default": false
+      },
+      {
+        "label": "Link",
+        "name": "custom_link_format",
+        "id": "65b48e58-e2e2-a61e-6042-f3da01b5806c",
+        "type": "text",
+        "visibility": {
+          "controlling_field": "a6a59b62-7d01-3d33-5c9e-4de364fc8703",
+          "controlling_value_regex": "true",
+          "operator": "MATCHES_REGEX",
+          "access": null,
+          "hidden_subfields": null
+        },
+        "required": true,
+        "default": "https://www.facebook.com/share.php?u={{ social_link_url|urlencode }}"
+      }
+    ],
+    "default": {
+      "enabled": false,
+      "custom_link_format": "https://www.facebook.com/share.php?u={{ social_link_url|urlencode }}"
+    }
+  },
+  {
+    "label": "Twitter",
+    "name": "twitter",
+    "id": "08a32e3c-ec26-48bc-7586-caf20f046c8f",
+    "type": "group",
+    "children": [
+      {
+        "label": "Enabled?",
+        "name": "enabled",
+        "id": "8dfe9c1f-078c-8ada-2417-ae17fe470673",
+        "type": "boolean",
+        "required": true,
+        "default": false
+      },
+      {
+        "label": "Twitter icon",
+        "name": "twitter_icon",
+        "type": "choice",
+        "visibility": {
+          "controlling_field": "8dfe9c1f-078c-8ada-2417-ae17fe470673",
+          "controlling_value_regex": "true",
+          "operator": "MATCHES_REGEX"
+        },
+        "choices": [
+          ["twitter", "Twitter bird"],
+          ["x-twitter", "Twitter X"]
+        ],
+        "display": "select",
+        "required": true,
+        "default": "twitter"
+      },
+      {
+        "label": "Link",
+        "name": "custom_link_format",
+        "id": "afdf7387-4274-d706-886d-e306f8f7e1b9",
+        "type": "text",
+        "visibility": {
+          "controlling_field": "8dfe9c1f-078c-8ada-2417-ae17fe470673",
+          "controlling_value_regex": "true",
+          "operator": "MATCHES_REGEX",
+          "access": null,
+          "hidden_subfields": null
+        },
+        "required": true,
+        "default": "https://twitter.com/intent/tweet?original_referer={{ social_link_url|urlencode }}&url={{ social_link_url|urlencode }}&source=tweetbutton&text={{ social_page_title|urlencode }}"
+      }
+    ],
+    "default": {
+      "enabled": false,
+      "custom_link_format": "https://twitter.com/intent/tweet?original_referer={{ social_link_url|urlencode }}&url={{ social_link_url|urlencode }}&source=tweetbutton&text={{ social_page_title|urlencode }}",
+      "twitter_icon": "twitter"
+    }
+  },
+  {
+    "label": "LinkedIn",
+    "name": "linkedin",
+    "id": "7ef8e3a8-e9b8-0a08-8a45-12430b26b68d",
+    "type": "group",
+    "children": [
+      {
+        "label": "Enabled?",
+        "name": "enabled",
+        "id": "d8ce09cb-86bf-67a6-8ee7-ca299e342de1",
+        "type": "boolean",
+        "required": true,
+        "default": false
+      },
+      {
+        "label": "Link",
+        "name": "custom_link_format",
+        "id": "5c32728c-533a-6df7-c9c8-42cf3c570766",
+        "type": "text",
+        "visibility": {
+          "controlling_field": "d8ce09cb-86bf-67a6-8ee7-ca299e342de1",
+          "controlling_value_regex": "true",
+          "operator": "MATCHES_REGEX",
+          "access": null,
+          "hidden_subfields": null
+        },
+        "required": true,
+        "default": "https://www.linkedin.com/shareArticle?mini=true&url={{ social_link_url|urlencode }}"
+      }
+    ],
+    "default": {
+      "enabled": false,
+      "custom_link_format": "https://www.linkedin.com/shareArticle?mini=true&url={{ social_link_url|urlencode }}"
+    }
+  },
+  {
+    "label": "Pinterest",
+    "name": "pinterest",
+    "id": "5d776950-53b5-47d6-5e2e-ae29efe83023",
+    "type": "group",
+    "children": [
+      {
+        "label": "Enabled?",
+        "name": "enabled",
+        "id": "68a63444-eef7-c3c0-e668-8a57a3bb12c9",
+        "type": "boolean",
+        "required": true,
+        "default": false
+      },
+      {
+        "label": "Link",
+        "name": "custom_link_format",
+        "id": "e917e6d1-b8a2-3410-fba8-2c2543aa9716",
+        "type": "text",
+        "visibility": {
+          "controlling_field": "68a63444-eef7-c3c0-e668-8a57a3bb12c9",
+          "controlling_value_regex": "true",
+          "operator": "MATCHES_REGEX",
+          "access": null,
+          "hidden_subfields": null
+        },
+        "required": true,
+        "default": "https://pinterest.com/pin/create/button/?url={{ social_link_url|urlencode }}&media={{ pinterest_media }}"
+      },
+      {
+        "label": "Pin image",
+        "name": "pinterest_media",
+        "id": "a28d7333-37c4-1f39-56b8-871b682f3756",
+        "type": "image",
+        "visibility": {
+          "controlling_field": "68a63444-eef7-c3c0-e668-8a57a3bb12c9",
+          "controlling_value_regex": "true",
+          "operator": null,
+          "access": null,
+          "hidden_subfields": null
+        },
+        "resizable": true,
+        "responsive": false,
+        "default": {
+          "src": "",
+          "alt": null
+        }
+      }
+    ],
+    "default": {
+      "enabled": false,
+      "custom_link_format": "https://pinterest.com/pin/create/button/?url={{ social_link_url|urlencode }}&media={{ pinterest_media }}",
+      "pinterest_media": {
+        "src": "",
+        "alt": null
+      }
+    }
+  },
+  {
+    "label": "Email",
+    "name": "email",
+    "id": "e2987376-4d37-7818-654c-2cfba7fc51fc",
+    "type": "group",
+    "children": [
+      {
+        "label": "Enabled?",
+        "name": "enabled",
+        "id": "4747966f-3fd4-bcff-a15d-c7927b1db80d",
+        "type": "boolean",
+        "required": true,
+        "default": false
+      },
+      {
+        "label": "Link",
+        "name": "custom_link_format",
+        "id": "17f7621a-e3d4-1302-742a-f3c7ec93d2c3",
+        "type": "text",
+        "visibility": {
+          "controlling_field": "4747966f-3fd4-bcff-a15d-c7927b1db80d",
+          "controlling_value_regex": "true",
+          "operator": null,
+          "access": null,
+          "hidden_subfields": null
+        },
+        "required": true,
+        "default": "mailto:?subject=Check+out+{{ social_link_url|urlencode }}&body=Check+out+{{ social_link_url|urlencode }}"
+      }
+    ],
+    "default": {
+      "enabled": false,
+      "custom_link_format": "mailto:?subject=Check+out+{{ social_link_url|urlencode }}&body=Check+out+{{ social_link_url|urlencode }}"
+    }
+  }
+]

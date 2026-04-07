@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Deliaci prvok",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Zarovnanie",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Na stred",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Vľavo",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Vpravo",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Farba",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Výška",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Typ riadka",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "S pomlčkami",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Bodkované",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Neprerušované",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Odsadenie",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Max. 20 pixelov",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Zobraziť odsadenie?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Šírka",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Percento oblasti, do ktorej je umiestnený oddeľovač.",
+    "description": "",
+    "placeholders": null
+  }
+}

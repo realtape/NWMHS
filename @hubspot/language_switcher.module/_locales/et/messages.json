@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Keelevahetaja",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hübriid",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Lokaliseeritud",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "Lehe keel",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Teksti keel keelenupul. Lehe keel tähendab keelte nimetusi, mida kuvatakse lehekülje keelel, millel on nupp. Lokaliseeritud tähendab iga keele nimetust, mida selle keele kohta kuvatakse. Hübriid täiendab kahe kombinatsiooni.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Kuvarežiim",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Otsing",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filtre de publicació",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Mostra'ls tots",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Text per mostrar si hi ha més per mostrar que el valor màxim. Deixa-ho en blanc per ometre l'enllaç.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "El valor per defecte utilitzarà el blog actual quan es faci servir en una plantilla de blog o el blog principal quan es faci servir en qualsevol altre lloc.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selecciona el blog per mostrar",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Nombre màxim de valors de filtre per mostrar",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Llista de valors per enllaços de filtre",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Etiquetes",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autors",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Mesos",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Publicacions per etiqueta",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Títol de llista per mostrar",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nom",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Recompte de publicacions",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordenació de valors per a enllaços de filtrar",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Mostra tots els filtres",
+    "description": "",
+    "placeholders": null
+  }
+}

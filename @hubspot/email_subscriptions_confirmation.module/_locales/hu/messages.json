@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Feliratkozások megerősítő üzenete",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Sikeresen frissítette az e-mail beállításait.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "A feliratkozás frissüléséről szóló üzenet",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Alfejléc",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Ha ez nem az Ön e-mail-címe, hagyja figyelmen kívül ezt az oldalt, mert az ehhez az oldalhoz kapcsolódó e-mailt valószínűleg továbbították Önnek.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Sikeresen leiratkozott az összes e-mailes kommunikációról.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Üzenet a leiratkozásról",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Fejléc szövege",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Fejléc",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Beállítások kezelése gomb felirata",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Beállítások kezelése",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Beállítások kezelése visszaküldési felelősségkizárás",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Hibázott? Nincs gond, módosíthatja a beállításait.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Egyetlen feliratkozás – leiratkozás gomb sikerességi szövege",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Sikeresen leiratkozott a következőről:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Előfizetés helyőrzőjének szövege",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "kiválasztotta az előfizetés típusát",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Fejléc szintje",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "1. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "2. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "3. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "4. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "5. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "6. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "E-mail fejlécszintje",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "1. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "2. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "3. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "4. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "5. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "6. címsor",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Bekezdés",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Divisor",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Alineació",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Centre",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Esquerra",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Dreta",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Alçària",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Tipus de línia",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Discontínua",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "De punts",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Sòlid",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Marge interior",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "20 píxels com a màxim",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Vols mostrar l'espaiat?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Amplada",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Percentatge de l'àrea a la qual està situat el divisor.",
+    "description": "",
+    "placeholders": null
+  }
+}

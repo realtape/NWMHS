@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "백업 구독 취소",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "버튼 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "구독 취소",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "이메일 구독 취소",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "제목",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "이메일 입력 플레이스홀더 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "이메일 주소:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "이메일 입력 도움말 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "오류 메시지",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "이 페이지를 로드하는 동안 문제가 발생했습니다. 최신 이메일의 동일한 링크를 사용하거나 회사에 문의하여 구독 환경 설정을 업데이트하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "부제목",
+    "description": "",
+    "placeholders": null
+  }
+}

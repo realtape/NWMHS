@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Résultats de recherche sur le site",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Afficher les images en vedette",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Désolé. Aucun résultat n'a été trouvé pour [[search_term]].</p><p>Essayez de reformuler votre requête ou parcourez notre site.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Page précédente",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Page suivante",
+    "description": "",
+    "placeholders": null
+  }
+}

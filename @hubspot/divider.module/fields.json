@@ -1,0 +1,94 @@
+[
+  {
+    "label": "Height",
+    "name": "height",
+    "id": "f25c7200-c134-2cd0-ebac-2f2e7152c0a9",
+    "type": "number",
+    "display": "text",
+    "max": 8,
+    "min": 1,
+    "required": true,
+    "step": 1,
+    "suffix": "px",
+    "default": 1
+  },
+  {
+    "label": "Width",
+    "name": "width",
+    "id": "69957b03-2442-9cc8-3666-c67e96f37645",
+    "type": "number",
+    "help_text": "Percentage of the area the divider is placed into.",
+    "display": "slider",
+    "max": 100,
+    "min": 1,
+    "required": true,
+    "step": 1,
+    "suffix": "%",
+    "default": 50
+  },
+  {
+    "label": "Color",
+    "name": "color",
+    "id": "a3f3e26c-5bca-611e-ea99-c91d4f1c88bb",
+    "type": "color",
+    "required": true,
+    "default": {
+      "color": "#000000",
+      "opacity": 100
+    }
+  },
+  {
+    "label": "Line type",
+    "name": "line_type",
+    "id": "5dfe1bf6-99b3-5339-3a05-db1aee413317",
+    "type": "choice",
+    "choices": [
+      ["solid", "Solid"],
+      ["dotted", "Dotted"],
+      ["dashed", "Dashed"]
+    ],
+    "display": "select",
+    "required": true,
+    "default": "solid"
+  },
+  {
+    "label": "Alignment",
+    "name": "alignment",
+    "id": "2919e8d6-68f4-9cfc-5253-8e36d3f54807",
+    "type": "choice",
+    "choices": [
+      ["left", "Left"],
+      ["center", "Center"],
+      ["right", "Right"]
+    ],
+    "display": "select",
+    "required": true,
+    "default": "center"
+  },
+  {
+    "label": "Show padding?",
+    "name": "show_padding",
+    "id": "c2849a01-3d7b-a5b7-8d80-969f2a3e65f0",
+    "type": "boolean",
+    "default": false
+  },
+  {
+    "label": "Padding",
+    "name": "padding",
+    "id": "14154310-667e-8128-0394-96c83342c964",
+    "type": "number",
+    "inline_help_text": "Max of 20 pixels",
+    "visibility": {
+      "controlling_field": "c2849a01-3d7b-a5b7-8d80-969f2a3e65f0",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "display": "text",
+    "max": 20,
+    "min": 1,
+    "required": true,
+    "step": 1,
+    "suffix": "px",
+    "default": 5
+  }
+]

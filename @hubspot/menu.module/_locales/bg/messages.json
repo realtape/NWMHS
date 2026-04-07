@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Хоризонтално",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Вертикално",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Хоризонталните менюта показват елементите един до друг, а вертикалните менюта от горе надолу",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Ориентация",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Търсене",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Дъщерните елементи от менюто ще се показват, когато преминете с курсора през родителския елемент. Ако няма отметка, дъщерните елементи от менюто винаги ще се показват",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Да се разрешат ли допълнителни менюта?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Дървото на менюто е структурата на страницата, която генерира елементите в менюто. Едно дърво на меню може да се използва с множество менюта. Можете да създадете много менюта за сложни структури на уеб сайта. Менютата се създават и управляват в „Настройки на съдържанието“",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Меню",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Определя броя дъщерни елементи от дървото на менюто, които могат да бъдат разгънати в менюто",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Максимални нива",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Търсене",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Меню",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Меню с трасиран път (използва хоризонтален поток)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Динамичен по страница – показва страниците в меню, които са свързани със страницата, която се преглежда",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Статичен – винаги показва страниците от най-горно ниво в менюто",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Динамичен по раздел – показва страниците в меню, които са свързани с раздела, който се преглежда",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Разширените менюта показват различни части от дървото на менюто според страницата, която се преглежда.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Тип разширено меню",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Търсене",
+    "description": "",
+    "placeholders": null
+  }
+}

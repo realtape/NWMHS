@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Julkaisujen suodatin",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Katso kaikki",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Näytettävä teksti, jos näytettäviä on yli enimmäismäärän. Jätä linkki pois jättämällä tyhjäksi",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Oletusasetus käyttää nykyistä blogia blogitemplaattina tai ensisijaista blogia muussa käytössä.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Valitse näytettävä blogi",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Näytettävien suodatinarvojen enimmäismäärä. Katso kaikki jättämällä tyhjäksi",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Haku",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Suodatinlinkkien arvoluettelo",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tunnisteet",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Kirjoittajat",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Kuukautta",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Kirjoitukset tunnisteen mukaan",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Näytettävä luettelo-otsikko",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nimi",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Kirjoitusten määrä",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Haku",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Arvojen tilaaminen suodatinlinkkejä varten",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Näytä kaikki suodattimet",
+    "description": "",
+    "placeholders": null
+  }
+}

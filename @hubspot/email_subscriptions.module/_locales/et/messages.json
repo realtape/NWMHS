@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Tellimuse eelistused",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Värskenda eelistuste nupu teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Värskendage meilieelistusi",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Suhtluskanali eelised",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Päis",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Alampäis",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Kui see pole teie aadress, eirake palun seda lehte, kuna selle lehega seotud meil edastati tõenäoliselt teile.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Jah, telli uuesti!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Uuesti tellimise nupu tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Loobu kõigist siltidest",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Loobun kõigist meililistide tellimustest.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Eemaldage märk meilitüüpide eest, mida te ei soovi saada:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Eelistuste valiku abitekst",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Või märkige see, et mitte kunagi ühtegi meili saada:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Loobuge kõigist abitekstidest",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Loobuge igasugusest hetkel tundmatu kasutaja abitekstist",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Olete hetkel loobunud kõigist meie meilidest. Kas soovite meie meile uuesti saama hakata?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Ühe tellimuse nupu tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Loobu tellimusest",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Ühekordse tellimuse kinnitustekst",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Kas soovite loobuda meilide saamisest teemal:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Ühe tellimuse näidisnimi",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "teie valitud tellimuse tüüp",
+    "description": "",
+    "placeholders": null
+  }
+}

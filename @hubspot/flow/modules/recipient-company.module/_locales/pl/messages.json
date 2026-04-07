@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Firma odbiorcy",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.default": {
+    "message": "Sporządzono dla:",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.label": {
+    "message": "Tekst firmy odbiorcy",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_address.label": {
+    "message": "Główny adres firmy odbiorcy",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_city_state_zip.label": {
+    "message": "Miasto, stan i kod pocztowy firmy odbiorcy",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_country.label": {
+    "message": "Kraj firmy odbiorcy",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_name.label": {
+    "message": "Nazwa firmy odbiorcy",
+    "description": "",
+    "placeholders": null
+  }
+}

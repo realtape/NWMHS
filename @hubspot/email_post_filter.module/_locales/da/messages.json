@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Indlægsfilter",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Se alle",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Tekst, der skal vises, hvis der er flere værdier at vise end det maksimale antal. Lad dette være tomt for at udelade link",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Som standard bruges den nuværende blog, når der bruges en blogskabelon, og ellers bruges den primære blog.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Vælg en blog, der skal vises",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Det maksimale antal filterværdier, der skal vises. Lad dette være tomt for at vise alle",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Søg",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Liste over værdier til filterlinks",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tags",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Forfattere",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Måneder",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Indlæg efter tag",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Angiv den titel, der skal vises",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Navn",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Antal indlæg",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Søg",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Rækkefølge for værdier til filterlinks",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Vis alle filtre",
+    "description": "",
+    "placeholders": null
+  }
+}

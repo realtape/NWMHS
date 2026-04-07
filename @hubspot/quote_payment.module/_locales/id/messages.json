@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Bayar sekarang",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Teks tombol pembayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Pastikan jelas bahwa mengeklik tombol ini akan memungkinkan pelanggan membayar.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Terjadi masalah saat menyiapkan checkout. Silakan hubungi orang yang mengirimkan penawaran ini.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Pesan kesalahan checkout",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Beri tahu pelanggan hal yang harus dilakukan saat terjadi masalah memulai checkout.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Pilih level judul. H1 yang terbesar, diikuti oleh H2, dan seterusnya.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Level judul",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Pembayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Konten judul",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Lakukan pembayaran pertama:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Pelanggan akan melihat ini di tombol pembayaran hingga mereka telah membayar cicilan pertama.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Teks tombol untuk jadwal pembayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Pembayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Pembayaran tidak dapat dilakukan karena penawaran tidak sepenuhnya ditandatangani.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Teks penjelasan saat memerlukan tanda tangan",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Jika tanda tangan diperlukan sebelum pembayaran, pelanggan Anda akan melihat pesan ini hingga semua tanda tangan yang diperlukan lengkap.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Dibayar",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Teks berbayar",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Dibayar pada [[ paid_time ]] tanggal [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Pemrosesan pembayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Teks pemrosesan pembayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Terjadi masalah saat memuat status pembayaran untuk penawaran ini. Coba segarkan halaman ini.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Pesan kesalahan status pembayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Beri tahu pelanggan Anda untuk menyegarkan halaman saat pengambilan status pembayaran gagal.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Ini adalah penawaran uji coba sehingga tidak dapat mengumpulkan pembayaran nyata.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Anda dapat memutuskan untuk mengumpulkan pembayaran atau tidak saat membuat penawaran dengan templat ini.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Untuk checkout, silakan hubungi orang yang mengirim penawaran ini.",
+    "description": "",
+    "placeholders": null
+  }
+}

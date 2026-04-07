@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Totaal",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Nu verschuldigd",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Dit wordt gebruikt om het totaalbedrag van de prijsopgave te labelen wanneer de prijsopgave toekomstige betalingen bevat.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Tekst nu verschuldigd",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Totaal",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Tekst totaalbedrag",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Totale contractwaarde",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Pas de tekst aan om deze waarde nauwkeurig te beschrijven. (De standaardwaarde is een jaarlijkse waarde als er geen voorwaarden zijn ingesteld).",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Tekst van totale contractwaarde",
+    "description": "",
+    "placeholders": null
+  }
+}

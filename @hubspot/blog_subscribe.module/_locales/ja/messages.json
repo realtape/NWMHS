@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "ブログのEメール配信登録",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "既定として、ブログテンプレートでの使用時には現在のブログを使用し、他での使用時にはプライマリーブログを使用します。",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "表示するブログを選択",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "配信登録する",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "フォームの上に表示するタイトル",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "ユーザーへのインライン応答",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "配信へのご登録ありがとうございます。",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "ブログ配信登録フォームを表示するには、ブログの配信登録をオンにする必要があります。設定でオンにできます。<a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>もっと詳しく</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "見出しのレベル",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "見出しのレベルを選択します。見出しはコンテンツに基づいて階層としてネストする必要があります。<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>もっと詳しく</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

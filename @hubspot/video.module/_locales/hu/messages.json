@@ -1,0 +1,57 @@
+{
+  "name": {
+    "message": "Videó",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.label": {
+    "message": "Videó típusa",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.embed": {
+    "message": "Beágyazás",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.hubspot_video": {
+    "message": "HubSpot-videó",
+    "description": "",
+    "placeholders": null
+  },
+  "hubspot_video.label": {
+    "message": "HubSpot-videó",
+    "description": "",
+    "placeholders": null
+  },
+  "embed_field.label": {
+    "message": "Beágyazás",
+    "description": "",
+    "placeholders": null
+  },
+  "oembed_thumbnail.label": {
+    "message": "Egyedi előkép",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.label": {
+    "message": "Stílusbeállítások",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.oembed_thumbnail_play_button_color.label": {
+    "message": "Lejátszás gomb színe",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_title.default": {
+    "message": "Nincs kiválasztott videó",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_description.default": {
+    "message": "Válasszon ki egy videótípust az oldalsávban.",
+    "description": "",
+    "placeholders": null
+  }
+}

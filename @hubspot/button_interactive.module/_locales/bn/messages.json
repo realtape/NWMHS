@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "বোতাম (ইন্টারেক্টিভ)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL সংযুক্ত করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "ইমেল অ্যাড্রেস",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "ফাইল",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "কল-টু-অ্যাকশন বন্ধ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "ইমেল অ্যাড্রেস",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "ফোন নম্বর",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "ফাইল ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "সাক্ষাৎকারগুলির লিংক",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "আপনার পেজগুলির একটি",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "আপনার ব্লগ পেজগুলির মধ্যে একটি",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "এর সাথে লিঙ্ক করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "সাক্ষাৎকারগুলির লিংক",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "লিংকটিকে নতুন ট্যাবে খুলুন",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "পেজ",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "ব্লগ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "ক্লিক করা হয়েছে",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "কোণ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "আপনার বোতামে একটি বৃত্তাকার কোণ যোগ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "ব্যাসার্ধ ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "হোভার ব্যাকগ্রাউন্ড",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "হোভার বর্ডার",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "হোভার করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "হোভার টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "টেক্সট প্যাডিং",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "এখানে একটি বোতামের লিঙ্ক যুক্ত করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "বোতাম টেক্সট",
+    "description": "",
+    "placeholders": null
+  }
+}

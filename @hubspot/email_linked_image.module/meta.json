@@ -1,0 +1,24 @@
+{
+  "label": "Image",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "../img/icon/email-linked-image.svg",
+  "extra_classes": "widget-type-linked_image",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "is_available_for_new_content": false,
+  "categories": [
+    "media"
+  ],
+  "content_tags": [
+    {
+      "name": "NONPROFIT",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

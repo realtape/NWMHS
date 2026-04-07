@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Vaizdų galerija",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Užrašas",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Skaidrė",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Atidaryti nuorodą naujame skirtuke",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Rodyti užrašą",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Nuorodos URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Vaizdas",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Kintamas aukštis",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Fiksuotas aukštis",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Paieška",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Kintamas aukštis",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Rodyti naršymo mygtukus",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Miniatiūrų naršymas",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standartinis slankiklis",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "„Lightbox“ galerija",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Paieška",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Rodymo režimas",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Kartoti skaidres",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Paieška",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Dėti užrašus vienus ant kitų vaizdų viršuje",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Visada palikti užrašus po vaizdu",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Užrašo padėtis",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Laikas sekundėmis tarp automatinio slinkimo",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Išnykimas",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Skaidrė",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Paieška",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Skaidrių perėjimai",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rodyti „Lightbox“ galerijos eilutes",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": " \nAutomatinis išankstinis",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Šis modulis buvo panaikintas ir pakeistas dviem naujais ir patobulintais moduliais – „Image Slider“ ir „Image Grid“ <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Sužinoti daugiau.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "شبكة الشعار",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "الشعارات",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "الشعار",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "الأنماط",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "صورة الشعار",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "أقصى ارتفاع للشعار",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "يضبط الحد الأقصى لارتفاع الشعارات.<br><br>يعد تعيين الحد الأقصى لارتفاع الشعار هو الخيار الأفضل عند محاولة جعل شعارات متعددة ذات أبعاد مختلفة تمامًا متساوية في الحجم بصريًا.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "الخلفية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "نسبة العرض إلى الارتفاع",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "تعيين نسبة العرض إلى الارتفاع لحاوية الشعار. يكون هذا الخيار مفيدًا للغاية إذا كنت تستخدم حقل لون الخلفية وتستخدم شعارات ذات أبعاد مختلفة تمامًا.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "لون الخلفية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "التباعد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "التباعد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "ضبط ترك مساحة حول الشعار.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "نظرًا لطبيعة استجابة الويب، قد يكون الارتفاع المعروض للشعارات أقل من القيمة المحددة استنادًا إلى مجموعة عوامل منها حجم الشاشة وحجم الصورة الأصلية ومساحة الشعار وفجوة الشبكة وعدد الأعمدة.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "شبكة الشعار",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "عدد أعمدة الشبكة",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "قم بتعيين عدد الأعمدة في الشبكة على أجهزة الكمبيوتر المكتبية. الإعدادات الافتراضية هي 1 على الهاتف المحمول.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "قد يساعدك تعيين لون الخلفية في <strong>صورة الشعار > الخلفية</strong> في تصور شبكة الشعار.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "فجوة الشبكة",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "قم بتعيين التباعد بين عناصر الشبكة.<br><br>قد يساعدك تعيين خلفية في <strong>صورة الشعار > الخلفية</strong> في تصور شبكة الشعار.",
+    "description": "",
+    "placeholders": null
+  }
+}

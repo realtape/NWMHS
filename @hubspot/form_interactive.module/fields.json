@@ -1,0 +1,15 @@
+[
+  {
+    "label": "Form",
+    "name": "form",
+    "type": "form",
+    "sortable": false,
+    "default": {
+      "form_id": "",
+      "response_type": "redirect",
+      "message": "Thanks for submitting the form.",
+      "redirect_id": null,
+      "redirect_url": "http://www.google.com"
+    }
+  }
+]

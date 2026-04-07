@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Indlægsliste",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Mest populære - de sidste seks måneder",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Mest populære - nogensinde",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Mest populære - den seneste måned",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Mest populære - det seneste år",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Seneste",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Søg",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Vis blogindlæg efter",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Som standard bruges den nuværende blog, når der bruges en blogskabelon, og ellers bruges den primære blog.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Vælg en blog, der skal vises",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Det maksimale antal blogindlæg, der skal vises",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Seneste indlæg",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Angiv den titel, der skal vises",
+    "description": "",
+    "placeholders": null
+  }
+}

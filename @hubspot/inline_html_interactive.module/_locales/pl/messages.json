@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Adres e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Numer telefonu",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Pobieranie plików",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Łącza do spotkań",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Jedna z Twoich stron",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "Adres URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Łącze do",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Łącza do spotkań",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Otwórz łącze w nowej karcie",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Strona",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Osadzony kod HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Treść przycisku",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "Kod HTML zostanie wyrenderowany w ramach przycisku. Możesz użyć tylko tagów, które są prawidłowe w ramach <a>tagu.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Kliknij tutaj",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Otwórz łącze w nowej karcie",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Zaawansowane",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Niestandardowe zasady kaskadowych arkuszy stylów",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Selektor",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Ta wartość jest łączona z selektorem CTA. Na przykład selektor „:hover” staje się selektorem ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Styl",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Dodawaj niestandardowe zasady stylu kaskadowych arkuszy stylów. Na przykład: „border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Niestandardowe klasy kaskadowych arkuszy stylów",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Dodawaj niestandardowe klasy kaskadowych arkuszy stylów do łączy wezwań do działania.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Niestandardowe arkusze stylów CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Dodawaj niestandardowe kaskadowe arkusze stylów (CSS) do wezwań do działania (CTA), na przykład: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Użyj wcześniejszego znacznika",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Umieść kod HTML we wcześniejszych znacznikach w celu obsługi istniejących kaskadowych arkuszy stylów",
+    "description": "",
+    "placeholders": null
+  }
+}

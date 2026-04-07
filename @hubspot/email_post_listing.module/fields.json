@@ -1,0 +1,59 @@
+[
+  {
+    "label": "Select blog to display",
+    "name": "select_blog",
+    "id": "5c3b2c23-6585-a913-cabe-1d5ba025a1b9",
+    "type": "blog",
+    "help_text": "Default will use the current blog when used in a blog template or the primary blog when used elsewhere."
+  },
+  {
+    "label": "List blog posts by",
+    "name": "listing_type",
+    "id": "f245b59c-d2ea-08ab-a40a-e545bc71d2cf",
+    "type": "choice",
+    "choices": [
+      [
+        "recent",
+        "Most recent"
+      ],
+      [
+        "popular_all_time",
+        "Most popular - all time"
+      ],
+      [
+        "popular_past_year",
+        "Most popular - past year"
+      ],
+      [
+        "popular_past_six_months",
+        "Most popular - past six months"
+      ],
+      [
+        "popular_past_month",
+        "Most popular - past month"
+      ]
+    ],
+    "display": "select",
+    "placeholder": "Search",
+    "required": true,
+    "default": "recent"
+  },
+  {
+    "label": "List title to display",
+    "name": "list_title",
+    "id": "643831b9-0aa6-a0ef-f3db-b5a71143168e",
+    "type": "text",
+    "validation_regex": "",
+    "default": "Recent Posts"
+  },
+  {
+    "label": "Maximum blog posts to list",
+    "name": "max_links",
+    "id": "1417ad86-21ca-17b6-09a8-65ca54def75b",
+    "type": "number",
+    "display": "text",
+    "min": 1,
+    "step": 1,
+    "default": 5
+  }
+]

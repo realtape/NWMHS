@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "标题",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "清晰醒目的标题",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "标题内容",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "选择标题级别。H1 最大，H2 次之，以此类推",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "选择标题类型",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "标题级别",
+    "description": "",
+    "placeholders": null
+  }
+}

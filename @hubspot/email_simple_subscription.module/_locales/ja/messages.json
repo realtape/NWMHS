@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "配信解除バックアップ",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "ボタンテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "配信停止",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Eメールの配信解除",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "見出し",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Eメール入力のプレースホルダー（仮挿入）テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Eメールアドレス：",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Eメール入力のヘルプテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "エラーメッセージ",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "ページを読み込む際に問題が発生しました。新しいEメール内の同様のリンクを使用してみるか、配信設定の変更について会社にご相談ください。",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "小見出し",
+    "description": "",
+    "placeholders": null
+  }
+}

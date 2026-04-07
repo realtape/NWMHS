@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "การชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "เพิ่มไอคอน",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "ลิงก์ของปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "อื่นๆ",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "ใช้ลิงก์การชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "เป้าหมายของปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "ชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "ข้อความบนปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "เปิดในแท็บใหม่",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "การซ้อนทับแบบสไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "พฤติกรรมการชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "ปิดการชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "ไอคอน",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "ไอคอน",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "ซ้าย",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "ขวา",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "ตำแหน่ง",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "ลิงก์การชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "การจัดแนว",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "การจัดแนว",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "สี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "พื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "ขอบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "ขอบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "มุม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "รัศมี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "สี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "พื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "ขอบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "ขอบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "สี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "ไอคอน",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "วางเมาส์เหนือ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "แบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "ข้อความ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "สี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "ไอคอน",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "ขนาด",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "การเว้นวรรคระหว่างไอคอนและข้อความบนปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "เว้นวรรค",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "รูปแบบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "เว้นวรรค",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "เว้นวรรค",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "แบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "ข้อความ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "ใช้ตัวพิมพ์ใหญ่",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "ตัวพิมพ์เล็ก",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "ตัวพิมพ์ใหญ่",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "แปลง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "ไม่มี",
+    "description": "",
+    "placeholders": null
+  }
+}

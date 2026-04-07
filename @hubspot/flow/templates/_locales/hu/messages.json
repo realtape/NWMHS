@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Az árajánlat lejárt",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "A(z) {{ personalization_token('quote.hs_quote_number', '') }} árajánlat {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }} dátummal lejárt.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "A további részletekért <a href='#'>lépjen kapcsolatba az üzletkötőjével</a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Számlázási gyakoriság",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Egységár",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Ár",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Termékek és szolgáltatások",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Mennyiség",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "Termékváltozat",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Végrehajtás<br> összegzése",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Használati feltételek",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Megjegyzések",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Projekt<br>elfogadása",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Alfejléc",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "A mi<br> történetünk",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Lelkesedünk az iránt,<br>amit csinálunk",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Ezt mondják rólunk<br>az ügyfeleink",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Projekt<br>összegzése",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Céljaink",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Munka<br>leírása",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Projekt<br>becsült költsége",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "A<br>szerződés",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Készült a következő részére:",
+    "description": "",
+    "placeholders": null
+  }
+}

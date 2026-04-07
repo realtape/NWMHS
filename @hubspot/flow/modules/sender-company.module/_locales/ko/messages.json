@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "보낸 사람 회사",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_image.inline_help_text": {
+    "message": "이미지를 선택하면 회사 로고로 표시됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_image.label": {
+    "message": "보낸 사람 회사 이미지",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_address.label": {
+    "message": "보낸 사람 회사 주소",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_address.default": {
+    "message": "<span style='font-weight: bold;'>{{ personalization_token('template_data.quote.hs_sender_company_name', '') }}</span><br>{{ personalization_token('template_data.quote.hs_sender_company_address', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_address2', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_city', '')}}, {{ personalization_token('template_data.quote.hs_sender_company_state', '')}} {{ personalization_token('template_data.quote.hs_sender_company_zip', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_country', '') }}<br>",
+    "description": "",
+    "placeholders": null
+  }
+}

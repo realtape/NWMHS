@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Galerija slik",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Napis",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Diapozitiv",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Odpri povezavo v novem zavihku",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Pokaži napis",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL povezave",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Slika",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Spremenljiva višina",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Fiksna višina",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Išči",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Spremenljiva višina",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Pokaži gumbe za krmarjenje",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Krmarjenje po sličicah",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standardni drsnik",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galerija Lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Išči",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Način prikaza",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Zanka diapozitivov",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Išči",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Prekrij napise na vrhu slik",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Vedno ohrani napise pod sliko",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Položaj napisov",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Čas v sekundah med samodejnim pomikanjem",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Zbledi",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Diapozitiv",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Išči",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Prehodi diapozitiviv",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Vrstice za galerijo z učinki lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Samodejno nadaljuj",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Ta modul je bil opuščen v korist dveh novih in izboljšanih modulov, Image Slider in Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Več o tem.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

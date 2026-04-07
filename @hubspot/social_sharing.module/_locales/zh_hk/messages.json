@@ -1,0 +1,142 @@
+{
+  "email.custom_link_format.default": {
+    "message": "mailto:?subject=快來查看 {{ social_link_url|urlencode }} &body=快來查看 {{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email.custom_link_format.label": {
+    "message": "連結",
+    "description": "",
+    "placeholders": null
+  },
+  "email.enabled.label": {
+    "message": "已啟用？",
+    "description": "",
+    "placeholders": null
+  },
+  "email.label": {
+    "message": "電郵",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.custom_link_format.default": {
+    "message": "http://www.facebook.com/share.php?u={{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.custom_link_format.label": {
+    "message": "連結",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.enabled.label": {
+    "message": "已啟用？",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.label": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "此為原始網址，於社交網絡分享時會縮短，方便分享。",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "連結 URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link.placeholder": {
+    "message": "選用自訂頁面 URL",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.custom_link_format.default": {
+    "message": "http://www.linkedin.com/shareArticle?mini=true&url={{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.custom_link_format.label": {
+    "message": "連結",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.enabled.label": {
+    "message": "已啟用？",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.label": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "社交媒體分享",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.custom_link_format.default": {
+    "message": "http://pinterest.com/pin/create/button/?url={{ social_link_url|urlencode }}&media={{ pinterest_media }}",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.custom_link_format.label": {
+    "message": "連結",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.enabled.label": {
+    "message": "已啟用？",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.label": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.pinterest_media.label": {
+    "message": "釘選圖片",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.custom_link_format.default": {
+    "message": "https://twitter.com/intent/tweet?original_referer={{ social_link_url|urlencode }}&url={{ social_link_url|urlencode }}&source=tweetbutton&text={{ social_page_title|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.custom_link_format.label": {
+    "message": "連結",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.enabled.label": {
+    "message": "已啟用？",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.label": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.label": {
+    "message": "Twitter 圖示",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.choices.twitter": {
+    "message": "Twitter 雀仔",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.choices.x-twitter": {
+    "message": "Twitter X",
+    "description": "",
+    "placeholders": null
+  }
+}

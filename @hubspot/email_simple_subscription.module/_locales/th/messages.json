@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "สำรองข้อมูลการยกเลิกการติดตาม",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "ข้อความบนปุ่ม",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "ยกเลิกการติดตาม",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "ยกเลิกการติดตามทางอีเมล",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "หัวเรื่อง",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "ข้อความในวงเล็บสำหรับกรอกอีเมล",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "อีเมลของคุณ:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "ข้อความยกตัวอย่างอีเมล",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "ข้อความแสดงข้อผิดพลาด",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "เกิดปัญหาในการโหลดหน้า โปรดลองอีกครั้งโดยใช้ลิงก์เดียวกันจากอีเมลฉบับล่าสุด หรือติดต่อบริษัทเพื่ออัปเดตการตั้งค่าการสมัครของคุณ",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "ส่วนหัวย่อย",
+    "description": "",
+    "placeholders": null
+  }
+}

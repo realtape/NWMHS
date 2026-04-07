@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Сітка логотипу",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Логотипи",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Логотип",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Стилі",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Зображення логотипу",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Максимальна висота логотипу",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Налаштовує максимальну висоту логотипів.<br><br>Найкраще налаштовувати максимальну висоту логотипів, якщо потрібно зробити кілька логотипів кардинально різних розмірів, але візуально однакових.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Співвідношення сторін",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Задати співвідношення сторін контейнера з логотипом. Найоптимальніше використовувати поле кольору тла й логотипи кардинально різних розмірів.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Колір фону",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Інтервал",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Інтервал",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Налаштувати заповнення навколо логотипа.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Через адаптивну природу інтернету відображувана висота логотипів може бути меншою заданого значення, що залежить від комбінації розміру екрана, оригінального розміру зображення, заповнення логотипа, розміру сітки та кількості стовпців.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Сітка логотипу",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Кількість стовпчиків сітки",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Налаштуйте кількість стовпців у сітці на робочому столі. Стандартно — «1» для мобільних пристроїв.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Налаштування кольору тла в меню <strong>Зображення логотипа > Тло</strong> може допомогти вам візуалізувати сітку для логотипа.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Розмір сітки",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Визначте проміжок між елементами сітки.<br><br>Налаштування тла в меню <strong>Зображення логотипа > Тло</strong> може допомогти вам візуалізувати сітку для логотипа.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Betaal nou",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Betalingsknoppieteks",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Maak seker dat dit duidelik is dat jou kliënt kan betaal deur op hierdie knoppie te klik.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Daar was 'n probleem om die betaalpunt op te stel. Kontak asseblief die persoon wat hierdie kwotasie vir jou gestuur het.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Betaalpunt-foutboodskap",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Sê vir jou kliënt wat om te doen as daar 'n probleem is om te betaal.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "O1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "O2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "O3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "O4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "O5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "O6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Kies 'n opskrifvlak. O1 is die grootste, gevolg deur O2, ensovoorts",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Opskrifvlak",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Opskrifinhoud",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Maak eerste betaling:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Jou klant sal dit sien in die betalingsknoppie totdat hy of sy die eerste paaiement betaal het.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Knoppieteks vir betalingskedules",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Betaling kan nie plaasvind nie want die kwotasie is nie volledig onderteken nie.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Verduidelikingsteks wanneer handtekening benodig word",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Indien handtekening benodig word voor betaling, sal jou kliënt hierdie boodskap sien totdat alle nodige handtekeninge voltooi is.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Betaal",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Teks vir betaal",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Betaal teen [[ paid_time ]] op [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Betaling word verwerk",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Betalingverwerkingsteks",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Daar was 'n probleem met die laai van die betalingstatus van hierdie kwotasie. Probeer asseblief om die bladsy te herlaai.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Betalingstatus-foutboodskap",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Sê vir jou kliënt om die bladsy te herlaai wanneer hulle nie betalingstatus kan   oproep nie. ",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Dit is 'n toetskwotasie, dit kan dus nie regte betalings insamel nie.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Jy kan besluit of jy betaling wil invorder wanneer jy 'n kwotasie met hierdie templaat skep.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Om te betaal, kontak asseblief die persoon wat hierdie kwotasie vir jou gestuur het.",
+    "description": "",
+    "placeholders": null
+  }
+}

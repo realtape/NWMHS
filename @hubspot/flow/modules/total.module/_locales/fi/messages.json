@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Yhteensä",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Erääntyy nyt",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Tätä käytetään merkitsemään tarjouksen kokonaissumma, kun tarjouksessa on tulevia maksuja.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Erääntyy nyt -teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Yhteensä",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Summan teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Sopimuksen kokonaisarvo",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Muokkaa tekstiä kuvaamaan tätä arvoa tarkasti. (Oletusarvo on vuosittainen arvo, jos ehtoja ei ole asetettu.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Sopimuksen kokonaisarvon teksti",
+    "description": "",
+    "placeholders": null
+  }
+}

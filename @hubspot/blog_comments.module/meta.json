@@ -1,0 +1,20 @@
+{
+  "label": "Blog Comments",
+  "host_template_types": ["BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/edited-comments.svg",
+  "extra_classes": "widget-type-blog_comments",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": ["blog"],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "editable_contexts": ["TEMPLATE"]
+}

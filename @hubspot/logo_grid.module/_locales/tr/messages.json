@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Logo kılavuzu",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logolar",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiller",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Logo görüntüsü",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Maks. logo yüksekliği",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Logoların maksimum yüksekliğini ayarlar. <br><br>Maksimum logo yüksekliğini, büyük ölçüde farklı boyutlara sahip birden fazla logoyu görsel olarak eşit boyutta yapmaya çalışırken, ayarlamak için en iyi zamandır.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Arka plan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "En-boy oranı",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Logo kapsayıcısının en boy oranını ayarlayın. Arka plan renk alanını ve çok farklı boyutlarda logolar kullanıyorsanız, çok kullanışlıdır.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Arka plan rengi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Aralık",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Aralık",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Logo etrafında yer alan doldurmayı ayarlayın",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Web'in duyarlı doğasından ötürü, logoların işlenen yüksekliği ekran boyutu, orijinal görüntü boyutu, logo dolgusu, ızgara boşluğu ve sütun sayısı birleşimine bağlı olarak ayarlanan değerden daha az olabilir.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Logo kılavuzu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Kılavuz kolon sayısı",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Masaüstündeki ızgarada yer alan sütun miktarını ayarlayın. Mobil cihazlarda varsayılan olarak 1'dir.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "<strong>Logo image > Background</strong> bölümünde arka plan rengini ayarlamak, logo ızgarasını görselleştirmenize yardımcı olabilir.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Izgara aralığı",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Izgara öğeleri arasındaki boşluğu ayarlayın.<br><br><strong>Logo image > Background</strong> bölümünde bir arka plan ayarlamak logo ızgarasını görselleştirmenize yardımcı olabilir.",
+    "description": "",
+    "placeholders": null
+  }
+}

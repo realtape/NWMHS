@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "E-mailabonnement blog",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Met de standaardinstelling wordt het huidige blog gebruikt bij gebruik in een blogtemplate of het primaire blog bij gebruik elders.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Weer te geven blog selecteren",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Meld je hier aan!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Titel om boven formulier weer te geven",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Inline-reactie voor gebruikers",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Bedankt dat je je hebt aangemeld!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Om het blogabonnementformulier te laten verschijnen, moet je abonnementen voor je blog inschakelen. Dit kan worden gedaan in de instellingen. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Meer informatie</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Kopniveau",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Kies een kopniveau. Koppen moeten hiërarchisch geplaatst worden op basis van je inhoud. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Meer informatie</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

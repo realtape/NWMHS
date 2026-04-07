@@ -1,0 +1,24 @@
+{
+  "label": "Call-to-Action",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "../img/icon/email-cta.svg",
+  "extra_classes": "widget-type-cta",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "is_available_for_new_content": false,
+  "categories": [
+    "forms_and_buttons"
+  ],
+  "content_tags": [
+    {
+      "name": "AVIATION",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

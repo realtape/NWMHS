@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Sayfa bulunamadı",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Aradığınız sayfayı bulamıyoruz.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Ana sayfaya gidin",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Sayfa çalışmıyor",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Dahili bir sunucu hatası oluştu ancak, üzerinde çalışıyoruz!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Ana sayfaya gidin",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Şirket logosu",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "E-posta tercihleriniz güncellenmiştir.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Tüm e-posta iletişimlerinden başarıyla çıktınız.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "E-posta tercihleriniz güncellenmiştir.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "E-posta tercihlerini şunun için güncelleyin",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "{{ site_settings.company_name }} şirketinden hangi e-postaları almak istediğinizi seçin:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "{{ business_unit().name }} şirketinden hangi e-postaları almak istediğinizi seçin:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Bir dil seçin:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "E-posta tercihlerini güncelleyin",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Tüm e-posta aboneliklerinden çıkın",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Bu sizin adresiniz değilse, büyük olasılıkla size başka birinden bir e-posta iletilmiştir, bu mesajı güvenle yok sayabilirsiniz.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Şu anda tüm e-postalarımızdan çıkmış durumdasınız. E-postalarımızı tekrar almak ister misiniz?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Evet, beni yeniden abone yapın!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Şifre gereklidir",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Bu sayfayı görmek için şifrenizi girin",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Şifre",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "\"[[search_term]]\" için arama sonuçları",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Üzügünüz, erişiminiz yok",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Bu sayfayı görüntüleme izniniz yok. Sorularınız için sitenin yöneticisiyle iletişime geçin.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Ana sayfaya gidin",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Oturum aç",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Görüntülemeye çalıştığınız sayfa yalnızca kayıtlı kullanıcılar tarafından kullanılabilir.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "E-posta adresi",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Şifre",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Beni hatırla",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Şifenizi mi unuttunuz?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Oturum aç",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Göster",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Sorun mu yaşıyorsunuz? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Sitenin yöneticisine başvurun</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Çıkış yaptınız",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Tekrar giriş yapın",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Veya <a href=\"{{ '//' ~ request.domain }}\">anasayfa</a>'ya geri dönün",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Şifrenizi oluşturun",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Hoş geldiniz! Şifrenizi oluşturarak kaydınızı tamamlayın.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "E-posta adresi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Şifreyi onaylayın",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Şifre",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Şifreyi kaydet",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Göster",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Sorun mu yaşıyorsunuz? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Sitenin yöneticisine başvurun</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Şifrenizi sıfırlayın",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Kayıt olmak için kullandığınız e-posta adresini girin, size şifrenizi sıfırlamak için bağlantı içeren bir e-posta göndereceğiz.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "E-posta adresi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Sıfırlama e-postası gönder",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Size geri mi döndü?<a href=\"/_hcms/mem/login\">Oturum açın</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Sorun mu yaşıyorsunuz? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Sitenin yöneticisine başvurun</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "Şifre sıfırlama e-postası gönderildi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "{{ user_email }} e-posta adresi için eşleşen bir hesap bulunursa, şifrenizi sıfırlamak için sonraki adımları içeren bir e-posta gönderilecektir. 20 dakika içinde almazsanız, lütfen <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">yöneticinizle iletişime geçin</a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Başka bir sıfırlama e-postası gönder",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Yeni bir şifre oluşturun",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Yeni şifreniz daha önce kullandığınız şifrenizden farklı olmalıdır.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Yeni şifre",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Yeni şifreyi onaylayın",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Şifreyi kaydet",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Göster",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Sorun mu yaşıyorsunuz? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Sitenin yöneticisine başvurun</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "E-posta adresiniz onaylandı",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "E-posta adresinizi doğruladığınız için teşekkür ederiz. Artık hesabınıza giriş yapabilir ve özel içeriğinize erişebilirsiniz.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Oturum aç",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Sorun mu yaşıyorsunuz? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Sitenin yöneticisine başvurun</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Tek seferlik oturum açma bağlantısı gönderildi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Size {{ user_email }} adresinden bir e-posta gönderdik. E-postada, oturum açmanızı sağlayacak bir bağlantı mevcut.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "E-postayı göremiyorsanız lütfen spam klasörünüzü kontrol edin.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Oturum açma bağlantısını yeniden gönder",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "veya",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Bunun yerine şifreyle oturum aç",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Sorun mu yaşıyorsunuz? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Sitenin yöneticisine başvurun</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Email adresinizi doğrulayın",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Kayıt olduğunuz için teşekkür ederiz! Kaydınızı tamamlamak için lütfen e-postanızı kontrol edin ve onay bağlantısını tıklayın.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Sorun mu yaşıyorsunuz? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Sitenin yöneticisine başvurun</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Kayıt işlemini tamamlamak için bir şifre oluşturun",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Güvenli şifrenizi oluşturduktan sonra, oturum açabilir ve {{ membership_domain }} adresinden içeriğe erişebilirsiniz.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Şifre oluştur",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Veya bu bağlantıyı kopyalayıp tarayıcınıza yapıştırın:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Sorularınız varsa veya bunu yanlışlıkla aldıysanız, lütfen<a href=\"{{ membership_website_admin }}\">sitenin yöneticisi ile iletişime geçin.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Şifrenizi sıfırlayın",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Yeni bir şifre belirleyin ve hesabınızda oturum açın.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Şifreyi sıfırla",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Bu istekte bulunmadıysanız, bu e-postayı güvenle yok sayabilirsiniz. <br/>Sorularınız varsa, lütfen <a href=\"{{ membership_website_admin }}\">sitenin yöneticisiyle iletişime geçin</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Tek seferlik bağlantıyla oturum açın",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Hesabınızda oturum açmaya devam edin. Güvenliğiniz için bu bağlantının geçerliliği 15 dakika içinde sona erecektir.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Oturum aç",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Veya bu bağlantıyı kopyalayıp tarayıcınıza yapıştırın:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Bu istekte bulunmadıysanız, bu e-postayı güvenle yok sayabilirsiniz. <br/>Sorularınız varsa, lütfen <a href=\"{{ membership_website_admin }}\">sitenin yöneticisiyle iletişime geçin</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "{{ membership_company_name }} şifreniz başarıyla değiştirildi",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Bu değişikliği yapmak istemediniz mi? Şifrenizi şimdi sıfırlamak için <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">unutulmuş şifre</a> formunu kullanın.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Sorularınız varsa, lütfen <a href=\"{{ membership_website_admin }}\">sitenin yöneticisi</a> ile iletişime geçin",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Kaydınız tamamlandı",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Kayıt olduğunuz için teşekkür ederiz! Hazırsınız. Artık daha da fazla değere erişmek ve bunların kilidini açmak üzere oturum açabilirsiniz.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Yeni hesabınızda oturum açın",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Sorularınız varsa veya bunu yanlışlıkla aldıysanız, lütfen<a href=\"{{ membership_website_admin }}\">sitenin yöneticisi ile iletişime geçin.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "{{ membership_company_name }} hoş geldiniz",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Kayıt işleminizi, hesabınız için güvenli bir şifre oluşturarak tamamlayın.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Şifre oluştur",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Veya bu bağlantıyı kopyalayıp tarayıcınıza yapıştırın:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Sorularınız varsa veya bunu yanlışlıkla aldıysanız, lütfen<a href=\"{{ membership_website_admin }}\">sitenin yöneticisi ile iletişime geçin.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Email adresinizi doğrulayın",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Kayıt olduğunuz için teşekkür ederiz! {{ membership_domain }} için kaydı tamamlamak üzere e-posta adresinizi doğrulamanız gerekecek.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "E-posta Adresini doğrulayın",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Sorularınız varsa veya bunu yanlışlıkla aldıysanız, lütfen<a href=\"{{ membership_website_admin }}\">sitenin yöneticisi ile iletişime geçin.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Lütfen silme talebinizi onaylayın",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Silme talebinizi onaylayın",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Merhaba {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "{{ company_name }} şirketinden kişisel verilerinizin silinmesi için bir talep aldık:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Cihaz:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Tarih ve Saat</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Talebinizi işleme alabilmemiz için, lütfen verilerinizi silmek istediğinizi onaylayın.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Evet, verilerimi silin",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Bu bağlantının geçerliliği 30 dakika içinde sona erecektir.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Silinmeyi talep etmediyseniz, bu mesajı güvenli bir şekilde göz ardı edebilirsiniz.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Resultats de la cerca del lloc",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Mostra les imatges destacades",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>No hi ha resultats per a [[search_term]].</p><p>Prova de reformular la consulta o examina el nostre lloc.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Pàgina anterior",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Pàgina següent",
+    "description": "",
+    "placeholders": null
+  }
+}

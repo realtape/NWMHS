@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "이메일 주소",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "전화번호",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "파일 다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "미팅 링크",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "페이지 중 하나",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "연결 대상",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "미팅 링크",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "새 탭에서 링크 열기",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "페이지",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "인라인 HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "버튼 콘텐츠",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "버튼 안에 렌더링되는 HTML. <a> 태그 내에서 유효한 태그만 사용할 수 있습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "여기를 클릭하세요",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "새 탭에서 링크 열기",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "고급",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "사용자 CSS 규칙",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "선택자",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "이 값은 CTA 선택자와 결합됩니다. 예: ':hover'는 ${ctaSelector}:hover가 됩니다. ",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "스타일",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "스타일 규칙에 대한 사용자 CSS를 추가합니다. 예: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "사용자 CSS 클래스",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "사용자 CSS 클래스를 CTA 링크에 추가하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "사용자 CSS 스타일시트",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "사용자 지정 CSS 스타일시트를 CTA에 추가하십시오(예: border-bottom: 3px solid #3e4d68; color: yellow;).",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "레거시 마크업 사용",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "기존 CSS 지원을 위해 레거시 마크업에서 HTML 래핑",
+    "description": "",
+    "placeholders": null
+  }
+}

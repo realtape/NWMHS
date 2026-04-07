@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Истек срок действия этого ценового предложения",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Срок действия ценового предложения {{ personalization_token('quote.hs_quote_number', '') }} истек {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Для получения дополнительной информации обратитесь к <a href='#'>своему торговому представителю</a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Периодичность выставления счетов",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Цена единицы товара",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Цена",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Продукты и услуги",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Количество",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "Номер SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Резюме для<br>руководства",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Условия и положения",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Комментарии",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Принятие<br>проекта",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Подзаголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Наша<br> история",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Мы любим<br>свою работу",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Что наши клиенты<br>говорят о нас",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Краткая информация о проекте<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Наши цели",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Техническое<br>задание",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Смета проекта<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "Контракт<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Подготовлено для",
+    "description": "",
+    "placeholders": null
+  }
+}

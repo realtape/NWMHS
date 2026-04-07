@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Divider",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Alignment",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Gitna",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Kaliwa",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Kanan",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Kulay",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Taas",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Uri ng Line",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Dashed",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Dotted",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Solid",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Padding",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maximum na 20 pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Ipakita ang padding?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Lapad",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Porsiyento ng bahagi kung saan inilagay ang divider.",
+    "description": "",
+    "placeholders": null
+  }
+}

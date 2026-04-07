@@ -1,0 +1,9 @@
+{# Prominently displays the quote title #}
+
+<header class="header">
+  {% if module.displayed_header %}
+    {{ module.displayed_header|render|sanitize_html }}
+  {% elif quote.hs_title %}
+    {{ quote.hs_title|sanitize_html }}
+  {% endif %}
+</header>

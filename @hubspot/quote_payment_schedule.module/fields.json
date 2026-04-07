@@ -1,0 +1,74 @@
+[
+  {
+    "label": "Scheduled payment heading",
+    "name": "scheduled_payment_heading",
+    "type": "richtext",
+    "enabled_features": ["colors", "fonts", "standard_emphasis", "personalize"],
+    "default": "<h2>Payment Schedule</h2>"
+  },
+  {
+    "label": "Payment schedule columns",
+    "name": "payment_schedule_columns",
+    "type": "group",
+    "children": [
+      {
+        "label": "Name",
+        "name": "schedule_name",
+        "type": "text",
+        "default": "Name"
+      },
+      {
+        "label": "Due",
+        "name": "due_date",
+        "type": "text",
+        "default": "Due"
+      },
+      {
+        "label": "Amount",
+        "name": "amount",
+        "type": "text",
+        "default": "Amount"
+      }
+    ]
+  },
+  {
+    "label": "Default text",
+    "name": "default_text",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Scheduled payments",
+        "name": "scheduled_payments",
+        "type": "text",
+        "default": "Scheduled payments"
+      }
+    ]
+  },
+  {
+    "label": "Due text",
+    "name": "due_text",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Due now",
+        "name": "due_now",
+        "type": "text",
+        "default": "Due now"
+      },
+      {
+        "label": "Paid",
+        "name": "paid",
+        "type": "text",
+        "default": "Paid"
+      },
+      {
+        "label": "Processing",
+        "name": "processing",
+        "type": "text",
+        "default": "Payment processing"
+      }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Záhlaví",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Srozumitelný a výrazný nadpis",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Obsah nadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Vyberte úroveň nadpisu. Nadpis N1 je největší, nadpis N2 o něco menší a tak dále.",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "N1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "N2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "N3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "N4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "N5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "N6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Vyberte typ nadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Úroveň nadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Skrýt ovládací prvky na úrovni nadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Skrytí ovládacích prvků na úrovni nadpisu znemožní změny na úrovni nadpisu v nástrojích obsahu",
+    "description": "",
+    "placeholders": null
+  }
+}

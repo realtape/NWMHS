@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horisontaalne",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertikaalne",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Horisontaalsed menüüd kuvavad üksusi kõrvuti ja vertikaalsed menüüd on ülalt alla",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orienteerumine",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Otsing",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Alammenüü üksused ilmuvad, kui hõljutate kursorit vanema kohal. Kui see on märkimata, kuvatakse alati alammenüü üksused",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Kas lubada väljalennud?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Menüüpuu on lehekülje struktuur, mis tekitab menüüs olevad üksused. Ühte menüüpuud saab kasutada mitme menüüga. Keerulise veebilehe struktuuri jaoks saab luua mitu menüüd. Menüüd luuakse ja neid hallatakse teie Sisu seadetes",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menüü",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Määrab menüü puuvaates alamüksuste arvu, mida menüüst saab laiendada",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Max tasemed",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Otsing",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menüü",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Jälgtee stiili teemenüü (kasutab horisontaalset voogu)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dünaamiline lehe järgi – kuvab menüüs lehti, mis on seotud vaadatava leheküljega",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Staatiline – kuvage menüüs alati ülataseme lehti",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dünaamiline jaotise järgi – kuvab menüüs lehti, mis on seotud vaadatava jaotisega",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Täpsemad menüüd näitavad menüüpuu erinevaid osi olenevalt sellest, millist lehekülge vaadatakse.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Täpsem menüütüüp",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Otsing",
+    "description": "",
+    "placeholders": null
+  }
+}

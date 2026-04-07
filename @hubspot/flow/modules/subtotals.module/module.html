@@ -1,0 +1,31 @@
+{% macro subtotal_section(frequency, frequency_text) %}
+  {% set subtotal_frequency = sub_totals|attr(frequency) %}
+  {% if subtotal_frequency %}
+    <div class="totals__row">
+      <span>{{ module.default_text.frequency_subtotal|render|sanitize_html }}</span>
+      <span>{{ subtotal_frequency.subtotal|format_currency_value(locale=locale, currency=currency, maxDecimalDigits=max_decimal_digits)|sanitize_html }}<br></span>
+    </div>
+    {% if subtotal_frequency.discount %}
+      <div class="totals-row__discount">
+        <span class="totals-row__discount__amount">
+          {% set discount_amount = subtotal_frequency.discount|format_currency_value(locale=locale, currency=currency, maxDecimalDigits=max_decimal_digits) %}
+          {{ module.default_text.after_discount|render|sanitize_html }}
+        </span>
+      </div>
+    {% endif %}
+  {% endif %}
+{% endmacro %}
+
+{% if sub_totals|length > 0 %}
+  {{ subtotal_section("weekly",  module.default_text.weekly) }}
+  {{ subtotal_section("biweekly",  module.default_text.per_two_weeks) }}
+  {{ subtotal_section("monthly",  module.default_text.monthly) }}
+  {{ subtotal_section("quarterly", module.default_text.quarterly) }}
+  {{ subtotal_section("per_six_months", module.default_text.per_six_months) }}
+  {{ subtotal_section("annually", module.default_text.annual) }}
+  {{ subtotal_section("per_two_years", module.default_text.per_two_years) }}
+  {{ subtotal_section("per_three_years", module.default_text.per_three_years) }}
+  {{ subtotal_section("per_four_years", module.default_text.per_four_years) }}
+  {{ subtotal_section("per_five_years", module.default_text.per_five_years) }}
+  {{ subtotal_section("one_time", module.default_text.one_time) }}
+{% endif %}

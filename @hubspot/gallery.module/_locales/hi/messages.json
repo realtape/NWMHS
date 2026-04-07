@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "इमेज गैलरी",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "कैप्शन",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "स्लाइड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "नए टैब में लिंक खोलें",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "कैप्शन दिखाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL लिंक",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "इमेज",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "वेरिएबल हाइट",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "फिक्स्ड हाइट",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "खोजें",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "वेरिएबल हाइट",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "नेविगेशन बटन दिखाए",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "थंबनेल नेविगेशन",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "स्टैंडर्ड स्लाइडर",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "लाइटबॉक्स गैलरी",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "खोजें",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "डिस्प्ले मोड",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "लूप स्लाइड",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "खोजें",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "छवियों के टॉप पर कैप्शन सुपरइम्पोज़ करें",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "इमेज के नीचे हमेशा कैप्शन रखें",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "कैप्शन की पॉज़िशन",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "ऑटो स्क्रॉलिंग के बीच सेकंड में समय",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "फेड",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "स्लाइड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "खोजें",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "स्लाइड ट्रांज़िशन्स",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "लाइटबॉक्स गैलरी के लिए पंक्तियाँ",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "ऑटो एडवांस",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "यह मॉड्यूल दो नए और बेहतर मॉड्यूल, इमेज स्लाइडर और इमेज ग्रिड के पक्ष में अब अप्रचलित हो गया है <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">और जानें।</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

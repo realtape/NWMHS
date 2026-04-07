@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logotip",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logotip",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Največja višina logotipa",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "To ne velja, če preglasite privzeti logotip",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "S tem preklopom lahko povozite logotip, uporabljen na tej predlogi.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Povozi privzeti logo",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Privzeto bodo vaše ponudbe prikazale logotip vašega podjetja iz kompleta blagovnih znamk v privzetih nastavitvah računa ali nastavitvah spletnega mesta.",
+    "description": "",
+    "placeholders": null
+  }
+}

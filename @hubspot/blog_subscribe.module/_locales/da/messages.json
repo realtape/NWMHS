@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Abonnement på blog-e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Som standard bruges den nuværende blog, når der bruges en blogskabelon, og ellers bruges den primære blog.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Vælg en blog, der skal vises",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Abonner her.",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Titel øverst på formularen",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Indbygget svar til brugere",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Tak fordi du abonnerer.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "For at blog-abonnementsformularen kan vises, skal du slå abonnementer til for din blog. Dette kan gøres i indstillinger<a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Få mere at vide</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Overskriftsniveau",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Vælg et overskriftsniveau. Overskrifter skal indlejres på en hierarkisk måde baseret på dit indhold. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Flere oplysninger</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

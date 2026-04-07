@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Preferencje subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Aktualizuj tekst przycisku preferencji",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Aktualizuj preferencje e-maili",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Preferencje komunikacji",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Nagłówek",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Podtytuł",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Jeśli to nie jest Twój adres e-mail, zignoruj tę stronę, gdyż powiązana z nią wiadomość najprawdopodobniej została do Ciebie przekazana.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Tak, zapisz mnie ponownie.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Tekst przycisku ponownej subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Anuluj subskrypcję całej marki",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Anuluj moje subskrypcje ze wszystkich list.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Wyczyść wybór przy tych typach e-mailach, których nie chcesz otrzymywać:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Tekst pomocniczy wyboru preferencji",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Lub zaznacz tutaj, aby nie otrzymywać więcej żadnych wiadomości:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Tekst pomocniczy anulowania wszystkich subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Tekst pomocniczy anulacji subskrypcji dla użytkowników nieposiadających subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Obecnie nie subskrybujesz żadnej z naszych wiadomości. Czy chcesz ponownie otrzymywać wiadomości?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Tekst przycisku pojedynczej subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Anulowanie subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Tekst potwierdzenia pojedynczej subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Czy na pewno chcesz anulować subskrypcję wiadomości e-mail dotyczących:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Przykładowa nazwa pojedynczej subskrypcji",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "wybrany typ subskrypcji",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Avgränsare",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Justering",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Center",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Vänster",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Höger",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Färg",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Höjd",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Radtyp",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Streckad",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Prickig",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Enfärgad",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Spaltfyllnad",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Max. 20 pixlar",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Visa utfyllning?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Bredd",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Procent av området som avgränsare placeras i.",
+    "description": "",
+    "placeholders": null
+  }
+}

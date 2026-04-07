@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "الشعار",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "الشعار",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "الارتفاع الأقصى للشعار",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "لا ينطبق هذا عند تجاوز الشعار الافتراضي",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "يمكنك اختيار تجاوز الشعار المطبق على هذا القالب باستخدام هذا التبديل.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "تجاوز الشعار الافتراضي",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "افتراضيًا، ستعرض عروض الأسعار الخاصة بك شعار شركتك من مجموعة أدوات العلامة التجارية الخاصة بك في إعدادات الحساب الافتراضية أو إعدادات صفحة موقع الويب.",
+    "description": "",
+    "placeholders": null
+  }
+}

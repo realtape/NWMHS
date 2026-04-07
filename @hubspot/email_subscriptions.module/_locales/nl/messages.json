@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": " Abonnementsvoorkeuren",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Tekst voor knop Voorkeuren bijwerken",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "E-mailvoorkeuren bijwerken",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Communicatievoorkeuren",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Kop",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Subkop",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Als dit niet jouw e-mailadres is, negeer deze pagina dan. De e-mail die is gekoppeld aan deze pagina was waarschijnlijk naar je doorgestuurd.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Ja, ik wil me weer abonneren!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Tekst voor knop Opnieuw abonneren",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Label alles afmelden",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Ik wil me afmelden voor alle mailinglijsten.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Deselecteer het type e-mails dat je niet wilt ontvangen:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Help-tekst voorkeurselectie",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Of selecteer dit vakje om nooit e-mails te ontvangen:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Help-tekst alles afmelden",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Helptekst alles afmelden voor een momenteel niet aangemelde gebruiker",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Je bent momenteel afgemeld voor al onze e-mails. Wil je onze e-mails weer gaan ontvangen?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Knoptekst enkel abonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Afmelden",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Bevestigingstekst enkel abonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Wil je je afmelden voor e-mails over:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Naam voorbeeld enkel abonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "het door jou geselecteerde abonnementstype",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Scheidingslijn",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Uitlijning",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Midden",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Links",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Hoogte",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Lijntype",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Streepjes",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Stippels",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Ononderbroken",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Opvulling",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maximum van 20 pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Opvulling weergeven?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Breedte",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Percentage van het gebied waarin de scheidingslijn is geplaatst.",
+    "description": "",
+    "placeholders": null
+  }
+}

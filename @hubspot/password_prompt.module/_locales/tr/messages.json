@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Şifre istemi",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Şifre yer tutucusu",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Şifre",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Kötü şifre mesajı",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Üzgünüm, lütfen tekrar deneyin.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Gönder",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Gönder düğmesi metni",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "密码提示",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "密码占位符",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "密码",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "密码信息无效",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "抱歉，请重试。",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "提交",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "“提交”按钮文本",
+    "description": "",
+    "placeholders": null
+  }
+}

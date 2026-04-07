@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Оплатить сейчас",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Текст кнопки оплаты",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Проверьте, будет ли понятно вашему клиенту, что нажатием на эту кнопку он может оплатить услугу.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "При настройке оформления заказа произошла ошибка. Свяжитесь с отправителем этого ценового предложения.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Сообщение об ошибке при оформлении заказа",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Объясните клиенту, что делать в случае проблем в начале оформления заказа.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Выберите уровень заголовка. H1 — самый крупный, затем идет H2 и так далее",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Уровень заголовка",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Оплата",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Содержимое заголовка",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Выполнить первый платеж:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Ваш клиент будет видеть это в кнопке оплаты, пока не оплатит первый взнос.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Текст кнопки для графиков платежей",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Оплата",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Оплата не может быть произведена, так как ценовое предложение подписано не полностью.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Пояснительный текст в случае необходимости подписей",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Если перед оплатой требуется проставить подписи, это сообщение будет отображаться для вашего клиента до тех пор, пока он не проставит все необходимые подписи.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Оплачено",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Текст «Оплачено»",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Оплачено [[ paid_time ]]  [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Обработка платежа",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Текст при обработке платежа",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "При загрузке состояния оплаты для этого ценового предложения произошла ошибка. Попробуйте обновить страницу.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Сообщение об ошибке для состояния оплаты",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Попросите клиента обновить страницу в случае сбоя получения статуса платежа.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Это тестовое ценовое предложение, по которому не предусмотрена реальная оплата.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Вы можете выбрать, получать ли оплату при создании ценовых предложений с помощью этого шаблона.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Для оформления заказа свяжитесь с лицом, которое отправило вам это ценовое предложение.",
+    "description": "",
+    "placeholders": null
+  }
+}

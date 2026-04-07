@@ -1,0 +1,62 @@
+{
+  "follow_up_type_automation.label": {
+    "message": "वर्कफ़्लो में जोड़ें",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.label": {
+    "message": "फ़ॉलो-अप ईमेल भेजें",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.help_text": {
+    "message": "फ़ॉलो-अप ईमेल भेजने के लिए, सुनिश्चित करें कि ' सेट कॉन्टेक्ट क्रिएटेड एज मार्केटिंग कॉन्टेक्ट' सेटिंग चालू है. आप इसे विकल्पों में प्रबंधित कर सकते हैं। <a href='https://knowledge.hubspot.com/contacts/set-contacts-as-marketing#set-the-default-marketing-status-for-new-contacts'>और अधिक जानें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "form.default.message": {
+    "message": "फ़ॉर्म सबमिट करने के लिए धन्यवाद।",
+    "description": "",
+    "placeholders": null
+  },
+  "form.label": {
+    "message": "फ़ॉर्म",
+    "description": "",
+    "placeholders": null
+  },
+  "form_follow_ups_workflow_id.label": {
+    "message": "वर्कफ़्लो",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "फ़ॉर्म",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_are_overridden.label": {
+    "message": "फ़ॉर्म सूचनाएँ फ़ॉर्म डिफ़ॉल्ट के बजाय दिए गए ईमेल पतों पर भेजें",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_override_email_addresses.label": {
+    "message": "ईमेल एड्रेस",
+    "description": "",
+    "placeholders": null
+  },
+  "sfdc_campaign.label": {
+    "message": "सेल्सफोर्स कैम्पैन",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "फ़ॉर्म टाइटल",
+    "description": "",
+    "placeholders": null
+  },
+  "simple_email_for_live_id.label": {
+    "message": "ईमेल",
+    "description": "",
+    "placeholders": null
+  }
+}

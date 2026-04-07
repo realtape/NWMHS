@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Paieškos svetainėje rezultatai",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Rodyti susijusius vaizdus",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Atsiprašome. [[search_term]] paieškos rezultatų nerasta.</p> <p>Pamėginkite perfrazuoti savo užklausą arba atsakymo paieškokite mūsų interneto svetainėje.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Ankstesnis puslapis",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Tolesnis puslapis",
+    "description": "",
+    "placeholders": null
+  }
+}

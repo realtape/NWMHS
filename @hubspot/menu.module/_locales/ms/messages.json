@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Mendatar",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Menegak",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Menu mendatar memaparkan item sebelah-menyebelah dan menu menegak memaparkan item atas ke bawah",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientasi",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Item menu anak akan muncul apabila anda tuding di atas induk. Jika tidak ditandakan, item menu anak akan sentiasa dipaparkan",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Dayakan terbang keluar?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Pepohon menu ialah struktur halaman yang menjanakan item dalam menu. Satu pepohon menu boleh digunakan dengan berbilang menu. Anda boleh mencipta berbilang menu untuk struktur laman web yang kompleks. Menu dicipta dan diurus dalam Tetapan Kandungan anda",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Menentukan bilangan anak pepohon menu yang boleh dikembangkan dalam menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Aras maksimum",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Menu laluan gaya jejak (menggunakan aliran mendatar)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinamik mengikut halaman - Menunjukkan halaman dalam menu yang berkaitan dengan halaman yang sedang dilihat",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statik - Sentiasa menunjukkan halaman peringkat tinggi dalam menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinamik mengikut bahagian - Menunjukkan halaman dalam menu yang berkaitan dengan bahagian yang sedang dilihat",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Menu lanjutan menunjukkan pelbagai bahagian pepohon menu berdasarkan halaman yang sedang dilihat.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Jenis menu lanjutan",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  }
+}

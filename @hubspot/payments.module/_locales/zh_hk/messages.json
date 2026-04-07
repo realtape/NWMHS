@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "付款",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "新增圖示",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "按鈕連結",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "其他",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "使用付款連結",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "按鈕目標",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "結帳",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "按鈕文字",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "在新分頁中開啟",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "滑入重疊層",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "結帳行為",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "關閉結帳",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "圖示",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "圖示",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "靠左",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "靠右",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "位置",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "付款連結",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "對齊",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "對齊",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "顏色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "邊界",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "邊界",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "邊角",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "半徑",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "顏色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "邊界",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "邊界",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "顏色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "圖示",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "暫留",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "字體",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "文字",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "顏色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "圖示",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "大小",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "圖示和按鈕文字之間的間距。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "間距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "樣式",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "間距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "間距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "字體",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "文字",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "改為大寫",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "小寫",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "大寫",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "轉換",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "無",
+    "description": "",
+    "placeholders": null
+  }
+}

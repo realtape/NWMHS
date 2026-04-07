@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horizontaal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Verticaal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Horizontale menu's geven items naast elkaar weer en verticale menu's van boven naar beneden",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Richting",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Onderliggende menu-items worden weergeven wanneer je de muis over het bovenliggende item beweegt. Als dit niet is geselecteerd, worden onderliggende items altijd weergegeven",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Flyouts inschakelen?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "De menustructuur is de paginastructuur die de items in het menu genereert. Een enkele menustructuur kan worden gebruikt voor meerdere menu's. Je kunt meerdere menu's aanmaken voor complexe website-structuren. Menu's worden aangemaakt en beheerd in je Inhoudsinstellingen.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Bepaalt het aantal onderliggende items in de menustructuur die in het menu kunnen worden uitgevouwen",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Maximale niveaus",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Padmenu in breadcrumb-stijl (gebruikt horizontale flow)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dynamisch per pagina - In het menu de pagina's weergeven die gerelateerd zijn aan de weergegeven pagina",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statisch - De pagina's op het hoogste niveau in het menu altijd weergeven",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dynamisch per paragraaf - In het menu de pagina's weergeven die gerelateerd zijn aan de weergegeven paragraaf",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Geavanceerde menu's geven verschillende delen van de menustructuur weer afhankelijk van welke pagina wordt bekeken",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Geavanceerd menutype",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  }
+}

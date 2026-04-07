@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Tato nabídka již není aktuální.",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Platnost nabídky {{ personalization_token('quote.hs_quote_number', '') }} vypršela dne {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Další podrobnosti si můžete <a href='#'>vyžádat od prodejního zástupce</a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Četnost fakturace",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Jednotková cena",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Cena",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Produkty a služby",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Množství",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "Skladová jednotka",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Stručný<br>přehled",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Smluvní podmínky",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Komentáře",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Přijetí<br>projektu",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Podnadpis",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Náš<br> příběh",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Svou práci<br>děláme srdcem",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Toto o nás<br>říkají naši klienti",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Shrnutí<br>projektu",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Naše cíle",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Specifikace<br>prací",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Odhad<br>projektu",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "Smlouva<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Připraveno pro",
+    "description": "",
+    "placeholders": null
+  }
+}

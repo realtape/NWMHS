@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Plati sada",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Tekst gumba za plaćanje",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Uvjerite se da ćete klikom na ovaj gumb omogućiti kupcu da izvrši plaćanje.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Došlo je do problema pri postavljanju završetka kupnje. Obratite se osobi koja vam je poslala ovu ponudu.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Poruka o pogrešci pri završetku kupnje",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Objasnite kupcu što treba činiti kada dođe do problema prilikom završetka kupnje.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Odaberite razinu naslova. Najveća je razina H1, slijedi je H2 i tako dalje",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Razina naslova",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Plaćanje",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Sadržaj naslova",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Izvršite prvo plaćanje:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Ovaj gumb za plaćanje prikazivat će se vašem kupcu dok ne plati prvu ratu.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Tekst gumba za raspored plaćanja",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Plaćanje",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Plaćanje ne moće biti izvršeno jer ponuda nije u potpunosti potpisana.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Tekst objašnjenja kada su potrebni potpisi",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Ako su potpisi potrebni prije plaćanja, ova će se poruka prikazivati kupcu sve dok ne izvrši sve potrebne potpise.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Plaćeno",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Plaćeni tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Plaćeno u [[ paid_time ]] na datum [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Obrada plaćanja",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Tekst obrade plaćanja",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Došlo je do problema prilikom učitavanja statusa plaćanja za ovu ponudu. Pokušajte osvježiti stranicu.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Poruka o pogrešci vezana uz status plaćanja",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Recite kupcu da osvježi stranicu ako dohvaćanje plaćanja ne uspije.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Ovo je probna ponuda, pa ne može prikupljati stvarna plaćanja.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Možete odlučiti želite li prikupiti plaćanje prilikom izrade ponude pomoću ovog predloška.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Da biste se odjavili, kontaktirajte osobu koja vam je poslala ovu ponudu.",
+    "description": "",
+    "placeholders": null
+  }
+}

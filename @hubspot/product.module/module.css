@@ -1,0 +1,117 @@
+.hs-product {
+  display: flex;
+  margin-bottom: 15px;
+  flex-direction: var(--layout-direction);
+}
+
+@media (max-width: 768px) {
+  .hs-product {
+    flex-direction: column;
+  }
+}
+
+.hs-product__name {
+  margin: 0;
+  color: var(--name-font-color);
+  font-size: var(--name-font-size);
+  line-height: 1;
+}
+
+.hs-product__description {
+  color: var(--description-font-color);
+  font-size: var(--description-font-size);
+}
+
+.hs-product__price {
+  display: block;
+  margin: 0.9em 0;
+  color: var(--price-font-color);
+  font-size: var(--price-font-size);
+}
+
+.hs-product__image-container {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  flex: var(--image-container-flex);
+  aspect-ratio: var(--image-aspect-ratio);
+  background-color: var(--image-bg-color);
+}
+
+.hs-product__image-container img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: var(--image-object-fit);
+  object-fit: var(--image-object-fit);
+  -o-object-position: 'center';
+  object-position: 'center';
+}
+
+.hs-product__content-container {
+  display: flex;
+  padding: var(--content-area-padding);
+  border-top: var(--content-border-top);
+  border-right: var(--content-border-right);
+  border-bottom: var(--content-border-bottom);
+  border-left: var(--content-border-left);
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: var(--content-area-background-color);
+}
+
+.hs-product__button-container {
+  margin-top: auto;
+}
+
+.hs-product__button.hs-button {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hs-product__button.hs-button.hs-product__button--override-defaults {
+  border: var(--button-border);
+  border-radius: var(--button-corner-radius);
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+}
+
+.hs-product__button.hs-button.hs-product__button--override-defaults:hover {
+  border-color: var(--button-border-hover-color);
+  background-color: var(--button-hover-color);
+  color: var(--button-text-hover-color);
+}
+
+.hs-product__button .hs-product__button__icon svg {
+  display: block;
+  height: 1.25rem;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .hs-product__button .hs-product__button__icon svg {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+}
+
+.hs-product__button--icon-right .hs-product__button__icon {
+  order: 1;
+}
+
+.hs-screen-reader-only {
+  position: absolute;
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}

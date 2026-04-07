@@ -1,0 +1,22 @@
+{
+  "html.default": {
+    "message": "<h2>Quelque chose de puissant</h2>\n<h3>En savoir plus</h3>\n<p>Le titre et le sous-titre nous disent ce que vous <a href=\"#\">offrez</a>, et l'en-tête du formulaire conclut l'affaire. Vous pouvez expliquer ici pourquoi votre offre est si intéressante qu'elle mérite que l'on remplisse un formulaire.</p>\n<p>Rappellez-vous :</p>\n<ul>\n<li>Les listes fonctionnent bien</li>\n<li>Pour énumérer les <a href=\"#\">avantages</a> et</li>\n<li>Transformer les visiteurs en futurs abonnés.</li>\n</ul>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.defaultEmail": {
+    "message": "<h2>Titre</h2><p> Ajouter du texte à votre courriel.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Contenu de texte enrichi",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Texte enrichi",
+    "description": "",
+    "placeholders": null
+  }
+}

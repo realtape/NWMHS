@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Subtítulo da tabela de item de linha",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Pagamentos recorrentes e únicos que vencem agora.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Texto de subtítulo",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "O subtítulo somente é exibido quando há pagamentos futuros.",
+    "description": "",
+    "placeholders": null
+  }
+}

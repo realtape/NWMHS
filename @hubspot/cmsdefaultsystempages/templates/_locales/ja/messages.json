@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "ページが見つかりません",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "お探しのページが見つかりません。",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "ホームページへ",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "このページは機能していません",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "内部サーバーエラーが発生しました。現在、調査・対策を進めております。",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "ホームページへ",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "会社のロゴ",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Eメール配信設定が更新されました。",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "全てのEメールコミュニケーションの配信を正常に停止しました。",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Eメール配信設定が更新されました。",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "次のEメール配信設定を更新",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "{{ site_settings.company_name }}から受信するEメールを選択：",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "{{ business_unit().name }}から受信するEメールを選択：",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "言語を選択：",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Eメールの設定を更新",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "全てのEメール配信を停止",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "これが自分のアドレスでない場合、あなたに宛てて転送されたEメールの可能性が高いため、このメッセージは無視していただいて問題ありません。",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "現在、全てのEメール配信を停止しています。Eメールを再び受信されますか？",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "配信に再登録する",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "パスワードが必要",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "このページを表示するにはパスワードを入力してください。",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "パスワード",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "「[[search_term]]」の検索結果",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "申し訳ありませんが、アクセス権がありません",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "このページを表示する権限がありません。ご不明点がある場合は、サイトの管理者にお問い合わせください。",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "ホームページへ",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "サインイン",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "表示しようとしているページは、登録済みユーザー専用です。",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "Eメール",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "パスワード",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "ログイン情報を記憶",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "パスワードをお忘れですか？",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "サインイン",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "表示",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "何かお困りですか？ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">サイトの管理者にお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "サインアウトしました",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "もう一度サインインする",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "または、<a href=\"{{ '//' ~ request.domain }}\">ホームページ</a>に戻る",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "パスワードを設定",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "ようこそ。パスワードを設定して登録を完了してください。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "Eメール",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "パスワードを再入力",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "パスワード",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "パスワードを保存",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "表示",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "何かお困りですか？ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">サイトの管理者にお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "パスワードをリセット",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "登録に使用したEメールアドレスを入力してください。パスワードをリセットするためのリンクを記載したEメールをお送りいたします。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "Eメール",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "リセットEメールを送信",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "思い出した場合は、<a href=\"/_hcms/mem/login\">サインイン</a>してください",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "何かお困りですか？ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">サイトの管理者にお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "パスワードのリセットEメールが送信されました",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "{{ user_email }}に一致するアカウントが見つかった場合は、パスワードをリセットする次の手順が記載されたEメールを送信済みです。20分以内にEメールが届かなかった場合は、<a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">管理者にお問い合わせ</a>ください。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "別のリセットEメールを送信",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "新しいパスワードを作成",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "新しいパスワードは以前に使用していたパスワードから変更する必要があります。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "新しいパスワード",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "新しいパスワードを再入力",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "パスワードを保存",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "表示",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "何かお困りですか？ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">サイトの管理者にお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Eメールアドレスが確認されました",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Eメールアドレスを確認していただき、ありがとうございます。アカウントにサインインして、あなただけのコンテンツにアクセスできるようになりました。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "サインイン",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "何かお困りですか？ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">サイトの管理者にお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "1回限りのサインインリンクが送信されました",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>{{ user_email }}宛てにEメールをお送りしました。サインイン用のリンクが記載されています。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Eメールが見つからない場合は、スパム（迷惑メール）フォルダーをご確認ください。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "サインインリンクを再送信",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "または",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "代わりにパスワードを使用してサインイン",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "何かお困りですか？ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">サイトの管理者にお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Eメールアドレスを確認",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "ご登録いただきありがとうございます。Eメールを確認して、確認リンクをクリックして登録を完了してください。",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "何かお困りですか？ <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">サイトの管理者にお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "登録を完了するにはパスワードを作成します",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "最後のステップです。安全なパスワードを作成した後、サインインし、{{ membership_domain }}のコンテンツを利用できるようになります。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "パスワードを作成",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "または、次のリンクをコピーしてブラウザーに貼り付けてください。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "ご不明点がある場合、または誤ってこのメールを受信した場合は、<a href=\"{{ membership_website_admin }}\">サイトの管理者にお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "パスワードをリセット",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "新しいパスワードを設定してアカウントにサインインしてください。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "パスワードをリセット",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "このような依頼をした覚えがない場合、このEメールは無視していただいて問題ありません。<br/>ご不明点がある場合は、<a href=\"{{ membership_website_admin }}\">サイトの管理者までお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "1回限りのリンクを使用してサインイン",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "アカウントへのサインインを続行してください。セキュリティー上の理由から、このリンクは15分後に有効期限が切れます。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "サインイン",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "または、次のリンクをコピーしてブラウザーに貼り付けてください。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "このような依頼をした覚えがない場合、このEメールは無視していただいて問題ありません。<br/>ご不明点がある場合は、<a href=\"{{ membership_website_admin }}\">サイトの管理者までお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "{{ membership_company_name }}パスワードが正常に変更されました",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "この変更が意図したものでなかった場合は、<a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">「パスワードを忘れた場合」</a>フォームを使用して今すぐパスワードを設定し直してください。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "ご不明点がある場合は、<a href=\"{{ membership_website_admin }}\">サイトの管理者</a>にお問い合わせください",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "登録が完了しました",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "ご登録ありがとうございます。全て完了しました。サインインしてご活用いただけるようになりました。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "新しいアカウントにサインイン",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "ご不明点がある場合、または誤ってこのメールを受信した場合は、<a href=\"{{ membership_website_admin }}\">サイトの管理者にお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "{{ membership_company_name }}へようこそ",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "アカウントの安全なパスワードを作成して登録を完了してください。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "パスワードを作成",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "または、次のリンクをコピーしてブラウザーに貼り付けてください。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "ご不明点がある場合、または誤ってこのメールを受信した場合は、<a href=\"{{ membership_website_admin }}\">サイトの管理者にお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Eメールアドレスを確認",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "ご登録いただきありがとうございます。{{ membership_domain }}への登録を完了するには、Eメールアドレスを確認していただく必要があります。",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Eメールアドレスを確認",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "ご不明点がある場合、または誤ってこのメールを受信した場合は、<a href=\"{{ membership_website_admin }}\">サイトの管理者にお問い合わせください</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "削除依頼をご確認ください",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "削除依頼をご確認ください",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "{{ first_name }}様、",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "{{ company_name }}上にあるあなたの個人情報を削除するご依頼を受け取りました：",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>デバイス：</strong>{{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>日時：</strong>{{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "ご依頼に従って処理を進めるために、本当にデータを削除しても問題はないかどうかをご確認ください。",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "はい、データを削除します",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "このリンクは30分後に期限が切れます。",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "削除依頼に心当たりがない場合は、このメッセージを無視していただいて問題ありません。",
+    "description": "",
+    "placeholders": null
+  }
+}

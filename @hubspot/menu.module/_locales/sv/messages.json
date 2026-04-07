@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horisontell",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertikal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Hortisontella menyer visar objekt bredvid varandra, och vertikala menyer visar dem uppifrån och ner",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Riktning",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Underordnade menyobjekt visas när du har muspekaren över det överordnade objektet. Om det inte markeras kommer de underordnade menyobjekten alltid att visas",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Aktivera underordnade verktygsfält?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Menyträdet är sidstrukturen som genererar objekten i menyn. Ett menyträd kan användas med flera menyer. Du kan skapa flera menyer för komplexa webbplatsstrukturer. Menyerna skapas och hanteras i dina innehållsinställningar",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Meny",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Fastställer antalet underordnade menyträd som kan expanderas i menyn",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Maxnivåer",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Meny",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "En filstrukturmeny (använder horisontellt flöde)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dynamisk efter sida - Visa sidor på menyn som har anknytning till sidan som visas",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statisk - Visa alltid sidor från högre nivåer på menyn",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dynamisk efter avsnitt - Visa sidor på menyn som har anknytning till avsnittet som visas",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Avancerade menyer visar olika delar av ett menyträd baserat på vilken sida som visas.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Avancerad menytyp",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "订阅首选项",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "“更新首选项”按钮文本",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "更新电子邮件首选项",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "通信首选项",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "标题",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "副标题",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "如果这不是你的电子邮件地址，请忽略此页面，因为与此页面关联的电子邮件很可能已转发给你。",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "好，我要重新订阅！",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "“重新订阅”按钮文本",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "取消订阅所有标签",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "为我取消订阅所有邮件列表。",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "取消选中你不想接收的电子邮件类型：",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "首选项选择帮助文本",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "或者，选中此处，永不接收任何电子邮件：",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "取消订阅所有帮助文本",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "为当前已取消订阅的用户取消订阅所有帮助文本",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "你目前已取消订阅我们的所有电子邮件。是否想再次接收我们的电子邮件？",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "单一订阅按钮文本",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "取消订阅",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "单一订阅确认文本",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "你是否想要取消订阅以下内容的电子邮件：",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "单一订阅示例名称",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "你选择的订阅类型",
+    "description": "",
+    "placeholders": null
+  }
+}

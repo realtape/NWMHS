@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "בורר שפה",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "משולב",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "מותאם מקומית",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "שפת דף",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "שפת הטקסט בבורר השפה. 'שפת דף' פירושה ששמות השפות יוצגו בשפת הדף שבו נמצא הבורר. 'מותאם מקומית' פירושו ששם כל שפה יוצג באותה שפה. 'משולב' פירושו שילוב של השניים.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "מצב תצוגה",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "חיפוש",
+    "description": "",
+    "placeholders": null
+  }
+}

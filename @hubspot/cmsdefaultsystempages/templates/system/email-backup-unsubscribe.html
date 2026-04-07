@@ -1,0 +1,22 @@
+<!--
+  templateType: email_backup_unsubscribe_page
+  isAvailableForNewContent: true
+-->
+{% set template_css = "../css/templates/system.css" %}
+{% set pageTitle = "Backup unsubscribe" %}
+{% set font_config = {
+  "Source Serif Pro": ["600"],
+  "Montserrat": ["500", "400"]
+} %}
+{% extends "../system-base.html" %}
+
+{% block body %}
+  <section class="section-wrapper">
+    {% module_block module "email_simple_subscription"
+      path="@hubspot/email_simple_subscription"
+      extra_classes="form-wrapper form-wrapper--backup-unsubscribe",
+      header=""
+    %}
+    {% end_module_block %}
+  </section>
+{% endblock body %}

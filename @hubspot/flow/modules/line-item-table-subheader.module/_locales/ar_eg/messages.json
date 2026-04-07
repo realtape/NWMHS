@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "العنوان الفرعي لجدول عنصر البند",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>المدفوعات المتكررة والمدفوعات لمرة واحدة المستحقة الآن.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "نص العنوان الفرعي",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "يظهر هذا العنوان الفرعي فقط عندما يكون هناك مدفوعات مستقبلية.",
+    "description": "",
+    "placeholders": null
+  }
+}

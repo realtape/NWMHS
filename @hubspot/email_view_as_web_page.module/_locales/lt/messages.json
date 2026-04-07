@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Peržiūrėti kaip tinklalapį",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<div style=\"padding-top: 15px; font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: right; font-size: 9px; line-height: 1.34em; color: {{ secondary_font_color }};\">Pateikiama neteisingai? Peržiūrėkite šį el. laišką kaip tinklalapį <a target=\"_blank\" rel=\"noopener\" href=\"{{ view_as_page_url }}\" style=\"color: {{ secondary_font_color }}; text-decoration: underline; white-space: nowrap;\" data-viewaswebpage=\"true\">čia</a>.</div>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Peržiūros kaip tinklalapio tekstas",
+    "description": "",
+    "placeholders": null
+  }
+}

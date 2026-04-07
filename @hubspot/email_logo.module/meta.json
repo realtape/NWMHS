@@ -1,0 +1,24 @@
+{
+  "label": "Logo",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "../img/icon/email-logo.svg",
+  "extra_classes": "widget-type-logo",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "is_available_for_new_content": false,
+  "categories": [
+    "media"
+  ],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "पेज नहीं मिला",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "आप जिस पेज की तलाश कर रहे थे वह हमें नहीं मिला।",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "होम पेज पर जाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "यह पेज काम नहीं कर रहा है",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "एक इंटरनल सर्वर एरर हुई, लेकिन हम मामले पर हैं!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "होम पेज पर जाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "कंपनी का लोगो",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "आपकी ईमेल प्रेफरेन्सेस अपडेट की गईं।",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "आपने सभी ईमेल कम्युनिकेशन्स से सफलतापूर्वक अनसब्सक्राइब हो चुके हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "आपकी ईमेल प्रेफरेन्सेस अपडेट की गईं।",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "ईमेल प्रेफेरेंस को अपडेट करें",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "चुनें कि आप {{ site_settings.company_name }}से कौन से ईमेल रिसीव करना चाहते हैं:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "चुनें की आप {{ business_unit().name }} से कौन से ईमेल प्राप्त करना चाहेंगे:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "एक भाषा का चयन करें:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "ईमेल प्रेफेरेंसेस अपडेट करें",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "सभी ईमेल से अनसब्सक्राइब करें",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "अगर आपको किसी की तरफ से ईमेल फॉरवर्ड किया गया है और यह आपका एड्रेस नहीं है तो आप इसे सेफ्ली इग्नोर कर सकते हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "आप वर्तमान में हमारी सभी ईमेल से अनसब्सक्राइब होचुके हैं। क्या आप हमारे ईमेल फिर से रिसीव करना चाहेंगे?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "हां, मुझे फिर से सब्सक्राइब करें!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "रिक्वायर्ड पासवर्ड",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "इस पेज को देखने के लिए कृपया अपना पासवर्ड इंटर करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "पासवर्ड",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "\"[[search_term]]\" के लिए सर्च रिजल्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "माफ़ करें, आपने एक्सेस नहीं किया है",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "आपके पास इस पेज को देखने की अनुमति नहीं है। प्रश्नों के लिए साइट के एडमिनिस्ट्रेटर से संपर्क करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "होम पेज पर जाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "साइन इन करें",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "आप जिस पेज को देखने की कोशिश कर रहे हैं वह केवल रेजिस्ट्रड यूजर के लिए उपलब्ध है।",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "ईमेल",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "पासवर्ड",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "मुझे याद",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "पासवर्ड भूल गए?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "साइन इन करें",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "दिखाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "परेशानी हो रही है? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">साइट के एडमिनिस्ट्रेटर से कांटेक्ट करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "आप साइन आउट हो गए हैं",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "फिर से साइन इन करें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "या <a href=\"{{ '//' ~ request.domain }}\">होम पेज</a> पर वापस लौटें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "अपना पासवर्ड सेट करें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "स्वागत है! अपना पासवर्ड सेट करके अपना रजिस्ट्रेशन पूरा करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "ईमेल",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "पासवर्ड कन्फर्म करें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "पासवर्ड",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "पासवर्ड सेव करें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "दिखाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "परेशानी हो रही है? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">साइट के एडमिनिस्ट्रेटर से कांटेक्ट करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "अपना पासवर्ड रीसेट करें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "वह ईमेल एड्रेस एंटर करें जिसे आपने रजिस्टर्ड किया था और हम आपको आपका पासवर्ड रीसेट करने के लिए एक लिंक के साथ एक ईमेल भेजेंगे।",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "ईमेल",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "रिसेट की गई ईमेल भेजें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "क्या यह अभी आपके पास वापस आया? <a href=\"/_hcms/mem/login\">साइन इन करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "परेशानी हो रही है? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">साइट के एडमिनिस्ट्रेटर से कांटेक्ट करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "पासवर्ड रीसेट ईमेल भेजा गया",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "यदि {{ user_email }} के लिए मैच करने वाला अकाउंट मिला था, तो आपका पासवर्ड रीसेट करने के लिए अगले स्टेप्स के साथ एक ईमेल भेजा गया था। यदि आपने उसे अगले 20 मिनट में प्राप्त नहीं किया है, तो कृपया <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">अपने व्यवस्थापक से संपर्क करें</a>।",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "दूसरा रीसेट ईमेल भेजें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "नया पासवर्ड बनाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "आपका नया पासवर्ड आपके पहले उपयोग किए गए पासवर्ड से अलग होना चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "नया पासवर्ड",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "नया पासवर्ड कन्फर्म करें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "पासवर्ड सेव करें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "दिखाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "परेशानी हो रही है? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">साइट के एडमिनिस्ट्रेटर से कांटेक्ट करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "आपके ईमेल पते की पुष्टि हो गई है",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "अपना ईमेल पता वेरीफाई करने के लिए धन्यवाद। अब आप अपने खाते में साइन इन कर सकते हैं और अपना विशेष कॉन्टेंट एक्सेस कर सकते हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "साइन इन करें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "परेशानी हो रही है? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">साइट के एडमिनिस्ट्रेटर से कांटेक्ट करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "वन-टाइम साइन-इन लिंक भेजा गया",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>हमने आपको {{ user_email }} पर एक ईमेल भेजा है| इसमें एक लिंक है जिससे आप साइन इन होंगे।",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "यदि आप ईमेल नहीं देख पा रहे हैं, तो कृपया अपना स्पैम फ़ोल्डर देखें।",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "साइन-इन लिंक फिर से भेजें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "या",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "इसके बजाय पासवर्ड से साइन इन करें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "परेशानी हो रही है? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">साइट के एडमिनिस्ट्रेटर से संपर्क करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "अपना ईमेल एड्रेस वेरीफाई करें",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "साइन अप करने के लिए आपको धन्यवाद! कृपया अपना ईमेल जांचें और अपना रजिस्ट्रेशन पूरा करने के लिए कन्फर्मेशन लिंक पर क्लिक करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "परेशानी हो रही है? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">साइट के एडमिनिस्ट्रेटर से कांटेक्ट करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "रजिस्ट्रेशन ख़त्म करने के लिए एक पासवर्ड बनाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "लास्ट स्टेप! एक बार जब आप अपना सुरक्षित पासवर्ड बना लेते हैं तो आप {{ membership_domain }} पर साइन इन करने और कंटेंट तक पहुंचने में सक्षम होंगे।",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "पासवर्ड बनाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "या इस लिंक को कॉपी करके अपने ब्राउजर में पेस्ट करें:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "यदि आप का कोई प्रश्न हैं या यह किसी एरर से प्राप्त हुआ है, तो कृपया <a href=\"{{ membership_website_admin }}\">साइट के एडमिनिस्ट्रेटर से संपर्क करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "अपना पासवर्ड रीसेट करें",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "एक नया पासवर्ड सेट करें और अपने खाते में साइन इन करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "पासवर्ड रीसेट करें ",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "यदि आपने यह अनुरोध नहीं किया है, तो आप इस ईमेल को सुरक्षित रूप से अनदेखा कर सकते हैं। <br/>यदि आप का कोई प्रश्न हैं, तो कृपया <a href=\"{{ membership_website_admin }}\">साइट के एडमिनिस्ट्रेटर से संपर्क करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "वन-टाइम लिंक से साइन इन करें",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "अपने अकाउंट में साइन इन करना जारी रखें। आपकी सुरक्षा के लिए, यह लिंक 15 मिनट में समाप्त हो जायेगा।",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "साइन इन करें",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "या इस लिंक को कॉपी करके अपने ब्राउज़र में पेस्ट करें:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "यदि यह अनुरोध आपने नहीं किया है, तो आप इस ईमेल को सुरक्षित रूप से अनदेखा कर सकते हैं। <br/>यदि आप कुछ पूछना चाहते हैं, तो कृपया <a href=\"{{ membership_website_admin }}\">साइट के एडमिनिस्ट्रेटर से संपर्क करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "आपका {{ membership_company_name }}पासवर्ड सफलतापूर्वक बदल दिया गया",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "क्या यह बदलाव करने का मतलब नहीं था? अपना पासवर्ड अभी रीसेट करने के लिए <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">फॉरगॉटन पासवर्ड</a> फॉर्म का उपयोग करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "यदि आप का की प्रश्न है, कृपया <a href=\"{{ membership_website_admin }}\">साइट एडमिनिस्ट्रेटर</a> से संपर्क करें ",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "आपका रजिस्ट्रेशन पूरा हो गया है",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "रजिस्ट्रेशन के लिए धन्यवाद! आप पूरी तरह तैयार हैं। अब आप और भी अधिक वैल्यू एक्सेस और अनलॉक करने के लिए साइन इन कर सकते हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "अपने नए खाते में साइन इन करें",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "यदि आप का कोई प्रश्न हैं या यह किसी एरर से प्राप्त हुआ है, तो कृपया <a href=\"{{ membership_website_admin }}\">साइट के एडमिनिस्ट्रेटर से संपर्क करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "{{ membership_company_name }}में स्वागत",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "अपने खाते के लिए एक सुरक्षित पासवर्ड बनाकर अपना रजिस्ट्रेशन पूरा करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "पासवर्ड बनाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "या इस लिंक को कॉपी करके अपने ब्राउजर में पेस्ट करें:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "यदि आप का कोई प्रश्न हैं या यह किसी एरर से प्राप्त हुआ है, तो कृपया <a href=\"{{ membership_website_admin }}\">साइट के एडमिनिस्ट्रेटर से संपर्क करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "अपना ईमेल एड्रेस वेरीफाई करें",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "साइन अप करने के लिए आपको धन्यवाद! {{ membership_domain }}में रजिस्ट्रेशन पूर्ण करने के लिए आपको अपना ईमेल पता वेरीफाई करना होगा।",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "ईमेल पता वेरीफाई करें",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "यदि आप का कोई प्रश्न हैं या यह किसी एरर से प्राप्त हुआ है, तो कृपया <a href=\"{{ membership_website_admin }}\">साइट के एडमिनिस्ट्रेटर से संपर्क करें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "कृपया डिलीट करने के अनुरोध की पुष्टि करें",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "अपने डिलीट अनुरोध की पुष्टि करें",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "नमस्कार {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "हमें  {{ company_name }} से आपका व्यक्तिगत डेटा हटाने का अनुरोध इस समय प्राप्त हुआ:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>डिवाइस:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>तिथि और समय:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "इसलिए हम आपके अनुरोध को प्रोसेस कर सकते हैं, कृपया पुष्टि करें कि आप अपना डेटा हटाना चाहते हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "हां, मेरा डेटा हटा दें",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "यह लिंक 30 मिनिट में समाप्त हो जाएगा।",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "यदि आपने हटाने का अनुरोध नहीं किया है, तो आप इस मैसेज को सुरक्षित रूप से अनदेखा कर सकते हैं।",
+    "description": "",
+    "placeholders": null
+  }
+}

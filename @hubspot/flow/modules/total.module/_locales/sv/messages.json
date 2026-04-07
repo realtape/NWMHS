@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Totalt",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Förfaller nu",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Detta används till att märka offertens totalsumma när offerten har framtida avgifter.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Text som förfaller nu",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Totalt",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Total text",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Totalt kontraktsvärde",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Anpassa texten till att korrekt beskriva detta värde. (Standarden är ett årligt värde om inte villkor ställts upp.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Text om totalt värde på kontraktet",
+    "description": "",
+    "placeholders": null
+  }
+}

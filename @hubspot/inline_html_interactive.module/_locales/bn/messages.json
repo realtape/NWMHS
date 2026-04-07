@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "ইমেল অ্যাড্রেস",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "ফোন নম্বর",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "ফাইল ডাউনলোড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "সাক্ষাৎকারগুলির লিংক",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "আপনার পেজগুলির একটি",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "এর সাথে লিঙ্ক করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "সাক্ষাৎকারগুলির লিংক",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "লিংকটিকে নতুন ট্যাবে খুলুন",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "পেজ",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "ইনলাইন HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "বোতামের বিষয়বস্তু",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML যা বোতামের মধ্যে রেন্ডার করা হবে। আপনি শুধুমাত্র <a>ট্যাগের মধ্যে সঠিক ট্যাগ ব্যবহার করতে পারেন।",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "এখানে ক্লিক করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "লিংকটিকে নতুন ট্যাবে খুলুন",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "উন্নত",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "কাস্টম CSS নিয়ম",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "সিলেক্টর",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "এই মানটি CTA এর নির্বাচকের সাথে মিলিত হয়। যেমন ':hover' হয়ে যায় ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "আপনার শৈলী নিয়মের জন্য কাস্টম CSS যোগ করুন। যেমন: বর্ডার-বোটম: 3px সলিড #3e4d68; রঙ: হলুদ;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "কাস্টম CSS ক্লাস",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "আপনার CTA লিঙ্কে কাস্টম CSS ক্লাস যোগ করুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "কাস্টম CSS স্টাইলশীট",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "আপনার CTA-তে একটি কাস্টম CSS স্টাইলশীট যোগ করুন। যেমন: border-bottom: 3px solid #3e4d68; রঙ: হলুদ;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "লিগ্যাসি মার্কআপ ব্যবহার করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "বিদ্যমান CSS সমর্থন করতে লিগ্যাসি মার্কআপে HTML-কে ব়্যাপ করুন",
+    "description": "",
+    "placeholders": null
+  }
+}

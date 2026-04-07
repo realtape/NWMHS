@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Списък на публикации",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Най-популярни – последните шест месеца",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Най-популярни – за целия период",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Най-популярни – последния месец",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Най-популярни – последната година",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Най-скорошни",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Търсене",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Изброяване на публикации в блога по",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "По подразбиране ще използваме настоящия блог, когато се използва в шаблон на блог, или основния блок, когато се използва на друго място.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Изберете блог за показване",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Максимален брой публикации в блога за изброяване",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Скорошни публикации",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Заглавие на списък за показване",
+    "description": "",
+    "placeholders": null
+  }
+}

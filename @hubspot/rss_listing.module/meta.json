@@ -1,0 +1,19 @@
+{
+  "label": "RSS Listing",
+  "host_template_types": ["PAGE", "BLOG_LISTING", "BLOG_POST", "CASE_STUDY"],
+  "icon": "../img/icon/high-rss.svg",
+  "extra_classes": "widget-type-rss_listing",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": ["blog"],
+  "content_tags": [
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

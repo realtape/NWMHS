@@ -1,0 +1,376 @@
+[
+  {
+    "label": "Button text",
+    "name": "button_text",
+    "type": "text",
+    "required": true,
+    "default": "Checkout"
+  },
+  {
+    "label": "Button target",
+    "name": "button_target",
+    "id": "button_target",
+    "type": "choice",
+    "choices": [
+      ["payment_link", "Use a payment link"],
+      ["custom_link", "Other"]
+    ],
+    "display": "radio",
+    "default": "payment_link"
+  },
+  {
+    "label": "Button link",
+    "name": "button_link",
+    "type": "link",
+    "visibility": {
+      "controlling_field": "button_target",
+      "controlling_value_regex": "custom_link",
+      "operator": "EQUAL"
+    },
+    "supported_types": ["EXTERNAL", "CONTENT"],
+    "default": {
+      "url": {
+        "href": "",
+        "type": "EXTERNAL"
+      }
+    }
+  },
+  {
+    "label": "Payment link",
+    "name": "payment",
+    "id": "payment",
+    "type": "payment",
+    "visibility": {
+      "controlling_field": "button_target",
+      "controlling_value_regex": "payment_link",
+      "operator": "EQUAL"
+    },
+    "required": true
+  },
+  {
+    "label": "Checkout behavior",
+    "name": "checkout_location",
+    "id": "checkout_location",
+    "type": "choice",
+    "visibility_rules": "ADVANCED",
+    "advanced_visibility": {
+      "boolean_operator": "AND",
+      "criteria": [
+        {
+          "controlling_field": "button_target",
+          "controlling_value_regex": "payment_link",
+          "operator": "EQUAL"
+        },
+        {
+          "controlling_field": "payment",
+          "controlling_value_regex": "id\":\\d+",
+          "operator": "MATCHES_REGEX"
+        }
+      ]
+    },
+    "choices": [
+      ["new_tab", "Open in a new tab"],
+      ["overlay", "Sliding overlay"]
+    ],
+    "display": "radio",
+    "default": "new_tab"
+  },
+  {
+    "label": "Add icon",
+    "name": "add_icon",
+    "id": "add_icon",
+    "type": "boolean",
+    "default": false
+  },
+  {
+    "label": "Icon",
+    "name": "icon",
+    "type": "group",
+    "visibility": {
+      "controlling_field": "add_icon",
+      "controlling_value_regex": "true",
+      "operator": "EQUAL"
+    },
+    "children": [
+      {
+        "label": "Icon",
+        "name": "icon",
+        "type": "icon",
+        "required": true,
+        "default": {
+          "name": "arrow-alt-circle-up",
+          "type": "SOLID",
+          "unicode": "f35b"
+        }
+      },
+      {
+        "label": "Position",
+        "name": "position",
+        "type": "choice",
+        "choices": [
+          ["left", "Left"],
+          ["right", "Right"]
+        ],
+        "display": "select",
+        "required": true,
+        "default": "left"
+      }
+    ]
+  },
+  {
+    "label": "Default text",
+    "name": "default_text",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Close checkout",
+        "name": "close_checkout",
+        "type": "text",
+        "default": "Close checkout"
+      }
+    ]
+  },
+  {
+    "label": "Styles",
+    "name": "styles",
+    "type": "group",
+    "tab": "STYLE",
+    "children": [
+      {
+        "label": "Icon",
+        "name": "icon",
+        "type": "group",
+        "visibility": {
+          "controlling_field": "add_icon",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL"
+        },
+        "children": [
+          {
+            "label": "Size",
+            "name": "size",
+            "type": "number",
+            "display": "text",
+            "max": 100,
+            "step": 1,
+            "suffix": "px"
+          },
+          {
+            "label": "Color",
+            "name": "color",
+            "type": "color"
+          },
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "number",
+            "help_text": "Spacing between the icon and button text.",
+            "display": "text",
+            "max": 100,
+            "step": 1,
+            "suffix": "px"
+          }
+        ]
+      },
+      {
+        "label": "Text",
+        "name": "text",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "default": {
+              "size_unit": "px"
+            }
+          },
+          {
+            "label": "Transform",
+            "name": "transform",
+            "type": "choice",
+            "choices": [
+              ["capitalize", "Capitalize"],
+              ["uppercase", "Uppercase"],
+              ["lowercase", "Lowercase"]
+            ],
+            "display": "select",
+            "placeholder": "None"
+          }
+        ]
+      },
+      {
+        "label": "Background",
+        "name": "background",
+        "type": "group",
+        "children": [
+          {
+            "label": "Color",
+            "name": "color",
+            "type": "color"
+          }
+        ]
+      },
+      {
+        "label": "Border",
+        "name": "border",
+        "type": "group",
+        "children": [
+          {
+            "label": "Border",
+            "name": "border",
+            "type": "border",
+            "default": {
+              "top": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "right": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "bottom": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "left": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "label": "Corner",
+        "name": "corner",
+        "type": "group",
+        "children": [
+          {
+            "label": "Radius",
+            "name": "radius",
+            "type": "number",
+            "display": "text",
+            "max": 100,
+            "step": 1,
+            "suffix": "px"
+          }
+        ]
+      },
+      {
+        "label": "Spacing",
+        "name": "spacing",
+        "type": "group",
+        "children": [
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "spacing"
+          }
+        ]
+      },
+      {
+        "label": "Hover",
+        "name": "hover",
+        "type": "group",
+        "children": [
+          {
+            "label": "Icon",
+            "name": "icon",
+            "type": "group",
+            "visibility": {
+              "controlling_field": "add_icon",
+              "controlling_value_regex": "true",
+              "operator": "EQUAL"
+            },
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color"
+              }
+            ]
+          },
+          {
+            "label": "Text",
+            "name": "text",
+            "type": "group",
+            "children": [
+              {
+                "label": "Font",
+                "name": "font",
+                "type": "font",
+                "visibility": {
+                  "hidden_subfields": {
+                    "size": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "label": "Background",
+            "name": "background",
+            "type": "group",
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color"
+              }
+            ]
+          },
+          {
+            "label": "Border",
+            "name": "border",
+            "type": "group",
+            "children": [
+              {
+                "label": "Border",
+                "name": "border",
+                "type": "border"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Alignment",
+        "name": "alignment",
+        "type": "group",
+        "children": [
+          {
+            "label": "Alignment",
+            "name": "alignment",
+            "type": "alignment",
+            "alignment_direction": "HORIZONTAL",
+            "default": {
+              "horizontal_align": "CENTER"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

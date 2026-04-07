@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Компанія отримувача",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.default": {
+    "message": "Підготовлено для",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.label": {
+    "message": "Текст компанії отримувача",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_address.label": {
+    "message": "Основна адреса компанії отримувача",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_city_state_zip.label": {
+    "message": "Місто, штат і поштовий індекс компанії отримувача",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_country.label": {
+    "message": "Країна компанії отримувача",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_name.label": {
+    "message": "Назва компанії отримувача",
+    "description": "",
+    "placeholders": null
+  }
+}

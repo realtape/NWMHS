@@ -1,0 +1,288 @@
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.hs-quotes.hs-quotes--flow {
+  width: 100%;
+}
+
+.hs-quotes--flow .sender-company {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hs-quotes--flow .sender-company__address p,
+.hs-quotes--flow .sender-user p {
+  margin: 0;
+}
+
+.hs-quotes--flow .signature .container {
+  flex-direction: column;
+}
+
+.hs-quotes--flow .payment__container {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.hs-quotes.hs-quotes--flow .esignature__profile {
+  margin-top: 25px;
+}
+
+.hs-quotes--flow .line-items__table {
+  border: none;
+}
+
+.hs-quotes--flow .line-items__table-header tr {
+  border-bottom: 2px solid #000;
+}
+
+.line-items__table .line-items__subheading {
+  background-color: #F5F8FA;
+}
+
+.line-items__table .line-items__subheading td {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  height: auto;
+  border-bottom: 0px;
+}
+
+.line-items__table .line-items__subheading + .line-items__item-row td {
+  border-top: none;
+}
+
+.line-items__table .line-items__table-body tr > td:first-child {
+  padding-left: 0.5rem;
+}
+
+.line-items__table tbody {
+  border-bottom: 2px solid #000;
+}
+
+.hs-quotes--flow .totals-row__discount__amount {
+  display: inline-block;
+  padding-bottom: 0.78em;
+  text-align: right;
+  width: 100%;
+}
+
+
+.hs-quotes--flow .subtotal-title,
+.hs-quotes--flow .fees-title,
+.hs-quotes--flow .totals__row.title,
+.hs-quotes--flow .totals__row.total-cost
+ {
+  font-weight: 600;
+}
+
+.hs-quotes--flow .line-items .container {
+  width: 100%;
+}
+
+
+.hs-quotes--flow .line-items > div {
+  padding-top: 0;
+}
+
+.hs-quotes--flow .line-items .container {
+  flex-direction: column;
+}
+
+.hs-quotes--flow .line-items__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.hs-quotes--flow .line-items__totals {
+  width: 100%;
+}
+
+.hs-quotes--flow .totals__row {
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 0;
+}
+
+.hs-quotes--flow .totals-and-fees > :first-child > .totals__row:first-child {
+  border-top: 0;
+}
+
+.hs-quotes--flow .totals-and-fees > :first-child > .totals__row:last-child:not(.total-cost) {
+  border-bottom: 2px solid;
+}
+
+.hs-quotes--flow .totals-and-fees .totals__container > .total-cost:not(.only-child){
+  padding: 0;
+  padding-top: 1.2rem;
+}
+
+.hs-quotes--flow .totals-and-fees .totals__container > .total-cost:last-child {
+  padding: 1.2rem 0;
+}
+
+.hs-quotes--flow .totals__row.total-cost {
+  border-bottom: none;
+  border-top: 0;
+}
+
+.hs-quotes--flow .line-items__table td {
+  border-style: solid;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.hs-quotes--flow .line-items__table th {
+  text-align: right;
+}
+
+.hs-quotes--flow .line-items__table th {
+  font-weight: 600;
+}
+
+.hs-quotes--flow .line-items__table td {
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.hs-quotes--flow .line-items__table tr > th:first-child,
+.hs-quotes--flow .line-items__table tr > td:first-child {
+  min-width: 120px;
+  text-align: left;
+}
+
+.hs-quotes--flow .esignature__profile {
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+.hs-quotes.hs-quotes--flow #esignature, /* TODO: Remove ID April 2023 */
+.hs-quotes.hs-quotes--flow .esignature {
+  margin-bottom: 25px;
+}
+
+.hs-quotes--flow .signature__container hr {
+  display: none;
+}
+
+.payment-totals-and-fees {
+  align-items: center;
+  display: flex;
+}
+
+.totals-and-fees {
+  min-height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.download-and-print {
+  display: flex;
+}
+
+.comments p,
+.terms p {
+  /* Allow text in comments and terms areas to use inline styles from rich text editor */
+  font-size: unset;
+}
+
+@media screen and (max-width: 767px) {
+  .hs-quotes--flow .line-items .payment__container,
+  .hs-quotes--flow .line-items .totals-and-fees {
+    width: 100%;
+  }
+  .hs-quotes--flow .line-items .payment-totals-and-fees {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hs-quotes--flow .line-items .totals-and-fees {
+    order: 1
+  }
+
+  .hs-quotes--flow .line-items .payment__container {
+    order: 2
+  }
+
+  .hs-quotes--flow .line-items .container > div,
+  .hs-quotes--flow .line-items .container--content > div,
+  .hs-quotes--flow .project-estimate .line-items > div {
+    overflow-x: scroll;
+  }
+  .hs-quotes--flow .line-items__totals .totals-row__discount {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .hs-quotes--flow .line-items__totals .totals-row__discount__amount {
+    width: 50%;
+  }
+  .hs-quotes.hs-quotes--flow .esignature__profile {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .hs-quotes.hs-quotes--flow .signature__field {
+    width: 100%;
+  }
+}
+
+@media print {
+  html,
+  body {
+    height: 100%;
+
+    /* A4 paper width and height */
+    width: 100%;
+  }
+  .hs-quotes--flow {
+    color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .hs-quotes--flow .line-items__table td {
+    vertical-align: top;
+  }
+
+  .hs-quotes--flow .line-items__totals {
+    page-break-inside: avoid;
+  }
+
+  .hs-quotes--flow .line-items .payment__container,
+  .hs-quotes--flow .line-items .totals-and-fees {
+    width: 100%;
+  }
+
+  .hs-quotes--flow .line-items .payment-totals-and-fees {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hs-quotes--flow .line-items .totals-and-fees {
+    order: 1;
+  }
+
+  .hs-quotes--flow .line-items .payment__container {
+    margin-top: 35px;
+    order: 2;
+  }
+
+  /*
+   * This is a workaround to a chrome bug when printing / exporting to pdf and the direction is rtl.
+   * Surprisingly, this does not change the direction of the text in the document,
+   * but it does fix the print and PDF exports.
+   * See https://issues.chromium.org/issues/348796223
+   */
+  @page {
+    direction: ltr;
+  }
+}

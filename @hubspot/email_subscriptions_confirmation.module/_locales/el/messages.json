@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Μήνυμα επιβεβαίωσης εγγραφής",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Ενημερώσατε με επιτυχία τις προτιμήσεις email σας.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Μήνυμα για την ενημέρωση συνδρομής",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Δευτερεύων τίτλος",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Αν αυτή δεν είναι η διεύθυνση email σας, αγνοήστε αυτή τη σελίδα, αφού το email που είναι συσχετισμένο με αυτήν πιθανότατα σας προωθήθηκε.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Καταργήσατε με επιτυχία την εγγραφή σας για όλες τις επικοινωνίες μας μέσω email.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Μήνυμα για την κατάργηση συνδρομής",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Κείμενο κεφαλίδας",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Κεφαλίδα",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Διαχείριση κειμένου κουμπιού προτιμήσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Διαχείριση προτιμήσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Διαχείριση προτιμήσεων αποποίησης ευθύνης επιστροφής",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Κάνατε λάθος; Μην ανησυχείτε, μπορείτε να αλλάξετε τις προτιμήσεις σας.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Κείμενο επιτυχίας απεγγραφής από μονή συνδρομή",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Απεγγραφήκατε με επιτυχία από:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Κείμενο κράτησης θέσης συνδρομής",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "Ο τύπος συνδρομής που επιλέξατε",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Επίπεδο κεφαλίδας επικεφαλίδας",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Επικεφαλίδα 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Επικεφαλίδα 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Επικεφαλίδα 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Επικεφαλίδα 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Επικεφαλίδα 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Επικεφαλίδα 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Επίπεδο κεφαλίδας Email",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Επικεφαλίδα 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Επικεφαλίδα 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Επικεφαλίδα 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Επικεφαλίδα 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Επικεφαλίδα 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Επικεφαλίδα 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Παράγραφος",
+    "description": "",
+    "placeholders": null
+  }
+}

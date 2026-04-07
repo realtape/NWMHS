@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Tlačidlo (interaktívne)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "Webová adresa odkazu",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "E-mailová adresa",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Súbor",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Zavrieť výzvu na akciu",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "E-mailová adresa",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefónne číslo",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Stiahnutie súboru",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Odkaz na stretnutia",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Jedna z vašich stránok",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Jedna z vašich blogových stránok",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "Webová adresa",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Odkaz na",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Odkaz na stretnutia",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Otvoriť odkaz v novej karte",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Stránka",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Farba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Kliknuté",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Pozadie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Ohraničenie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Ohraničenie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Roh",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Pridajte zaoblený roh tlačidla",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Okruh",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Farba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Pozadie oblasti podržania kurzoru",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Ohraničenie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Ohraničenie priestoru podržania kurzoru",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Umiestniť kurzor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Písmo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Text oblasti podržania kurzoru",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Štýly",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Písmo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Odsadenie textu",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Tu pridajte odkaz na tlačidlo",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Text tlačidla",
+    "description": "",
+    "placeholders": null
+  }
+}

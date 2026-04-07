@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "אופקי",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "אנכי",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "תפריטים אופקיים מציגים פריטים זה לצד זה, ותפריטים אנכיים מציגים פריטים מלמעלה למטה",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "כיוון",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "חיפוש",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "פריטי תפריט צאצא יופיעו בעת הריחוף מעל פריט האב. אם האפשרות אינה מסומנת, פריטי תפריט צאצא יופיעו תמיד",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "לאפשר תפריטים נשלפים?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "עץ התפריט הוא מבנה הדפים שיוצר את הפריטים שבתפריט. עץ תפריט יחיד יכול לשמש לכמה תפריטים מרובים. ניתן ליצור תפריטים מרובים לקבלת מבנה מורכב של אתר אינטרנט. התפריטים נוצרים ומנוהלים בהגדרת התוכן שלך.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "תפריט",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "קובע את מספר הצאצאים בעץ התפריט שניתן להרחיב בתפריט",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "מקסימום רמות",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "חיפוש",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "תפריט",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "תפריט נתיב בסגנון סימני דרך (משתמש בזרימה אופקית)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "דינמי לפי דף - מציג דפים בתפריט הקשורים לדף המוצג",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "סטטי - מציג תמיד דפים ברמה העליונה בתפריט",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "דינמי לפי מקטע - מציג דפים בתפריט הקשורים למקטע המוצג",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "תפריטים מתקדמים מציגים חלקים שונים של עץ התפריט לפי הדף המוצג.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "סוג תפריט מתקדם",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "חיפוש",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Горизонтальне",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Вертикальне",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "У горизонтальних меню пункти відображаються поруч один з одним, у вертикальних — зверху вниз",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Орієнтація",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Пошук",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Дочірні елементи меню з’являться, коли ви наведете курсор на батьківський елемент. Якщо не встановити прапорець, дочірні елементи меню показуватимуться завжди",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Увімкнути спливні елементи?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Дерево меню — це структура сторінки, яка генерує елементи в меню. Одне дерево меню можна використовувати з кількома меню. Ви можете створити декілька меню для сайтів зі складною структурою. Створення меню та керування ним здійснюється в налаштуваннях вмісту",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Меню",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Визначає кількість дочірніх елементів дерева меню, які можна розгорнути в меню",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Максимальні рівні",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Пошук",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Меню",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Меню підказки в стилі навігаційних ланцюжків (використовує горизонтальний потік)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Динамічне за сторінкою — Показати сторінки в меню, що пов’язані зі сторінкою, яка переглядається",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Статичне — Завжди показувати в меню сторінки верхнього рівня ",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Динамічне за розділами — Показувати сторінки в меню, що пов’язані з розділом, який переглядається",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Розширені меню відображають різні частини дерева меню залежно від того, яка сторінка переглядається.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Розширений тип меню",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Пошук",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Запит пароля",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Заповнювач пароля",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Повідомлення про неправильний пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Вибачте, спробуйте знову.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Надіслати",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Текст кнопки «Надіслати»",
+    "description": "",
+    "placeholders": null
+  }
+}

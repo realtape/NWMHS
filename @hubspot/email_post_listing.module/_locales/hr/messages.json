@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Popis objava",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Najpopularnije – proteklih šest mjeseci",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Najpopularnije – uvijek",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Najpopularnije – prošli mjesec",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Najpopularnije – prošla godina",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Najnovije",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Traži",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Popis blog objava prema",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Prema zadanim postavkama upotrijebit će se trenutačni blog kada se upotrebljava u predlošku bloga ili primarni blog kada se upotrebljava drugdje.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Odaberi blog za prikaz",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maksimalan broj blog objava za popis",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Nedavne objave",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Naslov popisa za prikaz",
+    "description": "",
+    "placeholders": null
+  }
+}

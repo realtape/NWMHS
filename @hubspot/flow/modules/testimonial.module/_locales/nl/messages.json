@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Testimonial",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial.label": {
+    "message": "Testimonial",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial.testimonial_author.label": {
+    "message": "Auteur testimonial",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial.testimonial_author.default": {
+    "message": "JENNIFER ROBBINS",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial.testimonial_author_company.default": {
+    "message": "Naam onderneming",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial.testimonial_author_company.label": {
+    "message": "Bedrijf auteur testimonial",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial.testimonial_image.label": {
+    "message": "Testimonial-afbeelding",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial.testimonial_text.label": {
+    "message": "Testimonial tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "testimonial.testimonial_text.default": {
+    "message": "&#8220;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus pellentesque justo, eget viverra turpis blandit eget. Maecenas eu leo at nulla convallis viverra. Fusce sit amet erat in massa convallis venenatis.&#8221;",
+    "description": "",
+    "placeholders": null
+  }
+}

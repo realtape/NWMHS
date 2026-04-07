@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Line item table subheader",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Recurring and one-time payments that are due now.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Subheading text",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "This subheading only shows when there are future payments.",
+    "description": "",
+    "placeholders": null
+  }
+}

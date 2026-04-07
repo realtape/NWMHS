@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Fizetés most",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Fizetés gomb felirata",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Ügyeljen rá, hogy egyértelmű legyen, hogy a gombra kattintás lehetővé teszi a felhasználónak a fizetést.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Hiba történt a megrendelés beállításakor. Lépjen kapcsolatba azzal a személlyel, aki ezt az árajánlatot küldte Önnek.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Megrendelési hibaüzenet",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Közölje az ügyféllel, hogy mi a teendő, ha probléma merül fel a megrendelés indításakor.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Válassza ki a fejléc szintjét. A H1 a legnagyobb, ezt követi a H2, és így tovább",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Fejléc szintje",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Fizetés",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Fejléc tartalma",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Első fizetés indítása:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Az ügyfél ezt látja a fizetés gombon, amíg ki nem fizeti az első részletet.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Fizetési ütemezés gomb felirata",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Fizetés",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "A kifizetés nem lehetséges, mert az árajánlat nincs teljesen aláírva.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Magyarázat szövege, ha aláírások szükségesek",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Ha a fizetés előtt aláírás szükséges, az ügyfél ezt az üzenetet fogja látni, amíg az összes szükséges aláírás nem teljesül.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Fizetve.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Fizetve szöveg",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Kifizetve [[ paid_date ]] dátummal és [[ paid_time ]] időpontban",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Fizetés feldolgozása folyamatban",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Fizetésfeldolgozás szövege",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "A rendszer problémába ütközött az árajánlathoz tartozó fizetési státusz betöltése során. Próbálja meg frissíten az oldalt.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Fizetési státusz hibaüzenete",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Utasítsa az ügyfelet, hogy frissítse az oldalt, ha a fizetés állapotának lekérése sikertelen lenne.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Ez egy tesztárajánlat, ezért nem gyűjthet be valódi fizetéseket.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Eldöntheti, hogy kíván-e fizetést begyűjteni, amikor létrehoz egy árajánlatot ezzel a sablonnal.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "A fizetéshez forduljon ahhoz, aki ezt az árajánlatot küldte Önnek.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Zahlung",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Hinzufügen-Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Button-Link",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Sonstiges",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Verwenden Sie einen Zahlungslink",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Button-Ziel",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Checkout",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Button-Text",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "In neuem Tab öffnen",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Gleitendes Overlay",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Checkout-Verhalten",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Checkout schließen",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Links",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Position",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Zahlungslink",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Ausrichtung",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Ausrichtung",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Hintergrund",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Ecke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Hintergrund",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Rahmen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Darüberbewegen des Mauszeigers",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Symbol",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Größe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Abstand zwischen Symbol und Button-Text.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Abstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stile",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Abstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Abstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "In Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Kleinbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Großbuchstaben",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Umwandeln",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Keine",
+    "description": "",
+    "placeholders": null
+  }
+}

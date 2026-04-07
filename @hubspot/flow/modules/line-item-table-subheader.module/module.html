@@ -1,0 +1,7 @@
+{% set QUOTE = template_data.quote || mock_data.quote %}
+{% set ASSOCIATED_OBJECTS =  QUOTE.associated_objects %}
+{% set FUTURE_PAYMENTS = ASSOCIATED_OBJECTS.line_items_by_start_date.FUTURE %}
+
+{% if FUTURE_PAYMENTS|length > 0 %}
+  <p>{{ module.subheading_text|render|sanitize_html }}</p>
+{% endif %}

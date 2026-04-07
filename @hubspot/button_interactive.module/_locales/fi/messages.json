@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Painike (vuorovaikutteinen)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "Linkitä URL",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Sähköpostiosoite",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Tiedosto",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Sulje toimintakehotus",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Sähköpostiosoite",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Puhelinnumero",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Tiedoston lataus",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Kokouslinkki",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Yksi sivuistasi",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Yksi blogisivuistasi",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Linkitä kohteeseen",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Kokouslinkki",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Avaa linkki uudessa välilehdessä",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Sivu",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blogi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Väri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Napsautettu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Tausta",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Raja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Raja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Kulma",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Lisää painikkeeseen pyöristetty kulma",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Säde",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Väri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Päällä pidon tausta",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Raja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Päällä pidon raja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Osoita",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Fontti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Valintateksti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Tyylit",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Fontti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Tekstin täyte",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Lisää painikelinkki tähän",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Painiketeksti",
+    "description": "",
+    "placeholders": null
+  }
+}

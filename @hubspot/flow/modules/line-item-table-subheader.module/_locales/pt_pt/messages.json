@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Item de linha do subcabeçalho da tabela",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Pagamentos únicos e recorrentes que são devidos agora.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Texto de subcabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Este subcabeçalho só é apresentado quando existem pagamentos futuros.",
+    "description": "",
+    "placeholders": null
+  }
+}

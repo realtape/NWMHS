@@ -1,0 +1,62 @@
+{% if module.target == true %}
+{% set target = "_blank" %}
+{% else %}
+{% set target = "_parent" %}
+{% endif %}
+
+{% set loadingAttr = module.img.loading != 'disabled' ? '{{ module.img.loading }}' : '' %}
+
+{% if module.link_to == 'cta' %}
+{% set is_embed_trigger = True %}
+{% else %}
+{% set is_embed_trigger = False %}
+{% endif %}
+
+{% set destination = module.destination %}
+{% if module.link_to == 'email_address' %}
+{% set destination = 'mailto:' + module.email_address %}
+{% endif %}
+{% if module.link_to == 'tel' %}
+  {% set destination = 'tel:' + module.tel|regex_replace('[-.\\/() ]', '') %}
+{% endif %}
+{% if module.link_to == 'close' %}
+{% set destination = 'javascript:closeInteractive()' %}
+{% endif %}
+{% if module.link_to == 'file' %}
+{% set destination = module.file %}
+{% endif %}
+{% if module.link_to == 'meetings_link' %}
+{% set destination = module.meeting_field %}
+{% endif %}
+{% if module.link_to == 'page' %}
+{% set destination = content_by_id(module.page_field).absolute_url %}
+{% endif %}
+
+{# Do not prepend // when usign a personalization token, the link already has // or starts with /, the link is mailto,
+the link is an anchor, the link is a close action, or the link is not defined #}
+{% unless (destination is string_containing "{{") or (destination is string_containing "//") or (destination is
+string_startingwith "/") or (destination is string_startingwith "javascript") or (destination is string_startingwith "mailto") or (destination is string_startingwith "tel") or (destination is string_startingwith "#") or
+!destination %}
+{% set destination = "//" ~ destination %}
+{% else %}
+{% set destination = destination || "" %}
+{% endunless %}
+
+{% if is_embed_trigger %} {% set destination = 'javascript:void' %} {% endif %}
+
+<span {% if is_embed_trigger %} data-cta-trigger="{{module.cta_field.url.content_id}}" {% endif %}>
+  {% linked_image
+  label="Linked Image",
+  src='{{ module.img.src }}',
+  alt='{{ module.img.alt }}',
+  width='{{ module.img.width }}',
+  height='{{ module.img.height }}',
+  link='{{ destination }}',
+  target='{{ target }}',
+  open_in_new_tab='{{ target }}',
+  size_type='{{ module.img.size_type }}',
+  max_width='{{ module.img.max_width }}',
+  max_height='{{ module.img.max_height }}',
+  loading='{{ loadingAttr }}'
+  %}
+</span>

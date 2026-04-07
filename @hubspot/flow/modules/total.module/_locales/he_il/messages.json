@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "סך הכול",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "תאריך היעד הוא כעת",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "משמש לסימון הסכום הכולל של הצעת המחיר, כאשר בהצעת המחיר יש חיובים עתידיים.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "טקסט של 'תאריך היעד הוא כעת'",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "סך הכול",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "טקסט סכום",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "שווי כולל של החוזה",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "התאם אישית את הטקסט כדי לתאר במדויק ערך זה. (ברירת המחדל היא ערך שנתי אם לא הוגדרו תנאים.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "טקסט של שווי חוזה כולל",
+    "description": "",
+    "placeholders": null
+  }
+}

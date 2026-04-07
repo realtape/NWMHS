@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logó",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logó",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Logó maximális magassága",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Az alapértelmezett logó felülbírálásakor ez nem érvényes",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Ezzel kiválasztható, hogy felülírja-e a sablonra alkalmazott logót.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Alapértelmezett logó felülírása",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Alapértelmezés szerint az árajánlatain az alapértelmezett fiókban vagy a honlap oldalinak beállításaiban megadott vállalati logó lesz látható.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "行项目表格副标题",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>现在到期的定期付款和一次性付款。<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "副标题文本",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "副标题仅在有未来付款时显示。",
+    "description": "",
+    "placeholders": null
+  }
+}

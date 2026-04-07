@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "分割线",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "对齐方式",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "中心对齐",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "左",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "右",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "高度",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "线条类型",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "虚线",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "点线",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "实线",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "填充",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "最多 20 个像素",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "显示填充？",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "宽度",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "分割线所在区域的百分比。",
+    "description": "",
+    "placeholders": null
+  }
+}

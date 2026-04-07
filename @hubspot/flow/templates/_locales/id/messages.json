@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Penawaran ini sudah berakhir",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Penawaran {{ personalization_token('quote.hs_quote_number', '') }} akan habis masa berlakunya pada {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Harap <a href='#'>hubungi perwakilan penjualan Anda</a> untuk detail selengkapnya.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Frekuensi Penagihan",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Harga unit",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Harga",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Produk & Layanan",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Jumlah",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Ringkasan<br>Eksekutif",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Syarat dan Ketentuan",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Komentar",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Penerimaan<br>Proyek",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Subjudul",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Kisah<br> Kami",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Kami bersemangat<br>dengan apa yang kami kerjakan",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Pendapat klien<br>tentang kami",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Ringkasan<br>Proyek",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Tujuan kami",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Pernyataan<br>kerja",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Estimasi<br>proyek",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>Kontrak",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Disiapkan untuk",
+    "description": "",
+    "placeholders": null
+  }
+}

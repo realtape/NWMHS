@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Posting Listing",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Paling populer - enam bulan terakhir",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Paling populer - sepanjang waktu",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Paling populer - bulan terakhir",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Paling populer - tahun terakhir",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Terbaru",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Daftarkan posting blog menurut",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Default akan menggunakan blog saat ini saat digunakan di templat blog atau blog utama saat digunakan di mana pun.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Pilih blog untuk ditampilkan",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Posting blog maksimal untuk didaftarkan",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Posting terbaru",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Daftarkan judul untuk ditampilkan",
+    "description": "",
+    "placeholders": null
+  }
+}

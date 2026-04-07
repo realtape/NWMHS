@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "구독 환경 설정",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "기본 설정 업데이트 버튼 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "이메일 기본 설정 업데이트",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "통신 기본 설정",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "제목",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "부제목",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "귀하의 이메일 주소가 아닌 경우에는 이 페이지를 무시하십시오. 이 페이지와 연결된 이메일이 귀하에게 전달되었을 가능성이 큽니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "예, 다시 구독하겠습니다!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "다시 구독 버튼 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "모든 레이블 구독 취소",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "모든 메일링 목록 구독 취소.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "수신하지 않으려는 이메일 유형을 선택 취소하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "기본 설정 선택 도움말 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "또는 모든 이메일을 수신하지 않으려면 여기를 선택하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "모든 도움말 텍스트 구독 취소",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "현재 구독 취소한 사용자에 대한 모든 도움말 텍스트 구독 취소",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "현재 모든 이메일 구독을 취소한 상태입니다. 이메일을 다시 수신하시겠습니까?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "단일 구독 버튼 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "구독 취소",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "단일 구독 확인 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "다음에 대한 이메일 구독을 취소하시겠습니까?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "단일 구독 예시 이름",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "선택한 구독 유형",
+    "description": "",
+    "placeholders": null
+  }
+}

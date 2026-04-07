@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Mag-unsubscribe sa Backup",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Button text",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Mag-unsubscribe",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Mag-unsubscribe sa Email",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Heading",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Placeholder text para sa paglalagay ng email",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Ang email address mo:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Help text para sa paglalagay ng email",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Error na mensahe",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Nagkaproblema sa pag-load page. Subukang gamitin ang parehong link mula sa pinakabagong email, o makipag-ugnayan sa kompanya para i-update ang iyong mga kagustuhan sa subcription.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Subheading",
+    "description": "",
+    "placeholders": null
+  }
+}

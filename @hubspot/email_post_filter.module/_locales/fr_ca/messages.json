@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filtre des publications",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Tout voir",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Texte à afficher si le lien comprend plus de texte que la valeur maximale à afficher. Laisser vide pour omettre le lien ",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Par défaut, le blogue actuel sera utilisé comme modèle de blogue ou comme blogue principal lorsqu'il est utilisé ailleurs.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Sélectionnez le blogue à afficher",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Nombre maximum de valeurs de filtre à afficher. Laisser vide pour tout afficher",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Liste de valeurs pour les liens de filtre",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Balises",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Auteurs",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Mois",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Publications par étiquette",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Titre de la liste à afficher",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nom",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Décompte des publications",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordre des valeurs pour les liens de filtre",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Afficher tous les filtres",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Abgrenzung",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Ausrichtung",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Center",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Links",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Rechts",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Höhe",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Linientyp",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Gestrichelt",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Gepunktet",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Auffüllung",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maximal 20 Pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Auffüllung anzeigen?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Breite",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Prozentualer Anteil des Bereichs, in dem die Abgrenzung platziert wird.",
+    "description": "",
+    "placeholders": null
+  }
+}

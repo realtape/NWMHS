@@ -1,0 +1,20 @@
+[
+  {
+    "label": "HTML",
+    "name": "html",
+    "id": "7f4f1d10-b5fa-d506-ff14-aa4c17709d95",
+    "type": "html",
+    "hierarchical": false,
+    "max_depth": 0,
+    "default": "<p>\n  Add custom HTML to your email.\n</p>"
+  },
+  {
+    "label": "Padding",
+    "name": "hs_enable_module_padding",
+    "id": "c61cb201-c9b3-55f8-eb7f-bbcec7bdab4b",
+    "type": "boolean",
+    "hierarchical": false,
+    "max_depth": 0,
+    "default": true
+  }
+]

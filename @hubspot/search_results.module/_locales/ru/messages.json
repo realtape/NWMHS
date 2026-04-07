@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Результаты поиска по сайту",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Показать избранные изображения",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Не найдено результатов для [[search_term]].</p><p>Попробуйте иначе сформулировать запрос или выполните поиск по нашему сайту.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Предыдущая страница",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Следующая страница",
+    "description": "",
+    "placeholders": null
+  }
+}

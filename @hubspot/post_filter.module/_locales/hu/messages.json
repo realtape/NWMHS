@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Bejegyzésszűrő",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Összes megjelenítése",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Ez a szöveg jelenik meg, ha a megjeleníthető elemek száma meghaladja a maximális értéket. Hagyja üresen a hivatkozás kihagyásához",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Az alapbeállítás a jelenlegi blogot fogja használni blogsablonban és az elsődleges blogot minden egyéb esetben.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Válassza ki a megjelenítendő blogot",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Megjeleníthető szűrőértékek maximális száma",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Keresés",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Szűrőkapcsolatok értékeinek listája",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Címkék",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Szerzők",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Hónap",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Bejegyzések címkénként",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Megjelenítendő listacím",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Név",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Bejegyzések száma",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Keresés",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Szűrőkapcsolatok értékeinek rendezése",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Összes szűrő megjelenítése",
+    "description": "",
+    "placeholders": null
+  }
+}

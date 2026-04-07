@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Sigurnosna kopija Odjava",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Tekst gumba",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Odjava",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "E-pošta Odjava",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Rezervirano mjesto za unos e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Vaša adresa e-pošte:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Tekst pomoći za unos e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Poruka o pogrešci",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Došlo je do problema pri učitavanju stranice. Pokušajte upotrijebiti istu poveznicu iz novije poruke e-pošte ili kontaktirajte tvrtku radi ažuriranja vaših željenih postavki pretplate.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Podnaslov",
+    "description": "",
+    "placeholders": null
+  }
+}

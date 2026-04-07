@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Bekräftelsemeddelande för prenumeration",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Du har uppdaterat dina e-postinställningar.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Meddelande om prenumerationsuppdatering",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Underrubrik",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Om det här inte är din e-postadress kan du ignorera den här sidan eftersom den e-postadress som associeras med den här sidan förmodligen har vidarebefordrats till dig.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Du har slutat prenumerera på all e-postkommunikation.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Meddelande om att sluta prenumerera",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Rubriktext",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Titel",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Text för knappen Hantera inställningar",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Hantera inställningar",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Hantera preferenser ansvarsfriskrivning för retur",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Gjort ett misstag? Inga problem, du kan ändra dina inställningar.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Text om lyckad avregistrering av enkel prenumeration",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Du har avslutat prenumerationen på:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Platshållartext för prenumeration",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "din valda prenumerationstyp",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Rubriknivå i sidhuvud",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Rubrik 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Rubrik 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Rubrik 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Rubrik 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Rubrik 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Rubrik 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Rubriknivå i e-postmeddelande",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Rubrik 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Rubrik 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Rubrik 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Rubrik 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Rubrik 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Rubrik 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Paragraf",
+    "description": "",
+    "placeholders": null
+  }
+}

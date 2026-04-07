@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "配信登録確認メッセージ",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Eメールの設定を正常に更新しました。",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "配信登録更新時のメッセージ",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "サブヘッダー",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "このEメールアドレスが自分のものでない場合、このページに関連付けられたEメールが転送された可能性が非常に高いため、このページは無視してください。",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "全てのEメールコミュニケーションの配信を正常に停止しました。",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "配信停止時のメッセージ",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "ヘッダーテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "ヘッダー",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "設定管理のボタンテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "設定を管理",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "設定管理に戻る免責",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "誤りがありましたか？ 設定は変更できますのでご安心ください。",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "単一の配信登録の配信停止正常に完了テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "次から配信を正常に停止しました：",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "配信登録用プレースホルダーテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "選択した配信カテゴリー",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "ヘッダーの見出しレベル",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "見出しH1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "見出しH2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "見出しH3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "見出しH4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "見出しH5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "見出しH6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Eメールの見出しレベル",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "見出しH1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "見出しH2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "見出しH3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "見出しH4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "見出しH5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "見出しH6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "段落",
+    "description": "",
+    "placeholders": null
+  }
+}

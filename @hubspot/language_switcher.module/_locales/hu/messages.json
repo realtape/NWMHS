@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Nyelvváltó",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hibrid",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Honosított",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "A szöveg nyelve a nyelvváltóban. A PageLang azt jelenti, hogy a nyelvek nevei annak az oldalnak a nyelvén jelennek meg, amelyen a váltó van. A Honosított azt jelenti, hogy minden nyelv neve ugyanazon a nyelven jelenik meg. A Hibrid a kettő kombinációja.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Megjelenítés módja",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Keresés",
+    "description": "",
+    "placeholders": null
+  }
+}

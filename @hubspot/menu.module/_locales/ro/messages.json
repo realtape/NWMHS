@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Orizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertical",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Meniurile orizontale afișează elementele unul lângă altul, iar meniurile verticale, de sus în jos",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientare",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Căutare",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Elementele meniurilor secundare vor apărea atunci când treceți cursorul deasupra meniului principal. Dacă nu este bifat, elementele meniurilor secundare vor apărea întotdeauna",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Activați fișele?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Arborele de meniu reprezintă structura paginii care generează elementele din meniu. Un singur arbore de meniu poate fi utilizat pentru meniuri multiple. Puteți crea meniuri multiple pentru structuri complexe ale site-ului web. Meniurile sunt create și gestionate în Setări conținut",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Meniu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Determină numărul de meniuri secundare din arbore, care pot fi extinse în meniu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Niveluri maxime",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Căutare",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Meniu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Meniu cu cale cu urme (folosește fluxul orizontal)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinamic în funcție de pagină - afișează paginile în meniu care sunt legate de pagina vizualizată",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Static - afișează întotdeauna paginile de nivel superior în meniu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinamic în funcție de secțiune - afișează paginile în meniu care sunt legate de secțiunea vizualizată",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Meniurile avansate afișează diferite porțiuni ale unui arbore de meniu, în funcție de pagina vizualizată.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Tip meniu avansat",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Căutare",
+    "description": "",
+    "placeholders": null
+  }
+}

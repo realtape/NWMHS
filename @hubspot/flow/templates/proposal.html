@@ -1,0 +1,667 @@
+<!--
+  templateType: quote
+  isAvailableForNewContent: true
+  label: Proposal
+  screenshotPath: ../images/proposal-preview.png
+-->
+{% set template_css = "../../css/templates/proposal.css" %}
+{% extends './layouts/base.html' %}
+
+{% block body %}
+
+{% require_css %}
+  <style>
+    {% if module_data|attr('banner_image')|attr('hidden') &&
+      module_data|attr('logo')|attr('hidden') &&
+      module_data|attr('quote_name')|attr('hidden') &&
+      module_data|attr('recipient_company')|attr('hidden') &&
+      module_data|attr('recipient_contacts')|attr('hidden') &&
+      module_data|attr('sender_company')|attr('hidden') &&
+      module_data|attr('sender_user')|attr('hidden')
+    %}
+      .hs-quotes--flow .banner { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading')|attr('hidden') &&
+      module_data|attr('summary')|attr('hidden') &&
+      module_data|attr('description')|attr('hidden') &&
+      module_data|attr('text_with_subheading_1')|attr('hidden') &&
+      module_data|attr('list_1')|attr('hidden') &&
+      module_data|attr('list_2')|attr('hidden') &&
+      module_data|attr('text_with_subheading_2')|attr('hidden')
+    %}
+      .hs-quotes--flow .executive-summary { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading')|attr('hidden') &&
+      module_data|attr('summary')|attr('hidden')
+    %}
+      .hs-quotes--flow .executive-summary .section-head { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('list_1')|attr('hidden') &&
+      module_data|attr('list_1')|attr('hidden')
+    %}
+      .hs-quotes--flow .executive-summary .list__container { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_2')|attr('hidden') &&
+      module_data|attr('summary_2')|attr('hidden') &&
+      module_data|attr('paragraph_1')|attr('hidden') &&
+      module_data|attr('paragraph_image_1')|attr('hidden') &&
+      module_data|attr('paragraph_image_2')|attr('hidden') &&
+      module_data|attr('paragraph_2')|attr('hidden') &&
+      module_data|attr('resources_header')|attr('hidden') &&
+      module_data|attr('resource')|attr('hidden') &&
+      module_data|attr('testimonials_header')|attr('hidden') &&
+      module_data|attr('testimonial')|attr('hidden')
+    %}
+      .hs-quotes--flow .our-story { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_2')|attr('hidden') &&
+      module_data|attr('summary_2')|attr('hidden')
+    %}
+      .hs-quotes--flow .our-story .section-head { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_3')|attr('hidden') &&
+      module_data|attr('summary_3')|attr('hidden') &&
+      module_data|attr('goals')|attr('hidden') &&
+      module_data|attr('text_block')|attr('hidden')
+    %}
+      .hs-quotes--flow .project-summary { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_3')|attr('hidden') &&
+      module_data|attr('summary_3')|attr('hidden')
+    %}
+      .hs-quotes--flow .project-summary .section-head { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_4')|attr('hidden') &&
+      module_data|attr('summary_4')|attr('hidden') &&
+      module_data|attr('text_with_subheading_3')|attr('hidden')
+    %}
+      .hs-quotes--flow .statement-of-work { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_4')|attr('hidden') &&
+      module_data|attr('summary_4')|attr('hidden')
+    %}
+      .hs-quotes--flow .statement-of-work .section-head { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_5')|attr('hidden') &&
+      module_data|attr('reference')|attr('hidden') &&
+      module_data|attr('quote_created')|attr('hidden') &&
+      module_data|attr('quote_expires')|attr('hidden') &&
+      module_data|attr('recipient_company_text')|attr('hidden') &&
+      module_data|attr('estimate_description')|attr('hidden') &&
+      module_data|attr('comments')|attr('hidden') &&
+      module_data|attr('line_items_table')|attr('hidden') &&
+      !quote.hs_payment_enabled &&
+      module_data|attr('subtotals')|attr('hidden') &&
+      module_data|attr('fees')|attr('hidden') &&
+      module_data|attr('total')|attr('hidden') &&
+      (module_data|attr('payment-schedule')|attr('hidden') || !associated_objects.payment_schedule)
+    %}
+      .hs-quotes--flow .project-estimate { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_5')|attr('hidden') &&
+      module_data|attr('reference')|attr('hidden') &&
+      module_data|attr('quote_created')|attr('hidden') &&
+      module_data|attr('quote_expires')|attr('hidden')
+    %}
+      .hs-quotes--flow .project-estimate .section-head { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('reference')|attr('hidden') %}
+      .hs-quotes--flow .project-estimate .reference__container { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('quote_created')|attr('hidden') &&
+      module_data|attr('quote_expires')|attr('hidden') %}
+      .hs-quotes--flow .project-estimate .quote-dates__container { display: none; }
+    {% endif %}
+
+    {% if !quote.hs_payment_enabled &&
+      module_data|attr('subtotals')|attr('hidden') &&
+      module_data|attr('fees')|attr('hidden') &&
+      module_data|attr('total')|attr('hidden')
+    %}
+      .hs-quotes--flow .project-estimate .line-items__totals { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_6')|attr('hidden') &&
+      module_data|attr('summary_6')|attr('hidden') &&
+      module_data|attr('terms')|attr('hidden')
+    %}
+      .hs-quotes--flow .contract { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_6')|attr('hidden') &&
+      module_data|attr('summary_6')|attr('hidden')
+    %}
+      .hs-quotes--flow .contract .section-head { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_7')|attr('hidden') &&
+      module_data|attr('project_acceptance_description')|attr('hidden') &&
+      !quote.hs_esign_enabled && !quote.hs_show_signature_box &&
+      module_data|attr('download')|attr('hidden') &&
+      module_data|attr('print')|attr('hidden')
+    %}
+      .hs-quotes--flow .project-acceptance { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('numbered_heading_7')|attr('hidden') %}
+      .hs-quotes--flow .project-acceptance .section-head { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('recipient_company_text')|attr('hidden') &&
+      module_data|attr('recipient_contacts_2')|attr('hidden')
+    %}
+      .hs-quotes--flow .project-estimate .recipient-company { display: none; }
+    {% endif %}
+
+  </style>
+{% end_require_css %}
+
+  <body class="hs-quotes hs-quotes--flow">
+
+    {% module "banner_image" path="../modules/banner-image" export_to_template_context=True %}
+    <div class="banner" style="background-image: url('{{ widget_data.banner_image.banner_image.src }}');">
+
+      <div class="container banner__content">
+        <div class="row-fluid">
+          <div class="column span6">
+            {% module "logo" path="../modules/logo" %}
+            {% module "quote_name"
+              label="Quote name"
+              path="@hubspot/rich_text",
+              extra_classes="banner__title"
+              html="<h1>{{ personalization_token('quote.hs_title', '') }}</h1><p>2021-2022</p>"
+            %}
+            <div class="banner__recipient banner__recipient--left-align">
+              {% module "recipient_company" path="../modules/recipient-company" %}
+              {% module "recipient_contacts" path="../modules/recipient-contacts" %}
+            </div>
+          </div>
+          <div class="column span6">
+            <div class="banner__sender">
+              {% module "sender_company"
+                label="Sender company"
+                path="../modules/sender-company",
+                no_wrapper=True
+              %}
+              {% module "sender_user"
+                label="Sender user contact"
+                path="../modules/sender-user",
+                no_wrapper=True
+              %}
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="executive-summary">
+      <div class="container--content">
+        <div class="section-head section-head--two-col">
+          {% module "numbered_heading"
+            label="Numbered heading"
+            path="../modules/numbered-heading",
+            title_text={{ "<h2><span style='font-size:50px;text-transform:uppercase;'>" ~ template_translations.executive_summary.message ~ "</span></h2>" }},
+            extra_classes="numbered-heading__wrapper"
+          %}
+          <div class="summary">
+            {% module "summary"
+              label="Summary"
+              path="@hubspot/rich_text",
+              html="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque faucibus pellentesque justo, eget viverra turpis blandit eget.
+              Maecenas eu leo at nulla convallis viverra. Fusce sit amet erat in massa convallis
+              venenatis curabitur sit amet.</p>"
+            %}
+          </div>
+        </div>
+        <div class="content">
+          {% module "description"
+            label="Description"
+            path="@hubspot/rich_text",
+            html="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque faucibus pellentesque justo, eget viverra turpis blandit eget.
+            Maecenas eu leo at nulla convallis viverra. Fusce sit amet erat in massa convallis venenatis.
+            Curabitur sit amet bibendum nibh. Etiam posuere justo at mi euismod tincidunt. Fusce nec consequat risus.
+            Fusce efficitur odio tellus, sit amet vestibulum ante lacinia quis. Donec eu neque a velit tincidunt dapibus
+            vel ac libero. Cras ut felis feugiat, fringilla nibh non, bibendum neque.</p>"
+          %}
+          {% module "text_with_subheading_1"
+            path="@hubspot/rich_text",
+            html={{ "<h3>" ~ template_translations.subhead.message ~ "</h3>" ~
+            "<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            Fusce id vulputate felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia curae; Cras quis faucibus eros. Phasellus a velit sed mi vulputate sollicitudin
+            sed pellentesque neque. Curabitur varius porttitor diam, non facilisis purus feugiat eu. Duis
+            non eros facilisis, tristique justo at, rutrum justo. Fusce pulvinar libero a justo placerat,
+            sit amet suscipit nibh suscipit. Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas. Aenean non placerat tellus. Etiam sed est at odio efficitur
+            placerat. Fusce quis erat volutpat, vestibulum erat nec, blandit nisl. Nulla ornare faucibus efficitur.
+            Praesent ultrices non ligula non cursus. Aliquam fermentum magna urna.
+            </p>" }}
+          %}
+          <div class="list__container">
+            {% module "list_1"
+              path="@hubspot/rich_text",
+              html={{ "<h3>" ~ template_translations.subhead.message ~ "</h3>" ~
+              "<ul>
+                <li>
+                  Mauris a condimentum purus, at maximus massa.
+                  Praesent efficitur libero elementum dolor hendrerit,
+                  sit amet dapibus nibh auctor.
+                </li>
+                <li>
+                  Sed lacinia risus at leo rutrum posuere. Integer rutrum
+                  nisi eros, a vestibulum purus lacinia id aenean sed magn
+                  a dignissim, sceleris que lorem non, malesuada risus.
+                </li>
+                <li>
+                  Curabitur vulputate erat sit amet nibh porta nec pellen
+                  tesque enim varius. Donec eget mauris sed massa.
+                </li>
+              </ul>" }}
+            %}
+            {% module "list_2"
+              path="@hubspot/rich_text",
+              html={{ "<h3>" ~ template_translations.subhead.message ~ "</h3>" ~
+              "<ul>
+                <li>
+                  Mauris a condimentum purus, at maximus massa.
+                  Praesent efficitur libero elementum dolor hendrerit,
+                  sit amet dapibus nibh auctor.
+                </li>
+                <li>
+                  Sed lacinia risus at leo rutrum posuere. Integer rutrum
+                  nisi eros, a vestibulum purus lacinia id aenean sed magn
+                  a dignissim, sceleris que lorem non, malesuada risus.
+                </li>
+                <li>
+                  Curabitur vulputate erat sit amet nibh porta nec pellen
+                  tesque enim varius. Donec eget mauris sed massa.
+                </li>
+              </ul>" }}
+            %}
+          </div>
+        </div>
+        <div class="content highlighted">
+          {% module "text_with_subheading_2"
+            path="@hubspot/rich_text",
+            html={{ "<h3>" ~ template_translations.subhead.message ~ "</h3>" ~
+            "<p>Mauris a condimentum purus, at maximus massa. Praesent efficitur  libero elementum dolor hendrerit,
+            sit amet dapibus nibh auctor.</p>
+            <p>Sed lacinia risus at leo rutrum posuere. Integer rutrum nisi eros, a vestibulum purus lacinia id. Aenean
+            sed magna dignissim, scelerisque lorem non, malesuada risus ridiculus mus.</p>
+            <p>Curabitur vulputate erat sit amet nibh porta, nec pellentesque enim  varius. Donec eget mauris sed massa
+            gravida imperdiet. Cras id  aliquam turpis, nec hendrerit nisl. Mauris ac sem et purus pharetra volutpat.
+            Donec dictum tellus eget. Orci varius natoque penatibus et magnis dis parturient montes nascetur.</p>
+            <p>Donec nec finibus ligula. Mauris ultricies lorem vel nulla vehicula lobortis.</p>" }}
+          %}
+        </div>
+      </div>
+    </div>
+
+    <div class="our-story">
+      <div class="container--content">
+        <div class="section-head">
+          {% module "numbered_heading_2"
+            label="Numbered heading"
+            path="../modules/numbered-heading",
+            title_number="2",
+            title_text={{ "<h2><span style='font-size:50px;text-transform:uppercase;'>" ~ template_translations.our_story.message ~ "</span></h2>" }},
+            extra_classes="numbered-heading__wrapper"
+          %}
+          <div class="summary">
+            {% module "summary_2"
+              label="Summary"
+              path="@hubspot/rich_text",
+              html="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus pellentesque justo,
+              eget viverra turpis blandit eget. Maecenas eu leo at nulla convallis viverra. Fusce sit amet erat in
+              massa convallis venenatis. Curabitur sit amet bibendum nibh. Etiam posuere justo at mi euismod tincidunt.
+              Fusce nec consequat risus. Fusce efficitur odio tellus, sit amet vestibulum ante lacinia quis. Donec eu
+              neque a velit tincidunt dapibus vel ac libero. Cras ut felis feugiat, fringilla nibh non, bibendum neque.
+              Cras lorem tortor, varius rhoncus convallis ut, elementum et ligula. Proin vel diam at ligula sagittis
+              viverra at sit amet est.</p>"
+            %}
+          </div>
+        </div>
+        <div class="story odd">
+          {% module "paragraph_1"
+            label="First paragraph"
+            path="@hubspot/rich_text",
+            html={{ "<h3>" ~ template_translations.we_are_passionate.message ~ "</h3>" ~
+            "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus pellentesque justo,
+            eget viverra turpis blandit eget. Maecenas eu leo at nulla convallis viverra. Fusce sit amet erat in
+            massa venenatis curabitur sit amet.</p>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            Fusce id vulputate felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultric
+            es posuere cubilia curae.</p>" }}
+          %}
+          {% module "paragraph_image_1"
+            label="Image for first paragraph"
+            path="@hubspot/linked_image"
+            img={
+              "alt": "",
+              "height": "",
+              "loading": "lazy",
+              "src": "https://7303166.fs1.hubspotusercontent-na1.net/hubfs/7303166/Flow/activities.jpg",
+              "width": ""
+            }
+          %}
+        </div>
+        <div class="story even">
+          {% module "paragraph_image_2"
+            label="Image for second paragraph"
+            path="@hubspot/linked_image"
+            img={
+              "alt": "",
+              "height": "",
+              "loading": "lazy",
+              "src": "https://7303166.fs1.hubspotusercontent-na1.net/hubfs/7303166/Flow/offerings.jpg",
+              "width": ""
+            }
+          %}
+          {% module "paragraph_2"
+            label="Second paragraph"
+            path="@hubspot/rich_text",
+            html={{ "<h3>" ~ template_translations.we_are_passionate.message ~ "</h3>" ~
+            "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus pellentesque justo,
+            eget viverra turpis blandit eget.</p>
+            <ul>
+              <li>Maecenas eu leo at nulla convallis viverra</li>
+              <li>Fusce sit amet erat in massa convallis</li>
+              <li>Venenatis curabitur sit amet</li>
+              <li>Vestibulum ante ipsum primis in faucibus</li>
+              <li>Orci luctus et ultrices posuere cubilia curae</li>
+              <li>Fusce id vulputate felis vestibulum ante</li>
+              <li>Ipsum primis in faucibus orci luctus et</li>
+            </ul>" }}
+          %}
+        </div>
+      </div>
+      <div class="container--content resources">
+        <div class="resources__container">
+          {% module "resources_header"
+            label="Resources header"
+            path="../modules/header"
+          %}
+          <div class="resources__tile">
+            {% module "resource"
+              label="Resource"
+              path="../modules/resource"
+            %}
+          </div>
+        </div>
+      </div>
+      <div class="container--content testimonials">
+        <div class="testimonials__container">
+          <div class="testimonials__header">
+            {% module "testimonials_header"
+              label="Testimonials header"
+              path="../modules/header"
+              displayed_header={{ "<h2>" ~ template_translations.client_thoughts.message ~ "</h2>" }}
+            %}
+          </div>
+          <div class="testimonial">
+            {% module "testimonial"
+              label="Testimonial"
+              path="../modules/testimonial"
+            %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-summary">
+      <div class="container--content">
+        <div class="section-head">
+          {% module "numbered_heading_3"
+            label="Numbered heading"
+            path="../modules/numbered-heading",
+            title_number="3",
+            title_text={{ "<h2><span style='font-size:50px;text-transform:uppercase;'>" ~ template_translations.project_summary.message ~ "</span></h2>" }},
+            extra_classes="numbered-heading__wrapper"
+          %}
+          <div class="summary">
+            {% module "summary_3"
+              label="Summary"
+              path="@hubspot/rich_text",
+              html="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus pellentesque justo,
+              eget viverra turpis blandit eget. Maecenas eu leo at nulla convallis viverra. Fusce sit amet erat in
+              massa convallis venenatis. Curabitur sit amet bibendum nibh. Etiam posuere justo at mi euismod tincidunt.
+              Fusce nec consequat risus. Fusce efficitur odio tellus, sit amet vestibulum ante lacinia quis. Donec eu
+              neque a velit tincidunt dapibus vel ac libero. Cras ut felis feugiat, fringilla nibh non, bibendum neque.
+              Cras lorem tortor, varius rhoncus convallis ut, elementum et ligula. Proin vel diam at ligula sagittis
+              viverra at sit amet est.</p>"
+            %}
+          </div>
+        </div>
+        <div class="goals">
+          {% module "goals"
+            label="Goals description"
+            path="@hubspot/rich_text",
+            html={{ "<h2>" ~ template_translations.our_goals.message ~ "</h2>" ~
+            "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus pellentesque justo,
+            eget viverra turpis blandit eget. Maecenas eu leo at nulla convallis viverra. Fusce sit amet erat in
+            massa convallis venenatis curabitur sit amet.</p>" }}
+          %}
+        </div>
+        {% module "text_block" path="../modules/text-block" %}
+      </div>
+    </div>
+    <div class="statement-of-work">
+      <div class="container--content">
+        <div class="section-head section-head--two-col">
+          {% module "numbered_heading_4"
+            label="Numbered heading"
+            path="../modules/numbered-heading",
+            title_number="4"
+            title_text={{ "<h2><span style='font-size:50px;text-transform:uppercase;'>" ~ template_translations.statement_of_work.message ~ "</span></h2>" }},
+            extra_classes="numbered-heading__wrapper"
+          %}
+          <div class="summary">
+            {% module "summary_4"
+              label="Summary"
+              path="@hubspot/rich_text",
+              html="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque faucibus pellentesque justo, eget viverra turpis blandit eget.
+              Maecenas eu leo at nulla convallis viverra. Fusce sit amet erat in massa convallis
+              venenatis curabitur sit amet.</p>"
+            %}
+          </div>
+        </div>
+        <div class="content">
+          {% module "text_with_subheading_3"
+            path="@hubspot/rich_text",
+            html={{ "<h3>" ~ template_translations.subhead.message ~ "</h3>" ~
+            "<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce id vulputate felis.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras quis faucibus eros.
+              Phasellus a velit sed mi vulputate sollicitudin sed pellentesque neque.</p>" ~
+            "<h3>" ~ template_translations.subhead.message ~ "</h3>" ~
+            "<p>Curabitur varius porttitor diam, non facilisis purus feugiat eu. Duis non eros facilisis, tristique justo at, rutrum justo. Fusce
+              pulvinar libero a justo placerat, sit amet suscipit nibh suscipit. Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas. Aenean non placerat tellus. Etiam sed est at odio efficitur placerat. Fusce quis erat
+              volutpat, vestibulum erat nec, blandit nisl. Nulla ornare faucibus efficitur. Praesent ultrices non ligula non cursus. Aliquam
+              fermentum magna urna.</p>" }}
+          %}
+        </div>
+      </div>
+    </div>
+    <div class="project-estimate">
+      <div class="container--content">
+        <div class="section-head section-head--two-col">
+          {% module "numbered_heading_5"
+            label="Numbered heading"
+            path="../modules/numbered-heading",
+            title_number="5"
+            title_text={{ "<h2><span style='font-size:50px;text-transform:uppercase;'>" ~ template_translations.project_estimate.message ~ "</span></h2>" }},
+            extra_classes="numbered-heading__wrapper"
+          %}
+          <div class="summary">
+            <div class="reference__container">
+              {% module "reference"
+                label="Reference number"
+                path="../modules/reference-number"
+              %}
+            </div>
+            <div class="quote-dates__container">
+              <div class="quote-created__container">
+                {% module "quote_created" path="../modules/quote-created" %}
+              </div>
+              <div class="quote-expired__container">
+                {% module "quote_expires" path="../modules/quote-expires" %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recipient-company">
+          {% module "recipient_company_text"
+            label="Recipient company text"
+            path="@hubspot/rich_text",
+            html={{ "<b>" ~ template_translations.prepared_for.message ~ "</b>" }}
+          %}
+          {% module "recipient_contacts_2" path="../modules/recipient-contacts" %}
+        </div>
+        <div class="estimate-description">
+          {% module "estimate_description"
+            label="Estimate description"
+            path="@hubspot/rich_text",
+            html="<p>Curabitur varius porttitor diam, non facilisis purus feugiat eu. Duis non eros facilisis, tristique justo at, rutrum justo. Fusce
+            pulvinar libero a justo placerat, sit amet suscipit nibh suscipit. Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas. Aenean non placerat tellus. Etiam sed est at odio efficitur placerat. Fusce quis erat
+            volutpat, vestibulum erat nec, blandit nisl. Nulla ornare faucibus efficitur. Praesent ultrices non ligula non cursus. Aliquam
+            fermentum magna urna.</p>"
+          %}
+          <div class="comments__container">
+            {% module "comments"
+              label="Comments"
+              path="@hubspot/rich_text"
+              html="<p>{{ personalization_token('quote.hs_comments', '') }}</p>"
+            %}
+          </div>
+        </div>
+        <div class="line-items">
+          {% module "line_items_table"
+            path="@hubspot/line_items"
+            line_item_columns=[
+              {
+                "use_additional_product_property": true,
+                "title": template_translations.products_and_services.message,
+                "additional_product_property": "item_description"
+              },
+              {
+                "use_additional_product_property": false,
+                "title": template_translations.billing_frequency.message,
+                "crm_product_property": { "property": "recurringbillingfrequency" }
+              },
+              {
+                "use_additional_product_property": true,
+                "title": template_translations.quantity.message,
+                "additional_product_property": "quantity"
+              },
+              {
+                "use_additional_product_property": true,
+                "title": template_translations.unit_price.message,
+                "additional_product_property": "price"
+              },
+              {
+                "use_additional_product_property": true,
+                "title": template_translations.price.message,
+                "additional_product_property": "amount"
+              }
+            ]
+          %}
+
+          <div class="line-items__totals">
+            <div class="payment-totals-and-fees">
+              <div class="payment__container">{% module "payment" path="@hubspot/quote_payment" heading_text="" %}</div>
+              <div class="totals-and-fees">
+                {% module "subtotals" path="../modules/subtotals" %}
+                {% module "line-item-taxes" path="../modules/line-item-taxes" %}
+                {% module "fees" path="../modules/fees" %}
+                {% module "total" path="../modules/total" %}
+              </div>
+            </div>
+          </div>
+
+          {% module "future-payment-summary" path="../modules/future-payment-summary-table" %}
+
+          <div class="payment-schedule">
+            {% module "payment-schedule" path="@hubspot/quote_payment_schedule" %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contract">
+      <div class="container--content">
+        <div class="section-head section-head--two-col">
+          {% module "numbered_heading_6"
+            label="Numbered heading"
+            path="../modules/numbered-heading",
+            title_number="6"
+            title_text={{ "<h2><span style='font-size:50px;text-transform:uppercase;'>" ~ template_translations.contract.message ~ "</span></h2>" }},
+            extra_classes="numbered-heading__wrapper"
+          %}
+          <div class="summary">
+            {% module "summary_6"
+              label="Summary"
+              path="@hubspot/rich_text",
+              html="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque faucibus pellentesque justo, eget viverra turpis blandit eget.
+              Maecenas eu leo at nulla convallis viverra. Fusce sit amet erat in massa convallis
+              venenatis curabitur sit amet.</p>"
+            %}
+          </div>
+        </div>
+        <div class="content">
+          <div class="terms__container">
+            {% module "terms"
+              label="Terms"
+              path="@hubspot/rich_text"
+              html="<p>{{ personalization_token('quote.hs_terms', '') }}</p>"
+            %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-acceptance">
+      <div class="signature">
+        <div class="container--content">
+          <div class="section-head">
+            {% module "numbered_heading_7"
+              label="Numbered heading"
+              path="../modules/numbered-heading",
+              title_number="7"
+              title_text={{ "<h2><span style='font-size:50px;text-transform:uppercase;'>" ~ template_translations.project_acceptance.message ~ "</span></h2>" }},
+              extra_classes="numbered-heading__wrapper"
+            %}
+          </div>
+          {% module "project_acceptance_description"
+            label="Project acceptance description"
+            path="@hubspot/rich_text",
+            html="<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce id vulputate felis. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras quis faucibus eros. Phasellus a velit sed
+            mi vulputate sollicitudin sed pellentesque neque.</p>"
+          %}
+          {% module "signature" path="@hubspot/quote_signature" %}
+          <div class="download-and-print">
+            {% module "download" path="@hubspot/quote_download" %}
+            {% module "print" path="../modules/print" %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+{% endblock body %}

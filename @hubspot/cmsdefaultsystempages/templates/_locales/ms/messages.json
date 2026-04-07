@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Halaman tidak dijumpai",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Kami tidak dapat menjumpai halaman yang anda cuba cari.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Kembali ke halaman utama",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Halaman tidak berfungsi",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Ralat pelayan dalaman berlaku tetapi kami sedang mengusahakan kes ini!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Kembali ke halaman utama",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Logo syarikat",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Pilihan e-mel anda dikemas kini.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Anda berjaya menyahlanggan daripada semua komunikasi e-mel.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Pilihan e-mel anda dikemas kini.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "Kemas kini pilihan e-mel anda untuk",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Pilih emel manakah yang anda ingin terima daripada {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Pilih e-mel yang ingin anda terima daripada {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Pilih bahasa:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Kemas kini keutamaan e-mel",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Nyahlanggan daripada semua e-mel",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Jika alamat ini bukan alamat anda, sebuah e-mel mungkin telah dimajukan kepada anda daripada orang lain dan anda boleh mengabaikan mesej ini dengan selamat.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Anda telah menyahlanggan semua e-mel kami pada masa ini. Adakah anda ingin menerima e-mel kami semula?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Ya, biar saya langgan semula!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Kata laluan diperlukan",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Sila masukkan kata laluan anda untuk melihat halaman ini.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Kata laluan",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Hasil carian untuk \"[[search_term]]\"",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Maaf, anda tidak mempunyai akses",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Anda tidak mempunyai kebenaran untuk melihat halaman ini. Hubungi pentadbir halaman untuk apa-apa soalan.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Kembali ke halaman utama",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Daftar masuk",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Halaman yang anda cuba lihat hanya tersedia untuk pengguna berdaftar.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "E-mel",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Kata laluan",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Ingat saya",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Terlupa kata laluan?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Daftar masuk",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Tunjukkan",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Menghadapi masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi pentadbir laman</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Anda telah didaftar keluar",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Daftar masuk semula",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Atau kembali ke <a href=\"{{ '//' ~ request.domain }}\">halaman utama</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Sediakan kata laluan anda",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Selamat datang! Selesaikan pendaftaran anda dengan menyediakan kata laluan anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "E-mel",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Sah kata laluan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Kata laluan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Simpan kata laluan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Tunjukkan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Menghadapi masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi pentadbir laman</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Tetapkan semula kata laluan anda",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Masukkan alamat e-mel yang anda gunakan untuk mendaftar dan kami akan menghantar e-mel dengan pautan untuk menetapkan semula kata laluan anda kepada anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "E-mel",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Hantarkan e-mel penetapan semula",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Adakah anda sudah mengingatinya? <a href=\"/_hcms/mem/login\">Daftar masuk</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Menghadapi masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi pentadbir laman</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "E-mel penetapan semula kata laluan dihantar",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Jika akaun yang sepadan ditemui untuk {{ user_email }}, emel akan dihantar dengan langkah seterusnya untuk menetapkan semula kata laluan anda. Sila <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">hubungi pentadbir anda</a> jika anda masih belum menerimanya dalam masa 20 minit.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Hantar e-mel penetapan semula lain",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Cipta kata laluan baharu",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Kata laluan baharu anda mesti berbeza daripada kata laluan yang digunakan sebelum ini.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Kata laluan baharu",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Sahkan kata laluan baharu",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Simpan kata laluan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Tunjukkan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Menghadapi masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi pentadbir laman</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Alamat e-mel anda adalah sah",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Terima kasih kerana mengesahkan alamat e-mel anda. Anda kini boleh masuk ke akaun anda dan mengakses kandungan ekslusif anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Daftar masuk",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Menghadapi masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi pentadbir laman</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Pautan log masuk sekali sahaja dihantar",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Kami telah menghantar e-mel kepada anda di {{ user_email }}. Ia mempunyai pautan yang akan mengelog masuk anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Jika anda tidak dapat melihat e-mel tersebut, sila semak folder spam anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Hantar semula pautan log masuk",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "atau",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Sebaliknya log masuk dengan kata laluan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Menghadapi masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi pentadbir laman</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Sahkan alamat e-mel anda",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Terima kasih kerana mendaftar! Sila semak e-mel anda dan klik pautan pengesahan untuk melengkapkan pendaftaran anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Menghadapi masalah? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Hubungi pentadbir laman</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Cipta kata laluan untuk menyelesaikan pendaftaran",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Langkah terakhir! Sebaik sahaja anda mencipta kata laluan selamat anda, anda akan dapat log masuk dan mengakses kandungan di {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Cipta kata laluan",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Atau salin dan tampal pautan ini di pelayar anda:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Jika anda mempunyai soalan atau menerima mesej ini secara tidak sengaja, sila <a href=\"{{ membership_website_admin }}\">hubungi pentadbir laman</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Tetapkan semula kata laluan anda",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Tetapkan kata laluan baharu dan log masuk ke akaun anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Tetapkan semula kata laluan",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Jika anda tidak membuat permohonan ini, anda boleh mengabaikan e-mel ini dengan selamat.<br/>Jika anda mempunyai soalan, sila <a href=\"{{ membership_website_admin }}\">hubungi pentadbir laman</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Log masuk dengan pautan sekali sahaja",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Teruskan mengelog masuk ke akaun anda. Untuk keselamatan anda, pautan ini akan tamat tempoh dalam 15 minit.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Daftar masuk",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Atau salin dan tampal pautan ini di pelayar anda:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Jika anda tidak membuat permohonan ini, anda boleh mengabaikan e-mel ini dengan selamat.<br/>Jika anda mempunyai soalan, sila <a href=\"{{ membership_website_admin }}\">hubungi pentadbir laman</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Kata laluan {{ membership_company_name }} anda telah berjaya ditukar",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Tidak berniat untuk melakukan perubahan ini? Gunakan  borang <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">terlupa kata laluan</a> untuk menetapkan semula kata laluan anda sekarang.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Jika anda mempunyai soalan, sila hubungi <a href=\"{{ membership_website_admin }}\">pentadbir laman</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Pendaftaran anda telah selesai",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Terima kasih kerana mendaftar! Anda telah siap sedia. Kini anda boleh log masuk untuk mengakses dan membuka kunci lebih banyak nilai.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Log masuk ke akaun baharu anda",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Jika anda mempunyai soalan atau menerima mesej ini secara tidak sengaja, sila <a href=\"{{ membership_website_admin }}\">hubungi pentadbir tapak</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Selamat datang kepada {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Lengkapkan pendaftaran anda dengan mencipta kata laluan yang selamat untuk akaun anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Cipta kata laluan",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Atau salin dan tampal pautan ini di pelayar anda:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Jika anda mempunyai soalan atau menerima mesej ini secara tidak sengaja, sila <a href=\"{{ membership_website_admin }}\">hubungi pentadbir tapak</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Sahkan alamat e-mel anda",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Terima kasih kerana mendaftar! Anda perlu mengesahkan alamat e-mel anda untuk melengkapkan pendaftaran bagi {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Sahkan alamat e-mel",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Jika anda mempunyai soalan atau menerima mesej ini secara tidak sengaja, sila <a href=\"{{ membership_website_admin }}\">hubungi pentadbir tapak</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Sila sahkan permintaan pemadaman anda",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Sahkan permintaan pemadaman anda",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Hai {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Kami telah menerima permintaan untuk memadamkan data peribadi anda daripada {{ company_name }} pada:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Peranti:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Tarikh dan Masa:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Supaya kami dapat memproses permintaan anda, sila sahkan anda ingin memadam data anda.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Ya, padamkan data saya",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Pautan ini akan tamat tempoh dalam 30 minit.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Jika anda tidak meminta untuk dihapuskan, anda boleh mengabaikan mesej ini dengan selamat.",
+    "description": "",
+    "placeholders": null
+  }
+}

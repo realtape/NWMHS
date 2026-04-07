@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "En-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Un en-tête clair et en gras",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Contenu de l'en-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Sélectionnez un niveau d'en-tête. L'en-tête 1 est le plus grand, suivi de l'en-tête 2, et ainsi de suite",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "En-tête 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "En-tête 6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Sélectionner un type d'en-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Niveau d'en-tête",
+    "description": "",
+    "placeholders": null
+  }
+}

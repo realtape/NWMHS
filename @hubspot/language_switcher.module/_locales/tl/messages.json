@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Panlipat ng Wika",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybrid",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localized",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Ang text ng wika na nasa panlipat ng wika. Ang ibig sabihin ng PageLang ay ang mga pangalan ng wika na ipapakita sa page ng wika kung saan naka-on ang panlipat ng wika. Ang ibig sabihin ng localized ay ipapakita ang pangalan ng bawat wika sa wikang iyon. Ang hybrid naman ay kombinasyon ng dalawang nabanggit.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Display mode",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Maghanap",
+    "description": "",
+    "placeholders": null
+  }
+}

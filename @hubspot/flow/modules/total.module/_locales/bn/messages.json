@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "মোট",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "এখন বাকী আছে",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "এটি কোট মোট কে লেবেল করার জন্য ব্যবহার করা হয় যখন কোটের ভবিষ্যতে পেমেন্ট আছে। ",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "এখন বাকি থাকা টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "মোট",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "টোটাল টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "মোট চুক্তির মূল্য",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "এই মানটি সঠিকভাবে বর্ণনা করতে পাঠ্যটি কাস্টমাইজ করুন। (কোন শর্ত সেট না থাকলে ডিফল্ট একটি বার্ষিক মান।)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "চুক্তির মোট মূল্যের পাঠ্য",
+    "description": "",
+    "placeholders": null
+  }
+}

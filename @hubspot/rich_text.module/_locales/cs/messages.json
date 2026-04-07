@@ -1,0 +1,22 @@
+{
+  "html.default": {
+    "message": "<h2>Něco úderného</h2>\n<h3>Prozraďte trochu víc</h3>\n<p>Nadpis a podnadpis čtenáře informují, co <a href=\"#\">nabízíte</a>. Správně zvolený nadpis je polovina úspěchu. Čtenář by z nadpisu měl pochopit, proč je vaše nabídka tak vynikající, že se mu vyplatí vyplnit formulář.</p>\n<p>Nezapomeňte:</p>\n<ul>\n<li>Skvěle fungují odrážky.</li>\n<li>Pomohou vám přehledně vyjmenovat <a href=\"#\">výhody</a></li>\n<li>a tím získat potenciální zákazníky.</li>\n</ul>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.defaultEmail": {
+    "message": "<h2>Nadpis</h2><p>Vložte do e-mailu text.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Formátovaný obsah",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Formátovaný text",
+    "description": "",
+    "placeholders": null
+  }
+}

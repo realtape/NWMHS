@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertical",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Horizontal menus display items side-by-side, and vertical menus are top-to-bottom",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientation",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Child menu items will appear when you hover over the parent. If unchecked, child menu items will always appear",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Enable flyouts?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "The menu tree is the page structure which generates the items in the menu. A single menu tree can be used with multiple menus. You can create multiple menus for complex website structures. Menus are created and managed in your Content Settings",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Determines the number of menu tree children that can be expanded in the menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Max levels",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Breadcrumb style path menu (uses horizontal flow)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dynamic by page - Show pages in menu that are related to page being viewed",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Static - Always show top-level pages in menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dynamic by section - Show pages in menu that are related to section being viewed",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Advanced menus show different portions of a menu tree based on which page is being viewed.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Advanced menu type",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Tulevan maksun yhteenvetotaulukko",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Taulukon otsikko",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Näytä taulukon otsikko",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Taulukon otsikko",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Lisää otsikko tulevien maksujen yhteenvetotaulukkoon",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "Tulevien maksujen yhteenveto",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Sarakkeet",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Rivikohdan nimen otsikko",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Kohde",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Maksun yhteenvedon otsik",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Maksu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Kertaluontoinen",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ viikko",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 viikkoa",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ kuukausi",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ neljännesvuosi",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 kuukautta",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ vuosi",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 vuotta",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 vuotta",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "päivä",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "päivän",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "viikko",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "viikot",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "kuukausi",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "kuukautta",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "maksu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "maksut",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} erääntyy {{ billing_delay_period }} {{ billing_delay_unit }} ensimmäisen maksun jälkeen",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} alkaen {{ billing_delay_period }} {{ billing_delay_unit }} ensimmäisen maksun jälkeen",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} alkaen {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} alkaen {{ billing_delay_period }} {{ billing_delay_unit }} ensimmäisen maksun jälkeen, {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} alkaen {{ formatted_first_payment_date }} {{ number_of_payments }} {{ payment_pluralized }} -maksulle",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 vuotta",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 vuotta",
+    "description": "",
+    "placeholders": null
+  }
+}

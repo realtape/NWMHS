@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Naročnina na e-poštni dnevnik",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Privzeto bo uporabljen trenutni spletni dnevnik, če se uporablja v predlogi spletnega dnevnika, ali primarni spletni dnevnik, če se uporablja drugje.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Izberite spletni dnevnik za prikaz",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Naročite se tukaj!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Naslov za prikaz nad obrazcem",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Vgrajeni odziv za uporabnike",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Hvala, da ste se naročili!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Da se prikaže obrazec za naročanje na spletni dnevnik, morate vklopiti naročnine na svoj spletni dnevnik. To lahko storite v nastavitvah. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Več o tem</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Slog naslova",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Izberite raven naslova. Naslovi naj bodo hierarhično ugnezdeni na podlagi vaše vsebine. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Več informacij</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

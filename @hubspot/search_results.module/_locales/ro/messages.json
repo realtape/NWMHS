@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Rezultate căutare site",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Afișare imagini recomandate",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Ne pare rău. Nu au existat rezultate de căutare pentru [[search_term]].</p><p>Încercați să reformulați interogarea sau navigați pe site-ul nostru.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Pagina anterioară",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Pagina următoare",
+    "description": "",
+    "placeholders": null
+  }
+}

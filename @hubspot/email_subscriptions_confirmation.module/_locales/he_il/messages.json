@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "הודעת אישור של מינויים",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "עדכנת בהצלחה את העדפות הדוא\"ל שלך.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "הודעה בעת עדכון מינוי",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "כותרת משנה",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "אם כתובת דוא\"ל זו לא שייכת לך, התעלם מדף זה הואיל וסביר להניח שהדוא\"ל המשויך לדף זה הועבר אליך.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "ביטלת בהצלחה את ההרשמה לכל תכתובות הדוא\"ל.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "הודעה בעת ביטול הרשמה",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "טקסט כותרת",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "כותרת",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "טקסט לחצן 'ניהול העדפות'",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "נהל העדפות",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "כתב ויתור של החזרת 'ניהול העדפות'",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "טעית? אל דאגה. תוכל לשנות את ההעדפות שלך.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "טקסט של הודעת ביטול מינוי יחיד שבוצע בהצלחה",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "ביטלת בהצלחה את המינוי ל:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "טקסט מציין מיקום של המינוי",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "סוג המינוי שבחרת",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "רמת כותרת עליונה",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "כותרת 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "כותרת 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "כותרת 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "כותרת 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "כותרת 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "כותרת 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "רמת כותרת של הודעת דוא\"ל",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "כותרת 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "כותרת 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "כותרת 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "כותרת 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "כותרת 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "כותרת 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "פסקה",
+    "description": "",
+    "placeholders": null
+  }
+}

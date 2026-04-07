@@ -1,0 +1,13 @@
+{
+  "label": "Payment",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING", "CASE_STUDY"],
+  "icon": "../img/icon/credit-card.svg",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "placeholder": {
+    "show_module_icon": true,
+    "title": "No payment selected",
+    "description": "Select payment from the dropdown menu in the left sidebar."
+  },
+  "categories": ["commerce"]
+}

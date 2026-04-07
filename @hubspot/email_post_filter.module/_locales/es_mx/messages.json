@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filtro de publicaciones",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Ver todo",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Texto para mostrar si hay disponible más que el valor máximo para mostrar. Déjalo en blanco para omitir el enlace.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "El valor predeterminado usará el blog actual cuando se use en una plantilla de blog o el blog principal cuando se use en otro lugar.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Seleccionar blog para mostrarlo",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Número máximo de valores de filtro para mostrar. Dejar en blanco para mostrar todo.",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Buscar",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Lista de valores para enlaces de filtro",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Etiquetas",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autores",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Meses",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Publicaciones por etiqueta",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Título de lista para mostrar",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nombre",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Conteo de publicaciones",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Buscar",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordenamiento de valores para enlaces de filtro",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Mostrar todos los filtros",
+    "description": "",
+    "placeholders": null
+  }
+}
