@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "ส่วนหัวของส่วน",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "หัวเรื่องย่อยที่กระชับขึ้น",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "หัวเรื่องย่อย",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "หัวเรื่องที่ชัดเจนและเป็นตัวหนา",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "ส่วนเนื้อหาหัวเรื่อง",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "เลือกขนาดหัวเรื่อง โดย H1 คือใหญ่ที่สุด ตามด้วย H2 และอื่นๆ",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "ขนาดหัวเรื่อง",
+    "description": "",
+    "placeholders": null
+  }
+}

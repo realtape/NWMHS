@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Az oldal nem található",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Nem találtuk a keresett oldalt.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Ugrás a kezdőoldalra",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Az oldal nem működik",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Belső kiszolgálóhiba történt, de már foglalkozunk az üggyel!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Ugrás a kezdőoldalra",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Vállalat logója",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "A rendszer frissítette az e-mail-beállításait.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Sikeresen leiratkozott az összes e-mailes kommunikációról.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "A rendszer frissítette az e-mail-beállításait.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "A következő e-mail-beállításainak frissítése:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Válassza ki, a(z) {{ site_settings.company_name }} mely e-mailjeit kívánja megkapni:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Válassza ki, a(z) {{ business_unit().name }} mely e-mailjeit kívánja megkapni:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Válasszon nyelvet:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "E-mail-beállítások frissítése",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Leiratkozás az összes e-mailről",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Ha ez nem az Ön címe, nagy valószínűséggel valaki mástól továbbított a rendszer Önnek egy e-mailt, amelyet nyugodtan figyelmen kívül hagyhat.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Jelenleg minden e-mailünkről leiratkozott. Ismét meg szeretné kapni az e-mailjeinket?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Igen, ismét fel szeretnék iratkozni!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Jelszó szükséges",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Adja meg a jelszavát az oldal megtekintéséhez.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Jelszó",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Keresési eredmények a(z) „[[search_term]]” kifejezésre",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Sajnos nincs hozzáférése",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Nincs engedélye az oldal megtekintésére. Kérdés esetén forduljon az oldal rendszergazdájához.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Ugrás a kezdőoldalra",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Bejelentkezés",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "A megtekinteni próbált oldalhoz csak regisztrált felhasználók férhetnek hozzá.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "E-mail-cím",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Jelszó",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Emlékezzen rám",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Elfelejtette a jelszót?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Bejelentkezés",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Megjelenítés",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Problémát tapasztal? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Forduljon az oldal rendszergazdájához</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Kijelentkezett",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Jelentkezzen be újra",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Vagy térjen vissza a <a href=\"{{ '//' ~ request.domain }}\">kezdőlapra</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Jelszó beállítása",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Üdvözöljük! A regisztráció befejezéséhez állítsa be a jelszavát.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "E-mail-cím",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Jelszó megerősítése",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Jelszó",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Jelszó mentése",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Megjelenítés",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Problémát tapasztal? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Forduljon az oldal rendszergazdájához</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Jelszó visszaállítása",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Adja meg a regisztrációhoz használt e-mail-címet, és új jelszó beállítására szolgáló hivatkozást küldünk Önnek.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "E-mail-cím",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Visszaállító e-mail küldése",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Eszébe jutott? <a href=\"/_hcms/mem/login\">Jelentkezzen be</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Problémát tapasztal? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Forduljon az oldal rendszergazdájához</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "Elküldtük a jelszó-visszaállító e-mailt",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Ha találunk a(z) {{ user_email }} címnek megfelelő fiókot, e-mailt küldünk a jelszó visszaállításának következő lépéseiről. <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Vegye fel a kapcsolatot a rendszergazdával</a>, ha 20 percen belül nem kapja meg.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Újabb visszaállító e-mail küldése",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Új jelszó létrehozása",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Az új jelszó nem lehet azonos a korábban használt jelszóval.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Új jelszó",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Új jelszó megerősítése",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Jelszó mentése",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Megjelenítés",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Problémát tapasztal? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Forduljon az oldal rendszergazdájához</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "E-mail-címe megerősítése megtörtént",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Köszönjük, hogy visszaigazolta e-mail-címét. Most már bejelentkezhet fiókjába, és hozzáférhet az exkluzív tartalomhoz.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Bejelentkezés",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Problémát tapasztal? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Forduljon az oldal rendszergazdájához</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Egyszeri bejelentkezési hivatkozás elküldve",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>E-mailt küldtünk Önnek erre a címre: {{ user_email }}. Ebben van egy hivatkozás, amellyel be tud jelentkezni.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Ha nem látja az e-mailt, ellenőrizze a levélszemét mappát.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Bejelentkezési hivatkozás újraküldése",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "vagy",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Bejelentkezés inkább jelszóval",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Problémát tapasztal? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Forduljon az oldal rendszergazdájához</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Igazolja vissza e-mail-címét",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Köszönjük regisztrációját! Kérjük, nézze meg e-mailjeit, és kattintson a megerősítő linkre a regisztráció befejezéséhez.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Problémát tapasztal? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Forduljon az oldal rendszergazdájához</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Hozzon létre jelszót a regisztráció befejezéséhez",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Utolsó lépés! Amikor létrehozta a biztonságos jelszavát, bejelentkezhet, és hozzáférhet a(z) {{ membership_domain }} tartalmához.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Jelszó létrehozása",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Vagy másolja be ezt a hivatkozást a böngészőbe.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Ha kérdése van, vagy tévedésből kapta ezt az üzenetet, <a href=\"{{ membership_website_admin }}\">lépjen kapcsolatba a webhely rendszergazdájával.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Jelszó visszaállítása",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Állítson be új jelszót, és jelentkezzen be a fiókjába.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Jelszó visszaállítása",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Ha nem ön küldte ezt a kérést, nyugodtan figyelmen kívül hagyhatja ezt az e-mailt.<br/>Ha kérdése van, <a href=\"{{ membership_website_admin }}\">lépjen kapcsolatba a webhely rendszergazdájával.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Bejelentkezés egyszeri hivatkozással",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Folytassa a fiókjába való bejelentkezést. Biztonsága érdekében ez a hivatkozás 15 perc múlva lejár.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Bejelentkezés",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Vagy másolja be ezt a hivatkozást a böngészőbe.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Ha nem ön küldte ezt a kérést, nyugodtan figyelmen kívül hagyhatja ezt az e-mailt.<br/>Ha kérdése van, <a href=\"{{ membership_website_admin }}\">lépjen kapcsolatba a webhely rendszergazdájával.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Sikeresen módosította a(z) {{ membership_company_name }}-jelszavát",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Nem állt szándékában ez a módosítás? Állítsa vissza a jelszavát az <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">elfelejtett jelszó</a> űrlappal.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Ha kérdése van, lépjen kapcsolatba a <a href=\"{{ membership_website_admin }}\"> webhely rendszergazdájával.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "A regisztráció befejeződött",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Köszönjük, hogy regisztrált! Minden kész, most már bejelentkezhet, és még több értékes szolgáltatáshoz férhet hozzá.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Jelentkezzen be az új fiókjába",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Ha kérdése van, vagy tévesen kapta ezt az üzenetet, <a href=\"{{ membership_website_admin }}\">lépjen kapcsolatba a webhely rendszergazdájával.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Üdvözli a(z) {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "A regisztráció befejezéséhez hozzon létre biztonságos jelszót a fiókjához.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Jelszó létrehozása",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Vagy másolja be ezt a hivatkozást a böngészőbe.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Ha kérdése van, vagy tévesen kapta ezt az üzenetet, <a href=\"{{ membership_website_admin }}\">lépjen kapcsolatba a webhely rendszergazdájával.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Igazolja vissza e-mail-címét",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Köszönjük, hogy feliratkozott! Ahhoz, hogy befejezze {{ membership_domain }}-regisztrációját, vissza kell igazolnia az e-mail-címét.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "E-mail-cím visszaigazolása",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Ha kérdése van, vagy tévesen kapta ezt az üzenetet, <a href=\"{{ membership_website_admin }}\">lépjen kapcsolatba a webhely rendszergazdájával.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Erősítse meg törlési kérését",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Erősítse meg törlési kérését",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Kedves {{ first_name }}!",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Személyes adatainak a(z) {{ company_name }} nyilvántartásából való törlésére vonatkozó kérést kaptunk a következő jellemzőkkel:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Eszköz:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Dátum és idő:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Ahhoz, hogy fel tudjuk dolgozni a kérését, kérjük, erősítse meg, hogy törölni kívánja az adatait.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Igen, töröljék az adataim",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Ez a hivatkozás 30 perc múlva lejár.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Amennyiben nem kért törlést, kérjük, hagyja figyelmen kívül ezt az üzenetet.",
+    "description": "",
+    "placeholders": null
+  }
+}

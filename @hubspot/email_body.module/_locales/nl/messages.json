@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Hoofdtekst e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hallo&nbsp;{{contact.firstname}},</p>\n<p>Beschrijf wat je de klant te bieden hebt. Waarom zouden ze het lezen? Wat heb je ze beloofd in de onderwerpregel? Vertel ze iets cools. Laat ze lachen. Laat ze huilen. Oké, dat laatste misschien niet...</p>\n<p>Gebruik een lijst om:</p>\n<ul>\n<li>de waarde van je aanbod uit te leggen</li>\n<li>de lezer te herinneren aan wat ze krijgen als ze actie ondernemen</li>\n<li>je vaardigheid met opsommingstekens te laten zien</li>\n<li>je inhoud makkelijk te scannen te maken</li>\n</ul>\n<p><a href=\"http://hubspot.com\">LINK NAAR EEN LANDINGSPAGINA OP JE SITE</a> (Dit is het echt belangrijke gedeelte.)</p>\n<p>Sluit nu af met een kernachtige herinnering hoeveel je van ze houdt.</p>\n<p>Wow, sluwe vos die je bent!</p>\n<p>Met vriendelijke groet,</p>\n<p>Je naam</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Hoofdtekst e-mail",
+    "description": "",
+    "placeholders": null
+  }
+}

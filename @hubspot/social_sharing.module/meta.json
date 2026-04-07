@@ -1,0 +1,58 @@
+{
+  "label": "Social Sharing",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "content_types": ["LANDING_PAGE", "SITE_PAGE", "BLOG_POST", "BLOG_LISTING", "QUOTE_TEMPLATE", "SUBSCRIPTION", "MEMBERSHIP"],
+  "icon": "../img/icon/social-sharing-module-icon.svg",
+  "other_assets": [
+    {
+      "resource_id": null,
+      "url": "../img/facebook-color.png",
+      "name": "facebook-color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/linkedin-color.png",
+      "name": "linkedin-color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/twitter-color.png",
+      "name": "twitter-color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/pinterest-color.png",
+      "name": "pinterest-color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/email-color.png",
+      "name": "email-color.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/x-twitter-color.png",
+      "name": "x-twitter-color.png",
+      "autoload": false
+    }
+  ],
+  "extra_classes": "widget-type-social_sharing",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": ["social"],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

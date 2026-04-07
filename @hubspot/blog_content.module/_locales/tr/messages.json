@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Blog İçeriği",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.post": {
+    "message": "Yayınla",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.listing": {
+    "message": "Listeleniyor",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.label": {
+    "message": "Düzenlenecek şablon",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_source.label": {
+    "message": "Blog yayını kaynağı",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_listing_source.label": {
+    "message": "Blog listeleme kaynağı",
+    "description": "",
+    "placeholders": null
+  }
+}

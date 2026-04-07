@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Paga ora",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Testo pulsante pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Assicurati che sia chiaro che fare clic su questo pulsante consentirà al cliente di pagare.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Si è verificato un problema durante la configurazione del pagamento. Contatta la persona che ti ha inviato il preventivo.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Messaggio di errore pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Spiega al cliente cosa fare quando si verifica un problema con l'avvio del pagamento.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Scegli un livello per il titolo. H1 è il più grande, seguito da H2 e così via.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Livello titolo",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Contenuto del ttolo",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Effettua il primo pagamento:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Il cliente visualizzerà questa frase sul pulsante di pagamento finché non avrà pagato la prima rata.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Testo del pulsante per le pianificazioni dei pagamenti",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Impossibile effettuare il pagamento perché il preventivo non è firmato.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Testo che spiega quando sono necessarie le firme",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Se le firme sono richieste prima del pagamento, il cliente visualizzerà questo messaggio finché tutte le firme obbligatorie non saranno state apposte.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Pagato",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Testo pagamento effettuato",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Pagamento effettuato alle ore [[ paid_time ]] in data [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Elaborazione dei pagamenti",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Testo elaborazione pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Si è verificato un problema durante il caricamento dello stato del pagamento per il preventivo. Prova ad aggiornare la pagina.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Messaggio di errore stato pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Spiega al cliente di aggiornare la pagina quando il recupero dello stato del pagamento non va a buon fine.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Questo è un preventivo di prova, quindi non può riscuotere pagamenti reali.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Puoi decidere se riscuotere il pagamento quando crei un preventivo con questo modello.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Per pagare, contatta la persona che ti ha inviato il preventivo.",
+    "description": "",
+    "placeholders": null
+  }
+}

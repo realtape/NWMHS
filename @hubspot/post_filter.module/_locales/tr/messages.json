@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Gönderi filtresi",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Tümünü gör",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Görüntülenecek maksimum değerden daha fazlası mevcutsa görüntülenecek metin. Bağlantıyı atlamak için boş bırakın",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Varsayılan bir blog şablonunda kullanıldığında mevcut blogu veya başka bir yerde kullanıldığında birincil blogu kullanır.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Görüntülenecek blogu seçin",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Görüntülenecek maksimum filtre değeri sayısı",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Filtre bağlantıları için değerlerin listesi",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Etiketler",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Yazarlar",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Ay",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Etikete göre gönderiler",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Görüntülenecek liste başlığı",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Ad",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Gönderi sayısı",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Filtre bağlantıları için değerlerin sıralaması",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Tüm filtreleri göster",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Sivua ei löytynyt",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Etsimääsi sivua ei löydy.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Siirry aloitussivulle",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Tämä sivu ei toimi",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Tapahtui sisäinen palvelinvirhe, mutta selviätämme asiaa!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Siirry aloitussivulle",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Yrityksen logo",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Sähköpostiasetukset päivitettiin.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Kaiken sähköpostiviestinnän tilaaminen on lopetettu onnistuneesti.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Sähköpostiasetukset päivitettiin.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "Päivitä sähköpostiasetukset kohteelle",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Valitse, mitä sähköposteja haluat vastaanottaa yritykseltä {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Valitse, mitä sähköposteja haluat vastaanottaa kohteelta {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Valitse kieli:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Päivitä sähköpostiasetukset",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Lopeta kaiken sähköpostin tilaus",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Jos tämä ei ole osoitteesi, sinulle on todennäköisesti lähetetty sähköposti edelleen joltakin toiselta ja voit jättää tämän viestin huomiotta.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Et ole tällä hetkellä millään sähköpostilistallamme. Haluatko jälleen vastaanottaa sähköpostiviestejämme?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Kyllä, haluan tilata uudelleen!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Salasana on pakollinen",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Anna salasana, jotta voit nähdä tämän sivun.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Hakutulokset haulle \"[[search_term]]\"",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Valitettavasti sinulla ei ole käyttöoikeutta",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Sinulla ei ole käyttöoikeutta tämän sivun katselemiseen. Ota yhteyttä järjestelmänvalvojaasi saadaksesi käyttöoikeuden.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Siirry aloitussivulle",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Kirjaudu sisään",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Sivu, jota yrität tarkastella, on vain rekisteröityneiden käyttäjien käytettävissä.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "Sähköposti",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Muista minut",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Unohditko salasanan?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Kirjaudu sisään",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Näytä",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Onko ongelmia? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Ota yhteyttä sivuston järjestelmänvalvojaan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Olet kirjautunut ulos",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Kirjaudu takaisin sisään",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Tai palaa <a href=\"{{ '//' ~ request.domain }}\">etusivulle</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Aseta salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Tervetuloa! Viimeistele rekisteröinti asettamalla salasana.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "Sähköposti",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Vahvista salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Tallenna salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Näytä",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Onko ongelmia? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Ota yhteyttä sivuston ylläpitäjään</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Nollaa salasanasi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Anna sähköpostiosoite, jota käytit rekisteröityessä, niin lähetämme sinulle sähköpostin, jossa on linkki salasanan vaihtoon.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "Sähköposti",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Lähetä nollaussähköposti",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Tuliko se juuri sinulle takaisin? <a href=\"/_hcms/mem/login\">Kirjaudu sisään</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Onko ongelmia? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Ota yhteyttä sivuston ylläpitäjään</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "Salasanan nollaussähköposti lähetetty",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Jos sähköpostille {{ user_email }} löytyi vastaava tili, lähetettiin sähköposti, jossa kerrottiin seuraavat vaiheet salasanan vaihtamiseksi. <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Ota yhteyttä järjestelmänvalvojaasi</a>, jos et ole saanut sitä 20 minuutin kuluessa.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Lähetä toinen nollaussähköposti",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Luo uusi salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Uuden salasanan on oltava eri kuin aiemmin käyttämäsi salasana.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Uusi salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Vahvista uusi salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Tallenna salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Näytä",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Onko ongelmia? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Ota yhteyttä sivuston ylläpitäjään</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Sähköpostiosoitteesi on vahvistettu",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Kiitos, että vahvistit sähköpostiosoitteesi. Voit nyt kirjautua tilillesi ja päästä käsiksi yksinoikeussisältöösi.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Kirjaudu sisään",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Onko ongelmia? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Ota yhteyttä sivuston järjestelmänvalvojaan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Kertaluontoinen kirjautumislinkki lähetetty",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Lähetimme sinulle sähköpostia osoitteeseen {{ user_email }}. Siinä on linkki, jonka kautta voit kirjautua sisään.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Jos et näe sähköpostia, tarkista roskapostikansiosi.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Lähetä kirjautumislinkki uudelleen",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "tai",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Kirjaudu sen sijaan sisään salasanalla",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Onko ongelmia? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Ota yhteyttä sivuston järjestelmänvalvojaan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Vahvista sähköpostiosoitteesi",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Kiitos kirjautumisesta! Viimeistele rekisteröityminen tarkistamalla sähköpostisi ja napsauttamalla sinne lähetettyä vahvistuslinkkiä.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Onko ongelmia? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Ota yhteyttä sivuston järjestelmänvalvojaan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Viimeistele rekisteröinti luomalla salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Viimeinen vaihe! Kun olet luonut turvallisen salasan, voit kirjautua sisään ja käyttää sisältöä osoitteessa {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Luo salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Tai kopioi ja liitä tämä linkki selaimeesi:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Jos sinulla on kysyttävää tai olet saanut tämän virheellisesti, <a href=\"{{ membership_website_admin }}\">ota yhteyttä sivuston järjestelmänvalvojaan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Nollaa salasanasi",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Aseta uusi salasana ja kirjaudu tilillesi.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Nollaa salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Jos et ole tehnyt tätä pyyntöä, voit jättää tämän sähköpostiviestin huomiotta.<br/>Jos sinulla on kysyttävää, <a href=\"{{ membership_website_admin }}\">ota yhteyttä sivuston järjestelmänvalvojaan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Kirjaudu sisään kertalinkillä",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Jatka kirjautumista tilillesi. Turvallisuutesi vuoksi tämä linkki vanhenee 15 minuutin kuluttua.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Kirjaudu sisään",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Tai kopioi ja liitä tämä linkki selaimeesi:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Jos et ole tehnyt tätä pyyntöä, voit jättää tämän sähköpostiviestin huomiotta.<br/>Jos sinulla on kysyttävää, <a href=\"{{ membership_website_admin }}\">ota yhteyttä sivuston järjestelmänvalvojaan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Yrityksen {{ membership_company_name }} salasanasi vaihdettiin onnistuneesti",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Eikö ollut tarkoitus tehdä tätä muutosta? Käytä <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">unohtuneen</a> salasanan palautuslomaketta salasanasi palauttamiseksi nyt.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Jos sinulla on kysyttävää, ota yhteyttä <a href=\"{{ membership_website_admin }}\"> sivuston järjestelmänvalvojaan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Rekisteröintisi on valmis",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Kiitos kun rekisteröidyit! Kaikki on valmista. Nyt voit kirjautua sisään ja saada vielä enemmän arvoa.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Kirjaudu uudelle tilillesi",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Jos sinulla on kysyttävää tai olet saanut tämän virheellisesti, <a href=\"{{ membership_website_admin }}\">ota yhteyttä sivuston järjestelmänvalvojaan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Tervetuloa yritykseen {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Viimeistele rekisteröinti luomalla tilillesi turvallinen salasana.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Luo salasana",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Tai kopioi ja liitä tämä linkki selaimeesi:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Jos sinulla on kysyttävää tai olet saanut tämän virheellisesti, <a href=\"{{ membership_website_admin }}\">ota yhteyttä sivuston järjestelmänvalvojaan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Vahvista sähköpostiosoitteesi",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Kiitos, että rekisteröidyit! Sinun on vahvistettava sähköpostiosoitteesi, jotta voit suorittaa rekisteröinnin loppuun kohteeseen {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Vahvista sähköpostiosoite",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Jos sinulla on kysyttävää tai olet saanut tämän virheellisesti, <a href=\"{{ membership_website_admin }}\">ota yhteyttä sivuston järjestelmänvalvojaan</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Vahvista poistopyyntösi",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Vahvista poistopyyntösi",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Hei {{ first_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Saimme pyynnön poistaa henkilötietosi yrityksestä {{ company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Laite:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Päivämäärä ja aika:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Jotta voimme käsitellä pyyntösi, vahvista, että haluat poistaa henkilötietosi.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Kyllä, poista tiedot",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Tämä linkki vanhenee 30 minuutin kuluttua.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Jos et pyytänyt poistamista, voit turvallisesti jättää tämän viestin huomiotta.",
+    "description": "",
+    "placeholders": null
+  }
+}

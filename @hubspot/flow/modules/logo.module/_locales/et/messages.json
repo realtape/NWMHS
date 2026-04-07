@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Logo max kõrgus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "See ei kehti, kui kirjutate üle vaikelogo",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Võite sellel mallil rakendatud logo üle kirjutada selle tumbleri abil.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Kirjutage vaikelogo üle",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Vaikimisi kuvatakse teie pakkumuses teie ettevõtte logo teie brändikomplektist konto vaikimisi või veebisaidi lehe seadetes.",
+    "description": "",
+    "placeholders": null
+  }
+}

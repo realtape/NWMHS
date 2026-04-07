@@ -1,0 +1,62 @@
+{
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Odaberite razinu naslova. Najveća je razina H1, slijedi je H2 i tako dalje",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Razina naslova",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "Ako nije naveden URL, vaš logotip će se povezati s vašom primarnom domenom",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "URL poveznica",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logotip",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Otvori poveznicu u novoj kartici kada posjetitelji kliknu",
+    "description": "",
+    "placeholders": null
+  }
+}

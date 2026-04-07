@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Um cabeçalho limpo e a negrito",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Conteúdo do cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Escolha um nível do cabeçalho. H1 é o maior, seguido de H2 e assim sucessivamente",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Selecione um tipo de cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Nível do cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Ocultar os controlos de nível do cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Ocultar os controlos de nível do cabeçalho impede que o nível do cabeçalho seja alterado nas ferramentas de conteúdos",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Missatge de confirmació de les subscripcions",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Has actualitzat les preferències de correu electrònic correctament.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Missatge d'actualització de subscripció",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Subtítol",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Si aquesta no és la teva adreça electrònica, ignora aquesta pàgina, ja que probablement t'han reenviat el correu electrònic associat.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Has cancel·lat la subscripció de totes les comunicacions de correu electrònic correctament.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Missatge de cancel·lació de subscripció",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Text de la capçalera",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Capçalera",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Text del botó Gestiona les preferències",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Gestiona les preferències",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Avís legal sobre el retorn a la gestió de les preferències",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Has comès un error? No et preocupis, pots modificar les teves preferències.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Text de cancel·lació correcta d'una sola subscripció",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Has cancel·lat correctament la subscripció de:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Text del marcador de posició de la subscripció",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "el teu tipus de subscripció seleccionat",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Nivell del títol de l'encapçalament",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Títol 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Títol 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Títol 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Títol 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Títol 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Títol 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Nivell del títol del correu electrònic",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Títol 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Títol 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Títol 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Títol 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Títol 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Títol 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Paràgraf",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,236 @@
+/* Some of the HubL tags used for membership templates have different structure/HTML markup so this file is used to override some of the base styles to achieve our desired design */
+
+/***** SHARED *****/
+
+/* Styles the "show" link on the password field */
+.form-wrapper--membership-login .hs-form-field,
+.form-wrapper--membership-registration .hs-form-field,
+.form-wrapper--reset-password .hs-form-field {
+  position: relative;
+  flex-basis: 100%;
+}
+
+.form-wrapper--membership-login .hs-login-widget-show-password,
+.form-wrapper--membership-registration .hs-register-widget-show-password,
+.form-wrapper--reset-password .hs-reset-widget-show-password {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+/* Aligns password help text closer to password field by offsetting field margin bottom */
+#hs-membership-password-requirements {
+  margin: -1.25rem 0 var(--standard-margin);
+}
+
+/* Styles for the "or" separator on login and passwordless auth confirmation templates */
+.form-separator {
+  display: flex;
+  width: 100%;
+  padding-top: var(--large-margin);
+  padding-bottom: var(--large-margin);
+  flex-direction: row;
+  font-weight: 500;
+}
+
+.form-separator--small {
+  width: 80%;
+  padding: var(--standard-margin);
+  margin: 0 auto;
+}
+
+.form-separator:before,
+.form-separator:after {
+  border-bottom: var(--border-dark);
+  margin: auto;
+  flex: 1 1;
+  content: '';
+}
+
+.form-separator--light:before,
+.form-separator--light:after {
+  border-bottom: var(--border);
+}
+
+.form-separator:before {
+  margin-right: 0.25rem;
+}
+
+.form-separator:after {
+  margin-left: 0.25rem;
+}
+
+/* Removes margin on the "Remember me" label so it stays vertically aligned */
+.form-wrapper--membership-login label[for='hs-login-widget-remember'] {
+  margin-bottom: 0;
+}
+
+/***** MEMBERSHIP LOGIN *****/
+
+/* Adjusts base level form styles so the two forms on login appear as one */
+.form-wrapper--membership-login form:last-of-type {
+  margin-bottom: var(--standard-margin);
+}
+
+.form-wrapper--membership-login .form-separator {
+  padding-top: 0;
+  padding-right: var(--form-padding);
+  padding-bottom: 0;
+  padding-left: var(--form-padding);
+  background-color: var(--form-background-color);
+}
+
+@media (min-width: 768px) {
+  .form-wrapper--membership-login .form-separator {
+    padding-right: var(--form-padding-desktop);
+    padding-left: var(--form-padding-desktop);
+  }
+}
+
+/* Styles for the paragraph at the top of the passwordless auth part of the login form */
+.form-wrapper--membership-login #hs-membership-passwordless-auth-form > div:first-of-type {
+  width: 100%;
+}
+
+.form-wrapper--membership-login #hs-membership-passwordless-auth-form p {
+  text-align: center;
+}
+
+/* Applies secondary button styles to second login forms submit button */
+#hs-membership-passwordless-auth-form input[type='submit'],
+#hs-membership-passwordless-auth-form .hs-button {
+  border: var(--secondary-button-border);
+  background: var(--secondary-button-background-color);
+  color: var(--secondary-button-font-color);
+  cursor: pointer;
+  font-family: var(--secondary-button-font);
+}
+
+#hs-membership-passwordless-auth-form input[type='submit']:hover,
+#hs-membership-passwordless-auth-form .hs-button:hover,
+#hs-membership-passwordless-auth-form input[type='submit']:focus,
+#hs-membership-passwordless-auth-form .hs-button:focus {
+  border: var(--secondary-button-hover-border);
+  background: var(--secondary-button-hover-background-color);
+  color: var(--secondary-button-hover-font-color);
+}
+
+#hs-membership-passwordless-auth-form input[type='submit']:active,
+#hs-membership-passwordless-auth-form .hs-button:active {
+  border: var(--secondary-button-active-border);
+  background: var(--secondary-button-active-background-color);
+  color: var(--secondary-button-active-font-color);
+}
+
+#hs-membership-passwordless-auth-form input[type='submit']:disabled {
+  border: var(--border-transparent) !important;
+}
+
+/* Removes margin on content in the warning/success messages */
+.hs-resend-sign-in__alert-content * {
+  margin-bottom: 0;
+}
+
+/* Applies flex for additional overrides below */
+.form-wrapper--membership-login form {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  margin-bottom: 0;
+}
+
+/* Aligns remember me field with "forget password?" link */
+.form-wrapper--membership-login form div.hs-form-field:nth-child(6) {
+  display: flex;
+  margin-bottom: 0;
+  flex-basis: 50%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.form-wrapper--membership-login form div:nth-child(7) {
+  display: flex;
+  flex-basis: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Styles "Forget password?" link on form */
+.form-wrapper--membership-login #hs_login_reset {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Overrides on button in form */
+.form-wrapper--membership-login .hs-submit {
+  margin-top: var(--standard-margin);
+  flex-basis: 100%;
+}
+
+/***** MEMBERSHIP LOGOUT *****/
+
+.button-wrapper--membership-logout {
+  width: 80%;
+  margin: 0 auto var(--standard-margin);
+}
+
+/***** MEMBERSHIP OTP CONFIRMATION *****/
+
+
+.hs-button-wrapper--resend-sign-in,
+.button-wrapper--membership-passwordless-auth {
+  width: 80%;
+  margin: 0 auto var(--standard-margin);
+}
+
+/***** MEMBERSHIP REGISTRATION CONFIRMATION *****/
+
+.success-image {
+  display: inline-block;
+  margin-bottom: var(--standard-margin);
+}
+
+.button-wrapper--membership-registration-confirmation a {
+  width: 80%;
+  margin-bottom: var(--standard-margin);
+}
+
+/***** MEMBERSHIP RESET PASSWORD REQUEST *****/
+
+/* Extending form styles/wrapper so it can contain paragraph tag below the form */
+.hs-membership-reset-request__form-container {
+  width: var(--form-width);
+  padding: var(--form-padding);
+  margin-bottom: var(--standard-margin);
+  background-color: var(--form-background-color);
+}
+
+@media (min-width: 768px) {
+  .hs-membership-reset-request__form-container form {
+    padding: var(--form-padding-desktop);
+  }
+}
+
+.form-wrapper--reset-password-request form {
+  padding: 0;
+  margin-bottom: 0;
+  background: none;
+}
+
+/* Styles for "Did it just come back to you?" text */
+.hs-membership-reset-request__form-container p {
+  margin: var(--standard-margin) 0 0;
+  text-align: center;
+}
+
+.button-wrapper--membership-reset-password-success {
+  margin-top: var(--standard-margin);
+}
+
+#hs-membership-form input[disabled] {
+  background-color: var(--form-background-color-disabled);
+} 

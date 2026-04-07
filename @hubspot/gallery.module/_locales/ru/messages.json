@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Галерея изображений",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Подпись",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Открывать ссылку в новой вкладке",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Показать надписи",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL-адрес ссылки",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Изменяемая высота",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Фиксированная высота",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Изменяемая высота",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Показать кнопки навигации",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Навигация по миниатюрам",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Стандартный слайдер",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Галерея с затемнением фона ",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Режим отображения",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Закольцованные слайды",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Наложить надписи поверх изображений",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Всегда помещать подписи под изображением",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Положение подписи",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Время в секундах между автоматической прокруткой",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Исчезание",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Смена слайдов",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Строки для галереи с затемнением фона",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Автоматически переходить к следующему",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Этот модуль устарел — доступны два новых улучшенных модуля: Image Slider и Image Grid. <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Подробнее.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

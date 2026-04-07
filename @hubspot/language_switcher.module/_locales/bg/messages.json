@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Превключвател на език",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Хибриден",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Локализиран",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Езикът на текста в превключвателя на език. PageLang означава, че имената на езиците ще се показват на езика на страницата, на която е включен превключвателят. Локализиран означава, че името на всеки език ще се показва на този език. Хибриден е комбинация от двата.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Режим на показване",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Търсене",
+    "description": "",
+    "placeholders": null
+  }
+}

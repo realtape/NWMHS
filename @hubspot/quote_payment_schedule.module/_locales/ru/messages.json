@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "График оплаты",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.scheduled_payments.default": {
+    "message": "Запланированные выплаты",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.default": {
+    "message": "Сумма",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.label": {
+    "message": "Сумма",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.default": {
+    "message": "Срок",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.label": {
+    "message": "Срок",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.label": {
+    "message": "Колонки графика выплат",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.default": {
+    "message": "Имя",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.label": {
+    "message": "Имя",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.default": {
+    "message": "<h2>График выплат</h2>",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.label": {
+    "message": "Заголовок запланированного платежа",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.due_now.default": {
+    "message": "Подлежит оплате сейчас",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.paid.default": {
+    "message": "Оплачено",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.processing.default": {
+    "message": "Обработка платежа",
+    "description": "",
+    "placeholders": null
+  }
+}

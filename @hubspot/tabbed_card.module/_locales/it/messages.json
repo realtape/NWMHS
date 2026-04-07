@@ -1,0 +1,242 @@
+{
+  "name": {
+    "message": "Scheda a schede",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.label": {
+    "message": "Testo predefinito",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.left_nudge_button_label.default": {
+    "message": "Scorri le scheda a sinistra",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.right_nudge_button_label.default": {
+    "message": "Scorri tabelle a destra",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tabs_list_aria_label.default": {
+    "message": "Elenco schede",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.color.label": {
+    "message": "Colore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.label": {
+    "message": "Sfondo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.border.label": {
+    "message": "Bordo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.label": {
+    "message": "Bordo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.label": {
+    "message": "Contenuti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.label": {
+    "message": "Spaziatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.spacing.label": {
+    "message": "Spaziatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stili",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.color.label": {
+    "message": "Colore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.label": {
+    "message": "Sfondo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.label": {
+    "message": "Attivo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.font.label": {
+    "message": "Carattere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.label": {
+    "message": "Testo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_top_sides.label": {
+    "message": "Bordo superiore/laterale",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_bottom.label": {
+    "message": "Bordo inferiore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.color.label": {
+    "message": "Colore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.label": {
+    "message": "Sfondo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.label": {
+    "message": "Posiziona il cursore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.font.label": {
+    "message": "Carattere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.label": {
+    "message": "Testo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_top_sides.label": {
+    "message": "Bordo superiore/laterale",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_bottom.label": {
+    "message": "Bordo inferiore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.color.label": {
+    "message": "Colore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.label": {
+    "message": "Sfondo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.label": {
+    "message": "Non attiva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.font.label": {
+    "message": "Carattere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.label": {
+    "message": "Testo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_top_sides.label": {
+    "message": "Bordo superiore/laterale",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_bottom.label": {
+    "message": "Bordo inferiore",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.label": {
+    "message": "Schede",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.label": {
+    "message": "Spaziatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.spacing.label": {
+    "message": "Spaziatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.label": {
+    "message": "Scheda a schede",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.label": {
+    "message": "Spaziatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.spacing.label": {
+    "message": "Spaziatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.border.label": {
+    "message": "Bordo",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.default": {
+    "message": "<p>Le schede rappresentano un modo efficace per organizzare le informazioni su una pagina del sito web in presenza di molti contenuti che necessitano di essere separati in categorie distinte. Etichetta le schede con una o due parole che definiscano ogni categoria di informazioni.</p><p>Durante la modifica dello stile delle schede, evidenzia la scheda selezionata con un colore diverso da quello usato per le schede non selezionate, per agevolare la navigazione dei tuoi visitatori.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.label": {
+    "message": "Contenuti",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.label": {
+    "message": "Schede",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.default": {
+    "message": "Elemento scheda",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.label": {
+    "message": "Etichetta",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.label": {
+    "message": "Altezza testo fissa",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.help_text": {
+    "message": "Imposta ogni contenuto della scheda alla stessa altezza",
+    "description": "",
+    "placeholders": null
+  }
+}

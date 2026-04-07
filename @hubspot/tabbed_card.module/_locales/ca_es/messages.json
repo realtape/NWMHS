@@ -1,0 +1,242 @@
+{
+  "name": {
+    "message": "Targeta amb pestanyes",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.label": {
+    "message": "Text per defecte",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.left_nudge_button_label.default": {
+    "message": "Desplaça les pestanyes a l'esquerra",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.right_nudge_button_label.default": {
+    "message": "Desplaça les pestanyes a la dreta",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tabs_list_aria_label.default": {
+    "message": "Llista de pestanyes",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.label": {
+    "message": "Fons",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.border.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.label": {
+    "message": "Contingut",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.label": {
+    "message": "Espaiat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.spacing.label": {
+    "message": "Espaiat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estils",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.label": {
+    "message": "Fons",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.label": {
+    "message": "Actiu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.font.label": {
+    "message": "Tipus de lletra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_top_sides.label": {
+    "message": "Vora superior/dels costats",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_bottom.label": {
+    "message": "Vora inferior",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.label": {
+    "message": "Fons",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.label": {
+    "message": "Desplaçament",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.font.label": {
+    "message": "Tipus de lletra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_top_sides.label": {
+    "message": "Vora superior/dels costats",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_bottom.label": {
+    "message": "Vora inferior",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.label": {
+    "message": "Fons",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.label": {
+    "message": "Inactiu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.font.label": {
+    "message": "Tipus de lletra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_top_sides.label": {
+    "message": "Vora superior/dels costats",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_bottom.label": {
+    "message": "Vora inferior",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.label": {
+    "message": "Pestanyes",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.label": {
+    "message": "Espaiat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.spacing.label": {
+    "message": "Espaiat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.label": {
+    "message": "Targeta amb pestanyes",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.label": {
+    "message": "Espaiat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.spacing.label": {
+    "message": "Espaiat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.border.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.default": {
+    "message": "<p>Les pestanyes són una manera eficaç d'organitzar la informació en una pàgina de lloc web quan hi ha una gran volum de contingut que s'ha de separar en diferents categories. Etiqueta les pestanyes amb una o dues paraules que defineixin cada categoria d'informació.</p><p>Quan apliquis estil a les pestanyes, ressalta les pestanyes seleccionades amb un color diferent al de les pestanyes sense seleccionar, de manera que sigui més fàcil desplaçar-s'hi per als visitants.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.label": {
+    "message": "Contingut",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.label": {
+    "message": "Pestanyes",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.default": {
+    "message": "Element de pestanya",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.label": {
+    "message": "Etiqueta",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.label": {
+    "message": "Altura del text fixa",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.help_text": {
+    "message": "Defineix el contingut de cada pestanya perquè tingui la mateixa altura",
+    "description": "",
+    "placeholders": null
+  }
+}

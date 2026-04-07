@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Total",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "A expirar agora",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Isto é utilizado para etiquetar o total do orçamento quando o orçamento tem pagamentos no futuro.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Texto de A expirar agora",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Total",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Texto de Total",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Valor total do contrato",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Personalizar o texto para descrever este valor com exatidão. (A predefinição é um valor anual se não forem definidos termos).",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Texto de Valor total do contrato",
+    "description": "",
+    "placeholders": null
+  }
+}

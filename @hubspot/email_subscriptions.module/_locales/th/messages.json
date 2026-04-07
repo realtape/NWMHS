@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "การตั้งค่าการติดตาม",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "อัปเดตข้อความปุ่มการตั้งค่า",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "อัปเดตการตั้งค่าอีเมล",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "การตั้งค่าการสื่อสาร",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "ส่วนหัว",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "ส่วนหัวย่อย",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "หากนี่ไม่ใช่อีเมลของคุณ โปรดเพิกเฉยหน้านี้ เนื่องจากเป็นไปได้อย่างยิ่งว่าอีเมลที่เกี่ยวข้องกับหน้านี้ได้ถูกส่งต่อถึงคุณ",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "ใช่ ให้ฉันติดตามอีกครั้ง!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "ข้อความบนปุ่มติดตามอีกครั้ง",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "ยกเลิกการติดตามทุกป้าย",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "ยกเลิกการติดตามของฉันจากทุกรายการส่งอีเมล",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "นำเครื่องหมายถูกออกจากประเภทอีเมลข่าวสารที่คุณไม่ต้องการรับ",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "ข้อความช่วยเหลือเกี่ยวกับตัวเลือกการตั้งค่า",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "หรือทำเครื่องหมายถูกที่นี่เพื่อไม่รับอีเมลใดเลย",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "ยกเลิกการติดตามข้อความช่วยเหลือทั้งหมด",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "ยกเลิกการติดตามข้อความช่วยเหลือทั้งหมดสำหรับผู้ใช้ที่เพิ่งเลิกติดตาม",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "ตอนนี้คุณยกเลิกการติดตามรับอีเมลทั้งหมดของเราแล้ว คุณต้องการรับอีเมลจากเราอีกครั้งหรือไม่",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "ปุ่มข้อความการสมัครใช้บริการเดี่ยว",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "ยกเลิกการสมัครใช้บริการ",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "ข้อความยืนยันการสมัครใช้บริการเดี่ยว",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "โปรดยืนยันว่าคุณต้องการยกเลิกสมัครใช้บริการจากอีเมลเกี่ยวกับ:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "ชื่อตัวอย่างการสมัครใช้บริการเดี่ยว",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "ประเภทการสมัครใช้บริการที่เลือกของคุณ",
+    "description": "",
+    "placeholders": null
+  }
+}

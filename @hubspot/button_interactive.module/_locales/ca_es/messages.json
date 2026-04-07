@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Botó (interactiu)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL de l'enllaç",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Adreça electrònica",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Fitxer",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Tanca la crida a l'acció",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Adreça electrònica",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Número de telèfon",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Baixada de fitxers",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Enllaç de les reunions",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Una de les teves pàgines",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Una de les teves pàgines de blog",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Enllaç a",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Enllaç de les reunions",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Obre l'enllaç en una pestanya nova",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Pàgina",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "S'hi ha fet clic",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Fons",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Afegeix  una cantonada rodona al botó",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Fons en passar el cursor per sobre",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Vora en passar el cursor per sobre",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Desplaçament",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Tipus de lletra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Text en passar el cursor per sobre",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estils",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Tipus de lletra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Espaiat de text",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Afegeix un enllaç de botó aquí",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Text del botó",
+    "description": "",
+    "placeholders": null
+  }
+}

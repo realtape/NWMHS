@@ -1,0 +1,337 @@
+{
+  "name": {
+    "message": "লাইন আইটেম",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "{{ discount_amount }}ছাড়ের পরে",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annually.default": {
+    "message": "বার্ষিক",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "দিন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "দিন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "সপ্তাহ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "সপ্তাহ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/সপ্তাহ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 সপ্তাহ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/মাস",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ চতুর্থাংশ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 মাস",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 বছর",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 বছর",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/বছর",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first_payment_date.default": {
+    "message": "প্রথম পেমেন্ট: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.for_months.default": {
+    "message": "{{ line_item.hs_term_in_months }}মাসের জন্য",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.for_years.default": {
+    "message": "{{ year }}{{ year_text }}জন্য",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_charges.default": {
+    "message": "ভবিষ্যতের পেমেন্টগুলি:",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_items.default": {
+    "message": "লাইন আইটেম",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "সাপ্তাহিক",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "প্রতি দুই সপ্তাহে",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "মাস",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "মাসিক",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "মাস",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "একবার",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment_due_date.default": {
+    "message": "পেমেন্ট বকেয়া: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment_start_date.default": {
+    "message": "পেমেন্ট শুরু হচ্ছে: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "প্রতি ছয় মাস",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "প্রতি তিন বছর",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "প্রতি দুই বছর",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "ত্রৈমাসিক",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.relative_payment_due_date.default": {
+    "message": "পেমেন্ট বাকি: {{ billing_delay_period }} {{ billing_delay_unit }} প্রাথমিক পেমেন্টেের পরে",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.relative_payment_start_date.default": {
+    "message": "পেমেন্ট শুরু হয়: {{ billing_delay_period }} {{ billing_delay_unit }} প্রাথমিক পেমেন্টের পরে",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.year.default": {
+    "message": "বছর",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.years.default": {
+    "message": "বছর",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "প্রতি চার বছর",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "প্রতি পাঁচ বছরে",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 বছর",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 বছর",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_value.default": {
+    "message": "{{ percentage_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax.default": {
+    "message": "+{{ taxAmount }} {{line_item.hs_tax_label }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax_with_label.default": {
+    "message": "+{{ taxAmount }} {{ taxLabel }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax_without_label.default": {
+    "message": "+{{ taxAmount }} ট্যাক্স",
+    "description": "",
+    "placeholders": null
+  },
+  "display_payment_starts.inline_help_text": {
+    "message": "ভবিষ্যত বিলিং তারিখ আছে এমন প্রতিটি লাইন আইটেমের নিচে \"পেমেন্ট শুরু হয়\" টেক্সট প্রদর্শন করুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "display_payment_starts.label": {
+    "message": "পেমেন্ট শুরুর তারিখ প্রদর্শন করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.amount": {
+    "message": "মোট",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.discount": {
+    "message": "একক ছাড়",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.hs_recurring_billing_start_date": {
+    "message": "শুরুর তারিখ",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.hs_term_in_months": {
+    "message": "মাসে মেয়াদ",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.item_description": {
+    "message": "আইটেম এবং বর্ণনা",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.price": {
+    "message": "একক দাম",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.quantity": {
+    "message": "আইটেমের পরিমাণ",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.label": {
+    "message": "অতিরিক্ত পণ্য প্রপার্টিজ",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.crm_product_property.label": {
+    "message": "CRM পণ্য প্রপার্টি",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.label": {
+    "message": "লাইন আইটেম কলাম",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.title.label": {
+    "message": "শিরোনাম",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.title.placeholder": {
+    "message": "কলামের বর্ণনা",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.use_additional_product_property.inline_help_text": {
+    "message": "অতিরিক্ত পণ্য বৈশিষ্ট্য থেকে কলাম নির্বাচনের অনুমতি দিন",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.use_additional_product_property.label": {
+    "message": "অতিরিক্ত পণ্য প্রপার্টি ব্যবহার করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.background_color.label": {
+    "message": "ব্যাকগ্রাউন্ডের রং",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_later_text.default": {
+    "message": "পরে বকেয়া থাকা আইটেম",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_later_text.label": {
+    "message": "পরে বকেয়া আছে টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_now_text.default": {
+    "message": "এখন বকেয়া থাকা আইটেম",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_now_text.label": {
+    "message": "এখন বাকি থাকা টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.font_style.label": {
+    "message": "ফন্ট শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.label": {
+    "message": "লাইন আইটেমের সাবহেডিং",
+    "description": "",
+    "placeholders": null
+  }
+}

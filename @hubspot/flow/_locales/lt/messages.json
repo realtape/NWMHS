@@ -1,0 +1,572 @@
+{
+  "name": {
+    "message": "Flow",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.label": {
+    "message": "Reklamjuostė",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.label": {
+    "message": "Pagrindinis tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.none": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.label": {
+    "message": "Antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.none": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.label": {
+    "message": "Tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.label": {
+    "message": "Nuoroda",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.none": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.label": {
+    "message": "Fonas",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.label": {
+    "message": "Fono spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.inline_help_text": {
+    "message": "Ši spalva bus matoma tik tuo atveju, jei reklamjuostės vaizdas bus paslėptas",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.label": {
+    "message": "Fonas",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.label": {
+    "message": "Kampas",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.radius.label": {
+    "message": "Spindulys",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.label": {
+    "message": "Mygtukai",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.label": {
+    "message": "Tarpai",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.spacing.label": {
+    "message": "Tarpai",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.label": {
+    "message": "Tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.none": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.label": {
+    "message": "Visuotinės spalvos",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.primary_color.label": {
+    "message": "Pirminė spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.secondary_color.label": {
+    "message": "Antrinė spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.tertiary_color.label": {
+    "message": "Tretinė spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.label": {
+    "message": "Visuotiniai šriftai",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.primary_font.label": {
+    "message": "Pirminis šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.secondary_font.label": {
+    "message": "Antrinis šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "Nuo vertikaliojo išretinimo priklauso tarpų dydis citatos šablono viršuje ir apačioje bei tarp atskirų turinio dalių.",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.label": {
+    "message": "Tarpai",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.spacing.label": {
+    "message": "Tarpai",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.label": {
+    "message": "Fonas",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.label": {
+    "message": "Tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.label": {
+    "message": "Fonas",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.label": {
+    "message": "Tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.label": {
+    "message": "Fonas",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.label": {
+    "message": "Tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.label": {
+    "message": "Pagrindinis tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.label": {
+    "message": "Pirma antraštė (H1)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.none": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.label": {
+    "message": "Antra antraštė (H2)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.none": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.label": {
+    "message": "Trečia antraštė (H3)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.none": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.label": {
+    "message": "Ketvirta antraštė (H4)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.none": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.label": {
+    "message": "Penkta antraštė (H5)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.none": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.label": {
+    "message": "Šešta antraštė (H6)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.none": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.label": {
+    "message": "Nuorodos",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Záložné zrušenie odberu",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Text tlačidla",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Zrušiť odber",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Odhlásenie odberu e-mailov",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Nadpis",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Zástupný text zadania e-mailu",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@priklad.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Vaša e-mailová adresa",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Text pomocníka pre zadávanie e-mailu",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Chybové hlásenie",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Nastal problém s načítaním stránky. Skúste použiť rovnaký odkaz z novšieho e-mailu alebo kontaktujte spoločnosť a aktualizujte svoje predvoľby odberu.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Podhlavička",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "name": {
+    "message": "Сітка зображень",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Зображення",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Зображення",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "Для найкращих результатів використовуйте зображення з подібним співвідношенням сторін.",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL-адреса для посилання",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.inline_help_text": {
+    "message": "Якщо <strong>у Налаштуванні &#8594; Параметри функціонування при натисканні</strong> встановлено значення <strong>&ldquo;Перейти за url-адресою&rdquo;</strong>, зображення сітки переходитимуть за цим посиланням.",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.hover_message.label": {
+    "message": "Повідомлення при наведенні",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.hover_message.inline_help_text": {
+    "message": "Якщо в <strong>Налаштуванні &#8594; Параметри функціонування при наведенні</strong> встановлено значення <strong>&ldquo;Показати накладання&rdquo;</strong>, це повідомлення буде відображатися при наведенні. Для найкращих результатів текст має бути коротким.",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.label": {
+    "message": "Налаштування",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.grid_type.choices.uniform": {
+    "message": "Рівномірна сітка",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.label": {
+    "message": "Параметри функціонування при наведенні",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.label": {
+    "message": "Ефекти наведення на зображення",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.zoom_out": {
+    "message": "Зменшення",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.blur": {
+    "message": "Розмиття",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.grayscale": {
+    "message": "Відтінки сірого",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.label": {
+    "message": "Коли показувати накладання",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.always": {
+    "message": "Завжди ввімкнено",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.hover": {
+    "message": "При наведенні",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.never": {
+    "message": "Ніколи",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.label": {
+    "message": "Функціональність при натисканні",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.label": {
+    "message": "Функціональність натискання на зображення",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.lightbox": {
+    "message": "Відкрити спадне вікно",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.navigate": {
+    "message": "Перейти до URL-адреси",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.nothing": {
+    "message": "Нічого не робити",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.label": {
+    "message": "Стовпці",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.number_of_columns.label": {
+    "message": "Кількість стовпців",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_columns.label": {
+    "message": "Відрегулювати стовпчики на мобільних пристроях",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_columns.inline_help_text": {
+    "message": "Показувати іншу кількість стовпчиків на мобільних пристроях",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_number_of_columns.label": {
+    "message": "Кількість стовпчиків на мобільних пристроях",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.label": {
+    "message": "Співвідношення сторін",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_hover_message.default": {
+    "message": "<h3>Заголовок повідомлення при наведенні курсора</h3><p>Повідомлення, яке відображатиметься при наведенні курсора на зображення.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_lightbox_message.default": {
+    "message": "<h3>Заголовок повідомлення спадного вікна</h3><p>Повідомлення, яке відображатиметься в спадному вікні зображення.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "Текст за замовчуванням, що заміщує зображення",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.grid_aria_label.default": {
+    "message": "Сітка зображень з {{ image_count }} зображеннями.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_close_button.default": {
+    "message": "Закрити спадне вікно",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.lightbox_previous_button.default": {
+    "message": "Попереднє зображення",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.lightbox_next_button.default": {
+    "message": "Наступне зображення",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Стилі",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.container.label": {
+    "message": "Сітка зображень",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.container.spacing.label": {
+    "message": "Інтервал",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.label": {
+    "message": "Сітка зображень",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.label": {
+    "message": "Накладення",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.background.color.label": {
+    "message": "Колір фону",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.text.label": {
+    "message": "Текст",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.label": {
+    "message": "При наведенні",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.color.label": {
+    "message": "Колір фону",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.font.label": {
+    "message": "Колір тексту",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_corner.label": {
+    "message": "Кут",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_corner.corner.label": {
+    "message": "Радіус",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_gap.label": {
+    "message": "Інтервал",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_gap.gap.inline_help_text": {
+    "message": "Налаштувати відстань між зображеннями.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.label": {
+    "message": "Зображення спадних вікон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.label": {
+    "message": "Співвідношення сторін",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.natural": {
+    "message": "Натуральне співвідношення сторін",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_corner.label": {
+    "message": "Радіус закруглення",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.label": {
+    "message": "Піктограми навігації в спадному вікні",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.background_color.label": {
+    "message": "Колір фону",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.left_icon.label": {
+    "message": "Значок ліворуч",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.right_icon.label": {
+    "message": "Значок праворуч",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.fill_color.label": {
+    "message": "Колір значка",
+    "description": "",
+    "placeholders": null
+  }
+}

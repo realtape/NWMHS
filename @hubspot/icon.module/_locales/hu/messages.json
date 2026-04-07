@@ -1,0 +1,132 @@
+{
+  "accessibility_options.label": {
+    "message": "Hozzáférési beállítások",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.decorative": {
+    "message": "Dekoratív elem – A képernyőolvasó kihagyja",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.semantic": {
+    "message": "Informatív elem – A képernyőolvasó felolvassa",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.help_text": {
+    "message": "Sorolja kategóriába az ikon célját a képernyőolvasók számára. <a href='https://www.w3.org/WAI/tutorials/images/' target='_blank' rel='noopener noreferrer'>További tudnivalók</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.label": {
+    "message": "Cél",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.help_text": {
+    "message": "Ez az ikont bemutató szöveg, amelyet képernyőolvasók fognak olvasni.",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.label": {
+    "message": "Leírás",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Igazítás",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Igazítás",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Szín",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Háttér",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Sarok",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Sugár",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.custom": {
+    "message": "Egyedi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.round": {
+    "message": "Kerek",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.square": {
+    "message": "Négyzet",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.label": {
+    "message": "Stílus",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.color.label": {
+    "message": "Szín",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.label": {
+    "message": "Kitöltés",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stílusok",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.label": {
+    "message": "Méret",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.size.label": {
+    "message": "Méret",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Térköz",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Térköz",
+    "description": "",
+    "placeholders": null
+  }
+}

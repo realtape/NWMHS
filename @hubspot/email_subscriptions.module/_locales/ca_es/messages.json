@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Preferències de subscripció",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Text del botó Actualitza les preferències",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Actualitza les preferències de correu electrònic",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Preferències de comunicació",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Capçalera",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Subtítol",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Si aquesta no és la teva adreça electrònica, ignora aquesta pàgina, ja que probablement t'han reenviat el correu electrònic associat.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Sí, renova la meva subscripció!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Text del botó Renova la subscripció",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Etiqueta Cancel·la la subscripció de tot",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Cancel·la la meva subscripció de totes les llistes de correu.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Desactiva els tipus de correu electrònic que no vols rebre:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Text d'ajuda de Selecció de preferències",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "O activa aquí per no rebre mai correus electrònics:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Text d'ajuda de Cancel·la la subscripció de tot",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Text d'ajuda de Cancel·la la subscripció de tot per a un usuari amb la subscripció cancel·lada actualment",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Actualment, la teva subscripció de tots els nostres correus electrònics està cancel·lada. Vols tornar a rebre els correus?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Text del botó d'una sola subscripció",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Cancel·la la subscripció",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Text de confirmació d'una sola subscripció",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Vols cancel·lar la subscripció dels correus electrònics sobre:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Nom d'exemple d'una sola subscripció",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "el teu tipus de subscripció seleccionat",
+    "description": "",
+    "placeholders": null
+  }
+}

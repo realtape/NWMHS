@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Prospetto articoli",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Più visti - negli ultimi sei mesi",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Più visti - di sempre",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Più visti - il mese scorso",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Più visti - lo scorso anno",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Più recente",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Elenca i post del blog per",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "L'impostazione predefinita userà il blog corrente quando usata in un modello di blog o il blog principale quando usata altrove.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Seleziona il blog da visualizzare",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Numero massimo di post del blog da elencare",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Post recenti",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Elenca i titoli da visualizzare",
+    "description": "",
+    "placeholders": null
+  }
+}

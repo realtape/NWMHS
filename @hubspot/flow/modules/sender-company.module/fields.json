@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Sender company image",
+    "name": "sender_company_image",
+    "type": "image",
+    "inline_help_text": "If you choose an image, it will be shown as your company logo"
+  },
+  {
+    "label": "Sender company address",
+    "name": "sender_company_address",
+    "type": "richtext",
+    "default": "<span style='font-weight: bold;'>{{ personalization_token('template_data.quote.hs_sender_company_name', '') }}</span><br>{{ personalization_token('template_data.quote.hs_sender_company_address', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_address2', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_city', '')}}, {{ personalization_token('template_data.quote.hs_sender_company_state', '')}} {{ personalization_token('template_data.quote.hs_sender_company_zip', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_country', '') }}<br>"
+  }
+]

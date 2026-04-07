@@ -1,0 +1,337 @@
+{
+  "name": {
+    "message": "Elementi vrstic",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "po {{ discount_amount }}popustu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annually.default": {
+    "message": "Letno",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "dan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "dni",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "teden",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "tedne",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ teden",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 tedna",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ mesec",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ četrtletje",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 mesecev",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 leta",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 leti",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ leto",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first_payment_date.default": {
+    "message": "Prvo plačilo: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.for_months.default": {
+    "message": "za{{ line_item.hs_term_in_months }}mesece",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.for_years.default": {
+    "message": "za {{ year }} {{ year_text }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_charges.default": {
+    "message": "Prihodnja plačila",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_items.default": {
+    "message": "Elementi vrstic",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "Tedensko",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "Na dva tedna",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "mesec",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "Mesečno",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "mesecev",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Enkrat",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment_due_date.default": {
+    "message": "Rok plačila: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment_start_date.default": {
+    "message": "Začetek plačevanja: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "Na šest mesecev",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "Na tri leta",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "Na dve leti",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "Četrtletno",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.relative_payment_due_date.default": {
+    "message": "Rok za plačilo: {{ billing_delay_period }} {{ billing_delay_unit }} po začetnem plačilu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.relative_payment_start_date.default": {
+    "message": "Začetek plačevanja: {{ billing_delay_period }} {{ billing_delay_unit }} po začetnem plačilu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.year.default": {
+    "message": "leto",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.years.default": {
+    "message": "let",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "Na štiri leta",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "Na pet let",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 leta",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 let",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_value.default": {
+    "message": "{{ percentage_amount }} %",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax.default": {
+    "message": "+ {{ taxAmount }} {{line_item.hs_tax_label }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax_with_label.default": {
+    "message": "+{{ taxAmount }} {{ taxLabel }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax_without_label.default": {
+    "message": "+{{ taxAmount }} ddv",
+    "description": "",
+    "placeholders": null
+  },
+  "display_payment_starts.inline_help_text": {
+    "message": "Prikažite besedilo »Začetek plačila« pod vsako postavko vrstice, ki ima prihodnji datum obračuna.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_payment_starts.label": {
+    "message": "Prikaz datuma začetka plačila",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.amount": {
+    "message": "Skupaj",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.discount": {
+    "message": "Popust na enoto",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.hs_recurring_billing_start_date": {
+    "message": "Začetni datum",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.hs_term_in_months": {
+    "message": "Rok v mesecih",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.item_description": {
+    "message": "Opis izdelka",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.price": {
+    "message": "Cena na enoto",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.quantity": {
+    "message": "Količina artikla",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.label": {
+    "message": "Dodatne lastnosti izdelka",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.crm_product_property.label": {
+    "message": "Lastnost CRM izdelka",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.label": {
+    "message": "Stolpci elementov vrstic",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.title.label": {
+    "message": "Naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.title.placeholder": {
+    "message": "Opis stolpca",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.use_additional_product_property.inline_help_text": {
+    "message": "Dovoli izbiro stolpca iz dodatnih lastnosti izdelka",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.use_additional_product_property.label": {
+    "message": "Uporabite dodatno lastnost izdelka",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.background_color.label": {
+    "message": "Barva ozadja",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_later_text.default": {
+    "message": "Predmeti zapadejo pozneje",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_later_text.label": {
+    "message": "Besedilo zapade pozneje",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_now_text.default": {
+    "message": "Predmeti zapadejo zdaj",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_now_text.label": {
+    "message": "Zapade zdaj besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.font_style.label": {
+    "message": "Slog pisave",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.label": {
+    "message": "Podnaslovi postavk vrstic",
+    "description": "",
+    "placeholders": null
+  }
+}

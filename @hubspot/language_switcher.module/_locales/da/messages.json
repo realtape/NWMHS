@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Sprogskifter",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybrid",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Lokaliseret",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Sproget på teksten i sprogskifteren. PageLang betyder, at navnene på sprogene vil blive vist på sproget på den side, hvor skifteren er. Lokaliseret betyder, at navnet på hvert sprog vises på det sprog. Hybrid er en blanding af begge.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Visningstilstand",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Søg",
+    "description": "",
+    "placeholders": null
+  }
+}

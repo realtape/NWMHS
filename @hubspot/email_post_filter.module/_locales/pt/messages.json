@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filtro de posts",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Ver tudo",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "O texto a ser exibido se mais do que o valor máximo a ser exibido estiver disponível. Deixe em branco para omitir o link",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "O padrão usará o blog atual quando usado em um modelo de blog ou o blog principal quando usado em outro lugar.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selecione o blog para exibir",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "O número máximo de valores de filtro para exibir. Deixe em branco para mostrar todos.",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Pesquisar",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Lista de valores para filtrar links",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tags",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autores",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Meses",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Publicações por tag",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Título da lista para exibir",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nome",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Contagem de publicações",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Pesquisar",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordenação dos valores para links de filtro",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Mostrar todos os filtros",
+    "description": "",
+    "placeholders": null
+  }
+}

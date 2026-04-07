@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "按鈕 (互動式)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL 連結",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "電子郵件地址",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "檔案",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "關閉行動呼籲",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "電子郵件地址",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "電話號碼",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "檔案下載",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "會議連結",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "你的其中一頁",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "你的部落格其中一頁",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "連結至",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "會議連結",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "在新分頁開啟連結",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "專頁",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "部落格",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "顏色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "已點擊",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "邊界",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "邊界",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "邊角",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "為你的按鈕新增圓角",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "半徑",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "顏色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "暫留背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "邊界",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "暫留邊界",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "暫留",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "字型",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "暫留文字",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "樣式",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "字型",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "文字",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "文字邊距",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "在此處新增按鈕連結",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "按鈕文字",
+    "description": "",
+    "placeholders": null
+  }
+}

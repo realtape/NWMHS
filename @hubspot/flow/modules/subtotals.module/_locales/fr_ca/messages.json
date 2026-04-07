@@ -1,0 +1,77 @@
+{
+  "name": {
+    "message": "Sous-totaux",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "après réduction de {{ discount_amount }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annual.default": {
+    "message": "Annuel",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.frequency_subtotal.default": {
+    "message": "Sous-total {{ frequency_text }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "Hebdomadaire",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "Toutes les deux semaines",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "Mensuel",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Une fois",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "Tous les six mois",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "Tous les trois ans",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "Tous les deux ans",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "Tous les quatre ans",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "Tous les cinq ans",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "Trimestriel",
+    "description": "",
+    "placeholders": null
+  },
+  "subtotal_title.default": {
+    "message": "Sous-totaux",
+    "description": "",
+    "placeholders": null
+  }
+}

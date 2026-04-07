@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Anmodning om adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Adgangskodepladsholder",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Besked om forkert adgangskode",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Beklager, prøv igen.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Send",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Tekst til send-knap",
+    "description": "",
+    "placeholders": null
+  }
+}

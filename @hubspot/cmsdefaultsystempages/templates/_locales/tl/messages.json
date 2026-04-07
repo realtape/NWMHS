@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Hindi nahanap ang page",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Hindi namin makita ang page na hinahap mo.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Pumunta sa home page",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Hindi gumagana ang page na ito",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Nagkaroon ng panloob na service error, pero inaayos na namin ito!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Pumunta sa home page",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Logo ng kompanya",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Na-update ang mga kagustuhan mo sa email.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Matagumpay kang nakapag-unsubscribe sa lahat ng email na komunikasyon.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Na-update ang mga kagustuhan mo sa email.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "I-update ang mga kagustuhan sa email para sa",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Piliin kung aling mga email ang gusto mong matanggap mula sa {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Piliin kung aling mga email ang gusto mong matanggap mula sa {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Pumili ng wika:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "I-update ang mga kagustuhan sa email",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Mag-unsubscribe mula sa lahat ng email",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Kung hindi ito ang address mo, malamang na ipinasa sa iyo ang isang email mula sa ibang tao at maaari mong ligtas na balewalain ang mensaheng ito.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Kasalukuyan kang naka-unsubscribe sa lahat ng aming email. Gusto mo bang makatanggap muli ng mga email namin?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Oo, muling i-subscribe ako!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Kailangan ng password",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Pakilagay ang iyong password para makita ang page na ito",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Password",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Maghanap ng mga resulta para sa \"[[search_term]]\"",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Pasensya na, wala kang access",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Wala kang pahintulot na tingnan ang page na ito. Makipag-ugnayan sa tagapangasiwa ng site para sa mga tanong.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Pumunta sa home page",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Mag-sign in",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Ang page na sinusubukan mong tingnan ay available lang sa mga rehistradong user.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "Email",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Password",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Tandaan ako",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Nakalimutan ang password?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Mag-sign in",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Ipakita",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Nagkakaproblema? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Makipag-ugnayan sa tagapangasiwa ng site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Na-sign out ka",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Mag-sign in ulit",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "O bumalik sa <a href=\"{{ '//' ~ request.domain }}\">home page</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Magtakda ng iyong password",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Welcome! Kumpletuhin ang iyong pagrerehistro sa pamamagitan ng pagtatakda ng password mo.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "Email",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Kumpirmahin ang password",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Password",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "I-save ang password",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Ipakita",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Nagkakaproblema? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Makipag-ugnayan sa tagapangasiwa ng site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "I-reset ang iyong password",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Ilagay ag email address na ginamit sa pagpaparehistro at magpapadala kami sa iyo ng email na may link para i-reset ang password mo.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "Email",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Magpadala ng email para sa pag-reset",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Bumalik lang ba? <a href=\"/_hcms/mem/login\">Mag-sign in</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Nagkakaproblema? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Makipag-ugnayan sa tagapangasiwa ng site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "Naipadala na ang email para sa pag-reset ng password",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Kapag nahanap ang katugmang account para sa {{ user_email }}, ipapadala ang isang email na naglalaman ng mga susunod na hakbang para i-reset ang iyong password. Mangyaring <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">makipag-ugnayan sa iyong administrator</a> kung hindi mo ito natanggap sa loob ng 20 minuto.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Magpadala ng isa pang email para sa pag-reset",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Gumawa ng bagong password",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Dapat hindi kapareho ng iyong naunang ginamit na password ang iyong bagong password.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Bagong password",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Kumpirmahin ang bagong password",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "I-save ang password",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Ipakita",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Nagkakaproblema? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Makipag-ugnayan sa tagapangasiwa ng site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Nakumpirma na ang iyong email address",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Salamat sa pag-verify sa email address mo. Puwede ka na ngayong mag-sign in sa iyong account at ma-access ang eksklusibong content.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Mag-sign in",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Nagkakaproblema? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Makipag-ugnayan sa tagapangasiwa ng site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Naipadala na ang one-time sign in link",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Nagpadala kami ng email sa iyo sa {{ user_email }}. Naglalaman ito ng link na magsa-sign in sa iyo.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Kung hindi mo makita ang email, pakitingnan ang spam folder mo.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Ipadala ulit ang link para sa pag-sign in",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "o",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Mag-sign in na lang gamit ang password",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Nagkakaproblema? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Makipag-ugnayan sa tagapangasiwa ng site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "I-verify ang email address mo",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Salamat sa pag-sign up! Pakisuri ang iyong email at i-click ang link ng kumpirmasyon para matapos ang iyong pagrerehistro.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Nagkakaproblema? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Makipag-ugnayan sa tagapangasiwa ng site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Gumawa ng password para tapusin ang pagpaparehistro",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Huling hakbang! Kapag nakagawa ka na ng secure na password, makakapag-sign in ka at maa-access mo ang content sa {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Gumawa ng password",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "O kopyahin at i-paste ang link na ito sa browser mo:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Kung mayroon kang mga tanong o natanggap mo ito nang hindi sinasadya <a href=\"{{ membership_website_admin }}\">makipag-ugnayan sa admin</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "I-reset ang iyong password",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Magtakda ng bagong password at mag-sign in sa iyong account.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "I-reset ang password",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Kung hindi ikaw ang humiling nito, ligtas na balewalain ang email na ito. <br/>Kung mayroon kang mga tanong, mangyaring<a href=\"{{ membership_website_admin }}\"> makipag-ugnayan sa administrator ng site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Mag-sign in gamit ang one-time link",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Magpatuloy sa pag-sign in sa iyong account. Para sa seguridad mo, mag-i-expire ang link na ito sa loob ng 15 minuto.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Mag-sign in",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "O kopyahin at i-paste ang link na ito sa browser mo:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Kung hindi ikaw ang humiling nito, ligtas na balewalain ang email na ito. <br/>Kung mayroon kang mga tanong, mangyaring<a href=\"{{ membership_website_admin }}\"> makipag-ugnayan sa administrator ng site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Matagumpay na nabago ang password mo sa {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Hindi mo ba sinasadyang mabago ito? Gamitin ang form na <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">nakalimutan ang password</a> para i-reset ngayon ang password mo. ",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Kung mayroon kang mga tanong, mangyaring makipag-ugnayan sa <a href=\"{{ membership_website_admin }}\">administrator ng site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Ang iyong pagpaparehistro ay kumpleto na",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Salamat sa iyong pagpaparehistro! Handa ka na. Puwede ka nang mag-sign para ma-access at i-unlock ang higit pang value.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Mag-sign in sa bagong account mo",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Kung mayroon kang mga tanong o natanggap mo ito nang hindi sinasadya <a href=\"{{ membership_website_admin }}\">makipag-ugnayan sa admin</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Welcome sa {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Kumpletuhin ang iyong pagpaparehistro sa pamamagitan ng paggawa ng ligtas na password para sa account mo.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Gumawa ng password",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "O kopyahin at i-paste ang link na ito sa browser mo:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Kung mayroon kang mga tanong o natanggap mo ito nang hindi sinasadya <a href=\"{{ membership_website_admin }}\">makipag-ugnayan sa admin</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "I-verify ang email address mo",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Salamat sa pag-sign up! Kailangan mong i-verify ang iyong email address para makumpleto ang pagpaparehistro sa {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "I-verify ang email address",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Kung mayroon kang mga tanong o natanggap mo ito nang hindi sinasadya <a href=\"{{ membership_website_admin }}\">makipag-ugnayan sa admin</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Pakikumpirmpa ang iyong kahilingan na pag-delete",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Kumpirmahin ang iyong kahilingan na pag-delete",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Kumusta {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Nakatanggap kami ng isang kahilingan na i-delete ang personal na data mula sa {{ company_name }} noong:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Device:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Petsa at Oras:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Upang maproseso namin ang kahilingan mo, kumpirmahin na gusto mong i-delete iyong data.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Oo, i-delete ang aking data",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Mag-i-expire ang link na ito sa loob ng 30 minuto",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Kung hindi mo hiniling na ma-delete, ligtas mong mababalewala ang mensaheng ito.",
+    "description": "",
+    "placeholders": null
+  }
+}

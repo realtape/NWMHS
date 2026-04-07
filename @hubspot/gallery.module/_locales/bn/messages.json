@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "ছবির গ্যালারি",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "ক্যাপশন",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "স্লাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "লিংকটিকে নতুন ট্যাবে খুলুন",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "ক্যাপশন দেখান",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL সংযুক্ত করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "ছবি ",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "পরিবর্তনশীল উচ্চতা",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "স্থির উচ্চতা",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "সার্চ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "পরিবর্তনশীল উচ্চতা",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "নেভিগেশনের বাটনগুলি দেখান",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "থাম্বনেল ন্যাভিগেশন",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "আদর্শমানের স্লাইডার",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "লাইটবক্স গ্যালারী",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "সার্চ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "প্রদর্শন মোড",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "স্লাইড লুপে ফেলুন",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "সার্চ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "ছবির ওপরে ক্যাপশনগুলি একটির ওপর আরেকটি রাখুন",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "সর্বদা ছবির নীচে ক্যাপশন রাখুন",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "ক্যাপশনের অবস্থান",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "অটো স্ক্রোলিংয়ের মধ্যে সেকেন্ডের হিসেবে সময়",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "ফেড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "স্লাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "সার্চ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "স্লাইড স্থানান্তরসমূহ",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "লাইটবক্স গ্যালারীর জন্য সারিসমূহ",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "স্বয়ংক্রিয়ভাবে অগ্রসর হওয়া",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "এই মডিউলটি দুটি নতুন এবং উন্নত মডিউল, ইমেজ স্লাইডার এবং ইমেজ গ্রিডের পক্ষে অনুমোদন করা হয়নি <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">আরও জানুন।.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

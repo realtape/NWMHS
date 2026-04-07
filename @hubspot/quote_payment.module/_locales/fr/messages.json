@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Payer maintenant",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Texte du bouton de paiement",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Assurez-vous qu'il est clair qu'un clic sur ce bouton autorisera votre client à payer.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Un problème est survenu lors de la configuration du paiement. Veuillez contacter la personne qui vous a envoyé ce devis.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Message d'erreur relatif au paiement",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Indiquez à votre client quoi faire en cas de problème pour lancer le paiement.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "En-tête 5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "En-tête 6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Sélectionnez un niveau d'en-tête. L'en-tête 1 est le plus grand, suivi de l'en-tête 2, et ainsi de suite",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Niveau d'en-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Paiement",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Contenu de l'en-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Effectuer le premier paiement :",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Votre client le verra sur le bouton de paiement tant qu'il n'aura pas effectué le premier versement.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Texte du bouton pour les échelonnements de paiement",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Paiement",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Le paiement ne peut être effectué car le devis n'est pas pleinement signé.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Texte d'explication quand des signatures sont nécessaires",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Si des signatures sont requises pour le paiement, votre client verra ce message jusqu'à ce que les signatures requises soient effectuées.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Payé",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Texte payé",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Payé à [[ paid_time ]] le [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Traitement des paiements",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Texte relatif au traitement des paiements",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Un problème est survenu lors du chargement du statut du paiement concernant ce devis. Veuillez essayer d'actualiser la page.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Message d'erreur relatif au statut du paiement",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Dites à votre client d'actualiser la page en cas d'échec de la récupération du statut de paiement.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Ceci étant un devis test, il n'est pas possible de recueillir de vrais paiements.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Vous pouvez décider si vous souhaitez collecter des paiements lorsque vous créez un devis avec ce modèle.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Pour finaliser votre achat, veuillez contacter la personne qui vous a envoyé ce devis.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Άμεση πληρωμή",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Κείμενο κουμπιού πληρωμής",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Βεβαιωθείτε ότι είναι σαφές ότι κάνοντας κλικ σε αυτό το κουμπί θα επιτρέψετε στον πελάτη σας να πληρώσει.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Υπήρξε κάποιο πρόβλημα κατά την προετοιμασία της ολοκλήρωσης αγοράς. Επικοινωνήστε με το άτομο που σας έστειλε αυτή την προσφορά.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Μήνυμα σφάλματος ολοκλήρωσης αγοράς",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Πείτε στον πελάτη σας τι να κάνει όταν υπάρχει κάποιο πρόβλημα κατά την ολοκλήρωση αγοράς.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Διαλέξτε ένα επίπεδο επικεφαλίδας. H1 είναι το μεγαλύτερο, ακολουθεί το H2 κ.ο.κ.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Επίπεδο επικεφαλίδας",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Πληρωμή",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Περιεχόμενο επικεφαλίδας",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Κάντε την πρώτη πληρωμή:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Ο πελάτης σας θα βλέπει αυτό στο κουμπί πληρωμής μέχρι να πληρώσει την πρώτη δόση.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Κείμενο κουμπιού για τα χρονοδιαγράμματα πληρωμών",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Πληρωμή",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Η πληρωμή δεν μπορεί να γίνει επειδή η προσφορά δεν είναι πλήρως υπογεγραμμένη.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Κείμενο επεξήγησης όταν απαιτούνται υπογραφές",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Εάν απαιτούνται υπογραφές πριν από την πληρωμή, ο πελάτης σας θα βλέπει αυτό το μήνυμα μέχρι να ολοκληρωθούν όλες οι απαιτούμενες υπογραφές.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Πληρώθηκε",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Κείμενο πραγματοποιημένης πληρωμής",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Πληρώθηκε στις [[ paid_time ]] την [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Επεξεργασία πληρωμών",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Κείμενο επεξεργασίας πληρωμής",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Υπήρξε κάποιο πρόβλημα κατά τη φόρτωση της κατάστασης πληρωμής για αυτή την προσφορά. Προσπαθήστε να ανανεώσετε τη σελίδα.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Μήνυμα σφάλματος κατάστασης πληρωμής",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Πείτε στον πελάτη σας να ανανεώσει τη σελίδα όταν η λήψη της κατάστασης πληρωμής αποτύχει.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Αυτή είναι μια δοκιμαστική προσφορά, για αυτό δεν είναι δυνατή η είσπραξη πραγματικών πληρωμών.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Μπορείτε να αποφασίσετε αν θέλετε να εισπράξετε πληρωμές όταν δημιουργείτε μια προσφορά με αυτό το πρότυπο.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Για να ολοκληρώσετε την αγορά, επικοινωνήστε με το άτομο που σας έστειλε αυτή την προσφορά.",
+    "description": "",
+    "placeholders": null
+  }
+}

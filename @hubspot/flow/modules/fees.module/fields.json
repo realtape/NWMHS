@@ -1,0 +1,35 @@
+[
+  {
+    "label": "Other fees text",
+    "name": "other_fees_title",
+    "type": "text",
+    "default": "Other Fees",
+    "locked": true
+  },
+  {
+    "label": "Default text",
+    "name": "default_text",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Percent discount",
+        "name": "percent_discount",
+        "type": "text",
+        "default": "{{ fee_amount }}% discount"
+      },
+      {
+        "label": "Percent fee",
+        "name": "percent_fee",
+        "type": "text",
+        "default": "{{ fee_amount }}% fee"
+      },
+      {
+        "label": "Percent tax",
+        "name": "percent_tax",
+        "type": "text",
+        "default": "{{ fee_amount }}% tax"
+      }
+    ]
+  }
+]

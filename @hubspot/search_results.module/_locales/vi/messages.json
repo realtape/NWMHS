@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Kết quả tìm kiếm trong site",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Hiển thị ảnh nổi bật",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Rất tiếc. Không có kết quả nào cho [[search_term]].</p><p>Hãy thử diễn đạt lại truy vấn của bạn, hoặc duyệt qua site của chúng tôi.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Trang trước",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Trang tiếp theo",
+    "description": "",
+    "placeholders": null
+  }
+}

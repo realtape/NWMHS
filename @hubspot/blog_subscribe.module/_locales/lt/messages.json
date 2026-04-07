@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Tinklaraščio el. pašto prenumerata",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Taikant numatytąsias nuostatas, naudojant tinklaraščio šablone bus taikomas esamas tinklaraštis, o naudojant kitur – pirminis tinklaraštis.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Pasirinkite rodytiną tinklaraštį",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Užsiprenumeruokite čia!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Virš formos rodytinas pavadinimas",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Įdėtasis atsakymas naudotojams",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Dėkojame, kad užsiprenumeravote!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Kad būtų rodoma tinklaraščio prenumeratos forma, turite įjungti tinklaraščio prenumeratą. Tai galite atlikti pasirinkę nuostatas. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Sužinoti daugiau</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Antraštės lygis",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Pasirinkite antraštės lygį. Antraštės turėtų būti išdėstytos pagal hierarchiją, atsižvelgiant į turinį. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Daugiau informacijos</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "1 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "2 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "3 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "4 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "5 antraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "6 antraštė",
+    "description": "",
+    "placeholders": null
+  }
+}

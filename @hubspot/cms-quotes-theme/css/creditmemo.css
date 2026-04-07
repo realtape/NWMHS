@@ -1,0 +1,463 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.hs-quotes {
+  font-family: 'Lexend Deca', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+.hs-quotes strong,
+.hs-quotes b {
+  font-weight: 600;
+}
+
+.hs-quotes h1,
+.hs-quotes h2,
+.hs-quotes h3,
+.hs-quotes h4,
+.hs-quotes h5,
+.hs-quotes h6 {
+  font-family: 'Lexend Deca', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
+
+.hs-quotes .comments {
+  border-color: #f5f5f5;
+}
+
+.hs-quotes button {
+  background-color: #4C76B8;
+  color: #FFFFFF;
+  font-family: 'Lexend Deca', 'Helvetica', 'Arial', sans-serif;
+}
+
+.hs-quotes--creditMemo {
+  border: 1px solid #99ACC2;
+  line-height: 1.5;
+  padding: 60px;
+  max-width: 800px;
+  width: 100%;
+  margin: 25px auto;
+}
+
+/* Header area */
+.creditMemo__heading {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.creditMemo__heading>div:first-child {
+  flex-shrink: 0;
+  flex-grow: 2;
+}
+
+.creditMemo__heading > div > img {
+  width: auto;
+  height: 100px;
+}
+
+.creditMemo__heading-text {
+  font-size: 30px;
+  margin: 0;
+  text-align: right;
+}
+
+.sender-information {
+  margin-bottom: 23px;
+}
+
+.sender-information .quote-company__name {
+  font-weight: 600;
+}
+
+.sender-information address {
+  font-style: normal;
+}
+
+.recipient-and-creditMemo-info__container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.recipient-contacts-and-company__container,
+.creditMemo-info__container {
+  display: flex;
+  flex-direction: column;
+  flex-basis:  100%;
+}
+
+.recipient-contacts-and-company__container {
+  flex: 1;
+  margin-right: 1%;
+  max-width: 33%;
+}
+
+.creditMemo-info__container {
+  flex: 2;
+}
+
+.creditMemo-info__container >:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.recipient-and-creditMemo-info__container .quote-contact__name,
+.recipient-and-creditMemo-info__container .quote-company__name,
+.recipient-and-creditMemo-info__container address {
+  word-wrap: break-word;
+}
+
+.recipient-contacts__text {
+  font-weight: 600;
+}
+
+.recipient-information .quote-contact {
+  padding-bottom: 0;
+}
+
+.recipient-shipping {
+  margin-top: 20px;
+}
+
+.recipient-shipping address {
+  font-style: normal;
+}
+
+.recipient-shipping__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.recipient-information .quote-contact__job-title,
+.recipient-information .quote-contact__email,
+.recipient-information .quote-contact__phone-number {
+  display: none;
+}
+
+.creditMemo-info__creditMemo-number,
+.creditMemo-info__purchase-order-number {
+  display: flex;
+}
+
+.creditMemo-info__container .quote-date__text,
+.creditMemo-info__creditMemo-number__text,
+.creditMemo-info__purchase-order-number__text {
+  flex: 1;
+  font-weight: 600;
+  padding-right: 10px;
+  text-align: right;
+  width: 155px;
+  word-wrap: break-word;
+}
+
+.creditMemo-info__container .quote-date__date,
+.creditMemo-info__creditMemo-number__number,
+.creditMemo-info__purchase-order-number__number {
+  flex: 1;
+  width: 155px;
+  word-wrap: break-word;
+}
+
+/* Line items table */
+
+.creditMemo-line-items-section {
+  margin-top: 25px;
+  overflow: auto;
+}
+
+.creditMemo-line-items__table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-bottom: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.creditMemo-line-items__table thead tr {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgba(245, 245, 245, 1.0)
+}
+
+.creditMemo-line-items__table thead th {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.creditMemo-line-items__table tr {
+  border: 1px solid black;
+}
+
+.creditMemo-line-items__table th,
+.creditMemo-line-items__table td {
+  padding: 15px;
+}
+
+.creditMemo-line-items__table td {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  vertical-align: top;
+}
+
+.creditMemo-line-items__table-body .creditMemo-line-items__name {
+  font-weight: 600;
+}
+
+.creditMemo-line-items__discount-percentage {
+  display: block;
+}
+
+.creditMemo-line-items__description {
+  white-space: pre-wrap;
+}
+
+.creditMemo-line-items__table .creditMemo-currency__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.creditMemo-line-items__table .creditMemo-currency__container--amount {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.creditMemo-line-items__table .creditMemo-currency__content {
+  white-space: nowrap;
+}
+
+.creditMemo-line-items__table .creditMemo-currency__content--full-width {
+  width: 100%;
+}
+
+.creditMemo-line-items__table td,
+.creditMemo-line-items__table th {
+  text-align: right;
+}
+
+.creditMemo-line-items__table td:first-child,
+.creditMemo-line-items__table th:first-child {
+  text-align: left;
+}
+
+.creditMemo-line-items__after-discount-message {
+  display: block;
+  font-size: 12.66px;
+}
+
+
+
+
+/* Subtotal, Fee, Total Section */
+
+.subtotal-and-fees {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 25px;
+}
+
+.hs-quotes--creditMemo .subtotals__table,
+.subtotal-fee-table {
+  border-collapse: collapse;
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.hs-quotes--creditMemo .subtotal-and-fees-border-wrapper {
+  border: 1px solid black;
+  min-width: 225px;
+  width: 57%;
+}
+
+.subtotal-fee-table tr {
+  border-bottom: 1px solid black;
+}
+
+.subtotal-fee-table td {
+  padding: 15px;
+}
+
+.subtotal-fee-table td:nth-child(2) {
+  text-align: right;
+}
+
+.hs-quotes--creditMemo .subtotals__table th {
+  font-weight: 300;
+}
+
+.currency__content {
+  white-space: nowrap;
+}
+
+/* Discounts */
+.discounts-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.discounts-list li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount-amount {
+  text-align: right;
+  display: block;
+}
+
+/* Credit Memo total */
+.subtotal-and-fees .total {
+  border-bottom: none;
+  width: auto;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.subtotal-and-fees .total__name {
+  padding: 5px;
+}
+
+.subtotal-and-fees .total__value {
+  padding: 5px;
+}
+
+.subtotal-and-fees .fee-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.total-and-payment {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 20px;
+  width: 50%;
+  font-weight: 600;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.creditMemo-total-container {
+  display: flex;
+  font-weight: 600;
+  border-bottom: none;
+  width: auto;
+  padding: 15px;
+  margin: 0px;
+  justify-content: space-between;
+}
+
+.total-name {
+  padding-right: 5px;
+}
+
+.total-value {
+  white-space: nowrap;
+}
+
+/* Comments and download */
+.comments-and-download {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.comments {
+  margin-bottom: 15px;
+}
+
+.comments p,
+.comments ul,
+.comments ol {
+  margin: 0;
+}
+
+.creditMemo__legal-disclaimer {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .recipient-and-creditMemo-info__container {
+    flex-direction: column;
+  }
+
+  .recipient-contacts-and-company__container {
+    margin-bottom: 6px;
+    margin-right: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .creditMemo-info__container {
+    margin-bottom: 10px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .creditMemo-info__container .creditMemo-info__creditMemo-number,
+  .creditMemo-info__container .creditMemo-info__purchase-order-number,
+  .creditMemo-info__container .quote-date {
+    flex-direction: column;
+  }
+
+  .creditMemo-info__container .quote-date__text,
+  .creditMemo-info__container .creditMemo-info__creditMemo-number__text,
+  .creditMemo-info__container .creditMemo-info__purchase-order-number__text {
+    font-weight: 600;
+    padding-right: 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .creditMemo-info__container .quote-date__date,
+  .creditMemo-info__container .creditMemo-info__creditMemo-number__number,
+  .creditMemo-info__container .creditMemo-info__purchase-order-number__number {
+    width: 100%;
+  }
+}
+
+.creditMemo__status-void {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 5rem;
+  font-weight: 600;
+  left: 50%;
+  position: absolute;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  top: 40%;
+}
+
+@media screen and (max-width: 992px) {
+  .hs-quotes--creditMemo {
+    border: 0px;
+    padding: 30px;
+    max-width: unset;
+  }
+}
+
+@media print {
+  .hs-quotes--creditMemo {
+    border: 0px;
+    max-width: unset;
+    padding: 0.25in;
+  }
+  .comments-and-download {
+    break-before: avoid-page;
+    display: block;
+  }
+}
+

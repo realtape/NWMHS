@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "按钮（交互）",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "链接 URL",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "电子邮件地址",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "文件",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "关闭行动号召",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "电子邮件地址",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "电话号码",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "文件下载",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "会议链接",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "你的某个页面",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "你的某个博客页面",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "链接至",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "会议链接",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "在新标签页中打开链接",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "页码",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "博客",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "已点击",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "圆角",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "为你的按钮添加圆角",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "半径",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "悬停背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "悬停边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "悬停",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "字体",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "悬停文本",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "样式",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "字体",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "文本",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "文本填充",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "在此处添加按钮链接",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "按钮文本",
+    "description": "",
+    "placeholders": null
+  }
+}

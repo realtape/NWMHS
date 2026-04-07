@@ -1,0 +1,572 @@
+{
+  "name": {
+    "message": "Flow",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.label": {
+    "message": "배너",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.label": {
+    "message": "본문",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.capitalize": {
+    "message": "대문자로 시작",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.lowercase": {
+    "message": "소문자",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.none": {
+    "message": "없음",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.uppercase": {
+    "message": "대문자",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.label": {
+    "message": "변형",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.label": {
+    "message": "제목",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.capitalize": {
+    "message": "대문자로 시작",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.lowercase": {
+    "message": "소문자",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.none": {
+    "message": "없음",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.uppercase": {
+    "message": "대문자",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.label": {
+    "message": "변형",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.label": {
+    "message": "텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.label": {
+    "message": "참조",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.label": {
+    "message": "변형",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.none": {
+    "message": "없음",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.capitalize": {
+    "message": "대문자로 시작",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.uppercase": {
+    "message": "대문자",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.lowercase": {
+    "message": "소문자",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.label": {
+    "message": "배경",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.label": {
+    "message": "배경색",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.inline_help_text": {
+    "message": "이 색상은 배너 이미지가 숨겨진 경우에만 표시됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.label": {
+    "message": "배경",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.border.label": {
+    "message": "테두리",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.label": {
+    "message": "테두리",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.label": {
+    "message": "코너",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.radius.label": {
+    "message": "반경",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.label": {
+    "message": "버튼",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.label": {
+    "message": "간격",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.spacing.label": {
+    "message": "간격",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.label": {
+    "message": "텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.capitalize": {
+    "message": "대문자로 시작",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.lowercase": {
+    "message": "소문자",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.none": {
+    "message": "없음",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.uppercase": {
+    "message": "대문자",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.label": {
+    "message": "변형",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.label": {
+    "message": "전체 색상",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.primary_color.label": {
+    "message": "기본 색상",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.secondary_color.label": {
+    "message": "보조 색상",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.tertiary_color.label": {
+    "message": "제3색",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.label": {
+    "message": "전체 폰트",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.primary_font.label": {
+    "message": "기본 폰트",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.secondary_font.label": {
+    "message": "보조 폰트",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "세로 간격은 콘텐츠 내의 섹션 간 간격뿐 아니라 견적서 템플릿의 상단과 하단 간격을 제어합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.border.label": {
+    "message": "테두리",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.label": {
+    "message": "테두리",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.label": {
+    "message": "간격",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.spacing.label": {
+    "message": "간격",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.label": {
+    "message": "배경",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.label": {
+    "message": "텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.label": {
+    "message": "배경",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.label": {
+    "message": "텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.label": {
+    "message": "배경",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.label": {
+    "message": "텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.label": {
+    "message": "본문",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.label": {
+    "message": "제목 1(H1)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.capitalize": {
+    "message": "대문자로 시작",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.lowercase": {
+    "message": "소문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.none": {
+    "message": "없음",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.uppercase": {
+    "message": "대문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.label": {
+    "message": "변형",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.label": {
+    "message": "제목 2(H2)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.capitalize": {
+    "message": "대문자로 시작",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.lowercase": {
+    "message": "소문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.none": {
+    "message": "없음",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.uppercase": {
+    "message": "대문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.label": {
+    "message": "변형",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.label": {
+    "message": "제목 3(H3)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.capitalize": {
+    "message": "대문자로 시작",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.lowercase": {
+    "message": "소문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.none": {
+    "message": "없음",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.uppercase": {
+    "message": "대문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.label": {
+    "message": "변형",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.label": {
+    "message": "제목 4(H4)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.capitalize": {
+    "message": "대문자로 시작",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.lowercase": {
+    "message": "소문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.none": {
+    "message": "없음",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.uppercase": {
+    "message": "대문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.label": {
+    "message": "변형",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.label": {
+    "message": "제목 5(H5)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.capitalize": {
+    "message": "대문자로 시작",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.lowercase": {
+    "message": "소문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.none": {
+    "message": "없음",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.uppercase": {
+    "message": "대문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.label": {
+    "message": "변형",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.label": {
+    "message": "제목 6(H6)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.capitalize": {
+    "message": "대문자로 시작",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.lowercase": {
+    "message": "소문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.none": {
+    "message": "없음",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.uppercase": {
+    "message": "대문자",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.label": {
+    "message": "변형",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.label": {
+    "message": "링크",
+    "description": "",
+    "placeholders": null
+  }
+}

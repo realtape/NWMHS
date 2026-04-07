@@ -1,0 +1,467 @@
+{
+  "name": {
+    "message": "Klizač slika",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Dijapozitiv",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Slika",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "Za najbolje rezultate dodajte slike sličnog oblika i veličine.",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL poveznica",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.label": {
+    "message": "Postavke",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.label": {
+    "message": "Slajdovi",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.label": {
+    "message": "Broj slajdova po stranici",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.inline_help_text": {
+    "message": "Naslovi i minijature nestaju kada prikazujete više od 1 slajda po stranici.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.label": {
+    "message": "Određivanje veličine slike",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.inline_help_text": {
+    "message": "Za najbolje rezultate upotrijebite slike sličnih razmjera proporcija i veličina.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.natural": {
+    "message": "Razmjer proporcija prenesene stavke",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.force_aspect_ratio": {
+    "message": "Nametni razmjer proporcija",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.label": {
+    "message": "Razmjer proporcija",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.label": {
+    "message": "Prikaži naslove",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.inline_help_text": {
+    "message": "Kad se odabere opcija <strong>Nametni razmjer proporcija</strong>, naslovi prekivaju slike.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.label": {
+    "message": "Položaj naslova",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.below": {
+    "message": "Postavi naslove ispod slika",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.overlay": {
+    "message": "Prekrij slike naslovima",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.label": {
+    "message": "Premještanje",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.label": {
+    "message": "Prijelazi dijapozitiva",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.slide": {
+    "message": "Dijapozitiv",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.fade": {
+    "message": "Izblijedi",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.inline_help_text": {
+    "message": "Prijelazi se možda neće prikazati u alatu za uređivanje, no prikazat će se u pretpretgledu stranice ili na objavljenoj stranici.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.loop_slides.label": {
+    "message": "Niz dijapozitiva",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.label": {
+    "message": "Automatska reprodukcija",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.inline_help_text": {
+    "message": "Automatska reprodukcija za ispravan rad zahtijeva više slajdova nego postavka broja slajdova po stranici.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance_speed_seconds.label": {
+    "message": "Vrijeme u sekundama između automatskog listanja",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.label": {
+    "message": "Navigacija",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_main_arrows.label": {
+    "message": "Prikaži strelice za navigaciju",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_thumbnails.label": {
+    "message": "Prikaži minijature",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_dots.label": {
+    "message": "Prikaži navigaciju putem točaka",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_caption.default": {
+    "message": "Opcionalni naslov za sliku koja će se dodati u galeriju. Unesite bilo koji opisni tekst za ovu sliku koji će posjetitelji moći pročitati.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_aria_label.default": {
+    "message": "Vrtuljak slika sa sljedećim brojem slajdova: {{ slide_count }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.aria_label_thumbnails.default": {
+    "message": "Uključuje navigaciju putem minijatura.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_nav_aria_label.default": {
+    "message": "Navigacija putem minijatura vrtuljka. Odabirom minijature izmijenit će se vrtuljak.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.prev.default": {
+    "message": "Prethodni slajd",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.next.default": {
+    "message": "Sljedeći slajd",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first.default": {
+    "message": "Idi na prvi slajd",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideX.default": {
+    "message": "Idi na %s. slajd",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pageX.default": {
+    "message": "Idi na %s. stranicu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.play.default": {
+    "message": "Pokreni automatsku reprodukciju",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pause.default": {
+    "message": "Pauziraj automatsku reprodukciju",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.carousel.default": {
+    "message": "vrtuljak",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.select.default": {
+    "message": "Odaberite slajd za prikaz",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slide.default": {
+    "message": "slajd",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideLabel.default": {
+    "message": "%s od %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "Alternativni tekst zadane slike",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stilovi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.label": {
+    "message": "Slajdovi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.label": {
+    "message": "Slike",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.corner.label": {
+    "message": "Promjer kuta",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.label": {
+    "message": "Razmak između slika",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.inline_help_text": {
+    "message": "Prilagodite razmak između slika kada imate više od 1 slajda po stranici.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.label": {
+    "message": "Naslovi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.label": {
+    "message": "Pozadina",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.spacing.label": {
+    "message": "Razmak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.background.label": {
+    "message": "Boja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.label": {
+    "message": "Navigacija",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.label": {
+    "message": "Strelice klizača",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.background_color.label": {
+    "message": "Boja pozadine",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.left_icon.label": {
+    "message": "Ikona Lijevo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.right_icon.label": {
+    "message": "Ikona Desno",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.fill_color.label": {
+    "message": "Boja ikone",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.label": {
+    "message": "Gumb Točke i gumb za automatsku reprodukciju",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.color.label": {
+    "message": "Boja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.label": {
+    "message": "Navigacija putem minijatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.arrow_background_color.label": {
+    "message": "Pozadinska boja strelice",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.left_icon.label": {
+    "message": "Ikona lijeve strelice",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.right_icon.label": {
+    "message": "Ikona desne strelice",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.fill_color.label": {
+    "message": "Boja za ispunu ikone strelice",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.label": {
+    "message": "Slike minijatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.label": {
+    "message": "Razmjer proporcija",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.width.label": {
+    "message": "Širina",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.radius.label": {
+    "message": "Polumjer",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.label": {
+    "message": "Klizač",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.label": {
+    "message": "Razmak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.spacing.label": {
+    "message": "Razmak",
+    "description": "",
+    "placeholders": null
+  }
+}

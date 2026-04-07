@@ -1,0 +1,57 @@
+{
+  "name": {
+    "message": "Βίντεο",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.label": {
+    "message": "Τύπος βίντεο",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.embed": {
+    "message": "Ενσωμάτωση",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.hubspot_video": {
+    "message": "Βίντεο HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "hubspot_video.label": {
+    "message": "Βίντεο HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "embed_field.label": {
+    "message": "Ενσωμάτωση",
+    "description": "",
+    "placeholders": null
+  },
+  "oembed_thumbnail.label": {
+    "message": "Προσαρμοσμένη μικρογραφία",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.label": {
+    "message": "Επιλογές στυλ",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.oembed_thumbnail_play_button_color.label": {
+    "message": "Χρώμα κουμπιού αναπαραγωγής",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_title.default": {
+    "message": "Δεν έχει επιλεγεί βίντεο",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_description.default": {
+    "message": "Επιλέξτε έναν τύπο βίντεο στην πλευρική γραμμή.",
+    "description": "",
+    "placeholders": null
+  }
+}

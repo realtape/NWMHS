@@ -1,0 +1,168 @@
+<!--
+  templateType: "none"
+  isAvailableForNewContent: false
+-->
+<!doctype html>
+{% from '../../imports/creditMemo/mock_data.html' import SAMPLE_TEMPLATE_DATA as mock_data %}
+
+{% set template_data = template_data || mock_data %}
+{% set module_data = template_data.module_data %}
+{% set QUOTE = template_data.quote || mock_data.quote %}
+{% set CURRENCY = QUOTE.hs_currency || 'USD' %}
+{% set LOCALE = QUOTE.hs_locale || 'en-US' %}
+{% set TIMEZONE = QUOTE.hs_timezone || 'US/Eastern' %}
+{% set ASSOCIATED_OBJECTS = QUOTE.associated_objects %}
+{% set RECIPIENT_COMPANY = ASSOCIATED_OBJECTS.company %}
+{% set TOTALS = ASSOCIATED_OBJECTS.totals %}
+{% set SUB_TOTALS = TOTALS.subtotals %}
+
+{# Retrieve translations for the template #}
+{% set template_translations = load_translations('../_locales', html_lang, 'en') %}
+
+{# Setting personalization token values to variables #}
+{% set ptoken_comments = "{{ personalization_token('template_data.quote.hs_comments', '') }}" %}
+
+{# Build Brand Kit Font CSS using SECONDARY (body) font #}
+{% set SECONDARY_FONT = (QUOTE.associated_objects.additional_customizations or {}).secondary_font %}
+{% set FAVICON_URL = (QUOTE.associated_objects.additional_customizations or {}).favicon_url_override %}
+{% set FEATURE_FLAGS = QUOTE.associated_objects.feature_flags|default({}) %}
+{% set BUSINESS_UNIT_IDS = QUOTE.hs_all_assigned_business_unit_ids %}
+{% set HAS_BUSINESS_UNIT_ID = BUSINESS_UNIT_IDS and BUSINESS_UNIT_IDS != "" %}
+{% set brand_font_styles = "" %}
+
+{% if SECONDARY_FONT %}
+  {# SYSTEM font names are already CSS-formatted stacks ("'andale mono', times, serif"), MARKETER/GOOGLE need escaping for special characters (e.g. "Tim's Font") #}
+  {% if SECONDARY_FONT.font_set == "SYSTEM" %}
+    {% set secondary_font_name = SECONDARY_FONT.name %}
+  {% else %}
+    {% set secondary_font_name = SECONDARY_FONT.name|replace("\\", "\\\\")|replace("'", "\\'")|replace('"', '\\"')|replace("\n", "")|replace("\r", "") %}
+  {% endif %}
+
+  {% if SECONDARY_FONT.variants and SECONDARY_FONT.variants|length > 0 %}
+    {% set regular_matches = SECONDARY_FONT.variants|selectattr("name", "equalto", "Regular")|list %}
+    {% set medium_matches = SECONDARY_FONT.variants|selectattr("name", "equalto", "Medium")|list %}
+    {% set light_matches = SECONDARY_FONT.variants|selectattr("name", "equalto", "Light")|list %}
+
+    {% if regular_matches|length > 0 %}
+      {% set selected_variant = regular_matches[0] %}
+    {% elif medium_matches|length > 0 %}
+      {% set selected_variant = medium_matches[0] %}
+    {% elif light_matches|length > 0 %}
+      {% set selected_variant = light_matches[0] %}
+    {% else %}
+      {% set selected_variant = SECONDARY_FONT.variants[0] %}
+    {% endif %}
+
+    {% if selected_variant and selected_variant.files %}
+      {% set src_parts = [] %}
+      {% set allowed_formats = ["woff", "woff2", "truetype", "opentype", "embedded-opentype", "svg"] %}
+      {% for file in selected_variant.files %}
+        {% set safe_file_url = file.file|replace("\\", "\\\\")|replace("'", "\\'")|replace(")", "\\)") %}
+        {% if file.format in allowed_formats %}
+          {% do src_parts.append("url('" + safe_file_url + "') format('" + file.format + "')") %}
+        {% endif %}
+      {% endfor %}
+      {% if src_parts|length > 0 %}
+        {% set brand_font_styles = brand_font_styles + " @font-face { font-family: '" + secondary_font_name + "'; src: " + src_parts|join(", ") + "; font-display: swap; }" %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+
+  {% set raw_fallback = SECONDARY_FONT.fallback if SECONDARY_FONT.fallback else "'Lexend Deca', Helvetica, Arial, sans-serif" %}
+  {% set secondary_fallback = raw_fallback|replace("\\", "\\\\")|replace('"', '\\"')|replace("\n", "")|replace("\r", "") %}
+  {# SYSTEM fonts already have the name formatted as a CSS font-family value, others need quotes #}
+  {% if SECONDARY_FONT.font_set == "SYSTEM" %}
+    {% set font_family_value = secondary_font_name %}
+  {% else %}
+    {% set font_family_value = "'" + secondary_font_name + "'" %}
+  {% endif %}
+  {% set brand_font_styles = brand_font_styles + " .hs-quotes, .hs-quotes h1, .hs-quotes h2, .hs-quotes h3, .hs-quotes h4, .hs-quotes h5, .hs-quotes h6, .hs-quotes button { font-family: " + font_family_value + ", " + secondary_fallback + " !important; }" %}
+{% endif %}
+
+<html lang="{{ html_lang }}" {{ html_lang_dir }}>
+  <head>
+    <title>{{ QUOTE.hs_title }}</title>
+    {% if FEATURE_FLAGS.commerce_brands_enabled and HAS_BUSINESS_UNIT_ID %}
+      {% if FAVICON_URL and FAVICON_URL != "" %}
+        <link rel="shortcut icon" href="{{ FAVICON_URL }}" />
+      {% else %}
+        <link rel="shortcut icon" href="data:," />
+      {% endif %}
+    {% else %}
+      {% if brand_settings.primaryFavicon && brand_settings.primaryFavicon.src %}
+        <link rel="shortcut icon" href="{{ brand_settings.primaryFavicon.src }}" />
+      {% elif site_settings.favicon_src %}
+        <link rel="shortcut icon" href="{{ site_settings.favicon_src }}" />
+      {% endif %}
+    {% endif %}
+
+    <meta name="description" content="{{ page_meta.meta_description }}">
+
+    {% if SECONDARY_FONT and SECONDARY_FONT.font_set == "GOOGLE" %}
+      {% set google_font_name = SECONDARY_FONT.name|replace("'", "")|replace(" ", "+") %}
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family={{ google_font_name }}&display=swap" rel="stylesheet">
+    {% endif %}
+
+    {{ require_css(get_asset_url("../../css/shared.css")) }}
+    {{ require_css(get_asset_url("../../css/creditMemo.css")) }}
+    {% block stylesheet %}
+      {# Add stylesheet file(s) here #}
+    {% endblock stylesheet %}
+
+    <link rel="preload" href="{{ get_asset_url("../../fonts/lexend-deca.woff2") }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ get_asset_url("../../fonts/lexend-deca-300.woff") }}" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="{{ get_asset_url("../../fonts/lexend-deca-600.woff") }}" as="font" type="font/woff" crossorigin>
+
+    <style>
+      @font-face {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src:
+          url('{{ get_asset_url("../../fonts/lexend-deca.woff2") }}') format('woff2'),
+          url('{{ get_asset_url("../../fonts/lexend-deca-300.woff") }}') format('woff');
+      }
+      @font-face {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src:
+          url('{{ get_asset_url("../../fonts/lexend-deca.woff2") }}') format('woff2'),
+          url('{{ get_asset_url("../../fonts/lexend-deca-600.woff") }}') format('woff');
+      }
+    </style>
+
+    {% if brand_font_styles %}
+      {# Strip angle brackets to prevent HTML tag injection (XSS protection) #}
+      {% set safe_brand_font_styles = brand_font_styles|replace("<", "")|replace(">", "") %}
+      {{ ("<" + "style>" + safe_brand_font_styles + "</" + "style>")|safe }}
+    {% endif %}
+
+    <script
+      type="application/javascript"
+      src="https://static.hsappstatic.com/quote-cookies-js/ex/quote-cookies.js"
+      async
+    >
+    </script>
+    {{ standard_header_includes }}
+  </head>
+
+    {% block header %}
+      {# Add header content here #}
+    {% endblock header %}
+
+    {% block body %}
+      {# Add body content here #}
+    {% endblock body %}
+
+    {% block footer %}
+      {# Add footer content here #}
+    {% endblock footer %}
+
+    {{ standard_footer_includes }}
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "label": "Subscription Preferences",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "../img/icon/high-forms-1.svg",
+  "extra_classes": "widget-type-email_subscriptions",
+  "master_language": "en",
+  "content_tags": [
+    {
+      "name": "COMMUNICATIONS",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_EMAIL",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

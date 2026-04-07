@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "सर्च रिजल्ट साइट",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "फ़ीचर्ड इमेज प्रदर्शित करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>क्षमा करें। [[search_term]] के लिए कोई परिणाम नहीं मिले।</p><p>अपनी क्वेरी को फिर से लिखने का प्रयास करें, या हमारी साइट के माध्यम से ब्राउज़ करें।</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "पिछला पेज",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "अगला पेज",
+    "description": "",
+    "placeholders": null
+  }
+}

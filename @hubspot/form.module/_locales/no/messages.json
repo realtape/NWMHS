@@ -1,0 +1,62 @@
+{
+  "follow_up_type_automation.label": {
+    "message": "Legg til arbeidsflyt",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.label": {
+    "message": "Send oppføringsmail",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.help_text": {
+    "message": "Hvis du vil sende en e-post for å følge opp, må du passe på at innstillingen \"Angi kontakter opprettet som markedsføringskontakter\" er slått på. Du kan administrere dette i alternativene. <a href='https://knowledge.hubspot.com/contacts/set-contacts-as-marketing#set-the-default-marketing-status-for-new-contacts'>Finn ut mer</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "form.default.message": {
+    "message": "Takk for at du sendte inn skjemaet.",
+    "description": "",
+    "placeholders": null
+  },
+  "form.label": {
+    "message": "Skjema",
+    "description": "",
+    "placeholders": null
+  },
+  "form_follow_ups_workflow_id.label": {
+    "message": "Arbeidsflyt",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Skjema",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_are_overridden.label": {
+    "message": "Send skjemavarslinger til spesifiserte e-postadresser i stedet for skjemastandardene",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_override_email_addresses.label": {
+    "message": "E-postadresser",
+    "description": "",
+    "placeholders": null
+  },
+  "sfdc_campaign.label": {
+    "message": "Salesforce kampanje",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Skjematittel",
+    "description": "",
+    "placeholders": null
+  },
+  "simple_email_for_live_id.label": {
+    "message": "E-post",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Contact name",
+    "name": "contact_name",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "label": "Contact job title",
+    "name": "contact_job_title",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "label": "Contact email",
+    "name": "contact_email",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "label": "Contact phone number",
+    "name": "contact_phone_number",
+    "type": "boolean",
+    "default": true
+  }
+]

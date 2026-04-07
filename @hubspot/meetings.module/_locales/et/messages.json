@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Koosolekud",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting.label": {
+    "message": "Valige koosoleku link",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting.help_text": {
+    "message": "Valige külgribal olemasolev koosolek või looge uus, navigeerides tööriista <a href='/l/meetings/'>Koosolekud</a> juurde",
+    "description": "",
+    "placeholders": null
+  },
+  "select_meeting_title.default": {
+    "message": "Ühtegi koosolekut pole valitud",
+    "description": "",
+    "placeholders": null
+  },
+  "select_meeting_description.default": {
+    "message": "Valige külgribalt olemasolev koosolek või looge uus, navigeerides tööriista Koosolekud juurde",
+    "description": "",
+    "placeholders": null
+  }
+}

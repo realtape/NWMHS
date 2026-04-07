@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Sélecteur de langue",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybride",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localisé",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "La langue du texte dans le sélecteur de langue. PageLang signifie que le nom des langues s'affichera dans la langue de la page sélectionnée. Localisé signifie que le nom de chaque langue s'affichera dans cette langue. Hybride est un mélange des deux.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Mode d'affichage",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  }
+}

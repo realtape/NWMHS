@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Contenuto del blog",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.post": {
+    "message": "Articolo",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.listing": {
+    "message": "Prospetto",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.label": {
+    "message": "Modello da modificare",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_source.label": {
+    "message": "Origine post del blog",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_listing_source.label": {
+    "message": "Origine prospetto blog",
+    "description": "",
+    "placeholders": null
+  }
+}

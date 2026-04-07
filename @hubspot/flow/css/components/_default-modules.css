@@ -1,0 +1,133 @@
+/* Signature */
+
+.esignature__profile {
+  margin-top: 0.7rem;
+  padding: 1.4rem;
+}
+
+.esignature__signer-email {
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
+.hs-quotes .signature__container .esignature__tag--sent,
+.hs-quotes .signature__container .esignature__tag--signed {
+  height: initial;
+  padding: 10px 20px;
+}
+
+@media (min-width: 767px) {
+  .esignature__profile {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .esignature__signer-email {
+    margin-bottom: 0;
+  }
+}
+
+/* Download, payment and esignature button */
+
+.hs-quotes.hs-quotes--flow .payment__button--checkout,
+.hs-quotes.hs-quotes--flow .hs-download__button,
+.hs-quotes .esignature__verify-button-container .esignature__verify-button,
+.hs-quotes .esignature__sign-now-button-container .esignature__sign-now-button {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+/* Payment button */
+button.payment__button--checkout svg {
+  height: 1em;
+  width: 1em;
+}
+
+/* Payment Schedule */
+.hs-quotes--flow .payment-schedule {
+  margin-top: 32px;
+}
+
+.hs-quotes--flow .scheduled-payments__installment {
+  border-bottom: 1px solid;
+}
+
+/* Line Items */
+
+.line-items__table {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.line-items__table td,
+.line-items__table th {
+  border-style: solid;
+  border-width: 1px 0;
+  height: 4em;
+  text-align: right;
+}
+
+.line-items__table th {
+  padding: 1em 1.71em;
+}
+
+.line-items__table td {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  padding: 1em 1.71em;
+  vertical-align: baseline;
+}
+
+.line-items__table thead th {
+  border: none;
+}
+
+.line-items__table .line-items__table-header th {
+  border-top: none;
+}
+
+.hs-quotes--flow .scheduled-payments__table td,
+.hs-quotes--flow .scheduled-payments__table th {
+  padding: 15px 0;
+}
+
+.line-items__table tr>th:first-child,
+.line-items__table tr>td:first-child,
+.line-items__table tr>th:last-child,
+.line-items__table tr>td:last-child {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.line-items__table tr>th:first-child,
+.line-items__table tr>td:first-child {
+  min-width: 120px;
+  text-align: left;
+}
+
+.line-items__description {
+  white-space: pre-wrap;
+}
+
+.line-items__discount-percentage {
+  display: block;
+}
+
+.future-charges-table-heading {
+  margin-top: 50px;
+}
+
+@media (min-width: 767px) {
+  .line-items__table {
+    overflow-x: scroll
+  }
+}

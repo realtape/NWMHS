@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Troca de idiomas",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Híbrido",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localizado",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "O idioma do texto na troca de idiomas. \"PageLang\" significa os nomes dos idiomas que serão exibidos no idioma da página em que o interruptor está ligado. \"Localizado\" significa que o nome de cada idioma será mostrado no idioma. “Híbrido” é uma combinação dos dois.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Modo de exibição",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Pesquisar",
+    "description": "",
+    "placeholders": null
+  }
+}

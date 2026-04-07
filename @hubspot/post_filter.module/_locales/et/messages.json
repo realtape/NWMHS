@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Postituse filter",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Vaadake kõiki",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Kuvatav tekst, kui saadaval on rohkem kui maksimaalne arv kuvatavat teksti. Jäta tühjaks, et link välja jätta",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Vaikevalik kasutab praegust blogi, kui seda kasutatakse blogi mallis, või primaarset blogi, kui seda kasutatakse mujal.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Valige kuvatav blogi",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maksimaalne kuvatavate filtri väärtuste arv",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Otsing",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Väärtuste loend linkide filtreerimiseks",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Sildid",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autorid",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Kuud",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Postitused sildi järgi",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Kuvatav loetelu pealkiri",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nimi",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Postituste hulk",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Otsing",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Väärtuste tellimine linkide filtreerimiseks",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Kuva kõik filtrid",
+    "description": "",
+    "placeholders": null
+  }
+}

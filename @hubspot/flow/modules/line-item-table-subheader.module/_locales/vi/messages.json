@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Tiêu đề phụ của bảng mục dòng",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Các khoản thanh toán định kỳ và một lần hiện đã đến hạn.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Văn bản tiêu đề phụ",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Tiêu đề phụ này chỉ hiển thị khi có các khoản thanh toán trong tương lai.",
+    "description": "",
+    "placeholders": null
+  }
+}

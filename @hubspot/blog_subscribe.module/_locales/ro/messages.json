@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Abonare e-mail blog",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "În modul implicit, va fi folosit blogul curent atunci când este utilizat într-un șablon sau blogul principal atunci când este utilizat în alt mod.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selectați blogul de afișat",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Abonați-vă aici!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Titlu de afișat deasupra formularului",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Răspuns inline pentru utilizatori",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Vă mulțumim că v-ați abonat!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Pentru ca formularul de abonare la blog să apară, trebuie să activați abonamentele pentru blogul dvs. Acest lucru poate fi făcut în setări. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Aflați mai multe</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Nivel antet",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Alegeți un nivel de antet. Antetele trebuie imbricate într-o modalitate ierarhică, pe baza conținutului dvs. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Mai multe informații</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

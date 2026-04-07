@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Podaci o lokaciji ureda",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p id=\"footer\" style=\"font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: center; font-size: 12px; line-height: 1.34em; color: {{ secondary_font_color }}; display: block;\">{{ site_settings.company_name }} &nbsp;&nbsp;{{ site_settings.company_street_address_1 }} &nbsp;{{ site_settings.company_street_address_2 }} &nbsp;{{ site_settings.company_city }} &nbsp;{{ site_settings.company_state }} &nbsp;&nbsp;{{ site_settings.company_zip }} &nbsp;&nbsp;{{ site_settings.company_country }} <br><br> Primili ste ovu poruku e-pošte jer ste pretplaćeni na {{ subscription_name }} tvrtke {{ site_settings.company_name }} . <br><br> Ažurirajte svoje <a target=\"_blank\" rel=\"noopener\" href=\"{{ unsubscribe_link }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">željene postavke e-pošte</a> da biste izabrali vrste e-pošte koju želite primati. <br><br> &nbsp;<a target=\"_blank\" rel=\"noopener\" href=\"{{ unsubscribe_link_all }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">Otkažite pretplatu na sve buduće poruke e-pošte</a> &nbsp;</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Tekst lokacije",
+    "description": "",
+    "placeholders": null
+  }
+}

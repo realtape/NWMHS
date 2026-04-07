@@ -1,0 +1,457 @@
+{
+  "name": {
+    "message": "Turinio biblioteka",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.label": {
+    "message": "Ištekliai",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.label": {
+    "message": "Mokėjimo pavadinimas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.default": {
+    "message": "Ištekliaus pavadinimas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.label": {
+    "message": "Aprašas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.default": {
+    "message": "Ištekliaus, kuriuo dalijamasi, aprašas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.label": {
+    "message": "Ištekliaus nuoroda",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.inline_help_text": {
+    "message": "Spustelėjus išteklių failas bus atsiųstas į naudotojo kompiuterį.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.label": {
+    "message": "Vaizdas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.default": {
+    "message": "Rinkitės iš numatytųjų paveikslėlių sąrašo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.custom": {
+    "message": "Naudoti pritaikytąjį paveikslėlį",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.ebook": {
+    "message": "El. knyga",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.pdf-document": {
+    "message": "PDF dokumentas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.infographic": {
+    "message": "Infografinis elementas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.template": {
+    "message": "Šablonas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.guide": {
+    "message": "Vedlys",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.course": {
+    "message": "Kursas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.webinar": {
+    "message": "Internetinis seminaras",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.data-sheet": {
+    "message": "Duomenų lapas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.video": {
+    "message": "Vaizdo įrašas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.blog-post": {
+    "message": "Tinklaraščio įrašas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.whitepaper": {
+    "message": "Baltoji knyga",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.case-study": {
+    "message": "Atvejo analizė",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.custom_image.label": {
+    "message": "Pritaikytasis paveikslėlis",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.label": {
+    "message": "Nuorodos tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.default": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.title": {
+    "message": "El. knyga",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.title": {
+    "message": "PDF dokumentas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.title": {
+    "message": "Infografinis elementas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.title": {
+    "message": "Šablonas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.title": {
+    "message": "Vedlys",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.title": {
+    "message": "Kursas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.title": {
+    "message": "Internetinis seminaras",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.title": {
+    "message": "Duomenų lapas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.title": {
+    "message": "Vaizdo įrašas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.title": {
+    "message": "Tinklaraščio įrašas",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.title": {
+    "message": "Baltoji knyga",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.title": {
+    "message": "Atvejo analizė",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.description": {
+    "message": "Ištekliaus, kuris bendrinamas, aprašymas. Pakanka poros sakinių.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.link_text": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.download_aria_label_prefix.default": {
+    "message": "Atsisiųsti",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.content_aria_label_prefix.default": {
+    "message": "Peržiūrėti [[resource_name]] turinį",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.external_aria_label_prefix.default": {
+    "message": "Atidaryti",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.new_tab_aria_label_suffix.default": {
+    "message": "Naujoje kortelėje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiliai",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.label": {
+    "message": "Išdėstymas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.label": {
+    "message": "Stilius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.cards": {
+    "message": "Kortelės",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.tiles": {
+    "message": "Blokeliai",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.minimal": {
+    "message": "Minimalistinis",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "Mokėjimo pavadinimas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "Aprašas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "Vaizdas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.label": {
+    "message": "Proporcija",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.label": {
+    "message": "Pirminė spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.help_text": {
+    "message": "Pritaikykite numatytosios grafikos spalvas.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.label": {
+    "message": "Antrinė spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.help_text": {
+    "message": "Pritaikykite numatytosios grafikos spalvas.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.label": {
+    "message": "Tretinė spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.help_text": {
+    "message": "Pritaikykite numatytosios grafikos spalvas.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.label": {
+    "message": "Nuoroda",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.default_text_color.label": {
+    "message": "Numatytoji teksto spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.hover_text_color.label": {
+    "message": "Teksto spalva užėjus ant jo su pele",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Bet koks šaltinis, pažymėtas kaip atrinktas, puslapyje bus rodomas pirmiausia.",
+    "description": "",
+    "placeholders": null
+  }
+}

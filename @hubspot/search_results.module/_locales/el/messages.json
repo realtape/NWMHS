@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Αποτελέσματα αναζήτησης ιστότοπου",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Προβολή επιλεγμένων εικόνων",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Λυπούμαστε. Δεν υπήρξαν αποτελέσματα για [[search_term]].</p><p>Δοκιμάστε να αναδιατυπώσετε το ερώτημά σας ή περιηγηθείτε στον ιστότοπό μας.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Προηγούμενη σελίδα",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Επόμενη σελίδα",
+    "description": "",
+    "placeholders": null
+  }
+}

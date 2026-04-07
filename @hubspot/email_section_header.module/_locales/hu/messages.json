@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Szakaszfejléc",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Egy diszkrétebb alfejléc",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Szakasz alfejléce",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Világos és feltűnő fejléc",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Szakaszfejléc tartalma",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Válassza ki a fejléc szintjét. A H1 a legnagyobb, ezt követi a H2, és így tovább",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Fejléc szintje",
+    "description": "",
+    "placeholders": null
+  }
+}

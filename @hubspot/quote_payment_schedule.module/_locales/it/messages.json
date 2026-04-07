@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Pianificazione dei pagamenti",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.scheduled_payments.default": {
+    "message": "Pagamenti pianificati",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.default": {
+    "message": "Importo",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.label": {
+    "message": "Importo",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.default": {
+    "message": "Scadenza",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.label": {
+    "message": "Scadenza",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.label": {
+    "message": "Colonne della pianificazione del pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.default": {
+    "message": "Nome",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.label": {
+    "message": "Nome",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.default": {
+    "message": "<h2>Pianificazione del pagamento</h2>",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.label": {
+    "message": "Intestazione della pianificazione dei pagamenti",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.due_now.default": {
+    "message": "In scadenza ora",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.paid.default": {
+    "message": "Pagato",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.processing.default": {
+    "message": "Elaborazione dei pagamenti",
+    "description": "",
+    "placeholders": null
+  }
+}

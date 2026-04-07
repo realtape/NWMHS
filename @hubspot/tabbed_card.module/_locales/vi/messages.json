@@ -1,0 +1,242 @@
+{
+  "name": {
+    "message": "Thẻ theo tab",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.label": {
+    "message": "Văn bản mặc định",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.left_nudge_button_label.default": {
+    "message": "Cuộn các tab sang trái",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.right_nudge_button_label.default": {
+    "message": "Cuộn các tab sang phải",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tabs_list_aria_label.default": {
+    "message": "Danh sách tab",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.label": {
+    "message": "Nội dung",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Kiểu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.label": {
+    "message": "Đang hoạt động",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_top_sides.label": {
+    "message": "Viền trên cùng/bên cạnh",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_bottom.label": {
+    "message": "Viền dưới",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.label": {
+    "message": "Di chuột",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_top_sides.label": {
+    "message": "Viền trên cùng/bên cạnh",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_bottom.label": {
+    "message": "Viền dưới",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.label": {
+    "message": "Không hoạt động",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_top_sides.label": {
+    "message": "Viền trên cùng/bên cạnh",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_bottom.label": {
+    "message": "Viền dưới",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.label": {
+    "message": "Tab",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.label": {
+    "message": "Thẻ theo tab",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.default": {
+    "message": "<p>Bạn có thể sử dụng tab một cách hiệu quả để sắp xếp thông tin trên trang web khi có một lượng lớn nội dung cần được tách thành các danh mục riêng biệt. Gắn nhãn các tab của bạn bằng một hoặc hai từ xác định từng danh mục thông tin.</p><p>Khi tạo kiểu cho các tab của bạn, hãy đánh dấu tab đã chọn bằng cách tô màu cho tab đó khác với các tab không được chọn của bạn để khách truy cập của bạn dễ dàng điều hướng.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.label": {
+    "message": "Nội dung",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.label": {
+    "message": "Tab",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.default": {
+    "message": "Mục tab",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.label": {
+    "message": "Nhãn",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.label": {
+    "message": "Chiều cao văn bản cố định",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.help_text": {
+    "message": "Đặt nội dung của mỗi tab có chiều cao bằng nhau",
+    "description": "",
+    "placeholders": null
+  }
+}

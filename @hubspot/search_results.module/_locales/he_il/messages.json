@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "תוצאות חיפוש באתר",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "הראה תמונות מוצגות",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>מצטערים. לא נמצאו תוצאות עבור [[search_term]].</p><p>נסה לנסח את שאלתך מחדש או לעיין באתר שלנו.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "הדף הקודם",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "הדף הבא",
+    "description": "",
+    "placeholders": null
+  }
+}

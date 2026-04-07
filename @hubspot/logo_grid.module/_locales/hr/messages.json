@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Rešetka logotipa",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logotipovi",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logotip",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stilovi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Slika logotipa",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Maksimalna visina logotipa",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Postavlja maksimalnu visinu logotipova.<br><br>Postavljanje maksimalne visine logotipova najbolje je kad pokušavate napraviti da više logotipova drastično različitih dimenzija ima istu veličinu.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Pozadina",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Razmjer proporcija",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Postavite razmjer proporcija spremnika logotipa. To je najkorisnije ako upotrebljavate polje pozadinske boje i logotipove drastično različitih dimenzija.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Boja pozadine",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Razmak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Razmak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Postavite odmak od rubova oko logotipa.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "S obzirom na responzivnost weba prikazana visina logotipova mogla bi biti manja od vrijednosti postavljene na temelju kombinacije veličine zaslona, originalne veličine slike, odmaka logotipa od rubova, razmaka rešetke i broja stupaca.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Rešetka logotipa",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Broj stupaca rešetke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Postavite broj stupaca u rešetki na radnoj površini. Na mobilnom je uređaju zadana vrijednost 1.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Postavljanje pozadinske boje u odjeljku <strong>Slika logotipa > Pozadina</strong> mogu vam pomoći u vizualizaciji rešetke logotipa. ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Razmak rešetke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Postavite razmak između stavki u rešetki.<br><br>Postavljanje pozadine u odjeljku <strong>Slika logotipa > Pozadina</strong> može vam pomoći u vizualizaciji rešetke logotipa.",
+    "description": "",
+    "placeholders": null
+  }
+}

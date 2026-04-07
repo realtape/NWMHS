@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "로고 그리드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "로고",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "로고",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "스타일",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "로고 이미지",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "로고 최대 높이",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "로고의 최대 높이로 설정합니다.<br><br>최대 로고 높이로 설정하면 차이가 큰 규격의 다양한 로고를 동일한 크기로 나타낼 수 있습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "배경",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "가로세로비",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "로고 컨테이너의 가로세로비를 설정합니다. 배경색 필드를 사용하고 차이가 큰 규격의 로고를 사용하는 경우 가장 유용합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "배경색",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "간격",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "간격",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "로고 주변의 여백을 설정합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "반응형 웹 특성상 로고의 렌더링된 높이가 화면 크기, 원본 이미지 크기, 로고 여백, 그리드 갭 및 열 개수의 조합에 따라 설정된 값보다 작을 수 있습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "로고 그리드",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "그리드 열 개수",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "데스크톱에서 그리드의 열 개수를 설정합니다. 모바일에서 기본값은 1입니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "<strong>로고 이미지 > 배경</strong>에서 배경색을 설정하면 로고 그리드를 시각화할 수 있습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "그리드 갭",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "그리드 항목 간 간격을 설정합니다.<br><br><strong>로고 이미지 > 배경</strong>에서 배경을 설정하면 로고 그리드를 시각화할 수 있습니다.",
+    "description": "",
+    "placeholders": null
+  }
+}

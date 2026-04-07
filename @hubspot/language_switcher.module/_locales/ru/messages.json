@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Переключатель языков",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Гибридный",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Локализованный",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Язык текста в переключателе языков. Режим «PageLang» означает, что названия языков будут отображаться на языке страницы, на которой находится переключатель. Режим «Локализованный» означает, что название каждого языка будет отображаться на данном языке. Режим «Гибридный» — это комбинация двух приведенных выше режимов.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Режим отображения",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  }
+}

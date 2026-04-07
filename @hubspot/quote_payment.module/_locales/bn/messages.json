@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "এখন পরিশোধ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "পেমেন্ট বোতাম পাঠ্য",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "নিশ্চিত করুন যে এটি স্পষ্ট যে এই বোতামটি ক্লিক করলে আপনার গ্রাহক অর্থ প্রদান করতে পারবেন।",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "চেকআউট সেট আপ করার সময় একটি সমস্যা হয়েছে অনুগ্রহ করে সেই ব্যক্তির সাথে যোগাযোগ করুন যিনি আপনাকে এই উদ্ধৃতিটি পাঠিয়েছেন।",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "ত্রুটি বার্তা চেক করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "চেকআউট শুরু করতে সমস্যা হলে কী করতে হবে তা আপনার গ্রাহককে বলুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "একটি হেডিং স্তর নির্বাচন করুন। H1 হ'ল বৃহত্তম, তারপরে H2 এবং তারপর আরও অনেক কিছু",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "হেডিং স্তর ",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "পেমেন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "হেডিংয়ের বিষয়বস্তু",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "প্রথম পেমেন্ট করুন:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "আপনার গ্রাহক প্রথম কিস্তি পরিশোধ না করা পর্যন্ত পেমেন্ট বোতামে এটি দেখতে পাবেন।",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "পেমেন্ট সময়সূচীর জন্য বোতাম টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "পেমেন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "পেমেন্ট করা যাবে না কারণ উদ্ধৃতিটি সম্পূর্ণরূপে স্বাক্ষরিত নয়৷",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "যখন স্বাক্ষরের প্রয়োজন হয় তখন ব্যাখ্যা পাঠ্য",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "পেমেন্টের আগে স্বাক্ষরের প্রয়োজন হলে, সমস্ত প্রয়োজনীয় স্বাক্ষর সম্পূর্ণ না হওয়া পর্যন্ত আপনার গ্রাহক এই বার্তাটি দেখতে পাবেন।",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "পে করা হয়েছে ",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "মূল্য পরিশোধকৃত টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "[[ paid_date ]] এ [[ paid_time ]] পেমেন্ট করা হয়েছে",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "পেমেন্ট প্রসেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "পেমেন্ট প্রসেসিং টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "এই উদ্ধৃতির জন্য পেমেন্ট স্ট্যাটাস লোড করতে সমস্যা হয়েছে। পেজটি রিফ্রেশ করার চেষ্টা করুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "পেমেন্ট স্ট্যাটাস ত্রুটি বার্তা",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "পেমেন্ট স্ট্যাটাস ব্যর্থ হলে আপনার গ্রাহককে পেজটি রিফ্রেশ করতে বলুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "এটি একটি পরীক্ষার কোট, তাই এটি প্রকৃত পেমেন্ট সংগ্রহ করতে পারে না।",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "আপনি এই টেমপ্লেটের সাথে একটি কোট তৈরি করার সময় আপনি পেমেন্ট সংগ্রহ করতে চান কিনা তা নির্ধারণ করতে পারেন।",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "চেকআউট করতে, অনুগ্রহ করে সেই ব্যক্তির সাথে যোগাযোগ করুন যিনি আপনাকে এই কোট পাঠিয়েছেন।",
+    "description": "",
+    "placeholders": null
+  }
+}

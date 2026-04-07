@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Orizzontale",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Verticale",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "I menu orizzontali mostrano gli elementi affiancati, i menu verticali hanno una struttura dall'alto in basso",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientamento",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Gli elementi del menu figlio appariranno quando passerai il mouse sul menu padre. Se deselezionati, gli elementi del menu figlio appariranno sempre",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Abilita riquadri a comparsa?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "La struttura del menu è la struttura della pagina che genera gli elementi nel menu. Una singola struttura del menu può essere usata con più menu. Puoi creare più menu per strutture complesse di siti Web. I menu vengono creati e gestiti nelle Impostazioni del contenuto",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Determina il numero dei menu figlio che possono essere espansi nel menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Livelli massimi",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Menu a percorso in stile navigazione (usa il flusso orizzontale)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinamico per pagina - Mostra nel menu le pagine correlate alla pagina visualizzata",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statico - Mostra sempre le pagine di primo livello nel menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinamico per sezione - Mostra nel menu le pagine correlate alla sezione visualizzata",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "I menu avanzati mostrano diverse parti della struttura di un menu sulla base della pagina visualizzata.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Tipi di menu avanzato",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  }
+}

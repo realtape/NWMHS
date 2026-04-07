@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filtro de publicações",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Ver tudo",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Texto a apresentar se estiver disponível mais do que o valor máximo a apresentar. Deixe em branco para omitir a ligação",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "A predefinição utilizará o blog atual quando utilizado no modelo de um blog ou no blog principal quando utilizado em qualquer outro lugar.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selecione o blog a apresentar",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Número máximo de valores de filtros a apresentar. Deixe em branco para ver tudo",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Procurar",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Lista de valores para ligações de filtros",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Etiquetas",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autores",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Meses",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Publicar por etiqueta",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Listar títulos a apresentar",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nome",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Contagem de publicações",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Procurar",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordenação de valores para ligações de filtros",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Mostrar todos os filtros",
+    "description": "",
+    "placeholders": null
+  }
+}

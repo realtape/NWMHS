@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Фильтр публикаций",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Смотреть все",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Текст для отображения, если для отображения доступно больше, чем максимально допустимое количество. Оставьте пустым, чтобы пропустить ссылку",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "По умолчанию будет использоваться текущий блог, если используется в шаблоне блога, или изначальный блог, если используется в другом месте.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Выберите блог для отображения",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Максимальное количество отображаемых значений фильтра. Оставьте пустым, чтобы отображать все",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Список значений для ссылок фильтра",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Теги",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Авторы",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Месяцев",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Публикации по тегу",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Заголовок списка для отображения",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Имя",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Кол-во публикаций",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Упорядочение значений для ссылок фильтра",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Показать все фильтры",
+    "description": "",
+    "placeholders": null
+  }
+}

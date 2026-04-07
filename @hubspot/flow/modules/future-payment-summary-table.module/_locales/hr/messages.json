@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Tablica sažetka budućeg plaćanja",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Naslov tablice",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Prikaz naslova tablice",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Naslov tablice",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Dodajte zaglavlje tablici sažetka budućih plaćanja",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "Sažetak budućih plaćanja",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Stupci",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Zaglavlje s nazivom stavke linije",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Stavka",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Zaglavlje sa sažetkom plaćanja",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Plaćanje",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Jednokratno",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ tjedan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 tjedna",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ mjesec",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ kvartal",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 mjeseci",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ godinu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 godine",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 godine",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "dan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "dana",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "tjedan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "tjedni",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "mjesec",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "mjeseci",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "plaćanje",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "plaćanja",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} s rokom dospijeća {{ billing_delay_period }} {{ billing_delay_unit }} nakon početnog plaćanja",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} s početkom {{ billing_delay_period }} {{ billing_delay_unit }} nakon početnog plaćanja",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} s početkom{{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} s početkom {{ billing_delay_period }} {{ billing_delay_unit }} nakon početnog plaćanja za {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} s početkom{{ formatted_first_payment_date }} za {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 godine",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 godina",
+    "description": "",
+    "placeholders": null
+  }
+}

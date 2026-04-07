@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Kabuuan",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Kailangan nang bayaran ngayon",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Ginagamit ito para lagyan ng label ang kabuuan kapag may mga pagbabayad sa hinaharap ang quote.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Teksto na kailangan nang bayaran ngayon",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Kabuuan",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Text ng kabuuan",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Kabuuang halaga ng kontrata",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "I-customize ang text para tumpak na mailarawan ang value na ito. (Ang default ay ang taunang value kapag walang itinakdang terms.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Teksto ng kabuuang halaga ng kontrata",
+    "description": "",
+    "placeholders": null
+  }
+}

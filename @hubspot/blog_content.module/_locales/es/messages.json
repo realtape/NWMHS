@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Contenido del blog",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.post": {
+    "message": "Publicación",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.listing": {
+    "message": "Lista",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.placeholder": {
+    "message": "Buscar",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.label": {
+    "message": "Plantilla para editar",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_source.label": {
+    "message": "Fuente de la publicación de blog",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_listing_source.label": {
+    "message": "Fuente de lista de blogs",
+    "description": "",
+    "placeholders": null
+  }
+}

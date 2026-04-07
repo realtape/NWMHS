@@ -1,0 +1,367 @@
+{
+  "name": {
+    "message": "图片网格",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "图片",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "图片",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "使用具有相似宽高比的图片可获得最佳效果。",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "链接 URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.inline_help_text": {
+    "message": "如果<strong>设置 &#8594; 点击功能</strong>设置为<strong>“导航到 URL”</strong>，图片网格将转至此链接。",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.hover_message.label": {
+    "message": "悬停消息",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.hover_message.inline_help_text": {
+    "message": "如果<strong>设置 &#8594; 悬停功能</strong>设置为<strong>“显示覆盖”</strong>，此消息将在悬停时显示。为达到最佳效果，请确保文本简短明了。",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.label": {
+    "message": "设置",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.grid_type.choices.uniform": {
+    "message": "均匀网格",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.label": {
+    "message": "悬停功能",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.label": {
+    "message": "图片悬停效果",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.zoom_out": {
+    "message": "缩小",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.blur": {
+    "message": "模糊",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.grayscale": {
+    "message": "灰度",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.label": {
+    "message": "何时显示叠加层",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.always": {
+    "message": "始终",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.hover": {
+    "message": "悬停",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.never": {
+    "message": "从不",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.label": {
+    "message": "点击功能",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.label": {
+    "message": "图片点击功能",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.lightbox": {
+    "message": "打开浮动窗口",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.navigate": {
+    "message": "导航到 URL",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.nothing": {
+    "message": "什么也不做",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.label": {
+    "message": "列",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.number_of_columns.label": {
+    "message": "列数",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_columns.label": {
+    "message": "调整移动端列数",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_columns.inline_help_text": {
+    "message": "在移动端上显示不同数量的列",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_number_of_columns.label": {
+    "message": "移动端上的列数",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.label": {
+    "message": "宽高比",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_hover_message.default": {
+    "message": "<h3>悬停消息标题</h3><p>这是在将鼠标悬停在图片上时显示的消息。</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_lightbox_message.default": {
+    "message": "<h3>灯箱消息标题</h3><p>这是图片的灯箱中显示的消息。</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "默认图片替代文本",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.grid_aria_label.default": {
+    "message": "具有 {{ image_count }} 张图片的图片网格。",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_close_button.default": {
+    "message": "关闭灯箱",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.lightbox_previous_button.default": {
+    "message": "上一张图片",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.lightbox_next_button.default": {
+    "message": "下一张图片",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "样式",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.container.label": {
+    "message": "图片网格",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.container.spacing.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.label": {
+    "message": "图片网格",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.label": {
+    "message": "覆盖",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.background.color.label": {
+    "message": "背景颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.text.label": {
+    "message": "文本",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.label": {
+    "message": "悬停",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.color.label": {
+    "message": "背景颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.font.label": {
+    "message": "文本颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_corner.label": {
+    "message": "圆角",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_corner.corner.label": {
+    "message": "半径",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_gap.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_gap.gap.inline_help_text": {
+    "message": "自定义图片之间的空间。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.label": {
+    "message": "灯箱图片",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.label": {
+    "message": "宽高比",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.natural": {
+    "message": "自然宽高比",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_corner.label": {
+    "message": "圆角半径",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.label": {
+    "message": "Lightbox 导航图标",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.background_color.label": {
+    "message": "背景颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.left_icon.label": {
+    "message": "左侧图标",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.right_icon.label": {
+    "message": "右侧图标",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.fill_color.label": {
+    "message": "图标颜色",
+    "description": "",
+    "placeholders": null
+  }
+}

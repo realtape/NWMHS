@@ -1,0 +1,1016 @@
+[
+  {
+    "label": "Global colors",
+    "name": "global_colors",
+    "type": "group",
+    "children": [
+      {
+        "label": "Primary color",
+        "name": "primary_color",
+        "type": "color",
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brandSettings.primaryColor"
+          }
+        },
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#6a73e4"
+        }
+      },
+      {
+        "label": "Secondary color",
+        "name": "secondary_color",
+        "type": "color",
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brandSettings.colors[1]"
+          }
+        },
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#a86cdb"
+        }
+      },
+      {
+        "label": "Tertiary color",
+        "name": "tertiary_color",
+        "type": "color",
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brandSettings.colors[2]"
+          }
+        },
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#f96cb3"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Global fonts",
+    "name": "global_fonts",
+    "type": "group",
+    "children": [
+      {
+        "label": "Primary font",
+        "name": "primary_font",
+        "type": "font",
+        "load_external_fonts": true,
+        "visibility": {
+          "hidden_subfields": {
+            "styles": true,
+            "size": true
+          }
+        },
+        "default": {
+          "fallback": "sans-serif",
+          "font": "Oswald",
+          "font_set": "GOOGLE",
+          "color": "#a86cdb",
+          "google_font_variants": ["400", "700"]
+        }
+      },
+      {
+        "label": "Secondary font",
+        "name": "secondary_font",
+        "type": "font",
+        "load_external_fonts": true,
+        "visibility": {
+          "hidden_subfields": {
+            "styles": true,
+            "size": true
+          }
+        },
+        "default": {
+          "fallback": "serif",
+          "font": "Montserrat",
+          "font_set": "GOOGLE",
+          "color": "#000000",
+          "google_font_variants": ["400", "700"]
+        }
+      }
+    ]
+  },
+  {
+    "label": "Spacing",
+    "name": "spacing",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Vertical spacing",
+        "name": "vertical_spacing",
+        "type": "number",
+        "help_text": "Vertical spacing controls the spacing at the top and bottom of the quote template as well as between sections inside the content.",
+        "display": "slider",
+        "max": 500,
+        "min": 0,
+        "suffix": "px",
+        "default": 80
+      },
+      {
+        "label": "Maximum content width",
+        "name": "maximum_content_width",
+        "type": "number",
+        "display": "slider",
+        "max": 2500,
+        "min": 900,
+        "suffix": "px",
+        "default": 1240
+      }
+    ]
+  },
+  {
+    "label": "Text",
+    "name": "text",
+    "type": "group",
+    "children": [
+      {
+        "label": "Heading one (H1)",
+        "name": "h1",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "inherited_value": {
+              "property_value_paths": {
+                "color": "theme.global_fonts.primary_font.color",
+                "fallback": "theme.global_fonts.primary_font.fallback",
+                "font": "theme.global_fonts.primary_font.font",
+                "font_set": "theme.global_fonts.primary_font.font_set"
+              }
+            },
+            "default": {
+              "size": 50,
+              "size_unit": "px",
+              "styles": {
+                "text-decoration": "none"
+              },
+              "variant": "700"
+            }
+          },
+          {
+            "label": "Transform",
+            "name": "transform",
+            "type": "choice",
+            "choices": [
+              ["none", "None"],
+              ["capitalize", "Capitalize"],
+              ["uppercase", "Uppercase"],
+              ["lowercase", "Lowercase"]
+            ],
+            "display": "select",
+            "default": "uppercase"
+          }
+        ]
+      },
+      {
+        "label": "Heading two (H2)",
+        "name": "h2",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "inherited_value": {
+              "property_value_paths": {
+                "color": "theme.global_fonts.primary_font.color",
+                "fallback": "theme.global_fonts.primary_font.fallback",
+                "font": "theme.global_fonts.primary_font.font",
+                "font_set": "theme.global_fonts.primary_font.font_set"
+              }
+            },
+            "default": {
+              "size": 38,
+              "size_unit": "px",
+              "styles": {
+                "text-decoration": "none"
+              },
+              "variant": "700"
+            }
+          },
+          {
+            "label": "Transform",
+            "name": "transform",
+            "type": "choice",
+            "choices": [
+              ["none", "None"],
+              ["capitalize", "Capitalize"],
+              ["uppercase", "Uppercase"],
+              ["lowercase", "Lowercase"]
+            ],
+            "display": "select",
+            "default": "none"
+          }
+        ]
+      },
+      {
+        "label": "Heading three (H3)",
+        "name": "h3",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "inherited_value": {
+              "property_value_paths": {
+                "color": "theme.global_fonts.primary_font.color",
+                "fallback": "theme.global_fonts.primary_font.fallback",
+                "font": "theme.global_fonts.primary_font.font",
+                "font_set": "theme.global_fonts.primary_font.font_set"
+              }
+            },
+            "default": {
+              "size": 30,
+              "size_unit": "px",
+              "styles": {
+                "text-decoration": "none"
+              },
+              "variant": "700"
+            }
+          },
+          {
+            "label": "Transform",
+            "name": "transform",
+            "type": "choice",
+            "choices": [
+              ["none", "None"],
+              ["capitalize", "Capitalize"],
+              ["uppercase", "Uppercase"],
+              ["lowercase", "Lowercase"]
+            ],
+            "display": "select",
+            "default": "none"
+          }
+        ]
+      },
+      {
+        "label": "Heading four (H4)",
+        "name": "h4",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "inherited_value": {
+              "property_value_paths": {
+                "color": "theme.global_fonts.primary_font.color",
+                "fallback": "theme.global_fonts.primary_font.fallback",
+                "font": "theme.global_fonts.primary_font.font",
+                "font_set": "theme.global_fonts.primary_font.font_set"
+              }
+            },
+            "default": {
+              "size": 24,
+              "size_unit": "px",
+              "styles": {
+                "text-decoration": "none"
+              }
+            }
+          },
+          {
+            "label": "Transform",
+            "name": "transform",
+            "type": "choice",
+            "choices": [
+              ["none", "None"],
+              ["capitalize", "Capitalize"],
+              ["uppercase", "Uppercase"],
+              ["lowercase", "Lowercase"]
+            ],
+            "display": "select",
+            "default": "none"
+          }
+        ]
+      },
+      {
+        "label": "Heading five (H5)",
+        "name": "h5",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "inherited_value": {
+              "property_value_paths": {
+                "fallback": "theme.global_fonts.primary_font.fallback",
+                "font": "theme.global_fonts.primary_font.font",
+                "font_set": "theme.global_fonts.primary_font.font_set"
+              }
+            },
+            "default": {
+              "color": "#000000",
+              "size": 16,
+              "size_unit": "px",
+              "styles": {
+                "text-decoration": "none"
+              }
+            }
+          },
+          {
+            "label": "Transform",
+            "name": "transform",
+            "type": "choice",
+            "choices": [
+              ["none", "None"],
+              ["capitalize", "Capitalize"],
+              ["uppercase", "Uppercase"],
+              ["lowercase", "Lowercase"]
+            ],
+            "display": "select",
+            "default": "none"
+          }
+        ]
+      },
+      {
+        "label": "Heading six (H6)",
+        "name": "h6",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "inherited_value": {
+              "property_value_paths": {
+                "color": "theme.global_fonts.primary_font.color",
+                "fallback": "theme.global_fonts.primary_font.fallback",
+                "font": "theme.global_fonts.primary_font.font",
+                "font_set": "theme.global_fonts.primary_font.font_set"
+              }
+            },
+            "default": {
+              "size": 14,
+              "size_unit": "px",
+              "styles": {
+                "text-decoration": "none"
+              }
+            }
+          },
+          {
+            "label": "Transform",
+            "name": "transform",
+            "type": "choice",
+            "choices": [
+              ["none", "None"],
+              ["capitalize", "Capitalize"],
+              ["uppercase", "Uppercase"],
+              ["lowercase", "Lowercase"]
+            ],
+            "display": "select",
+            "default": "none"
+          }
+        ]
+      },
+      {
+        "label": "Body",
+        "name": "body_font",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "visibility": {
+              "hidden_subfields": {
+                "styles": true
+              }
+            },
+            "inherited_value": {
+              "property_value_paths": {
+                "color": "theme.global_colors.primary_color.color",
+                "fallback": "theme.global_fonts.secondary_font.fallback",
+                "font": "theme.global_fonts.secondary_font.font",
+                "font_set": "theme.global_fonts.secondary_font.font_set"
+              }
+            },
+            "default": {
+              "size": 16,
+              "size_unit": "px",
+              "google_font_variants": ["700"]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Links",
+        "name": "links",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "visibility": {
+              "hidden_subfields": {
+                "size": true
+              }
+            },
+            "inherited_value": {
+              "property_value_paths": {
+                "fallback": "theme.global_fonts.secondary_font.fallback",
+                "font": "theme.global_fonts.secondary_font.font",
+                "font_set": "theme.global_fonts.secondary_font.font_set"
+              }
+            },
+            "default": {
+              "color": "#0270e0",
+              "styles": {
+                "text-decoration": "none"
+              },
+              "google_font_variants": ["700"]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Banner",
+    "name": "banner",
+    "type": "group",
+    "children": [
+      {
+        "label": "Background",
+        "name": "background",
+        "type": "group",
+        "children": [
+          {
+            "label": "Background color",
+            "name": "background_color",
+            "type": "color",
+            "inline_help_text": "This color will be seen only if the banner image is hidden",
+            "inherited_value": {
+              "property_value_paths": {
+                "color": "theme.global_colors.primary_color.color"
+              }
+            },
+            "default": {
+              "color": "#6a73e4"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Text",
+        "name": "text",
+        "type": "group",
+        "children": [
+          {
+            "label": "Heading",
+            "name": "heading",
+            "type": "group",
+            "children": [
+              {
+                "label": "Font",
+                "name": "font",
+                "type": "font",
+                "inherited_value": {
+                  "property_value_paths": {
+                    "fallback": "theme.global_fonts.primary_font.fallback",
+                    "font": "theme.global_fonts.primary_font.font",
+                    "font_set": "theme.global_fonts.primary_font.font_set"
+                  }
+                },
+                "default": {
+                  "color": "#FFFFFF",
+                  "size": 75,
+                  "size_unit": "px",
+                  "variant": "400"
+                }
+              },
+              {
+                "label": "Transform",
+                "name": "transform",
+                "type": "choice",
+                "choices": [
+                  ["none", "None"],
+                  ["capitalize", "Capitalize"],
+                  ["uppercase", "Uppercase"],
+                  ["lowercase", "Lowercase"]
+                ],
+                "display": "select",
+                "default": "uppercase"
+              }
+            ]
+          },
+          {
+            "label": "Reference",
+            "name": "reference",
+            "type": "group",
+            "children": [
+              {
+                "label": "Font",
+                "name": "font",
+                "type": "font",
+                "inherited_value": {
+                  "property_value_paths": {
+                    "fallback": "theme.global_fonts.primary_font.fallback",
+                    "font": "theme.global_fonts.primary_font.font",
+                    "font_set": "theme.global_fonts.primary_font.font_set"
+                  }
+                },
+                "default": {
+                  "color": "#FFFFFF",
+                  "size": 30,
+                  "size_unit": "px"
+                }
+              },
+              {
+                "label": "Transform",
+                "name": "transform",
+                "type": "choice",
+                "choices": [
+                  ["none", "None"],
+                  ["capitalize", "Capitalize"],
+                  ["uppercase", "Uppercase"],
+                  ["lowercase", "Lowercase"]
+                ],
+                "display": "select",
+                "default": "uppercase"
+              }
+            ]
+          },
+          {
+            "label": "Body",
+            "name": "body_font",
+            "type": "group",
+            "children": [
+              {
+                "label": "Font",
+                "name": "font",
+                "type": "font",
+                "inherited_value": {
+                  "property_value_paths": {
+                    "fallback": "theme.global_fonts.secondary_font.fallback",
+                    "font": "theme.global_fonts.secondary_font.font",
+                    "font_set": "theme.global_fonts.secondary_font.font_set"
+                  }
+                },
+                "default": {
+                  "color": "#FFFFFF",
+                  "size": 18,
+                  "size_unit": "px",
+                  "google_font_variants": ["700"]
+                }
+              },
+              {
+                "label": "Transform",
+                "name": "transform",
+                "type": "choice",
+                "choices": [
+                  ["none", "None"],
+                  ["capitalize", "Capitalize"],
+                  ["uppercase", "Uppercase"],
+                  ["lowercase", "Lowercase"]
+                ],
+                "display": "select",
+                "default": "none"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Buttons",
+    "name": "buttons",
+    "type": "group",
+    "children": [
+      {
+        "label": "Text",
+        "name": "text",
+        "type": "group",
+        "children": [
+          {
+            "label": "Font",
+            "name": "font",
+            "type": "font",
+            "inherited_value": {
+              "property_value_paths": {
+                "fallback": "theme.global_fonts.secondary_font.fallback",
+                "font": "theme.global_fonts.secondary_font.font",
+                "font_set": "theme.global_fonts.secondary_font.font_set"
+              }
+            },
+            "default": {
+              "color": "#ffffff",
+              "size": 18,
+              "size_unit": "px"
+            }
+          },
+          {
+            "label": "Transform",
+            "name": "transform",
+            "type": "choice",
+            "choices": [
+              ["none", "None"],
+              ["capitalize", "Capitalize"],
+              ["uppercase", "Uppercase"],
+              ["lowercase", "Lowercase"]
+            ],
+            "display": "select",
+            "default": "none"
+          }
+        ]
+      },
+      {
+        "label": "Background",
+        "name": "background",
+        "type": "group",
+        "children": [
+          {
+            "label": "Color",
+            "name": "color",
+            "type": "color",
+            "default": {
+              "opacity": 100,
+              "color": "#6a73e4"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Border",
+        "name": "border",
+        "type": "group",
+        "children": [
+          {
+            "label": "Border",
+            "name": "border",
+            "type": "border",
+            "inherited_value": {
+              "property_value_paths": {
+                "top.color": "theme.buttons.background.color.color",
+                "right.color": "theme.buttons.background.color.color",
+                "bottom.color": "theme.buttons.background.color.color",
+                "left.color": "theme.buttons.background.color.color"
+              }
+            },
+            "default": {
+              "top": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "solid",
+                "color": "#636465"
+              },
+              "right": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "solid",
+                "color": "#636465"
+              },
+              "bottom": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "solid",
+                "color": "#636465"
+              },
+              "left": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "solid",
+                "color": "#636465"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "label": "Corner",
+        "name": "corner",
+        "type": "group",
+        "children": [
+          {
+            "label": "Radius",
+            "name": "radius",
+            "type": "number",
+            "display": "text",
+            "max": 100,
+            "step": 1,
+            "suffix": "px",
+            "default": 29
+          }
+        ]
+      },
+      {
+        "label": "Spacing",
+        "name": "spacing",
+        "type": "group",
+        "children": [
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "spacing",
+            "visibility": {
+              "hidden_subfields": {
+                "margin": true
+              }
+            },
+            "default": {
+              "padding": {
+                "top": {
+                  "value": 13,
+                  "units": "px"
+                },
+                "right": {
+                  "value": 38,
+                  "units": "px"
+                },
+                "bottom": {
+                  "value": 13,
+                  "units": "px"
+                },
+                "left": {
+                  "value": 38,
+                  "units": "px"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Tables",
+    "name": "tables",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Header",
+        "name": "header",
+        "type": "group",
+        "children": [
+          {
+            "label": "Text",
+            "name": "text",
+            "type": "group",
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color",
+                "visibility": {
+                  "hidden_subfields": {
+                    "opacity": true
+                  }
+                },
+                "inherited_value": {
+                  "property_value_paths": {
+                    "color": "theme.global_colors.tertiary_color.color"
+                  }
+                },
+                "default": {
+                  "color": "#f96cb3"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Background",
+            "name": "background",
+            "type": "group",
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color",
+                "default": {
+                  "color": "#ffffff",
+                  "opacity": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Body",
+        "name": "table_body",
+        "type": "group",
+        "children": [
+          {
+            "label": "Text",
+            "name": "text",
+            "type": "group",
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color",
+                "visibility": {
+                  "hidden_subfields": {
+                    "opacity": true
+                  }
+                },
+                "inherited_value": {
+                  "property_value_paths": {
+                    "color": "theme.global_colors.primary_color.color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "label": "Background",
+            "name": "background",
+            "type": "group",
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color",
+                "default": {
+                  "color": "#ffffff",
+                  "opacity": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Footer",
+        "name": "footer",
+        "type": "group",
+        "children": [
+          {
+            "label": "Text",
+            "name": "text",
+            "type": "group",
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color",
+                "visibility": {
+                  "hidden_subfields": {
+                    "opacity": true
+                  }
+                },
+                "inherited_value": {
+                  "property_value_paths": {
+                    "color": "theme.global_colors.primary_color.color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "label": "Background",
+            "name": "background",
+            "type": "group",
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color",
+                "default": {
+                  "color": "#ffffff",
+                  "opacity": 100
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Cells",
+        "name": "cells",
+        "type": "group",
+        "children": [
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "group",
+            "children": [
+              {
+                "label": "Spacing",
+                "name": "spacing",
+                "type": "spacing",
+                "visibility": {
+                  "hidden_subfields": {
+                    "margin": true
+                  }
+                },
+                "default": {
+                  "padding": {
+                    "top": {
+                      "value": 18,
+                      "units": "px"
+                    },
+                    "right": {
+                      "value": 18,
+                      "units": "px"
+                    },
+                    "bottom": {
+                      "value": 18,
+                      "units": "px"
+                    },
+                    "left": {
+                      "value": 18,
+                      "units": "px"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "label": "Border",
+            "name": "border",
+            "type": "group",
+            "children": [
+              {
+                "label": "Border",
+                "name": "border",
+                "type": "border",
+                "inherited_value": {
+                  "property_value_paths": {
+                    "top.color": "theme.global_colors.primary_color.color",
+                    "right.color": "theme.global_colors.primary_color.color",
+                    "bottom.color": "theme.global_colors.primary_color.color",
+                    "left.color": "theme.global_colors.primary_color.color"
+                  }
+                },
+                "default": {
+                  "top": {
+                    "width": {
+                      "value": 1,
+                      "units": "px"
+                    },
+                    "opacity": 100,
+                    "style": "solid",
+                    "color": "#636465"
+                  },
+                  "right": {
+                    "width": {
+                      "value": 1,
+                      "units": "px"
+                    },
+                    "opacity": 100,
+                    "style": "solid",
+                    "color": "#636465"
+                  },
+                  "bottom": {
+                    "width": {
+                      "value": 1,
+                      "units": "px"
+                    },
+                    "opacity": 100,
+                    "style": "solid",
+                    "color": "#636465"
+                  },
+                  "left": {
+                    "width": {
+                      "value": 1,
+                      "units": "px"
+                    },
+                    "opacity": 100,
+                    "style": "solid",
+                    "color": "#636465"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

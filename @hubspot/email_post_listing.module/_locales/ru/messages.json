@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Построение списка публикаций",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Самые популярные — за последние полгода",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Самые популярные — за все время",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Самые популярные — за последний месяц",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Самые популярные — за последний год",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Самые новые",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Перечислить публикации блога по",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "По умолчанию будет использоваться текущий блог, если используется в шаблоне блога, или изначальный блог, если используется в другом месте.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Выберите блог для отображения",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Максимальное число публикаций блога для отображения в списке",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Недавние записи",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Заголовок списка для отображения",
+    "description": "",
+    "placeholders": null
+  }
+}

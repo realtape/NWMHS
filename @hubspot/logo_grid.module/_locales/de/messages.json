@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Logo-Raster",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logos",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stile",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Logo-Bild",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Maximale Logo-Höhe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Legt die maximale Höhe der Logos fest.<br><br>Legen Sie eine maximale Logohöhe am besten dann fest, wenn mehrere Logos mit sehr unterschiedlichen Größen in etwa gleich groß angezeigt werden sollen.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Hintergrund",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Seitenverhältnis",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Seitenverhältnis des Logo-Containers festlegen. Besonders nützlich, wenn Sie das Hintergrundfarbfeld und Logos mit erheblich unterschiedlichen Größen verwenden.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Hintergrundfarbe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Abstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Abstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Legen Sie die Auffüllung um das Logo herum fest.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Aufgrund der Responsivität des Internets kann die gerenderte Höhe der Logos basierend auf einer Kombination aus Bildschirmgröße, ursprünglicher Bildgröße, Logo-Auffüllung, Rasterabstand und Spaltenanzahl geringer sein als der eingestellte Wert.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Logo-Raster",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Anzahl der Rasterspalten",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Legen Sie die Anzahl der Spalten im Raster auf dem Desktop fest. Auf Mobilgeräten ist dieser Wert standardmäßig 1.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Durch Festlegen einer Hintergrundfarbe unter <strong>Logo-Bild > Hintergrund</strong> lässt sich das Logo-Raster besser darstellen.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Rasterabstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Legen Sie die Abstände zwischen den Rasterelementen fest.<br><br>Durch Festlegen eines Hintergrunds unter <strong>Logo-Bild > Hintergrund</strong> lässt sich das Logo-Raster besser darstellen.",
+    "description": "",
+    "placeholders": null
+  }
+}

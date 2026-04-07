@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "लोगो ग्रिड",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "लोगो",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "लोगो",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "स्टाइल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "लोगो इमेज",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "लोगो की अधिकतम ऊंचाई",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "लोगो की अधिकतम ऊचाई सेट करता है।<br><br>जब विजुअली आकार में बहुत अलग-अलग आयामों के कई लोगों को एक समान बनाने की कोशिश की जाती है तो एक अधिकतम लोगो ऊचाई सेट करना सबसे अच्छा होता है।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "बैकग्राउंड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "एस्पेक्ट रेशियो",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "लोगो कंटेनर का आस्पेक्ट अनुपात सेट करें। यह सबसे उपयोगी है यदि आप बैकग्राउन्ड रंग फ़ील्ड का उपयोग कर रहे हैं और बहुत अलग आयामों के लोगो का उपयोग कर रहे हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "बैकग्राउंड का कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "लोगो के चारों ओर पैडिंग सेट करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "वेब की प्रतिक्रियाशीलता के कारण, लोगों की प्रदर्शित ऊंचाई स्क्रीन के आकार, मूल छवि के आकार, लोगो के पैडिंग, ग्रिड गैप और कॉलम की संख्या के संयोजन पर आधारित हो सकती है।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "लोगो ग्रिड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "ग्रिड कॉलम काउंट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "डेस्कटॉप पर ग्रिड में कॉलम की मात्रा सेट करें। मोबाइल पर डिफ़ॉल्ट रूप से 1 होता है।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "<strong>लोगो इमेज > बैकग्राउंड</strong> में बैकग्राउंड कलर सेट करने से आपको लोगो ग्रिड को विज़ुअलाइज़ करने में मदद मिल सकती है।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "ग्रिड गैप",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "ग्रिड आइटम के बीच की दूरी सेट करें।<br><br><strong>लोगो इमेज > बैकग्राउंड</strong> में बैकग्राउंड सेट करने से आपको लोगो ग्रिड को विज़ुअलाइज़ करने में मदद मिल सकती है।",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "name": {
+    "message": "选项卡式卡片",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.label": {
+    "message": "默认文本",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.left_nudge_button_label.default": {
+    "message": "向左滚动选项卡",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.right_nudge_button_label.default": {
+    "message": "向右滚动选项卡",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tabs_list_aria_label.default": {
+    "message": "选项卡列表",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.color.label": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.border.label": {
+    "message": "边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.label": {
+    "message": "边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.label": {
+    "message": "内容",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.spacing.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "样式",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.color.label": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.label": {
+    "message": "活动",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.font.label": {
+    "message": "字体",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.label": {
+    "message": "文本",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_top_sides.label": {
+    "message": "顶部/侧边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_bottom.label": {
+    "message": "下框线",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.color.label": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.label": {
+    "message": "悬停",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.font.label": {
+    "message": "字体",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.label": {
+    "message": "文本",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_top_sides.label": {
+    "message": "顶部/侧边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_bottom.label": {
+    "message": "下框线",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.color.label": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.label": {
+    "message": "非活动",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.font.label": {
+    "message": "字体",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.label": {
+    "message": "文本",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_top_sides.label": {
+    "message": "顶部/侧边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_bottom.label": {
+    "message": "下框线",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.label": {
+    "message": "标签",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.spacing.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.label": {
+    "message": "选项卡式卡片",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.spacing.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.border.label": {
+    "message": "边框",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.default": {
+    "message": "<p>当网站页面上有大量内容需要分成不同类别时，选项卡是一种组织信息的有效方式。可用一个或两个词来定义每个信息类别。</p><p>在设置选项卡的样式时，可通过给所选选项卡设置颜色来突出显示它，从而使其与未选择的选项卡区分开来，这样你的访客可以轻松浏览网站页面。</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.label": {
+    "message": "内容",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.label": {
+    "message": "标签",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.default": {
+    "message": "标签项",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.label": {
+    "message": "标签",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.label": {
+    "message": "固定文本高度",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.help_text": {
+    "message": "将每个选项卡的内容设置为相同的高度",
+    "description": "",
+    "placeholders": null
+  }
+}

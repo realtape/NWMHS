@@ -1,0 +1,467 @@
+{
+  "name": {
+    "message": "Billedskyder",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Dias",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Billede",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "Tilføj billeder med lignende form og størrelse for at få de bedste resultater.",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Billedtekst",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL til link",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.label": {
+    "message": "Indstillinger",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.label": {
+    "message": "Slides",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.label": {
+    "message": "Slides pr. side",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.inline_help_text": {
+    "message": "Billedtekster og miniaturebilleder forsvinder, når du viser mere end 1 slide pr. side.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.label": {
+    "message": "Dimensionering af billede",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.inline_help_text": {
+    "message": "Du opnår de bedste resultater ved at bruge billeder med samme formatforhold og størrelse.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.natural": {
+    "message": "Uploadet billedformat",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.force_aspect_ratio": {
+    "message": "Tvunget billedformat",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.label": {
+    "message": "Billedformat",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.label": {
+    "message": "Vis billedtekst",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.inline_help_text": {
+    "message": "Når <strong>Tvunget billedformat</strong> er valgt, er billedtekster øverst i billederne.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.label": {
+    "message": "Placering af billedtekst",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.below": {
+    "message": "Placer billedtekster under billederne",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.overlay": {
+    "message": "Placer billedtekster oven på billeder",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.label": {
+    "message": "Bevægelse",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.label": {
+    "message": "Diasovergange",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.slide": {
+    "message": "Dias",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.fade": {
+    "message": "Udtoning",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.inline_help_text": {
+    "message": "Overgange vises muligvis ikke i editoren, men vil være til stede på en side, der er vist eller offentliggjort.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.loop_slides.label": {
+    "message": "Gentagne dias",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.label": {
+    "message": "Automatisk afspilning",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.inline_help_text": {
+    "message": "Automatisk afspilning kræver flere dias end indstillingen for dias pr. side for at fungere korrekt.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance_speed_seconds.label": {
+    "message": "Tid i sekunder mellem automatisk skift",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.label": {
+    "message": "Navigation",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_main_arrows.label": {
+    "message": "Vis navigationspile",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_thumbnails.label": {
+    "message": "Vis miniaturebilleder",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_dots.label": {
+    "message": "Vis punktnavigation",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_caption.default": {
+    "message": "En valgfri billedtekst for det billede, der skal tilføjes til galleriet. Indtast en beskrivende tekst for dette billede, som du ønsker, at besøgende skal kunne læse.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_aria_label.default": {
+    "message": "Billedkarrusel med {{ slide_count }} skydere.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.aria_label_thumbnails.default": {
+    "message": "Inkluderer navigation med miniaturebilleder.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_nav_aria_label.default": {
+    "message": "Navigation med karruselminiaturebilleder. Hvis du vælger et miniaturebillede, ændres karrusellen.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.prev.default": {
+    "message": "Forrige dias",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.next.default": {
+    "message": "Næste dias",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first.default": {
+    "message": "Gå til første dias",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideX.default": {
+    "message": "Gå til dias %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pageX.default": {
+    "message": "Gå til side %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.play.default": {
+    "message": "Start automatisk afspilning",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pause.default": {
+    "message": "Sæt automatisk afspilning på pause",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.carousel.default": {
+    "message": "karrusel",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.select.default": {
+    "message": "Vælg et dias, der skal vises",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slide.default": {
+    "message": "dias",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideLabel.default": {
+    "message": "%s af %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "Standardalternativtekst for billede",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stile",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.label": {
+    "message": "Slides",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.label": {
+    "message": "Billeder",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.corner.label": {
+    "message": "Hjørneradius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.label": {
+    "message": "Mellemrum mellem billeder",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.inline_help_text": {
+    "message": "Tilpas mellemrummet mellem dine billeder, når du har mere end 1 dias pr. side.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.label": {
+    "message": "Billedtekster",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.label": {
+    "message": "Baggrund",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.spacing.label": {
+    "message": "Mellemrum",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.background.label": {
+    "message": "Farve",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.font.label": {
+    "message": "Skrifttype",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.label": {
+    "message": "Navigation",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.label": {
+    "message": "Skyderpile",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.background_color.label": {
+    "message": "Baggrundsfarve",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.left_icon.label": {
+    "message": "Venstre ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.right_icon.label": {
+    "message": "Højre ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.fill_color.label": {
+    "message": "Ikonfarve",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.label": {
+    "message": "Punkter og knap til automatisk afspilning",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.color.label": {
+    "message": "Farve",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.label": {
+    "message": "Miniaturenavigation",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.arrow_background_color.label": {
+    "message": "Pilens baggrundsfarve",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.left_icon.label": {
+    "message": "Pile til venstre-ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.right_icon.label": {
+    "message": "Pile til højre-ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.fill_color.label": {
+    "message": "Fyldfarve for pileikonet",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.label": {
+    "message": "Miniaturebilleder",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.label": {
+    "message": "Billedformat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.width.label": {
+    "message": "Bredde",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.radius.label": {
+    "message": "Radius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.label": {
+    "message": "Skyder",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.label": {
+    "message": "Mellemrum",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.spacing.label": {
+    "message": "Mellemrum",
+    "description": "",
+    "placeholders": null
+  }
+}

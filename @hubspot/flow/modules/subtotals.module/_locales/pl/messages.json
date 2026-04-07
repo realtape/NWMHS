@@ -1,0 +1,77 @@
+{
+  "name": {
+    "message": "Podsumowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "z uwzględnieniem rabatu w wysokości {{ discount_amount }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annual.default": {
+    "message": "Rocznie",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.frequency_subtotal.default": {
+    "message": "Podsumowanie {{ frequency_text }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "Co tydzień",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "Co dwa tygodnie",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "Co miesiąc",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Jednorazowo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "Za sześć miesięcy",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "Za trzy lata",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "Za dwa lata",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "Na cztery lata",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "Na pięć lat",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "Kwartalnie",
+    "description": "",
+    "placeholders": null
+  },
+  "subtotal_title.default": {
+    "message": "Podsumowanie",
+    "description": "",
+    "placeholders": null
+  }
+}

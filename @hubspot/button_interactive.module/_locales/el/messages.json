@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Κουμπί (αλληλεπιδραστικό)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL συνδέσμου",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Διεύθυνση email",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Αρχείο",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Κλείσιμο πρόσκλησης προς ενέργεια",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Διεύθυνση email",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Τηλέφωνο",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Λήψη αρχείου",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Σύνδεσμος συναντήσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Μία από τις σελίδες σας",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Ένα από τα άρθρα του ιστολογίου σας",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Σύνδεσμος προς",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Σύνδεσμος συναντήσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Άνοιγμα συνδέσμου σε νέα καρτέλα",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Σελίδα",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Ιστολόγιο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Χρώμα",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Έγινε κλικ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Φόντο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Περιθώριο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Περιθώριο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Γωνία",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Προσθήκη στρογγυλεμένης γωνίας στο κουμπί",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Ακτίνα καμπυλότητας",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Χρώμα",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Φόντο κατάδειξης",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Περιθώριο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Περίγραμμα κατάδειξης",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Κατάδειξη",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Γραμματοσειρά",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Κείμενο κατάδειξης",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Στυλ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Γραμματοσειρά",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Κείμενο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Αναπλήρωση κειμένου",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Προσθέστε έναν σύνδεσμο κουμπιού εδώ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Κείμενο κουμπιού",
+    "description": "",
+    "placeholders": null
+  }
+}

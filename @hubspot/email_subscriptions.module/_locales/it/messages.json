@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Preferenze iscrizione",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Aggiorna il testo del pulsante delle preferenze",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Aggiorna le preferenze e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Preferenze di comunicazione",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Intestazione",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Sottotitolo",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Se questo non è il tuo indirizzo e-mail, ignora questa pagina poiché l'e-mail associata ti è stata probabilmente inoltrata.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Sì, iscrivimi di nuovo!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Testo del pulsante Iscriviti di nuovo",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Annulla l'iscrizione a tutte le etichette",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Annulla l'iscrizione a tutte le mailing list.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Deseleziona i tipi di e-mail che non vuoi ricevere:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Testo guida per la selezione di una preferenza",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Oppure controlla qui per non ricevere mai e-mail:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Testo guida per l'annullamento di tutte le iscrizioni",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Annulla l'iscrizione a tutti i testi guida per un utente attualmente non iscritto",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Attualmente hai annullato l'iscrizione a tutte le nostre e-mail. Vorresti ricevere di nuovo le nostre e-mail?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Testo pulsante abbonamento singolo",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Annulla l'iscrizione",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Testo conferma abbonamento singolo",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Desideri annullare l'abbonamento alle e-mail su:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Nome di esempio abbonamento singolo",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "il tipo di abbonamento selezionato",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,10 @@
+.icon {
+  display: inline-flex;
+  padding: 0.5rem;
+}
+
+.icon svg {
+  fill: #fff;
+  height: 2rem;
+  width: 2rem;
+}

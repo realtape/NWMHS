@@ -1,0 +1,29 @@
+{% if module.override_logo and module.logo.src %}
+  <img
+    width="{{ module.logo.width|escape_attr }}"
+    height="{{ module.logo.height|escape_attr }}"
+    loading="lazy"
+    src="{{ module.logo.src|escape_url }}"
+    alt="{{ module.logo.alt|escape_attr }}"
+  >
+{% elif brand_settings.primaryLogo.src %}
+  {% set brandSettingsLogoHeight = brandSettings.primaryLogo.height ? brandSettings.primaryLogo.height : module.default_logo_max_height %}
+
+  <img
+    style="height: {{ brandSettingsLogoHeight|escape_attr }}px; max-height: {{ module.default_logo_max_height|escape_attr }}px; max-width: 100%"
+    loading="lazy"
+    src="{{ brandSettings.primaryLogo.src|escape_url }}"
+    alt="{{ brandSettings.primaryLogo.alt|escape_attr }}"
+  >
+{% elif !brand_settings.primaryLogo.src and site_settings.logoSrc %}
+  {% set siteSettingsLogoHeight = site_settings.logoHeight ? site_settings.logoHeight : module.default_logo_max_height %}
+
+  <img
+    style="height: {{ siteSettingsLogoHeight|escape_attr }}px; max-height: {{ module.default_logo_max_height|escape_attr }}px; max-width: 100%"
+    loading="lazy"
+    src="{{ site_settings.logoSrc|escape_url }}"
+    alt="{{ site_settings.logoAlt|escape_attr }}"
+  >
+{% elif quote.hs_sender_company_name %}
+  <h1>{{ quote.hs_sender_company_name|sanitize_html }}</h1>
+{% endif %}

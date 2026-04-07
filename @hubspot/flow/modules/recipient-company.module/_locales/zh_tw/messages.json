@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "收件人公司",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.default": {
+    "message": "準備對象：",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.label": {
+    "message": "收件人公司文字",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_address.label": {
+    "message": "收件人公司主要地址",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_city_state_zip.label": {
+    "message": "收件人公司城市、州 / 省和郵遞區號",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_country.label": {
+    "message": "收件人公司國家 / 地區",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_name.label": {
+    "message": "收件人公司名稱",
+    "description": "",
+    "placeholders": null
+  }
+}

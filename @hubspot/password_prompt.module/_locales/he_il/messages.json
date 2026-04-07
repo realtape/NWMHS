@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "הנחיה לגבי סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "מציין מיקום של סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "הודעה לגבי סיסמה שגויה",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "מצטערים, נסה שוב.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "שלח",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "טקסט לחצן שליחה",
+    "description": "",
+    "placeholders": null
+  }
+}

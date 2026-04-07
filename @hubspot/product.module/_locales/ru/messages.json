@@ -1,0 +1,362 @@
+{
+  "name": {
+    "message": "Продукт",
+    "description": "",
+    "placeholders": null
+  },
+  "product.label": {
+    "message": "Продукт",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.label": {
+    "message": "Имя",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.label": {
+    "message": "Уровень заголовка",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.help_text": {
+    "message": "Определяет уровень заголовка (h1, h2, h3, h4, h5, h6) для элемента имени. Это важно для доступности и поисковой оптимизации. <a href='https://www.w3.org/WAI/tutorials/page-structure/headings/'>Подробнее</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h1": {
+    "message": "Заголовок 1",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h2": {
+    "message": "Заголовок 2",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h3": {
+    "message": "Заголовок 3",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h4": {
+    "message": "Заголовок 4",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h5": {
+    "message": "Заголовок 5",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h6": {
+    "message": "Заголовок 6",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.override_product_name.label": {
+    "message": "Переопределить название продукта",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.label": {
+    "message": "Имя",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.default": {
+    "message": "Имя",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.label": {
+    "message": "Описание",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.override_product_description.label": {
+    "message": "Переопределить описание продукта",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.label": {
+    "message": "Описание",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.default": {
+    "message": "Краткое описание продаваемого товара. Достаточно одного-двух предложений.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.label": {
+    "message": "Изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.override_product_image.label": {
+    "message": "Переопределить изображение продукта",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.image_override.label": {
+    "message": "Изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.label": {
+    "message": "Кнопка",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.label": {
+    "message": "Текст кнопки",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.default": {
+    "message": "Подробнее",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.override_product_button.label": {
+    "message": "Переопределить кнопку продукта",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_override.label": {
+    "message": "Кнопка",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_price_info_found.default": {
+    "message": "Информация о ценах не найдена",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Стили",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.label": {
+    "message": "Макет",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.horizontal": {
+    "message": "Горизонтальное",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.vertical": {
+    "message": "Вертикальное",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "Изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.label": {
+    "message": "Показать полное изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.help_text": {
+    "message": "Всегда обеспечивает отображение всего изображения. Может привести к тому, что изображение не заполнит весь контейнер изображений.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.label": {
+    "message": "Цвет фона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.help_text": {
+    "message": "Добавляет цвет фона в контейнер изображения. Наиболее полезно, если ваше изображение прозрачное.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.label": {
+    "message": "Соотношение сторон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.label": {
+    "message": "Соотношение ширины изображения",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.help_text": {
+    "message": "Устанавливает площадь карты в процентах, которая будет отведена под изображение.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.40%": {
+    "message": "40%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.45%": {
+    "message": "45%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.50%": {
+    "message": "50%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.55%": {
+    "message": "55%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.60%": {
+    "message": "60%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.label": {
+    "message": "Область содержимого",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.label": {
+    "message": "Цвет фона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.help_text": {
+    "message": "Установить цвет фона для области содержимого",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.horizontal_padding.label": {
+    "message": "Горизонтальное заполнение",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.vertical_padding.label": {
+    "message": "Вертикальное заполнение",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "Имя",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_size.label": {
+    "message": "Размер шрифта",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_color.label": {
+    "message": "Цвет шрифта",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.label": {
+    "message": "Цена",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_size.label": {
+    "message": "Размер шрифта",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_color.label": {
+    "message": "Цвет шрифта",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "Описание",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_size.label": {
+    "message": "Размер шрифта",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_color.label": {
+    "message": "Цвет шрифта",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.label": {
+    "message": "Кнопка",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.override_defaults.label": {
+    "message": "Переопределить значения по умолчанию",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.text_color.label": {
+    "message": "Цвет текста",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.button_color.label": {
+    "message": "Цвет кнопки",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.corner_radius.label": {
+    "message": "Радиус скругления",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.label": {
+    "message": "При наведении",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.text_color.label": {
+    "message": "Цвет текста",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.button_color.label": {
+    "message": "Цвет кнопки",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.border_color.label": {
+    "message": "Цвет границы",
+    "description": "",
+    "placeholders": null
+  }
+}

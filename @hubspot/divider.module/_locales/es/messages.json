@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Divisor",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Alineación",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Centro",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Izquierda",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Derecha",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Alto",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Tipo de línea",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Con guion",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Punteado",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Continuo",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Relleno",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Máx. de 20 píxeles",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "¿Mostrar el relleno?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Ancho",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Porcentaje del área en el que se incluye el divisor.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "name": {
+    "message": "Сетка изображений",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "Для достижения наилучших результатов используйте изображения с одинаковым соотношением сторон.",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL-адрес ссылки",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.inline_help_text": {
+    "message": "Если в <strong>Настройках &#8594; значение параметра «Функциональность при нажатии»</strong> установлено на <strong>&ldquo;Перейти по URL-адресу&rdquo;</strong>, изображения сетки будут вести по этой ссылке.",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.hover_message.label": {
+    "message": "Сообщение при наведении курсора",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.hover_message.inline_help_text": {
+    "message": "Если в <strong>Настройках &#8594; значение параметра «Функциональность при наведении курсора»</strong> установлено на <strong>&ldquo;Показать наложение&rdquo;</strong>, это сообщение будет отображаться при наведении курсора. Текст должен быть кратким для наилучших результатов.",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.label": {
+    "message": "Настройки",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.grid_type.choices.uniform": {
+    "message": "Равномерная сетка",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.label": {
+    "message": "Функциональность при наведении курсора",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.label": {
+    "message": "Эффекты наведения курсора на изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.zoom_out": {
+    "message": "Уменьшить",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.blur": {
+    "message": "Размыть",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.grayscale": {
+    "message": "Оттенки серого",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.label": {
+    "message": "Отображение наложения",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.always": {
+    "message": "Всегда включено",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.hover": {
+    "message": "При наведении",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.never": {
+    "message": "Никогда",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.label": {
+    "message": "Функциональность при нажатии",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.label": {
+    "message": "Функциональность щелчка по изображению",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.lightbox": {
+    "message": "Открыть всплывающее окно",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.navigate": {
+    "message": "Перейти по URL-адресу",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.nothing": {
+    "message": "Ничего не делать",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.label": {
+    "message": "Столбцы",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.number_of_columns.label": {
+    "message": "Число столбцов",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_columns.label": {
+    "message": "Настроить столбцы на мобильных устройствах",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_columns.inline_help_text": {
+    "message": "Показывать другое количество столбцов на мобильных устройствах",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_number_of_columns.label": {
+    "message": "Количество столбцов на мобильных устройствах",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.label": {
+    "message": "Соотношение сторон",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_hover_message.default": {
+    "message": "<h3>Заголовок сообщения при наведении курсора </h3><p>Это сообщение будет отображаться при наведении курсора на изображение.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_lightbox_message.default": {
+    "message": "<h3>Заголовок сообщения во всплывающем окне</h3><p>Это сообщение будет отображаться во всплывающем окне изображения.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "Замещающий текст изображения по умолчанию",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.grid_aria_label.default": {
+    "message": "Сетка изображения с {{ image_count }} изображениями.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_close_button.default": {
+    "message": "Закрыть всплывающее окно",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.lightbox_previous_button.default": {
+    "message": "Предыдущее изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.lightbox_next_button.default": {
+    "message": "Следующее изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Стили",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.container.label": {
+    "message": "Сетка изображений",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.container.spacing.label": {
+    "message": "Интервал",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.label": {
+    "message": "Сетка изображений",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.label": {
+    "message": "Оверлей",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.background.color.label": {
+    "message": "Цвет фона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.text.label": {
+    "message": "Текст",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.label": {
+    "message": "При наведении",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.color.label": {
+    "message": "Цвет фона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.font.label": {
+    "message": "Цвет текста",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_corner.label": {
+    "message": "Угол",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_corner.corner.label": {
+    "message": "Радиус",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_gap.label": {
+    "message": "Интервал",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_gap.gap.inline_help_text": {
+    "message": "Настроить расстояние между изображениями.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.label": {
+    "message": "Изображения во всплывающем окне",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.label": {
+    "message": "Соотношение сторон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.natural": {
+    "message": "Естественное соотношение сторон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_corner.label": {
+    "message": "Радиус скругления",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.label": {
+    "message": "Значки навигации во всплывающем окне",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.background_color.label": {
+    "message": "Цвет фона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.left_icon.label": {
+    "message": "Значок слева",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.right_icon.label": {
+    "message": "Значок справа",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.fill_color.label": {
+    "message": "Цвет значка",
+    "description": "",
+    "placeholders": null
+  }
+}

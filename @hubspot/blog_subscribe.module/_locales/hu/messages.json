@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Feliratkozás blogra e-mail-címmel",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Az alapbeállítás a jelenlegi blogot fogja használni blogsablonban és az elsődleges blogot minden egyéb esetben.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Válassza ki a megjelenítendő blogot",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Feliratkozás itt!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Az űrlap fölött megjelenítendő cím",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Beágyazott válasz felhasználóknak",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Köszönjük, hogy feliratkozott!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Ahhoz, hogy megjelenjen a blogfeliratkozási űrlap, be kell kapcsolnia a feliratkozásokat a blogjához. Ez a beállítások között végezhető el. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>További tudnivalók</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Fejléc szintje",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Válassza ki a fejléc szintjét. A fejléceknek a tartalom alapján hierarchikus viszonyban kell állniuk egymással. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Bővebb információ</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

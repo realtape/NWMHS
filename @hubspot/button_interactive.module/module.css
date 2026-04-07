@@ -1,0 +1,16 @@
+/* Placeholder styles copied from here, remove when merged
+https://git.hubteam.com/HubSpot/ContentEditorUI/pull/11916/files */
+
+.interactive-button-wrapper {
+  display: flex;
+}
+
+.interactive-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.interactive-button p {
+    margin: 0;
+}

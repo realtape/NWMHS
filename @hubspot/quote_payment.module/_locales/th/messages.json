@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "ชำระเงินเลย",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "ข้อความบนปุ่มชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "ตรวจสอบความชัดเจนว่าการคลิกที่ปุ่มนี้จะอนุญาตให้ลูกค้าของคุณชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "เกิดปัญหาในการเตรียมการชำระเงิน โปรดติดต่อผู้ที่ส่งใบเสนอราคานี้ให้คุณ",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "ตรวจสอบข้อความแสดงข้อผิดพลาด",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "แจ้งให้ลูกค้าของคุณทราบว่าต้องทำอะไรเมื่อเกิดปัญหาในการเริ่มขั้นตอนชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "เลือกขนาดหัวเรื่อง โดย H1 คือใหญ่ที่สุด ตามด้วย H2 และอื่นๆ",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "ขนาดหัวเรื่อง",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "การชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "เนื้อหาส่วนหัว",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "ชำระเงินครั้งแรก:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "ลูกค้าของคุณจะเห็นข้อความนี้ในปุ่มการชำระเงิน จนกว่าพวกเขาจะชำระเงินการผ่อนชำระงวดแรก",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "ข้อความบนปุ่มสำหรับกำหนดเวลาการชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "การชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "ไม่สามารถชำระเงินได้เพราะยังเซ็นใบเสนอราคาไม่ครบ",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "ข้อความอธิบายเมื่อต้องการลายเซ็น",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "หากต้องมีลายเซ็นก่อนชำระเงิน ลูกค้าของคุณจะเห็นข้อความนี้จนกว่าจะมีลายเซ็นครบตามที่กำหนด",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "ชำระแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "ข้อความระบุว่าชำระแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "ชำระเงินเมื่อ [[ paid_time ]] ของวันที่ [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "การดำเนินการชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "ข้อความการดำเนินการชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "เกิดปัญหาขึ้นขณะโหลดสถานะการชำระเงินของใบเสนอราคานี้ โปรดลองรีเฟรชหน้า",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "ข้อความแสดงข้อผิดพลาดสถานะการชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "แจ้งให้ลูกค้าของคุณรีเฟรชหน้านี้ เมื่อดึงข้อมูลสถานะการชำระเงินไม่สำเร็จ",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "ใบเสนอราคานี้เป็นการทดสอบ จึงไม่สามารถเรียกเก็บเงินจริงๆ ได้",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "คุณตัดสินใจได้ว่าต้องเก็บเงินหรือไม่เมื่อคุณสร้างใบเสนอราคาโดยใช้เทมเพลตนี้",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "หากต้องการชำระเงิน โปรดติดต่อผู้ที่ส่งใบเสนอราคานี้ให้คุณ",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "ใบเสนอราคานี้หมดอายุแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "ใบเสนอราคา {{ personalization_token('quote.hs_quote_number', '') }} หมดอายุแล้วเมื่อ {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "โปรด<a href='#'>ติดต่อเจ้าหน้าที่ฝ่ายขายที่ดูแลคุณ</a>เพื่อขอรายละเอียดเพิ่มเติม",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "ความถี่ในการเรียกเก็บเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "ราคาต่อหน่วย",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "ราคา",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "ผลิตภัณฑ์และบริการ",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "ปริมาณ",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "ข้อมูลสรุป<br>ฝ่ายบริหาร ",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "ข้อกำหนดและเงื่อนไข",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "หมายเหตุ",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "การตอบรับ<br>โปรเจกต์",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "ส่วนหัวย่อย",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "เรื่องราว<br>ของเรา",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "เราหลงใหล<br>ในสิ่งที่ทำ",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "ลูกค้าของเรา<br>พูดถึงเราอย่างไร",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "สรุป<br>โปรเจ็กต์",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "เป้าหมายของเรา",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "คำอธิบาย<br>เกี่ยวกับงาน",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "การประมาณการณ์<br>โปรเจ็กต์",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>สัญญา",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "เตรียมพร้อมสำหรับ",
+    "description": "",
+    "placeholders": null
+  }
+}

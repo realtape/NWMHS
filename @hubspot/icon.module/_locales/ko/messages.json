@@ -1,0 +1,202 @@
+{
+  "accessibility_options.label": {
+    "message": "액세스 가능성 옵션",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.decorative": {
+    "message": "장식 - 화면 판독기에서 무시함",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.semantic": {
+    "message": "정보 - 화면 판독기로 읽음",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.help_text": {
+    "message": "화면 판독기를 위한 이 아이콘의 목적을 범주화합니다. <a href='https://www.w3.org/WAI/tutorials/images/' target='_blank' rel='noopener noreferrer'>자세히 알아보기</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.label": {
+    "message": "목적",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.help_text": {
+    "message": "이 텍스트를 화면 판독기에서 읽고 아이콘을 설명하게 됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.label": {
+    "message": "설명",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "아이콘",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "아이콘",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "정렬",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "정렬",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "배경",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "코너",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "반경",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.custom": {
+    "message": "사용자 정의",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.round": {
+    "message": "둥글게",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.square": {
+    "message": "정사각형",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.label": {
+    "message": "스타일",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.color.label": {
+    "message": "색상",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.label": {
+    "message": "채우기",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "스타일",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.label": {
+    "message": "크기",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.size.label": {
+    "message": "크기",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "간격",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "간격",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.force_full_width.help_text": {
+    "message": "버튼이 가능한 가로 공간 전체를 차지하게 합니다. 버튼 아래쪽의 채움 공간과 여백은 그대로 유지될 것입니다. ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.force_full_width.label": {
+    "message": "전체 너비 사용",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.help_text": {
+    "message": "선택한 항목의 모양을 미리 정의된 값에 맞추어 빠르게 조정하려면 사전 설정을 사용하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.icon_color.choices.dark": {
+    "message": "어둡게",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.icon_color.choices.light": {
+    "message": "조명",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.icon_color.label": {
+    "message": "아이콘 색",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.icon_shape.choices.circle": {
+    "message": "원",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.icon_shape.choices.square": {
+    "message": "정사각형",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.icon_shape.label": {
+    "message": "아이콘 모양",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.icon_size.choices.large": {
+    "message": "크게",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.icon_size.choices.regular": {
+    "message": "정규",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.icon_size.choices.small": {
+    "message": "소규모",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.icon_size.label": {
+    "message": "아이콘 크기",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.presets.label": {
+    "message": "사전 설정",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Totale",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "In scadenza ora",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Questo elemento viene utilizzato per etichettare il totale del preventivo quando quest'ultimo presenta pagamenti futuri.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Testo In scadenza ora",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Totale",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Testo totale",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Valore totale del contratto",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Personalizza il testo per descrivere accuratamente questo valore (se non viene impostato alcun termine, è il valore annuale per impostazione predefinita).",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Testo valore totale del contratto",
+    "description": "",
+    "placeholders": null
+  }
+}

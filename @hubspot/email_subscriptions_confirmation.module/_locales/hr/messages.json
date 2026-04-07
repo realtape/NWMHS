@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Poruka o potvrdi pretplata",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Uspješno sete ažurirali svoje preference e-pošte.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Poruka o ažuriranju pretplate",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Podnaslov",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Ako ovo nije vaša adresa e-pošte, zanemarite ovu stranicu budući da je poruka e-pošte povezana s ovom stranicom najvjerojatnije proslijeđena vama.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Uspješno ste se odjavili sa svih poruka e-poštom.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Poruka o otkazivanju pretplate",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Tekst zaglavlja",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Zaglavlje",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Tekst gumba za upravljanje preferencijama",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Upravljanje preferencama",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Vraćena izjava o odricanju odgovornosti za upravljanje preferencijama",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Napravili ste grešku? Ne brinite, možete promijeniti preferencije.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Tekst uspješnog otkazivanja pretplate za pojedinačnu pretplatu",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Uspješno ste otkazali pretplatu na:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Tekst rezerviranog mjesta za pretplatu",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "vaša odabrana vrsta pretplate",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Razina naslova zaglavlja",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Naslov 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Naslov 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Naslov 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Naslov 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Naslov 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Naslov 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Razina naslova e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Naslov 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Naslov 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Naslov 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Naslov 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Naslov 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Naslov 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Odlomak",
+    "description": "",
+    "placeholders": null
+  }
+}

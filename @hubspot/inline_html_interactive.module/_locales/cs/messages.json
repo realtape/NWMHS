@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "E-mailová adresa",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonní číslo",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Stažení souboru",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Odkaz na schůzky",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Jedna z vašich stránek",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Odkaz na:",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Odkaz na schůzky",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Odkaz otevřít v nové záložce",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Stránka",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Inline HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Obsah tlačítka",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "Kód HTML, který se zobrazí na tlačítku. Použít lze pouze značky, které jsou platné v rámci značky <a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Klikněte sem",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Odkaz otevřít v nové záložce",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Upřesnit",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Vlastní pravidla CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Výběr",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Tato hodnota se spojuje s výběrem výzvy k akci. Například hodnota ':hover' se mění na ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Styl",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Přidejte vlastní CSS pro pravidlo stylu. Příklad: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Vlastní třídy CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Přidejte k odkazu výzvy k akci vlastní třídy CSS.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Vlastní šablona stylů CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Přidejte vlastní šablonu stylů CSS pro výzvu k akci. Příklad: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Použít starší značky",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Zabalit HTML do starších značek, aby byla zajištěna podpora stávajícího CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

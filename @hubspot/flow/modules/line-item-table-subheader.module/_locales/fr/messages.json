@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Sous-titre du tableau des lignes de produits",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Paiements ponctuels et récurrents dus maintenant.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Texte du sous-titre",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Ce sous-titre n'est affiché que lorsque des paiements futurs sont présents.",
+    "description": "",
+    "placeholders": null
+  }
+}

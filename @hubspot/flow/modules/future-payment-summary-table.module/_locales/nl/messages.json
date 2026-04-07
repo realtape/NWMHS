@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Overzichtstabel toekomstige betalingen",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Kop tabel",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Tabelkop weergeven",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Kop tabel",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Een koptekst toevoegen aan de overzichtstabel voor toekomstige betalingen",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "Overzicht toekomstige betalingen",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Kolommen",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Koptekst rubrieknaam",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Item",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Koptekst betalingsoverzicht",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Eenmalig",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ week",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 weken",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ maand",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ kwartaal",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 maanden",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ jaar",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 jaar",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 jaar",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "dag",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "dagen",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "week",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "weken",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "maand",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "maanden",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "betalingen",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} op {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} verschuldigd {{ billing_delay_period }} {{ billing_delay_unit }} na eerste betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} vanaf {{ billing_delay_period }} {{ billing_delay_unit }} na eerste betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} vanaf {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} vanaf {{ billing_delay_period }} {{ billing_delay_unit }} na eerste betaling voor {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} vanaf {{ formatted_first_payment_date }} voor {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 jaar",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 jaar",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "פג תוקף הצעת מחיר זו",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "התוקף של הצעת מחיר {{ personalization_token('quote.hs_quote_number', '') }} פג בתאריך {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "<a href='#'>פנה לנציג המכירות שלך</a> לפרטים נוספים.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "תדירות חיוב",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "מחיר ליחידה",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "מחיר",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "מוצרים ושירותים",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "כמות",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "תקציר<br>מנהלי",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "תנאים והתניות",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "תגובות",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "קבלת<br>פרויקט",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "כותרת משנה",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "הסיפור <br>שלנו",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "אנחנו מסורים<br>לעבודה שלנו ",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "מה הלקחות<br>מספרים עלינו",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "סיכום<br>פרויקט",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "היעדים שלנו",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "הצהרת<br>עבודה",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "הערכת<br>פרויקט",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>החוזה",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "מוכנים לקראת",
+    "description": "",
+    "placeholders": null
+  }
+}

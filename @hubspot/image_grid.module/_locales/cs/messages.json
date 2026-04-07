@@ -1,0 +1,367 @@
+{
+  "name": {
+    "message": "Mřížka s obrázky",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Obrázek",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Obrázek",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "Aby byl výsledek co nejlepší, použijte obrázky s podobným poměrem stran.",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Adresa URL odkazu",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.inline_help_text": {
+    "message": "Pokud je u funkce <strong>Nastavení &#8594; Kliknutí</strong> nastavena možnost <strong>„Přejít na adresu URL“</strong>, obrázky v mřížce přesměrují na tento odkaz.",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.hover_message.label": {
+    "message": "Zpráva při najetí myší",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.hover_message.inline_help_text": {
+    "message": "Tato zpráva se zobrazí při najetí myší, pokud je u <strong>funkce Nastavení &#8594; Najet myší</strong> nastavena možnost <strong>„Zobrazit překrytí“</strong>. Text zprávy by měl být stručný.",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.label": {
+    "message": "Nastavení",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.grid_type.choices.uniform": {
+    "message": "Pravidelná mřížka",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.label": {
+    "message": "Funkce Najet myší",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.label": {
+    "message": "Efekty při najetí myší na obrázek",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.zoom_out": {
+    "message": "Oddálení",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.blur": {
+    "message": "Rozostření",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.grayscale": {
+    "message": "Stupně šedé",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.label": {
+    "message": "Kdy zobrazit překrytí",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.always": {
+    "message": "Vždy zapnuté",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.hover": {
+    "message": "Najet myší",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.never": {
+    "message": "Nikdy",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.label": {
+    "message": "Funkce Kliknutí",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.label": {
+    "message": "Funkce kliknutí na obrázek",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.lightbox": {
+    "message": "Otevřít okno s efektem lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.navigate": {
+    "message": "Přejít na adresu URL",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.nothing": {
+    "message": "Nedělat nic",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.label": {
+    "message": "Sloupce",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.number_of_columns.label": {
+    "message": "Počet sloupců",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_columns.label": {
+    "message": "Upravit sloupce pro mobilní zařízení",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_columns.inline_help_text": {
+    "message": "Zobrazit jiný počet sloupců na mobilních zařízeních",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_number_of_columns.label": {
+    "message": "Počet sloupců na mobilních zařízeních",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.label": {
+    "message": "Poměr stran",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.1/1": {
+    "message": "1 : 1",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.3/2": {
+    "message": "3 : 2",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.2/3": {
+    "message": "2 : 3",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.4/3": {
+    "message": "4 : 3",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.3/4": {
+    "message": "3 : 4",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.16/9": {
+    "message": "16 : 9",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_hover_message.default": {
+    "message": "<h3>Název zprávy při najetí myší</h3><p>Tato zpráva se bude zobrazovat při najetí myší na obrázek.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_lightbox_message.default": {
+    "message": "<h3>Název zprávy v okně s efektem lightbox</h3><p>Tato zpráva se bude zobrazovat u obrázku zobrazeného v okně s efektem lightbox.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "Alternativní text k výchozímu obrázku",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.grid_aria_label.default": {
+    "message": "Mřížka s obrázky s {{ image_count }} obrázky.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_close_button.default": {
+    "message": "Zavřít okno s efektem lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.lightbox_previous_button.default": {
+    "message": "Předchozí obrázek",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.lightbox_next_button.default": {
+    "message": "Další obrázek",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Styly",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.container.label": {
+    "message": "Mřížka s obrázky",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.container.spacing.label": {
+    "message": "Rozestupy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.label": {
+    "message": "Obrázky v mřížce",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.label": {
+    "message": "Překrytí",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.background.label": {
+    "message": "Pozadí",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.background.color.label": {
+    "message": "Barva pozadí",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.label": {
+    "message": "Najet myší",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.color.label": {
+    "message": "Barva pozadí",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.font.label": {
+    "message": "Barva textu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_corner.label": {
+    "message": "Roh",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_corner.corner.label": {
+    "message": "Rádius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_gap.label": {
+    "message": "Rozestupy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_gap.gap.inline_help_text": {
+    "message": "Nastavte požadovanou mezeru mezi obrázky.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.label": {
+    "message": "Obrázky v okně s efektem lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.label": {
+    "message": "Poměr stran",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.natural": {
+    "message": "Přirozený poměr stran",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.1/1": {
+    "message": "1 : 1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.3/2": {
+    "message": "3 : 2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.2/3": {
+    "message": "2 : 3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.4/3": {
+    "message": "4 : 3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.3/4": {
+    "message": "3 : 4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.16/9": {
+    "message": "16 : 9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_corner.label": {
+    "message": "Poloměr rohu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.label": {
+    "message": "Ikony navigace v okně s efektem lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.background_color.label": {
+    "message": "Barva pozadí",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.left_icon.label": {
+    "message": "Ikona Doleva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.right_icon.label": {
+    "message": "Ikona Doprava",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.fill_color.label": {
+    "message": "Barva ikony",
+    "description": "",
+    "placeholders": null
+  }
+}

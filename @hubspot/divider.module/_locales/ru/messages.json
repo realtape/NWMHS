@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Разделитель",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Выравнивание",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "По центру",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "По левому краю",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "По правому краю",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Цвет",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Высота",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Тип линии",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Штриховая",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Пунктирная",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Сплошная",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Заполнение",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Макс. 20 пикселей",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Показать заполнение?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Ширина",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Процентное выражение области, в которую помещается разделитель.",
+    "description": "",
+    "placeholders": null
+  }
+}

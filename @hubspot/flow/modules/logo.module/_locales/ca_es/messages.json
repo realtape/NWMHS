@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logotip",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logotip",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Altura màxima del logotip",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "No s'aplica en substituir el logotip per defecte",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Pots triar substituir el logotip aplicat a aquesta plantilla amb aquest botó de commutació.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Substitueix el logotip per defecte",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Per defecte, els pressuposts mostraran el logotip de l'empresa des del Kit de marca a Opcions per defecte del compte o Configuració de la pàgina web.",
+    "description": "",
+    "placeholders": null
+  }
+}

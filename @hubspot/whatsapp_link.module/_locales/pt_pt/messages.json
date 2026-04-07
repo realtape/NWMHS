@@ -1,0 +1,232 @@
+{
+  "name": {
+    "message": "Ligação para o WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.label": {
+    "message": "Texto de Optar ativamente por participar",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.help_text": {
+    "message": "O texto de Optar ativamente por participar dá informações sobre o tipo de mensagens que o seu contacto irá receber da sua empresa, bem como instruções, e as palavras-chave para optar ativamente por participar. Para ficar a saber mais, consulte <a href='https://knowledge.hubspot.com/inbox/collect-consent-for-whatsapp-conversations' target='_blank' rel='noopener noreferrer'>este artigo da base de conhecimentos</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.label": {
+    "message": "Mostrar",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text_and_icon": {
+    "message": "Texto e ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text": {
+    "message": "Apenas texto",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.icon": {
+    "message": "Apenas ícoen",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.label": {
+    "message": "Posição do ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.left": {
+    "message": "Esquerda",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.right": {
+    "message": "Direita",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Chat no WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estilos",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.label": {
+    "message": "Ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.size.label": {
+    "message": "Tamanho",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.help_text": {
+    "message": "Espaço entre o ícone e o texto do botão.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.label": {
+    "message": "Texto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.font.label": {
+    "message": "Tipo de letra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.label": {
+    "message": "Transformar",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.placeholder": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.capitalize": {
+    "message": "Colocar em maiúsculas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.uppercase": {
+    "message": "Maiúsculas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.lowercase": {
+    "message": "Minúsculas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.label": {
+    "message": "Fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.label": {
+    "message": "Limite",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.border.label": {
+    "message": "Limite",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.label": {
+    "message": "Canto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.radius.label": {
+    "message": "Raio",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.label": {
+    "message": "Pairar",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.label": {
+    "message": "Ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.label": {
+    "message": "Texto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.font.label": {
+    "message": "Tipo de letra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.label": {
+    "message": "Fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.label": {
+    "message": "Limite",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.border.label": {
+    "message": "Limite",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.label": {
+    "message": "Ligar número do WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.help_text": {
+    "message": "Aprenda a ligar um canal do WhatsApp com a sua caixa de entrada com <a href='https://knowledge.hubspot.com/inbox/connect-whatsapp-to-the-conversations-inbox' target='_blank' rel='noopener noreferrer'>este artigo da base de conhecimentos</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.default": {
+    "message": "Ícone do WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.help_text": {
+    "message": "Este texto será lido pelos leitores de ecrã para descrever o ícone.",
+    "description": "",
+    "placeholders": null
+  }
+}

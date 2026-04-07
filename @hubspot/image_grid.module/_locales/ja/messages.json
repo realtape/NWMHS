@@ -1,0 +1,367 @@
+{
+  "name": {
+    "message": "画像のグリッド",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "画像",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "画像",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "最適な結果が得られるように、縦横比が似ている画像を使用します。",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "リンクURL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.inline_help_text": {
+    "message": "<strong>［設定］ &#8594; ［クリック機能］</strong>が<strong>［URLに移動］</strong>に設定されていると、グリッド画像はこのリンクに移動します。",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.hover_message.label": {
+    "message": "ホバーメッセージ",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.hover_message.inline_help_text": {
+    "message": "<strong>［設定］ &#8594; ［ホバー機能］</strong>が<strong>［オーバーレイを表示］</strong>に設定されていると、このメッセージはホバーに表示されます。最適な結果が得られるようにテキストは簡潔にまとめてください。",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.label": {
+    "message": "設定",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.grid_type.choices.uniform": {
+    "message": "均一グリッド",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.label": {
+    "message": "ホバー機能",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.label": {
+    "message": "画像のホバー効果",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.zoom_out": {
+    "message": "縮小",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.blur": {
+    "message": "ぼかし",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.image_hover_functionality.choices.grayscale": {
+    "message": "グレースケール",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.label": {
+    "message": "オーバーレイを表示する場合",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.always": {
+    "message": "常にオン",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.hover": {
+    "message": "ホバー",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_hover.overlay_show_on.choices.never": {
+    "message": "不要",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.label": {
+    "message": "クリック機能",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.label": {
+    "message": "画像クリック機能",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.lightbox": {
+    "message": "Lightboxを開く",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.navigate": {
+    "message": "URLに移動",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_image_click.image_click_functionality.choices.nothing": {
+    "message": "何もしない",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.label": {
+    "message": "列",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.number_of_columns.label": {
+    "message": "列数",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_columns.label": {
+    "message": "モバイルの列を調整",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_columns.inline_help_text": {
+    "message": "モバイルで異なる数の列を表示",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_uniform_display_options.mobile_number_of_columns.label": {
+    "message": "モバイルでの列数",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.label": {
+    "message": "縦横比",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "grid_settings.group_aspect_ratio.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_hover_message.default": {
+    "message": "<h3>ホバーメッセージのタイトル</h3><p>ここに、画像のホバーで表示するメッセージを入力します。</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_lightbox_message.default": {
+    "message": "<h3>Lightboxメッセージのタイトル</h3><p>ここに、画像のLightbox表示で表示するメッセージを入力します。</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "既定の画像の代替テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.grid_aria_label.default": {
+    "message": "{{ image_count }}件の画像を含む画像グリッド。",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_close_button.default": {
+    "message": "Lightboxを閉じる",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.lightbox_previous_button.default": {
+    "message": "前の画像",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.lightbox_next_button.default": {
+    "message": "次の画像",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.container.label": {
+    "message": "画像グリッド",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.container.spacing.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.label": {
+    "message": "グリッド画像",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.label": {
+    "message": "オーバーレイ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.background.color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.text.label": {
+    "message": "テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.label": {
+    "message": "ホバー",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.overlay.hover.font.label": {
+    "message": "文字色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_corner.label": {
+    "message": "角",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_corner.corner.label": {
+    "message": "半径",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_gap.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.grid_images.group_gap.gap.inline_help_text": {
+    "message": "画像間のスペースをカスタマイズします。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.label": {
+    "message": "Lightbox画像",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.label": {
+    "message": "縦横比",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.natural": {
+    "message": "自然の縦横比",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_aspect_ratio.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_images.group_corner.label": {
+    "message": "角の半径",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.label": {
+    "message": "Lightboxナビゲーションアイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.background_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.left_icon.label": {
+    "message": "左アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.right_icon.label": {
+    "message": "右アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.lightbox_navigation.fill_color.label": {
+    "message": "アイコンの色",
+    "description": "",
+    "placeholders": null
+  }
+}

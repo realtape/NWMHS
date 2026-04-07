@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Οριζόντια",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Κατακόρυφα",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Στα οριζόντια μενού τα στοιχεία εμφανίζονται πλάι το ένα στο άλλο, ενώ στα κατακόρυφα μενού εμφανίζονται από πάνω προς τα κάτω",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Προσανατολισμός",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Οι θυγατρικές επιλογές μενού θα εμφανίζονται όταν περνάτε τον δείκτη επάνω από τον γονέα. Αν δεν επιλεγεί, οι θυγατρικές επιλογές μενού θα εμφανίζονται πάντα",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Να ενεργοποιηθούν τα αναδυόμενα στοιχεία;",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Το δέντρο μενού είναι η δομή σελίδων που δημιουργεί τα στοιχεία επιλογών του μενού. Ένα μόνο δέντρο μενού μπορεί να χρησιμοποιηθεί με περισσότερα του ενός μενού. Μπορείτε να δημιουργήσετε πολλά μενού για σύνθετες δομές ιστότοπων. Η δημιουργία και διαχείριση των μενού γίνεται στις Ρυθμίσεις περιεχομένου σας",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Μενού",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Καθορίζει πόσοι κλάδοι του δέντρου μενού μπορούν να επεκταθούν στο μενού",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Μέγ. αρ. επιπέδων",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Μενού",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Μενού με αρθρωτή διαδρομή (χρησιμοποιεί οριζόντια ροή)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Δυναμικό ανά σελίδα - Να εμφανίζονται στο μενού σελίδες που σχετίζονται με τη σελίδα που προβάλλεται",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Στατικό - Πάντα να εμφανίζονται οι σελίδες ανωτάτου επιπέδου στο μενού",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Δυναμικό ανά ενότητα - Να εμφανίζονται στο μενού σελίδες που σχετίζονται με την ενότητα που προβάλλεται",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Τα εξελιγμένα μενού εμφανίζουν διαφορετικά τμήματα ενός δέντρου μενού, ανάλογα με το ποια σελίδα προβάλλεται.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Τύπος εξελιγμένου μενού",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  }
+}

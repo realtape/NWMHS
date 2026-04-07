@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "E-posadres",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefoonnommer",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Lêeraflaai",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Vergaderingskakel",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Een van jou blaaie",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Skakel na",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Vergaderingskakel",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Maak skakel oop in 'n nuwe oortjie",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Bladsy",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Inlyn-HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Knoppie-inhoud",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML wat binne die knoppie gelewer word. Jy kan slegs etikette gebruik wat geldig binne 'n <a>etiket is.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Klik hier",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Maak skakel oop in 'n nuwe oortjie",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Gevorderd",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Pasmaak-CSS-reëls",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Selekteerder",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Hierdie waarde is gekombineer met die selekteerder van die CTA. Byvoorbeeld: 'sweef' word ${ctaSelector}:sweef",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Styl",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Voeg pasmaak-CSS by jou stylreël. Byvoorbeeld: kantlyn-onderkant: 3px soliede #3e4d68; kleur: geel;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Pasmaak-CSS-klasse",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Voeg pasmaak-CSS-klasse by jou CTA-skakel.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Pasgemaakte-CSS-stylgids",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Voeg 'n pasmaak-CSS-stylblad by jou CTA.  Byvoorbeeld: raam-onderkant: 3 px soliede #3e4d68; kleur: geel;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Gebruik erfenisopslag",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Omvou HTML in erfenisopslag om bestaande CSS te steun",
+    "description": "",
+    "placeholders": null
+  }
+}

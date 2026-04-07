@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Gallery ng Larawan",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Caption",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Slide",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Buksan ang link sa bagong tab",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Ipakita ang caption",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "I-link ang URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Larawan",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Variable height",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Permanenteng taas",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Maghanap",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Variable height",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Ipakita ang mga button ng navigation",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Thumbnail na Navigation",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standard slider",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox gallery",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Maghanap",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Display mode",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "I-loop ang mga slide",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Maghanap",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Kitang-kitang mga caption sa itaas ng mga larawan",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Laging ilagay ang mga caption sa ibaba ng larawan",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Posisyon ng Caption",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Segundong oras sa pagitan ng awtomatikong pag-scroll",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "I-fade",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Slide",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Maghanap",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Mga transisyon ng slide",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Mga hanay para sa lightbox gallery",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Auto advance",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Hindi na ginagamit ang module na ito bilang pabor sa dalawang bago at pinahusay na module, ang Image Slider, at Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Matuto pa.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

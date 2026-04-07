@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Aquest pressupost ha caducat",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "El pressupost {{ personalization_token('quote.hs_quote_number', '') }} va caducar el {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Per obtenir-ne més informació, <a href='#'>posa't en contacte amb el teu representat de vendes</a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Freqüència de facturació",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Preu per unitat",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Preu",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Productes i serveis",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Quantitat",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Resum<br>executiu",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Termes i condicions",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Comentaris",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Acceptació<br>del projecte",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Subtítol",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "La nostra<br> història",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Ens encanta<br>el que fem",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Què opinen de nosaltres<br>els nostres clients",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Resum<br>del projecte",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Els nostres objectius",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Pla<br>de treball",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Estimació<br>del projecte",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "El<br>contracte",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Preparat per a ",
+    "description": "",
+    "placeholders": null
+  }
+}

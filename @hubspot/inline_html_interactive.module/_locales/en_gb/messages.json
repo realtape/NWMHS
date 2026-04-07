@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Email address",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Phone number",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "File download",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Meetings link",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "One of your pages",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Link to",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Meetings link",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Open link in new tab",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Page",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Inline HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Button content",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML that will be rendered within the button. You can only use tags that are valid within an <a> tag.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Click here",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Open link in new tab",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Advanced",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Custom CSS Rules",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Selector",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "This value is combined with the selector of the CTA. For example ':hover' becomes ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Add custom CSS for your style rule. For example: border-bottom: 3px solid #3e4d68; colour: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Custom CSS Classes",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Add custom CSS classes to your CTA link.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Custom CSS stylesheet",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Add a custom CSS stylesheet to your CTA.  For example: border-bottom: 3px solid #3e4d68; colour: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Use Legacy Markup",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Wrap HTML in legacy markup to support existing CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

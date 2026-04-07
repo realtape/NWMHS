@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Tiêu đề",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Đầu đề rõ ràng và in đậm",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Nội dung đầu đề",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Chọn mức đầu đề. H1 là lớn nhất, sau đó là H2, v.v.",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Chọn loại đầu đề",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Mức đầu đề",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Ẩn các công cụ điều khiển mức tiêu đề",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Việc ẩn các công cụ điều khiển mức tiêu đề sẽ ngăn việc thay đổi mức tiêu đề trong các công cụ nội dung",
+    "description": "",
+    "placeholders": null
+  }
+}

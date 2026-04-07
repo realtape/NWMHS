@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Công ty người gửi",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_image.inline_help_text": {
+    "message": "Nếu bạn chọn một hình ảnh, hình ảnh này sẽ được hiển thị dưới dạng logo công ty của bạn",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_image.label": {
+    "message": "Hình ảnh công ty người gửi",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_address.label": {
+    "message": "Địa chỉ công ty của người gửi",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_address.default": {
+    "message": "<span style='font-weight: bold;'>{{ personalization_token('template_data.quote.hs_sender_company_name', '') }}</span><br>{{ personalization_token('template_data.quote.hs_sender_company_address', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_address2', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_city', '')}}, {{ personalization_token('template_data.quote.hs_sender_company_state', '')}} {{ personalization_token('template_data.quote.hs_sender_company_zip', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_country', '') }}<br>",
+    "description": "",
+    "placeholders": null
+  }
+}

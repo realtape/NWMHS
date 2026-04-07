@@ -1,0 +1,10 @@
+[
+  {
+    "label": "Reference number",
+    "name": "reference",
+    "type": "richtext",
+    "required": false,
+    "locked": false,
+    "default": "Reference: {{ personalization_token('template_data.quote.hs_quote_number', '') }}"
+  }
+]

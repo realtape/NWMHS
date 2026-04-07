@@ -1,0 +1,242 @@
+{
+  "name": {
+    "message": "Tabbed card",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.label": {
+    "message": "Default na teksto",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.left_nudge_button_label.default": {
+    "message": "I-scroll ang mga tab pakaliwa",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.right_nudge_button_label.default": {
+    "message": "I-scroll ang mga tab pakaliwa",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tabs_list_aria_label.default": {
+    "message": "Listahan ng mga tab",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.color.label": {
+    "message": "Kulay",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.label": {
+    "message": "Background",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.border.label": {
+    "message": "Border",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.label": {
+    "message": "Border",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.label": {
+    "message": "Content",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.label": {
+    "message": "Agwat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.spacing.label": {
+    "message": "Agwat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Mga estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.color.label": {
+    "message": "Kulay",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.label": {
+    "message": "Background",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.label": {
+    "message": "Aktibo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.label": {
+    "message": "Teksto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_top_sides.label": {
+    "message": "Border ng taas/gilid",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_bottom.label": {
+    "message": "Ibabang border",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.color.label": {
+    "message": "Kulay",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.label": {
+    "message": "Background",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.label": {
+    "message": "Mag-hover",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.label": {
+    "message": "Teksto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_top_sides.label": {
+    "message": "Border ng taas/gilid",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_bottom.label": {
+    "message": "Ibabang border",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.color.label": {
+    "message": "Kulay",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.label": {
+    "message": "Background",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.label": {
+    "message": "Di-aktibo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.label": {
+    "message": "Teksto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_top_sides.label": {
+    "message": "Border ng taas/gilid",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_bottom.label": {
+    "message": "Ibabang border",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.label": {
+    "message": "Mga tab",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.label": {
+    "message": "Agwat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.spacing.label": {
+    "message": "Agwat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.label": {
+    "message": "Tabbed card",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.label": {
+    "message": "Agwat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.spacing.label": {
+    "message": "Agwat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.border.label": {
+    "message": "Border",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.default": {
+    "message": "<p>Ang mga tab ay isang epektibong paraan para ayusin ang impormasyon sa isang website page kapag may malaking content na kailangang paghiwalayin sa mga natatanging kategorya. Lagyan ng label ang iyong mga tab gamit ang isa o dalawang salita na naglalarawan sa bawat kategorya ng impormasyon.</p><p>Kapag inaayos ang mga tab mo, i-highlight ang piniling tab sa pamamagitan ng paglalagay ng kulay dito na iba mula sa mga hindi napiling mga tab, nang sa gayon maging madali para sa mga bisiti mo na mag-navigate.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.label": {
+    "message": "Content",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.label": {
+    "message": "Mga tab",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.default": {
+    "message": "Item ng tab",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.label": {
+    "message": "Label",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.label": {
+    "message": "Naka-fix na taas ng teksto",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.help_text": {
+    "message": "Itakda ang bawat content ng tab sa parehong taas",
+    "description": "",
+    "placeholders": null
+  }
+}

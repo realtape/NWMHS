@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertikal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Menu horizontal menampilkan item secara berdampingan, dan menu vertikal ditampilkan dari atas ke bawah",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientasi",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Item submenu akan ditampilkan saat Anda mengarahkan kursor ke induk. Jika tidak dicentang, item submenu akan selalu muncul",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Aktifkan flyout?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Pohon menu adalah struktur halaman yang membuat item dalam menu. Satu pohon menu dapat digunakan dengan beberapa menu. Anda dapat membuat beberapa menu untuk struktur situs web yang kompleks. Menu dibuat dan dikelola di Pengaturan Konten.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Menentukan jumlah subpohon menu yang dapat diperluas dalam menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Level maks.",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Menu jalur gaya breadcrumb (menggunakan alur horizontal)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinamis menurut halaman - Menampilkan halaman dalam menu yang terkait dengan halaman yang ditampilkan",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statis - Selalu menampilkan halaman level atas dalam menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinamis menurut bagian - Menampilkan halaman dalam menu yang terkait dengan bagian yang sedang ditampilkan",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Menu lanjutan menunjukkan bagian berbeda dari pohon menu berdasarkan halaman mana yang sedang ditampilkan.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Tipe menu lanjutan",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  }
+}

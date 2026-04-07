@@ -1,0 +1,337 @@
+{
+  "name": {
+    "message": "Eilutės elementai",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "pritaikius {{ discount_amount }} nuolaidą",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annually.default": {
+    "message": "Kasmet",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "dieną",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "dienų",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "sav.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "sav.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ sav.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 sav.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ mėnesį",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ ketvirtį",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 mėnesius",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 metus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 metus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ metus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first_payment_date.default": {
+    "message": "Pirmasis mokėjimas: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.for_months.default": {
+    "message": "už {{ line_item.hs_term_in_months }} mėnesius",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.for_years.default": {
+    "message": "Už {{ year }} {{ year_text }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_charges.default": {
+    "message": "Būsimi mokėjimai",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_items.default": {
+    "message": "Eilutės elementai",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "Kas savaitę",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "Už dvi savaites",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "mėn.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "Kasmėnesinė",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "mėn.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Vienkartinė",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment_due_date.default": {
+    "message": "Mokėjimo terminas: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment_start_date.default": {
+    "message": "Mokėjimų pradžia: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "Už šešis mėnesius",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "Už trejus metus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "Už dvejus metus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "Kas ketvirtį",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.relative_payment_due_date.default": {
+    "message": "Mokėjimo terminas: {{ billing_delay_period }} {{ billing_delay_unit }} po pradinio mokėjimo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.relative_payment_start_date.default": {
+    "message": "Mokėjimų pradžia: {{ billing_delay_period }} {{ billing_delay_unit }} po pradinio mokėjimo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.year.default": {
+    "message": "metus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.years.default": {
+    "message": "metus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "Už ketverius metus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "Už penkerius metus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 metus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 metus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_value.default": {
+    "message": "{{ percentage_amount }} %",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax.default": {
+    "message": "+{{ taxAmount }} {{line_item.hs_tax_label }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax_with_label.default": {
+    "message": "+{{ taxAmount }} {{ taxLabel }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax_without_label.default": {
+    "message": "+{{ taxAmount }} mokesčių",
+    "description": "",
+    "placeholders": null
+  },
+  "display_payment_starts.inline_help_text": {
+    "message": "Po kiekvienu eilutės elementu su būsima sąskaitos išrašymo data įtraukti tekstą „Mokėjimo pradžia“.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_payment_starts.label": {
+    "message": "Rodyti mokėjimo pradžios datą",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.amount": {
+    "message": "Iš viso",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.discount": {
+    "message": "Vieneto nuolaida",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.hs_recurring_billing_start_date": {
+    "message": "Pradžios data",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.hs_term_in_months": {
+    "message": "Terminas mėnesiais",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.item_description": {
+    "message": "Prekė ir aprašas",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.price": {
+    "message": "Vieneto kaina",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.quantity": {
+    "message": "Prekių kiekis",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.label": {
+    "message": "Papildomos produkto savybės",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.crm_product_property.label": {
+    "message": "CRM produkto savybė",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.label": {
+    "message": "Eilutės elemento stulpeliai",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.title.label": {
+    "message": "Pavadinimas",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.title.placeholder": {
+    "message": "Stulpelio aprašas",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.use_additional_product_property.inline_help_text": {
+    "message": "Leisti rinktis stulpelį iš papildomų produkto savybių",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.use_additional_product_property.label": {
+    "message": "Naudoti papildomą produkto savybę",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.background_color.label": {
+    "message": "Fono spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_later_text.default": {
+    "message": "Elementai, kurių terminas vėliau",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_later_text.label": {
+    "message": "Pranešimo apie vėlesnį terminą tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_now_text.default": {
+    "message": "Elementai, kurių terminas suėjęs",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_now_text.label": {
+    "message": "Pranešimo apie suėjusį mokėjimo terminą tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.font_style.label": {
+    "message": "Šrifto stilius",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.label": {
+    "message": "Eilutės elementų paantraštės",
+    "description": "",
+    "placeholders": null
+  }
+}

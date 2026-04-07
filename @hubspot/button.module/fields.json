@@ -1,0 +1,172 @@
+[
+  {
+    "label": " ",
+    "name": "link",
+    "id": "5b6d3945-6c99-0c6e-5fd1-9019b2ac9f65",
+    "type": "link",
+    "supported_types": [
+      "EXTERNAL",
+      "CONTENT",
+      "FILE",
+      "EMAIL_ADDRESS",
+      "BLOG",
+      "CALL_TO_ACTION",
+      "PAYMENT"
+    ],
+    "default": {
+      "url": {
+        "type": "EXTERNAL",
+        "href": "https://www.hubspot.com",
+        "content_id": null
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+    }
+  },
+  {
+    "label": "Button text",
+    "name": "button_text",
+    "id": "9c00985f-01db-ac5d-73f5-80ed6c0c7863",
+    "type": "text",
+    "required": true,
+    "validation_regex": "",
+    "default": "Add a button link here"
+  },
+  {
+    "label": "Style options",
+    "name": "style",
+    "id": "62e1bdd3-8b04-aaea-a8e0-12dd17918856",
+    "type": "group",
+    "children": [
+      {
+        "label": "Override default style",
+        "name": "override_default_style",
+        "id": "311e733d-c194-d925-af1d-a24e1fef7571",
+        "type": "boolean",
+        "required": true,
+        "default": false
+      },
+      {
+        "label": "Button font",
+        "name": "button_font",
+        "id": "2b9f9788-5eaf-d3ec-a441-efa1a7712c5f",
+        "type": "font",
+        "visibility": {
+          "controlling_field": "311e733d-c194-d925-af1d-a24e1fef7571",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL",
+          "access": null,
+          "hidden_subfields": null
+        },
+        "load_external_fonts": true,
+        "default": {
+          "color": "#FFFFFF",
+          "font_set": "DEFAULT",
+          "size_unit": "px"
+        }
+      },
+      {
+        "label": "Button color",
+        "name": "button_color",
+        "id": "f8d6eea6-b35a-aa5b-5f92-0ec6e563f0fa",
+        "type": "color",
+        "visibility": {
+          "controlling_field": "311e733d-c194-d925-af1d-a24e1fef7571",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL",
+          "access": null,
+          "hidden_subfields": null
+        },
+        "default": {
+          "color": "#000000",
+          "opacity": 100
+        }
+      },
+      {
+        "label": "Text hover color",
+        "name": "text_hover_color",
+        "id": "3489e8b6-5c97-975b-c0fc-bb585afe0486",
+        "type": "color",
+        "visibility": {
+          "controlling_field": "311e733d-c194-d925-af1d-a24e1fef7571",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL",
+          "access": null,
+          "hidden_subfields": null
+        },
+        "default": {
+          "color": "#000000",
+          "opacity": 100
+        }
+      },
+      {
+        "label": "Button hover color",
+        "name": "button_hover_color",
+        "id": "944c5c03-9a71-5921-3c1c-fa73d252d105",
+        "type": "color",
+        "visibility": {
+          "controlling_field": "311e733d-c194-d925-af1d-a24e1fef7571",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL",
+          "access": null,
+          "hidden_subfields": null
+        },
+        "default": {
+          "color": "#CCCCCC",
+          "opacity": 100
+        }
+      },
+      {
+        "label": "Vertical padding",
+        "name": "vertical_padding",
+        "type": "number",
+        "visibility": {
+          "controlling_field": "311e733d-c194-d925-af1d-a24e1fef7571",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL",
+          "access": null,
+          "hidden_subfields": null
+        },
+        "display": "text",
+        "max": 50,
+        "min": 0,
+        "step": 1
+      },
+      {
+        "label": "Horizontal padding",
+        "name": "horizontal_padding",
+        "type": "number",
+        "visibility": {
+          "controlling_field": "311e733d-c194-d925-af1d-a24e1fef7571",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL",
+          "access": null,
+          "hidden_subfields": null
+        },
+        "display": "text",
+        "max": 50,
+        "min": 0,
+        "step": 1
+      }
+    ],
+    "default": {
+      "override_default_style": false,
+      "button_font": {
+        "color": "#FFFFFF",
+        "size_unit": "px"
+      },
+      "button_color": {
+        "color": "#000000",
+        "opacity": 100
+      },
+      "text_hover_color": {
+        "color": "#000000",
+        "opacity": 100
+      },
+      "button_hover_color": {
+        "color": "#CCCCCC",
+        "opacity": 100
+      }
+    }
+  }
+]

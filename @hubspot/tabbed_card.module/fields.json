@@ -1,0 +1,661 @@
+[
+  {
+    "label": "Tabs",
+    "name": "tabs",
+    "type": "group",
+    "children": [
+      {
+        "label": "Label",
+        "name": "tab_label",
+        "type": "text",
+        "required": true,
+        "default": "Tab item"
+      },
+      {
+        "label": "Content",
+        "name": "content",
+        "type": "richtext",
+        "enabled_features": ["advanced_emphasis", "alignment", "block", "emoji", "font_family", "font_size", "image", "link", "lists", "standard_emphasis"],
+        "required": true,
+        "default": "<p>Tabs are an effective way to organize information on a website page when there is a large amount of content that needs to be separated into distinct categories. Label your tabs with one or two words that define each category of information.</p><p>When styling your tabs, highlight the selected tab by giving it a color that differs from your unselected tabs, so that it's easy for your visitors to navigate.</p>"
+      }
+    ],
+    "occurrence": {
+      "max": 6,
+      "min": 2,
+      "default": 2
+    },
+    "default": [
+      {
+        "tab_label": "Tab label",
+        "content": "<p>Tabs are an effective way to organize information on a website page when there is a large amount of content that needs to be separated into distinct categories. Label your tabs with one or two words that define each category of information.</p>"
+      },
+      {
+        "tab_label": "Tab label",
+        "content": "<p>When styling your tabs, highlight the selected tab by giving it a color that differs from your unselected tabs, so that it's easy for your visitors to navigate.</p>"
+      }
+    ]
+  },
+  {
+    "label": "Fixed text height",
+    "name": "fixed_height",
+    "type": "boolean",
+    "help_text": "Sets each tab's content to be the same height",
+    "display": "toggle",
+    "default": true
+  },
+  {
+    "label": "Default text",
+    "name": "default_text",
+    "type": "group",
+    "children": [
+      {
+        "label": "Tabs list aria label",
+        "name": "tabs_list_aria_label",
+        "type": "text",
+        "locked": true,
+        "default": "Tabs list"
+      },
+      {
+        "label": "Right nudge button label",
+        "name": "right_nudge_button_label",
+        "type": "text",
+        "locked": true,
+        "default": "Scroll tabs to the right"
+      },
+      {
+        "label": "Left nudge button label",
+        "name": "left_nudge_button_label",
+        "type": "text",
+        "locked": true,
+        "default": "Scroll tabs to the left"
+      }
+    ]
+  },
+  {
+    "label": "Styles",
+    "name": "styles",
+    "type": "group",
+    "tab": "STYLE",
+    "children": [
+      {
+        "label": "Tabs",
+        "name": "tabs",
+        "type": "group",
+        "children": [
+          {
+            "label": "Active",
+            "name": "active",
+            "type": "group",
+            "children": [
+              {
+                "label": "Text",
+                "name": "text",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "Font",
+                    "name": "font",
+                    "type": "font",
+                    "default": {
+                      "size_unit": "px"
+                    }
+                  }
+                ]
+              },
+              {
+                "label": "Background",
+                "name": "background",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "Color",
+                    "name": "color",
+                    "type": "color"
+                  }
+                ]
+              },
+              {
+                "label": "Top/sides border",
+                "name": "group_top_sides",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "",
+                    "name": "top_sides",
+                    "type": "border",
+                    "visibility": {
+                      "hidden_subfields": {
+                        "border_radius": true
+                      }
+                    },
+                    "default": {
+                      "top": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "bottom": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "left": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "right": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "label": "Bottom border",
+                "name": "group_bottom",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "",
+                    "name": "bottom",
+                    "type": "border",
+                    "visibility": {
+                      "hidden_subfields": {
+                        "border_radius": true
+                      }
+                    },
+                    "default": {
+                      "top": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#000000"
+                      },
+                      "bottom": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#000000"
+                      },
+                      "left": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#000000"
+                      },
+                      "right": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#000000"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Inactive",
+            "name": "inactive",
+            "type": "group",
+            "children": [
+              {
+                "label": "Text",
+                "name": "text",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "Font",
+                    "name": "font",
+                    "type": "font",
+                    "default": {
+                      "size_unit": "px"
+                    }
+                  }
+                ]
+              },
+              {
+                "label": "Background",
+                "name": "background",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "Color",
+                    "name": "color",
+                    "type": "color"
+                  }
+                ]
+              },
+              {
+                "label": "Top/sides border",
+                "name": "group_top_sides",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "",
+                    "name": "top_sides",
+                    "type": "border",
+                    "visibility": {
+                      "hidden_subfields": {
+                        "border_radius": true
+                      }
+                    },
+                    "default": {
+                      "top": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "bottom": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "left": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "right": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "label": "Bottom border",
+                "name": "group_bottom",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "",
+                    "name": "bottom",
+                    "type": "border",
+                    "visibility": {
+                      "hidden_subfields": {
+                        "border_radius": true
+                      }
+                    },
+                    "default": {
+                      "top": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "bottom": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "left": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "right": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Hover",
+            "name": "hover",
+            "type": "group",
+            "children": [
+              {
+                "label": "Text",
+                "name": "text",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "Font",
+                    "name": "font",
+                    "type": "font",
+                    "default": {
+                      "size_unit": "px"
+                    }
+                  }
+                ]
+              },
+              {
+                "label": "Background",
+                "name": "background",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "Color",
+                    "name": "color",
+                    "type": "color"
+                  }
+                ]
+              },
+              {
+                "label": "Top/sides border",
+                "name": "group_top_sides",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "",
+                    "name": "top_sides",
+                    "type": "border",
+                    "visibility": {
+                      "hidden_subfields": {
+                        "border_radius": true
+                      }
+                    },
+                    "default": {
+                      "top": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "bottom": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "left": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      },
+                      "right": {
+                        "width": {
+                          "value": 1,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#cccccc"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "label": "Bottom border",
+                "name": "group_bottom",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "",
+                    "name": "bottom",
+                    "type": "border",
+                    "visibility": {
+                      "hidden_subfields": {
+                        "border_radius": true
+                      }
+                    },
+                    "default": {
+                      "top": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#000000"
+                      },
+                      "bottom": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#000000"
+                      },
+                      "left": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#000000"
+                      },
+                      "right": {
+                        "width": {
+                          "value": 2,
+                          "units": "px"
+                        },
+                        "opacity": 100,
+                        "style": "solid",
+                        "color": "#000000"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "group",
+            "children": [
+              {
+                "label": "Spacing",
+                "name": "spacing",
+                "type": "spacing",
+                "visibility": {
+                  "hidden_subfields": {
+                    "margin": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Content",
+        "name": "content",
+        "type": "group",
+        "children": [
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "group",
+            "children": [
+              {
+                "label": "Spacing",
+                "name": "spacing",
+                "type": "spacing",
+                "visibility": {
+                  "hidden_subfields": {
+                    "margin": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "label": "Border",
+            "name": "border",
+            "type": "group",
+            "children": [
+              {
+                "label": "Border",
+                "name": "border",
+                "type": "border",
+                "default": {
+                  "top": {
+                    "width": {
+                      "value": 1,
+                      "units": "px"
+                    },
+                    "opacity": 100,
+                    "style": "solid",
+                    "color": "#cccccc"
+                  },
+                  "bottom": {
+                    "width": {
+                      "value": 1,
+                      "units": "px"
+                    },
+                    "opacity": 100,
+                    "style": "solid",
+                    "color": "#cccccc"
+                  },
+                  "left": {
+                    "width": {
+                      "value": 1,
+                      "units": "px"
+                    },
+                    "opacity": 100,
+                    "style": "solid",
+                    "color": "#cccccc"
+                  },
+                  "right": {
+                    "width": {
+                      "value": 1,
+                      "units": "px"
+                    },
+                    "opacity": 100,
+                    "style": "solid",
+                    "color": "#cccccc"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "label": "Background",
+            "name": "background",
+            "type": "group",
+            "children": [
+              {
+                "label": "Color",
+                "name": "color",
+                "type": "color"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Tabbed card",
+        "name": "tabbed_card",
+        "type": "group",
+        "children": [
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "group",
+            "children": [
+              {
+                "label": "Spacing",
+                "name": "spacing",
+                "type": "spacing",
+                "visibility": {
+                  "hidden_subfields": {
+                    "padding": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "label": "Border",
+            "name": "border",
+            "type": "group",
+            "children": [
+              {
+                "label": "",
+                "name": "border",
+                "type": "border"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

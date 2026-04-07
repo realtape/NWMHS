@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "الدفع الآن",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "نص زر الدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "تأكد من وضوح أنه بالنقر على هذا الزر سيسمح لعميلك بالدفع.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "كانت هناك مشكلة في إعداد الدفع. يرجى الاتصال بالشخص الذي أرسل لك عرض السعر هذا.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "رسالة الخطأ الخاصة بعملية الدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "أخبر عميلك بما يجب فعله عندما تكون هناك مشكلة في بدء عملية الدفع.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "اختر مستوى العنوان. المستوى H1 هو الأكبر، يليه H2، وهكذا",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "مستوى العنوان",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "الدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "محتوى العنوان",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "إجراء الدفعة الأولى:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "سيرى عميلك هذا في زر الدفع حتى يدفع القسط الأول.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "نص الزر لجداول الدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "الدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "لا يمكن السداد لأن عرض الأسعار لم يتم توقيعه بالكامل.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "نص التوضيح عند الحاجة إلى التوقيعات",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "إذا كانت التوقيعات مطلوبة قبل الدفع، فسيرى العميل هذه الرسالة حتى يتم إكمال جميع التوقيعات المطلوبة.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "المدفوع",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "نص المدفوع",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "تم الدفع في الساعة [[ paid_time ]] بتاريخ [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "معالجة الدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "نص معالجة الدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "حدثت مشكلة أثناء تحميل حالة الدفع لعرض السعر هذا. الرجاء محاولة تحديث الصفحة.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "رسالة الخطأ الخاصة بحالة الدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "اطلب من عميلك تحديث الصفحة عند فشل إحضار حالة الدفع.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "هذا عرض أسعار تجريبي، لذا لا يمكنه تحصيل مدفوعات حقيقية.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "يمكنك أن تقرر ما إذا كنت تريد جمع المدفوعات عند إنشاء عرض أسعار باستخدام هذا القالب.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "للسداد، يرجى التواصل مع الشخص الذي أرسل إليك عرض الأسعار هذا.",
+    "description": "",
+    "placeholders": null
+  }
+}

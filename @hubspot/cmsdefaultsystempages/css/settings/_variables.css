@@ -1,0 +1,65 @@
+:root {
+  /* Typography */
+  --body-font: 'Montserrat', sans-serif;
+  --body-font-color: #231f20;
+  --body-font-size: 1rem;
+  --body-font-weight: 400;
+  --heading-font: 'Source Serif Pro', serif;
+  --link-font-color: #425b76;
+  --link-hover-font-color: #567699;
+  --link-active-font-color: #33475c;
+
+  /* Spacing - vertical rhythm */
+  --standard-line-height: 1.5;
+  --standard-margin: 1.5rem;
+  --large-margin: 2rem;
+
+  /* Buttons */
+  --button-font: 'Montserrat', sans-serif;
+  --button-font-color: #fff;
+  --button-disabled-font-color: #b0c1d4;
+  --button-font-weight: 500;
+  --button-background-color: #425b76;
+  --button-disabled-background-color: #eaf0f6;
+  --button-hover-background-color: #567699;
+  --button-active-background-color: #33475c;
+  --button-padding: 0.5rem;
+  --button-width: 100%;
+  --secondary-button-font-color: #425b76;
+  --secondary-button-background-color: rgba(0, 0, 0, 0);
+  --secondary-button-border: 3px solid #425b76;
+  --secondary-button-hover-font-color: #567699;
+  --secondary-button-hover-background-color: rgba(0, 0, 0, 0);
+  --secondary-button-hover-border: 3px solid #567699;
+  --secondary-button-active-font-color: #33475c;
+  --secondary-button-active-background-color: rgba(0, 0, 0, 0);
+  --secondary-button-active-border: 3px solid #33475c;
+
+  /* Borders */
+  --border: 3px solid #f5f8fa;
+  --border-dark: 3px solid #cbd6e2;
+  --border-transparent: 3px solid transparent;
+
+  /* Forms */
+  --form-background-color: #f5f8fa;
+  --form-background-color-disabled: rgba(0,0,0,0.05);
+  --form-padding: 1.5rem;
+  --form-padding-desktop: 3rem;
+  --form-width: 100%;
+
+  /* Form labels */
+  --label-font-size: 1rem;
+  --label-font-weight: 400;
+  --label-margin-bottom: 0.5rem;
+
+  /* Form inputs */
+  --input-font-color: #231f20;
+  --input-background-color: #fff;
+  --input-border: 0;
+  --input-padding: 0.5rem 0.75rem;
+  --input-width: 100%;
+  --input-placeholder-color: #516f90;
+
+  /* Form radio/checkbox */
+  --input-radio-checkbox-selected-color: #00a4bd;
+}

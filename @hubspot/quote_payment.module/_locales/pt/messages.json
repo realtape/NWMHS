@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Pagar agora",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Texto do botão de pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Deixe claro que clicar neste botão permitirá ao seu cliente fazer o pagamento.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Ocorreu um problema ao configurar o checkout. Entre em contato com a pessoa que lhe enviou este orçamento.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Mensagem de erro no checkout",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Diga ao cliente o que fazer quando houver um problema para inicializar o checkout.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Escolha um nível de título. H1 é o maior, seguido por H2 e assim por diante",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Nível do título",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Conteúdo do cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Tornar primeiro pagamento:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "O seu cliente verá isso no botão de pagamento até pagar a primeira parcela.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Texto do botão para cronogramas de pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Não é possível fazer o pagamento porque o orçamento não está totalmente assinado.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Texto de explicação quando assinaturas são necessárias",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Se forem necessárias assinaturas antes do pagamento, seu cliente verá esta mensagem até que todas as assinaturas necessárias sejam fornecidas.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Pago",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Texto pago",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Pago às [[ paid_time ]] em [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Processo de pagamentos",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Texto de processamento de pagamentos",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Ocorreu um problema ao carregar o status de pagamento deste orçamento. Tente atualizar a página.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Mensagem de erro do status de pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Peça para o cliente atualizar a página quando ocorrer uma falha ao buscar o status do pagamento ",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Este é um orçamento de teste; ele não recolhe pagamentos reais.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Você pode decidir se deseja receber o pagamento ao criar um orçamento com este modelo.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Para finalizar a compra, entre em contato com a pessoa que enviou esse orçamento.",
+    "description": "",
+    "placeholders": null
+  }
+}

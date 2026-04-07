@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Pasiūlymo galiojimo laikas baigėsi",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Pasiūlymo {{ personalization_token('quote.hs_quote_number', '') }} galiojimo laikas baigėsi {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Norėdami gauti daugiau informacijos <a href='#'>susisiekite su savo pardavimo atstovu.</a> ",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Atsiskaitymo dažnumas",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Vieneto kaina",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Kaina",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Produktai ir paslaugos",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Kiekis",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "<br> Santrauka",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Sąlygos",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Komentarai",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Projekto<br>priėmimas",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Paantraštė",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Mūsų<br> istorija",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Viską darome<br>su dideliu atsidavimu",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Ką apie mus<br>sako mūsų klientai",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Projekto<br>santrauka",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Mūsų tikslai",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Darbo<br>ataskaita",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Projekto<br>sąmata",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>Sutartis",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Paruošta",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Adreça electrònica",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Número de telèfon",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Baixada de fitxers",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Enllaç de les reunions",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Una de les teves pàgines",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Enllaç a",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Enllaç de les reunions",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Obre l'enllaç en una pestanya nova",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Pàgina",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "HTML en línia",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Contingut del botó",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML que es representarà dins el botó. Només pots utilitzar etiquetes que siguin vàlides dins una etiqueta <a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Fes clic aquí",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Obre l'enllaç en una pestanya nova",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Avançat",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Regles de CSS personalitzat",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Selector",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Aquest valor es combina amb el selector de la crida a l'acció. Per exemple: ':hover' esdevé ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Estil",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Afegeix CSS personalitzat a la regla d'estil. Per exemple, vora inferior: 3px contínua #3e4d68; color: groc;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Classes de CSS personalitzades",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Afegeix classes de CSS personalitzades a l'enllaç de la crida a l'acció.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Full d'estil CSS personalitzat",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Afegeix un full d'estil CSS personalitzat a la CTA.  Per exemple: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Utilitza marques heretades",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Ajusta l'HTML amb etiquetes heretades per admetre el CSS existent",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "name": {
+    "message": "콘텐츠 라이브러리",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.label": {
+    "message": "리소스",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.label": {
+    "message": "이름",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.default": {
+    "message": "리소스 이름",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.label": {
+    "message": "설명",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.default": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.label": {
+    "message": "리소스 링크",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.inline_help_text": {
+    "message": "파일은 사용자가 리소스를 클릭하면 사용자의 데스크탑으로 다운로드됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.label": {
+    "message": "이미지",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.default": {
+    "message": "기본 이미지 목록에서 선택",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.custom": {
+    "message": "사용자 정의 이미지 사용",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.ebook": {
+    "message": "전자책",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.pdf-document": {
+    "message": "PDF 문서",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.infographic": {
+    "message": "인포그래픽",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.template": {
+    "message": "템플릿",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.guide": {
+    "message": "가이드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.course": {
+    "message": "코스",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.webinar": {
+    "message": "웨비나",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.data-sheet": {
+    "message": "데이터 시트",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.video": {
+    "message": "비디오",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.blog-post": {
+    "message": "블로그 게시물",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.whitepaper": {
+    "message": "백서",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.case-study": {
+    "message": "사례 연구",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.custom_image.label": {
+    "message": "사용자 정의 이미지",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.label": {
+    "message": "링크 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.default": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.title": {
+    "message": "전자책",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.title": {
+    "message": "PDF 문서",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.title": {
+    "message": "인포그래픽",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.title": {
+    "message": "템플릿",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.title": {
+    "message": "가이드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.title": {
+    "message": "코스",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.title": {
+    "message": "웨비나",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.title": {
+    "message": "데이터 시트",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.title": {
+    "message": "비디오",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.title": {
+    "message": "블로그 게시물",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.title": {
+    "message": "백서",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.title": {
+    "message": "사례 연구",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.description": {
+    "message": "공유되는 리소스에 대한 설명입니다. 간단하게 몇 문장이면 충분합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.link_text": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.download_aria_label_prefix.default": {
+    "message": "다운로드",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.content_aria_label_prefix.default": {
+    "message": "[[resource_name]] 콘텐츠 보기",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.external_aria_label_prefix.default": {
+    "message": "열기",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.new_tab_aria_label_suffix.default": {
+    "message": "새 탭에서",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "스타일",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.label": {
+    "message": "레이아웃",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.label": {
+    "message": "스타일",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.cards": {
+    "message": "카드",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.tiles": {
+    "message": "타일",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.minimal": {
+    "message": "최소",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "이름",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "설명",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font.label": {
+    "message": "글꼴",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "이미지",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.label": {
+    "message": "가로세로비",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.label": {
+    "message": "기본 색상",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.help_text": {
+    "message": "기본 그래픽의 색을 조정합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.label": {
+    "message": "보조 색상",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.help_text": {
+    "message": "기본 그래픽의 색을 조정합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.label": {
+    "message": "제3색",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.help_text": {
+    "message": "기본 그래픽의 색을 조정합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.label": {
+    "message": "링크",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.default_text_color.label": {
+    "message": "기본 텍스트 색",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.hover_text_color.label": {
+    "message": "호버 텍스트 색",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "추천으로 표시된 모든 리소스가 이 페이지에서 가장 먼저 표시됩니다.",
+    "description": "",
+    "placeholders": null
+  }
+}

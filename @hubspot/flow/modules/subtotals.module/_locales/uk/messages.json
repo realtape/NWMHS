@@ -1,0 +1,77 @@
+{
+  "name": {
+    "message": "Проміжні суми",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "після {{ discount_amount }} знижки",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annual.default": {
+    "message": "Щорічно",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.frequency_subtotal.default": {
+    "message": "проміжна сума {{ frequency_text }} ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "Щотижня",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "За два тижні",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "Щомісяця",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Одноразово",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "За пів року",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "За три роки",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "За два роки",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "За чотири роки",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "За п’ять років",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "Щокварталу",
+    "description": "",
+    "placeholders": null
+  },
+  "subtotal_title.default": {
+    "message": "Проміжні суми",
+    "description": "",
+    "placeholders": null
+  }
+}

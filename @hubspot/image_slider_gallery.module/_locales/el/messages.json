@@ -1,0 +1,467 @@
+{
+  "name": {
+    "message": "Ρυθμιστικό εικόνας",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Διαφάνεια",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Εικόνα",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "Για καλύτερα αποτελέσματα, προσθέστε εικόνες παρόμοιου σχήματος και μεγέθους.",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Λεζάντα",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL συνδέσμου",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.label": {
+    "message": "Ρυθμίσεις",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.label": {
+    "message": "Διαφάνειες",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.label": {
+    "message": "Διαφάνειες ανά σελίδα",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.inline_help_text": {
+    "message": "Οι λεζάντες και οι μικρογραφίες εξαφανίζονται όταν εμφανίζετε περισσότερες από 1 διαφάνειες ανά σελίδα.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.label": {
+    "message": "Μέγεθος εικόνας",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.inline_help_text": {
+    "message": "Για καλύτερα αποτελέσματα, προσθέστε εικόνες παρόμοιας αναλογίας διαστάσεων και μεγέθους.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.natural": {
+    "message": "Ανεβασμένη αναλογία διαστάσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.force_aspect_ratio": {
+    "message": "Εξαναγκασμός αναλογίας διαστάσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.label": {
+    "message": "Αναλογία διαστάσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.label": {
+    "message": "Εμφάνιση λεζάντων",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.inline_help_text": {
+    "message": "Όταν έχει επιλεγεί ο<strong>εξαναγκασμός αναλογίας διαστάσεων</strong>, οι λεζάντες επικαλύπτονται πάνω από τις εικόνες.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.label": {
+    "message": "Θέση λεζάντας",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.below": {
+    "message": "Τοποθετήστε λεζάντες κάτω από τις εικόνες",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.overlay": {
+    "message": "Τοποθετήστε λεζάντες επάνω από τις εικόνες",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.label": {
+    "message": "Μετακίνηση",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.label": {
+    "message": "Εναλλαγή διαφανειών",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.slide": {
+    "message": "Διαφάνεια",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.fade": {
+    "message": "Σταδιακή εμφάνιση",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.inline_help_text": {
+    "message": "Οι μεταβάσεις μπορεί να μην εμφανίζονται στο πρόγραμμα επεξεργασίας, αλλά θα είναι παρούσες σε μια προεπισκόπηση ή δημοσιευμένη σελίδα.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.loop_slides.label": {
+    "message": "Κυκλική αναπαραγωγή διαφανειών",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.label": {
+    "message": "Αυτόματη αναπαραγωγή",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.inline_help_text": {
+    "message": "Η αυτόματη αναπαραγωγή απαιτεί περισσότερες διαφάνειες από τη ρύθμιση διαφανειών ανά σελίδα για να λειτουργεί σωστά.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance_speed_seconds.label": {
+    "message": "Χρόνος σε δευτερόλεπτα μεταξύ αυτόματης κύλισης",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.label": {
+    "message": "Πλοήγηση",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_main_arrows.label": {
+    "message": "Εμφάνιση βελών πλοήγησης",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_thumbnails.label": {
+    "message": "Προβολή μικρογραφιών",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_dots.label": {
+    "message": "Προβολή πλοήγησης κουκκίδων",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_caption.default": {
+    "message": "Μια προαιρετική λεζάντα για την εικόνα που θα προστεθεί στη συλλογή. Καταχωρήστε οποιοδήποτε περιγραφικό κείμενο για αυτήν την εικόνα που θέλετε να μπορούν να διαβάζουν οι επισκέπτες.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_aria_label.default": {
+    "message": "Καρουσέλ εικόνας με {{ slide_count }} διαφάνειες.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.aria_label_thumbnails.default": {
+    "message": "Περιλαμβάνει περιήγηση με μικρογραφίες.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_nav_aria_label.default": {
+    "message": "Καρουσέλ πλοήγησης μικρογραφιών. Επιλέγοντας μια μικρογραφία θα αλλάξει το καρουσέλ.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.prev.default": {
+    "message": "Προηγούμενη διαφάνεια",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.next.default": {
+    "message": "Επόμενη διαφάνεια",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first.default": {
+    "message": "Μετάβαση στην πρώτη διαφάνεια",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideX.default": {
+    "message": "Μετάβαση στη διαφάνεια %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pageX.default": {
+    "message": "Μετάβαση στη σελίδα %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.play.default": {
+    "message": "Έναρξη αυτόματης αναπαραγωγής",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pause.default": {
+    "message": "Παύση αυτόματης αναπαραγωγής",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.carousel.default": {
+    "message": "καρουσέλ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.select.default": {
+    "message": "Επιλέξτε μια διαφάνεια για προβολή",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slide.default": {
+    "message": "διαφάνεια",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideLabel.default": {
+    "message": "%s από %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "Προεπιλεγμένο εναλλακτικό κείμενο εικόνας",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Στυλ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.label": {
+    "message": "Διαφάνειες",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.label": {
+    "message": "Εικόνες",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.corner.label": {
+    "message": "Ακτίνα γωνίας",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.label": {
+    "message": "Διάστημα μεταξύ εικόνων",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.inline_help_text": {
+    "message": "Προσαρμόστε το κενό μεταξύ των εικόνων σας όταν έχετε περισσότερες από 1 διαφάνειες ανά σελίδα.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.label": {
+    "message": "Υπότιτλοι",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.label": {
+    "message": "Φόντο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.spacing.label": {
+    "message": "Διάκενο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.background.label": {
+    "message": "Χρώμα",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.label": {
+    "message": "Κείμενο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.font.label": {
+    "message": "Γραμματοσειρά",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.label": {
+    "message": "Πλοήγηση",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.label": {
+    "message": "Βέλη Slider",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.background_color.label": {
+    "message": "Χρώμα φόντου",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.left_icon.label": {
+    "message": "Εικονίδιο αριστερά",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.right_icon.label": {
+    "message": "Εικονίδιο δεξιά",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.fill_color.label": {
+    "message": "Χρώμα εικονιδίου",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.label": {
+    "message": "Κουκκίδες και κουμπί αυτόματης αναπαραγωγής",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.color.label": {
+    "message": "Χρώμα",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.label": {
+    "message": "Πλοήγηση μικρογραφιών",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.arrow_background_color.label": {
+    "message": "Χρώμα φόντου βελών",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.left_icon.label": {
+    "message": "Εικονίδιο αριστερού βέλους",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.right_icon.label": {
+    "message": "Εικονίδιο δεξιού βέλους",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.fill_color.label": {
+    "message": "Χρώμα γεμίσματος εικονιδίου βελών",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.label": {
+    "message": "Εικόνες μικρογραφίας",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.label": {
+    "message": "Αναλογία διαστάσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.width.label": {
+    "message": "Πλάτος",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.radius.label": {
+    "message": "Ακτίνα καμπυλότητας",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.label": {
+    "message": "Slider",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.label": {
+    "message": "Διάκενο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.spacing.label": {
+    "message": "Διάκενο",
+    "description": "",
+    "placeholders": null
+  }
+}

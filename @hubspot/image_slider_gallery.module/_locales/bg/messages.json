@@ -1,0 +1,467 @@
+{
+  "name": {
+    "message": "Плъзгач на изображения",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "За най-добри резултати добавете изображения с подобна форма и размер.",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Надпис",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL адрес на връзка",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.label": {
+    "message": "Настройки",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.label": {
+    "message": "Слайдове",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.label": {
+    "message": "Слайдове на страница",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.inline_help_text": {
+    "message": "Надписите и миниатюрите изчезват, когато се показва повече от 1 слайд на страница.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.label": {
+    "message": "Оразмеряване на изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.inline_help_text": {
+    "message": "За най-добри резултати използвайте изображения с подобни пропорции и размери.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.natural": {
+    "message": "Пропорция на качено изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.force_aspect_ratio": {
+    "message": "Принудителна пропорция на изображение",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.label": {
+    "message": "Пропорция на изображението",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.label": {
+    "message": "Показване на надписи",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.inline_help_text": {
+    "message": "Когато е избрано <strong>Принудителна пропорция на изображение</strong>, надписите се наслагват върху изображенията.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.label": {
+    "message": "Позиция на надпис",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.below": {
+    "message": "Разполагане на надписите под изображенията",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.overlay": {
+    "message": "Наслагване на надписи върху изображения",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.label": {
+    "message": "Движение",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.label": {
+    "message": "Преходи на слайдове",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.slide": {
+    "message": "Слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.fade": {
+    "message": "Избледняване",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.inline_help_text": {
+    "message": "Преходите може да не се показват в редактора, но ще присъстват в предварителния преглед или публикуваната страница.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.loop_slides.label": {
+    "message": "Циклични слайдове",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.label": {
+    "message": "Автоматично възпроизвеждане",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.inline_help_text": {
+    "message": "Автоматичното възпроизвеждане изисква повече слайдове от настройката за слайдове на страница, за да работи правилно.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance_speed_seconds.label": {
+    "message": "Време в секунди между автоматично превъртане",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.label": {
+    "message": "Навигация",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_main_arrows.label": {
+    "message": "Показване на стрелки за навигация",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_thumbnails.label": {
+    "message": "Показване на миниатюри",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_dots.label": {
+    "message": "Показване на точка за навигация",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_caption.default": {
+    "message": "Опционален надпис за изображението, което ще бъде добавено към галерията. Въведете произволен описателен текст за това изображение, който искате посетителите да могат да прочетат.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_aria_label.default": {
+    "message": "Въртележка с изображения с {{ slide_count }} слайда.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.aria_label_thumbnails.default": {
+    "message": "Включва навигация на миниатюри.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_nav_aria_label.default": {
+    "message": "Навигация на въртележка с миниатюри. Ако изберете миниатюра, въртележката ще се промени.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.prev.default": {
+    "message": "Предишен слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.next.default": {
+    "message": "Следващ слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first.default": {
+    "message": "Към първия слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideX.default": {
+    "message": "Към слайд %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pageX.default": {
+    "message": "Към страница %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.play.default": {
+    "message": "Старт на автоматично възпроизвеждане",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pause.default": {
+    "message": "Пауза на автоматично възпроизвеждане",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.carousel.default": {
+    "message": "въртележка",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.select.default": {
+    "message": "Изберете слайд за показване",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slide.default": {
+    "message": "слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideLabel.default": {
+    "message": "%s от %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "Алтернативен текст за изображението по подразбиране",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Стилове",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.label": {
+    "message": "Слайдове",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.label": {
+    "message": "Изображения",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.corner.label": {
+    "message": "Радиус на ъгъл",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.label": {
+    "message": "Разстояние между изображенията",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.inline_help_text": {
+    "message": "Персонализирайте пространството между Вашите изображения, когато има повече от 1 слайд на страница.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.label": {
+    "message": "Надписи",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.spacing.label": {
+    "message": "Разредка",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.background.label": {
+    "message": "Цвят",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.label": {
+    "message": "Текст",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.font.label": {
+    "message": "Шрифт",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.label": {
+    "message": "Навигация",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.label": {
+    "message": "Стрелки за плъзгача",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.background_color.label": {
+    "message": "Цвят на фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.left_icon.label": {
+    "message": "Лява икона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.right_icon.label": {
+    "message": "Дясна икона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.fill_color.label": {
+    "message": "Цвят на икона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.label": {
+    "message": "Точки и бутон за автоматично възпроизвеждане",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.color.label": {
+    "message": "Цвят",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.label": {
+    "message": "Навигация в миниатюрите",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.arrow_background_color.label": {
+    "message": "Цвят на фон на стрелка",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.left_icon.label": {
+    "message": "Икона на стрелка наляво",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.right_icon.label": {
+    "message": "Икона на стрелка надясно",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.fill_color.label": {
+    "message": "Цвят на запълване на иконата на стрелката",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.label": {
+    "message": "Изображения на миниатюри",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.label": {
+    "message": "Пропорция на изображението",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.width.label": {
+    "message": "Ширина",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.radius.label": {
+    "message": "Радиус",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.label": {
+    "message": "Плъзгач",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.label": {
+    "message": "Разредка",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.spacing.label": {
+    "message": "Разредка",
+    "description": "",
+    "placeholders": null
+  }
+}

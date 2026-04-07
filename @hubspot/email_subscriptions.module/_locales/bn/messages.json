@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "সাবস্ক্রিপশনের পছন্দগুলি",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "পছন্দগুলির বাটনের টেক্সট আপডেট করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "ইমেল পছন্দগুলি আপডেট করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "যোগাযোগের পছন্দসমূহ",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "হেডার",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "সাবহেডার",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "যদি এটি আপনার ইমেল ঠিকানা না হয় তবে অনুগ্রহ করে এই পৃষ্ঠাটিকে উপেক্ষা করুন কারণ এই পৃষ্ঠার সাথে সম্পর্কিত ইমেলটি সম্ভবত আপনার কাছে ফরোয়ার্ড করা হয়েছিল।",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "হ্যাঁ, আমাকে পুনরায় সাবস্ক্রাইব করুন!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "পুনরায় সাব্স্ক্রাইব বাটন টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "সবকটি লেবেল আনসাবস্ক্রাইব করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "সমস্ত মেইলিং তালিকা থেকে আমাকে আনসাবস্ক্রাইব করুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "আপনি যে ধরনের ইমেলগুলি পেতে চান না তা আনচেক করুন:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "পছন্দ নির্বাচনে সহায়তা করার টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "বা কোনও ইমেল না পাওয়ার জন্য এখানে চেক করুন:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "সমস্ত সমর্থকারী টেক্সটকে আনসাবস্ক্রাইব করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "বর্তমানে সদস্য না থাকা ব্যবহারকারীর জন্য সমস্ত সহায়তা টেক্সটকে আনসাবস্ক্রাইব করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "আপনি বর্তমানে আমাদের সমস্ত ইমেল থেকে আনসাবস্ক্রাইব করেছেন। আপনি কি আবার আমাদের ইমেলগুলি পেতে চান?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "একক সাবস্ক্রিপশন বোতামের টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "আনসাবস্ক্রাইব করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "সিঙ্গেল সাবস্ক্রিপশন নিশ্চিতকরণ টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "আপনি কি এই বিষয়ে ইমেলের থেকে আনসাবক্রাইব করতে চান:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "একক সাবস্ক্রিপশন উদাহরণের নাম",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "আপনার নির্বাচিত সাবস্ক্রিপশনের ধরণ",
+    "description": "",
+    "placeholders": null
+  }
+}

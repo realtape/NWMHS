@@ -1,0 +1,185 @@
+[
+  {
+    "id": "c0659ae1-c6f6-be47-f874-aee733929395",
+    "name": "img",
+    "label": "Image",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "responsive": true,
+    "resizable": true,
+    "show_loading": true,
+    "type": "image",
+    "default": {
+      "src": "https://static.hubspot.com/final/img/content/email-template-images/placeholder_200x200.png",
+      "alt": "placeholder_200x200",
+      "loading": "disabled",
+      "size_type": "auto",
+      "width": 200,
+      "height": 200
+    }
+  },
+  {
+    "label": "Link to (Optional)",
+    "name": "link_to",
+    "type": "choice",
+    "choices": [
+      [
+        "close",
+        "Close call-to-action"
+      ],
+      [
+        "email_address",
+        "Email address"
+      ],
+      [
+        "file",
+        "File download"
+      ],
+      [
+        "meetings_link",
+        "Meetings link"
+      ],
+      [
+        "page",
+        "One of your pages"
+      ],
+      [
+        "url",
+        "URL"
+      ],
+      [
+        "cta",
+        "CTA"
+      ],
+      [
+        "tel",
+        "Phone number"
+      ]
+    ],
+    "display": "select",
+    "required": false,
+    "sortable": false,
+    "default": "url"
+  },
+  {
+    "label": "Link URL",
+    "name": "destination",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "url",
+      "operator": "EQUAL"
+    },
+    "placeholder": "http://",
+    "required": false,
+    "show_emoji_picker": false,
+    "sortable": false,
+    "validation_error_message": "Invalid external link."
+  },
+  {
+    "label": "Email address",
+    "name": "email_address",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "email_address",
+      "operator": "EQUAL"
+    },
+    "required": false,
+    "sortable": false,
+    "validation_regex": "(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])"
+  },
+  {
+    "label": "Phone number",
+    "name": "tel",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "tel",
+      "operator": "EQUAL"
+    },
+    "required": true,
+    "sortable": false,
+    "validation_regex": "^((?:[-.\\/() ]*)[+](?:[-\\d.\\/() ]*)\\d(?:[-\\d.\\/() ]*))?((?:[-\\d.\\/() ]*)\\d(?:[-\\d.\\/() ]*))([,;](?:[-\\d.\\/() ]*)\\d(?:[-\\d.\\/() ]*))?$"
+  },
+  {
+    "label": "File",
+    "name": "file",
+    "type": "file",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "file",
+      "operator": "EQUAL"
+    },
+    "picker": "file",
+    "required": false,
+    "sortable": false
+  },
+  {
+    "label": "Meetings link",
+    "name": "meeting_field",
+    "type": "meeting",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "meetings_link",
+      "operator": "EQUAL"
+    },
+    "required": false,
+    "sortable": false
+  },
+  {
+    "label": "Page",
+    "name": "page_field",
+    "type": "page",
+    "visibility": {
+      "controlling_field": "link_to",
+      "controlling_value_regex": "page",
+      "operator": "EQUAL"
+    },
+    "required": false,
+    "sortable": false
+  },
+  {
+    "default": {
+      "url": {
+        "content_id": null,
+        "href": "",
+        "type": "CALL_TO_ACTION"
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+    },
+    "display_width": null,
+    "id": "b2603ac3-f025-ce2f-2c6c-627018cc41bc",
+    "label": "CTA",
+    "locked": false,
+    "name": "cta_field",
+    "required": false,
+    "show_advanced_rel_options": false,
+    "supported_types": [
+      "CALL_TO_ACTION"
+    ],
+    "type": "link",
+    "visibility": {
+      "controlling_field_path": "link_to",
+      "controlling_value_regex": "cta",
+      "operator": "EQUAL"
+    }
+  },
+  {
+    "id": "4e826dd6-cf20-b308-cbb3-de456080195e",
+    "name": "target",
+    "label": "Open link in new tab",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "visibility": {
+      "controlling_field_path": "link_to",
+      "controlling_value_regex": "^(?!cta\\b|close\\b)",
+      "operator": "MATCHES_REGEX"
+    },
+    "type": "boolean",
+    "default": false
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Quote total text",
+    "name": "total_text",
+    "type": "text",
+    "required": false,
+    "locked": false,
+    "inline_help_text": "The text for the total quote amount",
+    "default": "Total"
+  },
+  {
+    "label": "Due now total text",
+    "name": "due_now_total_text",
+    "type": "text",
+    "required": false,
+    "locked": false,
+    "inline_help_text": "This label replaces \"Quote total text\" when there are payments due after checkout.",
+    "default": "Due now"
+  }
+]

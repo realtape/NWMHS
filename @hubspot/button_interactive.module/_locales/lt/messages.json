@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Mygtukas (interaktyvus)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "Nuorodos URL",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "El. pašto adresas",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Failas",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Užverti raginimą imtis veiksmų",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "El. pašto adresas",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefono numeris",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Atsisiųsti failą",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Susitikimų nuoroda",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Vienas iš jūsų puslapių",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Vienas iš jūsų tinklaraščio puslapių",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Susieti su ",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Susitikimų nuoroda",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Atidaryti nuorodą naujame skirtuke",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Puslapis",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Tinklaraštis",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Spustelėjo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Fonas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Kampas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Įterpti suapvalintą kampą į mygtuką",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Spindulys",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Fonas, kai užeinama su pele",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Rėmelis, kai užeinama su pele",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Laikyti virš",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Tekstas, kai užeinama su pele",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiliai",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Teksto užpildas",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Mygtuko nuorodą įtraukti čia",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Mygtuko tekstas",
+    "description": "",
+    "placeholders": null
+  }
+}

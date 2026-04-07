@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Логотип",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Логотип",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Максимальная высота логотипа",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Это не применяется при переопределении логотипа по умолчанию",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Можно изменить определенный для этого шаблона логотип, используя этот флажок.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Изменить логотип по умолчанию",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "По умолчанию в ваших ценовых предложениях будет отображаться логотип вашей компании из вашего Набора брендов в настройках по умолчанию учетной записи или настройках страницы сайта.",
+    "description": "",
+    "placeholders": null
+  }
+}

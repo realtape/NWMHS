@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "সাবস্ক্রিপশন নিশ্চিতকরণ বার্তা",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "আপনি আপনার ইমেল পছন্দগুলি সফলভাবে আপডেট করেছেন।",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "সাবস্ক্রিপশন আপডেটের বার্তা",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "সাবহেডার",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "যদি এটি আপনার ইমেল ঠিকানা না হয় তবে অনুগ্রহ করে এই পৃষ্ঠাটিকে উপেক্ষা করুন কারণ এই পৃষ্ঠার সাথে সম্পর্কিত ইমেলটি সম্ভবত আপনার কাছে ফরোয়ার্ড করা হয়েছিল।",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "আপনি সমস্ত ইমেল যোগাযোগ থেকে সফলভাবে আনসাবস্ক্রাইব হয়েছেন।",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "আনসাবস্ক্রাইব করার কারণে বার্তা",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "হেডারের টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "হেডার",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "পছন্দের বোতামের টেক্সট পরিচালনা করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "পছন্দগুলি পরিচালনা করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "পছন্দের ফেরত দেওয়ার দাবিত্যাগ পরিচালনা করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "কোনও ভুল করেছেন? চিন্তা করবেন না, আপনি আপনার পছন্দ পরিবর্তন করতে পারেন।",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "একক সাবস্ক্রিপশন আনসাবস্ক্রাইব সফল হওয়ার টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "আপনি সফলভাবে এখান থেকে আনসাবস্ক্রাইব করেছেন:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "সাবস্ক্রিপশন প্লেসহোল্ডার টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "আপনার নির্বাচিত সাবস্ক্রিপশনের ধরণ",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "হেডার হেডিং লেভেল",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "হেডিং 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "হেডিং 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "হেডিং 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "হেডিং 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "হেডিং 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "হেডিং 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "ইমেল হেডিং লেভেল",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "হেডিং 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "হেডিং 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "হেডিং 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "হেডিং 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "হেডিং 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "হেডিং 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "অনুচ্ছেদ",
+    "description": "",
+    "placeholders": null
+  }
+}

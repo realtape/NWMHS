@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "ตัวแบ่ง",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "การจัดแนว",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "ตรงกลาง",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "ซ้าย",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "ขวา",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "สี",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "ความสูง",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "ประเภทบรรทัด",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "เส้นประ",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "จุดไข่ปลา",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "เข้ม",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "ช่องว่างภายใน",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "สูงสุด 20 พิกเซล",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "แสดงช่องว่างภายในหรือไม่",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "ความกว้าง",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "เปอร์เซ็นต์พื้นที่ที่ตัวแบ่งทำการแบ่งไว้",
+    "description": "",
+    "placeholders": null
+  }
+}

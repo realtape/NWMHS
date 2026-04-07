@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Obsah blogu",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.post": {
+    "message": "Príspevok",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.listing": {
+    "message": "Záznam",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.label": {
+    "message": "Šablóna na úpravu",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_source.label": {
+    "message": "Zdroj blogového príspevku",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_listing_source.label": {
+    "message": "Zdroj blogového záznamu",
+    "description": "",
+    "placeholders": null
+  }
+}

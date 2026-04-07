@@ -1,0 +1,467 @@
+{
+  "name": {
+    "message": "Controle deslizante de imagens",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Slide",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Imagem",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "Para obter resultados melhores, adicione imagens de formatos e tamanhos semelhantes.",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Legenda",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL do link",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.label": {
+    "message": "Configurações",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.label": {
+    "message": "Slides",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.label": {
+    "message": "Slides por página",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.inline_help_text": {
+    "message": "Legendas e miniaturas desaparecem quando você exibe mais de 1 slide por página.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.label": {
+    "message": "Dimensionamento de imagens",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.inline_help_text": {
+    "message": "Para obter resultados melhores, use imagens com taxas de proporção e tamanho similares.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.natural": {
+    "message": "Taxa de proporção carregada",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.force_aspect_ratio": {
+    "message": "Forçar taxa de proporção",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.label": {
+    "message": "Proporção da imagem",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.label": {
+    "message": "Mostrar legenda",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.inline_help_text": {
+    "message": "Ao selecionar <strong>Forçar taxa de proporção</strong>, a legenda irá sobrepor as imagens.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.label": {
+    "message": "Posição da legenda",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.below": {
+    "message": "Posicionar legenda abaixo das imagens",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.overlay": {
+    "message": "Sobrepor legendas acima das imagens",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.label": {
+    "message": "Movimento",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.label": {
+    "message": "Transições de slides",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.slide": {
+    "message": "Slide",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.fade": {
+    "message": "Desvanecer",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.inline_help_text": {
+    "message": "As transições podem não aparecer no editor, mas estarão presentes em uma página visualizada ou publicada.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.loop_slides.label": {
+    "message": "Slides em loop",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.label": {
+    "message": "Reprodução automática",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.inline_help_text": {
+    "message": "A reprodução automática exige mais slides do que a configuração de slides por página para funcionar corretamente.",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance_speed_seconds.label": {
+    "message": "Tempo em segundos entre a rolagem automática",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.label": {
+    "message": "Navegação",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_main_arrows.label": {
+    "message": "Mostrar setas de navegação",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_thumbnails.label": {
+    "message": "Mostrar miniaturas",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_dots.label": {
+    "message": "Mostrar navegação por ponto",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_caption.default": {
+    "message": "Uma legenda opcional para a imagem que será adicionada à galeria. Adicione um texto descritivo a esta imagem que você gostaria que os visitantes lessem.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_aria_label.default": {
+    "message": "Carrossel de imagens com {{ slide_count }} slides.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.aria_label_thumbnails.default": {
+    "message": "Inclui navegação de miniaturas.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_nav_aria_label.default": {
+    "message": "Navegação de miniaturas de carrossel. Selecionar uma miniatura alterará o carrossel.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.prev.default": {
+    "message": "Slide anterior",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.next.default": {
+    "message": "Próximo slide",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first.default": {
+    "message": "Ir para primeiro slide",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideX.default": {
+    "message": "Ir para slide %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pageX.default": {
+    "message": "Ir para %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.play.default": {
+    "message": "Iniciar reprodução automática",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pause.default": {
+    "message": "Pausar reprodução automática",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.carousel.default": {
+    "message": "carrossel",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.select.default": {
+    "message": "Selecione um slide para mostrar",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slide.default": {
+    "message": "slide",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideLabel.default": {
+    "message": "%s de %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "Texto alternativo da imagem padrão",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estilos",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.label": {
+    "message": "Slides",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.label": {
+    "message": "Imagens",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.corner.label": {
+    "message": "Raio de canto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.label": {
+    "message": "Espaço entre imagens",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.inline_help_text": {
+    "message": "Personalize o espaço entre suas imagens quando tiver mais de 1 slide por página.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.label": {
+    "message": "Legendas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.label": {
+    "message": "Plano de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.background.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.label": {
+    "message": "Texto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.font.label": {
+    "message": "Fonte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.label": {
+    "message": "Navegação",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.label": {
+    "message": "Setas deslizantes",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.background_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.left_icon.label": {
+    "message": "Ícone para a esquerda",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.right_icon.label": {
+    "message": "Ícone para a direita",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.fill_color.label": {
+    "message": "Cor do ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.label": {
+    "message": "Pontos e botão de reprodução automática",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.label": {
+    "message": "Navegação de miniaturas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.arrow_background_color.label": {
+    "message": "Cor de fundo da seta",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.left_icon.label": {
+    "message": "Ícone de seta para a esquerda",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.right_icon.label": {
+    "message": "Ícone de seta para a direita",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.fill_color.label": {
+    "message": "Cor de preenchimento do ícone de seta",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.label": {
+    "message": "Imagens de miniatura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.label": {
+    "message": "Proporção da imagem",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.width.label": {
+    "message": "Largura",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.radius.label": {
+    "message": "Raio",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.label": {
+    "message": "Controle deslizante",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  }
+}

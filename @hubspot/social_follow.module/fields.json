@@ -1,0 +1,339 @@
+[
+  {
+    "label": "Social links",
+    "name": "group_social_links",
+    "type": "group",
+    "occurrence": {
+      "default": 4,
+      "min": 1
+    },
+    "children": [
+      {
+        "label": "Link",
+        "name": "link",
+        "type": "url",
+        "supported_types": ["EXTERNAL", "EMAIL_ADDRESS"]
+      },
+      {
+        "label": "Open link in new window",
+        "name": "open_in_new_window",
+        "type": "boolean",
+        "display": "checkbox",
+        "default": true
+      },
+      {
+        "label": "This link is a podcast",
+        "name": "is_podcast",
+        "type": "boolean",
+        "display": "checkbox",
+        "inline_help_text": "Check this box to display a &ldquo;podcast&rdquo; icon instead of a default or custom icon.",
+        "default": false
+      },
+      {
+        "label": "Customize alt-text",
+        "name": "customize_alt_text",
+        "type": "boolean",
+        "display": "checkbox",
+        "inline_help_text": "Alt-text is auto-populated, but can be overridden here.",
+        "default": false
+      },
+      {
+        "label": "Aria label",
+        "name": "aria_label",
+        "type": "text",
+        "help_text": "A description of what this icon represents e.g. (Follow us on Facebook). This is used by screen readers to describe the icon to users who are visually impaired.",
+        "visibility": {
+          "controlling_field": "group_social_links.customize_alt_text",
+          "controlling_value_regex": "true",
+          "operator": "EQUAL"
+        }
+      },
+      {
+        "label": "Customize icon",
+        "name": "customize_icon",
+        "type": "boolean",
+        "visibility": {
+          "controlling_field": "group_social_links.is_podcast",
+          "controlling_value_regex": "false",
+          "operator": "EQUAL"
+        },
+        "display": "checkbox",
+        "inline_help_text": "Icons are auto-populated, but can be overridden here.",
+        "default": false
+      },
+      {
+        "label": "Custom icon",
+        "name": "custom_icon",
+        "type": "icon",
+        "visibility_rules": "ADVANCED",
+        "advanced_visibility": {
+          "boolean_operator": "AND",
+          "criteria": [
+            {
+              "controlling_field_path": "group_social_links.customize_icon",
+              "controlling_value_regex": "true",
+              "operator": "EQUAL"
+            },
+            {
+              "controlling_field_path": "group_social_links.is_podcast",
+              "controlling_value_regex": "false",
+              "operator": "EQUAL"
+            }
+          ]
+        },
+        "icon_set": "fontawesome-6.4.2"
+      }
+    ],
+    "default": [
+      {
+        "link": {
+          "href": "https://www.facebook.com"
+        },
+        "open_in_new_window": true,
+        "aria_label": "Follow us on Facebook"
+      },
+      {
+        "link": {
+          "href": "https://www.twitter.com"
+        },
+        "open_in_new_window": true,
+        "aria_label": "Follow us on Twitter"
+      },
+      {
+        "link": {
+          "href": "https://www.instagram.com"
+        },
+        "open_in_new_window": true,
+        "aria_label": "Follow us on Instagram"
+      },
+      {
+        "link": {
+          "href": "https://podcasts.apple.com"
+        },
+        "open_in_new_window": true,
+        "is_podcast": true,
+        "aria_label": "Listen to our Podcasts"
+      },
+      {
+        "link": {
+          "href": "email@email.com",
+          "type": "EMAIL_ADDRESS"
+        },
+        "open_in_new_window": true,
+        "aria_label": "Email us"
+      }
+    ]
+  },
+  {
+    "label": "Default text",
+    "name": "default_text",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Facebook link aria label",
+        "name": "facebook_link_aria_label",
+        "type": "text",
+        "default": "Follow us on Facebook"
+      },
+      {
+        "label": "X link aria label",
+        "name": "twitter_link_aria_label",
+        "type": "text",
+        "default": "Follow us on X"
+      },
+      {
+        "label": "YouTube link aria label",
+        "name": "youtube_link_aria_label",
+        "type": "text",
+        "default": "Subscribe to us on YouTube"
+      },
+      {
+        "label": "LinkedIn link aria label",
+        "name": "linkedin_link_aria_label",
+        "type": "text",
+        "default": "Follow us on LinkedIn"
+      },
+      {
+        "label": "Instagram link aria label",
+        "name": "instagram_link_aria_label",
+        "type": "text",
+        "default": "Follow us on Instagram"
+      },
+      {
+        "label": "Pinterest link aria label",
+        "name": "pinterest_link_aria_label",
+        "type": "text",
+        "default": "Follow us on Pinterest"
+      },
+      {
+        "label": "Website link aria label",
+        "name": "website_link_aria_label",
+        "type": "text",
+        "default": "Visit our website"
+      },
+      {
+        "label": "Spotify link aria label",
+        "name": "spotify_link_aria_label",
+        "type": "text",
+        "default": "Listen to us on Spotify"
+      },
+      {
+        "label": "Yelp link aria label",
+        "name": "yelp_link_aria_label",
+        "type": "text",
+        "default": "Read our reviews on Yelp"
+      },
+      {
+        "label": "SoundCloud link aria label",
+        "name": "soundcloud_link_aria_label",
+        "type": "text",
+        "default": "Listen to us on SoundCloud"
+      },
+      {
+        "label": "TikTok link aria label",
+        "name": "tiktok_link_aria_label",
+        "type": "text",
+        "default": "Follow us on TikTok"
+      },
+      {
+        "label": "GitHub link aria label",
+        "name": "github_link_aria_label",
+        "type": "text",
+        "default": "Follow us on GitHub"
+      },
+      {
+        "label": "Podcast link aria label",
+        "name": "podcast_link_aria_label",
+        "type": "text",
+        "default": "Listen to our Podcast"
+      },
+      {
+        "label": "Email link aria label",
+        "name": "email_link_aria_label",
+        "type": "text",
+        "default": "Email us"
+      }
+    ]
+  },
+  {
+    "label": "Styles",
+    "name": "styles",
+    "type": "group",
+    "tab": "STYLE",
+    "children": [
+      {
+        "label": "Icon",
+        "name": "group_icon",
+        "type": "group",
+        "children": [
+          {
+            "label": "Size",
+            "name": "icon_size",
+            "type": "choice",
+            "choices": [
+              ["size-small", "small"],
+              ["size-regular", "medium"],
+              ["size-large", "large"]
+            ],
+            "display": "buttons",
+            "multiple": false,
+            "preset": "social_icon_size",
+            "required": true,
+            "default": "size-regular"
+          },
+          {
+            "label": "Color",
+            "name": "color",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#000000"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Background",
+        "name": "group_background",
+        "type": "group",
+        "children": [
+          {
+            "label": "Shape",
+            "name": "shape",
+            "type": "choice",
+            "choices": [
+              ["none", "none"],
+              ["square", "square"],
+              ["rounded", "rounded"],
+              ["circle", "circle"]
+            ],
+            "display": "buttons",
+            "multiple": false,
+            "preset": "social_icon_background_shape",
+            "required": true,
+            "default": "none"
+          },
+          {
+            "label": "Color",
+            "name": "color",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              },
+              "controlling_field_path": "styles.group_background.shape",
+              "operator": "NOT_EQUAL",
+              "controlling_value_regex": "none"
+            },
+            "default": {
+              "color": "#EEEEEE"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Layout",
+        "name": "group_alignment",
+        "type": "group",
+        "children": [
+          {
+            "label": "Alignment",
+            "name": "alignment",
+            "type": "alignment",
+            "alignment_direction": "HORIZONTAL",
+            "default": {
+              "horizontal_align": "CENTER"
+            }
+          },
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "spacing",
+            "visibility": {
+              "hidden_subfields": {
+                "padding": true
+              }
+            },
+            "limits": {
+              "margin": {
+                "top": {
+                  "min": 0,
+                  "units": ["px"]
+                },
+                "bottom": {
+                  "min": 0,
+                  "units": ["px"]
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

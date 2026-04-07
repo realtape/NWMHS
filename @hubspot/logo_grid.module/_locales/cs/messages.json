@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Mřížka loga",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Loga",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Styly",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Obrázek loga",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Maximální výška loga",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Nastaví maximální výšku log.<br><br>Nastavení maximální výšky log je nejvhodnější, pokud chcete použít několik log, která se výrazně liší velikostí, a chcete, aby vypadala stejně velká.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Pozadí",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Poměr stran",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Nastavte poměr stran kontejneru loga. Toto nastavení je nejužitečnější, pokud používáte pole v barvě pozadí a loga, jejichž rozměry se výrazně liší.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1 : 1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4 : 3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16 : 9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Barva pozadí",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Rozestupy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Rozestupy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Nastavte odsazení loga.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Vzhledem k responzivní povaze webu může být renderovaná výška log menší než nastavená hodnota. Záleží na kombinaci velikosti obrazovky, původní velikosti obrázku, odsazení loga, mezery mřížky a počtu sloupců.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Mřížka loga",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Počet sloupců v mřížce",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Nastavte počet sloupců v mřížce na počítači. U mobilních zařízení je ve výchozím nastavení zvolen počet 1.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Nastavení barvy pozadí v oddílu <strong>Obrázek loga > Pozadí</strong> vám může pomoct zobrazit mřížku loga.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Mezera mřížky",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Nastavte mezeru mezi položkami v mřížce.<br><br>Nastavení pozadí v oddílu <strong>Obrázek loga > Pozadí</strong> vám může pomoct zobrazit mřížku loga.",
+    "description": "",
+    "placeholders": null
+  }
+}

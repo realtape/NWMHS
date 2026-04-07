@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Vaakasuuntainen",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Pystysuuntainen",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Vaakasuuntaisissa valikoissa kohteet näkyvät vierekkäin ja pystysuuntaisissa valikoissa allekkain",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Suunta",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Hae",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Alivalikkokohteet tulevat näkyviin, kun liikut päävalikon valinta-alueen yllä. Jos valintaruutu ei ole valittuna, alivalikkokohteet tulevat aina näkyviin.",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Haluatko ottaa pikaikkunat käyttöön?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Valikkopuu toimii sivustorakenteena, jolla luodaan valikkokohteita. Yhtä valikkopuuta voi käyttää useilla valikoilla. Voit luoda useita valikoita monimutkaisille verkkosivustorakenteille. Valikoita voi luoda ja hallita kohdassa Sisältöasetukset.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Valikko",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Määrittää alivalikkopuut, joita valikossa voidaan laajentaa",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Enimmäistasot",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Hae",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Valikko",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Navigointityylin polkuvalikko (käyttää vaakasuuntaista kulkua)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dynaaminen ja sivukohtainen –  valikossa näkyy sivuja, jotka liittyvät parhaillaan katsottavaan sivuun",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Staattinen – valikossa näkyy aina korkeimman tason sivustoja",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dynaaminen ja osiokohtainen – valikossa näkyy sivustoja, jotka liittyvät osioon, jota parhaillaan katsotaan",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Edistyneissä valikoissa näkyy erilaisia osia valikkopuusta sen mukaan, mitä sivua katsellaan.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Edistynyt valikkotyyppi",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Hae",
+    "description": "",
+    "placeholders": null
+  }
+}

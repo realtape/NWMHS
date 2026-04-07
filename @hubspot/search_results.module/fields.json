@@ -1,0 +1,34 @@
+[
+  {
+    "label": "Display featured images",
+    "name": "display_featured_images",
+    "type": "boolean",
+    "default": false
+  },
+  {
+    "label": "Default text",
+    "name": "group_default_text",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "No results message",
+        "name": "no_results_message",
+        "type": "richtext",
+        "default": "<p>Sorry. There were no results for [[search_term]].</p><p>Try rewording your query, or browse through our site.</p>"
+      },
+      {
+        "label": "Previous page link text",
+        "name": "previous_page_link_text",
+        "type": "text",
+        "default": "Previous page"
+      },
+      {
+        "label": "Next page link text",
+        "name": "next_page_link_text",
+        "type": "text",
+        "default": "Next page"
+      }
+    ]
+  }
+]

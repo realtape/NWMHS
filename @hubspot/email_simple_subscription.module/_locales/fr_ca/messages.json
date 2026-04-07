@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Se désabonner des sauvegardes",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texte du bouton",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Se désabonner",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Se désabonner des courriels",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Titre",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Texte de remplacement pour les entrées de courriel",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "courriel@exemple.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Votre adresse courriel :",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Aide à la saisie des courriels",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Message d'erreur",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Un problème est survenu lors du chargement de la page. Essayez d'utiliser le lien d'un courriel plus récent ou contactez l'entreprise pour mettre à jour vos préférences d'abonnement.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Sous-titre",
+    "description": "",
+    "placeholders": null
+  }
+}

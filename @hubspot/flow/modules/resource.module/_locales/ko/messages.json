@@ -1,0 +1,32 @@
+{
+  "name": {
+    "message": "리소스",
+    "description": "",
+    "placeholders": null
+  },
+  "resource.label": {
+    "message": "리소스 단위",
+    "description": "",
+    "placeholders": null
+  },
+  "resource.resource_description.label": {
+    "message": "설명",
+    "description": "",
+    "placeholders": null
+  },
+  "resource.resource_description.default": {
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit faucibus pellentesque justo.",
+    "description": "",
+    "placeholders": null
+  },
+  "resource.resource_icon.default.alt": {
+    "message": "리소스 아이콘",
+    "description": "",
+    "placeholders": null
+  },
+  "resource.resource_icon.label": {
+    "message": "아이콘",
+    "description": "",
+    "placeholders": null
+  }
+}

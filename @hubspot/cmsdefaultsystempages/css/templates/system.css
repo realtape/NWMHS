@@ -1,0 +1,292 @@
+/* Some of the HubL tags used for system templates have different structure/HTML markup so this file is used to override some of the base styles to achieve our desired design */
+
+/***** EMAIL BACKUP UNSUBSCRIBE *****/
+
+/* Treats this h3 like a label */
+.form-wrapper--backup-unsubscribe h3 {
+  margin: 0 0 var(--label-margin-bottom);
+  font-family: var(--body-font);
+  font-size: var(--label-font-size);
+  font-weight: var(--label-font-weight) !important;
+  line-height: var(--standard-font-size);
+}
+
+/***** EMAIL SUBSCRIPTION CONFIRMATION *****/
+
+/* Removes spacing on blank h1 */
+.email-subscription-confirmation .page-header h1 {
+  margin: 0;
+}
+
+.email-subscription-confirmation .page-header p {
+  margin: 0;
+  font-family: var(--heading-font);
+  font-size: 2.5rem;
+}
+
+/* Styles for unsubscribe survey */
+#hs-subscriptions-unsubscribe-survey {
+  margin-block-start: var(--standard-margin);
+  text-align: left;
+}
+
+#hs-subscriptions-unsubscribe-survey #hs-subscriptions-unsubscribe-survey-legend {
+  margin-bottom: 1.25rem;
+}
+
+#hs-subscriptions-unsubscribe-survey #hs-subscriptions-unsubscribe-survey-options {
+  margin-bottom: 0.5rem;
+}
+
+#hs-subscriptions-unsubscribe-survey-options > div {
+  display: flex;
+  margin-bottom: 0.75rem;
+  align-items: center;
+}
+
+#hs-subscriptions-unsubscribe-survey-options label {
+  align-items: center;
+  margin-bottom: 0;
+}
+
+#hs-subscriptions-unsubscribe-survey-options input[type='radio'] {
+  flex-shrink: 0;
+}
+
+/***** EMAIL SUBSCRIPTION PREFERENCES *****/
+
+.subscription-preferences-heading h1 {
+  margin: 0;
+}
+
+/* Allows for email to show above the form without form styles */
+.form-wrapper--subscription-preferences form {
+  padding: 0;
+  margin-bottom: 1rem;
+  background: none;
+}
+
+/* Removes spacing on blank h1 */
+.form-wrapper--subscription-preferences .page-header h1 {
+  margin: 0;
+}
+
+.form-wrapper--subscription-preferences .page-header p {
+  margin: 0;
+  font-family: var(--heading-font);
+  font-size: 2rem;
+}
+
+/* Styles for the language select */
+
+label[for="hs-localization-select"] {
+  display: block;
+  margin-top: 1rem;
+}
+
+.form-wrapper .localization-language {
+  width: auto;
+  margin-top: 1rem;
+}
+
+label[for="hs-localization-select"] + .localization-language {
+  margin-top: 0;
+}
+
+/* Styling to appear as form */
+.form-wrapper--subscription-preferences form .email-prefs {
+  width: var(--form-width);
+  padding: var(--form-padding);
+  background-color: var(--form-background-color);
+}
+
+@media(min-width: 768px) {
+  .form-wrapper--subscription-preferences form .email-prefs {
+    padding: var(--form-padding-desktop);
+  }
+}
+
+.form-wrapper--subscription-preferences .email-prefs .header {
+  margin: 0;
+}
+
+.form-wrapper--subscription-preferences form .fakelabel {
+  display: inline-block;
+  padding-left: 2.25rem;
+  text-indent: -2.25rem;
+}
+
+.form-wrapper--subscription-preferences .item {
+  margin: 1rem 0;
+}
+
+.form-wrapper--subscription-preferences .item p {
+  margin: 0.5rem 0 0.5rem 2.25rem;
+  font-size: 0.875rem;
+}
+
+.form-wrapper--subscription-preferences .subscribe-options {
+  padding-top: 1.5rem;
+  border-top: 1px solid #cbd6e2;
+  margin: var(--standard-margin) 0;
+}
+
+.form-wrapper--subscription-preferences .subscribe-options p {
+  margin: 0;
+}
+
+.form-wrapper--subscription-preferences .subscribe-options label {
+  font-size: 1rem;
+}
+
+.subscription-preferences-footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.subscription-preferences-footer span p {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.125;
+  text-align: center;
+}
+
+/* Styles for resubscribe content on subscription preferences form */
+
+.form-wrapper--subscription-preferences #globalresub-container .header {
+  margin-bottom: 1rem;
+}
+
+.form-wrapper--subscription-preferences .subscribe-options label[for="globalresub2"] {
+  margin-bottom: 0;
+}
+
+.form-wrapper--subscription-preferences .subscribe-options #globalresub2 {
+  margin-bottom: var(--standard-margin);
+}
+
+/* Styling for data buttons */
+
+.hs-delete-data__button,
+.hs-download-data__button {
+  width: auto;
+  min-width: 45%;
+  border: var(--secondary-button-border);
+  background: var(--secondary-button-background-color);
+  color: var(--secondary-button-font-color);
+}
+
+.hs-delete-data__button:hover,
+.hs-delete-data__button:focus,
+.hs-download-data__button:hover,
+.hs-download-data__button:focus {
+  border: var(--secondary-button-hover-border);
+  background: var(--secondary-button-hover-background-color);
+  color: var(--secondary-button-hover-font-color);
+}
+
+.hs-delete-data__button:active,
+.hs-download-data__button:active, {
+  border: var(--secondary-button-active-border);
+  background: var(--secondary-button-active-background-color);
+  color: var(--secondary-button-active-font-color);
+}
+
+/***** PASSWORD PROMPT *****/
+
+/* Wraps additional elements to appear as if it were a form */
+.password-prompt-wrapper {
+  width: var(--form-width);
+  padding: var(--form-padding);
+  background-color: var(--form-background-color);
+}
+
+@media(min-width: 768px) {
+  .password-prompt-wrapper {
+    padding: var(--form-padding-desktop);
+  }
+}
+
+/* Remove form styling from actual form */
+.form-wrapper--password-prompt form {
+  padding: 0;
+  background: none;
+}
+
+/* Applies base label styles */
+.password-prompt-wrapper label {
+  display: block;
+  margin: 0 0 var(--label-margin-bottom);
+  font-size: var(--label-font-size);
+  font-weight: var(--label-font-weight);
+}
+
+/* Overrides inline styles on input */
+.form-wrapper--password-prompt input[type='password'] {
+  height: auto !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: var(--standard-margin);
+}
+
+/***** SEARCH RESULTS *****/
+
+.search-results__page-count {
+  margin: 1rem 0 var(--standard-margin);
+  line-height: var(--standard-line-height);
+}
+
+.hs-search-results {
+  height: 400px;
+  padding: 70px 0;
+}
+
+.hs-search__no-results {
+  display: none;
+}
+
+.hs-search-results__title {
+  color: #5386bd;
+  font-size: 1.5rem;
+}
+
+.hs-search-results__description {
+  margin: 1rem 0;
+  line-height: 2;
+}
+
+/* Removes default form styles */
+.form-wrapper--search-input form {
+  background: none;
+  padding: 0;
+  width: auto;
+}
+
+/* Adds search icon on field */
+.form-wrapper--search-input .hs-search-field__input {
+  background: url({{ get_asset_url('../../img/search.svg') }}), #f5f8fa;
+  background-position: calc(100% - 16px) 50%;
+  background-repeat: no-repeat;
+  border: 1px solid #cbd6e2;
+  width: 450px;
+}
+
+/* Styles search input button which is only present on the v1 of the search input module */
+.form-wrapper--search-input .hs-search-field__form .hs-search-field__input {
+  background: #f5f8fa;
+}
+
+.form-wrapper--search-input .hs-search-field__button {
+  background: var(--button-background-color);
+  border: 0;
+  border-radius: 0;
+  padding: 0 1rem;
+}
+
+.form-wrapper--search-input .hs-search-field__button:hover {
+  cursor: pointer;
+}
+
+.form-wrapper--search-input .hs-search-field__button svg {
+  fill: var(--button-font-color);
+  height: 12px;
+}

@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Image Gallery",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Caption",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Slide",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Open link in new tab",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Show caption",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Link URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Variable height",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Fixed height",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Variable height",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Show navigation buttons",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Thumbnail navigation",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standard slider",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox gallery",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Display mode",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Loop slides",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Superimpose captions on top of images",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Always keep captions below the image",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Caption position",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Time in seconds between auto-scrolling",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Fade",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Slide",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Slide transitions",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rows for lightbox gallery",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Auto-advance",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "This module has been deprecated in favour of two new and improved modules, Image Slider and Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Learn more.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

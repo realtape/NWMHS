@@ -1,0 +1,227 @@
+{
+  "inline_help_text": {
+    "message": "Voeg skakels by op jou sosialemediaprofiele. Sleep en los om te herrangskik. Ikone word outomaties gepopuleer gebaseer op URL, maar dit kan geïgnoreer word.",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Sosiale volgelingskap",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.label": {
+    "message": "Sosiale skakels",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.link.label": {
+    "message": "Skakel",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.open_in_new_window.label": {
+    "message": "Maak skakel in nuwe venster oop",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.is_podcast.label": {
+    "message": "Hierdie skakel is 'n potgooi",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.is_podcast.inline_help_text": {
+    "message": "Merk hierdie blokkie om 'n &ldquo;podcast&rdquo;-ikoon te vertoon in plaas van 'n standaard - of pasmaakikoon.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_alt_text.label": {
+    "message": "Pasmaak alt-teks",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_alt_text.inline_help_text": {
+    "message": "Alt-teks word outomaties gepopuleer, maar kan hier geïgnoreer word.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.aria_label.label": {
+    "message": "ARIA-etiket",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.aria_label.help_text": {
+    "message": "'n Beskrywing van wat hierdie ikoon voorstel, bv. (Volg ons op Facebook). Dit word deur skermlesers gebruik om die ikoon vir gebruikers te beskryf wat visueel gestremd is.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_icon.label": {
+    "message": "Pasmaak ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_icon.inline_help_text": {
+    "message": "Ikone word outomaties gepopuleer, maar kan hier geïgnoreer word.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.custom_icon.label": {
+    "message": "Aangepaste ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.facebook_link_aria_label.default": {
+    "message": "Volg ons op Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.twitter_link_aria_label.default": {
+    "message": "Volg ons op X",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.youtube_link_aria_label.default": {
+    "message": "Word een van ons intekenaars op YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.linkedin_link_aria_label.default": {
+    "message": "Volg ons op LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.instagram_link_aria_label.default": {
+    "message": "Volg ons op Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pinterest_link_aria_label.default": {
+    "message": "Volg ons op Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.website_link_aria_label.default": {
+    "message": "Besoek ons webtuiste",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.spotify_link_aria_label.default": {
+    "message": "Luister na ons op Spotify",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.yelp_link_aria_label.default": {
+    "message": "Lees ons resensies op Yelp",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.soundcloud_link_aria_label.default": {
+    "message": "Luister na ons op SoundCloud",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tiktok_link_aria_label.default": {
+    "message": "Volg ons op TikTok",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.github_link_aria_label.default": {
+    "message": "Volg ons op GitHub",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.podcast_link_aria_label.default": {
+    "message": "Luister na ons potgooi",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.email_link_aria_label.default": {
+    "message": "E-pos ons",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.label": {
+    "message": "Ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.label": {
+    "message": "Grootte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-small": {
+    "message": "klein",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-regular": {
+    "message": "medium",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-large": {
+    "message": "groot",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.label": {
+    "message": "Agtergrond",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.label": {
+    "message": "Vorm",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.none": {
+    "message": "geen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.square": {
+    "message": "vierkant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.rounded": {
+    "message": "gerond",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.circle": {
+    "message": "sirkel",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.label": {
+    "message": "Uitleg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.alignment.label": {
+    "message": "Belyning",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.spacing.label": {
+    "message": "Spasiëring",
+    "description": "",
+    "placeholders": null
+  }
+}

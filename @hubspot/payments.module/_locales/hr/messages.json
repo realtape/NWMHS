@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Plaćanje",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Dodaj ikonu",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Veza gumba",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Ostalo",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Upotrijebite poveznicu za plaćanje",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Ciljni gumb",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Završetak kupnje",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Tekst gumba",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Otvori u novoj kartici",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Klizni prekrivajući element",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Ponašanje pri završetku kupnje",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Zatvori blagajnu",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Lijevo",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Desno",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Položaj",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Poveznica za plaćanje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Poravnanje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Poravnanje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Boja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Pozadina",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Obrub",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Obrub",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Kut",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Polumjer",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Boja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Pozadina",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Obrub",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Obrub",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Boja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Drži iznad",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Boja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Veličina",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Razmak između ikone i teksta gumba.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Razmak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stilovi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Razmak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Razmak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Veliko početno slovo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Malo početno slovo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Velika slova",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Pretvorba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Ništa",
+    "description": "",
+    "placeholders": null
+  }
+}

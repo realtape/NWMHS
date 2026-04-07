@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Pretplata putem e-pošte za blog",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Prema zadanim postavkama upotrijebit će se trenutačni blog kada se upotrebljava u predlošku bloga ili primarni blog kada se upotrebljava drugdje.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Odaberi blog za prikaz",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Pretplatite se ovdje!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Naslov za prikaz iznad obrasca",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Umetnutni odgovor za korisnike",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Hvala vam što ste se pretplatili!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Da bi se pojavio obrazac za pretplatu na blog, morate uključiti pretplate za blog. To možete učiniti u postavkama. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Saznajte više</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Razina naslova",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Odaberite razinu naslova. Naslovi se moraju ugnijezditi prema hijerarhiji na temelju sadržaja. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Više informacija</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

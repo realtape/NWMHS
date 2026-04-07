@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "แกลเลอรีรูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "คำบรรยาย",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "ภาพสไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "เปิดลิงก์ในแท็บใหม่",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "แสดงคำบรรยาย",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL ลิงก์",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "รูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "ความสูงแปรผัน",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "ความสูงคงที่",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "ค้นหา",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "ความสูงแปรผัน",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "แสดงปุ่มนำทาง",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "การนำทางด้วยตัวอย่างภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "ตัวเลื่อนแบบมาตรฐาน",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "แกลเลอรีภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "ค้นหา",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "โหมดจอแสดงผล",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "สไลด์แบบวน",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "ค้นหา",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "เพิ่มคำบรรยายด้านบนรูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "วางคำบรรยายด้านล่างรูปภาพเสมอ",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "ตำแหน่งคำบรรยาย",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "จำนวนวินาทีในการเลื่อนแบบอัตโนมัติ",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "เลือนหาย",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "ภาพสไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "ค้นหา",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "การเปลี่ยนสไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "แถวสำหรับแกลเลอรี Lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "เลื่อนอัตโนมัติ",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "โมดูลนี้ถูกเลิกใช้เพื่อเปลี่ยนไปใช้โมดูลใหม่ที่ดีกว่า โดยมี 2 โมดูลคือ Image Slider และ Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">เรียนรู้เพิ่มเติม</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Jövőbeli fizetést összegző táblázat",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Táblázat fejléce",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Táblázat fejlécének megjelenítése",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Táblázat fejléce",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Fejléc hozzáadása a jövőbeli fizetéseket összegző táblázathoz",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "Jövőbeli fizetések összegzése",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Oszlopok",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Sortételnév fejléce",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Tétel",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Fizetésösszegzési fejléc",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Fizetés",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Egyszeri",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ hét",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 hét",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ hó",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ negyedév",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 hónap",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ év",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 év",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 év",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "nap",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "nap",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "hét",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "hét",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "hónap",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "hónap",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "fizetés",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "fizetések",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} {{ formatted_first_payment_date }}-i dátummal",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} esedékes az első fizetés után {{ billing_delay_period }} {{ billing_delay_unit }}elteltével",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} az első fizetés után {{ billing_delay_period }} {{ billing_delay_unit }} elteltével kezdve",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} {{ formatted_first_payment_date }} kezdettel",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} az első fizetés után {{ billing_delay_period }} {{ billing_delay_unit }} elteltével kezdve {{ number_of_payments }} {{ payment_pluralized }} teljesítéséig",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} {{ formatted_first_payment_date }} kezdettel {{ number_of_payments }} {{ payment_pluralized }} elteltéig",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 év",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 év",
+    "description": "",
+    "placeholders": null
+  }
+}

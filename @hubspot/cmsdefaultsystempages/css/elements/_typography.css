@@ -1,0 +1,62 @@
+body {
+  color: var(--body-font-color);
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: var(--standard-line-height);
+  overflow-wrap: break-word;
+}
+
+html[lang^='ja'] body,
+html[lang^='zh'] body,
+html[lang^='ko'] body {
+  line-break: strict;
+  overflow-wrap: normal;
+  word-break: break-all;
+}
+
+/* Paragraphs */
+
+p {
+  margin: 0 0 var(--standard-margin);
+  font-size: var(--body-font-size);
+}
+
+/* Anchors */
+
+a {
+  color: var(--link-font-color);
+}
+
+a:hover,
+a:focus {
+  color: var(--link-hover-font-color);
+}
+
+a:active {
+  color: var(--link-active-font-color);
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 var(--standard-margin);
+  font-family: var(--heading-font);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* Lists */
+
+.no-list {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}

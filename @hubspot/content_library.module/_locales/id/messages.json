@@ -1,0 +1,457 @@
+{
+  "name": {
+    "message": "Pustaka konten",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.label": {
+    "message": "Sumber daya",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.label": {
+    "message": "Nama",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.default": {
+    "message": "Nama sumber daya",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.label": {
+    "message": "Lihat Produk",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.default": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.label": {
+    "message": "Tautan sumber daya",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.inline_help_text": {
+    "message": "File akan diunduh ke desktop pengguna setelah mengeklik sumber daya.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.label": {
+    "message": "Gambar",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.default": {
+    "message": "Pilih dari daftar gambar default",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.custom": {
+    "message": "Gunakan gambar khusus",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.ebook": {
+    "message": "eBook",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.pdf-document": {
+    "message": "Dokumen PDF",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.infographic": {
+    "message": "Infografis",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.template": {
+    "message": "Templat",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.guide": {
+    "message": "Panduan",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.course": {
+    "message": "Kursus",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.webinar": {
+    "message": "Webinar",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.data-sheet": {
+    "message": "Lembar data",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.video": {
+    "message": "Video",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.blog-post": {
+    "message": "Post blog",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.whitepaper": {
+    "message": "Laporan resmi",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.case-study": {
+    "message": "Studi kasus",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.custom_image.label": {
+    "message": "Gambar kustom",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.label": {
+    "message": "Teks tautan",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.default": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.title": {
+    "message": "eBook",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.title": {
+    "message": "Dokumen PDF",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.title": {
+    "message": "Infografis",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.title": {
+    "message": "Templat",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.title": {
+    "message": "Panduan",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.title": {
+    "message": "Kursus",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.title": {
+    "message": "Webinar",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.title": {
+    "message": "Lembar data",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.title": {
+    "message": "Video",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.title": {
+    "message": "Post blog",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.title": {
+    "message": "Laporan resmi",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.title": {
+    "message": "Studi kasus",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.description": {
+    "message": "Deskripsi tentang sumber daya yang dibagikan. Cukup berikan beberapa kalimat.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.link_text": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.download_aria_label_prefix.default": {
+    "message": "Unduh",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.content_aria_label_prefix.default": {
+    "message": "Lihat isi [[resource_name]]",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.external_aria_label_prefix.default": {
+    "message": "Buka",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.new_tab_aria_label_suffix.default": {
+    "message": "di tab baru",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Gaya",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.label": {
+    "message": "Tata Letak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.label": {
+    "message": "Gaya",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.cards": {
+    "message": "Kartu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.tiles": {
+    "message": "Ubin",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.minimal": {
+    "message": "Minimal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "Nama",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font.label": {
+    "message": "Huruf",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "Lihat Produk",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font.label": {
+    "message": "Huruf",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "Gambar",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.label": {
+    "message": "Rasio aspek",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.label": {
+    "message": "Warna utama",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.help_text": {
+    "message": "Sesuaikan warna grafik default.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.label": {
+    "message": "Warna sekunder",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.help_text": {
+    "message": "Sesuaikan warna grafik default.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.label": {
+    "message": "Warna tersier",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.help_text": {
+    "message": "Sesuaikan warna grafik default.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.label": {
+    "message": "Tautan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.default_text_color.label": {
+    "message": "Warna teks default",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.hover_text_color.label": {
+    "message": "Warna teks hover",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Setiap sumber daya yang ditandai sebagai fitur akan ditampilkan pertama di halaman.",
+    "description": "",
+    "placeholders": null
+  }
+}

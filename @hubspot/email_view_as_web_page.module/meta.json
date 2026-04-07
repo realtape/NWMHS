@@ -1,0 +1,16 @@
+{
+  "label": "View As Web Page",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "../img/icon/high-email-1.svg",
+  "extra_classes": "widget-type-email_view_as_web_page",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

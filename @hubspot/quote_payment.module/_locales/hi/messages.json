@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "अभी भुगतान करें",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "पेमेंट बटन टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "सुनिश्चित करें कि यह क्लियर है कि इस बटन पर क्लिक करने से आपका कस्टमर भुगतान कर सकेगा।",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "चेकआउट सेट करने में समस्या हुई। कृपया उस व्यक्ति से कांटेक्ट करें जिसने आपको यह क्वोटेशन भेजा है।",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "एरर मैसेज चेकआउट करें",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "अपने कस्टमर को बताएं कि जब चेकआउट शुरू करने में कोई समस्या हो तो क्या करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "कोई हेडिंग लेवल चुनें। H1 सबसे बड़ा है, उसके बाद H2, और इसी तरह आगे",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "हेडिंग लेवल",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "पेमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "हेडिंग का कॉन्टेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "पहली पेमेंट करें:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "आपके कस्टमर इस पेमेंट बटन में तब तक देखेंगे जब तक वे पहली किस्त का भुगतान नहीं कर देते।",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "पेमेंट शेड्यूल के लिए बटन टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "पेमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "पेमेंट नहीं किया जा सकता क्योंकि क्वोट पूरी तरह से साइंड नहीं है।",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "हस्ताक्षर की आवश्यकता होने पर टेक्स्ट का स्पष्टीकरण ",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "यदि भुगतान से पहले हस्ताक्षर की आवश्यकता है, तो यह संदेश कस्टमर को तब तक दिखाई देगा जब तक कि सभी आवश्यक हस्ताक्षर पूरे नहीं हो जाते।",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "भुगतान किया गया",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "भुगतान किया गया टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "[[ paid_time ]] पर [[paid_date ]] को भुगतान किया गया",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "भुगतान प्रोसेस हो रहा है",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "पेमेंट प्रक्रिया टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "इस क्वोट के लिए पेमेंट स्टेटस लोड करने में समस्या हुई थी। कृपया पेज को रीफ़्रेश करने का प्रयास करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "पेमेंट स्टेटस एरर मैसेज",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "पेमेंट स्थिति प्राप्त करने में फेल होने पर अपने कस्टमर को पेज रिफ्रेश करने के लिए कहें।",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "यह एक क्वोट टेस्ट है, इसलिए यह वास्तविक पेमेंट इकठ्ठा नहीं कर सकता।",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "आप यह तय कर सकते हैं कि इस टेम्पलेट के साथ क्वोट बनाते समय आप भुगतान लेना चाहते हैं या नहीं।",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "चेकआउट के लिए, कृपया उस व्यक्ति से कॉन्टेक्ट करें जिसने आपको यह कोट भेजा है।",
+    "description": "",
+    "placeholders": null
+  }
+}

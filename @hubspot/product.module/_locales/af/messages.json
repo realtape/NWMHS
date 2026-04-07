@@ -1,0 +1,362 @@
+{
+  "name": {
+    "message": "Produk",
+    "description": "",
+    "placeholders": null
+  },
+  "product.label": {
+    "message": "Produk",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.label": {
+    "message": "Naam",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.label": {
+    "message": "Opskrifvlak",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.help_text": {
+    "message": "Stel die opskrifvlak (O1, O2, O3, O4, O5, O6) vir die naamelement. Dis belangrik vir toegang en SEO. <a href='https://www.w3.org/WAI/tutorials/page-structure/headings/'>Kom meer te wete</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h1": {
+    "message": "Opskrif 1",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h2": {
+    "message": "Opskrif 2",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h3": {
+    "message": "Opskrif 3",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h4": {
+    "message": "Opskrif 4",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h5": {
+    "message": "Opskrif 5",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h6": {
+    "message": "Opskrif 6",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.override_product_name.label": {
+    "message": "Ignoreer produknaam",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.label": {
+    "message": "Naam",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.default": {
+    "message": "Produknaam",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.label": {
+    "message": "Beskrywing",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.override_product_description.label": {
+    "message": "Ignoreer produkbeskrywing",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.label": {
+    "message": "Beskrywing",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.default": {
+    "message": "'n Kort beskrywing van die produk wat verkoop word. Een of twee sinne is heeltemal genoeg.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.label": {
+    "message": "Beeld",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.override_product_image.label": {
+    "message": "Ignoreer produkprent",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.image_override.label": {
+    "message": "Beeld",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.label": {
+    "message": "Knoppie",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.label": {
+    "message": "Knoppieteks",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.default": {
+    "message": "Vind meer uit",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.override_product_button.label": {
+    "message": "Ignoreer produkknoppie",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_override.label": {
+    "message": "Knoppie",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_price_info_found.default": {
+    "message": "Kry geen inligting ten opsigte van pryse nie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.label": {
+    "message": "Uitleg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.horizontal": {
+    "message": "Horisontaal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.vertical": {
+    "message": "Vertikaal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "Beeld",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.label": {
+    "message": "Wys volledige beeld",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.help_text": {
+    "message": "Sal sorg dat die hele beeld altyd wys. Dit kan veroorsaak dat die beeld nie die hele beeldplekhouer vul nie.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.label": {
+    "message": "Agtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.help_text": {
+    "message": "Voeg 'n agtergrondkleur by die beeldplekhouer. Veral nuttig as jou beeld deursigtig is.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.label": {
+    "message": "Aspekverhouding",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.label": {
+    "message": "Beeld se breedteverhouding",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.help_text": {
+    "message": "Stel die persentasie van die kaart wat aan die beeld toegeken gaan word.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.40%": {
+    "message": "40%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.45%": {
+    "message": "45%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.50%": {
+    "message": "50%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.55%": {
+    "message": "55%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.60%": {
+    "message": "60%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.label": {
+    "message": "Inhoudsarea",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.label": {
+    "message": "Agtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.help_text": {
+    "message": "Stel die agtergrondkleur van die inhoudsarea",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.horizontal_padding.label": {
+    "message": "Horisontale vulling",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.vertical_padding.label": {
+    "message": "Vertikale vulling",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.border.label": {
+    "message": "Raam",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "Naam",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_size.label": {
+    "message": "Fontgrootte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_color.label": {
+    "message": "Fontkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.label": {
+    "message": "Prys",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_size.label": {
+    "message": "Fontgrootte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_color.label": {
+    "message": "Fontkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "Beskrywing",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_size.label": {
+    "message": "Fontgrootte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_color.label": {
+    "message": "Fontkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.label": {
+    "message": "Knoppie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.override_defaults.label": {
+    "message": "Ignoreer verstekke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.text_color.label": {
+    "message": "Tekskleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.button_color.label": {
+    "message": "Knoppiekleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.corner_radius.label": {
+    "message": "Hoekradius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.border.label": {
+    "message": "Raam",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.label": {
+    "message": "Sweef",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.text_color.label": {
+    "message": "Tekskleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.button_color.label": {
+    "message": "Knoppiekleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.border_color.label": {
+    "message": "Raamkleur",
+    "description": "",
+    "placeholders": null
+  }
+}

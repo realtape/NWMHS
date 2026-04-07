@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Pagament",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Afegeix una icona",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Enllaç de botó",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Altres",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Utilitza un enllaç de pagament",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Destinació del botó",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Finalitza la compra",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Text del botó",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Obre en una pestanya nova",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Superposició lliscant",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Comportament del procés de finalització de compra",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Tanca el procés de finalització de compra",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Icona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Icona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Esquerra",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Dreta",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Posició",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Enllaç de pagament",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Alineació",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Alineació",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Fons",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Fons",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Cantonada",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Icona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Desplaçament",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Tipus de lletra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Icona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Mida",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Espaiat entre la icona i el text del butó.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Espaiat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estils",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Espaiat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Espaiat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Tipus de lletra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Posa en majúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Minúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Majúscula",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Transforma",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Cap",
+    "description": "",
+    "placeholders": null
+  }
+}

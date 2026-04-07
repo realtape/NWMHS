@@ -1,0 +1,77 @@
+{
+  "name": {
+    "message": "소계",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "{{ discount_amount }} 할인 후",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annual.default": {
+    "message": "매년",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.frequency_subtotal.default": {
+    "message": "{{ frequency_text }} 소계",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "매주",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "2주마다",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "매달",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "일회성",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "6개월마다",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "3년마다",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "2년마다",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "4년마다",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "5년마다",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "분기별",
+    "description": "",
+    "placeholders": null
+  },
+  "subtotal_title.default": {
+    "message": "소계",
+    "description": "",
+    "placeholders": null
+  }
+}

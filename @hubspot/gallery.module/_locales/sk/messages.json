@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Galéria obrázkov",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Titulok",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Snímka",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Otvoriť odkaz v novej karte",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Zobraziť titulok",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Webová adresa odkazu",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Obrázok",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Variabilná výška",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Pevná výška",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Variabilná výška",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Zobraziť navigačné tlačidlá",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Navigácia miniatúrami",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Štandardný posúvač",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galéria Lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Režim zobrazenia",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Slučka snímok",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Prekryť obrázky titulkami",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Vždy ponechať titulky pod obrázkom",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Pozícia titulku",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Čas v sekundách medzi automatickým posúvaním",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Postupné zmiznutie",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Snímka",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Prechody snímok",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Riadky pre galériu lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Automaticky posunúť vprd",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Tento modul bol zrušený v prospech dvoch nových a vylepšených modulov: Image Slider a Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Viac informácií</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

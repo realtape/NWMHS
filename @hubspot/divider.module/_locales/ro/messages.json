@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Separator",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Aliniere",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Centru",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Stânga",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Dreapta",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Culoare",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Înălțime",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Tip linie",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Întrerupt",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Punctat",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Solid",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Spațiere",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Max. 20 pixeli",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Afișare spațiere?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Lățime",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Procentajul ariei în care este amplasat separatorul.",
+    "description": "",
+    "placeholders": null
+  }
+}

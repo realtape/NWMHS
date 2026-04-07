@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "分隔線",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "對齊",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "置中",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "左",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "右",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "顏色",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "高度",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "線型",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "虛線",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "點線",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "實線",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "內邊距",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "上限 20 像素",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "要顯示內邊距嗎？",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "寬度",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "放置分隔線區域的百分比。",
+    "description": "",
+    "placeholders": null
+  }
+}

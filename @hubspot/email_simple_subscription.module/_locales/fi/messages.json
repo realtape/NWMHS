@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Varmuuskopioinnin peruutus",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Painiketeksti",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Peruuta tilaus",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Sähköpostitilauksen lopettaminen",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Otsikko",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Sähköpostisyötteen paikkamerkkiteksti",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "sähköpostiosoite@esimerkki.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Sähköpostiosoitteesi:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Sähköpostisyötteen ohjeteksti",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Virheviesti",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Sivun lataamisessa ilmeni ongelma. Yritä käyttää samaa linkkiä uudemmasta sähköpostista tai ota yhteyttä yritykseen päivittääksesi tilausasetuksesi.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Alaotsikko",
+    "description": "",
+    "placeholders": null
+  }
+}

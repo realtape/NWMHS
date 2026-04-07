@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Összesen",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Most esedékes",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Ezt használják az árajánlat összegének címkéjeként, amikor az árajánlatban jövőbeni kifizetések szerepelnek.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Most esedékes szöveg",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Összesen",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Teljes szöveg",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Szerződés összértéke",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Testreszabhatja a szöveget az érték pontos leírásához. (Ha nincsenek beállítva feltételek, az alapértelmezett egy éves érték.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Szerződés összértéke szöveg",
+    "description": "",
+    "placeholders": null
+  }
+}

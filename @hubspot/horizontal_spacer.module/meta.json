@@ -1,0 +1,26 @@
+{
+  "label": "Horizontal Spacer",
+  "host_template_types": [
+    "ANY"
+  ],
+  "icon": "../img/icon/edited-spacer.svg",
+  "extra_classes": "widget-type-space",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": [
+    "design"
+  ],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "editable_contexts": [
+    "TEMPLATE"
+  ]
+}

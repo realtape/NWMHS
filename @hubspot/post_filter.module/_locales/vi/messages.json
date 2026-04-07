@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Bộ lọc bài đăng",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Xem tất cả",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Văn bản hiển thị nếu có nhiều nội dung hơn giá trị hiển thị tối đa. Bỏ trống để bỏ qua liên kết",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Lựa chọn Mặc định sẽ sử dụng blog hiện tại khi được dùng trong mẫu blog hoặc blog chính khi được dùng ở nơi khác.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Chọn blog để hiển thị",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Số giá trị bộ lọc tối đa sẽ hiển thị",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Tìm kiếm",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Danh sách giá trị liên kết bộ lọc",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Thẻ",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Tác giả",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Tháng",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Bài đăng theo thẻ",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Tiêu đề danh sách cần hiển thị",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Tên",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Số lượng bài đăng",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Tìm kiếm",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Thứ tự giá trị liên kết bộ lọc",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Hiển thị tất cả bộ lọc",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Huvudbrödtext i e-post",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hej,{{contact.firstname}}!</p>\n<p>Beskriv vad du har att erbjuda kunden. Varför bör kunden läsa? Vad lovade du kunden i ämnesraden? Berätta om något häftigt för kunden. Få kunden att skratta. Få kunden att gråta. Eller, kanske inte just det... </p>\n<p>Använd en lista för att:</p>\n<ul>\n<li>Förklara värdet av ditt erbjudande</li>\n<li>Påminna läsarna om vad de får ut av att vidta åtgärder</li>\n<li>Stoltsera med kunskaper med listpunkter</li>\n<li>Gör ditt innehåll enkelt att skanna</li>\n</ul>\n<p><a href=\"http://hubspot.com\">LÄNKA TILL EN LANDNINGSSIDA PÅ DIN WEBBPLATS</a> (Det här är en mycket viktig del.)</p>\n<p>Avsluta nu allt med en uttrycksfull liten påminnelse om hur mycket du älskar kunden.</p>\n<p>Åh, din smöriga jäkel.</p>\n<p>Med vänliga hälsningar</p>\n<p>Ditt namn</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "E-posttext",
+    "description": "",
+    "placeholders": null
+  }
+}

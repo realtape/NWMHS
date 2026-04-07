@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Total",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Dû maintenant",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Ceci est utilisé comme libellé pour le total du devis lorsque le devis comporte des paiements futurs.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Texte dû maintenant",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Total",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Texte du total",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Valeur contractuelle totale",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Personnalisez le texte pour décrire précisément cette valeur (le paramètre par défaut est une valeur annuelle si aucune durée n'est défini.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Texte de la valeur contractuelle totale",
+    "description": "",
+    "placeholders": null
+  }
+}

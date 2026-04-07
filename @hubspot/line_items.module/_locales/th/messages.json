@@ -1,0 +1,337 @@
+{
+  "name": {
+    "message": "รายการสินค้าในกลุ่มผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "หลังหักส่วนลด {{ discount_amount }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annually.default": {
+    "message": "รายปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "วัน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "วัน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "สัปดาห์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "สัปดาห์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ สัปดาห์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 สัปดาห์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/เดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ไตรมาส",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/6 เดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/3 ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/2 ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first_payment_date.default": {
+    "message": "การชำระเงินงวดแรก: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.for_months.default": {
+    "message": "เป็นเวลา {{ line_item.hs_term_in_months }} เดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.for_years.default": {
+    "message": "เป็นเวลา {{ year }} {{ year_text }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_charges.default": {
+    "message": "การชำระเงินในอนาคต",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_items.default": {
+    "message": "รายการสินค้าในกลุ่มผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "รายสัปดาห์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "ต่อสองสัปดาห์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "เดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "รายเดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "เดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "ครั้งเดียว",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment_due_date.default": {
+    "message": "วันที่ครบกำหนดชำระเงิน: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment_start_date.default": {
+    "message": "วันที่เริ่มชำระเงิน: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "รายหกเดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "รายสามปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "รายสองปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "รายไตรมาส",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.relative_payment_due_date.default": {
+    "message": "วันครบกำหนดชำระเงิน: {{ billing_delay_period }} {{ billing_delay_unit }} หลังการชำระเงินครั้งแรก",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.relative_payment_start_date.default": {
+    "message": "การชำระเงินจะเริ่ม: {{ billing_delay_period }} {{ billing_delay_unit }} หลังการชำระเงินครั้งแรก",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.year.default": {
+    "message": "ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.years.default": {
+    "message": "ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "ต่อสี่ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "ต่อห้าปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 ปี",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_value.default": {
+    "message": "{{ percentage_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax.default": {
+    "message": "+{{ taxAmount }} {{line_item.hs_tax_label }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax_with_label.default": {
+    "message": "+{{ taxAmount }} {{ taxLabel }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax_without_label.default": {
+    "message": "+ ภาษี {{ taxAmount }}",
+    "description": "",
+    "placeholders": null
+  },
+  "display_payment_starts.inline_help_text": {
+    "message": "แสดงข้อความ \"เริ่มการชำระเงินแล้ว\" ใต้รายการสินค้าในกลุ่มผลิตภัณฑ์แต่ละรายการที่มีวันที่เรียกเก็บเงินในอนาคต",
+    "description": "",
+    "placeholders": null
+  },
+  "display_payment_starts.label": {
+    "message": "แสดงวันที่เริ่มการชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.amount": {
+    "message": "ยอดรวมทั้งหมด",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.discount": {
+    "message": "ส่วนลดต่อหน่วย",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.hs_recurring_billing_start_date": {
+    "message": "วันที่เริ่มต้น",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.hs_term_in_months": {
+    "message": "ระยะเวลา (เดือน)",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.item_description": {
+    "message": "รายการและคำอธิบาย",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.price": {
+    "message": "ราคาต่อหน่วย",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.quantity": {
+    "message": "ปริมาณสินค้า",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.label": {
+    "message": "คุณสมบัติเพิ่มเติมของผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.crm_product_property.label": {
+    "message": "คุณสมบัติของผลิตภัณฑ์ CRM",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.label": {
+    "message": "คอลัมน์รายการสินค้าในกลุ่มผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.title.label": {
+    "message": "ชื่อเรื่อง",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.title.placeholder": {
+    "message": "คำอธิบายคอลัมน์",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.use_additional_product_property.inline_help_text": {
+    "message": "อนุญาตการเลือกคอลัมน์จากคุณสมบัติเพิ่มเติมของผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.use_additional_product_property.label": {
+    "message": "ใช้คุณสมบัติเพิ่มเติมของผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.background_color.label": {
+    "message": "สีพื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_later_text.default": {
+    "message": "รายการที่จะครบกำหนดในภายหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_later_text.label": {
+    "message": "ข้อความครบกำหนดในภายหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_now_text.default": {
+    "message": "รายการที่ครบกำหนดแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_now_text.label": {
+    "message": "ข้อความครบกำหนดแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.font_style.label": {
+    "message": "รูปแบบตัวอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.label": {
+    "message": "ส่วนหัวรองของสินค้าในกลุ่มผลิตภัณฑ์",
+    "description": "",
+    "placeholders": null
+  }
+}

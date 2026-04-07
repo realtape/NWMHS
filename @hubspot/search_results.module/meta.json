@@ -1,0 +1,22 @@
+{
+  "label": "Site Search Results",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/edited-search-1.svg",
+  "smart_type": "NOT_SMART",
+  "tags": ["search"],
+  "categories": ["functionality"],
+  "content_tags": [
+    {
+      "name": "SEARCH",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{% import "@hubspot/img/default/svg-macros.html" as defaultSVG %}
+
+{%
+  set default_graphics = {
+    "ebook": defaultSVG.ebookSvg(),
+    "pdf-document": defaultSVG.pdfDocumentSvg(),
+    "infographic": defaultSVG.infographicSvg(),
+    "template":  defaultSVG.templateSvg(),
+    "guide": defaultSVG.guideSvg(),
+    "course": defaultSVG.courseSvg(),
+    "webinar": defaultSVG.webinarSvg(),
+    "data-sheet": defaultSVG.dataSheetSvg(),
+    "video": defaultSVG.videoSvg(),
+    "blog-post": defaultSVG.blogPostSvg(),
+    "case-study": defaultSVG.caseStudySvg(),
+    "whitepaper": defaultSVG.whitepaperSvg()
+  }
+%}
+
+{% set library_items = module.group_resources %}
+
+{% macro hexToRBGVars(hex,name) %}
+  {% set rgbArray = hex|convert_rgb|split(',') %}
+  --red-{{name}}: {{rgbArray[0]}};
+  --green-{{name}}: {{rgbArray[1]}};
+  --blue-{{name}}: {{ rgbArray[2]}};
+{% endmacro %}
+
+{% require_css %}
+  <style>
+  {% scope_css %}
+    .hs-content-library {
+      {# Set font size vars so the featured size calculation can use them #}
+      {% if module.styles.group_name.font.size %}
+        {% set size_unit = module.styles.group_name.font.size_unit or "px" %}
+        --title-font-size: {{ module.styles.group_name.font.size ~ size_unit }};
+      {% endif %}
+
+      {# Set font size vars so the featured size calculation can use them #}
+      {% if module.styles.group_description.font.size %}
+        {% set size_unit = module.styles.group_description.font.size_unit or "px" %}
+        --description-font-size: {{ module.styles.group_description.font.size ~ size_unit }};
+      {% endif %}
+
+      {{ hexToRBGVars(module.styles.group_image.svg_primary, 'svg-primary') }}
+      {{ hexToRBGVars(module.styles.group_image.svg_secondary, 'svg-secondary') }}
+      {{ hexToRBGVars(module.styles.group_image.svg_tertiary, 'svg-tertiary') }}
+    }
+
+    .hs-content-library__card .hs-content-library__title {
+      {{ module.styles.group_name.font.css }};
+    }
+
+    .hs-content-library__card .hs-content-library__description {
+      {{ module.styles.group_description.font.css }};
+    }
+
+    .hs-content-library__card--featured .hs-content-library__title {
+      font-size: var(--featured-title-font-size);
+    }
+
+    .hs-content-library__card--featured .hs-content-library__description {
+      font-size: var(--featured-description-font-size);
+    }
+
+    .hs-content-library__link {
+      {{ module.styles.group_description.font.css }};
+      color: {{ module.styles.group_link.default_text_color }};
+    }
+
+    .hs-content-library__image img, .hs-content-library__image svg {
+      {% if module.styles.group_image.aspect_ratio %}
+        aspect-ratio: {{ module.styles.group_image.aspect_ratio }};
+      {% endif %}
+    }
+
+    .hs-content-library__link:hover, .hs-content-library__link:focus {
+      color: {{ module.styles.group_link.hover_text_color }};
+    }
+
+
+
+  {% end_scope_css %}
+  </style>
+{% end_require_css %}
+
+{% macro content_url_anchor( fieldLinkObject, link_text, aria_title ) %}
+  {% set rel = [] %}
+  {% if fieldLinkObject.no_follow %}
+    {% do rel.append("nofollow") %}
+  {% endif %}
+  {% if fieldLinkObject.open_in_new_tab %}
+    {% do rel.append("noopener") %}
+  {% endif %}
+
+  {% set relString = rel|join(" ") %}
+
+  {% set fieldURLObject = fieldLinkObject.url %}
+    {% if fieldURLObject.type == "FILE" %}
+      {# Adjust FILE urls to match the path to the domain being viewed so a download can start #}
+      {% set grab_domain_parts_regex = "(https?://)(.*?)(/.*$)" %}
+      {% set replace_root_domain_regex = "$1" ~ content.resolved_domain ~ "$3" %}
+      {% set aria_label = module.default_text.download_aria_label_prefix ~ " " ~ aria_title %}
+
+      {# Input: https://<filepathdomain>/<linkedfile> Output: https://<current-page-domain>/<linkedfile> #}
+      {% set valid_download_url = fieldURLObject.href|regex_replace(grab_domain_parts_regex, replace_root_domain_regex) %}
+        <a
+          rel="{{ relString|escape_attr }}"
+          {% if fieldLinkObject.open_in_new_tab %}target="_blank"{% endif %}
+          href="{{ valid_download_url|escape_url }}"
+          aria-label="{{ aria_label|escape_attr }}" class="hs-content-library__link" download>
+          {{ item.link_text|escape_html }}
+        </a>
+    {% elif fieldURLObject.type == "CALL_TO_ACTION" %}
+      <a href="{{ fieldURLObject.href }}" class="hs-content-library__link">{# CTA hrefs are not editable and are JS calls no need to escape #}
+        {{ item.link_text|escape_html }}
+      </a>
+    {% else %}
+      {% if fieldURLObject.type == "CONTENT" %}
+        {% set aria_label = module.default_text.content_aria_label_prefix|replace('[[resource_name]]', aria_title) %}
+      {% else %}
+        {% set aria_label = module.default_text.external_aria_label_prefix ~ " " ~ aria_title %}
+      {% endif %}
+
+      {% if fieldLinkObject.open_in_new_tab %}
+        {% set aria_label = aria_label ~ " " ~  module.default_text.new_tab_aria_label_suffix %}
+      {% endif %}
+
+      <a rel="{{ relString|escape_attr }}"
+        {% if fieldLinkObject.open_in_new_tab %}target="_blank"{% endif %}
+        href="{{ fieldURLObject.href|escape_url }}"
+        aria-label="{{ aria_label|escape_attr }}"
+        class="hs-content-library__link">
+        {{ item.link_text|escape_html }}
+      </a>
+    {% endif %}
+{% endmacro %}
+
+{% set layout_type_class = "hs-content-library--" ~ module.styles.group_layout.style %}
+
+{% set featured_items = library_items|selectattr('hs_meta.occurrence.featured') %}
+{% set library_items = library_items|rejectattr('hs_meta.occurrence.featured') %}
+
+{% set combined_items = featured_items|union(library_items) %}
+
+<div class="hs-content-library {{ layout_type_class|escape_attr }}">
+  {% for item in combined_items %}
+    {% set featured_class =  item.hs_meta.occurrence.featured ? "hs-content-library__card--featured" : "" %}
+    {% set custom_image_class = item.image_type == "custom" ? "hs-content-library__image--custom" : "" %}
+    <section class="hs-content-library__card {{ featured_class|escape_attr }}">
+      <div class="hs-content-library__image {{ custom_image_class|escape_attr }}">
+        {% if item.image_type == "custom" %}
+          <img
+            src="{{ item.custom_image.src|escape_url }}"
+            width="{{ item.custom_image.width|escape_attr }}"
+            height="{{ item.custom_image.height|escape_attr }}"
+            alt="{{ item.custom_image.alt|escape_attr }}"
+          >
+        {% else %}
+          {{ default_graphics[item.default_image] }}
+        {% endif %}
+      </div>
+      <div class="hs-content-library__content">
+        {% if item.title %}
+          <h2 class="hs-content-library__title">{{ item.title|escape_html }}</h2>
+        {% endif %}
+        {% if item.description %}
+          <p class="hs-content-library__description">{{ item.description|escape_html }}</p>
+        {% endif %}
+        {{ content_url_anchor(item.link, item.link_text, item.title) }}
+      </div>
+    </section>
+  {% endfor %}
+</div>

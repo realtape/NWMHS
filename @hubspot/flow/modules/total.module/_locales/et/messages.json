@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Kokku",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Tähtaeg käes",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Seda kasutatakse pakkumuse kogusumma märkimiseks, kui pakkumuses on tulevasi makseid.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Tähtaeg käes tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Kokku",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Kokku tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Lepingu koguväärtus",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Kohandage teksti, et seda väärtust täpselt kirjeldada. (Vaikimisi on aastane väärtus, kui tingimusi ei ole määratud.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Lepingu koguväärtuse tekst",
+    "description": "",
+    "placeholders": null
+  }
+}

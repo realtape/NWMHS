@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "ব্যাকআপ আনসাবস্ক্রাইব করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "বোতাম টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "আনসাবস্ক্রাইব করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "ইমেল আনসাবস্ক্রাইব করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "হেডিং ",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "ইমেল ইনপুট প্লেসহোল্ডার টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "আপনার ইমেল ঠিকানা:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "ইমেল ইনপুট সহায়তা টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "ত্রুটির মেসেজ",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "পেজটি লোড করার সময় একটি সমস্যা হয়েছে। আরও সাম্প্রতিক ইমেল থেকে একই লিঙ্ক ব্যবহার করার চেষ্টা করুন, বা আপনার সাবস্ক্রিপশনের পছন্দ আপডেট করতে কোম্পানির সাথে যোগাযোগ করুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "সাবহেডিং ",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Comutator limbi",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hibrid",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localizat",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Limba în care este afișat textul din comutatorul de limbi. PageLang înseamnă că denumirile limbilor vor fi afișate în limba utilizată pe pagina comutatorului. Denumirile localizate înseamnă că denumirea fiecărei limbi va fi afișată în limba respectivă. Hibrid reprezintă o combinație dintre acestea două.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Mod de afișare",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Căutare",
+    "description": "",
+    "placeholders": null
+  }
+}

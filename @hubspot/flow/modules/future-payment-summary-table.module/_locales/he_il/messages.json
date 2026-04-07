@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "טבלת סיכום תשלומים עתידיים",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "כותרת טבלה",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "הצגת כותרת טבלה",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "כותרת טבלה",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "הוסף כותרת לטבלת סיכום התשלומים העתידיים",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "סיכום תשלומים עתידיים",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "עמודות",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "כותרת שם פריט שורה",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "פריט",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "כותרת סיכום תשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "תשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "חד-פעמי",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ שבוע",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ שבועיים (2)",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "לחודש",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "לרבעון",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "ל-6 חודשים",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "לשנה",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "לשנתיים",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "ל-3 שנים",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "יום",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "ימים",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "שבוע",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "שבועות",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "חודש",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "חודשים",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "תשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "תשלומים",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} ב-{{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} לתשלום עד {{ billing_delay_period }} {{ billing_delay_unit }} לאחר התשלום הראשוני",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} החל מ-{{ billing_delay_period }} {{ billing_delay_unit }} לאחר התשלום הראשוני",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }}{{ recurring_frequency }} בתאריך {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} החל מ- {{ billing_delay_period }} {{ billing_delay_unit }} לאחר התשלום הראשוני עבור {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }}{{ recurring_frequency }} בתאריך {{ formatted_first_payment_date }} עבור {{ number_of_payments }}{{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 שנים",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 שנים",
+    "description": "",
+    "placeholders": null
+  }
+}

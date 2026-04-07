@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Ukupno",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Dospijeće sada",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Ovo se upotrebljava za označavanje ukupnog iznosa ponude kad su za ponudu dostupna buduća plaćanja.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Tekst s dospijećem sada",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Ukupno",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Tekst o ukupnom iznosu",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Ukupna ugovorena vrijednost",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Prilagodite tekst za ispravan opis ove vrijednosti. (Ako nisu postavljeni uvjeti, zadana je godišnja vrijednost.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Tekst ukupne ugovorene vrijednosti",
+    "description": "",
+    "placeholders": null
+  }
+}

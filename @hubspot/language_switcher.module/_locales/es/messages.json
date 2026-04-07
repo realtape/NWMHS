@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Conmutador de idiomas",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Híbrido",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Localizado",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "Idioma de la página",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "El idioma del texto en el conmutador de idiomas. PageLang significa que los nombres de los idiomas aparecerán en el idioma que indique el conmutador de la página. Localizado significa que el nombre de cada idioma aparecerá en ese idioma. Híbrido es una combinación de ambas opciones.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Modo de presentación",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Buscar",
+    "description": "",
+    "placeholders": null
+  }
+}

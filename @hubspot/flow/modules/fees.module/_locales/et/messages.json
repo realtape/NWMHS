@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Tasud",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "{{ fee_amount }}% allahindlus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "{{ fee_amount }}% tasu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "{{ fee_amount }}% maks",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "Muud tasud",
+    "description": "",
+    "placeholders": null
+  }
+}

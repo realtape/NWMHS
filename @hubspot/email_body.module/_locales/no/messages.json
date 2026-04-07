@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Hovedbrødtekst i e-post",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hei&nbsp;{{contact.firstname}},</p>\n<p>Beskriv hva du kan tilby kunden. Hvorfor bør de lese? Hva lovet du dem i emnelinjen? Si noe kult. Få dem til å le. Få dem til å gråte. Vel, kanskje ikke gjør det ...</p>\n<p>Bruk en liste til å:</p>\n<ul>\n<li>forklare verdien av tilbudet</li>\n<li>minne leseren på om hva de får hvis de handler</li>\n<li>vise dine ferdigheter med punktlister</li>\n<li>gjøre det enkelt å få oversikt over innholdet</li>\n</ul>\n<p><a href=\"http://hubspot.com\">KOBLE TIL EN LANDINGSSIDE PÅ WEBOMRÅDET</a> (dette er veldig viktig.)</p>\n<p>Avslutt med en påminnelse om hvor glad du er i dem.</p>\n<p>Ååå, din sjarmør.</p>\n<p>Vennlig hilsen,</p>\n<p>Navnet ditt</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Brødtekst i e-post",
+    "description": "",
+    "placeholders": null
+  }
+}

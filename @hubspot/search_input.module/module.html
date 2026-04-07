@@ -1,0 +1,70 @@
+{# Need help setting up site search?
+   Start here: https://knowledge.hubspot.com/articles/kcs_article/cos-general/how-do-i-set-up-a-results-page-for-my-search-field-in-hubspot #}
+
+{% set search_page = module.results.use_custom_search_results_template is truthy and module.results.path_id ? content_by_id(module.results.path_id).absolute_url : site_settings.content_search_results_page_path %}
+
+{% unless (search_page is string_containing "//") %}
+  {% set search_page = "/" ~ search_page %}
+{% endunless %}
+
+{% set search_page = search_page|regex_replace("http:", "") %}
+
+{% set content_types = [
+  {
+    field_name: "website_pages",
+    content_type: "SITE_PAGE"
+  },
+  {
+    field_name: "landing_pages",
+    content_type: "LANDING_PAGE"
+  },
+  {
+    field_name: "blog_posts",
+    content_type: "BLOG_POST"
+  },
+  {
+    field_name: "listing_pages",
+    content_type: "LISTING_PAGE"
+  },
+  {
+    field_name: "knowledge_articles",
+    content_type: "KNOWLEDGE_ARTICLE"
+  },
+  {
+    field_name: "case_studies",
+    content_type: "HS_CASE_STUDY"
+  }
+] %}
+
+{% require_head %}
+  <script id="hs-search-input__valid-content-types" type="application/json">
+    [
+      {% for type in content_types %}
+        "{{ type.content_type }}"{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  </script>
+{% end_require_head %}
+
+<div class="hs-search-field">
+
+    <div class="hs-search-field__bar">
+      <form data-hs-do-not-collect="true" action="{{ search_page|escape_url }}">
+        {% if module.field_label %}
+          <label for="term">{{ module.field_label|sanitize_html }}</label>
+        {% endif %}
+        <input type="text" class="hs-search-field__input" name="term" autocomplete="off" aria-label="{{ module.field_label|escape_attr || "Search" }}" placeholder="{{ module.placeholder|escape_attr }}">
+
+        {% for type in content_types %}
+          {% if module.content_types[type.field_name] is truthy %}
+            <input type="hidden" name="type" value="{{ type.content_type }}">
+          {% endif %}
+        {% endfor %}
+
+        {% if module.include_search_button %}
+          <button aria-label="Search">{% icon name="search" style="solid" %}</button>
+        {% endif %}
+      </form>
+    </div>
+    <ul class="hs-search-field__suggestions"></ul>
+</div>

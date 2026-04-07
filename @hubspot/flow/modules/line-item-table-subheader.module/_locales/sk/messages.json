@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Podhlavička tabuľky riadkovej položky",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Opakujúce sa a jednorazové platby, ktoré majú splatnosť teraz.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Text podnadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Tento podnadpis sa zobrazuje, len keď existujú budúce platby.",
+    "description": "",
+    "placeholders": null
+  }
+}

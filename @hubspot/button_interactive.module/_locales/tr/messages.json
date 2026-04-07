@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Düğme (etkileşimli)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "Bağlantı URL'si",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "E-posta adresi",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Dosya",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Eylem çağrısını kapat",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "E-posta adresi",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefon numarası",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Dosya indir",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Toplantı bağlantısı",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Sayfalarınızdan biri",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Blog sayfalarınızdan biri",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Şuna bağla:",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Toplantı bağlantısı",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Bağlantıyı yeni sekmede aç",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Sayfa",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Renk",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Tıklandı",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Arka plan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Sınır",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Sınır",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Köşe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Düğmenize yuvarlak bir köşe ekleyin",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Yarıçap",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Renk",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Üzerine gelme arkaplanı",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Sınır",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Üzerine gelme Sınırı",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Üzerine gel",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Yazı tipi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Üzerine gelme Metni",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiller",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Yazı tipi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Metin",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Metin dolgusu",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Buraya bir düğme bağlantısı ekleyin",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Düğme metni",
+    "description": "",
+    "placeholders": null
+  }
+}

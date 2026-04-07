@@ -1,0 +1,77 @@
+{
+  "name": {
+    "message": "小计",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "在 {{ discount_amount }} 折扣后",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annual.default": {
+    "message": "年度",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.frequency_subtotal.default": {
+    "message": "{{ frequency_text }}小计",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "每周",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "每两周",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "每月",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "一次性",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "每 6 个月",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "每 3 年",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "每 2 年",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "每四年",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "每五年",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "季度",
+    "description": "",
+    "placeholders": null
+  },
+  "subtotal_title.default": {
+    "message": "小计",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "inline_help_text": {
+    "message": "আপনার সামাজিক মিডিয়া প্রোফাইল লিঙ্ক যোগ করুন। পুনরায় অর্ডার করতে ড্র্যাগ করুন। URL-এর উপর ভিত্তি করে আইকনগুলি অটো-পপুলেটেড, তবে সেগুলি ওভাররাইড করা যেতে পারে।",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "সোশ্যাল অনুসরণ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.label": {
+    "message": "সামাজিক মাধ্যমের লিংকগুলি",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.link.label": {
+    "message": "লিংক ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.open_in_new_window.label": {
+    "message": "নতুন উইন্ডোতে লিঙ্ক খুলুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.is_podcast.label": {
+    "message": "এই লিঙ্কটি একটি পডকাস্ট",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.is_podcast.inline_help_text": {
+    "message": "একটি ডিফল্ট বা কাস্টম আইকনের পরিবর্তে একটি &ldquo;podcast&rdquo; আইকন প্রদর্শন করতে এই বক্সটি টিক দিন।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_alt_text.label": {
+    "message": "Alt-টেক্সট কাস্টমাইজ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_alt_text.inline_help_text": {
+    "message": "Alt-টেক্সটি অটো-পপুলেটেড, কিন্তু এখানে ওভাররাইড করা যেতে পারে।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.aria_label.label": {
+    "message": "Aria লেবেল",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.aria_label.help_text": {
+    "message": "এই আইকনটি কী উপস্থাপিত করে তার একটি বিবরণ যেমন (Facebook-এ আমাদের অনুসরণ করুন)।এটি স্ক্রিন রিডারদের দ্বারা দৃষ্টি প্রতিবন্ধী ব্যবহারকারীদের কাছে আইকন বর্ণনা করতে ব্যবহার করা হয়।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_icon.label": {
+    "message": "কাস্টমাইজ আইকন",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_icon.inline_help_text": {
+    "message": "আইকনগুলি অটো-পপুলেটেড, তবে এখানে ওভাররাইড করা যেতে পারে। ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.custom_icon.label": {
+    "message": "কাস্টম আইকন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.facebook_link_aria_label.default": {
+    "message": "ফেসবুকে আমাদের অনুসরণ করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.twitter_link_aria_label.default": {
+    "message": "X-এ আমাদের অনুসরণ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.youtube_link_aria_label.default": {
+    "message": "YouTube-এ আমাদের সাবস্ক্রাইব করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.linkedin_link_aria_label.default": {
+    "message": "LinkedIn-এ আমাদের অনুসরণ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.instagram_link_aria_label.default": {
+    "message": "আমাদের Instagram এ অনুসরণ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pinterest_link_aria_label.default": {
+    "message": "Pinterest-এ আমাদের অনুসরণ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.website_link_aria_label.default": {
+    "message": "আমাদের ওয়েবসাইট পরিদর্শন করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.spotify_link_aria_label.default": {
+    "message": "Spotify-এ আমাদের কথা শুনুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.yelp_link_aria_label.default": {
+    "message": "Yelp-এ আমাদের পর্যালোচনা পড়ুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.soundcloud_link_aria_label.default": {
+    "message": "SoundCloud-এ আমাদের কথা শুনুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tiktok_link_aria_label.default": {
+    "message": "TikTok-এ আমাদের অনুসরণ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.github_link_aria_label.default": {
+    "message": "GitHub-এ আমাদের অনুসরণ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.podcast_link_aria_label.default": {
+    "message": "আমাদের পডকাস্ট শুনুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.email_link_aria_label.default": {
+    "message": "আমাদেরকে ইমেল করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.label": {
+    "message": "আইকন ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.label": {
+    "message": "আকার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-small": {
+    "message": "ছোট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-regular": {
+    "message": "মাঝারি",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-large": {
+    "message": "বড়",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.label": {
+    "message": "আকৃতি",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.none": {
+    "message": "none",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.square": {
+    "message": "বর্গাকার",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.rounded": {
+    "message": "গোলাকার",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.circle": {
+    "message": "বৃত্তাকর",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.label": {
+    "message": "লেআউট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.alignment.label": {
+    "message": "সরলরেখায় বিন্যাসকরণ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  }
+}

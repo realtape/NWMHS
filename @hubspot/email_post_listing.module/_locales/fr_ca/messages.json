@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Liste des publications",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Les plus populaires - les six derniers mois",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Les plus populaires - de tous les temps",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Les plus populaires - mois dernier",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Les plus populaires - année passée",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Les plus récents",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Liste des articles de blogue par",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Par défaut, le blogue actuel sera utilisé comme modèle de blogue ou comme blogue principal lorsqu'il est utilisé ailleurs.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Sélectionnez le blogue à afficher",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Nombre maximum d'articles de blogue à répertorier",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Messages récents",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Titre de la liste à afficher",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Ova je ponuda istekla",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Ponuda {{ personalization_token('quote.hs_quote_number', '') }} je istekla {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Obratite se <a href='#'>vašem prodajnom predstavniku</a> za više pojedinosti.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Učestalost naplate",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Jedinična cijena",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Cijena",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Proizvodi i usluge",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Količina",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Izvršni<br>sažetak",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Uvjeti i odredbe",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Komentari",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Prihvaćanje<br>projekta",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Podnaslov",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Naša<br> priča",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Sa strašću<br>obavljamo svoj posao",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Što naši klijenti<br>govore o nama",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Sažetak<br>projekta",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Naši ciljevi",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Izjava<br>o radu",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Procjena<br>projekta",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>Ugovor",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Spremno za",
+    "description": "",
+    "placeholders": null
+  }
+}

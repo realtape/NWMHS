@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "今すぐ支払う",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "支払いボタンのテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "お客様がこのボタンをクリックすれば支払うことができることを明示します。",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "チェックアウトのセットアップ時に問題が発生しました。この見積もりの送信者に連絡してください。",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "チェックアウトのエラーメッセージ",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "チェックアウトを開始できない場合の対応方法をお客様に伝えます。",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "見出しのレベルを選択します。H1が最大で、以降H2のように続きます",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "見出しのレベル",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "支払い",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "見出しコンテンツ",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "初回のお支払い：",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "お客様が初回の分割払いを行うまで、支払いボタンにこのラベルが表示されます。",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "支払いスケジュールのボタンテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "支払い",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "見積もりの署名が十分でないため、支払いを行うことができません。",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "署名が必要な場合の説明テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "支払い前に署名が必要な場合、全ての必須の署名がそろうまで顧客にこのメッセージが表示されます。",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "支払い済み",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "支払い済みテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "[[ paid_date ]]の[[ paid_time ]]に支払い済み",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "支払い処理",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "支払い処理テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "この見積もりの支払いステータスの読み込み時に問題が発生しました。ページの再読み込みをお試しください。",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "支払いステータスのエラーメッセージ",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "支払い状態の取得に失敗した場合にお客様にページを再読み込みするよう伝えます。",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "これはテスト見積もりなので、実際の支払いは回収できません。",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "このテンプレートを使用して見積もりを作成するときに支払いを回収するかどうかを決定できます。",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "注文確認を行うには、この見積もりの送信者にご連絡ください。",
+    "description": "",
+    "placeholders": null
+  }
+}

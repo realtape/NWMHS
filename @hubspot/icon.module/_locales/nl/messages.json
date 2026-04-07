@@ -1,0 +1,132 @@
+{
+  "accessibility_options.label": {
+    "message": "Toegankelijkheidsopties",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.decorative": {
+    "message": "Decoratief: genegeerd door schermlezer",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.semantic": {
+    "message": "Informatief: gelezen door schermlezer",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.help_text": {
+    "message": "Categoriseer het doel van dit pictogram voor schermlezers. <a href='https://www.w3.org/WAI/tutorials/images/' target='_blank' rel='noopener noreferrer'>Meer informatie</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.label": {
+    "message": "Doel",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.help_text": {
+    "message": "Deze tekst wordt gelezen door schermlezers om het pictogram te beschrijven.",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.label": {
+    "message": "Beschrijving",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Pictogram",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Uitlijning",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Uitlijning",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Achtergrond",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Hoek",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.custom": {
+    "message": "Aangepast",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.round": {
+    "message": "Rond",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.square": {
+    "message": "Vierkant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.label": {
+    "message": "Vullen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stijlen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.label": {
+    "message": "Grootte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.size.label": {
+    "message": "Grootte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Afstand",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Afstand",
+    "description": "",
+    "placeholders": null
+  }
+}

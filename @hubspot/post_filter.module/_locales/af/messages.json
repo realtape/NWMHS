@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Plasingsfilter",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Sien alles",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Teks wat moet wys as meer as die maksimum waarde beskikbaar is wat moet wys. Los oop om skakel weg te laat",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Die verstekkeuse sal die huidige blog in 'n blogsjabloon gebruik, of die primêre blog as dit elders gebruik word.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Kies blog om te wys",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maksimum getal filterwaardes om te wys",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Soek",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Lys waardes vir filterskakels",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Etikette",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Outeurs",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Maande",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Plasings volgens etiket",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Lystitel om te wys",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Naam",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Plasingtelling",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Soek",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Rangskikking van waardes vir filterskakels",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Wys alle filters",
+    "description": "",
+    "placeholders": null
+  }
+}

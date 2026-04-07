@@ -1,0 +1,57 @@
+{
+  "name": {
+    "message": "Vidéo",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.label": {
+    "message": "Type de vidéo",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.embed": {
+    "message": "Incorporer",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.hubspot_video": {
+    "message": "Vidéo HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "hubspot_video.label": {
+    "message": "Vidéo HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "embed_field.label": {
+    "message": "Incorporer",
+    "description": "",
+    "placeholders": null
+  },
+  "oembed_thumbnail.label": {
+    "message": "Vignette personnalisée",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.label": {
+    "message": "Options de style",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.oembed_thumbnail_play_button_color.label": {
+    "message": "Couleur du bouton de lecture",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_title.default": {
+    "message": "Aucune vidéo sélectionnée",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_description.default": {
+    "message": "Sélectionnez un type de vidéo dans la barre latérale.",
+    "description": "",
+    "placeholders": null
+  }
+}

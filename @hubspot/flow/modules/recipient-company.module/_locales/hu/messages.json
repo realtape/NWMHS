@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Címzett vállalat",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.default": {
+    "message": "Készült a következő részére:",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.label": {
+    "message": "Címzett vállalat szöveg",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_address.label": {
+    "message": "Címzett vállalat címe",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_city_state_zip.label": {
+    "message": "Címzett vállalat városa, állama és irányítószáma",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_country.label": {
+    "message": "Címzett vállalat országa",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_name.label": {
+    "message": "Címzett vállalat neve",
+    "description": "",
+    "placeholders": null
+  }
+}

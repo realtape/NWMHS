@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "总计",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "现在到期",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "这用于当报价有未来付款时标记报价总额。",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "现在到期文本",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "总计",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "总计文本",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "合同总价值",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "自定义文本以准确描述此值。（如果没有设置条件，默认为年度值。）",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "合同总价值文本",
+    "description": "",
+    "placeholders": null
+  }
+}

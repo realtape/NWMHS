@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Rubrik",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "En klar och tydlig rubrik",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Rubrikinnehåll",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Välj en rubriknivå. H1 är störst och följs av H2 osv.",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Välj typ av rubrik",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Rubriknivå",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Dölj titelns nivåkontroller",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Om du döljer titelns nivåkontroller hindras titelns nivå från att ändras i innehållsverktyg",
+    "description": "",
+    "placeholders": null
+  }
+}

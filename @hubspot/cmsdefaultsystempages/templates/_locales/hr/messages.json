@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Stranica nije pronađena",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Ne možemo pronaći stranicu koju tražite.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Idi na početnu stranicu",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Ova stranica ne radi",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Došlo je do interne pogreške poslužitelja, no radimo na tome!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Idi na početnu stranicu",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Logotip tvrtke",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Ažurirane su vaše željene postavke e-pošte.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Uspješno ste se odjavili sa svih poruka e-poštom.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Ažurirane su vaše željene postavke e-pošte.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "Ažuriraj željene postavke e-pošte za",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Odaberite koju e-poštu želite primati od tvrtke{{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Odaberite e-poštu koju želite primati s adrese {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Odaberite jezik:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Ažurirajte preference e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Otkaži pretplatu na svu e-poštu",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Ako ovo nije vaša adresa, vjerojatno vam je neka druga osoba proslijedila e-poštu i možete zanemariti ovu poruku.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Trenutačno ste odjavljeni od primanja svih naših poruka e-pošte. Želite li ponovno primati naše poruke e-pošte?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Da, ponovno me pretplati!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Potrebna je lozinka",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Unesite svoju lozinku da biste prikazali ovu stranicu.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Lozinka",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Rezultati pretraživanja za „[[search_term]]”",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Žao nam je, nemate pristup",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Nemate dopuštenje za prikaz ove stranice. Za sva pitanja obratite se administratoru web-mjesta.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Idi na početnu stranicu",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Prijavi se",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Stranica koju pokušavate prikazati dostupna je samo registriranim korisnicima.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "E-pošta",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Lozinka",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Zapamti me",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Zaboravili ste lozinku?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Prijavi se",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Prikaži",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Imate poteškoća? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obratite se administratoru web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Odjavljeni ste",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Prijavite se ponovno",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Ili se vratite na <a href=\"{{ '//' ~ request.domain }}\">početnu stranicu</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Postavite lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Dobro došli! Dovršite svoju registraciju tako da postavite lozinku.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "E-pošta",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Potvrdi lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Lozinka",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Spremi lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Prikaži",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Imate poteškoća? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obratite se administratoru web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Ponovno postavite lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Unesite adresu e-poštu koju ste upotrijebili za registraciju i poslat ćemo vam e-poštu s poveznicom za ponovno postavljanje lozinke.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "E-pošta",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Pošalji poruku e-pošte za ponovno postavljanje",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Je li vam se upravo vratilo? <a href=\"/_hcms/mem/login\">Prijavite se</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Imate poteškoća? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obratite se administratoru web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "Poslana je e-pošta za ponovno postavljanje lozinke",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Ako je pronađen odgovarajući račun za {{ user_email }}, poslana je poruka e-pošte sa sljedećim koracima za ponovno postavljanje lozinke. <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Kontaktirajte svog administratora</a> ako je ne primite unutar 20 minuta.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Pošalji drugu e-poštu za ponovno postavljanje",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Stvori novu lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Vaša nova lozinka mora se razlikovati od vaše prethodne lozinke.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Nova lozinka",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Potvrdi novu lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Spremi lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Prikaži",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Imate poteškoća? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obratite se administratoru web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Vaša je adresa e-pošte potvrđena",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Hvala što ste potvrdili svoju adresu e-pošte. Sada se možete prijaviti u svoj račun i pristupiti ekskluzivnom sadržaju.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Prijavi se",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Imate poteškoća? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obratite se administratoru web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Poslana je jednokratna poveznica za prijavu",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Poslali smo vam e-poštu na {{ user_email }}. Sadržava poveznicu putem koje ćete se prijaviti.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Ako ne možete vidjeti e-poštu, provjerite pretinac neželjene pošte.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Ponovno pošalji poveznicu za prijavu",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "ili",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Prijavi se lozinkom umjesto toga",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Imate poteškoća? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obratite se administratoru web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Potvrdite svoju adresu e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Hvala na registraciji! Provjerite svoju e-poštu i kliknite poveznicu za potvrdu da biste dovršili svoju registraciju.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Imate poteškoća? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obratite se administratoru web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Stvorite lozinku da biste dovršili registraciju",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Posljednji korak! Kada stvorite svoju sigurnu lozinku moći ćete se prijaviti i pristupiti sadržaju na {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Stvori lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Možete također kopirati i zalijepiti ovu poveznicu u preglednik:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Ako imate pitanja ili ste ovo primili greškom, <a href=\"{{ membership_website_admin }}\">kontaktirajte administratora ovog web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Ponovno postavite lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Postavite novu lozinku i prijavite se u svoj račun.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Ponovno postavi lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Ako niste podnijeli ovaj zahtjev, možete zanemariti ovu e-poštu.<br/>Ako imate pitanja, <a href=\"{{ membership_website_admin }}\">kontaktirajte administratora ovog web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Prijavi se putem jednokratne poveznice",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Nastavite s prijavom na račun. Radi vaše sigurnosti, ova poveznica istječe za 15 minuta.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Prijavi se",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Možete također kopirati i zalijepiti ovu poveznicu u preglednik:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Ako niste podnijeli ovaj zahtjev, možete zanemariti ovu e-poštu.<br/>Ako imate pitanja, <a href=\"{{ membership_website_admin }}\">kontaktirajte administratora ovog web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Vaša lozinka za {{ membership_company_name }} uspješno je promijenjena",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Niste mislili izvršiti promjenu? Upotrijebite obrazac za <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">zaboravljenu lozinku</a> da biste odmah ponovno postavili lozinku.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Ako imate pitanja, kontaktirajte <a href=\"{{ membership_website_admin }}\"> administratora web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Vaša je registracija dovršena",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Hvala na registraciji! Sada se možete prijaviti za pristup i otključavanje još više sadržaja.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Prijavite se u svoj novi račun",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Ako imate pitanja ili ste ovo primili greškom, <a href=\"{{ membership_website_admin }}\">kontaktirajte administratora ovog web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Dobro došli u {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Dovršite svoju registraciju tako da izradite sigurnu lozinku za svoj račun.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Stvori lozinku",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Možete također kopirati i zalijepiti ovu poveznicu u preglednik:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Ako imate pitanja ili ste ovo primili greškom, <a href=\"{{ membership_website_admin }}\">kontaktirajte administratora ovog web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Potvrdite svoju adresu e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Hvala na registraciji! Morat ćete potvrditi svoju adresu e-pošte da biste dovršili registraciju za {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Potvrdi adresu e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Ako imate pitanja ili ste ovo primili greškom, <a href=\"{{ membership_website_admin }}\">kontaktirajte administratora ovog web-mjesta</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Potvrdite zahtjev za brisanjem",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Potvrdite zahtjev za brisanjem",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Zdravo {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Primili smo zahtjev za brisanjem vaših osobnih podataka iz tvrtke {{ company_name }} na datum:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Uređaj:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Datum i vrijeme:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Kako bismo mogli obraditi vaš zahtjev, potvrdite da želite izbrisati svoje podatke.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Da, izbrišite moje podatke",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Ova će poveznica isteći za 30 minuta.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Ako niste poslali zahtjev za brisanjem, možete zanemariti ovu poruku.",
+    "description": "",
+    "placeholders": null
+  }
+}

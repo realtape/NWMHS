@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Celkem",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Okamžitá splatnost",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Používá se k označení celkové nabídky, když jsou u nabídky budoucí platby.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Text k okamžité splatnosti",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Celkem",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Celkový text",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Celková smluvní hodnota",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Upravte text, aby přesně popisoval tuto hodnotu. (Pokud nejsou nastaveny žádné podmínky, výchozí hodnotou je roční hodnota.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Text k celkové smluvní hodnotě",
+    "description": "",
+    "placeholders": null
+  }
+}

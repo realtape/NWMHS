@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "مبدل اللغة",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "مختلط",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "مترجَم",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "لغة الصفحة",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "لغة النص في مبدل اللغة. يشير مصطلح \"لغة الصفحة\" إلى أن أسماء اللغات ستظهر بلغة الصفحة التي تحتوي على المبدل. ويشير مصطلح \"مترجَم\" إلى أن اسم كل لغة سيتم عرضه بتلك اللغة. أما مصطلح \"مختلط\"، فيعتبر مزيجًا من الخيارين.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "وضع العرض",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "بحث",
+    "description": "",
+    "placeholders": null
+  }
+}

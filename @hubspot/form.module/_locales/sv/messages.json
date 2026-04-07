@@ -1,0 +1,62 @@
+{
+  "follow_up_type_automation.label": {
+    "message": "Lägg till arbetsflöde",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.label": {
+    "message": "Skicka ett uppföljningsmeddelande via e-post",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.help_text": {
+    "message": "För att skicka uppföljningsmejl, se till att \"Ställ in kontakter skapade som marketingkontakter\" är aktiverat. Du kan hantera detta i alternativ. <a href='https://knowledge.hubspot.com/contacts/set-contacts-as-marketing#set-the-default-marketing-status-for-new-contacts'>Läs mer</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "form.default.message": {
+    "message": "Tack att du skickade in formuläret.",
+    "description": "",
+    "placeholders": null
+  },
+  "form.label": {
+    "message": "Formulär",
+    "description": "",
+    "placeholders": null
+  },
+  "form_follow_ups_workflow_id.label": {
+    "message": "Arbetsflöde",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Formulär",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_are_overridden.label": {
+    "message": "Skicka formulärsmeddelande till specifika e-postadresser istället för formulärens standardinställningar",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_override_email_addresses.label": {
+    "message": "E-postadresser",
+    "description": "",
+    "placeholders": null
+  },
+  "sfdc_campaign.label": {
+    "message": "Salesforce-kampanj",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Formulärets titel",
+    "description": "",
+    "placeholders": null
+  },
+  "simple_email_for_live_id.label": {
+    "message": "E-post",
+    "description": "",
+    "placeholders": null
+  }
+}

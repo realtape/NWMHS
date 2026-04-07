@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Galerie obrázků",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Popisek",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Snímek",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Odkaz otevřít v nové záložce",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Zobrazit popisek",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Adresa URL odkazu",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Obrázek",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Proměnná výška",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Pevná výška",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Proměnná výška",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Zobrazit navigační tlačítka",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Navigace s miniaturami",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standardní posuvník",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galerie s efektem lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Režim zobrazení",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Cyklovat snímky",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Zobrazovat popisky na obrázcích",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Popisky zobrazovat vždy pod obrázky",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Umístění popisku",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Čas v sekundách před automatickým posunutím",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Prolnout",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Snímek",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Přechody snímků",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Počet řádků v galerii s efektem lightbox",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Automatický přechod na další",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Tento modul byl nahrazen dvěma novými, vylepšenými moduly: Image Slider, a Image Grid. <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Přečtěte si další informace.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

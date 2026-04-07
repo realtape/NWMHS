@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "구독 확인 메시지",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "이메일 기본 설정을 업데이트했습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "구독 업데이트 메시지",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "부제목",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "귀하의 이메일 주소가 아닌 경우에는 이 페이지를 무시하십시오. 이 페이지와 연결된 이메일이 귀하에게 전달되었을 가능성이 큽니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "모든 이메일 구독을 취소했습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "구독 취소 메시지",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "제목 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "제목",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "기본 설정 버튼 설명 관리",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "기본 설정 관리",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "기본 설정 환불 면책 조항 관리",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "실수하셨나요? 걱정하지 마세요. 환경 설정을 변경할 수 있습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "단일 구독 구독 취소 성공 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "다음을 성공적으로 구독 취소했습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "구독 자리 표시자 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "선택한 구독 유형",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "헤더 제목 수준",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "제목 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "제목 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "제목 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "제목 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "제목 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "제목 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "이메일 제목 수준",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "제목 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "제목 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "제목 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "제목 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "제목 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "제목 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "단락",
+    "description": "",
+    "placeholders": null
+  }
+}

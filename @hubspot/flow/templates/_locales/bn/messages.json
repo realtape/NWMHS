@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "এই উদ্ধৃতির মেয়াদ শেষ হয়েছে",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "{{ personalization_token('quote.hs_quote_number', '') }}কোট {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}মেয়াদোত্তীর্ণ হয়েছে। ",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "আরো বিস্তারিত জানার জন্য আপনার <a href='#'>বিক্রয় প্রতিনিধির</a> সাথে অনুগ্রহ করে যোগাযোগ করুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "বিলিং ফ্রিকোয়েন্সি",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "একক দাম",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "দাম ",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "প্রোডাক্ট এবং পরিষেবা",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "পরিমাণ",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "কার্যনির্বাহী <br> সারাংশ",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "শর্তাবলী",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "মন্তব্য",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "প্রজেক্ট <br> গ্রহণ",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "সাবহেড",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "আমাদের <br>গল্প",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "আমরা যা করি তার বিষয়ে আবেগপ্রবণ হই<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "আমাদের ক্লায়েন্টরা <br>আমাদের সম্পর্কে কি বলছেন",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "প্রজেক্টের <br> সারসংক্ষেপ",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "আমাদের লক্ষ্য",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "কাজের বিবৃতি <br>",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "প্রজেক্টের <br> হিসাব",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>চুক্তি",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "জন্য প্রস্তুত",
+    "description": "",
+    "placeholders": null
+  }
+}

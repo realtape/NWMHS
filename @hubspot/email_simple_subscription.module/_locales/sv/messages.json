@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Avregistrera från säkerhetskopiering",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Knapptext",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Avsluta prenumerationen",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Avregistrera e-post",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Rubrik",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Ange platshållartext för e-post",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Din e-postadress:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Hjälptext för e-post",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Felmeddelande",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Det uppstod problem när sidan skulle laddas. Försök använda samma länk från ett nyare e-postmeddelande eller kontakta företaget för att uppdatera dina prenumerationspreferenser.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Underrubrik",
+    "description": "",
+    "placeholders": null
+  }
+}

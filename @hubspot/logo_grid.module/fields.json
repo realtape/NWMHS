@@ -1,0 +1,187 @@
+[
+  {
+    "type": "group",
+    "children": [
+      {
+        "name": "logo",
+        "label": "Logo",
+        "show_loading": true,
+        "type": "image",
+        "default": {
+          "src": "./img/snackzo_logo.png",
+          "loading": "lazy"
+        },
+        "responsive": true,
+        "resizable": false
+      }
+    ],
+    "name": "group_logos",
+    "label": "Logos",
+    "occurrence": {
+      "min": 1,
+      "max": null,
+      "default": 4
+    }
+  },
+  {
+    "type": "group",
+    "children": [
+      {
+        "type": "group",
+        "children": [
+          {
+            "name": "max_logo_height",
+            "label": "Max logo height",
+            "display": "slider",
+            "type": "number",
+            "help_text": "Sets the maximum height of the logos.<br><br>Setting a max logo height is best when trying to make multiple logos of drastically different dimensions visually equal in size.",
+            "required": true,
+            "min": 20,
+            "max": 150,
+            "suffix": "px",
+            "default": 75
+          },
+          {
+            "type": "group",
+            "children": [
+              {
+                "name": "aspect_ratio",
+                "label": "Aspect ratio",
+                "display": "select",
+                "choices": [
+                  [
+                    "1/1",
+                    "1:1"
+                  ],
+                  [
+                    "4/3",
+                    "4:3"
+                  ],
+                  [
+                    "16/9",
+                    "16:9"
+                  ]
+                ],
+                "type": "choice",
+                "default": null,
+                "help_text": "Set aspect ratio of logo container. Most useful if you are using the background color field and are using logos of drastically different dimensions."
+              },
+              {
+                "name": "background_color",
+                "label": "Background color",
+                "type": "color"
+              }
+            ],
+            "name": "group_background",
+            "label": "Background"
+          },
+          {
+            "type": "group",
+            "children": [
+              {
+                "name": "padding",
+                "label": "Spacing",
+                "type": "spacing",
+                "required": true,
+                "help_text": "Set padding around the logo.",
+                "visibility": {
+                  "hidden_subfields": {
+                    "margin": true
+                  }
+                },
+                "limits": {
+                  "padding": {
+                    "top": {
+                      "min": 0,
+                      "max": 75,
+                      "units": [
+                        "px"
+                      ]
+                    },
+                    "left": {
+                      "min": 0,
+                      "max": 75,
+                      "units": [
+                        "px"
+                      ]
+                    },
+                    "bottom": {
+                      "min": 0,
+                      "max": 75,
+                      "units": [
+                        "px"
+                      ]
+                    },
+                    "right": {
+                      "min": 0,
+                      "max": 75,
+                      "units": [
+                        "px"
+                      ]
+                    }
+                  }
+                },
+                "default": {
+                  "padding": {
+                    "top": {
+                      "value": 0
+                    },
+                    "bottom": {
+                      "value": 0
+                    },
+                    "left": {
+                      "value": 0
+                    },
+                    "right": {
+                      "value": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "name": "group_spacing",
+            "label": "Spacing"
+          }
+        ],
+        "name": "group_logo",
+        "label": "Logo image",
+        "inline_help_text": "Due to the responsive nature of web, the rendered height of the logos might be less than the set value based on a combination of screen size, original image size, logo padding, grid gap, and column count."
+      },
+      {
+        "type": "group",
+        "children": [
+          {
+            "name": "grid_gap",
+            "label": "Grid gap",
+            "display": "slider",
+            "type": "number",
+            "help_text": "Set the spacing between grid items.<br><br>Setting a background in <strong>Logo image > Background</strong> may help you visualize the logo grid.",
+            "required": true,
+            "suffix": "px",
+            "max": 75,
+            "min": 0,
+            "default": 30
+          },
+          {
+            "name": "column_count",
+            "label": "Grid column count",
+            "display": "slider",
+            "type": "number",
+            "help_text": "Set the amount of columns in the grid on desktop. Defaults to 1 on mobile.",
+            "default": 4,
+            "required": true,
+            "min": 1,
+            "max": 6,
+            "placeholder": 4
+          }
+        ],
+        "name": "group_logo_grid",
+        "label": "Logo grid",
+        "help_text": "Setting a background color in <strong>Logo image > Background</strong> may help you visualize the logo grid. "
+      }
+    ],
+    "name": "styles",
+    "label": "Styles",
+    "tab": "STYLE"
+  }
+]

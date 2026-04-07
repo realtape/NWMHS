@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Tilausasetukset",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Päivitä asetusten painiketeksti",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Päivitä sähköpostiasetukset",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Viestintäasetukset",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Yläotsikko",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Alaotsikko",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Jos tämä ei ole sähköpostiosoitteesi, älä huomioi tätä sivua, sillä tähän sivuun liittyvä sähköpostiviesti todennäköisesti välitettiin sinulle.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Kyllä, haluan tilata uudelleen!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Uudelleentilauspainikkeen teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Peru kaikki -merkintä",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Poista minut kaikilta sähköpostilistoilta.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Ota valinta pois valintaruuduista, joiden sisältämiä sähköpostityyppejä et halua vastaanottaa:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Asetusvalinnan ohjeteksti",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Tai valitse tämä valintaruutu, jos et halua vastaanottaa mitään sähköpostiviestejä:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Lopeta kaikkien ohjetekstien tilaaminen",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Lopeta kaikkien ohjetekstien tilaaminen käyttäjälle, joka on lopettanut tilauksen",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Et ole tällä hetkellä millään sähköpostilistallamme. Haluatko jälleen vastaanottaa sähköpostiviestejämme?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Yksittäisen tilauksen painiketeksti",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Peruuta tilaus",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Yksittäisen tilauksen vahvistusteksti",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Haluatko perua sähköpostitilaukset seuraavista aiheista:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Yksittäisen tilauksen esimerkkinimi",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "valittu tilaustyyppi",
+    "description": "",
+    "placeholders": null
+  }
+}

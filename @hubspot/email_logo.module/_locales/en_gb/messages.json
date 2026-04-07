@@ -1,0 +1,62 @@
+{
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Choose a heading level. H1 is the largest, followed by H2, and so on",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Heading level",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "If no URL has been specified, your logo will link to your primary domain",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "Link URL",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Open link in new tab when visitors click",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,20 @@
+.hs-whatsapp-button-wrapper {
+  display: inline-block;
+}
+
+.hs-whatsapp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.hs-whatsapp-button__icon {
+  display: flex;
+  height: 2rem;
+}
+
+.hs-whatsapp-button__text {
+  display: flex;
+}

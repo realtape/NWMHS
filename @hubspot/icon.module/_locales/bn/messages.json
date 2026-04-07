@@ -1,0 +1,132 @@
+{
+  "accessibility_options.label": {
+    "message": "অ্যাক্সেসযোগ্যতার বিকল্পগুলি",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.decorative": {
+    "message": "আলংকারিক - স্ক্রিন রিডার দ্বারা উপেক্ষিত",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.semantic": {
+    "message": "তথ্যপূর্ণ - স্ক্রিন রিডার দ্বারা পড়ুন",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.help_text": {
+    "message": "স্ক্রিন রিডারদের জন্য এই আইকনের উদ্দেশ্য শ্রেণীবদ্ধ করুন। <a href='https://www.w3.org/WAI/tutorials/images/' target='_blank' rel='noopener noreferrer'>আরও জানুন</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.label": {
+    "message": "উদ্দেশ্য",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.help_text": {
+    "message": "আইকনটির বর্ণনা দিতে এই লেখাটি স্ক্রিন রিডাররা পড়বে।",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.label": {
+    "message": "বর্ননা",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "আইকন ",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "আইকন ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "সরলরেখায় বিন্যাসকরণ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "সরলরেখায় বিন্যাসকরণ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "কোণ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "ব্যাসার্ধ ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.custom": {
+    "message": "কাস্টম",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.round": {
+    "message": "রাউন্ড",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.square": {
+    "message": "স্কোয়ার",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.label": {
+    "message": "শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.label": {
+    "message": "পূরণ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.label": {
+    "message": "আকার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.size.label": {
+    "message": "আকার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  }
+}

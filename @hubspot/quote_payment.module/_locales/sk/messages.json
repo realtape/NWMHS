@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Zaplatiť",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Text tlačidla platby",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Jasne uveďte, že kliknutím na toto tlačidlo umožní vášmu zákazníkovi zaplatiť.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Pri nastavovaní dokončenia platby sa vyskytol problém. Kontaktujte osobu, ktorá vám túto cenovú ponuku odoslala.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Chybové hlásenie dokončenia platby",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Povedzte zákazníkovi, čo robiť, keď dôjde k problému pri spúšťaní platenia.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Vyberte úroveň nadpisu. H1 je najvyššia, po nej nasleduje H2 atď.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Úroveň nadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Platba",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Obsah nadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Vykonajte prvú platbu:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Váš zákazník to uvidí na tlačidle platby, kým nezaplatí prvú splátku.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Text tlačidla pre harmonogramy platieb",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Platba",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Platbu nemožno uskutočniť, pretože cenová ponuka nie je úplne podpísaná.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Vysvetľujúci text, keď sú potrebné podpisy",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Ak sa pred platbou vyžadujú podpisy, váš zákazník uvidí túto správu, kým sa nevykonajú všetky požadované podpisy.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Zaplatené",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Text zaplatenia",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Zaplatené o [[ paid_time ]] dňa [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Spracúvanie platby",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Text spracúvania platby",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Pri načítaní stavu platby pre túto cenovú ponuku sa vyskytol problém. Skúste znova načítať stránku.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Chybové hlásenie stavu platby",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Povedzte zákazníkovi, aby obnovil stránku, keď načítanie stavu platby zlyhá.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Ide o skúšobnú cenovú ponuku, takže nemôžeme zbierať skutočné platby.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Pri vytváraní cenovej ponuky pomocou tejto šablóny sa môžete rozhodnúť, či chcete získať platbu.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Ak chcete dokončiť platbu, kontaktujte osobu, ktorá vám poslala túto ponuku.",
+    "description": "",
+    "placeholders": null
+  }
+}

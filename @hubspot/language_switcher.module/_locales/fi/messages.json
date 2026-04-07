@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Kielen vaihto",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybridi",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Lokalisoitu",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "PageLang",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Tekstin kieli kielivalitsimessa: PageLangilla tarkoitetaan niitä kielten nimiä, jotka näkyvät valitsimessa sivuston alkuperäisellä kielellä. Lokalisoidulla vaihtoehdolla tarkoitetaan, että kunkin kielen nimi näkyy kyseisellä kielellä. Hybridivaihtoehto on näiden kahden yhdistelmä.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Näkymätila",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Hae",
+    "description": "",
+    "placeholders": null
+  }
+}

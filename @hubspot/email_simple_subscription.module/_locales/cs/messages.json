@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Záložní odhlášení odběru",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Text tlačítka",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Odhlásit se z odběru",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Odhlášení odběru e-mailů",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Nadpis",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Zástupný text pro zadání e-mailu",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Vaše e-mailová adresa",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Text nápovědy k zadání e-mailu",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Chybová zpráva",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Při načítání stránky došlo k problému. Zkuste použít stejný odkaz z novějšího e-mailu nebo kontaktujte společnost a požádejte o aktualizaci předvoleb odběrů.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Podnadpisy",
+    "description": "",
+    "placeholders": null
+  }
+}

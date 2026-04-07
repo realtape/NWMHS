@@ -1,0 +1,74 @@
+{% if module.link.url.type is equalto "PAYMENT" %}
+  {% set query_param = "?referrer=CMS_MODULE_NEWTAB" %}
+{% else %}
+  {% set query_param = "" %}
+{% endif %}
+
+{% if module.link.url.type is equalto "EMAIL_ADDRESS" %}
+  {% set href = "mailto:" ~ module.link.url.href %}
+{% else %}
+  {% unless (module.link.url.href is string_containing "//")
+    or (!module.link is string_startingwith "tel:")
+    or !module.link.url.href
+  %}
+    {% set href = "//" ~ module.link.url.href ~ query_param %}
+  {% else %}
+    {% set href = module.link.url.href ~ query_param %}
+  {% endunless %}
+{% endif %}
+
+{% set rel = (module.link.open_in_new_tab ? "noopener " : null) ~ (module.link.no_follow ? "nofollow" : null) %}
+<a class="hs-button"
+  {% if module.link.url.type is equalto "CALL_TO_ACTION"  %}
+    href="{{ href }}" {# The href here is not escaped as it is not editable and functions as a JavaScript call to the associated CTA #}
+  {% else %}
+    href="{{ href ? href|escape_url : "" }}"
+  {% endif %}
+  id="hs-button_{{ name|escape_attr }}"
+  {% if module.link.open_in_new_tab %}target="_blank"{% endif %}
+  rel="{{ rel|escape_attr }}">
+  {{ module.button_text }}
+</a>
+
+{% if module.style.override_default_style %}
+  {% require_css %}
+    <style>
+      #hs-button_{{ name }} {
+        {% if module.style.horizontal_padding != null or module.style.vertical_padding != null %}
+          {#-
+            Failsafe: when padding is added the display will change to prevent overflowing buttons
+            if two buttons are placed on top one another.
+           -#}
+          display: inline-block;
+        {% endif %}
+        background-color: rgba({{ module.style.button_color.color|convert_rgb }},{{ module.style.button_color.opacity / 100 }});
+        color: {{ module.style.button_font.color }};
+        {% if module.style.button_font.size %}
+        font-size: {{ module.style.button_font.size }}{{ module.style.button_font.size_unit }};
+        {% endif %}
+        {{ module.style.button_font.style }};
+        {% if module.style.vertical_padding != null  %}
+          padding-top: {{ module.style.vertical_padding ~ 'px' }};
+          padding-bottom: {{ module.style.vertical_padding ~ 'px' }};
+        {% endif %}
+        {% if module.style.horizontal_padding != null  %}
+          padding-left: {{ module.style.horizontal_padding ~ 'px' }};
+          padding-right: {{ module.style.horizontal_padding ~ 'px' }};
+        {% endif %}
+      }
+      #hs-button_{{ name }}:hover {
+        background-color: rgba({{ module.style.button_hover_color.color|convert_rgb }},{{ module.style.button_hover_color.opacity / 100 }});
+        color: rgba({{ module.style.text_hover_color.color|convert_rgb }},{{ module.style.text_hover_color.opacity / 100 }});
+        {% if module.style.vertical_padding != null  %}
+          padding-top: {{ module.style.vertical_padding ~ 'px' }};
+          padding-bottom: {{ module.style.vertical_padding ~ 'px' }};
+        {% endif %}
+        {% if module.style.horizontal_padding != null  %}
+          padding-left: {{ module.style.horizontal_padding ~ 'px' }};
+          padding-right: {{ module.style.horizontal_padding ~ 'px' }};
+        {% endif %}
+
+      }
+    </style>
+  {% end_require_css %}
+{% endif %}

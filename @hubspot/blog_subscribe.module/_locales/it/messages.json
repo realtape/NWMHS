@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Abbonamento e-mail di blog",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "L'impostazione predefinita userà il blog corrente quando usata in un modello di blog o il blog principale quando usata altrove.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Seleziona il blog da visualizzare",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Iscriviti qui!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Titolo da visualizzare sopra il modulo",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Risposta incorporata per gli utenti",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Grazie per esserti iscritto!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Affinché venga visualizzato il form di abbonamento al blog, devi attivare gli abbonamenti per il tuo blog. Puoi farlo nelle impostazioni. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Scopri di più</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Livello titolo",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Scegli un livello per il titolo. I titoli devono essere nidificati in modo gerarchico in base ai contenuti. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Ulteriori informazioni</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

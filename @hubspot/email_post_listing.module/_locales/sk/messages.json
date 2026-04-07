@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Zverejniť záznam",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Najobľúbenejšie – posledných šesť mesiacov",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Najobľúbenejšie – celkovo",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Najobľúbenejšie – posledný mesiac",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Najobľúbenejšie – posledný rok",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Najnovšie",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Zobraziť zoznam blogových príspevkov používateľa",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Predvolená možnosť použije aktuálny blog pri použití v šablóne blogu alebo hlavný blog pri použití inde.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Vyberte blog na zobrazenie",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximálny počet blogových príspevkov na zobrazenie v zozname",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Nedávne príspevky",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Názov zoznamu na zobrazenie",
+    "description": "",
+    "placeholders": null
+  }
+}

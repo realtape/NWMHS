@@ -1,0 +1,401 @@
+<!--
+  templateType: quote
+  isAvailableForNewContent: false
+  label: Credit Memo
+  screenshotPath: ../images/basic.png
+-->
+{% extends './layouts/base_creditMemo.html' %}
+
+{% block body %}
+
+{% set FEATURE_FLAGS = QUOTE.associated_objects.feature_flags|default({}) %}
+
+{% if FEATURE_FLAGS.tax_assessment_enabled %}
+  {% set LINE_ITEMS_WITH_TAX_ASSESSED = QUOTE.associated_objects.line_items|selectattr("hs_tax_assessed", "equalto", true)|list %}
+  {% set SHOULD_DISPLAY_LINE_ITEM_TAXES = LINE_ITEMS_WITH_TAX_ASSESSED|length > 0 %}
+{% else %}
+  {% set SHOULD_DISPLAY_LINE_ITEM_TAXES = TOTALS.tax_total is number %}
+{% endif %}
+
+{% if FEATURE_FLAGS.tax_assessment_enabled %}
+  {% set TAXABLE_LINE_ITEMS = QUOTE.associated_objects.line_items|selectattr("hs_tax_assessed", "equalto", true)|list %}
+{% else %}
+  {% set TAXABLE_LINE_ITEMS = QUOTE.associated_objects.line_items|selectattr("hs_tax_amount", "number")|list %}
+{% endif %}
+{% set MAYBE_SHARED_TAX_LABEL = (TAXABLE_LINE_ITEMS|first).hs_tax_label %}
+{% set MAYBE_SHARED_TAX_RATE = (TAXABLE_LINE_ITEMS|first).hs_tax_rate %}
+
+{% set LINE_ITEMS_WITH_SHARED_TAX_LABEL = TAXABLE_LINE_ITEMS|selectattr("hs_tax_label", "equalto", MAYBE_SHARED_TAX_LABEL)|list %}
+{% set LINE_ITEMS_WITH_SHARED_TAX_RATE = TAXABLE_LINE_ITEMS|selectattr("hs_tax_rate", "equalto", MAYBE_SHARED_TAX_RATE)|list %}
+
+{% set HAS_SHARED_TAX_LABEL = TAXABLE_LINE_ITEMS|length > 0 and TAXABLE_LINE_ITEMS|length == LINE_ITEMS_WITH_SHARED_TAX_LABEL|length %}
+{% set HAS_SHARED_TAX_RATE = TAXABLE_LINE_ITEMS|length > 0 and TAXABLE_LINE_ITEMS|length == LINE_ITEMS_WITH_SHARED_TAX_RATE|length %}
+
+{% set quote_company = {
+  name: QUOTE.hs_sender_company_name,
+  address: QUOTE.hs_sender_company_address,
+  address2: QUOTE.hs_sender_company_address2,
+  city: QUOTE.hs_sender_company_city,
+  state: QUOTE.hs_sender_company_state,
+  zip: QUOTE.hs_sender_company_zip,
+  country: QUOTE.hs_sender_company_country,
+}
+%}
+
+{% set totals = QUOTE.associated_objects.totals %}
+{% set total = totals.total_first_payment or totals.total %}
+{% set status = QUOTE.hs_credit_memo_status %}
+{% set BUSINESS_UNIT_IDS = QUOTE.hs_all_assigned_business_unit_ids %}
+{% set HAS_BUSINESS_UNIT_ID = BUSINESS_UNIT_IDS and BUSINESS_UNIT_IDS != "" %}
+{% set CREDIT_MEMO_BUTTON_COLOR = (QUOTE.associated_objects.additional_customizations or {}).primary_color %}
+
+{% macro format_negative_value(value) %}
+  <span class="negative-sign">-</span>{{ value }}
+{% endmacro %}
+
+<body class="hs-quotes hs-quotes--creditMemo">
+
+  <div class="creditMemo__status-stamps">
+    {% if status == 'voided' %}
+      <div class="creditMemo__status-void">
+        <span class="creditMemo__status-stamp-text">{{ template_translations.creditMemo_status_void.message }}</span>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="creditMemo__heading">
+    {% if FEATURE_FLAGS.commerce_brands_enabled and HAS_BUSINESS_UNIT_ID %}
+      {% if QUOTE.hs_sender_company_image_url and QUOTE.hs_sender_company_image_url != "" %}
+        {% set bu_logo_height = QUOTE.associated_objects.additional_customizations.logo_height ? QUOTE.associated_objects.additional_customizations.logo_height : 70 %}
+        {% module "creditMemo-logo"
+          label="Credit Memo logo"
+          path="@hubspot/quote_logo"
+          default_logo_max_height="70"
+          bu_logo_override="true"
+          quote_logo={{ {
+            "src": QUOTE.hs_sender_company_image_url,
+            "alt": QUOTE.hs_sender_company_name,
+            "height": bu_logo_height,
+            "loading": "lazy"
+          } }}
+        %}
+      {% else %}
+        {% if QUOTE.hs_sender_company_name %}
+          <div class="logo_wrapper">
+            <h1 class="company-logo quote-title">{{ QUOTE.hs_sender_company_name|sanitize_html }}</h1>
+          </div>
+        {% endif %}
+      {% endif %}
+    {% else %}
+      {% module "creditMemo-logo"
+        label="Credit Memo logo"
+        path="@hubspot/quote_logo"
+        default_logo_max_height="70"
+        quote_logo={{ {
+          "src": QUOTE.hs_sender_company_image_url,
+          "alt": QUOTE.hs_sender_company_name,
+          "loading": "lazy"
+        } }}
+      %}
+    {% endif %}
+
+    <h1 class="creditMemo__heading-text">{{ template_translations.creditMemo.message }}</h1>
+  </div>
+
+  <section class="sender-information">
+    {% if quote_company.name %}
+      <div class="quote-company__name">
+       {{ format_company_name(quote_company.name, add_honorific)|escape_html }}
+      </div>
+    {% endif %}
+
+    {% set address_lines = format_address(
+        QUOTE.hs_locale or 'en-us',
+        {
+          address: quote_company.address or '',
+          address2: quote_company.address2,
+          city: quote_company.city or '',
+          state: quote_company.state or '',
+          country: quote_company.country or '',
+          zip: quote_company.zip or ''
+        }
+      )
+    %}
+    <address>
+      {% for line in address_lines %}
+        {{ line|escape_html }}<br />
+      {% endfor %}
+    </address>
+  </section>
+
+  <section class="recipient-information">
+    <div class="recipient-and-creditMemo-info__container">
+      <div class="recipient-contacts-and-company__container">
+        <span class="recipient-contacts__text">{{ template_translations.bill_to.message }}</span>
+        {% module "recipient-contacts"
+          path="@hubspot/quote_contacts"
+          quote_contact_type="recipient_contacts"
+        %}
+        {% module "recipient-company"
+          path="@hubspot/quote_company"
+          company_label=""
+          show_company_image="false"
+          quote_company_type="invoice_recipient_company"
+        %}
+
+        {% set show_shipping_address = false %}
+        {% if QUOTE.hs_recipient_shipping_address or QUOTE.hs_recipient_shipping_address2 or QUOTE.hs_recipient_shipping_city or QUOTE.hs_recipient_shipping_state or QUOTE.hs_recipient_shipping_country or QUOTE.hs_recipient_shipping_zip %}
+          {% set show_shipping_address = true %}
+        {% endif %}
+
+        {% if QUOTE.hs_recipient_shipping_name or show_shipping_address %}
+          <div class="recipient-shipping">
+            <div class="recipient-shipping__header">
+              <span class="recipient-contacts__text">{{ template_translations.ship_to.message }}</span>
+            </div>
+            {% if QUOTE.hs_recipient_shipping_name %}
+              <div class="quote-company__name">
+                {{ QUOTE.hs_recipient_shipping_name | escape_html }}
+              </div>
+            {% endif %}
+            {% if show_shipping_address %}
+              {% set shipping_address = format_address(
+                QUOTE.hs_locale or 'en-us',
+                {
+                  address: QUOTE.hs_recipient_shipping_address or '',
+                  address2: QUOTE.hs_recipient_shipping_address2 or '',
+                  city: QUOTE.hs_recipient_shipping_city or '',
+                  state: QUOTE.hs_recipient_shipping_state or '',
+                  country: QUOTE.hs_recipient_shipping_country or '',
+                  zip: QUOTE.hs_recipient_shipping_zip or ''
+                }
+              )
+              %}
+              <address>
+                {% for line in shipping_address %}
+                {{ line|escape_html }}<br />
+                {% endfor %}
+              </address>
+            {% endif %}
+          </div>
+
+        {% endif %}
+      </div>
+
+      <div class="creditMemo-info__container">
+        <div class="creditMemo-info__creditMemo-number">
+          <span class="creditMemo-info__creditMemo-number__text">{{ template_translations.creditMemo_number.message }}</span>
+          <span class="creditMemo-info__creditMemo-number__number">{{ QUOTE.hs_number|escape_html }}</span>
+        </div>
+
+        <div>
+          {% module "creditMemo-date"
+            path="@hubspot/quote_date"
+            quote_date_text={{ template_translations.creditMemo_date.message }}
+            quote_date_type="creditMemo_date"
+          %}
+        </div>
+        {% if QUOTE.hs_purchase_order_number %}
+          <div class="creditMemo-info__purchase-order-number">
+            <span class="creditMemo-info__purchase-order-number__text">{{ template_translations.creditMemo_purchase_order_number.message }}</span>
+            <span class="creditMemo-info__purchase-order-number__number">{{ QUOTE.hs_purchase_order_number|escape_html }}</span>
+          </div>
+        {% endif %}
+      </div>
+
+    </div>
+  </section>
+  <section class="total-and-payment">
+    <span class="total-name">{{ template_translations.creditMemo_total_credit.message }}</span>
+    <span class="total-value">{{ format_negative_value(total|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6)) }}</span>
+  </section>
+
+  <section class="creditMemo-line-items-section">
+    <div class="creditMemo-line-items">
+      <table aria-label="{{ template_translations.creditMemo_line_item_label.message }}" class="creditMemo-line-items__table">
+        <colgroup>
+          {% if SHOULD_DISPLAY_LINE_ITEM_TAXES %}
+            <col span="1" style="width: 45%;">
+            <col span="1" style="width: 10%;">
+            <col span="1" style="width: 15%;">
+            <col span="1" style="width: 15%;">
+            <col span="1" style="width: 15%;">
+          {% else %}
+            <col span="1" style="width: 54%;">
+            <col span="1" style="width: 10%;">
+            <col span="1" style="width: 17%;">
+            <col span="1" style="width: 19%;">
+          {% endif %}
+       </colgroup>
+        <thead class="creditMemo-line-items__table-header">
+          <tr>
+            <th scope="col">{{ template_translations.products_and_services.message }}</th>
+            <th scope="col">{{ template_translations.creditMemo_line_item_quantity.message }}</th>
+            <th scope="col">{{ template_translations.unit_price.message }}</th>
+            {% if SHOULD_DISPLAY_LINE_ITEM_TAXES %}
+              <th scope="col">{{ template_translations.creditMemo_tax_column_header.message }}</th>
+            {% endif %}
+            <th scope="col">{{ template_translations.creditMemo_line_item_amount_label.message }}</th>
+          </tr>
+          <tbody class="creditMemo-line-items__table-body">
+            {% for line_item in QUOTE.associated_objects.line_items %}
+              <tr>
+                <td>
+                  <span class="creditMemo-line-items__name">{{ line_item.name|escape_html }}</span><br>
+                  <span class="creditMemo-line-items__description">{{ line_item.description|escape_html }}</span>
+                  <!-- TODO: Add billing period if needed -->
+                </td>
+                <td>{{ line_item.quantity is number ? line_item.quantity|format_number(LOCALE) : line_item.quantity }}</td>
+                <td>
+                  <div class="creditMemo-currency__container">
+                    <span class="creditMemo-currency__content">
+                      {% if line_item.hs_pricing_model and line_item.hs_pricing_model != "flat" %}
+                        {% if line_item.hs_effective_unit_price %}
+                          {{ line_item.hs_effective_unit_price|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6) }}
+                        {% else %}
+                          {{ template_translations.not_applicable.message }}
+                        {% endif %}
+                      {% else %}
+                        {{ line_item.price|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6) }}
+                      {% endif %}
+                    </span>
+                  </div>
+                </td>
+                {% if SHOULD_DISPLAY_LINE_ITEM_TAXES %}
+                  <td>
+                    {% if FEATURE_FLAGS.tax_assessment_enabled and line_item.hs_tax_assessed is equalto false %}
+                      <span>{{ template_translations.not_applicable.message }}</span>
+                    {% else %}
+                      <div>
+                        {% if line_item.hs_tax_amount %}
+                          <span>
+                            {{ line_item.hs_tax_amount|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6) }}
+                          </span>
+                        {% else %}
+                          <span>
+                            {{ 0|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6) }}
+                          </span>
+                        {% endif %}
+                        <span class="creditMemo-line-items__discount-percentage creditMemo-currency__content--full-width creditMemo-line-items__after-discount-message">
+                          {% if line_item.hs_tax_label %}
+                            {{ line_item.hs_tax_label|escape_html }}
+                          {% elif HAS_SHARED_TAX_LABEL %}
+                            {{ MAYBE_SHARED_TAX_LABEL|escape_html }}
+                          {% else %}
+                            {{ template_translations.creditMemo_tax_column_default_value.message }}
+                          {% endif %}
+                        </span>
+                      </div>
+                    {% endif %}
+                  </td>
+                {% endif %}
+                <td>
+                  <div class="creditMemo-currency__container--amount">
+                    <span class="creditMemo-currency__content">
+                      {{ format_negative_value(line_item.amount|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6)) }}
+                    </span>
+
+                    {% if line_item.hs_total_discount > '0' or line_item.hs_discount_percentage > '0' %}
+                      {% set discount_amount = line_item.hs_discount_percentage > '0' ? '<span class="creditMemo-currency__content">{{ line_item.hs_discount_percentage }}%</span>' : '<span class="creditMemo-currency__content">{{ line_item.hs_total_discount|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6) }}</span>' %}
+                      <span class="creditMemo-line-items__discount-percentage creditMemo-currency__content--full-width creditMemo-line-items__after-discount-message">
+                        {{ template_translations.creditMemo_after_discount.message }}
+                      </span>
+                    {% endif %}
+                  </div>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </thead>
+      </table>
+    </div>
+  </section>
+
+  <section class="subtotal-and-fees">
+    <div class="subtotal-and-fees-border-wrapper">
+      <table class="subtotal-fee-table">
+        <tr class="subtotal-row">
+          <td>{{ template_translations.subtotal.message }}</td>
+          <td>{{ format_negative_value(SUB_TOTALS.one_time.subtotal|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6)) }}</td>
+        </tr>
+
+        {% set discounts = ASSOCIATED_OBJECTS.order_level_adjustments|selectattr("category", "equalto", "DISCOUNT")|list %}
+        {% if discounts|length > 0 %}
+        <tr>
+          <td colspan="2">
+            <ul class="discounts-list">
+              {% for discount in discounts %}
+              <li>
+                <span>{{ discount.name|escape_html }}</span>
+                <span class="discount-amount">
+                  {{ discount.monetary_value|abs|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6) }}
+                  {% if discount.is_percentage == true %}
+                    <br>
+                    {% set fee_amount = discount.amount %}
+                    <span class="currency-content">{{ template_translations.percent_discount_off.message }}</span>
+                  {% endif %}
+                </span>
+              </li>
+              {% endfor %}
+            </ul>
+          </td>
+        </tr>
+        {% endif %}
+
+        {% for fee in ASSOCIATED_OBJECTS.order_level_adjustments %}
+          {% if fee.category != 'DISCOUNT' %}
+          <tr>
+            <td class="fee-name">{{ fee.name|escape_html }}</td>
+            <td>
+              <span class="currency-content">{{ format_negative_value(fee.monetary_value|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6)) }}</span>
+            </td>
+          </tr>
+          {% endif %}
+        {% endfor %}
+
+        {% if SHOULD_DISPLAY_LINE_ITEM_TAXES %}
+          <tr>
+            <td class="tax-total-name">
+              {{ template_translations.creditMemo_tax_total_label.message }}
+              {% if HAS_SHARED_TAX_RATE %}
+                <span class="shared-tax-table"> ({{ MAYBE_SHARED_TAX_RATE|float|format_number(LOCALE, 6) }}%)</span>
+              {% endif %}
+            </td>
+            <td>
+              <span class="currency-content">{{ format_negative_value(TOTALS.tax_total|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6)) }}</span>
+            </td>
+          </tr>
+        {% endif %}
+      </table>
+      <div class="creditMemo-total-container">
+        <span class="total-name">{{ template_translations.creditMemo_total_credit.message }}</span>
+        <span class="total-value">{{ format_negative_value(total|format_currency_value(locale=LOCALE, currency=CURRENCY, maxDecimalDigits=6)) }}</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="comments-and-download">
+    <div class="comments">
+      {% if QUOTE.hs_comments %}
+        {% module "comments"
+          label="Comments"
+          path="@hubspot/rich_text"
+          html={{
+          "<h3>" ~ template_translations.comments.message ~ "</h3>" ~
+          ptoken_comments
+          }}
+        %}
+      {% endif %}
+    </div>
+
+    {% module 'creditMemo-download'
+      path="@hubspot/invoice_download"
+      is_credit_memo="true"
+      download_error="{{ template_translations.creditMemo_download_error.message }}"
+      button_color={{ CREDIT_MEMO_BUTTON_COLOR }}
+    %}
+  </section>
+
+</body>
+
+{% endblock body %}

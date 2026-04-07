@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Corps de l'e-mail principal",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Bonjour {{contact.firstname}},</p>\n<p>Décrivez ce que vous avez à offrir au client. Pourquoi devrait-il vous lire ? Que lui avez-vous annoncé dans l'objet ? Dites-lui quelque chose de sympathique. Faites-le rire. Faites-le pleurer. Enfin non, évitons ça...</p>\n<p>Utilisez une liste pour :</p>\n<ul>\n<li>Expliquer la valeur de votre offre</li>\n<li>Rappeler au lecteur les avantages qu'il tirera en prenant des mesures</li>\n<li>Mettre en avant vos compétences à l'aide de puces</li>\n<li>Faciliter l'analyse de votre contenu</li>\n</ul>\n<p><a href=\"http://hubspot.com\">LIEN VERS UNE PAGE DE DESTINATION SUR VOTRE SITE</a> (ceci est la partie la plus importante)</p>\n<p>Concluez votre message en rappelant rapidement au client à quel point il est important pour vous.</p>\n<p>Quelle force de persuasion !</p>\n<p>Cordialement,</p>\n<p>Votre nom</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Corps de l'e-mail",
+    "description": "",
+    "placeholders": null
+  }
+}

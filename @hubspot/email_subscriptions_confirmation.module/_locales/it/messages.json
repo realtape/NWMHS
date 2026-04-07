@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Messaggio di conferma delle iscrizioni",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Hai aggiornato con successo le tue preferenze e-mail.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Messaggio sull'aggiornamento dell'iscrizione",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Sottotitolo",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Se questo non è il tuo indirizzo e-mail, ignora questa pagina poiché l'e-mail associata ti è stata probabilmente inoltrata.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Hai annullato con successo l'iscrizione a tutte le comunicazioni via e-mail.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Messaggio sull'annullamento dell'iscrizione",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Testo intestazione",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Intestazione",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Testo pulsante Gestisci preferenze",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Gestisci preferenze",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Avviso per tornare a Gestisci preferenze",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Hai commesso un errore? Non preoccuparti, puoi modificare le tue preferenze.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Testo annullamento iscrizione abbonamento singolo completata",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Hai annullato correttamente l'iscrizione a:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Testo segnaposto abbonamento",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "il tipo di abbonamento selezionato",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Livello intestazione titolo",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Titolo 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Titolo 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Titolo 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Titolo 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Titolo 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Titolo 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Livello intestazione e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Titolo 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Titolo 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Titolo 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Titolo 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Titolo 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Titolo 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Paragrafo",
+    "description": "",
+    "placeholders": null
+  }
+}

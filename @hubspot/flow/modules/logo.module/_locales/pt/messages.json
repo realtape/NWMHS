@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Altura máx. do logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Isso não se aplica ao substituir o logotipo padrão",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Você pode optar por substituir o logotipo aplicado a este modelo usando este botão.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Substituir logotipo padrão",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Por padrão, seus orçamentos mostrarão o logotipo da sua empresa que consta no seu Kit de marca nos Padrões da conta ou nas Configurações da página do site.",
+    "description": "",
+    "placeholders": null
+  }
+}

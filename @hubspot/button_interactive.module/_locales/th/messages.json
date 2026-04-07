@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "ปุ่ม (เชิงโต้ตอบ)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL ลิงก์",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "อีเมล",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "ไฟล์",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "ปิดการกระตุ้นให้ดำเนินการ",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "อีเมล",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "หมายเลขโทรศัพท์",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "ดาวน์โหลดไฟล์",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "ลิงก์การประชุม",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "หนึ่งในหน้าต่างๆ ของคุณ",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "หนึ่งในหน้าบล็อกของคุณ",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "ลิงก์ไปยัง",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "ลิงก์การประชุม",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "เปิดลิงก์ในแท็บใหม่",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "หน้า",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "บล็อก",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "สี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "คลิกแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "พื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "ขอบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "ขอบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "มุม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "เพิ่มมุมโค้งมนในปุ่มของคุณ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "รัศมี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "สี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "วางเมาส์เหนือพื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "ขอบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "วางเมาส์เหนือขอบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "วางเมาส์เหนือ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "แบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "วางเมาส์เหนือข้อความ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "รูปแบบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "แบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "ข้อความ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "ช่องว่างในข้อความ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "เพิ่มลิงก์ของปุ่มที่นี่",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "ข้อความบนปุ่ม",
+    "description": "",
+    "placeholders": null
+  }
+}

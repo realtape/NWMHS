@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Glavno tijelo teksta e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Pozdrav, {{contact.firstname}},</p>\n<p>Opišite što možete ponuditi klijentima. Zašto bi trebali čitati? Što ste im obećali u retku predmeta? Recite im nešto cool. Neka se nasmiju. Neka plaču. Dobro, možda ne to...</p>\n<p>Upotrijebite popis kako biste:</p>\n<ul>\n<li>objasnili vrijednost svoje ponude</li>\n<li>podsjetili čitatelja što će dobiti ako nešto poduzme</li>\n<li>pokazali svoje vještine uz pomoć natuknica</li>\n<li>uredili sadržaj da se može lako preletjeti pogledom</li>\n</ul>\n<p><a href=\"http://hubspot.com\">POVEZNICA NA POČETNU STRANICU NA VAŠEM WEB-MJESTU</a> (To je zaista važan dio.)</p>\n<p>Sada sve završite jezgrovitim podsjetnikom o tome koliko ih volite.\n</p>\n<p>Ah. Vi rječiti vraže.</p>\n<p>S poštovanjem,</p>\n<p>Vaše ime</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Tijelo poruke e-pošte",
+    "description": "",
+    "placeholders": null
+  }
+}

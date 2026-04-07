@@ -1,0 +1,457 @@
+{
+  "name": {
+    "message": "Content library",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.label": {
+    "message": "Resources",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.label": {
+    "message": "Name",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.default": {
+    "message": "Resource name",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.label": {
+    "message": "Description",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.default": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.label": {
+    "message": "Resource link",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.inline_help_text": {
+    "message": "File will download onto the user’s desktop after they click on the resource.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.label": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.default": {
+    "message": "Pick from a list of default images",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.custom": {
+    "message": "Use a custom image",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.ebook": {
+    "message": "eBook",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.pdf-document": {
+    "message": "PDF Document",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.infographic": {
+    "message": "Infographic",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.template": {
+    "message": "Template",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.guide": {
+    "message": "Guide",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.course": {
+    "message": "Course",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.webinar": {
+    "message": "Webinar",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.data-sheet": {
+    "message": "Data sheet",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.video": {
+    "message": "Video",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.blog-post": {
+    "message": "Blog post",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.whitepaper": {
+    "message": "Whitepaper",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.case-study": {
+    "message": "Case study",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.custom_image.label": {
+    "message": "Custom image",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.label": {
+    "message": "Link text",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.default": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.title": {
+    "message": "eBook",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.title": {
+    "message": "PDF Document",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.title": {
+    "message": "Infographic",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.title": {
+    "message": "Template",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.title": {
+    "message": "Guide",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.title": {
+    "message": "Course",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.title": {
+    "message": "Webinar",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.title": {
+    "message": "Data sheet",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.title": {
+    "message": "Video",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.title": {
+    "message": "Blog post",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.title": {
+    "message": "Whitepaper",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.title": {
+    "message": "Case study",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.description": {
+    "message": "A description of the resource being shared. A couple of sentences should be just right.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.link_text": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.download_aria_label_prefix.default": {
+    "message": "Download",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.content_aria_label_prefix.default": {
+    "message": "View [[resource_name]] content",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.external_aria_label_prefix.default": {
+    "message": "Open",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.new_tab_aria_label_suffix.default": {
+    "message": "in new tab",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Styles",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.label": {
+    "message": "Layout",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.cards": {
+    "message": "Cards",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.tiles": {
+    "message": "Tiles",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.minimal": {
+    "message": "Minimal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "Name",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "Description",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "Image",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.label": {
+    "message": "Aspect ratio",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.label": {
+    "message": "Primary colour",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.help_text": {
+    "message": "Adjust the colours of the default graphics.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.label": {
+    "message": "Secondary colour",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.help_text": {
+    "message": "Adjust the colours of the default graphics.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.label": {
+    "message": "Tertiary colour",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.help_text": {
+    "message": "Adjust the colours of the default graphics.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.default_text_color.label": {
+    "message": "Default text color",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.hover_text_color.label": {
+    "message": "Hover text color",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Any resource marked as featured will be displayed first in the page.",
+    "description": "",
+    "placeholders": null
+  }
+}

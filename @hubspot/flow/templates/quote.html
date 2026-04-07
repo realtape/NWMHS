@@ -1,0 +1,231 @@
+<!--
+  templateType: quote
+  isAvailableForNewContent: true
+  label: Quote
+  screenshotPath: ../images/quote-preview.png
+-->
+
+{% set template_css = "../../css/templates/quote.css" %}
+{% extends './layouts/base.html' %}
+
+{% block body %}
+
+{% require_css %}
+  <style>
+    {% if module_data|attr('banner_image')|attr('hidden') &&
+      module_data|attr('logo')|attr('hidden') &&
+      module_data|attr('quote_name')|attr('hidden') &&
+      module_data|attr('reference')|attr('hidden') &&
+      module_data|attr('quote_created')|attr('hidden') &&
+      module_data|attr('quote_expires')|attr('hidden') &&
+      module_data|attr('sender_company')|attr('hidden') &&
+      module_data|attr('sender_user')|attr('hidden') &&
+      module_data|attr('recipient_company')|attr('hidden') &&
+      module_data|attr('recipient_contacts')|attr('hidden')
+    %}
+      .hs-quotes--quote .banner { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('recipient_company')|attr('hidden') &&
+      module_data|attr('recipient_contacts')|attr('hidden')
+    %}
+      .hs-quotes--flow .banner__recipient:after {
+        display: none;
+      }
+    {% endif %}
+
+    {% if module_data|attr('description')|attr('hidden') %}
+      .hs-quotes--quote .description { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('line_item_table_header')|attr('hidden') &&
+      module_data|attr('line_item_table_subheader')|attr('hidden') &&
+      module_data|attr('line_items_table')|attr('hidden') &&
+      module_data|attr('subtotals')|attr('hidden') &&
+      module_data|attr('fees')|attr('hidden') &&
+      module_data|attr('total')|attr('hidden') &&
+      module_data|attr('payment-schedule')|attr('hidden') &&
+      !quote.hs_payment_enabled
+    %}
+      .hs-quotes--quote .line-items { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('subtotals')|attr('hidden') &&
+      module_data|attr('fees')|attr('hidden') &&
+      module_data|attr('total')|attr('hidden') &&
+      !quote.hs_payment_enabled
+    %}
+      .hs-quotes--quote .line-items__totals { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('payment-schedule')|attr('hidden') || !associated_objects.payment_schedule %}
+      .hs-quotes--quote .payment-schedule { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('comments')|attr('hidden') %}
+      .hs-quotes--quote .comments { display: none; }
+    {% endif %}
+
+    {% if module_data|attr('terms')|attr('hidden') %}
+      .hs-quotes--quote .terms { display: none; }
+    {% endif %}
+  </style>
+{% end_require_css %}
+
+  <body class="hs-quotes hs-quotes--quote hs-quotes--flow">
+    {% module "banner_image" path="../modules/banner-image" export_to_template_context=True %}
+    <div class="banner" style="background-image: url('{{ widget_data.banner_image.banner_image.src }}');">
+
+      <div class="container banner__content">
+        <div class="row-fluid">
+          <div class="column span6">
+            {% module "logo" path="../modules/logo" %}
+            {% module "quote_name"
+              label="Quote name"
+              path="@hubspot/rich_text",
+              extra_classes="banner__title"
+              html="<h1>{{ personalization_token('quote.hs_title', '') }}</h1>"
+            %}
+            {% module "reference"
+              path="../modules/reference-number"
+            %}
+            <div class="banner__dates">
+              {% module "quote_created"
+                label="Quote created text"
+                path="../modules/quote-created"
+              %}
+              {% module "quote_expires"
+                label="Quote expires text"
+                path="../modules/quote-expires"
+              %}
+            </div>
+          </div>
+          <div class="column span6">
+            <div class="banner__sender">
+              {% module "sender_company"
+                label="Sender company"
+                path="../modules/sender-company",
+                no_wrapper=True
+              %}
+              {% module "sender_user"
+                label="Sender user contact"
+                path="../modules/sender-user",
+                no_wrapper=True
+              %}
+            </div>
+            <div class="banner__recipient">
+              {% module "recipient_company" path="../modules/recipient-company" %}
+              {% module "recipient_contacts" path="../modules/recipient-contacts" %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="description">
+      <div class="container--content">
+        {% module "description"
+          label="Description"
+          path="@hubspot/rich_text",
+          html="<p>Curabitur varius porttitor diam, non facilisis purus feugiat eu. Duis non eros facilisis, tristique
+          justo at, rutrum justo. Fusce pulvinar libero a justo placerat, sit amet suscipit nibh suscipit. Pellentesque
+          habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non placerat tellus.
+          Etiam sed est at odio efficitur placerat. Fusce quis erat volutpat, vestibulum erat nec, blandit nisl.
+          Nulla ornare faucibus efficitur. Praesent ultrices non ligula non cursus. Aliquam fermentum magna urna.
+          Praesent ultrices non ligula non cursus. </p>"
+        %}
+      </div>
+    </div>
+
+    <div class="line-items">
+      <div class="container--content">
+        {% module "line_item_table_header"
+          label="Line item table header"
+          path="@hubspot/rich_text",
+          html={{"<h2>" ~ template_translations.products_and_services.message ~ "</h2>"}}
+        %}
+
+        {% module "line_items_table"
+          path="@hubspot/line_items"
+          line_item_columns=[
+            {
+              "use_additional_product_property": true,
+              "title": template_translations.products_and_services.message,
+              "additional_product_property": "item_description"
+            },
+            {
+              "use_additional_product_property": false,
+              "title": template_translations.billing_frequency.message,
+              "crm_product_property": { "property": "recurringbillingfrequency" }
+            },
+            {
+              "use_additional_product_property": true,
+              "title": template_translations.quantity.message,
+              "additional_product_property": "quantity"
+            },
+            {
+              "use_additional_product_property": true,
+              "title": template_translations.unit_price.message,
+              "additional_product_property": "price"
+            },
+            {
+              "use_additional_product_property": true,
+              "title": template_translations.price.message,
+              "additional_product_property": "amount"
+            }
+          ]
+        %}
+
+        <div class="line-items__totals">
+          <div class="payment-totals-and-fees">
+            <div class="payment__container">
+              {% module "payment" path="@hubspot/quote_payment" heading_text="" %}
+            </div>
+            <div class="totals-and-fees">
+              {% module "subtotals" path="../modules/subtotals" %}
+              {% module "line-item-taxes" path="../modules/line-item-taxes" %}
+              {% module "fees" path="../modules/fees" %}
+              {% module "total" path="../modules/total" %}
+            </div>
+          </div>
+        </div>
+
+        {% module "future-payment-summary" path="../modules/future-payment-summary-table" %}
+
+        <div class="payment-schedule">
+          {% module "payment-schedule" path="@hubspot/quote_payment_schedule" %}
+        </div>
+      </div>
+    </div>
+
+    <div class="container--content comments">
+      {% module "comments"
+        label="Comments"
+        path="@hubspot/rich_text"
+        html={{"<h2>" ~ template_translations.comments.message ~ "</h2>" ~ personalization_token('quote.hs_comments', '') }}
+      %}
+    </div>
+
+    <div class="container--content">
+      <div class="terms">
+        {% module "terms"
+          label="Terms"
+          path="@hubspot/rich_text"
+          html={{"<h2>" ~ template_translations.terms_and_conditions.message ~ "</h2>" ~ ptoken_terms }}
+        %}
+      </div>
+    </div>
+
+    <div class="signature">
+      <div class="container--content">
+        {% module "signature_header"
+          label="Signature header"
+          path="@hubspot/rich_text",
+          html={{"<h2>" ~ template_translations.project_acceptance.message ~ "</h2>"  }}
+        %}
+        {% module "signature" label="Signature" path="@hubspot/quote_signature" %}
+        {% module "download" path="@hubspot/quote_download" %}
+      </div>
+    </div>
+  </body>
+{% endblock body %}

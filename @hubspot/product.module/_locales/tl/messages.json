@@ -1,0 +1,362 @@
+{
+  "name": {
+    "message": "Produkto",
+    "description": "",
+    "placeholders": null
+  },
+  "product.label": {
+    "message": "Produkto",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.label": {
+    "message": "Pangalan",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.label": {
+    "message": "Level ng heading",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.help_text": {
+    "message": "Itinatakda ang antas ng heading (h1, h2, h3, h4, h5, h6) para sa elemento ng pangalan. Mahalaga ito para sa pagiging accessible at SEO. <a href='https://www.w3.org/WAI/tutorials/page-structure/headings/'>Matuto pa</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h1": {
+    "message": "Heading 1",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h2": {
+    "message": "Heading 2",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h3": {
+    "message": "Heading 3",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h4": {
+    "message": "Heading 4",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h5": {
+    "message": "Heading 5",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h6": {
+    "message": "Heading 6",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.override_product_name.label": {
+    "message": "I-override ang pangalan ng produkto",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.label": {
+    "message": "Pangalan",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.default": {
+    "message": "Pangalan ng produkto",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.label": {
+    "message": "Paglalarawan",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.override_product_description.label": {
+    "message": "I-override ang paglalarawan sa produkto",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.label": {
+    "message": "Paglalarawan",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.default": {
+    "message": "Isang maikling paglalarawan ng produktong ibinebenta. Ang perpektong dami ay isa o dalawang pangungusap.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.label": {
+    "message": "Larawan",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.override_product_image.label": {
+    "message": "I-override ang imahe ng produkto",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.image_override.label": {
+    "message": "Larawan",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.label": {
+    "message": "Button",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.label": {
+    "message": "Teksto ng Buton",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.default": {
+    "message": "Alamin pa",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.override_product_button.label": {
+    "message": "I-override ang buton ng produkto",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_override.label": {
+    "message": "Button",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_price_info_found.default": {
+    "message": "Walang mahanap na impormasyon sa pagpepresyo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Mga estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.label": {
+    "message": "Layout",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.horizontal": {
+    "message": "Pahalang",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.vertical": {
+    "message": "Patayo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "Larawan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.label": {
+    "message": "Ipakita ang buong imahe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.help_text": {
+    "message": "Palaging tinitiyak na naipapakita ang buong imahe. Maaaring maging sanhi upang hindi mapuno ng imahe ang buong lalagyan ng imahe.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.label": {
+    "message": "Kulay ng background",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.help_text": {
+    "message": "Nagdaragdag ng kulay ng background sa lalagyan ng imahe. Pinaka-kapaki-pakinabang kung transparent ang iyong imahe.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.label": {
+    "message": "Aspect ratio",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.label": {
+    "message": "Ratio ng lapad ng imahe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.help_text": {
+    "message": "Itinatakda ang porsyento ng kard na ilalaan sa imahe.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.40%": {
+    "message": "40%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.45%": {
+    "message": "45%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.50%": {
+    "message": "50%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.55%": {
+    "message": "55%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.60%": {
+    "message": "60%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.label": {
+    "message": "Area ng content",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.label": {
+    "message": "Kulay ng background",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.help_text": {
+    "message": "Itakda ang kulay ng background para sa area ng content",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.horizontal_padding.label": {
+    "message": "Pahalang na padding",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.vertical_padding.label": {
+    "message": "Patayong padding",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.border.label": {
+    "message": "Border",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "Pangalan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_size.label": {
+    "message": "Laki ng font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_color.label": {
+    "message": "Kulay ng font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.label": {
+    "message": "Presyo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_size.label": {
+    "message": "Laki ng font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_color.label": {
+    "message": "Kulay ng font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "Paglalarawan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_size.label": {
+    "message": "Laki ng font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_color.label": {
+    "message": "Kulay ng font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.label": {
+    "message": "Button",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.override_defaults.label": {
+    "message": "I-override ang mga default",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.text_color.label": {
+    "message": "Kulay ng teksto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.button_color.label": {
+    "message": "Kulay ng button",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.corner_radius.label": {
+    "message": "Corner radius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.border.label": {
+    "message": "Border",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.label": {
+    "message": "Mag-hover",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.text_color.label": {
+    "message": "Kulay ng teksto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.button_color.label": {
+    "message": "Kulay ng button",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.border_color.label": {
+    "message": "Kulay ng border",
+    "description": "",
+    "placeholders": null
+  }
+}

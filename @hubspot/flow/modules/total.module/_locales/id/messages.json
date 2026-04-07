@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Total",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Jatuh tempo sekarang",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Teks ini digunakan untuk memberi label pada total penawaran harga jika penawaran harga memiliki pembayaran di masa mendatang.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Teks jatuh tempo sekarang",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Total",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Teks total",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Total nilai kontrak",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Sesuaikan teks untuk mendeskripsikan nilai ini secara akurat. (Gunakan nilai tahunan sebagai default jika tidak ada persyaratan yang ditetapkan.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Teks nilai kontrak total",
+    "description": "",
+    "placeholders": null
+  }
+}

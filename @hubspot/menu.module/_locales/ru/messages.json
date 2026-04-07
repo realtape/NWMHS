@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Горизонтальное",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Вертикальное",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "В горизонтальных меню пункты отображаются рядом друг с другом, в вертикальных — сверху вниз",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Ориентация",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Дочерние элементы меню будут отображаться при наведении курсора на родительский элемент. Если снять этот флажок, дочерние элементы меню будут всегда отображаться",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Включить всплывающие элементы?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Дерево меню — это структура страницы, генерирующая элементы в меню. Можно использовать одно дерево меню для нескольких меню. Можно создавать несколько меню для веб-сайтов со сложной структурой. Создание меню и управление ими осуществляется в настройках содержимого.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Меню",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Определяет, сколько дочерних элементов дерева меню можно развернуть в меню",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Макс. уровни",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Меню",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Меню с навигационной цепочкой («хлебные крошки»)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Динамическое по странице — показывает страницы в меню, связанные с просматриваемой страницей",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Статическое — всегда показывает в меню страницы верхнего уровня",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Динамическое по разделу — показывает страницы в меню, связанные с просматриваемым разделом",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Расширенные меню отображают разные части дерева меню, в зависимости от просматриваемой страницы.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Расширенный тип меню",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  }
+}

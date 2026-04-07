@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Annullamento dell'abbonamento a backup",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Testo pulsante",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Annulla iscrizione",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Annullamento iscrizione e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Titolo",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Testo del segnaposto dell'input e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@esempio.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Indirizzo e-mail:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Testo guida per l'input e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Messaggio di errore",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Si è verificato un problema durante il caricamento della pagina. Prova a utilizzare lo stesso link di un'e-mail più recente o contatta l'azienda per aggiornare le tue preferenze di abbonamento.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Sottotitolo",
+    "description": "",
+    "placeholders": null
+  }
+}

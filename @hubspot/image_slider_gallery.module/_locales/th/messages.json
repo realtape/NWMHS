@@ -1,0 +1,467 @@
+{
+  "name": {
+    "message": "ตัวเลื่อนรูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "ภาพสไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "รูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "โปรดเพิ่มรูปภาพที่มีรูปร่างและขนาดใกล้เคียงกันเพื่อผลลัพธ์ที่ดีที่สุด ",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "คำบรรยาย",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL ลิงก์",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.label": {
+    "message": "การตั้งค่า",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.label": {
+    "message": "สไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.label": {
+    "message": "สไลด์ต่อหน้า",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.inline_help_text": {
+    "message": "คำบรรยายภาพและตัวอย่างภาพจะหายไปเมื่อคุณแสดงมากกว่า 1 สไลด์ต่อหน้า",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.label": {
+    "message": "กำหนดขนาดภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.inline_help_text": {
+    "message": "โปรดใช้รูปภาพที่มีอัตราส่วนและขนาดใกล้เคียงกันเพื่อผลลัพธ์ที่ดีที่สุด",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.natural": {
+    "message": "อัตราส่วนที่อัปโหลด",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.force_aspect_ratio": {
+    "message": "อัตราส่วนที่บังคับ",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.label": {
+    "message": "อัตราส่วนกว้างยาว",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.label": {
+    "message": "แสดงคำบรรยายภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.inline_help_text": {
+    "message": "เมื่อเลือก<strong>อัตราส่วนที่บังคับ</strong> อัตราส่วนจะซ้อนทับที่บริเวณด้านบนของภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.label": {
+    "message": "ตำแหน่งคำบรรยาย",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.below": {
+    "message": "วางคำบรรยายภาพไว้ด้านล่างรูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.overlay": {
+    "message": "วางคำบรรยายภาพด้านบนของรูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.label": {
+    "message": "การเคลื่อนไหว",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.label": {
+    "message": "การเปลี่ยนสไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.slide": {
+    "message": "ภาพสไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.fade": {
+    "message": "เลือนหาย",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.inline_help_text": {
+    "message": "การเปลี่ยนอาจไม่แสดงในเครื่องมือแก้ไข แต่อาจปรากฏในหน้าตัวอย่างหรือหน้าที่เผยแพร่แล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.loop_slides.label": {
+    "message": "สไลด์แบบวน",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.label": {
+    "message": "เล่นอัตโนมัติ",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.inline_help_text": {
+    "message": "ต้องมีสไลด์มากกว่าจำนวนการตั้งค่าสไลด์ต่อหน้าเพื่อให้การเล่นอัตโนมัติทำงานได้อย่างถูกต้อง",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance_speed_seconds.label": {
+    "message": "จำนวนวินาทีในการเลื่อนแบบอัตโนมัติ",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.label": {
+    "message": "การนำทาง",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_main_arrows.label": {
+    "message": "แสดงลูกศรนำทาง",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_thumbnails.label": {
+    "message": "แสดงตัวอย่างภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_dots.label": {
+    "message": "แสดงจุดนำทาง",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_caption.default": {
+    "message": "คำบรรยายภาพทางเลือกสำหรับภาพที่จะเพิ่มเข้าในแกลเลอรี ป้อนข้อความอธิบายที่คุณต้องการให้ผู้เยี่ยมชมอ่านสำหรับภาพนี้",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_aria_label.default": {
+    "message": "โฆษณาแบบหมุนที่มี {{ slide_count }}สไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.aria_label_thumbnails.default": {
+    "message": "เพิ่มการนำทางด้วยตัวอย่างภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_nav_aria_label.default": {
+    "message": "การนำทางตัวอย่างด้วยภาพสำหรับโฆษณาแบบหมุน เมื่อเลือกตัวอย่างภาพจะเป็นการเปลี่ยนโฆษณาแบบหมุน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.prev.default": {
+    "message": "สไลด์ก่อนหน้า",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.next.default": {
+    "message": "สไลด์ถัดไป",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first.default": {
+    "message": "ไปที่สไลด์แรก",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideX.default": {
+    "message": "ไปที่สไลด์ %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pageX.default": {
+    "message": "ไปที่หน้า %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.play.default": {
+    "message": "เริ่มการเล่นอัตโนมัติ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pause.default": {
+    "message": "หยุดการเล่นอัตโนมัติ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.carousel.default": {
+    "message": "โฆษณาแบบหมุน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.select.default": {
+    "message": "เลือกสไลด์ที่จะแสดง",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slide.default": {
+    "message": "สไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideLabel.default": {
+    "message": "%s จาก %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "ข้อความอธิบายรูปภาพเริ่มต้น",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "รูปแบบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.label": {
+    "message": "สไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.label": {
+    "message": "รูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.corner.label": {
+    "message": "รัศมีมุม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.label": {
+    "message": "ช่องว่างระหว่างรูปภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.inline_help_text": {
+    "message": "ปรับแต่งพื้นที่ระหว่างรูปภาพ เมื่อคุณมีมากกว่า 1 สไลด์ต่อหน้า",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.label": {
+    "message": "คำบรรยาย",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.label": {
+    "message": "พื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.spacing.label": {
+    "message": "เว้นวรรค",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.background.label": {
+    "message": "สี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.label": {
+    "message": "ข้อความ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.font.label": {
+    "message": "แบบอักษร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.label": {
+    "message": "การนำทาง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.label": {
+    "message": "ลูกศรสไลด์",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.background_color.label": {
+    "message": "สีพื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.left_icon.label": {
+    "message": "ไอคอนซ้าย",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.right_icon.label": {
+    "message": "ไอคอนขวา",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.fill_color.label": {
+    "message": "สีไอคอน",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.label": {
+    "message": "ปุ่มจุดและเล่นอัตโนมัติ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.color.label": {
+    "message": "สี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.label": {
+    "message": "การนำทางด้วยตัวอย่างภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.arrow_background_color.label": {
+    "message": "สีพื้นหลังลูกศร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.left_icon.label": {
+    "message": "ไอคอนลูกศรซ้าย",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.right_icon.label": {
+    "message": "ไอคอนลูกศรขวา",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.fill_color.label": {
+    "message": "สีเติมไอคอนลูกศร",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.label": {
+    "message": "รูปภาพตัวอย่างภาพ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.label": {
+    "message": "อัตราส่วนกว้างยาว",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.width.label": {
+    "message": "ความกว้าง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.radius.label": {
+    "message": "รัศมี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.label": {
+    "message": "ตัวเลื่อน",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.label": {
+    "message": "เว้นวรรค",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.spacing.label": {
+    "message": "เว้นวรรค",
+    "description": "",
+    "placeholders": null
+  }
+}

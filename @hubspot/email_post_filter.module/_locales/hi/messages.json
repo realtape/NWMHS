@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "पोस्ट फ़िल्टर",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "सभी देखें",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "यदि अधिकतम वैल्यू से ज्यादा डिस्प्ले उपलब्ध है तो डिस्प्ले टेक्स्ट करें। लिंक ओमिट करने के लिए खाली छोड़ दें",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "किसी ब्लॉग टेम्पलेट में उपयोग किए जाने पर डिफ़ॉल्ट रूप से वर्तमान ब्लॉग का उपयोग किया जाएगा या कहीं और ब्लॉग में उपयोग किए जाने पर प्राइमरी ब्लॉग का उपयोग किया जाएगा।",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "डिस्प्ले करने के लिए ब्लॉग सेलेक्ट करें",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "डिस्प्ले करने के लिए फ़िल्टर वैल्यूज की अधिकतम संख्या सभी दिखाने के लिए खाली छोड़ दें",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "खोजें",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "फ़िल्टर लिंक के लिए वैल्यू की सूची",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "टैग",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "ऑथर",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "महीने",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "टैग द्वारा पोस्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "डिस्प्ले करने के लिए टाइटल की सूची",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "नाम",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "पोस्ट काउंट",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "खोजें",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "फ़िल्टर लिंक के लिए वैल्यूज का आर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "सभी फ़िल्टर दिखाएं",
+    "description": "",
+    "placeholders": null
+  }
+}

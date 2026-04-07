@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "הדף לא נמצא",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "לא הצלחנו למצוא את הדף שחיפשת.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "עבור אל דף הבית",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "דף זה אינו פועל",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "אירעה שגיאת שרת פנימית, אבל אנחנו מטפלים בזה!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "עבור אל דף הבית",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "סמל חברה",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "העדפות הדוא\"ל עודכנו.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "ביטלת בהצלחה את ההרשמה לכל תכתובות הדוא\"ל.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "העדפות הדוא\"ל עודכנו.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "עדכן את העדפות הדוא\"ל עבור",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "בחר אילו הודעות דוא\"ל ברצונך לקבל מאת {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "בחר אילו הודעות דוא\"ל ברצונך לקבל מאת {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "בחר שפה:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "עדכן העדפות דוא\"ל",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "בטל את ההרשמה לכל הדוא\"ל",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "אם זאת לא הכתובת שלך, ככל הנראה הועברה לך הודעת דוא\"ל ממישהו אחר, ואשר להתעלם מהודעה זו בבטחה.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "בשלב זה ביטלת את ההרשמה לכל הודעות הדוא\"ל שלנו. האם תרצה לקבל שוב את הודעות הדוא\"ל שלנו?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "כן, רשום אותי מחדש!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "נדרשת סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "הזן את הסיסמה כדי להציג דף זה.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "תוצאות חיפוש עבור \"[[search_term]]\"",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "מצטערים, אין לך גישה",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "אין לך הרשאה להציג דף זה. למידע נוסף פנה למנהל האתר.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "עבור אל דף הבית",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "התחבר",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "הדף שברצונך להציג זמין למשתמשים מורשים בלבד.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "דוא\\\"ל",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "זכור אותי",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "שכחת את הסיסמה?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "התחבר",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "הצג",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "נתקלת בקשיים? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">פנה למנהל האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "נותקת מהמערכת",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "היכנס שוב",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "או חזור אל <a href=\"{{ '//' ~ request.domain }}\">דף הבית</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "הגדר את הסיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "ברוך הבא! הגדר סיסמה כדי להשלים את ההרשמה.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "דוא\\\"ל",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "אשר את הסיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "שמור סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "הצג",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "נתקלת בקשיים? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">פנה למנהל האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "בצע איפוס של הסיסמה שלך",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "הזן את כתובת הדוא\"ל שבה השתמשת לצורך הרשמה, ונשלח לך בדוא\"ל קישור לאיפוס סיסמה.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "דוא\\\"ל",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "שלח דוא\"ל לאיפוס",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "יש לך את הסיסמה עכשיו? <a href=\"/_hcms/mem/login\">היכנס</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "נתקלת בקשיים? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">פנה למנהל האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "הודעת איפוס הסיסמה נשלחה בדוא\"ל",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "אם קיים חשבון המתאים לכתובת {{ user_email }}, יישלח דוא\"ל עם השלבים הבאים הנדרשים לאיפוס הסיסמה שלך. <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">פנה למנהל המערכת שלך</a> אם לא תקבל אותו תוך 20 דקות.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "שלח דוא\"ל חדש לאיפוס",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "צור סיסמה חדשה",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "הסיסמה הנוכחית שלך חייבת להיות שונה מהסיסמה שבה השתמשת בעבר.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "סיסמה חדשה",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "אשר את הסיסמה החדשה",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "שמור סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "הצג",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "נתקלת בקשיים? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">פנה למנהל האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "כתובת הדוא\"ל שלך מאושרת",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "תודה שאימתת את כתובת הדוא\"ל שלך. כעת תוכל להיכנס לחשבונך ולגשת לתוכן בלעדי.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "התחבר",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "נתקלת בקשיים? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">פנה למנהל האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "נשלח קישור לכניסה חד-פעמית",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>שלחנו לך דוא\"ל לכתובת {{ user_email }}. הוא כולל קישור לכניסה.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "אם אינך רואה דוא\"ל זה, בדוק בתיקיית הספאם",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "שליחה מחדש של קישור לכניסה",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "או",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "לחלופין, כניסה עם סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "נתקלת בקשיים? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">פנה למנהל האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "אמת את כתובת הדוא\"ל שלך",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "אנחנו מודים לך על ההרשמה! בדוק את תיבת הדוא\"ל שלך ולחץ על קישור האישור כדי להשלים את ההרשמה.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "נתקלת בקשיים? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">פנה למנהל האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "צור סיסמה כדי לסיים את ההרשמה",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "שלב אחרון! לאחר שתיצור את הסיסמה המאובטחת שלך תוכל להיכנס ולגשת לתוכן ב-{{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "צור סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "או העתק והדבק קישור זה בדפדפן שלך:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "אם יש לך שאלות או שקיבלת הודעה זו בטעות, <a href=\"{{ membership_website_admin }}\">פנה למנהל המערכת של האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "בצע איפוס של הסיסמה שלך",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "הגדר סיסמה חדשה והיכנס לחשבון שלך.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "אפס סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "אם לא הגשת בקשה זו, תוכל להתעלם מהודעת דוא\"ל זו.<br/>אם יש לך שאלות, <a href=\"{{ membership_website_admin }}\">פנה למנהל המערכת של האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "כניסה עם קישור חד-פעמי",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "המשך כניסה לחשבון שלך. מטעמי אבטחה, תוקף הקישור יפוג בעוד 15 דקות.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "התחבר",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "או העתק והדבק קישור זה בדפדפן שלך:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "אם לא הגשת בקשה זו, תוכל להתעלם מהודעת דוא\"ל זו.<br/>אם יש לך שאלות, <a href=\"{{ membership_website_admin }}\">פנה למנהל המערכת של האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "הסיסמה שלך ל-{{ membership_company_name }} שונתה בהצלחה",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "לא התכוונת לעשות שינוי זה? השתמש בטופס <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">סיסמה שנשכחה</a> כדי לאפס את הסיסמה שלך כעת.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "אם יש לך שאלות נוספות, פנה <a href=\"{{ membership_website_admin }}\">למנהל המערכת של האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "הרשמתך הושלמה",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "אנו מודים לך על הרשמתך! הכל מוכן. כעת תוכל לקבל גישה לערך רב יותר.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "היכנס לחשבון החדש שלך",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "אם יש לך שאלות או שקיבלת הודעה זו בטעות, <a href=\"{{ membership_website_admin }}\">פנה למנהל המערכת של האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "ברוך הבא אל {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "השלם את הרישום שלך על ידי יצירת סיסמה מאובטחת עבור חשבון שלך.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "צור סיסמה",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "או העתק והדבק קישור זה בדפדפן שלך:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "אם יש לך שאלות או שקיבלת הודעה זו בטעות, <a href=\"{{ membership_website_admin }}\">פנה למנהל המערכת של האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "אמת את כתובת הדוא\"ל שלך",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "אנו מודים לך על הרשמתך! תתבקש לאמת את כתובת הדוא\"ל שלך כדי להשלים את ההרשמה ל-{{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "אמת את כתובת הדוא\"ל",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "אם יש לך שאלות או שקיבלת הודעה זו בטעות, <a href=\"{{ membership_website_admin }}\">פנה למנהל המערכת של האתר</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "אשר את בקשת המחיקה שלך",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "אשר את בקשת המחיקה שלך",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "היי {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "קיבלנו בקשה למחוק את הנתונים האישיים שלך מ-{{ company_name }} ב:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>מכשיר:</strong>{{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>תאריך ושעה:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "כדי שנוכל לעבד את הבקשה, אשר שברצונך למחוק את הנתונים שלך.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "כן, מחקו את הנתונים שלי",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "קישור זה יפוג תוך 30 דקות.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "אם לא שלחת בקשה למחיקה, באפשרותך להתעלם מהודעה זו.",
+    "description": "",
+    "placeholders": null
+  }
+}

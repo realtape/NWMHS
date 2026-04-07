@@ -1,0 +1,8 @@
+.quote-expiration {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-expiration__text {
+  font-weight: 600;
+}

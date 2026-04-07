@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Thanh toán",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Thêm biểu tượng",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Liên kết nút",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Khác",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Sử dụng liên kết thanh toán",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Đích trên nút",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Thanh toán",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Văn bản trên nút",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Mở trong tab mới",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Lớp phủ trượt",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Hành vi thanh toán",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Kết thúc thanh toán",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Biểu tượng",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Biểu tượng",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Bên trái",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Bên phải",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Vị trí",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Liên kết thanh toán",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Căn chỉnh",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Căn chỉnh",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Góc",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Bán kính",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Biểu tượng",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Di chuột",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Biểu tượng",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Kích cỡ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Khoảng cách giữa biểu tượng và văn bản trên nút.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Kiểu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  }
+}

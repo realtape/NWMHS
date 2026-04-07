@@ -1,0 +1,10 @@
+[
+  {
+    "name": "html_container",
+    "label": "HTML Container",
+    "required": true,
+    "type": "text",
+    "help_text": "Enter the HTML you want to display",
+    "default": "<p>Your HTML content here</p>"
+  }
+]

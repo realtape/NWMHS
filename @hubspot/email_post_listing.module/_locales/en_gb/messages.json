@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Post listing",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Most popular - past six months",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Most popular - all time",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Most popular - past month",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Most popular - past year",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Most recent",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Search",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "List blog posts by",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Default will use the current blog when used in a blog template or the primary blog when used elsewhere.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Select blog to display",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximum blog posts to list",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Recent Posts",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "List title to display",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Langganan Email Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Default akan menggunakan blog saat ini saat digunakan di templat blog atau blog utama saat digunakan di mana pun.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Pilih blog untuk ditampilkan",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Langganan di Sini!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Judul untuk menampilkan formulir di atas",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Tanggapan inline untuk pengguna",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Terima kasih telah berlangganan!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Untuk memunculkan formulir berlangganan blog, Anda perlu mengaktifkan langganan untuk blog Anda. Hal ini dapat dilakukan di pengaturan. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Pelajari selengkapnya</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Level judul",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Pilih level judul. Judul harus disusun secara hierarkis berdasarkan konten Anda. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Informasi selengkapnya</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

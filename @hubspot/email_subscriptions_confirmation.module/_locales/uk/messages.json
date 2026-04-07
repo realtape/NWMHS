@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Повідомлення про підтвердження підписки",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Ви успішно оновили свої налаштування електронної пошти.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Повідомлення про оновлення підписки",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Підзаголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Якщо це не ваша електронна адреса, проігноруйте цю сторінку, оскільки електронне повідомлення, пов’язане з цією сторінкою, швидше за все, було переадресовано вам.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Підписку на будь-яке спілкування електронною поштою скасовано.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Повідомлення про скасування підписки",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Текст заголовка",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Заголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Текст кнопки оновлення налаштувань",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Керувати налаштуваннями",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Застереження щодо повернення керування налаштуваннями",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Зробили помилку? Не хвилюйтесь, ви можете змінити свої налаштування.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Текст успішного скасування індивідуальної підписки",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Ви успішно скасували підписку на:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Текст заповнювача поля підписки",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "тип підписки, вибраний вами",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Рівень заголовка колонтитула",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Заголовок 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Заголовок 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Заголовок 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Заголовок 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Заголвок 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Заголовок 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Рівень заголовка електронного повідомлення",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Заголовок 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Заголовок 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Заголовок 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Заголовок 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Заголвок 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Заголовок 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Абзац",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "name": {
+    "message": "Välilehtikortti",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.label": {
+    "message": "Oletusteksti",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.left_nudge_button_label.default": {
+    "message": "Selaa välilehtiä vasemmalle",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.right_nudge_button_label.default": {
+    "message": "Selaa välilehtiä oikealle",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tabs_list_aria_label.default": {
+    "message": "Välilehtien luettelo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.color.label": {
+    "message": "Väri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.label": {
+    "message": "Tausta",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.border.label": {
+    "message": "Raja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.label": {
+    "message": "Raja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.label": {
+    "message": "Sisältö",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.label": {
+    "message": "Välit",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.spacing.label": {
+    "message": "Välit",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Tyylit",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.color.label": {
+    "message": "Väri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.label": {
+    "message": "Tausta",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.label": {
+    "message": "Aktiivinen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.font.label": {
+    "message": "Fontti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.label": {
+    "message": "Teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_top_sides.label": {
+    "message": "Ylä-/sivureuna",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_bottom.label": {
+    "message": "Alareuna",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.color.label": {
+    "message": "Väri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.label": {
+    "message": "Tausta",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.label": {
+    "message": "Osoita",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.font.label": {
+    "message": "Fontti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.label": {
+    "message": "Teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_top_sides.label": {
+    "message": "Ylä-/sivureuna",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_bottom.label": {
+    "message": "Alareuna",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.color.label": {
+    "message": "Väri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.label": {
+    "message": "Tausta",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.label": {
+    "message": "Ei käytössä",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.font.label": {
+    "message": "Fontti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.label": {
+    "message": "Teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_top_sides.label": {
+    "message": "Ylä-/sivureuna",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_bottom.label": {
+    "message": "Alareuna",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.label": {
+    "message": "Välilehdet",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.label": {
+    "message": "Välit",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.spacing.label": {
+    "message": "Välit",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.label": {
+    "message": "Välilehtikortti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.label": {
+    "message": "Välit",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.spacing.label": {
+    "message": "Välit",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.border.label": {
+    "message": "Raja",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.default": {
+    "message": "<p>Välilehdet ovat tehokas tapa järjestää tietoja verkkosivuston sivulla, kun on paljon sisältöä, joka on jaettava erillisiin luokkiin. Nimeä välilehdet yhdellä tai kahdella sanalla, jotka määrittelevät kunkin tietoluokan.</p><p>Kun muotoilet välilehtiä, korosta valittu välilehti antamalla sille väri, joka eroaa valitsemattomista välilehdistä, jotta vierailijoiden on helppo liikkua sivustolla.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.label": {
+    "message": "Sisältö",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.label": {
+    "message": "Välilehdet",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.default": {
+    "message": "Välilehtikohta",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.label": {
+    "message": "Nimike",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.label": {
+    "message": "Kiinteä tekstin korkeus",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.help_text": {
+    "message": "Asettaa kunkin välilehden sisällön saman korkuiseksi",
+    "description": "",
+    "placeholders": null
+  }
+}

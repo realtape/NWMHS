@@ -1,0 +1,457 @@
+{
+  "name": {
+    "message": "ספריית תוכן",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.label": {
+    "message": "משאבים",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.label": {
+    "message": "שם",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.default": {
+    "message": "שם משאב",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.label": {
+    "message": "תיאור",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.default": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.label": {
+    "message": "קישור למשאב",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.inline_help_text": {
+    "message": "הורדת הקובץ תתבצע בשולחן העבודה של המשתמש לאחר לחיצה על המשאב. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.label": {
+    "message": "תמונה",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.default": {
+    "message": "בחר מתוך רשימה של תמונות ברירת מחדל",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.custom": {
+    "message": "השתמש בתמונה מותאמת אישית",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.ebook": {
+    "message": "ספר אלקטרוני",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.pdf-document": {
+    "message": "מסמך PDF",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.infographic": {
+    "message": "אינפוגרפי",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.template": {
+    "message": "תבנית",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.guide": {
+    "message": "מדריך",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.course": {
+    "message": "קורס",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.webinar": {
+    "message": "ובינר",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.data-sheet": {
+    "message": "גיליון נתונים",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.video": {
+    "message": "סרטון",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.blog-post": {
+    "message": "פוסט בבלוג",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.whitepaper": {
+    "message": "מסמך Whitepaper",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.case-study": {
+    "message": "מקרה בוחן",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.custom_image.label": {
+    "message": "תמונה מותאמת אישית",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.label": {
+    "message": "טקסט קישור",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.default": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.title": {
+    "message": "ספר אלקטרוני",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.title": {
+    "message": "מסמך PDF",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.title": {
+    "message": "אינפוגרפי",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.title": {
+    "message": "תבנית",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.title": {
+    "message": "מדריך",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.title": {
+    "message": "קורס",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.title": {
+    "message": "ובינר",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.title": {
+    "message": "גיליון נתונים",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.title": {
+    "message": "סרטון",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.title": {
+    "message": "פוסט בבלוג",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.title": {
+    "message": "מסמך Whitepaper",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.title": {
+    "message": "מקרה בוחן",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.description": {
+    "message": "תיאור המשאב משותף כעת. כמה משפטים יספיקו. ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.link_text": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.download_aria_label_prefix.default": {
+    "message": "הורד",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.content_aria_label_prefix.default": {
+    "message": "הצג תוכן [[resource_name]]",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.external_aria_label_prefix.default": {
+    "message": "פתח",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.new_tab_aria_label_suffix.default": {
+    "message": "בכרטיסייה חדשה",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "סגנונות",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.label": {
+    "message": "פריסה",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.label": {
+    "message": "סגנון",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.cards": {
+    "message": "כרטיסים",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.tiles": {
+    "message": "אריחים",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.minimal": {
+    "message": "מינימלי",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "שם",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font.label": {
+    "message": "גופן",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "תיאור",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font.label": {
+    "message": "גופן",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "תמונה",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.label": {
+    "message": "יחס רוחב-גובה",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.label": {
+    "message": "צבע עיקרי",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.help_text": {
+    "message": "התאם את הצבעים של גרפיקת ברירת מחדל.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.label": {
+    "message": "צבע משני",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.help_text": {
+    "message": "התאם את הצבעים של גרפיקת ברירת מחדל.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.label": {
+    "message": "צבע שלישוני",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.help_text": {
+    "message": "התאם את הצבעים של גרפיקת ברירת מחדל.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.label": {
+    "message": "קישור",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.default_text_color.label": {
+    "message": "צבע טקסט ברירת מחדל",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.hover_text_color.label": {
+    "message": "צבע טקסט מרחף",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "כל משאב המסומן כמשאב מוצג יופיע ראשון בדף.",
+    "description": "",
+    "placeholders": null
+  }
+}

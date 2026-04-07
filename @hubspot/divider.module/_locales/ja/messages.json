@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "区切り",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "位置合わせ",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "中央",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "左",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "右",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "高さ",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "線の種類",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "破線",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "点線",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "実線",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "パディング",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "最大20ピクセル",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "パディングを表示しますか？",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "幅",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "区切りを配置する領域の割合。",
+    "description": "",
+    "placeholders": null
+  }
+}

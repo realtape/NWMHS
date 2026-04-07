@@ -1,0 +1,572 @@
+{
+  "name": {
+    "message": "Flow",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.label": {
+    "message": "バナー",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.label": {
+    "message": "本文",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.capitalize": {
+    "message": "大文字で始める",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.label": {
+    "message": "変換",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.label": {
+    "message": "見出し",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.capitalize": {
+    "message": "大文字で始める",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.label": {
+    "message": "変換",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.label": {
+    "message": "テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.label": {
+    "message": "参照",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.label": {
+    "message": "変換",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.capitalize": {
+    "message": "大文字で始める",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.inline_help_text": {
+    "message": "この色はバナー画像が非表示になっているときのみ表示されます",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.label": {
+    "message": "角",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.radius.label": {
+    "message": "半径",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.label": {
+    "message": "ボタン",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.spacing.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.label": {
+    "message": "テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.capitalize": {
+    "message": "大文字で始める",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.label": {
+    "message": "変換",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.label": {
+    "message": "グローバルカラー",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.primary_color.label": {
+    "message": "基本色",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.secondary_color.label": {
+    "message": "第2色",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.tertiary_color.label": {
+    "message": "第3色",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.label": {
+    "message": "グローバルフォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.primary_font.label": {
+    "message": "プライマリーフォント",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.secondary_font.label": {
+    "message": "セカンダリーフォント",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "垂直方向のスペースにより、見積もりテンプレートの上部と下部のスペースに加えて、コンテンツ内のセクション間のスペースを制御します。",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.spacing.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.label": {
+    "message": "テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.label": {
+    "message": "テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.label": {
+    "message": "テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.label": {
+    "message": "本文",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.label": {
+    "message": "見出し1（H1）",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.capitalize": {
+    "message": "大文字で始める",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.label": {
+    "message": "変換",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.label": {
+    "message": "見出し2（H2）",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.capitalize": {
+    "message": "大文字で始める",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.label": {
+    "message": "変換",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.label": {
+    "message": "見出し3（H3）",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.capitalize": {
+    "message": "大文字で始める",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.label": {
+    "message": "変換",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.label": {
+    "message": "見出し4（H4）",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.capitalize": {
+    "message": "大文字で始める",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.label": {
+    "message": "変換",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.label": {
+    "message": "見出し5（H5）",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.capitalize": {
+    "message": "大文字で始める",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.label": {
+    "message": "変換",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.label": {
+    "message": "見出し6（H6）",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.capitalize": {
+    "message": "大文字で始める",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.none": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.label": {
+    "message": "変換",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.label": {
+    "message": "リンク",
+    "description": "",
+    "placeholders": null
+  }
+}

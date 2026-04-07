@@ -1,0 +1,572 @@
+{
+  "name": {
+    "message": "Flow",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.label": {
+    "message": "Biểu ngữ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.label": {
+    "message": "Phần nội dung",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.none": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.label": {
+    "message": "Đầu đề",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.none": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.label": {
+    "message": "Tham chiếu",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.none": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.label": {
+    "message": "Màu nền",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.inline_help_text": {
+    "message": "Bạn sẽ chỉ thấy màu này khi hình ảnh biểu ngữ bị ẩn",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.label": {
+    "message": "Góc",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.radius.label": {
+    "message": "Bán kính",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.label": {
+    "message": "Nút",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.none": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.label": {
+    "message": "Màu chung",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.primary_color.label": {
+    "message": "Màu chính",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.secondary_color.label": {
+    "message": "Màu phụ",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.tertiary_color.label": {
+    "message": "Màu cấp ba",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.label": {
+    "message": "Phông chữ chung",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.primary_font.label": {
+    "message": "Phông chữ chính",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.secondary_font.label": {
+    "message": "Phông chữ phụ",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "Khoảng cách dọc kiểm soát khoảng cách ở đầu và cuối của mẫu trích dẫn cũng như giữa các phần bên trong nội dung.",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.label": {
+    "message": "Phần nội dung",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.label": {
+    "message": "Đầu đề 1 (H1)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.none": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.label": {
+    "message": "Đầu đề 2 (H2)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.none": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.label": {
+    "message": "Đầu đề 3 (H3)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.none": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.label": {
+    "message": "Đầu đề 4 (H4)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.none": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.label": {
+    "message": "Đầu đề 5 (H5)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.none": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.label": {
+    "message": "Đầu đề 6 (H6)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.none": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.label": {
+    "message": "Liên kết",
+    "description": "",
+    "placeholders": null
+  }
+}

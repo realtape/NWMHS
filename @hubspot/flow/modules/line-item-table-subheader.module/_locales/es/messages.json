@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Subtítulo de tabla de elementos",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Pagos recurrentes y únicos que vencen de inmediato.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Texto del subtítulo",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Este subtítulo solo aparece cuando hay pagos futuros.",
+    "description": "",
+    "placeholders": null
+  }
+}

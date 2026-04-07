@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Адреса електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Номер телефону",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Завантаження файлу",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Посилання на зустрічі",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Одна з ваших сторінок",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL-адреса",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Посилання на",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Посилання на зустрічі",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Відкрити посилання в новій вкладці",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Сторінка",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Інтегрований HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Вміст кнопки",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML, який буде відображено всередині кнопки. Ви можете використовувати тільки ті теги, які дійсні в межах тегу <a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Натисніть тут",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Відкрити посилання в новій вкладці",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Розширений",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Правила користувацького CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Селектор",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Це значення поєднують із селектором заклику до дії. Наприклад ':hover' стає ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Стиль",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Додати користувацький CSS до свого правила щодо стилю. Наприклад: нижня межа: 3px суцільна #3e4d68; колір: жовтий;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Класи користувацьких CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Додати класи користувацьких CSS до свого посилання на заклик до дії.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Таблиця стилей користувацького CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Додайте користувацьку таблицю стилів CSS до вашого CTA.  Наприклад: нижня межа: 3px суцільна #3e4d68; колір: жовтий;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Використовувати застарілу розмітку",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Розмітьте HTML застарілою розміткою для підтримки наявного CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

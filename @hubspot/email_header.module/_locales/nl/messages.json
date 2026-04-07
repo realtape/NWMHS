@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Kop",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Een duidelijke en opvallende kop",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Kopinhoud",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Kies een kopniveau. H1 is het grootst, gevolgd door H2, enzovoorts",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Selecteer een koptype",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Kopniveau",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Besturingselementen op kopniveau verbergen",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Als de besturingsinstellingen op kopniveau worden verborgen, kan het kopniveau ook niet worden gewijzigd in de inhoudstools",
+    "description": "",
+    "placeholders": null
+  }
+}

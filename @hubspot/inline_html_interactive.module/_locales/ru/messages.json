@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Адрес электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Номер телефона",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Загрузка файла",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Ссылка на собрания",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Одна из ваших страниц",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL-адрес",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Ссылка на",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Ссылка на собрания",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Открывать ссылку в новой вкладке",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Страница",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Встроенный HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Содержимое кнопки",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML, который будет отображаться внутри кнопки. Вы можете использовать только те теги, которые действительны в пределах  тега <a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Щелкните здесь",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Открывать ссылку в новой вкладке",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Расширенный",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Правила настраиваемого CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Переключатель",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Это значение объединяется с переключателем призыва к действию. Например, ':при наведении курсора' становится ${ctaSelector}:при наведении курсора",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Стиль",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Добавьте настраиваемый CSS для вашего правила стиля. Например: нижняя граница: 3px, сплошной #3e4d68; цвет: желтый;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Классы настраиваемых CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Добавьте классы настраиваемых CSS к своей ссылке на призыв к действию.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Таблица стилей настраиваемого CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Добавьте пользовательскую таблицу стилей CSS к вашему призыву к действию. Например, нижняя граница: 3 пиксела, сплошной #3e4d68; цвет: желтый;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Используйте устаревшую разметку",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Разметьте HTML устаревшей разметкой для поддержки существующего CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

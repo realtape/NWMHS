@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "記事フィルター",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "全て表示",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "記事数が表示の最大数を超える場合に表示するテキスト。リンクを省略する場合は空白のままにします",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "既定として、ブログテンプレートでの使用時には現在のブログを使用し、他での使用時にはプライマリーブログを使用します。",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "表示するブログを選択",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "表示するフィルター値の最大数。全て表示する場合は空白のままにします",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "フィルターリンクの値のリスト",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "タグ",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "執筆者",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "月",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "タグ別の記事",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "表示するタイトルを一覧にする",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "名前",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "記事数",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "フィルターリンクの値の順位付け",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "全てのフィルターを表示",
+    "description": "",
+    "placeholders": null
+  }
+}

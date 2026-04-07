@@ -1,0 +1,22 @@
+{
+  "html.default": {
+    "message": "<h2>Noget af stor betydning</h2>\n<h3>Fortæl læseren noget mere</h3>\n<p>Overskriften og underoverskriften fortæller os, hvad du har at <a href=\"#\">tilbyde</a>, og formularens overskrift afslutter dealen. Her kan du forklare, hvorfor dit tilbud er så godt, at man bare må udfylde formularen. </p>\n<p>Husk:</p>\n<ul>\n<li>Punktform er godt</li>\n<li>til klart og tydeligt at forklare <a href=\"#\">fordelene</a>, og</li>\n<li>på den måde forvandle besøgende til mulige kunder.</li>\n</ul>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.defaultEmail": {
+    "message": "<h2>Overskrift</h2><p>Føj tekst til din e-mail.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Rich text-indhold",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Rich text",
+    "description": "",
+    "placeholders": null
+  }
+}

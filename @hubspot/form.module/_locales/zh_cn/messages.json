@@ -1,0 +1,62 @@
+{
+  "follow_up_type_automation.label": {
+    "message": "添加到工作流",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.label": {
+    "message": "发送后续跟踪电子邮件",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.help_text": {
+    "message": "要发送后续跟踪电子邮件，请确保启用“将创建的联系人设置为营销联系人”设置。你可以在选项中对此进行管理。<a href='https://knowledge.hubspot.com/contacts/set-contacts-as-marketing#set-the-default-marketing-status-for-new-contacts'>了解更多信息</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "form.default.message": {
+    "message": "感谢提交表单。",
+    "description": "",
+    "placeholders": null
+  },
+  "form.label": {
+    "message": "表单",
+    "description": "",
+    "placeholders": null
+  },
+  "form_follow_ups_workflow_id.label": {
+    "message": "工作流",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "表单",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_are_overridden.label": {
+    "message": "将表单通知发送到指定的电子邮件地址，而不是表单默认地址",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_override_email_addresses.label": {
+    "message": "电子邮件地址",
+    "description": "",
+    "placeholders": null
+  },
+  "sfdc_campaign.label": {
+    "message": "Salesforce 市场活动",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "表单标题",
+    "description": "",
+    "placeholders": null
+  },
+  "simple_email_for_live_id.label": {
+    "message": "电子邮件",
+    "description": "",
+    "placeholders": null
+  }
+}

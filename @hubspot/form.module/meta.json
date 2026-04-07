@@ -1,0 +1,24 @@
+{
+  "label": "Form",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING", "CASE_STUDY"],
+  "icon": "../img/icon/form-icon.svg",
+  "extra_classes": "widget-type-form",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": ["forms_and_buttons"],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ],
+  "migration": true
+}

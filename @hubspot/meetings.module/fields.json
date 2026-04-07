@@ -1,0 +1,25 @@
+[ 
+  {
+    "name": "meeting",
+    "id": "meeting",
+    "label": "Select meeting link",
+    "type": "meeting",
+    "help_text": "Select an existing meeting from the sidebar, or create a new one by navigating to the <a href='/l/meetings/'>Meetings tool</a>"
+  },
+  {
+    "name": "select_meeting_title",
+    "id": "select_meeting_title",
+    "label": "Select meeting title",
+    "type": "text",
+    "locked": true,
+    "default": "No meeting selected"
+  },
+  {
+    "name": "select_meeting_description",
+    "id": "select_meeting_description",
+    "label": "Select meeting description",
+    "type": "text",
+    "locked": true,
+    "default": "Select an existing meeting from the sidebar, or create a new one by navigating to the Meetings tool"
+  }
+]

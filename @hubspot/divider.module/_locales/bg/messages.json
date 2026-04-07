@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Разделител",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Подравняване",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Централно",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Ляво",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Дясно",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Цвят",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Височина",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Тип линия",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Прекъсната",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Пунктирана ",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Плътна",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Допълване",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Максимум 20 пиксела",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Показване на допълване?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Ширина",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Процент от площта, в която е поставен разделителят.",
+    "description": "",
+    "placeholders": null
+  }
+}

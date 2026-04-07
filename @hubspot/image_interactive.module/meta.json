@@ -1,0 +1,23 @@
+{
+  "label": "Image",
+  "host_template_types": [
+    "WEB_INTERACTIVE"
+  ],
+  "icon": "../img/icon/high-insertImage.svg",
+  "extra_classes": "widget-type-linked_image",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": [
+    "media"
+  ],
+  "content_tags": [
+    {
+      "name": "NONPROFIT",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

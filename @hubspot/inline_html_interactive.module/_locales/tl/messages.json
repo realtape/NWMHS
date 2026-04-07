@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Email address",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Numero ng telepono",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "I-download ang file",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Link ng mga pagpupulong",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Isa sa mga pahina mo",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "I-link sa",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Link ng mga pagpupulong",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Buksan ang link sa bagong tab",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Page",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Inline HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Button content",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML na ire-render sa loob ng button. Maaari ka lamang gumamit ng mga tag na may bisa sa loob ng isang<a> tag.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "I-click dito",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Buksan ang link sa bagong tab",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Advanced",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Custom CSS Rules",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Tagapili",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Isinasama ang value na ito sa tagapili ng CTA. Halimbawa, magiging ':hover' ang  ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Magdagdag ng custom CSS para sa panuntunan ng istilo mo. Halimbawa: border-bottom: 3px solid #3e4d68; kulay: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Custom CSS Classes",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Magdagdag ng custom CSS classes sa CTA link mo.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Custom CSS Stylesheet",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Magdagdag ng custom CSS stylesheet para sa CTA link mo. Halimbawa: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Gumamit ng Legacy Markup",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "I-wrap ang HTML sa legacy markup para suportahan ang kasalukuyang CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

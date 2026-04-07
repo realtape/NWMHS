@@ -1,0 +1,22 @@
+{
+  "html.default": {
+    "message": "<h2>Jotain vaikuttavaa</h2>\n<h3>Kerro lukijalle lisää aiheesta</h3>\n<p>Otsikko ja alaotsikko kertovat, mitä<a href=\"#\">tarjoat</a>, ja otsikkomuoto sinetöi kaupan. Tässä voit kertoa, miksi tarjouksesi on niin hyvä, että sen vuoksi kannattaa täyttää lomake</p>\n<p>Muista:</p>\n<ul>\n<li>Luettelomerkinnät toimivat aina.</li>\n<li>Niillä voit esitellä <a href=\"#\">hyötyjä</a> ja</li>\n<li>tehdä vierailijoista vetäjiä.</li>\n</ul>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.defaultEmail": {
+    "message": "<h2>Otsikko</h2><p>Lisää sähköpostiisi tekstiä.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Rich text -sisältö",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Rich Text",
+    "description": "",
+    "placeholders": null
+  }
+}

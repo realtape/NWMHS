@@ -1,0 +1,47 @@
+[
+  {
+    "label": "Text block unit",
+    "name": "text_block_unit",
+    "type": "group",
+    "default": { "resource_title": "Text block unit" },
+    "occurrence": {
+      "min": 0,
+      "max": 6
+    },
+    "expanded": true,
+    "children": [
+      {
+        "label": "Block header",
+        "name": "block_header",
+        "type": "text",
+        "default": "GOAL"
+      },
+      {
+        "label": "Block text",
+        "name": "block_description",
+        "type": "richtext",
+        "default": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce id vulputate felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras quis faucibus eros. Phasellus a velit sed mi vulputate sollicitudin sed pellentesque neque. Curabitur varius porttitor diam, non facilisis purus feugiat eu.",
+        "enabled_features": [
+          "colors",
+          "fonts",
+          "standard_emphasis",
+          "personalize"
+        ]
+      },
+      {
+        "label": "Text unit background color",
+        "name": "block_text_unit_color",
+        "type": "color",
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brandSettings.colors[1]"
+          }
+        },
+        "default": {
+          "color": "#6a73e4",
+          "opacity": 100
+        }
+      }
+    ]
+  }
+]

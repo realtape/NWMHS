@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Deze prijsopgave is verlopen",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Prijsopgave {{ personalization_token('quote.hs_quote_number', '') }} is verlopen op {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "<a href='#'>Neem contact op met je sales-vertegenwoordiger</a> voor meer informatie.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Factureringsfrequentie",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Prijs van eenheid",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Prijs",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Producten en diensten",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Hoeveelheid",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Samenvatting<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Algemene voorwaarden",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Opmerkingen",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Project<br>acceptatie",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Subkop",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Ons<br> verhaal",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "We hebben passie<br>voor wat we doen",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Wat onze klanten<br>over ons zeggen",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Project-<br>samenvatting",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Onze doelen",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Werk-<br>omschrijving",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Project-<br>raming",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "Het<br>contract",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Opgesteld voor",
+    "description": "",
+    "placeholders": null
+  }
+}

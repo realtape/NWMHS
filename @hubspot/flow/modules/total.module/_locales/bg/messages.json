@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Общо",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Дължимо сега",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Това се използва за етикетиране на общата сума на офертата, когато в офертата има бъдещи плащания.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Дължимо сега текст",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Общо",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Текст за общата сума",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Обща договорна стойност",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Персонализирайте текста, за да опишете точно тази стойност. (Ако не са зададени условия, по подразбиране е зададена годишна стойност.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Обща договорна стойност текст",
+    "description": "",
+    "placeholders": null
+  }
+}

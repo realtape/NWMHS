@@ -1,0 +1,132 @@
+{
+  "accessibility_options.label": {
+    "message": "ऐक्सेसिबिलिटी के विकल्प",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.decorative": {
+    "message": "डेकोरेटिव - स्क्रीन रीडर द्वारा उपेक्षित",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.semantic": {
+    "message": "जानकारीपूर्ण - स्क्रीन रीडर द्वारा पढ़ें",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.help_text": {
+    "message": "स्क्रीन रीडर्स के लिए इस आइकन के उद्देश्य को वर्गीकृत करें। <a href='https://www.w3.org/WAI/tutorials/images/' target='_blank' rel='noopener noreferrer'>और अधिक जानें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.label": {
+    "message": "उद्देश्य",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.help_text": {
+    "message": "आइकन का वर्णन करने के लिए यह टेक्स्ट स्क्रीन रीडर द्वारा पढ़ा जाएगा।",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.label": {
+    "message": "विवरण",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "आइकॉन",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "आइकॉन",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "अलाइनमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "अलाइनमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "बैकग्राउंड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "कॉर्नर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "रेडियस",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.custom": {
+    "message": "कस्टम",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.round": {
+    "message": "राउंड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.square": {
+    "message": "स्क्वैर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.label": {
+    "message": "स्टाइल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.color.label": {
+    "message": "कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.label": {
+    "message": "फिल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "स्टाइल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.label": {
+    "message": "साइज़",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.size.label": {
+    "message": "साइज़",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "स्पेसिंग",
+    "description": "",
+    "placeholders": null
+  }
+}

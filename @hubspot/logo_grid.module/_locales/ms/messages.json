@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Grid logo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Gaya",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Imej logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Ketinggian logo maksimum",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Menetapkan ketinggian maksimum logo.<br><br>Menetapkan ketinggian maksimum logo adalah sangat sesuai apabila anda cuba menghasilkan beberapa logo yang mempunyai dimensi yang sangat berbeza dan saiz yang sama dari segi visual.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Latar belakang",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Nisbah aspek",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Tetapkan nisbah aspek untuk bekas logo. Paling membantu jika anda menggunakan medan warna latar dan menggunakan logo yang mempunyai dimensi yang sangat berbeza.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Warna latar belakang",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Jarak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Jarak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Tetapkan ruang dalaman di sekitar logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Disebabkan oleh ciri web yang responsif, tinggi logo mungkin kurang daripada nilai yang ditetapkan, berdasarkan gabungan saiz skrin, saiz asal imej, ruang dalaman logo, jurang grid dan kiraan lajur.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Grid logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Kiraan lajur grid",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Tetapkan jumlah lajur dalam grid pada desktop. Lalai kepada 1 pada peranti mudah alih.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Menetapkan warna latar dalam <strong>Imej logo > Latar</strong> boleh membantu anda menggambarkan grid logo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Jurang grid",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Tetapkan jarak antara item grid.<br><br>Menetapkan latar dalam <strong>Imej logo > Latar</strong> boleh membantu anda menggambarkan grid logo.",
+    "description": "",
+    "placeholders": null
+  }
+}

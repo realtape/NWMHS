@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Skupaj",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Zapade zdaj",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Uporablja se za označevanje celotne ponudbe, ko ima ponudba prihodnja plačila.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Zapade zdaj besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Skupaj",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Celotno besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Skupna vrednost pogodbe",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Prilagodite besedilo za natančen opis te vrednosti. (Privzeta vrednost je letna vrednost, če niso nastavljeni nobeni pogoji.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Besedilo skupne vrednosti pogodbe",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Maks. højde på logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Dette gælder ikke ved tilsidesættelse af standardlogoet",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Du kan vælge at tilsidesætte det anvendte logo på denne skabelon ved at bruge denne skifteknap.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Tilsidesæt standardlogo",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Som standard vil dine tilbud vise dit firmalogo fra dit brandkit i Kontostandarder eller Hjemmesideindstillinger.",
+    "description": "",
+    "placeholders": null
+  }
+}

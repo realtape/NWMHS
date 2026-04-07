@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "टोटल",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "अभी देय है",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "जब कोट में आगामी भुगतान होते हैं तो इसका उपयोग क्वोट टोटल को लेबल करने के लिए किया जाता है।",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "अभी दर्ज किया जाने वाला टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "टोटल",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "टोटल टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "टोटल कॉन्ट्रैक्ट वैल्यू",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "इस वैल्यू का सटीक वर्णन करने के लिए टेक्स्ट को कस्टमाइज़ करें। (यदि कोई शर्तें निर्धारित नहीं हैं तो वार्षिक वैल्यू डिफ़ॉल्ट है।)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "टोटल कॉन्ट्रैक्ट वैल्यू टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  }
+}

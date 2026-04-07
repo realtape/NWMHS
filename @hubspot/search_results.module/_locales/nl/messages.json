@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Resultaten doorzoeken site",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Uitgelichte afbeeldingen weergeven",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Er zijn helaas geen resultaten voor [[search_term]].</p><p>Probeer je query anders te verwoorden of doorzoek onze site.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Vorige pagina",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Volgende pagina",
+    "description": "",
+    "placeholders": null
+  }
+}

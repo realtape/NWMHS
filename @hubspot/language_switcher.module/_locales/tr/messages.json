@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Dil değiştirici",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hibrit",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Yerelleştirilmiş",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "Sayfa dili",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Dil değiştiricideki metnin dili. PageLang, dillerin adlarının değiştiricinin açık olduğu sayfanın dilinde görüntüleneceği anlamına gelir. Yerelleştirilmiş, her dilin adının o dilde görüntüleneceği anlamına gelir. Hibrit, ikisinin birleşimidir.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Ekran modu",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  }
+}

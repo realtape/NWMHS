@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Содержимое блога",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.post": {
+    "message": "Публикация",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.listing": {
+    "message": "Список",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.placeholder": {
+    "message": "Поиск",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.label": {
+    "message": "Шаблон для редактирования",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_source.label": {
+    "message": "Источник публикации блога",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_listing_source.label": {
+    "message": "Источник списка блогов",
+    "description": "",
+    "placeholders": null
+  }
+}

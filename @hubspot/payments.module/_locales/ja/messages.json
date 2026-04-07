@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "支払い",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "追加アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "ボタンリンク",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "その他",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "支払いリンクを使用",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "ボタンのターゲット",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "ご注文の確認",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "ボタンテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "新しいタブで開く",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "スライド方式の重ね表示",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "決済の動作",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "決済をクローズ",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "左",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "右",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "位置",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "支払いリンク",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "位置合わせ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "位置合わせ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "角",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "半径",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "ホバー",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "アイコン",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "サイズ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "アイコンとボタンテキストの間の間隔。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "大文字で始める",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "小文字",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "大文字",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "変換",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "なし",
+    "description": "",
+    "placeholders": null
+  }
+}

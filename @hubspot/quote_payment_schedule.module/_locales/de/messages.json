@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Zahlungsplan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.scheduled_payments.default": {
+    "message": "Geplante Zahlungen",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.default": {
+    "message": "Betrag",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.label": {
+    "message": "Betrag",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.default": {
+    "message": "Fällig",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.label": {
+    "message": "Fällig",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.label": {
+    "message": "Zahlungsplanspalten",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.default": {
+    "message": "Name",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.label": {
+    "message": "Name",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.default": {
+    "message": "<h2>Zahlungsplan</h2>",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.label": {
+    "message": "Überschrift der geplanten Zahlung",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.due_now.default": {
+    "message": "Jetzt fällig",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.paid.default": {
+    "message": "Bezahlt",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.processing.default": {
+    "message": "Zahlungsabwicklung",
+    "description": "",
+    "placeholders": null
+  }
+}

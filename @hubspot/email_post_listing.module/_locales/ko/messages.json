@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "포스트 목록",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "가장 인기 - 지난 6개월",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "가장 인기 - 항상",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "가장 인기 - 지난 달",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "가장 인기 - 작년",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "가장 최근",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "검색",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "블로그 게시물 열거자",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "블로그 템플릿에서 사용하는 경우 기본적으로 현재 블로그를 사용하며, 다른 곳에서 사용하는 경우 기본 블로그를 사용합니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "표시할 블로그 선택",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "나열할 최대 블로그 게시물 수",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "최신 게시물",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "표시할 제목 나열",
+    "description": "",
+    "placeholders": null
+  }
+}

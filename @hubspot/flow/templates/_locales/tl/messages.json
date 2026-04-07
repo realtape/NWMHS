@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Nag-expire na ang quote na ito",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Nag-expire na ang quote {{ personalization_token('quote.hs_quote_number', '') }} noong {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Mangyaring <a href='#'>makipag-ugnyan sa iyong sales rep</a> para sa higit pang detalye.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Dalas ng Billing",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Presyo ng yunit",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Presyo",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Mga Produkto at Serbisyo",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Dami",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Executive<br>Summary",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Mga Tuntunin at Kondisyon",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Mga komento",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Pagtanggap ng<br>Proyekto",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Subhead",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Ang Aming<br>Kwento",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Dedikado kami<br>sa ginagawa namin",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Ang sinasabi ng mga kliyente namin<br>tungkol sa amin",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Buod ng<br>Proyekto",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Mga layunin namin",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Statement<br>ng trabaho",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Tantiya ng<br>proyekto",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "Ang<br>Kontrata",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Inihanda para sa",
+    "description": "",
+    "placeholders": null
+  }
+}

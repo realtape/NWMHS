@@ -1,0 +1,232 @@
+{
+  "name": {
+    "message": "Łącze WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.label": {
+    "message": "Tekst zgody",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.help_text": {
+    "message": "Tekst zgody zawiera informacje o rodzaju wiadomości, które twój kontakt otrzyma od Twojej firmy, a także instrukcje i słowa kluczowe związane ze zgodą. Aby dowiedzieć się więcej, przeczytaj <a href='https://knowledge.hubspot.com/inbox/collect-consent-for-whatsapp-conversations' target='_blank' rel='noopener noreferrer'>artykuł w bazie wiedzy</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.label": {
+    "message": "Pokaż",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text_and_icon": {
+    "message": "Tekst i ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text": {
+    "message": "Tylko tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.icon": {
+    "message": "Tylko ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.label": {
+    "message": "Położenia ikony",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.left": {
+    "message": "Po lewej",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.right": {
+    "message": "Po prawej",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Tekst przycisku",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Czatuj przez WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.size.label": {
+    "message": "Rozmiar",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.help_text": {
+    "message": "Odstęp pomiędzy ikoną a tekstem przycisku.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.placeholder": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.label": {
+    "message": "Tło",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.label": {
+    "message": "Róg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.radius.label": {
+    "message": "Promień",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.label": {
+    "message": "Kursor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.label": {
+    "message": "Tło",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.label": {
+    "message": "Połącz numer Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.help_text": {
+    "message": "Dowiedz się, jak połączyć kanał WhatsApp ze skrzynką odbiorczą, korzystając z <a href='https://knowledge.hubspot.com/inbox/connect-whatsapp-to-the-conversations-inbox' target='_blank' rel='noopener noreferrer'>tego artykułu bazy wiedzy</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.default": {
+    "message": "Ikona WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.help_text": {
+    "message": "Ten tekst będzie odczytywany przez czytniki ekranu w celu opisania ikony.",
+    "description": "",
+    "placeholders": null
+  }
+}

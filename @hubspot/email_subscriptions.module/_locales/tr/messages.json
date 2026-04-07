@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Abonelik tercihleri",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Tercihleri güncelle düğme metni",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "E-posta tercihlerini güncelleyin",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "İletişim tercihleri",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Başlık",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Alt başlık",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Bu sizin e-posta adresiniz değilse bu sayfayla ilişkili e-posta büyük olasılıkla size iletildiği için lütfen bu sayfayı yok sayın.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Evet, beni yeniden abone yapın!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Yeniden abone ol düğmesi metni",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Tüm etiket aboneliğini iptal et",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Tüm e-posta listelerinde aboneliğimi iptal et.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Almak istemediğiniz e-posta türlerinin işaretini kaldırın:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Tercih seçimi yardım metni",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Veya asla e-posta almamak için burayı işaretleyin:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Tüm yardım metninin aboneliklerini iptal et",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Şu anda aboneliği olmayan bir kullanıcı için tüm yardım metni aboneliğini iptal edin",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Şu anda tüm e-postalarımızdan çıkmış durumdasınız. E-postalarımızı tekrar almak ister misiniz?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Tek abonelik düğme metni",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Abonelikten ayrıl",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Tek abonelik onay metni",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Şunlar ile ilgili e-posta aboneliğinden ayrılmak istiyor musunuz?:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Tek abonelik örnek ad",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "seçili abonelik türünüz",
+    "description": "",
+    "placeholders": null
+  }
+}

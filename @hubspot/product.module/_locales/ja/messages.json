@@ -1,0 +1,362 @@
+{
+  "name": {
+    "message": "製品",
+    "description": "",
+    "placeholders": null
+  },
+  "product.label": {
+    "message": "製品",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.label": {
+    "message": "名前",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.label": {
+    "message": "見出しのレベル",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.help_text": {
+    "message": "名前要素の見出しのレベル（h1、h2、h3、h4、h5、h6）が設定されます。これは、アクセシビリティーとSEOに関して重要です。<a href='https://www.w3.org/WAI/tutorials/page-structure/headings/'>もっと詳しく</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h1": {
+    "message": "見出しH1",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h2": {
+    "message": "見出しH2",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h3": {
+    "message": "見出しH3",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h4": {
+    "message": "見出しH4",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h5": {
+    "message": "見出しH5",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h6": {
+    "message": "見出しH6",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.override_product_name.label": {
+    "message": "製品名を変更",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.label": {
+    "message": "名前",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.default": {
+    "message": "製品名",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.label": {
+    "message": "説明",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.override_product_description.label": {
+    "message": "製品の説明を変更",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.label": {
+    "message": "説明",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.default": {
+    "message": "販売する製品の簡単な説明。1～2文が最適な長さです。",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.label": {
+    "message": "画像",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.override_product_image.label": {
+    "message": "製品画像を変更",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.image_override.label": {
+    "message": "画像",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.label": {
+    "message": "ボタン",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.label": {
+    "message": "ボタンテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.default": {
+    "message": "もっと詳しく",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.override_product_button.label": {
+    "message": "製品ボタンを変更",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_override.label": {
+    "message": "ボタン",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_price_info_found.default": {
+    "message": "価格情報が見つかりません",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.label": {
+    "message": "レイアウト",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.horizontal": {
+    "message": "横",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.vertical": {
+    "message": "縦",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "画像",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.label": {
+    "message": "画像全体を表示",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.help_text": {
+    "message": "常に画像全体が表示されます。画像が画像コンテナー全体を占めないことがあります。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.help_text": {
+    "message": "画像コンテナーに背景色が追加されます。画像が透過である場合に特に便利です。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.label": {
+    "message": "縦横比",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.label": {
+    "message": "画像の幅の比率",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.help_text": {
+    "message": "画像に割り当てられるカードのパーセンテージが設定されます。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.40%": {
+    "message": "40％",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.45%": {
+    "message": "45％",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.50%": {
+    "message": "50％",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.55%": {
+    "message": "55％",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.60%": {
+    "message": "60％",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.label": {
+    "message": "コンテンツ領域",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.help_text": {
+    "message": "コンテンツ領域の背景色を設定",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.horizontal_padding.label": {
+    "message": "水平方向のパディング",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.vertical_padding.label": {
+    "message": "垂直方向のパディング",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "名前",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_size.label": {
+    "message": "フォントサイズ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_color.label": {
+    "message": "文字色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.label": {
+    "message": "価格",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_size.label": {
+    "message": "フォントサイズ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_color.label": {
+    "message": "文字色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "説明",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_size.label": {
+    "message": "フォントサイズ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_color.label": {
+    "message": "文字色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.label": {
+    "message": "ボタン",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.override_defaults.label": {
+    "message": "既定よりも優先使用",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.text_color.label": {
+    "message": "文字色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.button_color.label": {
+    "message": "ボタンの色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.corner_radius.label": {
+    "message": "角の半径",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.label": {
+    "message": "ホバー",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.text_color.label": {
+    "message": "文字色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.button_color.label": {
+    "message": "ボタンの色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.border_color.label": {
+    "message": "境界線の色",
+    "description": "",
+    "placeholders": null
+  }
+}

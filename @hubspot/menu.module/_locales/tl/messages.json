@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Pahalang",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Patayo",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Ipinapakita ng mga pahalang na menu ang mga item nang side-by-side, at nasa top-to-bottom kapag mga pataas na menu",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Oryentasyon",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Maghanap",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Lilitaw ang mga child menu item kapag nag-hover ka sa parent. Kapag hindi naka-tsek, lilitaw lagi ang mga child menu item",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "I-enable ang mga flyout?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Ang menu tree ay ang istruktura ng page na nagji-generate ng mga item sa menu. Maaaring gawin ang single menu tree sa maraming menu. Pwede kang gumamit ng maraming menu para sa mga kumplikadong istruktura ng website. Magagawa at mapapangasiwaan ang mga menu sa iyong Mga Setting ng Content.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Tinutukoy ang bilang ng menu tree children na pwedeng i-expand sa menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Mga maximum na level",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Maghanap",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Breadcrumb style path menu (gumagamit ng pahalang na flow)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinamiko ayon sa page - Ipakita  ang mga page sa menu na nauugnay sa tinitingnang page",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Static - laging ipakita ang ang mga top-level page sa menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinamiko ayon sa page - Ipakita  ang mga page sa menu na nauugnay sa tinitingnang page",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Nagpapakita ang mga advanced menu ng iba't ibang bahagi ng menu tree batay sa kung aling page ang tinitingnan.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Advanced menu na uri",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Maghanap",
+    "description": "",
+    "placeholders": null
+  }
+}

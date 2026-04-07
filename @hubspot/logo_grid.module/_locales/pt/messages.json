@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Grid do logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logotipos",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estilos",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Imagem do logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Altura máx. do logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Define a altura máxima dos logotipos.<br><br>Definir uma altura máxima para o logotipo é útil ao tentar fazer com que vários logotipos de dimensões muito diferentes sejam visualmente iguais em tamanho.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Plano de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Proporção da imagem",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Defina a taxa de proporção do contêiner do logotipo. Útil se você estiver usando o campo de cor de fundo e logotipos de dimensões muito diferentes.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Cor de fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Defina o deslocamento ao redor do logotipo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Devido à natureza responsiva da web, a altura renderizada dos logotipos pode ser menor que o valor definido com base em uma combinação de tamanho da tela, tamanho da imagem original, deslocamento do logotipo, lacuna da grade e contagem de colunas.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Grid do logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Contagem de colunas do grid",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Defina a quantidade de colunas na grade para computador. O padrão é 1 para celular.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Definir uma cor de fundo em <strong>Imagem do logotipo > Plano de fundo</strong> pode ajudá-lo a visualizar a grade do logotipo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Lacuna da grade",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Defina o espaçamento entre os itens da grade.<br><br>Definir um plano de fundo em <strong>Imagem do logotipo > Plano de fundo</strong> pode ajudar você a visualizar a grade do logotipo.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "9f90a261-5989-43f9-d07d-2593b533ae18",
+    "name": "submit_button_text",
+    "label": "Submit button text",
+    "sortable": false,
+    "required": true,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "Submit"
+  },
+  {
+    "id": "272424af-5a29-7076-c6d4-0e7170141339",
+    "name": "password_placeholder",
+    "label": "Password placeholder",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "Password"
+  },
+  {
+    "id": "e06dc069-067a-6cde-7423-dc8db210ea8a",
+    "name": "bad_password_message",
+    "label": "Bad password message",
+    "sortable": false,
+    "required": true,
+    "locked": false,
+    "validation_regex": "",
+    "type": "richtext",
+    "default": "Sorry, please try again."
+  }
+]

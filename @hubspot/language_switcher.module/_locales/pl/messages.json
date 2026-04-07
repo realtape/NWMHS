@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Przełączanie języka",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybryda",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Zlokalizowane",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "JęzStron",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Język tekstu w oknie wyboru języka. „JęzStron” oznacza, że nazwy języków będą wyświetlane w języku wyświetlania strony, na której znajduje się okno wyboru. „Zlokalizowane” oznacza, że nazwa każdego języka będzie wyświetlana w tym języku. „Hybryda” to połączenie obu wersji.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Tryb wyświetlania",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  }
+}

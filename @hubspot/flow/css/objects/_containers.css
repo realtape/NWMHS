@@ -1,0 +1,38 @@
+/* Containers */
+
+.hs-quotes--flow .container {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 0 20px;
+}
+
+.hs-quotes--flow .container--content {
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .hs-quotes--flow .container,
+  .hs-quotes--flow .container--content {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+
+  .hs-quotes--flow .container,
+  .hs-quotes--flow .container--content {
+    max-width: 93%;
+  }
+}
+
+@media print {
+  
+  .hs-quotes--flow .container,
+  .hs-quotes--flow .container--content {
+    max-width: unset;
+    padding: 0 30px;
+  }
+}

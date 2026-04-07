@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "رسوم",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "خصم {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "{{ fee_amount }}% من الرسوم",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "{{ fee_amount }}% من الضرائب",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "الرسوم الأخرى",
+    "description": "",
+    "placeholders": null
+  }
+}

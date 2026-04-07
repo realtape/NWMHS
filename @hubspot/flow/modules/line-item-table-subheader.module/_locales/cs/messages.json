@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Podnadpis tabulky položek řádku",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Opakované a jednorázové platby, které jsou splatné okamžitě.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Text podnadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Tento podnadpis se zobrazuje jen v případě, že jsou plánovány budoucí platby.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Výsledky hledání na stránce",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Zobrazit náhledové obrázky",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Je nám to líto, ale pro výraz [[search_term]] jsme nenašli žádné výsledky.</p><p>Zkuste zadání přeformulovat nebo si naši stránku projděte.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Předchozí stránka",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Další stránka",
+    "description": "",
+    "placeholders": null
+  }
+}

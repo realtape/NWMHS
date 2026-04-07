@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Unterüberschrift der Artikeltabelle",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Wiederkehrende und einmalige Zahlungen, die jetzt fällig sind.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Text für Unterüberschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Diese Unterüberschrift wird nur angezeigt, wenn zukünftige Zahlungen vorhanden sind.",
+    "description": "",
+    "placeholders": null
+  }
+}

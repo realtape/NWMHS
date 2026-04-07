@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Jadwal pembayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.scheduled_payments.default": {
+    "message": "Pembayaran terjadwal",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.default": {
+    "message": "Jumlah",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.label": {
+    "message": "Jumlah",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.default": {
+    "message": "Jatuh tempo",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.label": {
+    "message": "Jatuh tempo",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.label": {
+    "message": "Kolom jadwal pembayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.default": {
+    "message": "Nama",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.label": {
+    "message": "Nama",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.default": {
+    "message": "<h2>Jadwal Pembayaran</h2>",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.label": {
+    "message": "Heading pembayaran terjadwal",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.due_now.default": {
+    "message": "Jatuh tempo sekarang",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.paid.default": {
+    "message": "Dibayar",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.processing.default": {
+    "message": "Pemrosesan pembayaran",
+    "description": "",
+    "placeholders": null
+  }
+}

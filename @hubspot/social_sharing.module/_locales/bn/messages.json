@@ -1,0 +1,142 @@
+{
+  "email.custom_link_format.default": {
+    "message": "mailto:?subject=Check out {{ social_link_url|urlencode }} &body=Check out {{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email.custom_link_format.label": {
+    "message": "লিংক ",
+    "description": "",
+    "placeholders": null
+  },
+  "email.enabled.label": {
+    "message": "চালু আছে?",
+    "description": "",
+    "placeholders": null
+  },
+  "email.label": {
+    "message": "ইমেল",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.custom_link_format.default": {
+    "message": "http://www.facebook.com/share.php?u={{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.custom_link_format.label": {
+    "message": "লিংক ",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.enabled.label": {
+    "message": "চালু আছে?",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.label": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "এই হল গন্তব্যের লিঙ্ক যেটিকে সোশ্যাল নেটওয়ার্ক সাইটে সহজে শেয়ার করার জন্য ছোট করে দেওয়া হবে।",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "URL সংযুক্ত করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "link.placeholder": {
+    "message": "ঐচ্ছিক কাস্টম পেজের URL",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.custom_link_format.default": {
+    "message": "http://www.linkedin.com/shareArticle?mini=true&url={{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.custom_link_format.label": {
+    "message": "লিংক ",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.enabled.label": {
+    "message": "চালু আছে?",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.label": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "সামাজিকভাবে শেয়ার করা",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.custom_link_format.default": {
+    "message": "http://pinterest.com/pin/create/button/?url={{ social_link_url|urlencode }}&media={{ pinterest_media }}",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.custom_link_format.label": {
+    "message": "লিংক ",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.enabled.label": {
+    "message": "চালু আছে?",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.label": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.pinterest_media.label": {
+    "message": "ছবি পিন করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.custom_link_format.default": {
+    "message": "https://twitter.com/intent/tweet?original_referer={{ social_link_url|urlencode }}&url={{ social_link_url|urlencode }}&source=tweetbutton&text={{ social_page_title|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.custom_link_format.label": {
+    "message": "লিংক ",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.enabled.label": {
+    "message": "চালু আছে?",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.label": {
+    "message": "টুইটার",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.label": {
+    "message": "Twitter আইকন",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.choices.twitter": {
+    "message": "Twitter পাখি",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.choices.x-twitter": {
+    "message": "Twitter X",
+    "description": "",
+    "placeholders": null
+  }
+}

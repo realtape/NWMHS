@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "الدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "إضافة أيقونة",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "رابط الزر",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "غير ذلك",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "استخدام رابط دفع",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "هدف الزر",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "السداد مع الخروج",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "نص الزر",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "فتح في علامة تبويب جديدة",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "تراكب الشرائح",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "طريقة السداد مع الخروج",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "إغلاق السداد مع الخروج",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "الأيقونة",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "الأيقونة",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "اليسار",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "اليمين",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "الموضع",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "رابط الدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "محاذاة",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "محاذاة",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "اللون",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "الخلفية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "الحد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "الحد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "الزاوية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "نصف القطر",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "اللون",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "الخلفية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "الحد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "الحد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "اللون",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "الأيقونة",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "التمرير",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "الخط",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "النص",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "اللون",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "الأيقونة",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "الحجم",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "التباعد بين الأيقونة ونص الزر.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "التباعد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "الأنماط",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "التباعد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "التباعد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "الخط",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "النص",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "الكتابة بأحرف كبيرة",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "أحرف صغيرة",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "أحرف كبيرة",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "تحويل",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "لا شيء",
+    "description": "",
+    "placeholders": null
+  }
+}

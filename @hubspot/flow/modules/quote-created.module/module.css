@@ -1,0 +1,8 @@
+.quote-created {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-created__text {
+  font-weight: 600;
+}

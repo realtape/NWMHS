@@ -1,0 +1,132 @@
+{
+  "accessibility_options.label": {
+    "message": "Mga opsyon sa accessibility",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.decorative": {
+    "message": "Decorative - Binalewala ng screen reader",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.semantic": {
+    "message": "Informative - Binasa ng screen reader",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.help_text": {
+    "message": "Ikategorya ang gamit ng icon na ito para sa mga screen reader. <a href='https://www.w3.org/WAI/tutorials/images/' target='_blank' rel='noopener noreferrer'>Alamin Pa</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.label": {
+    "message": "Layunin",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.help_text": {
+    "message": "Babasahin ng mga screen reader ang tekstong ito para ilarawan ang icon.",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.label": {
+    "message": "Paglalarawan",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Icon",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Icon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Alignment",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Alignment",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Kulay",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Background",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Corner",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.custom": {
+    "message": "Custom",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.round": {
+    "message": "Bilog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.square": {
+    "message": "Parisukat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.color.label": {
+    "message": "Kulay",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.label": {
+    "message": "I-fill",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Mga estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.label": {
+    "message": "Laki",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.size.label": {
+    "message": "Laki",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Agwat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Agwat",
+    "description": "",
+    "placeholders": null
+  }
+}

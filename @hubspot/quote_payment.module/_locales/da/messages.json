@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Betal nu",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Tekst til betalingsknap",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Sørg for, at det er klart, at din kunde ved at klikke på denne knap vil betale.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Der opstod et problem med at opsætte tjek ud. Kontakt den person, der sendte dig tilbuddet.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Fejlmeddelelse for tjek ud",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Fortæl din kunde, hvad denne skal gøre, når der er et problem med at starte betalingen.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Vælg et overskriftsniveau. H1 er det største, herefter kommer H2 osv.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Overskriftsniveau",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Overskriftsindhold",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Foretag første betaling:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Din kunde vil se dette i betalingsknappen indtil de har betalt det første afdrag.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Knaptekst for betalingsplaner",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Betaling kan ikke foretages, fordi tilbuddet ikke er fuldt underskrevet.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Forklarende tekst, når der er brug for underskrifter",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Hvis der kræves underskrifter før betaling, vil din kunde se denne besked, indtil alle nødvendige underskrifter er foretaget.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Betalt",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Tekst for betalt",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Betalt kl. [[ paid_time ]] den [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Betalingsbehandling",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Betalingsbehandlingstekst",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Der opstod et problem med at indlæse betalingsstatussen for dette tilbud. Prøv at indlæse siden igen.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Fejlmeddelelse for betalingsstatus",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Bed din kunde om at opdatere siden, når hentning af betalingsstatus mislykkes.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Dette er et testtilbud, så det kan ikke indsamle virkelige betalinger.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Du kan beslutte, om du vil opkræve betaling, når du opretter et tilbud med denne skabelon.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Kontakt den person, der sendte dig tilbuddet, for at gå til betaling.",
+    "description": "",
+    "placeholders": null
+  }
+}

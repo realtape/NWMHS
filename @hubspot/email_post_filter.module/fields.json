@@ -1,0 +1,90 @@
+[
+  {
+    "label": "Select blog to display",
+    "name": "select_blog",
+    "id": "73cbe3fb-02bc-1abd-756e-66245839605e",
+    "type": "blog",
+    "help_text": "Default will use the current blog when used in a blog template or the primary blog when used elsewhere."
+  },
+  {
+    "label": "List of values for filter links",
+    "name": "filter_type",
+    "id": "c24e1e67-7c21-3043-9d88-c94de5d0271e",
+    "type": "choice",
+    "choices": [
+      [
+        "tag",
+        "Tags"
+      ],
+      [
+        "month",
+        "Months"
+      ],
+      [
+        "author",
+        "Authors"
+      ]
+    ],
+    "display": "select",
+    "placeholder": "Search",
+    "required": true,
+    "default": "tag"
+  },
+  {
+    "label": "Ordering of values for filter links",
+    "name": "order_by",
+    "id": "3e466128-e4a1-4941-78de-302e35e54da6",
+    "type": "choice",
+    "choices": [
+      [
+        "post_count",
+        "Post Count"
+      ],
+      [
+        "name",
+        "Name"
+      ]
+    ],
+    "display": "select",
+    "placeholder": "Search",
+    "required": true,
+    "default": "post_count"
+  },
+  {
+    "label": "List title to display",
+    "name": "list_title",
+    "id": "b0535ebe-60a8-e80a-ce97-bd91a199dccd",
+    "type": "text",
+    "default": "Posts by Tag"
+  },
+  {
+    "label": "Show all filters",
+    "name": "show_all_filters",
+    "id": "show_all_filters",
+    "type": "boolean",
+    "display": "checkbox",
+    "default": false
+  },
+  {
+    "label": "Maximum number of filter values to display",
+    "name": "max_links",
+    "id": "b5382e40-8fd2-9e9e-8715-6353057bedf6",
+    "type": "number",
+    "visibility": {
+      "controlling_field": "show_all_filters",
+      "controlling_value_regex": "false",
+      "operator": "EQUAL"
+    },
+    "display": "text",
+    "min": 1,
+    "step": 1,
+    "default": 5
+  },
+  {
+    "label": "Text to display if more than the maximum value to display are available. Leave blank to omit link",
+    "name": "expand_link_text",
+    "id": "5fec867a-b73f-b4c9-eb1f-cf8dd0ed6244",
+    "type": "text",
+    "default": "See all"
+  }
+]

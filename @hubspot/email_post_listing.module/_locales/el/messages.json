@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Καταχώρηση ανάρτησης",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Πιο δημοφιλή - τους τελευταίους έξι μήνες",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Πιο δημοφιλή - από την αρχή",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Πιο δημοφιλή - τον τελευταίο μήνα",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Πιο δημοφιλή - το τελευταίο έτος",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Πιο πρόσφατα",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Παράθεση αναρτήσεων ιστολογίου ανά",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Ως προεπιλογή θα χρησιμοποιηθεί το τρέχον ιστολόγιο όταν χρησιμοποιείται σε πρότυπο ιστολογίου ή το κύριο ιστολόγιο όταν χρησιμοποιείται αλλού.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Επιλέξτε ιστολόγιο για προβολή",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Μέγιστος αριθμός αναρτήσεων ιστολογίου για παράθεση",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Πρόσφατες αναρτήσεις",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Τίτλος λίστας προς προβολή",
+    "description": "",
+    "placeholders": null
+  }
+}

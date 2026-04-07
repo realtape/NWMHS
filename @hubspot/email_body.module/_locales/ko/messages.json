@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "이메일 본문",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>{{contact.firstname}}님 안녕하세요. </p>\n<p>고객에게 제안할 내용을 설명하세요. 고객이 왜 읽어야 하나요? 제목 행에서 고객에게 무엇을 약속했나요? 매력적으로 설명해 주세요. 고객을 웃게 만드세요. 고객을 소리치게 만드세요. 아, 그렇게는 하지 않는 게 좋겠네요...</p>\n<p>목록을 사용하면 다음이 가능합니다.</p>\n<ul>\n<li>제안의 가치 설명</li>\n<li>독자가 행동을 취할 때 무엇을 얻을 수 있는지 상기시킴</li>\n<li>글머리 기호를 사용하여 기술 표현</li>\n<li>내용을 확인하기 쉽게 만들기</li>\n</ul>\n<p><a href=\"http://hubspot.com\">귀하의 사이트 랜딩 페이지에 링크</a>(정말 중요한 부분입니다.)</p>\n<p>이제 귀하가 그들을 얼마나 사랑하는지 함축적으로 상기시키는 것으로 마무리하세요.</p>\n<p>오, 설득력이 대단하군요.</p>\n<p>감사합니다.</p>\n<p>귀하의 이름</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "이메일 본문",
+    "description": "",
+    "placeholders": null
+  }
+}

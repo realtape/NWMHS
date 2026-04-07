@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Llista de publicacions",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Més populars: els últims sis mesos",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Més populars: tots els temps",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Més populars: el darrer mes",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Més populars: l'any passat",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Més recents",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Cerca",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Enumera les publicacions de blog per",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "El valor per defecte utilitzarà el blog actual quan es faci servir en una plantilla de blog o el blog principal quan es faci servir en qualsevol altre lloc.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selecciona el blog per mostrar",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Nombre màxim de publicacions de blog per enumerar",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Entrades recents",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Títol de llista per mostrar",
+    "description": "",
+    "placeholders": null
+  }
+}

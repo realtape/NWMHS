@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Penapis Siaran",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Lihat semua",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Teks untuk dipaparkan jika lebih daripada nilai maksimum untuk dipaparkan tersedia. Tinggalkan kosong untuk mengecualikan pautan",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Lalai akan menggunakan blog semasa apabila digunakan dalam templat blog atau blog utama apabila digunakan di tempat lain.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Pilih blog untuk dipaparkan",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Bilangan nilai penapis maksimum untuk dipaparkan",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Senarai nilai untuk pautan penapis",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tag",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Pengarang",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Bulan",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Siaran mengikut Tag",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Tajuk senarai untuk dipaparkan",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nama",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Kiraan Siaran",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Penyusunan nilai untuk pautan penapis",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Tunjukkan semua penapis",
+    "description": "",
+    "placeholders": null
+  }
+}

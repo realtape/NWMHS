@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Kuvagalleria",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Kuvaus",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Dia",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Avaa linkki uudessa välilehdessä",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Näytä kuvaus",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Linkitä URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Kuva",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Vaihteleva korkeus",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Kiinteä korkeus",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Hae",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Vaihteleva korkeus",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Näytä siirtymispainikkeet",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Pikkukuvanavigointi",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Vakiosiirrin",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Kuvagalleria",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Hae",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Näkymätila",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Kiertävät diat",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Hae",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Päällekkäin asetetut kuvaukset kuvien päällä",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Pidä kuvaukset aina kuvien alapuolella",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Kuvaussijainti",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Automaattisten vieritysten välinen aika sekunneissa",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Häivytys",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Dia",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Hae",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Diasiirtymät",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Valokuvagallerian rivit",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Automaattinen kehitys",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Tämä moduuli on poistettu käytöstä, ja sen on korvannut kaksi uutta ja parannettua moduulia, Kuvan vierityspalkki ja Kuvaruudukko <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Lisätietoja.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

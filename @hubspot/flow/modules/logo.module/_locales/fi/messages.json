@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Logon enimmäiskorkeus",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Tätä ei sovelleta, kun oletuslogo ohitetaan",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Voit ohittaa tässä mallipohjassa käytetyn logon käyttämällä tätä vaihtokytkintä.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Ohita oletuslogo",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Oletuksena tarjoukset näyttävät yrityksesi logon brändipaketissa tilin oletusasetuksista tai verkkosivun asetuksista.",
+    "description": "",
+    "placeholders": null
+  }
+}

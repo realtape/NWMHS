@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Pembagi",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Penjajaran",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Tengah",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Kiri",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Kanan",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Warna",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Tinggi",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Tipe baris",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Putus-putus",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Bertitik-titik",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Solid",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Lapisan",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maksimal 20 piksel",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Tampilkan spasi tambahan?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Lebar",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Persentase area tempat penempatan pembagi.",
+    "description": "",
+    "placeholders": null
+  }
+}

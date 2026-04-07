@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Kopskrif",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "'n Helder en duidelike opskrif",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Opskrifinhoud",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Kies 'n opskrifvlak. O1 is die grootste, gevolg deur O2, ensovoorts",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "O1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "O2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "O3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "O4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "O5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "O6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Kies 'n opskriftipe",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Opskrifvlak",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Versteek opskrifvlakkontroles",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "As die opskrifvlakkontroles versteek word, sal dit keer dat die opskrifvlak in die inhoudsnutsmiddels verander word",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Talahanayan ng buod ng mga pagbabayad sa hinaharap",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Table heading",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Ipakita ang table heading",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Table heading",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Magdagdag ng heading sa mga table ng buod ng mga pagbabayad sa hinaharap",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "Buod ng Mga Pagbabayad sa Hinaharap",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Mga column",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Heading ng pangalan ng line item",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Item",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Heading ng buod ng pagbabayad",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Pagbabayad",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Isang beses",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ linggo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 linggo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ buwan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ quarter",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 na buwan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ taon",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 taon",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 taon",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "araw",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "(na) araw",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "linggo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "(na) linggo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "buwan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "mga buwan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "pagbabayad",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "mga pagbabayad",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} noong {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "Kailangan bayaran ang {{ formatted_price }} {{ billing_delay_period }} {{ billing_delay_unit }} matapos ang unang pagbabayad",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} na magsisimula {{ billing_delay_period }} {{ billing_delay_unit }} matapos ang unang pagbabayad",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} na magsisimula sa {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} na magsisimula {{ billing_delay_period }} {{ billing_delay_unit }} matapos ang unang pagbabayad para sa {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} na magsisimula sa {{ formatted_first_payment_date }} para sa {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 na taon",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 taon",
+    "description": "",
+    "placeholders": null
+  }
+}

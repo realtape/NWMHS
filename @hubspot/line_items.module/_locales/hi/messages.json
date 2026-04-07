@@ -1,0 +1,337 @@
+{
+  "name": {
+    "message": "लाइन आइटम्स",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "{{ discount_amount }} छूट के बाद",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annually.default": {
+    "message": "सालाना",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "दिन",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "दिनों",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "सप्ताह",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "हफ्तों",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ सप्ताह",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 सप्ताह",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ माह",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ हर तीन महीने में",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 महीने",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first_payment_date.default": {
+    "message": "पहली पेमेंट: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.for_months.default": {
+    "message": "{{ line_item.hs_term_in_months }} महीने के लिए",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.for_years.default": {
+    "message": "{{ year }} {{ year_text }} के लिए",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_charges.default": {
+    "message": "आगामी पेमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_items.default": {
+    "message": "लाइन आइटम्स",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "वीकली",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "प्रति दो सप्ताह",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "महीना",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "मासिक",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "महीने",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "एक-बारगी",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment_due_date.default": {
+    "message": "देय तिथि: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment_start_date.default": {
+    "message": "पेमेंट शुरू होने की तरीख: {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "हर छह महीने",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "हर तीन वर्ष",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "हर दो वर्ष",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "तिमाही",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.relative_payment_due_date.default": {
+    "message": "देय भुगतान: शुरूआती भुगतान के {{ billing_delay_period }} {{ billing_delay_unit }} बाद",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.relative_payment_start_date.default": {
+    "message": "भुगतान शुरू होता है: शुरूआती भुगतान के {{ billing_delay_period }} {{ billing_delay_unit }} बाद",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.year.default": {
+    "message": "साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.years.default": {
+    "message": "वर्ष",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "प्रति चार साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "प्रति पांच साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_value.default": {
+    "message": "{{ percentage_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax.default": {
+    "message": "+{{ taxAmount }} {{line_item.hs_tax_label }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax_with_label.default": {
+    "message": "+{{ taxAmount }} {{ taxLabel }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.line_item_tax_without_label.default": {
+    "message": "+{{ taxAmount }} टैक्स",
+    "description": "",
+    "placeholders": null
+  },
+  "display_payment_starts.inline_help_text": {
+    "message": "प्रत्येक लाइन आइटम के नीचे 'भुगतान प्रारंभ' टेक्स्ट प्रदर्शित करें जिसमें भविष्य की बिलिंग तिथि हो।",
+    "description": "",
+    "placeholders": null
+  },
+  "display_payment_starts.label": {
+    "message": "भुगतान शुरू होने की दिनांक प्रदर्शित करें",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.amount": {
+    "message": "टोटल",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.discount": {
+    "message": "यूनिट डिस्काउंट",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.hs_recurring_billing_start_date": {
+    "message": "प्रारंभ तिथि",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.hs_term_in_months": {
+    "message": "टर्म्स महीने में",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.item_description": {
+    "message": "आइटम और उसकी जानकारी",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.price": {
+    "message": "यूनिट प्राइस",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.choices.quantity": {
+    "message": "आइटम की संख्या",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.additional_product_property.label": {
+    "message": "एडिशनल प्रोडक्ट प्रॉपर्टीज",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.crm_product_property.label": {
+    "message": "CRM प्रोडक्ट प्रॉपर्टी",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.label": {
+    "message": "लाइन आइटम कॉलम",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.title.label": {
+    "message": "टाइटल",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.title.placeholder": {
+    "message": "कॉलम की जानकारी",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.use_additional_product_property.inline_help_text": {
+    "message": "एडिशनल प्रोडक्ट प्रॉपर्टीज से कॉलम सिलेक्शन की अनुमति दें",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_columns.use_additional_product_property.label": {
+    "message": "एडिशनल प्रोडक्ट प्रॉपर्टीज का उपयोग करें",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.background_color.label": {
+    "message": "बैकग्राउंड का कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_later_text.default": {
+    "message": "आइटम बकाया है पर बाद मे  ",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_later_text.label": {
+    "message": "बाद के पाठ के कारण",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_now_text.default": {
+    "message": "आइटम अभी बकाया हैं",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.due_now_text.label": {
+    "message": "अभी दर्ज किया जाने वाला टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.font_style.label": {
+    "message": "फ़ॉन्ट स्टाइल",
+    "description": "",
+    "placeholders": null
+  },
+  "line_item_subheadings.label": {
+    "message": "लाइन आइटम की सबहेडिंग",
+    "description": "",
+    "placeholders": null
+  }
+}

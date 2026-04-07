@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Dirección de correo electrónico",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Número de teléfono",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Descarga de archivos",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Enlace a reuniones",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Una de tus páginas",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Enlazar con",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Enlace a reuniones",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Abrir enlace en una nueva pestaña",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Página",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "HTML insertado",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Contenido del botón",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML que se procesará dentro del botón. Solo se pueden utilizar etiquetas que sean válidas dentro de una etiqueta <a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Haz clic aquí",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Abrir enlace en una nueva pestaña",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Avanzado",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Reglas de CSS personalizado",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Selector",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Este valor está combinado con el selector del CTA. Por ejemplo \":hover\" se convierte en ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Agrega CSS personalizado a la regla de estilo. Por ejemplo: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Clases de CSS personalizado",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Agrega clases de CSS personalizado al enlace de la CTA.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Hoja de estilo de CSS personalizada",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Agrega una hoja de estilo CSS personalizada para tu CTA: Por ejemplo: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Utilizar marcado heredado",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Rodear HTML con marcado heredado para admitir el CSS existente",
+    "description": "",
+    "placeholders": null
+  }
+}

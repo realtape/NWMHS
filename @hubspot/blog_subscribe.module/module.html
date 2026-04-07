@@ -1,0 +1,10 @@
+{# Determines if the title is blank and hides the heading element if it is blank #}
+{% set no_title = module.title == "" ? True : False %}
+
+{% blog_subscribe "blog_subscribe"
+  select_blog="{{ module.select_blog }}"
+  no_title="{{ no_title }}"
+  title="{{ module.title }}"
+  heading_level="{{ module.heading_level }}"
+  response_message="{{ module.response_message }}"
+%}

@@ -1,0 +1,62 @@
+{
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Scegli un livello per il titolo. H1 è il più grande, seguito da H2 e così via.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Livello titolo",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "Se non è specificato nessun URL, il logo verrà collegato al dominio principale",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "URL link",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Apri il link in una nuova scheda quando i visitatori fanno clic",
+    "description": "",
+    "placeholders": null
+  }
+}

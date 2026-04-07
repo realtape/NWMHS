@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "文章清單",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "最熱門 － 過去半年",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "最熱門 － 所有時間",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "最熱門 － 上個月",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "最熱門 － 去年",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "最新",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "列出部落格文章的方式：",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "用於部落格範本時，將預設為現有部落格；用於其他地方時，則會預設為主要部落格。",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "選取要顯示的部落格",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "列出部落格文章上限",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "最近的貼文",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "列出要顯示的標題",
+    "description": "",
+    "placeholders": null
+  }
+}

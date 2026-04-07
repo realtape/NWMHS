@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Plasinglysinskrywing",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Gewildste – afgelope ses maande",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Gewildste – ooit",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Gewildste – afgelope maand",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Gewildste – afgelope jaar",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Jongste",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Soek",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Lys blogplasings volgens",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Die verstekkeuse sal die huidige blog in 'n blogsjabloon gebruik, of die primêre blog as dit elders gebruik word.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Kies blog om te wys",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maksimum blogplasings om te lys",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Onlangse plasings",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Lystitel om te wys",
+    "description": "",
+    "placeholders": null
+  }
+}

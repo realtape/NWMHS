@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Gumb (interaktiven)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL povezave",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "E poštni naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Datoteka",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Zaprite poziv k dejanju",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "E poštni naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonska številka",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Prenos datoteke",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Povezava sestankov",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Ena od vaših strani",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Ena od strani vašega bloga",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Povezava do",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Povezava sestankov",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Odpri povezavo v novem zavihku",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Stran",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Spletni dnevnik",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Je kliknil",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Ozadje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Obroba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Obroba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Kot",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Dodajte zaobljen vogal svojemu gumbu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Polmer",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Lebdeče ozadje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Obroba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Lebdeča meja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Lebdenje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Lebdeče besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stili",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Odmik besedila",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Tukaj dodaj gumb povezave",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Besedilo gumba",
+    "description": "",
+    "placeholders": null
+  }
+}

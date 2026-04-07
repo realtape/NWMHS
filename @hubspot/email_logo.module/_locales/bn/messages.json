@@ -1,0 +1,62 @@
+{
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "একটি হেডিং স্তর নির্বাচন করুন। H1 হ'ল বৃহত্তম, তারপরে H2 এবং তারপর আরও অনেক কিছু",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "হেডিং স্তর ",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "যদি কোনও url নির্দিষ্ট না করা থাকে, তবে আপনার লোগোটি আপনার প্রাথমিক ডোমেনের সাথে সংযুক্ত হবে",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "URL সংযুক্ত করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "লোগো",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "দর্শকরা ক্লিক করলে নতুন ট্যাবে লিঙ্কটি খুলুন",
+    "description": "",
+    "placeholders": null
+  }
+}

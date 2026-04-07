@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "합계",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "지금 만기",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "이것은 견적서에 향후 결제가 있을 때 견적 합계에 레이블을 지정하는 데 사용됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "지금 만기 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "합계",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "합계 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "총 계약 가치",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "이 값을 정확히 설명하려면 텍스트를 사용자 정의하십시오. (조건이 설정되지 않은 경우 기본값은 연간 가격입니다.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "총 계약 가치 텍스트",
+    "description": "",
+    "placeholders": null
+  }
+}

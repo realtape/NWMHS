@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filtrowanie wpisów",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Wyświetl wszystko",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Tekst wyświetlany, jeśli wartość do wyświetlenia jest większa od dostępnego miejsca. Pozostaw to miejsce puste, aby ominąć łącze.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Ustawienie domyślne zastosuje obecny blog w szablonie bloga lub blog podstawowy w każdym innym miejscu.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Wybierz blog do wyświetlenia",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maksymalna liczba filtrów do wyświetlenia. Aby wyświetlić wszystkie, pozostaw to miejsce puste",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Lista wartości łączy filtra",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tagi",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autorzy",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Miesiące",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Wpisy według tagu",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Tytuł listy do wyświetlenia",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nazwa",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Liczba wpisów",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Kolejność wartości łączy filtra",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Pokaż wszystkie filtry",
+    "description": "",
+    "placeholders": null
+  }
+}

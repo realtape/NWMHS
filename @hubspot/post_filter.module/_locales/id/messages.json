@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Posting Filter",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Lihat semua",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Teks untuk ditampilkan jika terdapat lebih dari nilai maksimum untuk ditampilkan. Kosongkan untuk menghapus tautan",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Default akan menggunakan blog saat ini saat digunakan di templat blog atau blog utama saat digunakan di mana pun.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Pilih blog untuk ditampilkan",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Jumlah maksimum nilai filter untuk ditampilkan",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Daftar nilai untuk memfilter tautan",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tag",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Penulis",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Bulan",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Posting menurut Tag",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Daftarkan judul untuk ditampilkan",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nama",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Jumlah Posting",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Cari",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Urutan nilai untuk tautan filter",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Tampilkan semua filter",
+    "description": "",
+    "placeholders": null
+  }
+}

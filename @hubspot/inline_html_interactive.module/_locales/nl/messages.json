@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "E-mailadres",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefoonnummer",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Bestand downloaden",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Link meetings",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Een van je pagina's",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Koppelen naar",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Link meetings",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Link in nieuw tabblad openen",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Pagina",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Inline HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Knopinhoud",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML die wordt geladen in de knop. Je kunt alleen de tags die geldig zijn gebruiken binnen een <a>-tag.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Klik hier",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Link in nieuw tabblad openen",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Geavanceerd",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Aangepaste CSS-regels",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Selector",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Deze waarde wordt gecombineerd met de selector van de CTA. Bijvoorbeeld ':hover' wordt ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Stijl",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Voeg aangepaste CSS toe voor je stijlregel. Bijvoorbeeld: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Aangepaste CSS-klassen",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Voeg aangepaste CSS-klassen toe aan je CTA-link.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Aangepaste CSS-stylesheet",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Voeg een aangepast CSS-stylesheet toe aan je CTA. Bijvoorbeeld: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Gebruik oude opmaak",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Wrap HTML in oudere opmaak om bestaande CSS te ondersteunen",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Afbeeldingengalerie",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Bijschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Dia",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Link in nieuw tabblad openen",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Bijschrift weergeven",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Koppelings-URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Afbeelding",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Variabele hoogte",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Vaste hoogte",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Variabele hoogte",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Navigatieknoppen weergeven",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Miniatuur navigatie",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standaard-slider",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox-galerij",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Weergavemodus",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Dia's herhalen",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Bijschriften bovenop afbeeldingen plaatsen",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Bijschriften altijd onder de afbeelding houden",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Positie bijschrift",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tijd in seconden tussen automatisch scrollen",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Vervagen",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Dia",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Dia-overgangen",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rijen voor lightbox galerie",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Automatisch doorgaan",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Deze module is afgeschaft ten gunste van twee nieuwe en verbeterde modules, afbeeldingenslider en afbeeldingsraster <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Meer informatie.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

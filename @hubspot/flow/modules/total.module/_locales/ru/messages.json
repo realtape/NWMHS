@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Итоговая сумма",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Подлежит оплате сейчас",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Используется для маркировки общей суммы ценового предложения, если в последующем по нему предполагаются платежи.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Текст поля «Подлежит оплате сейчас»",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Итоговая сумма",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Текст общей суммы",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Общая стоимость контракта",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Настройте текст для точного описания этого значения. (По умолчанию используется годовое значение, если условия не определены).",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Текст для общей стоимости контракта",
+    "description": "",
+    "placeholders": null
+  }
+}

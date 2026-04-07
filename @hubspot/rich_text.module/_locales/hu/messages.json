@@ -1,0 +1,22 @@
+{
+  "html.default": {
+    "message": "<h2>Valami hangzatos</h2>\n<h3>Mondjon többet az olvasónak</h3>\n<p>A címsor és az alfejléc leírja, mit <a href=\"#\">kínál</a> Ön, az űrlapfej pedig lezárja az ügyet. Itt elmagyarázhatja, miért olyan jó az ajánlata, hogy megérje érte kitölteni egy űrlapot.</p>\n<p>Ne feledje:</p>\n<ul>\n<li>A listajeles felsorolás kiváló arra,</li>\n<li>Hogy kiemelje <a href=\"#\">az előnyöket</a>, és</li>\n<li>Hatására lehetséges ügyfél legyen a látogatóból.</li>\n</ul>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.defaultEmail": {
+    "message": "<h2>Címsor</h2><p>Írja meg az e-mailje szövegét.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Formázott szöveges tartalom",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Rich Text",
+    "description": "",
+    "placeholders": null
+  }
+}

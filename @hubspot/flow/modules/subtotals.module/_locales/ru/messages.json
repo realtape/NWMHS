@@ -1,0 +1,77 @@
+{
+  "name": {
+    "message": "Промежуточные суммы",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "после применения скидки {{ discount_amount }} ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annual.default": {
+    "message": "Ежегодный",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.frequency_subtotal.default": {
+    "message": "подитог {{ frequency_text }} ",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "Еженедельно",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "За две недели",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "Ежемесячно",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Однократн.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "За шесть месяцев",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "За три года",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "За два года",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "За четыре года",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "За пять лет",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "Ежеквартально",
+    "description": "",
+    "placeholders": null
+  },
+  "subtotal_title.default": {
+    "message": "Промежуточные суммы",
+    "description": "",
+    "placeholders": null
+  }
+}

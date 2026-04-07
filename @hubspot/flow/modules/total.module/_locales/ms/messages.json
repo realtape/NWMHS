@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Jumlah",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Perlu dibayar sekarang",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Ini digunakan untuk melabelkan jumlah sebut harga apabila sebut harga mempunyai pembayaran akan datang.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Teks perlu dibayar sekarang",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Jumlah",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Jumlah teks",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Jumlah nilai kontrak",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Suaikan teks untuk menerangkan nilai ini dengan tepat. (Lalai adalah nilai tahunan jika tiada terma yang ditetapkan.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Teks jumlah nilai kontrak",
+    "description": "",
+    "placeholders": null
+  }
+}

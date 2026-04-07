@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Sporočilo o potrditvi naročnin",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Uspešno ste posodobili nastavitve e-pošte.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Sporočilo o posodobitvi naročnine",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Podnaslov",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Če to ni vaš e-poštni naslov, prezrite to stran, ker vam je bila e-pošta, povezana s to stranjo, najverjetneje posredovana.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Uspešno ste se odjavili iz vseh e-poštnih sporočil.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Sporočilo o odjavi",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Besedilo naslova",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Besedilo gumba za upravljanje nastavitev",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Upravljaj nastavitve",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Upravljanje nastavitev zavrnitev odgovornosti",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Ste naredili napako? Brez skrbi, svoje nastavitve lahko spremenite.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Besedilo o uspešnem odjavi enojne naročnine",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Uspešno ste se odjavili iz:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Besedilo nadomestnega besedila naročnine",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "izbrana vrsta naročnine",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Raven naslova glave",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Naslov 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Naslov 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Naslov 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Naslov 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Naslov 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Naslov 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Raven naslova e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Naslov 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Naslov 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Naslov 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Naslov 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Naslov 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Naslov 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Odstavek",
+    "description": "",
+    "placeholders": null
+  }
+}

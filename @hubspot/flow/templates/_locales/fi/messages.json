@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Tämä tarjous on erääntynyt",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Tarjous {{ personalization_token('quote.hs_quote_number', '') }} on vanhentunut{{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "<a href='#'>Ota yhteyttä myyntiedustajaan</a> saadaksesi lisätietoja.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Laskutustiheys",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Yksikköhinta",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Hinta",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Tuotteet ja palvelut",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Määrä",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "<br>Tiivistelmä",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Ehdot",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Kommentit",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Projektin<br>hyväksyminen",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Alaotsikko",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Meidän<br> tarinamme",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Olemme intohimoisia siitä,<br>mitä teemme",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Mitä asiakkaamme<br>sanovat meistä",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Projektin<br>yhteenveto",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Tavoitteemme",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Työn<br>selostus",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Projektin<br>arvio",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>Sopimus",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Valmisteltu kohteelle",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Maklumat Lokasi Pejabat",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p id=\"footer\" style=\"font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: center; font-size: 12px; line-height: 1.34em; color: {{ secondary_font_color }}; display: block;\">{{ site_settings.company_name }} &nbsp;&nbsp;{{ site_settings.company_street_address_1 }} &nbsp;{{ site_settings.company_street_address_2 }} &nbsp;{{ site_settings.company_city }} &nbsp;{{ site_settings.company_state }} &nbsp;&nbsp;{{ site_settings.company_zip }} &nbsp;&nbsp;{{ site_settings.company_country }} <br><br> Anda menerima e-mel ini kerana anda melanggan {{ subscription_name }} daripada {{ site_settings.company_name }} . <br><br> Kemas kini <a target=\"_blank\" rel=\"noopener\" href=\"{{ unsubscribe_link }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">keutamaan e-mel</a> anda untuk memilih jenis e-mel yang anda terima. <br><br> &nbsp;<a target=\"_blank\" rel=\"noopener\" href=\"{{ unsubscribe_link_all }}\" style=\"text-decoration: underline; whitespace: nowrap; color: {{ secondary_font_color }};\" data-unsubscribe=\"true\">Nyahlanggan semua e-mel akan datang</a> &nbsp;</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Teks lokasi",
+    "description": "",
+    "placeholders": null
+  }
+}

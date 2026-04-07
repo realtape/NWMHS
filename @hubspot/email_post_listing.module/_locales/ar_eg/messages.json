@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "قائمة المنشورات",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "الأكثر شيوعًا - خلال الأشهر الستة الماضية",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "الأكثر شيوعًا - في جميع الأوقات",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "الأكثر شيوعًا - خلال الشهر الماضي",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "الأكثر شيوعًا - خلال العام الماضي",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "الأحدث",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "بحث",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "إدراج منشورات المدونة حسب",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "يقوم الإعداد الافتراضي باستخدام المدونة الحالية عندما تُستخدم في قالب مدونة أو المدونة الأساسية عندما تُستخدم في مكان آخر.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "تحديد مدونة لعرضها",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "الحد الأقصى لعدد منشورات المدونة المُراد إدراجها في قائمة",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "اللمنشورات الحديثة",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "عنوان القائمة المُراد عرضه",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Fő e-mail-szövegtörzs",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Üdv,&nbsp;{{contact.firstname}},</p>\n<p>Írja le, mit tud ajánlani az ügyfelének. Miért olvassa el az e-mailt? Mit ígért neki a tárgysorban? Mondjon neki valami klasszat! Nevettesse meg! Ríkassa meg. Na jó, azt talán inkább ne...</p>\n<p>Egy lista segítségével:</p>\n<ul>\n<li>Mutassa be, milyen értékes az ajánlata;</li>\n<li>Emlékeztesse az olvasót arra, hogy mit nyer, ha cselekszik;</li>\n<li>Mutassa meg, milyen jól ért a felsorolásokhoz;</li>\n<li>Tegye könnyen olvashatóvá a tartalmát.</li>\n</ul>\n<p><a href=\"http://hubspot.com\">ADJON HOZZÁ A HONLAPJA KEZDŐLAPJÁRA MUTATÓ HIVATKOZÁST</a> (Ez az igazán fontos rész.)</p>\n<p>Végül zárja le a levelet egy magvas gondolattal, amelyben közli az ügyfelével, hogy mennyire szereti őt.</p>\n<p>Ejha, maga aztán ért a szavakhoz.</p>\n<p>Üdvözlettel:</p>\n<p>Az Ön neve</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "E-mail szövegtörzse",
+    "description": "",
+    "placeholders": null
+  }
+}

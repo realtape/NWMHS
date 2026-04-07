@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "記事一覧",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "人気 - 過去6か月間",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "人気 - 全期間",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "人気 - 過去1か月間",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "人気 - 過去１年間",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "最新",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "ブログ記事の表示基準",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "既定として、ブログテンプレートでの使用時には現在のブログを使用し、他での使用時にはプライマリーブログを使用します。",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "表示するブログを選択",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "表示する最大ブログ記事数",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "最近の記事",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "表示するタイトルを一覧にする",
+    "description": "",
+    "placeholders": null
+  }
+}

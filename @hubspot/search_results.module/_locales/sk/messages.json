@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Výsledky vyhľadávania na lokalite",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Zobraziť vybrané obrázky",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Ľutujeme, ale nie sú žiadne výsledkz pre [[search_term]].</p><p>Skúste preformulovať dotaz alebo vyhľadajte na našej stránke.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Predchádzajúca stránka",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Ďalšia stránka",
+    "description": "",
+    "placeholders": null
+  }
+}

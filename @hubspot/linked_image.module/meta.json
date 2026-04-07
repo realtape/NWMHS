@@ -1,0 +1,22 @@
+{
+  "label": "Image",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "content_types": ["LANDING_PAGE", "SITE_PAGE", "BLOG_POST", "BLOG_LISTING", "QUOTE_TEMPLATE", "SUBSCRIPTION", "MEMBERSHIP"],
+  "icon": "../img/icon/high-insertImage.svg",
+  "extra_classes": "widget-type-linked_image",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": [
+    "media"
+  ],
+  "content_tags": [
+    {
+      "name": "NONPROFIT",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

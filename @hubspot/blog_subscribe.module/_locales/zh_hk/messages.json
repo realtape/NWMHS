@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "網誌電郵訂閱",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "用於網誌範本時，將預設為現有網誌；用於其他地方時，則會預設為主要網誌。",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "選取要顯示的網誌",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "在此訂閱！",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "表單上方顯示的標題",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "給用戶的內嵌回應",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "感謝訂閱！",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "如要顯示網誌訂閱表單，你需要啟用自己網誌的訂閱功能。此項可在設定裡完成。<a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>進一步了解</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "標題層級",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "選擇標題層級。標題應根據你的內容使用階層式巢狀結構。<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>更多資訊</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

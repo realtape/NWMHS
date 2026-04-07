@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Διαχωριστικό",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Στοίχιση",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Κέντρο",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Αριστερά",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Δεξιά",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Χρώμα",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Ύψος",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Τύπος γραμμής",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Με παύλες",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Διάστικτη",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Συμπαγής",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Αναπλήρωση",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Μέγιστο 20 pixel",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Προβολή αναπλήρωσης;",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Πλάτος",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Ποσοστό της περιοχής εντός της οποίας τοποθετείται το διαχωριστικό",
+    "description": "",
+    "placeholders": null
+  }
+}

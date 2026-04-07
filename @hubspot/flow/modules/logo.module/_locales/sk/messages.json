@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Maximálna výška loga",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Nie je to relevantné pri prepise predvoleného loga",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Môžete sa rozhodnúť prepísať logo použité v tejto šablóne pomocou tohto prepínača.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Prepísať predvolené logo",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "V predvolenom nastavení sa bude na vašich cenových ponukách zobrazovať logo vašej spoločnosti zo súpravy značiek v predvolených nastaveniach účtu alebo webovej stránky.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Adicionar ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Ligação do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Outro",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Utilizar uma ligação de pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Alvo do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Finalização da compra",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto do botão",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Abrir num novo separador",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Sobreposição deslizante",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Comportamento de finalização de compra",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Fechar finalização de compra",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Esquerda",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Direita",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Posição",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Ligação de pagamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Alinhamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Alinhamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Limite",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Limite",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Canto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Raio",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Fundo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Limite",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Limite",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Pairar",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Tipo de letra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Texto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Cor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Ícone",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Tamanho",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Espaço entre o ícone e o texto do botão.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estilos",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Espaçamento",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Tipo de letra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Texto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Colocar em maiúsculas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Minúsculas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Maiúsculas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Transformar",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Nenhum",
+    "description": "",
+    "placeholders": null
+  }
+}

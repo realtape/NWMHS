@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Grille de logo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logos",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Styles",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Image de logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Hauteur maximale du logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Définit la hauteur maximale des logos.<br><br>Définir une hauteur maximale de logo est préférable lorsque vous essayez de rendre plusieurs logos de dimensions très différentes visuellement égaux en taille.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Rapport hauteur/largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Définissez le rapport hauteur/largeur du conteneur de logo. Le plus utile si vous utilisez le champ de couleur d'arrière-plan et que vous utilisez des logos de dimensions très différentes.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Couleur de l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Espacement",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Espacement",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Définir le remplissage autour du logo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "En raison de la nature réactive du Web, la hauteur rendue des logos peut être inférieure à la valeur définie en fonction d'une combinaison de la taille de l'écran, de la taille de l'image d'origine, du rembourrage du logo, de l'espacement de la grille et du nombre de colonnes.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Grille de logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Nombre de colonnes de la grille",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Définissez le nombre de colonnes dans la grille sur le bureau. Par défaut, 1 sur mobile.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Définir une couleur d'arrière-plan dans <strong>Image du logo > Arrière-plan</strong> peut vous aider à visualiser la grille du logo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Espacement de la grille",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Définissez l'espacement entre les éléments de la grille.<br><br>Définir un arrière-plan dans <strong>Image du logo > Arrière-plan</strong> peut vous aider à visualiser la grille du logo.",
+    "description": "",
+    "placeholders": null
+  }
+}

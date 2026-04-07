@@ -1,0 +1,125 @@
+[
+  {
+    "label": "Header",
+    "name": "header",
+    "id": "5265a2e4-5e45-7f66-59ba-af65367c38e1",
+    "type": "text",
+    "placeholder": "Header Text",
+    "default": ""
+  },
+  {
+    "label": "Header heading level",
+    "name": "header_heading_level",
+    "type": "choice",
+    "choices": [
+      [
+        "h1",
+        "Heading 1"
+      ],
+      [
+        "h2",
+        "Heading 2"
+      ],
+      [
+        "h3",
+        "Heading 3"
+      ],
+      [
+        "h4",
+        "Heading 4"
+      ],
+      [
+        "h5",
+        "Heading 5"
+      ],
+      [
+        "h6",
+        "Heading 6"
+      ]
+    ],
+    "display": "select",
+    "default": "h1"
+  },
+  {
+    "label": "Email heading level",
+    "name": "email_heading_level",
+    "type": "choice",
+    "choices": [
+      [
+        "h1",
+        "Heading 1"
+      ],
+      [
+        "h2",
+        "Heading 2"
+      ],
+      [
+        "h3",
+        "Heading 3"
+      ],
+      [
+        "h4",
+        "Heading 4"
+      ],
+      [
+        "h5",
+        "Heading 5"
+      ],
+      [
+        "h6",
+        "Heading 6"
+      ],
+      [
+        "p",
+        "Paragraph"
+      ]
+    ],
+    "display": "select",
+    "default": "h2"
+  },
+  {
+    "label": "Subheader",
+    "name": "subheader_text",
+    "id": "2315a4fd-524e-3c04-7df5-8942a2bfc60f",
+    "type": "richtext",
+    "default": "If this is not your email address, please ignore this page since the email associated with this page was most likely forwarded to you."
+  },
+  {
+    "label": "Message on unsubscribe",
+    "name": "unsubscribe_all_success",
+    "id": "32754710-9bae-8683-cb5f-61bd07dfb31e",
+    "type": "text",
+    "default": "You have successfully unsubscribed from all email communications."
+  },
+  {
+    "label": "Message on subscription update",
+    "name": "subscription_update_success",
+    "id": "7487aa59-db64-6d78-f356-3b34862dc6cf",
+    "type": "text",
+    "default": "You have successfully updated your email preferences."
+  },
+  {
+    "label": "Manage preferences button text",
+    "name": "manage_preferences_button_text",
+    "type": "text",
+    "default": "Manage preferences"
+  },
+  {
+    "label": "Manage preferences return disclaimer",
+    "name": "manage_preferences_return_disclaimer",
+    "type": "text",
+    "default": "Made a mistake? Don't worry, you can change your preferences."
+  },
+  {
+    "label": "Single subscription unsubscribe success text",
+    "name": "single_subscription_unsubscribe_success",
+    "type": "text",
+    "default": "You have successfully unsubscribed from:"
+  },
+  {
+    "label": "Subscription placeholder text",
+    "name": "subscription_placeholder_text",
+    "type": "text",
+    "default": "your selected subscription type"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Kalbų perjungiklis",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hibridinis",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Lokalizuota",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "Puslapio kalba",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Kalbų perjungiklio teksto kalba. „Puslapio kalba“ reiškia, kad kalbų pavadinimai bus rodomi puslapio, kuriame naudojamas perjungiklis, kalba. „Lokalizuota“ reiškia, kad kiekvienos kalbos pavadinimas bus rodomas ta kalba. Pasirinkus „Hibridinis“ bus taikomas šių dviejų parinkčių derinys.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Rodymo režimas",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Paieška",
+    "description": "",
+    "placeholders": null
+  }
+}

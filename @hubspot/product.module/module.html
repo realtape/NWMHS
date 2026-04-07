@@ -1,0 +1,197 @@
+<!-- module html  -->
+
+{# Payment Link Variables and helpers #}
+{% set product_selected = module.product and module.product.id != null %}
+{% set default_product_link = module.product.properties.hs_url %}
+{% set has_product_link_override = module.group_button.override_product_button %}
+{% set product_link_override = module.group_button.button_override %}
+{% set has_payment_link = has_product_link_override and product_link_override.url.type == "PAYMENT" %}
+{%- set link_to_use|trim -%}
+  {%- if has_product_link_override and product_link_override.url.type == "EMAIL_ADDRESS" -%}
+    {{- "mailto:" ~ product_link_override.url.href -}}
+  {%- elif has_product_link_override -%}
+    {{- product_link_override.url.href -}}
+  {%- else -%}
+    {{- default_product_link -}}
+  {%- endif -%}
+{%- endset -%}
+{%- set payment_link_object = crm_object("payment_link", "hs_checkout_url=" ~ link_to_use) -%}
+
+{# Product Meta #}
+{% set override_product_name = module.group_name.override_product_name %}
+{% set product_name = override_product_name ? module.group_name.name_override : module.product.properties.name %}
+{% set override_product_description = module.group_description.override_product_description %}
+{% set product_description = override_product_description ? module.group_description.description_override : module.product.properties.description %}
+{% set button_text = module.group_button.button_text %}
+{% set product_image = module.group_image.override_product_image ? module.group_image.image_override.src : module.product.properties.hs_images %}
+{% set placeholder_image = get_asset_url('@hubspot/img/slider-light-image.jpg') %}
+
+{# Style vars #}
+{% set styles = module.styles %}
+{% set layout = styles.layout %}
+{% set content_styles = styles.group_content_area %}
+{% set button_styles = styles.group_button %}
+
+{% set price|trim -%}
+  {#-
+    If the link used in product object or override
+    produces a valid payment link object then use the
+    price associated with the payment link instead
+    of the price associated with the product
+  -#}
+  {%- if payment_link_object.hs_total -%}
+    {{- payment_link_object.hs_total -}}
+  {%- elif module.product.properties.price -%}
+    {{- module.product.properties.price|format_currency_value() -}}
+  {%- else -%}
+    {{- module.group_default_text.no_price_info_found if is_in_editor -}}
+  {%- endif -%}
+{%- endset %}
+
+{% if has_payment_link %}
+  {% set href = module.payment_group.payment.properties.checkoutUrl ~ "?referrer=CMS_MODULE_NEWTAB" %}
+  {% set data_src = module.payment_group.payment.properties.checkoutUrl ~ "?referrer=CMS_MODULE_OVERLAY&layout=full-page-overlay" %}
+  {% do rel.append("nofollow") %}
+  {% do rel.append("noopener") %}
+{% endif %}
+
+{# Start of macros #}
+{% macro generate_classes(class_array) -%}
+  {{- class_array|join(" ") -}}
+{%- endmacro %}
+
+{% macro build_link_button() %}
+  <a
+    {% if has_product_link_override and product_link_override.url.type == "CALL_TO_ACTION" %}
+      href="{{ link_to_use }}" {# The href here is not escaped as it is not editable and functions as a JavaScript call to the associated CTA #}
+    {% else %}
+      href="{{ link_to_use|escape_url }}"
+    {% endif %}
+    class="hs-product__button {{ icon_position|escape_attr }} hs-button {{ 'hs-product__button--override-defaults' if button_styles.override_defaults }}"
+    {{ product_link_override.open_in_new_tab or has_payment_link ? 'target="_blank"' : "" }}
+    {{ rel ? 'rel="{{ rel|join(" ")|escape_attr }}"' : "" }}
+  >
+    {{ module.group_button.button_text }}
+  </a>
+{% endmacro %}
+
+{% macro build_button_component() -%}
+  <div class="hs-product__button-container">
+    {{ build_link_button() }}
+  </div>
+{%- endmacro %}
+
+{%- macro generate_border_styles(border_field, side) -%}
+  {%- set border = border_field[side] -%}
+  {%- if border.width.value > 0 -%}
+    {{ border.width.value ~ border.width.units}} {{ border.style }} {{ border.color }}
+  {%- else -%}
+    none
+  {%- endif -%}
+{%- endmacro -%}
+
+{# Module markup starts here #}
+{% if not product_selected %}
+  {% if is_in_editor %}
+    {% editor_placeholder %}
+  {% endif %}
+{% else %}
+
+{% set heading_level = module.group_name.heading_level %}
+
+{# Image #}
+{% set image_object_fit = styles.group_image.show_full_image ? "contain" : "cover" %}
+{% set image_bg_color = styles.group_image.show_full_image ? styles.group_image.background_color.rgba : "rgba(0, 0, 0, 0)" %}
+{% set image_aspect_ratio = styles.layout == "vertical" ? styles.group_image.vertical_aspect_ratio : "16/9" %}
+
+{# Content #}
+{% set content_area_background_color = content_styles.background_color.rgba %}
+{% set content_area_padding = content_styles.vertical_padding ~ 'px' ~ " " ~ content_styles.horizontal_padding ~ 'px'%}
+{% set name_font_color = styles.group_name.font_color.color %}
+{% set price_font_color = styles.group_price.font_color.color %}
+{% set description_font_color = styles.group_description.font_color.color %}
+
+{# Border #}
+{% set top_border = generate_border_styles(content_styles.border, "top") %}
+{% set right_border = generate_border_styles(content_styles.border, "right") %}
+{% set left_border = generate_border_styles(content_styles.border, "left") %}
+{% set bottom_border = generate_border_styles(content_styles.border, "bottom") %}
+
+{# Button #}
+{% if button_styles.override_defaults %}
+  {% set button_color = button_styles.button_color.rgba %}
+  {% set button_text_color = button_styles.text_color.rgba %}
+  {% set button_corner_radius = button_styles.corner_radius ~ 'px' %}
+
+  {# All button sides are the same #}
+  {% set button_border = generate_border_styles(button_styles.border, "top") %}
+  {% set hover_button_color = button_styles.group_hover.button_color.rgba %}
+  {% set hover_button_text_color = button_styles.group_hover.text_color.rgba %}
+  {% set hover_button_border_color = button_styles.group_hover.border_color.rgba %}
+{% endif %}
+
+{% set layout_flex_direction|trim %}
+  {{- 'row' if layout == "horizontal" -}}
+  {{- 'column' if layout == "vertical" -}}
+{% endset %}
+
+{% set content_container_flex|trim %}
+  {{- '0 0 ' ~ styles.group_image.horizontal_aspect_ratio if layout == "horizontal" -}}
+  {{- '1 1 100%' if layout == "vertical" -}}
+{% endset %}
+
+
+{% set css_vars = [
+    "--layout-direction: {{ layout_flex_direction }}",
+    "--image-container-flex: {{ content_container_flex }}",
+    "--image-object-fit: {{ image_object_fit }}",
+    "--image-bg-color: {{ image_bg_color }}",
+    "--image-aspect-ratio: {{ image_aspect_ratio }}",
+    "--content-area-padding: {{ content_area_padding }}",
+    "--content-area-background-color: {{ content_area_background_color }}",
+    "--name-font-size: {{ styles.group_name.font_size ~ 'px' }}",
+    "--name-font-color: {{ name_font_color }}",
+    "--price-font-size: {{ styles.group_price.font_size ~ 'px' }}",
+    "--price-font-color: {{ price_font_color }}",
+    "--description-font-size: {{ styles.group_description.font_size ~ 'px' }}",
+    "--description-font-color: {{ description_font_color }}",
+    "--content-border-top: {{ top_border }}",
+    "--content-border-left: {{ left_border }}",
+    "--content-border-right: {{ right_border }}",
+    "--content-border-bottom: {{ bottom_border }}"
+  ]
+%}
+
+{# if overriding button defaults #}
+{% do css_vars.extend([
+    "--button-color: {{ button_color }}",
+    "--button-text-color: {{ button_text_color }}",
+    "--button-corner-radius: {{ button_corner_radius }}",
+    "--button-border: {{ button_border }}",
+    "--button-hover-color: {{ hover_button_color }}",
+    "--button-text-hover-color: {{ hover_button_text_color }}",
+    "--button-border-hover-color: {{ hover_button_border_color }}"
+  ])
+  if button_styles.override_defaults
+%}
+
+<article class="hs-product {{ generate_classes(additional_module_classes)|render|escape_attr }}" style="{{ css_vars|join(';')|render|escape_attr }}" >
+  <div class="hs-product__image-container">
+    <img
+      src="{{ resize_image_url(product_image ? product_image : placeholder_image, 700)|escape_url }}"
+      alt="{{ product_name|escape_attr }} image"
+    />
+  </div>
+  <div class="hs-product__content-container">
+    <{{ heading_level in ["h1", "h2", "h3", "h4", "h5", "h6"] ? heading_level : "h3" }} class="hs-product__name" aria-label="product name">{{ product_name|render|sanitize_html }}</{{ heading_level in ["h1", "h2", "h3", "h4", "h5", "h6"] ? heading_level : "h3" }}>
+    <span class="hs-product__price" aria-label="price">{{ price|render|sanitize_html }}</span>
+    {% if product_description %}
+      <p class="hs-product__description" aria-label="product-description">{{ product_description|render|sanitize_html }}</p>
+    {% endif %}
+    {% if module.group_button.button_text %}
+      {{ build_button_component() }}
+    {% endif %}
+  </div>
+</article>
+{% endif %}
+

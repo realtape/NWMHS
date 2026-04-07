@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "भविष्य भुगतान समरी टेबल",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "टेबल हेडिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "टेबल हेडिंग दिखाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "टेबल हेडिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "भविष्य के भुगतान समरी टेबल में हेडिंग एक जोड़े",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "भविष्य के भुगतान की समरी",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "कॉलम",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "लाइन आइटम के नाम की हेडिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "आइटम",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "भुगतान समरी हेडिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "पेमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "एक-बार",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ सप्ताह",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 सप्ताह",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ माह",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ हर तीन महीने में",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 महीने",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "दिन",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "दिनों",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "सप्ताह",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "हफ्तों",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "महीना",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "महीने",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "भुगतान",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "भुगतान",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} पर {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} शुरुआती भुगतान के {{ billing_delay_period }} {{ billing_delay_unit }} बाद बकाया",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }}{{ recurring_frequency }} शुरुआती भुगतान के {{ billing_delay_period }}{{ billing_delay_unit }} बाद शुरू",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }}{{ recurring_frequency }} पर शुरू {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} {{ number_of_payments }}{{ payment_pluralized }} के लिए शुरुआती भुगतान के {{ billing_delay_period }}{{ billing_delay_unit }} बाद शुरू",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }}{{ recurring_frequency }}पर शुरू{{ formatted_first_payment_date }}के लिए{{ number_of_payments }}{{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 साल",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 साल",
+    "description": "",
+    "placeholders": null
+  }
+}

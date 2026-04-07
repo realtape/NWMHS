@@ -1,0 +1,362 @@
+{
+  "name": {
+    "message": "Προϊόν",
+    "description": "",
+    "placeholders": null
+  },
+  "product.label": {
+    "message": "Προϊόν",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.label": {
+    "message": "Όνομα",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.label": {
+    "message": "Επίπεδο επικεφαλίδας",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.help_text": {
+    "message": "Ορίζει το επίπεδο επικεφαλίδας (h1, h2, h3, h4, h5, h6) για το στοιχείο name. Αυτό είναι σημαντικό για την προσβασιμότητα και το SEO. <a href='https://www.w3.org/WAI/tutorials/page-structure/headings/'>Μάθετε περισσότερα</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h1": {
+    "message": "Επικεφαλίδα 1",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h2": {
+    "message": "Επικεφαλίδα 2",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h3": {
+    "message": "Επικεφαλίδα 3",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h4": {
+    "message": "Επικεφαλίδα 4",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h5": {
+    "message": "Επικεφαλίδα 5",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h6": {
+    "message": "Επικεφαλίδα 6",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.override_product_name.label": {
+    "message": "Παράκαμψη ονόματος προϊόντος",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.label": {
+    "message": "Όνομα",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.default": {
+    "message": "Όνομα",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.label": {
+    "message": "Περιγραφή",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.override_product_description.label": {
+    "message": "Παράκαμψη περιγραφής προϊόντος",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.label": {
+    "message": "Περιγραφή",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.default": {
+    "message": "Μια σύντομη περιγραφή του προϊόντος που πωλείται. Μία ή δύο προτάσεις είναι ιδανικές.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.label": {
+    "message": "Εικόνα",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.override_product_image.label": {
+    "message": "Παράκαμψη εικόνας προϊόντος",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.image_override.label": {
+    "message": "Εικόνα",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.label": {
+    "message": "Κουμπί",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.label": {
+    "message": "Κείμενο κουμπιού",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.default": {
+    "message": "Μάθετε περισσότερα",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.override_product_button.label": {
+    "message": "Παράκαμψη κουμπιού προϊόντος",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_override.label": {
+    "message": "Κουμπί",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_price_info_found.default": {
+    "message": "Δεν μπορούν να βρεθούν πληροφορίες τιμολόγησης.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Στυλ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.label": {
+    "message": "Διάταξη",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.horizontal": {
+    "message": "Οριζόντια",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.vertical": {
+    "message": "Κατακόρυφα",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "Εικόνα",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.label": {
+    "message": "Προβολή πλήρους εικόνας",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.help_text": {
+    "message": "Εξασφαλίζει ότι ολόκληρη η εικόνα εμφανίζεται. Μπορεί να μην γεμίζει ολόκληρος ο χώρος της εικόνας.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.label": {
+    "message": "Χρώμα φόντου",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.help_text": {
+    "message": "Προσθέτει ένα χρώμα φόντου στον χώρο της εικόνας. Πιο χρήσιμο αν η εικόνα σας είναι διαφανής.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.label": {
+    "message": "Αναλογία διαστάσεων",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.label": {
+    "message": "Λόγος πλάτους εικόνας",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.help_text": {
+    "message": "Ορίζει το ποσοστό της κάρτας που θα διατεθεί για την εικόνα.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.40%": {
+    "message": "40%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.45%": {
+    "message": "45%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.50%": {
+    "message": "50%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.55%": {
+    "message": "55%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.60%": {
+    "message": "60%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.label": {
+    "message": "Περιοχή περιεχομένου",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.label": {
+    "message": "Χρώμα φόντου",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.help_text": {
+    "message": "Ορίστε το χρώμα φόντου για τον χώρο περιεχομένου",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.horizontal_padding.label": {
+    "message": "Οριζόντια αναπλήρωση",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.vertical_padding.label": {
+    "message": "Κατακόρυφη αναπλήρωση",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.border.label": {
+    "message": "Περιθώριο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "Όνομα",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_size.label": {
+    "message": "Μέγεθος γραμματοσειράς",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_color.label": {
+    "message": "Χρώμα γραμματοσειράς",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.label": {
+    "message": "Τιμή",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_size.label": {
+    "message": "Μέγεθος γραμματοσειράς",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_color.label": {
+    "message": "Χρώμα γραμματοσειράς",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "Περιγραφή",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_size.label": {
+    "message": "Μέγεθος γραμματοσειράς",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_color.label": {
+    "message": "Χρώμα γραμματοσειράς",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.label": {
+    "message": "Κουμπί",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.override_defaults.label": {
+    "message": "Παράκαμψη προεπιλογών",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.text_color.label": {
+    "message": "Χρώμα κειμένου",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.button_color.label": {
+    "message": "Χρώμα κουμπιού",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.corner_radius.label": {
+    "message": "Ακτίνα γωνίας",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.border.label": {
+    "message": "Περιθώριο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.label": {
+    "message": "Κατάδειξη",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.text_color.label": {
+    "message": "Χρώμα κειμένου",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.button_color.label": {
+    "message": "Χρώμα κουμπιού",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.border_color.label": {
+    "message": "Χρώμα περιθωρίου",
+    "description": "",
+    "placeholders": null
+  }
+}

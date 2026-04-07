@@ -1,0 +1,77 @@
+{
+  "name": {
+    "message": "Ara toplamlar",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "{{ discount_amount }} indirimden sonra",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annual.default": {
+    "message": "Yıllık",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.frequency_subtotal.default": {
+    "message": "{{ frequency_text }} ara toplam",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "Haftalık",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "İki haftada bir",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "Aylık",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Tek seferlik",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "Altı ayda bir",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "Üç yılda bir",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "İki yılda bir",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "Dört yılda bir",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "Beş yılda bir",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "Üç aylık",
+    "description": "",
+    "placeholders": null
+  },
+  "subtotal_title.default": {
+    "message": "Ara toplamlar",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Vergaderings",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting.label": {
+    "message": "Kies vergaderingskakel",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting.help_text": {
+    "message": "Kies 'n bestaande vergadering vanaf die sybalk, of skep 'n nuwe een deur na die <a href='/l/meetings/'>Vergaderingnutsmiddel</a> te gaan",
+    "description": "",
+    "placeholders": null
+  },
+  "select_meeting_title.default": {
+    "message": "Geen vergadering is gekies nie",
+    "description": "",
+    "placeholders": null
+  },
+  "select_meeting_description.default": {
+    "message": "Kies 'n bestaande vergadering vanaf die sybalk, of skep 'n nuwe een deur na die Vergaderingnutsmiddel te gaan",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "支払いスケジュール",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.scheduled_payments.default": {
+    "message": "スケジュール払い",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.default": {
+    "message": "金額",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.label": {
+    "message": "金額",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.default": {
+    "message": "期限",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.label": {
+    "message": "期限",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.label": {
+    "message": "支払いスケジュール列",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.default": {
+    "message": "名前",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.label": {
+    "message": "名前",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.default": {
+    "message": "<h2>支払いスケジュール</h2>",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.label": {
+    "message": "スケジュール払いの見出し",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.due_now.default": {
+    "message": "現在のご請求",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.paid.default": {
+    "message": "支払い済み",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.processing.default": {
+    "message": "支払い処理",
+    "description": "",
+    "placeholders": null
+  }
+}

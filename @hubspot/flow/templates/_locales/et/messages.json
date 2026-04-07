@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "See pakkumus on aegunud",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Pakkumus {{ personalization_token('quote.hs_quote_number', '') }} aegus {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Palun võtke lisateabe saamiseks <a href='#'>ühendust oma müügiesindajaga</a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Arvete esitamise sagedus",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Ühiku hind",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Hind",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Tooted ja teenused",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Kogus",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "TOOTEKOOD",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Ülevaade<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Tingimused",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Kommentaarid",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Projekti<br>heakskiit",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Alapealkiri",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Meie<br> lugu",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Oleme oma tegevuses<br>kirglikud",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Mida meie kliendid<br>meist räägivad",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Projekti<br>kokkuvõte",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Meie eesmärgid",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Töö<br>kirjeldus",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Projekti<br>kalkulatsioon",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>Leping",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Valmistatud:",
+    "description": "",
+    "placeholders": null
+  }
+}

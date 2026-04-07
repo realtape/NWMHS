@@ -1,0 +1,47 @@
+.hs-quotes--flow .banner__image-container img {
+  min-height: 100vh;
+}
+
+.hs-quotes--flow .banner {
+  min-height: 100vh;
+}
+
+.hs-quotes--flow .banner__image-container > div > span {
+  height: 100%;
+  position: absolute;
+}
+
+.hs-quotes--flow .quote-expired__header {
+  padding-top: 55px;
+}
+
+.hs-quotes--flow .quote-expired__info {
+  padding-top: 7px;
+}
+
+.hs-quotes--flow .quote-expired__info p {
+  margin: 0;
+}
+
+.hs-quotes--flow a,
+.hs-quotes--flow a:hover,
+.hs-quotes--flow a:focus,
+.hs-quotes--flow a:active {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.hs-quotes--flow a:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 767px) {
+  .hs-quotes--flow .banner__image-container img {
+    min-height: 100vh;
+  }
+  .hs-quotes--flow .banner {
+    height: auto;
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "email.custom_link_format.default": {
+    "message": "mailto:?subject=Check out {{ social_link_url|urlencode }} &body=Check out {{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email.custom_link_format.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "email.enabled.label": {
+    "message": "Permis?",
+    "description": "",
+    "placeholders": null
+  },
+  "email.label": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.custom_link_format.default": {
+    "message": "http://www.facebook.com/share.php?u={{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.custom_link_format.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.enabled.label": {
+    "message": "Permis?",
+    "description": "",
+    "placeholders": null
+  },
+  "facebook.label": {
+    "message": "Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "Acesta este linkul de destinație care va fi scurtat pentru distribuirea facilă pe rețelele sociale.",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "URL link",
+    "description": "",
+    "placeholders": null
+  },
+  "link.placeholder": {
+    "message": "URL personalizat pagină opțional",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.custom_link_format.default": {
+    "message": "http://www.linkedin.com/shareArticle?mini=true&url={{ social_link_url|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.custom_link_format.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.enabled.label": {
+    "message": "Permis?",
+    "description": "",
+    "placeholders": null
+  },
+  "linkedin.label": {
+    "message": "LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Partajare pe rețea socială",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.custom_link_format.default": {
+    "message": "http://pinterest.com/pin/create/button/?url={{ social_link_url|urlencode }}&media={{ pinterest_media }}",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.custom_link_format.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.enabled.label": {
+    "message": "Permis?",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.label": {
+    "message": "Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "pinterest.pinterest_media.label": {
+    "message": "Fixare imagine",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.custom_link_format.default": {
+    "message": "https://twitter.com/intent/tweet?original_referer={{ social_link_url|urlencode }}&url={{ social_link_url|urlencode }}&source=tweetbutton&text={{ social_page_title|urlencode }}",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.custom_link_format.label": {
+    "message": "Link",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.enabled.label": {
+    "message": "Permis?",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.label": {
+    "message": "Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.label": {
+    "message": "Pictogramă Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.choices.twitter": {
+    "message": "Pasăre Twitter",
+    "description": "",
+    "placeholders": null
+  },
+  "twitter.twitter_icon.choices.x-twitter": {
+    "message": "TwitterX",
+    "description": "",
+    "placeholders": null
+  }
+}

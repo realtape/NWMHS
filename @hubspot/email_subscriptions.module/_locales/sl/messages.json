@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Naročniške nastavitve",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Posodobi besedilo gumba za nastavitve",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Posodobi nastavitve e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Nastavitve komunikacije",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Podnaslov",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Če to ni vaš e-poštni naslov, prezrite to stran, ker vam je bila e-pošta, povezana s to stranjo, najverjetneje posredovana.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Da, znova me naročite!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Besedilo gumba ponovnega naročila",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Odjavi vse oznake",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Odjavite se z vseh seznamov prejemnikov.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Odstranite kljukico pri vseh e-poštnih sporočil, ki jih ne želite prejemati:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Besedilo pomoči za izbiro nastavitve",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Ali označite tukaj in nikoli ne prejemajte e-poštnih sporočil:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Odjavite se od celotnega besedila pomoči",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Odjavite vse besedilo pomoči za trenutno odjavljenega uporabnika",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Trenutno ste odjavljeni iz vseh naših e-poštnih sporočil. Bi radi ponovno prejeli naša e-poštna sporočila?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Besedilo gumba enojne naročnine",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Odjava",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Besedilo potrditve enojne naročnine",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Ali se želite odjaviti od prejemanja e-poštnih sporočil o:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Primer imena enojne naročnine",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "izbrana vrsta naročnine",
+    "description": "",
+    "placeholders": null
+  }
+}

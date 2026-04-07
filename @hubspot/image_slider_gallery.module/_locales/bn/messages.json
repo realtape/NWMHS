@@ -1,0 +1,467 @@
+{
+  "name": {
+    "message": "ছবির স্লাইডার",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "স্লাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "ছবি ",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.inline_help_text": {
+    "message": "সেরা ফলাফলের জন্য, একইধরনের আকার ও মাপের ছবি যোগ করুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "ক্যাপশন",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL সংযুক্ত করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.label": {
+    "message": "সেটিংস",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.label": {
+    "message": "স্লাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.label": {
+    "message": "পৃষ্ঠা পিছু স্লাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.per_page.inline_help_text": {
+    "message": "পৃষ্ঠা পিছু আপনি 1টির বেশি স্লাইড দেখালে ক্যাপশন ও থাম্বনেল অদৃশ্য হয়ে যায়।",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.label": {
+    "message": "ছবির মাপ",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.inline_help_text": {
+    "message": "সেরা ফলাফলের জন্য, একইরকমের আকৃতি অনুপাত ও মাপ সহ ছবি ব্যবহার করুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.natural": {
+    "message": "আপলোড করা আকৃতি অনুপাত",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.sizing.choices.force_aspect_ratio": {
+    "message": "জোরপূর্বক করা আকৃতি অনুপাত",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.label": {
+    "message": "আনুমানিক অনুপাত",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.label": {
+    "message": "ক্যাপশন দেখান",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.show_captions.inline_help_text": {
+    "message": "যখন <strong>ফোর্স আকৃতি অনুপাত</strong> নির্বাচন করা হয়, ক্যাপশনগুলি তখন ছবির ওপরের স্তরে থাকে।",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.label": {
+    "message": "ক্যাপশনের অবস্থান",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.below": {
+    "message": "ক্যাপশনগুলি ছবির নিচের স্তরে আনুন",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.slides.caption_position.choices.overlay": {
+    "message": "ক্যাপশনগুলি ছবির ওপরের স্তরে আনুন",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.label": {
+    "message": "মুভমেন্ট",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.label": {
+    "message": "স্লাইড স্থানান্তরসমূহ",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.slide": {
+    "message": "স্লাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.choices.fade": {
+    "message": "ফেড করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.transition.inline_help_text": {
+    "message": "এডিটরে ট্রাঞ্জিশনগুলি নাও দেখাতে পারে, কিন্তু প্রিভিউ বা প্রকাশিত একটি পৃষ্ঠায় উপস্থিত থাকবে।",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.loop_slides.label": {
+    "message": "স্লাইড লুপে ফেলুন",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.label": {
+    "message": "অটোপ্লে",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance.inline_help_text": {
+    "message": "সঠিকভাবে কাজ করার জন্য অটোপ্লের পৃষ্ঠা পিছু স্লাইডের সেটিংয়ের চেয়ে বেশি স্লাইড প্রয়োজন,",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.movement.auto_advance_speed_seconds.label": {
+    "message": "অটো স্ক্রোলিংয়ের মধ্যে সেকেন্ডের হিসেবে সময়",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.label": {
+    "message": "নেভিগেশন",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_main_arrows.label": {
+    "message": "নেভিগেশন তীরচিহ্নগুলি দেখান",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_thumbnails.label": {
+    "message": "থাম্বনেল দেখান",
+    "description": "",
+    "placeholders": null
+  },
+  "slideshow_settings.navigation.show_dots.label": {
+    "message": "ডট নেভিগেশন দেখান",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_caption.default": {
+    "message": "গ্যালারিতে যোগ করার ছবিটির জন্য একটি বৈকল্পিক ক্যাপশন। এই ছবিটির জন্য পরিদর্শকরা পড়তে পারবেন এমন যে কোনো বর্ণনামূলক টেক্সট লিখুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_aria_label.default": {
+    "message": "{{ slide_count }} স্লাইড সহ ছবির ক্যারোজেল",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.aria_label_thumbnails.default": {
+    "message": "থাম্বনেল নেভিগেশন অন্তর্ভুক্ত আছে",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slider_nav_aria_label.default": {
+    "message": "ক্যারোজেল থাম্বনেল নেভিগেশন। একটি থাম্বনেল নির্বাচন করলে ক্যারোজেলটি পরিবর্তিত হবে।",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.prev.default": {
+    "message": "আগের স্লাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.next.default": {
+    "message": "পরবর্তী স্লাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.first.default": {
+    "message": "প্রথম স্লাইডে যান",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideX.default": {
+    "message": "%s স্লাইডে যান",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pageX.default": {
+    "message": "%s পৃষ্ঠায় যান",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.play.default": {
+    "message": "অটোপ্লে শুরু করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pause.default": {
+    "message": "অটোপ্লে সাময়িকভাবে থামান",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.carousel.default": {
+    "message": "ক্যারোজেল",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.select.default": {
+    "message": "দেখানোর জন্য একটি স্লাইড নির্বাচন করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slide.default": {
+    "message": "স্লাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.slideLabel.default": {
+    "message": "%s এর %s",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.default_image_alt_text.default": {
+    "message": "ডিফল্ট ছবির alt টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.label": {
+    "message": "স্লাইড",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.label": {
+    "message": "ছবিগুলো",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.corner.label": {
+    "message": "কোণার ব্যাসার্ধ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.label": {
+    "message": "ছবির মাঝখানের জায়গা ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.image.gap.inline_help_text": {
+    "message": "আপনার যখন পৃষ্ঠা পিছু 1টির বেশি স্লাইড থাকবে তখন আপনার ছবির মধ্যে স্পেসটি কাস্টমাইজ করুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.label": {
+    "message": "ক্যাপশন",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.background.background.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slide.caption.text.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.label": {
+    "message": "নেভিগেশন",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.label": {
+    "message": "স্লাইডার তীরচিহ্নগুলি",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.background_color.label": {
+    "message": "ব্যাকগ্রাউন্ডের রং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.left_icon.label": {
+    "message": "বাঁ দিকের আইকন",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.right_icon.label": {
+    "message": "ডান দিকের আইকন",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.slider_arrows.fill_color.label": {
+    "message": "আইকন রঙ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.label": {
+    "message": "ডট্‌স ও অটোপ্লে বোতাম",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.dots.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.label": {
+    "message": "থাম্বনেল নেভিগেশন",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.arrow_background_color.label": {
+    "message": "তীরচিহ্নের ব্যাকগ্রাউন্ড রঙ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.left_icon.label": {
+    "message": "বাঁ তীরচিহ্নের  আইকন",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.right_icon.label": {
+    "message": " ডান তীরচিহ্নের আইকন",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.fill_color.label": {
+    "message": "তীরচিহ্ন আইকনের পূরণ করার রঙ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.label": {
+    "message": "থাম্বনেল ছবিগুলি",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.label": {
+    "message": "আনুমানিক অনুপাত",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/2": {
+    "message": "3:2",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.2/3": {
+    "message": "2:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.3/4": {
+    "message": "3:4",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.width.label": {
+    "message": "প্রস্থ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.navigation.thumb_nav.thumbnail.radius.label": {
+    "message": "ব্যাসার্ধ ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.label": {
+    "message": "স্লাইডার",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.slider.spacing.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  }
+}

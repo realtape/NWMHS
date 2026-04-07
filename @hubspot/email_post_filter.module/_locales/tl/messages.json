@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filter ng Post",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Tingnan lahat",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Ipapakitang text kung available ang ipapakitang higit sa maximum na value. Iwanang blangko para alisin ang link",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Gagamitin ng default ang kasalukuyang blog kapag ginamit sa template ng blog o ang pangunahing blog kapag ginamit sa iba pa.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Pumili ng blog na ipapakita",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximum na bilang ng mga ipapakitang na-filter na value. Iwanang blangko para ipakita lahat",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Maghanap",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "List ng mga value para sa mga na-filter na link",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Mga tag",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Mga may-akda",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Mga buwan",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Mga Post ayon sa Tag",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "I-list ang pamagat na ipapakita",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Pangalan",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Bilang ng Post",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Maghanap",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Pagkakaayos ng mga value para sa mga na-filter na link",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Ipakita ang lahat ng filter",
+    "description": "",
+    "placeholders": null
+  }
+}

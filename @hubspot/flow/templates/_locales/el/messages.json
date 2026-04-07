@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Αυτή η προσφορά έχει λήξει",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Η προσφορά {{ personalization_token('quote.hs_quote_number', '') }} έληξε στις {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "<a href='#'>Επικοινωνήστε με τον αντιπρόσωπο πωλήσεών σας</a> για περισσότερες λεπτομέρειες.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Συχνότητα  χρέωσης",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Τιμή μονάδας",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Τιμή",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Προϊόντα και υπηρεσίες",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Ποσότητα",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Εκτελεστική<br>σύνοψη",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Όροι και προϋποθέσεις",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Σχόλια",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Αποδοχή<br>έργου",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Δευτερεύουσα επικεφαλίδα",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Η<br> ιστορία μας",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Είμαστε παθιασμένοι με<br>αυτό που κάνουμε",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Τι λένε οι πελάτες μας<br>για εμάς",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Συνοπτική παρουσίαση έργου<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Οι στόχοι μας",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Δήλωση <br>εργασίας",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Εκτίμηση έργου<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "Το<br>Συμβόλαιο",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Προετοιμάστηκε για",
+    "description": "",
+    "placeholders": null
+  }
+}

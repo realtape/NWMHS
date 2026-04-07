@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Preferencias de suscripción",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texto del botón de actualizar preferencias",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Actualizar las preferencias de correo",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Preferencia de comunicación",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Encabezado",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Subtítulo",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Si esta no es tu dirección de correo, ignora esta página, ya que lo más probable es que el correo asociado con la página haya sido reenviado.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "¡Sí, volver a suscribirme!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Texto del botón Volver a suscribir",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Etiqueta Cancelar suscripción a todo",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Cancelar mi suscripción a todas las listas de correos.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Desmarca los tipos de correos que no deseas recibir:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Texto de ayuda de selección de preferencias",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "O marca aquí para nunca recibir ningún correo:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Texto de ayuda de Cancelar suscripción a todo",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Texto de ayuda de Cancelar suscripción a todo para usuario no suscrito",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Actualmente no estás suscrito a ninguno de nuestros correos. ¿Te gustaría recibirlos nuevamente?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Texto de botón de suscripción único",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Cancelar suscripción",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Texto de confirmación de suscripción único",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "¿Deseas cancelar la suscripción a los correos electrónicos sobre los siguientes temas?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Nombre de ejemplo de suscripción única",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "tu tipo de suscripción seleccionado",
+    "description": "",
+    "placeholders": null
+  }
+}

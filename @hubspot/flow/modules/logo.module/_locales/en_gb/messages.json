@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Logo max. height",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "This does not apply when overriding the default logo",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "You may choose to override the logo applied on this template by using this toggle.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Override default logo",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "By default, your quotes will show your company logo from your Brand Kit in Account Defaults or Website Page Settings.",
+    "description": "",
+    "placeholders": null
+  }
+}

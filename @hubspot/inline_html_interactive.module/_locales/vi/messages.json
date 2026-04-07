@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Địa chỉ email",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Số điện thoại",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Tải xuống tệp",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Liên kết cuộc họp",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Một trong các trang của bạn",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Liên kết đến",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Liên kết cuộc họp",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Mở liên kết trong tab mới",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Trang",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "HTML nội tuyến",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Nội dung của nút",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML sẽ được kết xuất trong nút. Bạn chỉ có thể dùng thẻ hợp lệ trong một thẻ <a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Bấm vào đây",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Mở liên kết trong tab mới",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Nâng cao",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Quy tắc CSS tùy chỉnh",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Bộ chọn",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Giá trị này được kết hợp với bộ chọn của CTA. Ví dụ: ':hover' trở thành ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Kiểu",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Thêm CSS tùy chỉnh vào quy tắc kiểu. Ví dụ: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Lớp CSS tùy chỉnh",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Thêm lớp CSS tùy chỉnh vào liên kết CTA.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Biểu định kiểu CSS",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Thêm bảng định dạng CSS tùy chỉnh vào CTA của bạn. Ví dụ: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Dùng đánh dấu cũ",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Gói HTML trong đánh dấu cũ để hỗ trợ CSS hiện có",
+    "description": "",
+    "placeholders": null
+  }
+}

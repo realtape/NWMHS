@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horizontal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertical",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Los menús horizontales muestran los elementos uno al lado del otro y los menús verticales los muestran de arriba hacia abajo",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientación",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Buscar",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Los elementos de menú secundarios aparecerán al pasar el mouse sobre el elemento principal. Si no está seleccionado, los elementos del menú secundario siempre aparecerán.",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "¿Activar controles flotantes?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "El árbol de menús es la estructura de páginas que genera los elementos en el menú. Un solo árbol de menú se puede usar con múltiples menús. Puedes crear múltiples menús para estructuras de sitio web complejas. Los menús se crean y administran en tu configuración de contenido",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menú",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Determina el número de árboles de menús secundarios que se pueden expandir en el menú",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Niveles máximos",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Buscar",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menú",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Menú de ruta de estilo Breadcrumb (usa flujo horizontal)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dinámico por página: muestra las páginas del menú relacionadas con la página que se está viendo",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Estático: siempre muestra las páginas de nivel superior en el menú",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dinámico por sección: muestra páginas en el menú que están relacionadas con la sección que se está viendo",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Los menús avanzados muestran diferentes porciones de un árbol de menú en función de qué página se está viendo.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Tipo de menú avanzado",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Buscar",
+    "description": "",
+    "placeholders": null
+  }
+}

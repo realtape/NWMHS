@@ -1,0 +1,77 @@
+{
+  "name": {
+    "message": "المبالغ الإجمالية الفرعية",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.after_discount.default": {
+    "message": "بعد خصم {{ discount_amount }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.annual.default": {
+    "message": "سنوي",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.frequency_subtotal.default": {
+    "message": "الإجمالي الفرعي {{ frequency_text }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weekly.default": {
+    "message": "‏‏أسبوعيًا",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_weeks.default": {
+    "message": "كل أسبوعين",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.monthly.default": {
+    "message": "شهريًا",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "لمرة واحدة",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_six_months.default": {
+    "message": "كل ستة أشهر",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_three_years.default": {
+    "message": "كل ثلاث سنوات",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_two_years.default": {
+    "message": "كل سنتين",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_four_years.default": {
+    "message": "كل أربعة أعوام",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.per_five_years.default": {
+    "message": "كل خمسة أعوام",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.quarterly.default": {
+    "message": "رُبع سنويًا",
+    "description": "",
+    "placeholders": null
+  },
+  "subtotal_title.default": {
+    "message": "المبالغ الإجمالية الفرعية",
+    "description": "",
+    "placeholders": null
+  }
+}

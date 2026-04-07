@@ -1,0 +1,62 @@
+{
+  "follow_up_type_automation.label": {
+    "message": "Προσθήκη στη ροή εργασιών",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.label": {
+    "message": "Αποστολή email παρακολούθησης",
+    "description": "",
+    "placeholders": null
+  },
+  "follow_up_type_simple.help_text": {
+    "message": "Για να στείλετε ένα email παρακολούθησης, βεβαιωθείτε ότι είναι ενεργοποιημένη η ρύθμιση 'Ορισμός των επαφών που δημιουργούνται ως επαφών μάρκετινγκ'. Μπορείτε να διαχειριστείτε αυτή τη ρύθμιση στις επιλογές. <a href='https://knowledge.hubspot.com/contacts/set-contacts-as-marketing#set-the-default-marketing-status-for-new-contacts'>Μάθετε περισσότερα</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "form.default.message": {
+    "message": "Σας ευχαριστούμε για την υποβολή της φόρμας.",
+    "description": "",
+    "placeholders": null
+  },
+  "form.label": {
+    "message": "Φόρμα",
+    "description": "",
+    "placeholders": null
+  },
+  "form_follow_ups_workflow_id.label": {
+    "message": "Ροή εργασιών",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Φόρμα",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_are_overridden.label": {
+    "message": "Αποστολή ειδοποιήσεων φόρμας σε συγκεκριμένες διευθύνσεις email αντί για τις προεπιλογές φόρμας",
+    "description": "",
+    "placeholders": null
+  },
+  "notifications_override_email_addresses.label": {
+    "message": "Διευθύνσεις email",
+    "description": "",
+    "placeholders": null
+  },
+  "sfdc_campaign.label": {
+    "message": "Καμπάνια Salesforce",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Τίτλος φόρμας",
+    "description": "",
+    "placeholders": null
+  },
+  "simple_email_for_live_id.label": {
+    "message": "Email",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Maksymalna wysokość logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Nie ma to zastosowania w przypadku nadpisywania domyślnego logo",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Przy użyciu tego przełącznika możesz zastąpić logo użyte w tym szablonie.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Zastąp domyślne logo",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Domyślnie na Twoich wycenach będzie znajdowało się logo firmy podane w zestawie marki w sekcji „Domyślne ustawienia konta” lub „Ustawienia stron w witrynie internetowej”.",
+    "description": "",
+    "placeholders": null
+  }
+}

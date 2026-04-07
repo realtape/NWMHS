@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Lista de publicações",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Mais populares – últimos seis meses",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Mais popular – de todos os tempos",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Mais popular – do mês anterior",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Mais popular – do último ano",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Mais recente",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Procurar",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Listar publicações no blog por",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "A predefinição utilizará o blog atual quando utilizado no modelo de um blog ou no blog principal quando utilizado em qualquer outro lugar.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Selecione o blog a apresentar",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Máximo de publicações de blog a listar",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Publicações recentes",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Listar títulos a apresentar",
+    "description": "",
+    "placeholders": null
+  }
+}

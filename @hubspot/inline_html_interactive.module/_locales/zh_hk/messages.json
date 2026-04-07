@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "電郵地址",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "電話號碼",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "檔案下載",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "會議連結",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "你的其中一頁",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "連結至",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "會議連結",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "在新分頁開啟連結",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "頁面",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "內嵌 HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "按鈕內容",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "將在按鈕中轉譯的 HTML。你只可以使用在 <a> 標記中有效的標記。 ",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "請按此處",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "在新分頁開啟連結",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "進階",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "自訂 CSS 規則",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "選擇器",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "此值會與 CTA 選擇器結合使用。例如，':hover' 會是 ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "樣式",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "為你的樣式規則新增自訂 CSS。例如：border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "自訂 CSS 類別",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "新增自訂 CSS 類別至你的 CTA 連結。",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "自訂 CSS 樣式表",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "為你的 CTA 連結新增自訂 CSS 樣式表。例如：border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "使用舊版標示方式",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "以舊版標示方式包覆 HTML 以支援現有的 CSS",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "ロゴグリッド",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "ロゴ",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "ロゴ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "ロゴ画像",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "最大のロゴの高さ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "ロゴの最大の高さが設定されます。<br><br>最大のロゴのサイズを設定するのは、寸法の大きく異なる複数のロゴを同じサイズで表示する場合に最も有効です。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "縦横比",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "ロゴコンテナーの縦横比を設定します。背景色フィールドを使用していて、寸法が大きく違うロゴを使用している場合にとても便利です。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "背景色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "ロゴの周囲のパディングを設定します。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "ウェブには応答型という性質があるため、レンダリングされるロゴの高さは、画面サイズ、元の画像のサイズ、ロゴのパディング、グリッドのギャップ、列数の組み合わせに基づいて、設定された値よりも小さくなる場合があります。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "ロゴグリッド",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "グリッドの列数",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "パソコンでのグリッドの列数を設定します。モバイルでの既定は1になります。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "<strong>［ロゴ画像］＞［背景］</strong>から、背景色を設定すると、ロゴのグリッド表示に役立つ場合があります。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "グリッド間隔",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "グリッド項目間の間隔を設定します。<br><br><strong>［ロゴ画像］＞［背景］</strong>から、背景を設定すると、ロゴのグリッド表示に役立つ場合があります。",
+    "description": "",
+    "placeholders": null
+  }
+}

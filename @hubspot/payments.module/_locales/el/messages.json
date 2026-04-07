@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Πληρωμή",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Προσθήκη εικονιδίου",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Σύνδεσμος κουμπιού",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Άλλο",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Χρήση συνδέσμου πληρωμής",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Στόχος κουμπιού",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Ολοκλήρωση αγοράς",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Κείμενο κουμπιού",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Άνοιγμα σε νέα καρτέλα",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Συρόμενη επικάλυψη",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Συμπεριφορά ολοκλήρωσης αγοράς",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Κλείσιμο ολοκλήρωσης αγοράς",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Εικονίδιο",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Εικονίδιο",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Αριστερά",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Δεξιά",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Θέση",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Σύνδεσμος πληρωμής",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Στοίχιση",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Στοίχιση",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Χρώμα",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Φόντο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Περιθώριο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Περιθώριο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Γωνία",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Ακτίνα καμπυλότητας",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Χρώμα",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Φόντο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Περιθώριο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Περιθώριο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Χρώμα",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Εικονίδιο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Κατάδειξη",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Γραμματοσειρά",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Κείμενο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Χρώμα",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Εικονίδιο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Μέγεθος",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Κενό διάστημα μεταξύ του εικονιδίου και του κειμένου κουμπιού.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Διάκενο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Στυλ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Διάκενο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Διάκενο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Γραμματοσειρά",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Κείμενο",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Μετατροπή σε κεφαλαία",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Πεζά",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Κεφαλαία",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Μετασχηματισμός",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Κανένα",
+    "description": "",
+    "placeholders": null
+  }
+}

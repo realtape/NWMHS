@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "ブログコンテンツ",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.post": {
+    "message": "記事",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.choices.listing": {
+    "message": "リスト",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "template_to_edit.label": {
+    "message": "編集するテンプレート",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_post_source.label": {
+    "message": "ブログ記事ソース",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_listing_source.label": {
+    "message": "ブログ リスト ソース",
+    "description": "",
+    "placeholders": null
+  }
+}

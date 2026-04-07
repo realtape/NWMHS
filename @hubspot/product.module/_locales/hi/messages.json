@@ -1,0 +1,362 @@
+{
+  "name": {
+    "message": "प्रोडक्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "product.label": {
+    "message": "उत्पाद",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.label": {
+    "message": "नाम",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.label": {
+    "message": "हेडिंग लेवल",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.help_text": {
+    "message": "हेडिंग लेवल (h1, h2, h3, h4, h5, h6) को नाम एलिमेंट के लिए सेट करता है। यह एक्सेसिबिलिटी और SEO के लिए महत्वपूर्ण है। <a href='https://www.w3.org/WAI/tutorials/page-structure/headings/'>अधिक जानें</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h1": {
+    "message": "हेडिंग 1",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h2": {
+    "message": "हेडिंग 2",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h3": {
+    "message": "हेडिंग 3",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h4": {
+    "message": "हेडिंग 4",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h5": {
+    "message": "हेडिंग 5",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.heading_level.choices.h6": {
+    "message": "हेडिंग 6",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.override_product_name.label": {
+    "message": "प्रोडक्ट का नाम ओवरराइड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.label": {
+    "message": "नाम",
+    "description": "",
+    "placeholders": null
+  },
+  "group_name.name_override.default": {
+    "message": "प्रोडक्ट का नाम",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.label": {
+    "message": "विवरण",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.override_product_description.label": {
+    "message": "प्रोडक्ट डिस्क्रिप्शन को ओवरराइड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.label": {
+    "message": "विवरण",
+    "description": "",
+    "placeholders": null
+  },
+  "group_description.description_override.default": {
+    "message": "बेचे जाने वाले प्रोडक्ट का संक्षिप्त विवरण। एक या दो वाक्य एकदम सही मात्रा है।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.label": {
+    "message": "इमेज",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.override_product_image.label": {
+    "message": "प्रोडक्ट इमेज ओवरराइड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_image.image_override.label": {
+    "message": "इमेज",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.label": {
+    "message": "बटन",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.label": {
+    "message": "बटन टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_text.default": {
+    "message": "अधिक जानें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.override_product_button.label": {
+    "message": "प्रोडक्ट बटन ओवरराइड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_button.button_override.label": {
+    "message": "बटन",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_price_info_found.default": {
+    "message": "कोई कीमत संबंधी जानकारी नहीं मिल सकी",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "स्टाइल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.label": {
+    "message": "लेआउट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.horizontal": {
+    "message": "हॉरिजॉन्टल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.layout.choices.vertical": {
+    "message": "वर्टिकल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "इमेज",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.label": {
+    "message": "पूरी इमेज दिखाएं",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.show_full_image.help_text": {
+    "message": "हमेशा यह सुनिश्चित करेगा कि पूरी इमेज दिखाई जाए। इससे इमेज पूरे इमेज कंटेनर को नहीं भर सकेगी।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.label": {
+    "message": "बैकग्राउंड का कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.background_color.help_text": {
+    "message": "इमेज कंटेनर में बैकग्राउन्ड कलर जोड़ता है। यदि आपकी इमेज पारदर्शी है तो यह सबसे उपयोगी है।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.label": {
+    "message": "एस्पेक्ट रेशियो",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.vertical_aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.label": {
+    "message": "इमेज की चौड़ाई का अनुपात",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.help_text": {
+    "message": "कार्ड का वह प्रतिशत निर्धारित करता है जो इमेज को आवंटित किया जाएगा।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.40%": {
+    "message": "40%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.45%": {
+    "message": "45%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.50%": {
+    "message": "50%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.55%": {
+    "message": "55%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.horizontal_aspect_ratio.choices.60%": {
+    "message": "60%",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.label": {
+    "message": "कॉन्टेंट एरिया",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.label": {
+    "message": "बैकग्राउंड का कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.background_color.help_text": {
+    "message": "कंटेन्ट एरिया के लिए बैकग्राउन्ड का रंग सेट करें",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.horizontal_padding.label": {
+    "message": "हॉरिजॉन्टल पैडिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.vertical_padding.label": {
+    "message": "वर्टिकल पैडिंग",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_content_area.border.label": {
+    "message": "बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "नाम",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_size.label": {
+    "message": "फ़ॉन्ट साइज़",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font_color.label": {
+    "message": "फ़ॉन्ट कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.label": {
+    "message": "कीमत",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_size.label": {
+    "message": "फ़ॉन्ट साइज़",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_price.font_color.label": {
+    "message": "फ़ॉन्ट कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "विवरण",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_size.label": {
+    "message": "फ़ॉन्ट साइज़",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font_color.label": {
+    "message": "फ़ॉन्ट कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.label": {
+    "message": "बटन",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.override_defaults.label": {
+    "message": "डिफ़ॉल्ट को ओवरराइड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.text_color.label": {
+    "message": "टेक्स्ट कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.button_color.label": {
+    "message": "बटन कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.corner_radius.label": {
+    "message": "कॉर्नर रेडियस",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.border.label": {
+    "message": "बॉर्डर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.label": {
+    "message": "होवर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.text_color.label": {
+    "message": "टेक्स्ट कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.button_color.label": {
+    "message": "बटन कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_button.group_hover.border_color.label": {
+    "message": "बॉर्डर कलर",
+    "description": "",
+    "placeholders": null
+  }
+}

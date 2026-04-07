@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Tabelunderoverskrift for linjeelement",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Tilbagevendende og engangsbetalinger, der er forfaldne nu.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Underoverskriftstekst",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Denne underoverskrift vises kun, når der er fremtidige betalinger.",
+    "description": "",
+    "placeholders": null
+  }
+}

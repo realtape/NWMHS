@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Permintaan Kata Sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Placeholder kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Kata sandi",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Pesan kata sandi yang buruk",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Maaf, coba lagi.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Kirim",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Teks tombol kirim",
+    "description": "",
+    "placeholders": null
+  }
+}

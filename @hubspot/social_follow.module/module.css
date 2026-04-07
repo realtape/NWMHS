@@ -1,0 +1,29 @@
+.hs-social-follow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.hs-social-follow__link {
+  display: inline-block;
+  box-sizing: content-box;
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+}
+
+.hs-social-follow__icon {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.hs-social-follow__icon svg {
+  height: 36px;
+  width: 36px;
+}

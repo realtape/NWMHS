@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Página não encontrada",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Não conseguimos encontrar a página que estava à procura.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Ir para a página inicial",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Esta página não está a funcionar",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Ocorreu um erro interno do servidor, mas estamos a tratar disso!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Ir para a página inicial",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Logótipo da empresa",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "As suas preferências de e-mail foram atualizadas.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Anulou a sua subscrição de todas as comunicações de e-mail com êxito.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "As suas preferências de e-mail foram atualizadas.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "Atualize as suas preferências de e-mail para",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Escolha os e-mails que gostaria de receber de {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Escolha os e-mails que gostaria de receber de {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Selecione um idioma:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Atualizar preferências de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Anular a subscrição de todos os e-mails",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Se este não é o seu endereço, é provável que tenha sido encaminhado um e-mail para si por parte de outra pessoa qualquer e pode ignorar esta mensagem com segurança.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Atualmente tem a subscrição anulada de todos os nossos e-mails. Gostaria de voltar a receber os nossos e-mails?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Sim, voltar a subscrever-me!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Palavra-passe necessária",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Introduza a sua palavra-passe para ver esta página.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Resultados da pesquisa para “[[search_term]]”",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Lamentamos, não tem acesso",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Não tem permissão para ver esta página. Contacte o administrador do site se tiver dúvidas.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Ir para a página inicial",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Iniciar sessão",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "A página que está a tentar ver só está disponível para os utilizadores registados.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Lembrar-me",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Esqueceu-se da palavra-passe?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Iniciar sessão",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Mostrar",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Está com problemas? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "A sessão foi terminada",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Voltar a iniciar sessão",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Ou volte para a <a href=\"{{ '//' ~ request.domain }}\">página inicial</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Configurar a palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Bem-vindo! Conclua o registo configurando a sua palavra-passe.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Confirmar palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Guardar palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Mostrar",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Está com problemas? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Reponha a palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Introduza o endereço de e-mail que utilizou para se registar e enviamos-lhe um e-mail com uma ligação para repor a sua palavra-passe.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Enviar e-mail de reposição",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Acabou de se lembrar? <a href=\"/_hcms/mem/login\">Inicie sessão</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Está com problemas? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "Foi enviado um e-mail para a reposição da palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Se uma conta for encontrada para {{ user_email }}, é enviado um e-mail com os passos que deve seguir para repor a sua palavra-passe. <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Contacte o seu administrador</a> se não receber o e-mail nos 20 minutos seguintes.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Enviar outro e-mail de reposição",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Criar uma palavra-passe nova",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "A sua palavra-passe nova tem de ser diferente da palavra-passe utilizada anteriormente.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Palavra-passe nova",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Confirmar palavra-passe nova",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Guardar palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Mostrar",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Está com problemas? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "O seu endereço de e-mail foi confirmado",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Agradecemos ter verificado o seu endereço de e-mail. Pode agora iniciar sessão na sua conta e aceder ao seu conteúdo exclusivo.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Iniciar sessão",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Está com problemas? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Foi enviada a ligação de início de sessão que só funciona uma  vez",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Enviámos um e-mail para si para o endereço {{ user_email }}. Contém uma ligação que iniciará a sua sessão.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Se não conseguir ver o e-mail, verifique a página de spam.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Reenviar ligação de início de sessão.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "ou",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Em vez disso, inicie sessão com uma palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Está com problemas? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Verifique o seu endereço de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Agradecemos ter-se registado! Verifique o seu e-mail e clique na ligação de confirmação para concluir o seu registo.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Está com problemas? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Crie uma palavra-passe para terminar o registo",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Último passo! depois de criar a sua palavra-passe segura, poderá iniciar sessão e aceder ao conteúdo em {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Criar palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Ou copie e cole esta ligação no seu browser:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Se tiver dúvidas ou recebeu esta mensagem por engano, <a href=\"{{ membership_website_admin }}\">contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Reponha a palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Defina uma nova palavra-passe e inicie sessão na sua conta.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Repor a palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Se não fez este pedido, pode ignorar este e-mail em segurança.<br/>Se tiver dúvidas,<a href=\"{{ membership_website_admin }}\">contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Inicie sessão com a ligação que só funciona uma vez",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Continue com o início de sessão na sua conta. Para sua segurança, esta ligação tem validade de 15 minutos.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Iniciar sessão",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Ou copie e cole esta ligação no seu browser:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Se não fez este pedido, pode ignorar este e-mail em segurança.<br/>Se tiver dúvidas,<a href=\"{{ membership_website_admin }}\">contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "A sua palavra-passe de {{ membership_company_name }} foi alterada com êxito",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Não queria fazer esta alteração? Utilize o formulário <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">esqueci-me da palavra-passe</a> para repor agora a sua palavra-passe.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Se tiver dúvidas, contacte o <a href=\"{{ membership_website_admin }}\"> administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "O seu registo está concluído",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Obrigado pelo seu registo! Está tudo preparado. Agora, pode iniciar sessão para aceder e desbloquear coisas ainda mais importantes.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Inicie sessão na sua nova conta",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Se tiver dúvidas ou recebeu esta mensagem por engano, <a href=\"{{ membership_website_admin }}\">contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Bem-vindo à {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Conclua o seu registo criando uma palavra-passe segura para a sua conta.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Criar palavra-passe",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Ou copie e cole esta ligação no seu browser:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Se tiver dúvidas ou recebeu esta mensagem por engano, <a href=\"{{ membership_website_admin }}\">contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Verifique o seu endereço de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Obrigado por se registar! Tem de verificar o seu endereço de e-mail para concluir o registo em {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Verificar o endereço de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Se tiver dúvidas ou recebeu esta mensagem por engano, <a href=\"{{ membership_website_admin }}\">contacte o administrador do site</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Confirme o seu pedido de eliminação",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Confirme o seu pedido de eliminação",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Olá {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Recebemos um pedido para eliminar os seus dados pessoais da {{ company_name }} em:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Dispositivo:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Data e hora:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Para podermos processar o seu pedido, confirme que pretende eliminar os seus dados.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Sim, eliminem os meus dados.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Esta ligação irá expirar em 30 minutos",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Se não pediu para ser eliminado, pode ignorar esta mensagem em segurança.",
+    "description": "",
+    "placeholders": null
+  }
+}

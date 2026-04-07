@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Bayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Tambah ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Pautan butang",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Lain-lain",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Gunakan pautan bayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Sasaran butang",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Daftar keluar",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Teks butang",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Buka dalam tab baharu",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Tindanan gelongsor",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Tingkah laku daftar keluar",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Tutup daftar keluar",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Kiri",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Kanan",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Kedudukan",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Pautan bayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Penjajaran",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Penjajaran",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Warna",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Latar belakang",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Sempadan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Sempadan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Sudut",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Jejari",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Warna",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Latar belakang",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Sempadan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Sempadan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Warna",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Apungan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Fon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Teks",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Warna",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Saiz",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Jarak antara ikon dan teks butang.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Jarak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Gaya",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Jarak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Jarak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Fon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Teks",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Besarkan huruf",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Huruf kecil",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Huruf besar",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Transformasi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Tiada",
+    "description": "",
+    "placeholders": null
+  }
+}

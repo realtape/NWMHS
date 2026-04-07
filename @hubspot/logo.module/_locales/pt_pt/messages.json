@@ -1,0 +1,62 @@
+{
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Escolha um nível do cabeçalho. H1 é o maior, seguido de H2 e assim sucessivamente",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Nível do cabeçalho",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "Se não for especificado nenhum URL, o seu logótipo irá ligá-lo ao seu domínio principal",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "URL de ligação",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logótipo",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Abrir a ligação num novo separador quando os visitantes clicam",
+    "description": "",
+    "placeholders": null
+  }
+}

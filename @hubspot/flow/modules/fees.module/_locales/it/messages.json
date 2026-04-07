@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Commissioni",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "sconto {{ fee_amount }}%",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "{{ fee_amount }}% di commissione",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "{{ fee_amount }}% di imposta",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "Altre quote",
+    "description": "",
+    "placeholders": null
+  }
+}

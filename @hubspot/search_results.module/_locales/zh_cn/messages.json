@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "网站搜索结果",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "显示特色图像",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>抱歉，没有 [[search_term]] 的结果。</p><p>请尝试调整查询字词，或浏览我们的网站。</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "上一页",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "下一页",
+    "description": "",
+    "placeholders": null
+  }
+}

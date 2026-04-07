@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Pagina niet gevonden",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "We konden de door jou gezochte pagina niet vinden.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Naar startpagina",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "De pagina werkt niet",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Er heeft zich een interne serverfout voorgedaan. We werken aan een oplossing!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Naar startpagina",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Bedrijfslogo",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Je e-mailvoorkeuren zijn bijgewerkt.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Je bent nu afgemeld voor alle e-mails.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Je e-mailvoorkeuren zijn bijgewerkt.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "E-mailvoorkeuren bijwerken voor",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Geef aan welke e-mails je wilt ontvangen van {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Geef aan welke e-mails je wilt ontvangen van {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Selecteer een taal:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "E-mailvoorkeuren bijwerken",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Afmelden voor alle e-mails",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Als dit niet jouw adres is, dan is de e-mail waarschijnlijk naar je doorgestuurd door iemand anders en kun je dit bericht negeren.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Je bent momenteel afgemeld voor al onze e-mails. Wil je onze e-mails weer gaan ontvangen?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Ja, ik wil me weer abonneren!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Wachtwoord vereist",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Voer je wachtwoord in om de pagina te bekijken.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Wachtwoord",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Zoekresultaten voor \"[[search_term]]\"",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Sorry, je hebt geen toegang.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Je bent niet gemachtigd om deze pagina te bekijken. Neem contact op met de sitebeheerder als je vragen hebt.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Naar startpagina",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Aanmelden",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "De pagina die je wilt bekijken, is alleen beschikbaar voor geregistreerde gebruikers.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Wachtwoord",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Onthoud mij",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Wachtwoord vergeten?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Aanmelden",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Weergeven",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Loop je tegen problemen aan? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Neem dan contact op met de sitebeheerder.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Je bent afgemeld",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Meld je opnieuw aan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Of keer terug naar de <a href=\"{{ '//' ~ request.domain }}\">homepage</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Je wachtwoord instellen",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Welkom! Rond je registratie af door je wachtwoord in te stellen.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Wachtwoord bevestigen",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Wachtwoord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Wachtwoord opslaan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Weergeven",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Loop je tegen problemen aan? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Neem dan contact op met de sitebeheerder.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Je wachtwoord opnieuw instellen",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Voer het e-mailadres in dat je hebt gebruikt om je te registreren. We sturen je dan een e-mail met een link om je wachtwoord opnieuw in te stellen.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "E-mail voor opnieuw instellen verzenden",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Herinner je je wachtwoord weer? <a href=\"/_hcms/mem/login\">Meld je dan aan.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Loop je tegen problemen aan? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Neem dan contact op met de sitebeheerder.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "E-mail opnieuw instellen wachtwoord verzonden",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Als voor {{ user_email }} een overeenkomend account is gevonden, is er een e-mail gestuurd met de volgende stappen om je wachtwoord opnieuw in te stellen. <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Neem contact op met je beheerder</a> als je die niet binnen 20 minuten hebt ontvangen.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Nog een e-mail versturen om het wachtwoord opnieuw in te stellen",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Nieuw wachtwoord aanmaken",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Je nieuwe wachtwoord moet anders zijn dan het wachtwoord dat je hiervoor gebruikte.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Nieuw wachtwoord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Nieuw wachtwoord bevestigen",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Wachtwoord opslaan",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Weergeven",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Loop je tegen problemen aan? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Neem dan contact op met de sitebeheerder.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Je e-mailadres is bevestigd",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Bedankt voor het verifiëren van je e-mailadres. Je kunt je nu aanmelden bij je account en toegang krijgen tot je exclusieve inhoud.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Inloggen",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Loop je tegen problemen aan? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Neem dan contact op met de sitebeheerder.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Eenmalige aanmeldingslink verstuurd",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>We hebben een e-mail gestuurd naar {{ user_email }} met een link waarmee je je kunt aanmelden.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Zie je de e-mail niet? Controleer dan je spamfolder.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Aanmeldingslink opnieuw versturen",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "of",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "In plaats daarvan aanmelden met een wachtwoord",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Loop je tegen problemen aan? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Neem dan contact op met de sitebeheerder.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Je e-mailadres verifiëren",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Bedankt voor je aanmelding! Controleer je e-mail en klik op de bevestigingslink om de registratie te voltooien.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Loop je tegen problemen aan? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Neem dan contact op met de sitebeheerder.</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Kies een wachtwoord om je registratie te voltooien",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "De laatste stap! Zodra je een veilig wachtwoord hebt gekozen, kun je inloggen en inhoud bekijken op {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Wachtwoord aanmaken",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Of kopieer en plak deze link in je browser:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Als je vragen hebt of dit ten onrechte hebt ontvangen, kun je <a href=\"{{ membership_website_admin }}\">contact opnemen met de beheerder</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Je wachtwoord opnieuw instellen",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Stel een nieuw wachtwoord in en meld je aan bij je account.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Wachtwoord opnieuw instellen",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Als je dit verzoek niet hebt gedaan, kun je deze e-mail negeren. <br/>Als je vragen hebt, kun je <a href=\"{{ membership_website_admin }}\">contact opnemen met de beheerder van de website</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Aanmelden met een eenmalige link",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Ga verder met je aanmelding bij je account. Voor jouw veiligheid vervalt deze link na 15 minuten.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Aanmelden",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Of kopieer en plak deze link in je browser:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Als je dit verzoek niet hebt gedaan, kun je deze e-mail negeren. <br/>Als je vragen hebt, kun je <a href=\"{{ membership_website_admin }}\">contact opnemen met de beheerder van de website</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Je {{ membership_company_name }} wachtwoord is succesvol gewijzigd",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Wilde je deze wijziging niet aanbrengen? Gebruik het formulier <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">Wachtwoord vergeten</a> om je wachtwoord opnieuw in te stellen.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Als je vragen hebt kun je <a href=\"{{ membership_website_admin }}\">contact opnemen met de beheerder van de website</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Je registratie is voltooid",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Bedankt voor het registreren! Je bent er helemaal klaar voor. Je kunt je nu aanmelden om toegang te krijgen en nog meer waarde te ontgrendelen.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Inloggen bij je nieuwe account",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Als je vragen hebt of dit ten onrechte hebt ontvangen, kun je <a href=\"{{ membership_website_admin }}\">contact opnemen met de beheerder</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Welkom aan {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Voltooi je registratie door een veilig wachtwoord voor je account aan te maken.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Wachtwoord aanmaken",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Of kopieer en plak deze link in je browser:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Als je vragen hebt of dit ten onrechte hebt ontvangen, kun je <a href=\"{{ membership_website_admin }}\">contact opnemen met de beheerder</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Je e-mailadres verifiëren",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Bedankt voor het aanmelden! Je moet je e-mailadres verifiëren om de registratie voor {{ membership_domain }} te voltooien.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "E-mailadres verifiëren",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Als je vragen hebt of dit ten onrechte hebt ontvangen, kun je <a href=\"{{ membership_website_admin }}\">contact opnemen met de beheerder</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Bevestig je verzoek tot verwijdering",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Bevestig je verzoek tot verwijdering",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Beste {{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "We hebben een verzoek ontvangen om je persoonsgegevens van {{ company_name }} te verwijderen op:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Apparaat:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Datum en tijd:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Bevestig dat je je gegevens wilt verwijderen, zodat we je verzoek kunnen verwerken.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Ja, mijn gegevens verwijderen",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Deze link verloopt over 30 minuten.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Als je niet hebt gevraagd om verwijderd te worden, kun je dit bericht negeren.",
+    "description": "",
+    "placeholders": null
+  }
+}

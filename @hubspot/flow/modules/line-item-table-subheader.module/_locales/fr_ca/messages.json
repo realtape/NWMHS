@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Sous-titre du tableau des articles",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Les paiements récurrents et uniques qui sont dus maintenant.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Texte de sous-titre",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Ce sous-titre n'indique que lorsqu'il y a des paiements futurs.",
+    "description": "",
+    "placeholders": null
+  }
+}

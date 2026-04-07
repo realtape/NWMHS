@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Тази оферта е изтекъла",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Валидността на оферта {{ personalization_token('quote.hs_quote_number', '') }} изтече на {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Моля, <a href='#'>свържете се с вашия търговски представител</a> за повече подробности.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Честота на фактуриране",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Цена на брой",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Цена",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Продукти и услуги",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Количество",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Резюме за<br>ръководството",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Общи условия",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Коментари",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Приемане<br>на проект",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Подзаглавие",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Нашата<br> история",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Ние сме пламенни<br>в това, което правим",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Какво казват за нас<br>нашите клиенти",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Резюме на<br>проекта",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Нашите цели",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Декларация<br>за дейностите",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Оценка на<br>проекта",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>Договор",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Подготвен за",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Nội dung chính của email",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Xin chào&nbsp;{{contact.firstname}},</p>\n<p>Mô tả những gì bạn có thể cung cấp cho khách hàng. Tại sao họ nên đọc? Bạn đã hứa hẹn gì với họ trong dòng chủ đề? Nói với họ điều gì đó thú vị. Làm họ cười. Làm họ khóc. À, có lẽ đừng làm vậy...</p>\n<p>Sử dụng danh sách để:</p>\n<ul>\n<li>Giải thích giá trị món quà của bạn</li>\n<li>Nhắc nhở người đọc về điều họ sẽ nhận được khi hành động</li>\n<li>Thể hiện kỹ năng của bạn với các gạch đầu dòng</li>\n<li>Làm cho nội dung của bạn dễ đọc</li>\n</ul>\n<p><a href=\"http://hubspot.com\">LIÊN KẾT ĐẾN TRANG ĐÍCH TRÊN SITE CỦA BẠN</a> (Đây là phần thực sự quan trọng.)</p>\n<p>Bây giờ hãy gói gọn tất cả bằng một lời nhắc rằng bạn yêu quý họ nhiều như thế nào.</p>\n<p>Ôi. Bạn thật khéo miệng.</p>\n<p>Trân trọng,</p>\n<p>Tên của bạn</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Nội dung email",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "html.default": {
+    "message": "<h2>משהו חזק</h2>\n<h3>ספר לקורא פרטים נוספים</h3>\n<p>הכותרת וכותרת המשנה מספרות לנו מה אתה <a href=\"#\">מציע</a>, וכותרת הטופס סוגרת את העסקה. כאן תוכל להסביר למה ההצעה שלך נהדרת כל כך שבגללה שווה למלא טופס.</p>\n<p>זכור:</p>\n<ul>\n<li>נקודות תבליט עוזרות מאוד</li>\n<li>להסביר <a href=\"#\">יתרונות</a></li>\n<li>ולהפוך מבקרים ללקוחות פוטנציאליים.</li>\n</ul>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.defaultEmail": {
+    "message": "<h2>כותרת</h2><p>הוסף טקסט לדוא\"ל.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "תוכן טקסט עשיר",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "טקסט עשיר",
+    "description": "",
+    "placeholders": null
+  }
+}

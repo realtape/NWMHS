@@ -1,0 +1,662 @@
+[
+  {
+    "name": "product",
+    "label": "Product",
+    "type": "product"
+  },
+  {
+    "type": "group",
+    "children": [
+      {
+        "name": "heading_level",
+        "label": "Heading level",
+        "display": "select",
+        "choices": [
+          [
+            "h1",
+            "Heading 1"
+          ],
+          [
+            "h2",
+            "Heading 2"
+          ],
+          [
+            "h3",
+            "Heading 3"
+          ],
+          [
+            "h4",
+            "Heading 4"
+          ],
+          [
+            "h5",
+            "Heading 5"
+          ],
+          [
+            "h6",
+            "Heading 6"
+          ]
+        ],
+        "type": "choice",
+        "default": "h3",
+        "required": true,
+        "help_text": "Sets the heading level (h1, h2, h3, h4, h5, h6) for the name element. This is important for accessibility and SEO. <a href='https://www.w3.org/WAI/tutorials/page-structure/headings/'>Learn more</a>"
+      },
+      {
+        "name": "override_product_name",
+        "label": "Override product name",
+        "type": "boolean",
+        "default": false,
+        "display": "toggle"
+      },
+      {
+        "name": "name_override",
+        "label": "Name",
+        "type": "text",
+        "default": "Product name",
+        "required": true,
+        "visibility": {
+          "controlling_field": "group_name.override_product_name",
+          "controlling_value_regex": true,
+          "operator": "EQUAL"
+        }
+      }
+    ],
+    "name": "group_name",
+    "label": "Name",
+    "visibility": {
+      "controlling_field": "product",
+      "property": "id",
+      "controlling_value_regex": true,
+      "operator": "NOT_EMPTY"
+    }
+  },
+  {
+    "type": "group",
+    "children": [
+      {
+        "name": "override_product_description",
+        "label": "Override product description",
+        "type": "boolean",
+        "default": false,
+        "display": "toggle"
+      },
+      {
+        "name": "description_override",
+        "label": "Description",
+        "type": "text",
+        "default": "A brief description of the product being sold. One or two sentences is the perfect amount.",
+        "allow_new_line": true,
+        "required": true,
+        "visibility": {
+          "controlling_field": "group_description.override_product_description",
+          "controlling_value_regex": true,
+          "operator": "EQUAL"
+        }
+      }
+    ],
+    "name": "group_description",
+    "label": "Description",
+    "visibility": {
+      "controlling_field": "product",
+      "property": "id",
+      "controlling_value_regex": true,
+      "operator": "NOT_EMPTY"
+    }
+  },
+  {
+    "type": "group",
+    "children": [
+      {
+        "name": "override_product_image",
+        "label": "Override product image",
+        "type": "boolean",
+        "default": false,
+        "display": "toggle"
+      },
+      {
+        "name": "image_override",
+        "label": "Image",
+        "show_loading": true,
+        "type": "image",
+        "default": {
+          "loading": "lazy"
+        },
+        "resizable": false,
+        "required": true,
+        "visibility": {
+          "controlling_field": "group_image.override_product_image",
+          "controlling_value_regex": true,
+          "operator": "EQUAL"
+        }
+      }
+    ],
+    "name": "group_image",
+    "label": "Image",
+    "visibility": {
+      "controlling_field": "product",
+      "property": "id",
+      "controlling_value_regex": true,
+      "operator": "NOT_EMPTY"
+    }
+  },
+  {
+    "type": "group",
+    "children": [
+      {
+        "name": "button_text",
+        "label": "Button text",
+        "type": "text",
+        "default": "Learn more"
+      },
+      {
+        "name": "override_product_button",
+        "label": "Override product button",
+        "type": "boolean",
+        "default": false,
+        "display": "toggle"
+      },
+      {
+        "name": "button_override",
+        "label": "Button",
+        "type": "link",
+        "default": null,
+        "supported_types": [
+          "EXTERNAL",
+          "CONTENT",
+          "EMAIL_ADDRESS",
+          "CALL_TO_ACTION",
+          "PAYMENT"
+        ],
+        "visibility": {
+          "controlling_field": "group_button.override_product_button",
+          "controlling_value_regex": true,
+          "operator": "EQUAL"
+        }
+      }
+    ],
+    "name": "group_button",
+    "label": "Button",
+    "visibility": {
+      "controlling_field": "product",
+      "property": "id",
+      "controlling_value_regex": true,
+      "operator": "NOT_EMPTY"
+    }
+  },
+  {
+    "type": "group",
+    "children": [
+      {
+        "name": "no_price_info_found",
+        "label": "No pricing info found",
+        "type": "text",
+        "default": "No pricing info can be found"
+      }
+    ],
+    "name": "group_default_text",
+    "label": "Default text",
+    "locked": true
+  },
+  {
+    "type": "group",
+    "children": [
+      {
+        "name": "layout",
+        "label": "Layout",
+        "display": "select",
+        "choices": [
+          [
+            "horizontal",
+            "Horizontal"
+          ],
+          [
+            "vertical",
+            "Vertical"
+          ]
+        ],
+        "type": "choice",
+        "default": "vertical",
+        "required": true
+      },
+      {
+        "type": "group",
+        "children": [
+          {
+            "name": "show_full_image",
+            "label": "Show full image",
+            "type": "boolean",
+            "default": false,
+            "display": "toggle",
+            "help_text": "Will always make sure that the entire image is shown. May cause the image to not fill up the entire image container."
+          },
+          {
+            "name": "background_color",
+            "label": "Background color",
+            "type": "color",
+            "help_text": "Adds a background color to the image container. Most useful if your image is transparent.",
+            "visibility": {
+              "controlling_field": "styles.group_image.show_full_image",
+              "controlling_value_regex": true,
+              "operator": "EQUAL"
+            },
+            "required": true,
+            "default": {
+              "color": "#FFFFFF",
+              "opacity": 100
+            }
+          },
+          {
+            "name": "vertical_aspect_ratio",
+            "label": "Aspect ratio",
+            "display": "select",
+            "choices": [
+              [
+                "1/1",
+                "1:1"
+              ],
+              [
+                "4/3",
+                "4:3"
+              ],
+              [
+                "16/9",
+                "16:9"
+              ]
+            ],
+            "type": "choice",
+            "default": "16/9",
+            "required": true,
+            "visibility": {
+              "controlling_field": "styles.layout",
+              "operator": "EQUAL",
+              "controlling_value_regex": "vertical"
+            }
+          },
+          {
+            "name": "horizontal_aspect_ratio",
+            "label": "Image width ratio",
+            "display": "select",
+            "choices": [
+              [
+                "40%",
+                "40%"
+              ],
+              [
+                "45%",
+                "45%"
+              ],
+              [
+                "50%",
+                "50%"
+              ],
+              [
+                "55%",
+                "55%"
+              ],
+              [
+                "60%",
+                "60%"
+              ]
+            ],
+            "type": "choice",
+            "default": "55%",
+            "help_text": "Sets the percentage of the card that will be allotted to the image.",
+            "required": true,
+            "visibility": {
+              "controlling_field": "styles.layout",
+              "operator": "EQUAL",
+              "controlling_value_regex": "horizontal"
+            }
+          }
+        ],
+        "name": "group_image",
+        "label": "Image"
+      },
+      {
+        "type": "group",
+        "children": [
+          {
+            "name": "background_color",
+            "label": "Background color",
+            "type": "color",
+            "help_text": "Set the background color for the content area",
+            "required": true,
+            "default": {
+              "color": "#ffffff",
+              "opacity": 100
+            }
+          },
+          {
+            "name": "horizontal_padding",
+            "label": "Horizontal padding",
+            "display": "text",
+            "type": "number",
+            "required": true,
+            "suffix": "px",
+            "max": 50,
+            "default": 30,
+            "min": 0
+          },
+          {
+            "name": "vertical_padding",
+            "label": "Vertical padding",
+            "display": "text",
+            "type": "number",
+            "required": true,
+            "suffix": "px",
+            "max": 50,
+            "default": 30,
+            "min": 0
+          },
+          {
+            "name": "border",
+            "label": "Border",
+            "type": "border",
+            "allow_custom_border_sides": true,
+            "default": {
+              "top": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "solid",
+                "color": "#000000"
+              },
+              "bottom": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "solid",
+                "color": "#000000"
+              },
+              "left": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "solid",
+                "color": "#000000"
+              },
+              "right": {
+                "width": {
+                  "value": 1,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "solid",
+                "color": "#000000"
+              }
+            }
+          }
+        ],
+        "name": "group_content_area",
+        "label": "Content area"
+      },
+      {
+        "type": "group",
+        "children": [
+          {
+            "name": "font_size",
+            "label": "Font size",
+            "display": "text",
+            "type": "number",
+            "required": true,
+            "min": 0,
+            "max": 50,
+            "suffix": "px",
+            "default": 26
+          },
+          {
+            "name": "font_color",
+            "label": "Font color",
+            "type": "color",
+            "default": {
+              "color": "#000000"
+            },
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "required": true
+          }
+        ],
+        "name": "group_name",
+        "label": "Name"
+      },
+      {
+        "type": "group",
+        "children": [
+          {
+            "name": "font_size",
+            "label": "Font size",
+            "display": "text",
+            "type": "number",
+            "required": true,
+            "min": 0,
+            "max": 50,
+            "suffix": "px",
+            "default": 16
+          },
+          {
+            "name": "font_color",
+            "label": "Font color",
+            "type": "color",
+            "default": {
+              "color": "#000000"
+            },
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "required": true
+          }
+        ],
+        "name": "group_price",
+        "label": "Price"
+      },
+      {
+        "type": "group",
+        "children": [
+          {
+            "name": "font_size",
+            "label": "Font size",
+            "display": "text",
+            "type": "number",
+            "required": true,
+            "min": 0,
+            "max": 50,
+            "suffix": "px",
+            "default": 16
+          },
+          {
+            "name": "font_color",
+            "label": "Font color",
+            "type": "color",
+            "default": {
+              "color": "#000000"
+            },
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "required": true
+          }
+        ],
+        "name": "group_description",
+        "label": "Description"
+      },
+      {
+        "type": "group",
+        "children": [
+          {
+            "name": "override_defaults",
+            "label": "Override defaults",
+            "type": "boolean",
+            "default": false,
+            "display": "toggle"
+          },
+          {
+            "name": "text_color",
+            "label": "Text color",
+            "type": "color",
+            "default": {
+              "color": "#ffffff",
+              "opacity": 100
+            },
+            "required": true,
+            "visibility": {
+              "controlling_field": "styles.group_button.override_defaults",
+              "controlling_value_regex": true,
+              "operator": "EQUAL"
+            }
+          },
+          {
+            "name": "button_color",
+            "label": "Button color",
+            "type": "color",
+            "default": {
+              "color": "#000000",
+              "opacity": 100
+            },
+            "required": true,
+            "visibility": {
+              "controlling_field": "styles.group_button.override_defaults",
+              "controlling_value_regex": true,
+              "operator": "EQUAL"
+            }
+          },
+          {
+            "name": "corner_radius",
+            "label": "Corner radius",
+            "display": "text",
+            "type": "number",
+            "default": 0,
+            "required": true,
+            "min": 0,
+            "max": 100,
+            "suffix": "px",
+            "visibility": {
+              "controlling_field": "styles.group_button.override_defaults",
+              "controlling_value_regex": true,
+              "operator": "EQUAL"
+            }
+          },
+          {
+            "name": "border",
+            "label": "Border",
+            "type": "border",
+            "allow_custom_border_sides": false,
+            "visibility": {
+              "controlling_field": "styles.group_button.override_defaults",
+              "controlling_value_regex": true,
+              "operator": "EQUAL"
+            },
+            "default": {
+              "top": {
+                "width": {
+                  "value": 0,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "bottom": {
+                "width": {
+                  "value": 0,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "left": {
+                "width": {
+                  "value": 0,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              },
+              "right": {
+                "width": {
+                  "value": 0,
+                  "units": "px"
+                },
+                "opacity": 100,
+                "style": "none",
+                "color": "#000000"
+              }
+            }
+          },
+          {
+            "type": "group",
+            "children": [
+              {
+                "name": "text_color",
+                "label": "Text color",
+                "type": "color",
+                "default": {
+                  "color": "#FFFFFF",
+                  "opacity": 100
+                },
+                "required": true,
+                "inherited_value": {
+                  "default_value_path": "module.styles.group_button.text_color"
+                }
+              },
+              {
+                "name": "button_color",
+                "label": "Button color",
+                "type": "color",
+                "default": {
+                  "color": "#000000",
+                  "opacity": 100
+                },
+                "required": true,
+                "inherited_value": {
+                  "default_value_path": "module.styles.group_button.button_color"
+                }
+              },
+              {
+                "name": "border_color",
+                "label": "Border color",
+                "type": "color",
+                "default": {
+                  "opacity": 100
+                },
+                "inherited_value": {
+                  "property_value_paths": {
+                    "color": "module.styles.group_button.border.top.color",
+                    "opacity": "module.styles.group_button.border.top.opacity"
+                  }
+                }
+              }
+            ],
+            "name": "group_hover",
+            "label": "Hover",
+            "visibility": {
+              "controlling_field": "styles.group_button.override_defaults",
+              "controlling_value_regex": true,
+              "operator": "EQUAL"
+            }
+          }
+        ],
+        "name": "group_button",
+        "label": "Button"
+      }
+    ],
+    "name": "styles",
+    "label": "Styles",
+    "tab": "STYLE"
+  }
+]

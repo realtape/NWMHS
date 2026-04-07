@@ -1,0 +1,70 @@
+<!--
+  templateType: "none"
+  isAvailableForNewContent: false
+-->
+<!doctype html>
+{% from '../../data/mock_data.html' import mock_data as mock_data %}
+
+{% set template_data = template_data or mock_data %}
+{% set module_data = template_data.module_data %}
+{% set quote = template_data.quote %}
+{% set currency = quote.hs_currency %}
+{% set language = quote.hs_language %}
+{% set locale = quote.hs_locale %}
+{% set timezone = quote.hs_timezone %}
+{% set associated_objects = quote.associated_objects %}
+{% set line_items = associated_objects.line_items_by_start_date ? associated_objects.line_items_by_start_date.PRESENT : associated_objects.line_items %}
+{% set future_charges = associated_objects.line_items_by_start_date.FUTURE %}
+{% set additional_fees = associated_objects.additional_fees %}
+{% set recipient_contacts = associated_objects.contacts %}
+{% set recipient_company = associated_objects.company %}
+{% set deal = associated_objects.deal %}
+{% set totals = associated_objects.totals %}
+{% set quote_total = totals.total_first_payment %}
+{% set sub_totals = totals.subtotals %}
+{% set max_decimal_digits = 6 %}
+{% set template_translations = load_translations('../_locales', html_lang, 'en') %}
+{% set should_display_line_item_taxes = totals.tax_total != null and totals.tax_total != undefined and totals.tax_total != 0 %}
+
+{# Setting personalization token values to variables #}
+{% set ptoken_terms = "{{ personalization_token('template_data.quote.hs_terms', '') }}" %}
+
+<html lang="{{ html_lang }}" {{ html_lang_dir }}>
+  <head>
+    <title>{{ quote.hs_title|sanitize_html }}</title>
+    {% if brand_settings.primaryFavicon.src %}
+      <link rel="shortcut icon" href="{{ brand_settings.primaryFavicon.src }}" />
+    {% elif site_settings.favicon_src %}
+      <link rel="shortcut icon" href="{{ site_settings.favicon_src }}" />
+    {% endif %}
+
+    <meta name="description" content="{{ page_meta.meta_description }}">
+    {{ require_css(get_asset_url("../../css/main.css")) }}
+    {{ require_css(get_asset_url("../../css/shared.css")) }}
+
+    {% if template_css %}
+      {{ require_css(get_asset_url(template_css)) }}
+    {% endif %}
+    {{ require_css(get_asset_url("../../css/theme-overrides.css")) }}
+
+    <script
+      type="application/javascript"
+      src="https://static.hsappstatic.com/quote-cookies-js/ex/quote-cookies.js"
+      async
+    ></script>
+
+    {{ standard_header_includes }}
+  </head>
+
+    {% block header %}
+    {% endblock header %}
+
+    {% block body %}
+    {% endblock body %}
+
+    {% block footer %}
+    {% endblock footer %}
+
+    {{ standard_footer_includes }}
+
+</html>

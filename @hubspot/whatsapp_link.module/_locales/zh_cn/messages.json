@@ -1,0 +1,232 @@
+{
+  "name": {
+    "message": "WhatsApp 链接",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.label": {
+    "message": "选择性订阅文本",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.help_text": {
+    "message": "选择性订阅文本告知你的联系人会从贵公司收到哪种=类信息和说明，以及选择性订阅的关键字。详情请查看<a href='https://knowledge.hubspot.com/inbox/collect-consent-for-whatsapp-conversations' target='_blank' rel='noopener noreferrer'>这篇这知识库文章</a>。",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.label": {
+    "message": "显示",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text_and_icon": {
+    "message": "文字和图标",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text": {
+    "message": "仅限文本",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.icon": {
+    "message": "仅图标",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.label": {
+    "message": "图标位置",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.left": {
+    "message": "左",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.right": {
+    "message": "右",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "按钮文本",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "在 WhatsApp 上聊天",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "样式",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.label": {
+    "message": "图标",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.size.label": {
+    "message": "大小",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.color.label": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.help_text": {
+    "message": "图标和按钮文本之间的空格。",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.label": {
+    "message": "文本",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.font.label": {
+    "message": "字体",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.label": {
+    "message": "转换",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.placeholder": {
+    "message": "无",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.capitalize": {
+    "message": "首字母大写",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.uppercase": {
+    "message": "大写",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.lowercase": {
+    "message": "小写",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.color.label": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.label": {
+    "message": "边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.border.label": {
+    "message": "边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.label": {
+    "message": "圆角",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.radius.label": {
+    "message": "半径",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.spacing.label": {
+    "message": "间距",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.label": {
+    "message": "悬停",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.label": {
+    "message": "图标",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.color.label": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.label": {
+    "message": "文本",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.font.label": {
+    "message": "字体",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.color.label": {
+    "message": "颜色",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.label": {
+    "message": "边框",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.border.label": {
+    "message": "边框",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.label": {
+    "message": "关联 Whatsapp 帐号",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.help_text": {
+    "message": "查看<a href='https://knowledge.hubspot.com/inbox/connect-whatsapp-to-the-conversations-inbox' target='_blank' rel='noopener noreferrer'>这篇知识库文章</a>，学习如何将 WhatsApp 频道关联至你的收件箱",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.default": {
+    "message": "WhatsApp 图标",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.help_text": {
+    "message": "此文本将由屏幕阅读器读取，用于描述图标。",
+    "description": "",
+    "placeholders": null
+  }
+}

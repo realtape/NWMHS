@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "यह क्वोट समाप्त हो गया है",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "क्वोट {{ personalization_token('quote.hs_quote_number', '') }} {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }} को समाप्त हो गया है।",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "अधिक जानकारी के लिए, कृपया <a href='#'>अपने सेल्स रेप्रेज़ेंटेटिव से संपर्क करें</a>।",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "बिलिंग फ़्रीक्वेंसी",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "यूनिट प्राइस",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "प्राइस",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "प्रोडक्ट और सर्विसेज़",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "क्वांटिटी",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "एक्सेक्यूटिव<br>समरी",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "नियम और शर्तें",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "कमेंट्स",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "प्रोजेक्ट<br>एक्सेप्टेन्स",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "सबहेड",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "हमारी<br> कहानी",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "हम जो करते हैं<br>उसके प्रति जुनूनी होते हैं",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "हमारे क्लाइंट्स<br>हमारे बारे में क्या कह रहे हैं",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "प्रोजेक्ट<br>सारांश",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "हमारे लक्ष्य",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "काम का<br>स्टेटमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "प्रोजेक्ट<br>एस्टीमेट",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>कॉन्ट्रैक्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "के लिए बनाया गया",
+    "description": "",
+    "placeholders": null
+  }
+}

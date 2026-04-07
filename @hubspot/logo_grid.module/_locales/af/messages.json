@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Logorooster",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logo's",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Logobeeld",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Maksimum logohoogte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Stel die maksimum hoogte van die logo's.<br><br>Dis die beste om 'n maksimum logohoogte te stel wanneer jy probeer om 'n klomp logo's met drasties verskillende afmetings visueel dieselfde grootte te maak.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Agtergrond",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Aspekverhouding",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Stel aspekverhouding van logohouer. Dis veral nuttig as jy die agtergrondkleurveld gebruik en logo's met drasties verskillende afmetings gebruik.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Agtergrondkleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Spasiëring",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Spasiëring",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Stel vulling rondom die logo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Weens die responsiewe aard van die web kan die gelewerde hoogte van die logo's minder wees as die vasgestelde waarde wat berus op 'n kombinasie van skermgrootte, oorspronklike beeldgrootte, logovulsel, roostergaping en kolomtelling.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Logorooster",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Roosterkolomtelling",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Stel diegetal kolomme in die rooster op rekenaar. Dis outomaties 1 op mobiele  toestel.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "As jy 'n agtergrondkleur instel by <strong>Logo image > Background</strong> kan dit jou dalk help om die logorooster te visualiseer.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Roostergaping",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Stel die spasiëring tussen roosteritems.<br><br>As jy 'n agtergrond instel by <strong>Logo image > Background</strong> kan dit jou dalk help om die logorooster te visualiseer.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "Adresă de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Număr de telefon",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Descărcare fișier",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Link ședințe",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Una din paginile dvs.",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Link către",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Link ședințe",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Deschidere link în filă nouă",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Pagina",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "HTML în linie",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Conținut buton",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML care va fi redat în cadrul butonului. Puteți utiliza doar etichete care sunt valide în cadrul unei etichete <a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Faceți clic aici",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Deschidere link în filă nouă",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Avansat",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Reguli CSS personalizate",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Selector",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Această valoare este combinată cu selectorul CTA. De exemplu, \":hover\" devine ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Adăugați CSS personalizat pentru regula dvs. de stil. De exemplu: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Clase CSS personalizate",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Adăugare clase CSS personalizate la link-ul dvs. CTA.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Foaie de stil CSS personalizată ",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Adăugați o foaie de stil CSS personalizată pentru link-ul dvs. CTA. De exemplu: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Utilizare marcaj moștenit",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Includeți HTML în marcajul moștenit pentru a susține CSS existent",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "標誌",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "標誌",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "標誌高度上限",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "這在覆寫預設標誌時並不適用",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "你可以選擇使用此切換來覆寫此範本中套用的標誌。",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "覆寫預設標誌",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "依預設，你的報價將會顯示來自「帳戶預設值」或「網站頁面設定」之品牌套件中的公司標誌。",
+    "description": "",
+    "placeholders": null
+  }
+}

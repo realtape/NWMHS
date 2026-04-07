@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Bouton (interactif)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL du lien",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Adresse e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Fichier",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Fermer le call-to-action",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Adresse e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Numéro de téléphone",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Téléchargement de fichier",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Lien de prise de rendez-vous",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Une de vos pages",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Une de vos pages de blog",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Lien vers",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Lien de prise de rendez-vous",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Ouvrir le lien dans un nouvel onglet",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Page",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Cliqué",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Angle",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Ajouter un coin arrondi à votre bouton",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Rayon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Placer le curseur sur l'arrière-plan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Placer le curseur sur la bordure",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Placer le curseur sur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Placer le curseur sur le texte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Styles",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Police",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Texte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Remplissage de texte",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Ajouter un bouton de lien ici",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Texte du bouton",
+    "description": "",
+    "placeholders": null
+  }
+}

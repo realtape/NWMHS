@@ -1,0 +1,62 @@
+{
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "제목 수준을 선택합니다. H1이 가장 크고 H2는 그 다음으로 큰 순서입니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "제목 수준",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "URL을 지정하지 않으면 로고가 기본 도메인에 링크됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "링크 URL",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "로고",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "방문자가 클릭하면 새 탭에서 링크 열기",
+    "description": "",
+    "placeholders": null
+  }
+}

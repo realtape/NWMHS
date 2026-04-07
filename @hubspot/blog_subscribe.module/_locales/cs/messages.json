@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Odběr blogu e-mailem",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Je-li zvolena možnost Výchozí, v šabloně blogu se použije aktuální blog, v jiných případech primární blog.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Vyberte blog, který chcete zobrazit",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Přihlaste se k odběru!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Nadpis formuláře",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Vložená odpověď pro uživatele",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Děkujeme za přihlášení odběru!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Formulář k přihlášení odběru blogu se zobrazí až po zapnutí předplatného na blogu. Zapnout ho můžete v nastavení. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Více informací</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Úroveň nadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Vyberte úroveň nadpisu. Nadpisy by měly dodržovat hierarchické řazení podle povahy obsahu. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Více informací</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "N1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "N2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "N3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "N4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "N5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "N6",
+    "description": "",
+    "placeholders": null
+  }
+}

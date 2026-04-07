@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Розділювач",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Вирівнювання",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "По центру",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "По лівому краю",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "По правому краю",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Колір",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Висота",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Тип лінії",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Штрихова лінія",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Пунктирна лінія",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Заливка",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Заповнення",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Максимум 20 пікселів",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Показати заповнення пробілами?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Ширина",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Відсоток площі, у якій розміщено роздільник.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Плащане",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Добавяне на икона",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Връзка на бутон",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Други",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Използвайте връзка за плащане",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Цел на бутона",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Финализиране на покупка",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Текст на бутон",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Отвори в нов раздел",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Плъзгащ се слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Поведение при плащане",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Затваряне на касата",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Икона",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Икона",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Ляво",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Дясно",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Позиция",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Връзка за плащане",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Подравняване",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Подравняване",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Цвят",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Ъгъл",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Радиус",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Цвят",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Цвят",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Икона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Посочване",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Шрифт",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Текст",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Цвят",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Икона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Размер",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Разстояние между иконата и текста на бутона.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Разредка",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Стилове",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Разредка",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Разредка",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Шрифт",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Текст",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "С начална главна",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Малки букви",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Главни букви",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Преобразуване",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Няма",
+    "description": "",
+    "placeholders": null
+  }
+}

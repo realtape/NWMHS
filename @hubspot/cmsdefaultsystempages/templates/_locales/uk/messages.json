@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Сторінку не знайдено",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Ми не можемо знайти сторінку, яку ви шукали.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Перейти на домашню сторінку",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Ця сторінка не працює",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Сталася внутрішня помилка сервера, але ми займаємося розв’язанням цієї проблеми.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Перейти на домашню сторінку",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Логотип компанії",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Оновлені налаштування вашої електронної пошти.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Підписку на будь-яке спілкування електронною поштою скасовано.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Оновлені налаштування вашої електронної пошти.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "Оновити налаштування електронної пошти для",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Виберіть, які електронні повідомлення ви хочете отримувати від{{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Виберіть, які електронні повідомлення ви хочете отримувати від {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Виберіть мову:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Оновити налаштування електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Скасуйте підписку на всі електронні листи",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Якщо це не ваша адреса, електроне повідомлення, швидше за все, надійшло вам від когось іншого, і ви можете спокійно ігнорувати це повідомлення.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Наразі ви відмовилися від підписки на всі наші електронні листи. Чи хотіли б ви знову отримувати наші електронні листи?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Так, відновіть мою підписку!",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Потрібен пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Введіть свій пароль, щоб переглянути цю сторінку.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Результати пошуку для “[[search_term]]”",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Вибачте, ви не маєте доступу",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Ви не маєте дозволу переглядати цю сторінку. Із запитаннями звертайтеся до адміністратора сайту.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Перейти на домашню сторінку",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Увійти в систему",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Сторінка, яку ви намагаєтеся переглянути, доступна лише для зареєстрованих користувачів.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "Адреса електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Запам’ятати мене",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Забули пароль?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Увійти в систему",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Показати",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Виникла проблема? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Зверніться до адміністратора сайту</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Ви вийшли з облікового запису",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Зайдіть знову в обліковий запис",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Або поверніться на <a href=\"{{ '//' ~ request.domain }}\">домашню сторінку</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Задайте свій пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Ласкаво просимо! Завершіть реєстрацію, налаштувавши пароль.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "Адреса електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Підтвердити пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Зберегти пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Показати",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Виникла проблема? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Зверніться до адміністратора сайту</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Скиньте ваш пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Введіть адресу електронного повідомлення, яку ви використовували для реєстрації, і ми надішлемо вам електронний лист із посиланням для скидання пароля.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "Адреса електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Відправити електронний лист для скидання паролю",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Щойно згадали пароль? <a href=\"/_hcms/mem/login\">Увійдіть в обліковий запис</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Виникла проблема? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Зверніться до адміністратора сайту</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "Відправлено електронне повідомлення для скидання пароля",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Якщо було знайдено відповідний обліковий запис для {{ user_email }}, вам надіслано електронне повідомлення щодо подальших кроків для скидання пароля. Якщо ви не отримали його протягом 20 хвилин, <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">зверніться до адміністратора</a>.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Відправте інше електронне повідомлення для скидання пароля",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Створіть новий пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Ваш новий пароль повинен відрізнятися від раніше використовуваного пароля.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Новий пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Підтвердити новий пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Зберегти пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Показати",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Виникла проблема? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Зверніться до адміністратора сайту</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Вашу адресу електронної пошти підтверджено",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Дякуємо за підтвердження адреси своєї електронної пошти. Тепер ви можете увійти до свого облікового запису та отримати доступ до ексклюзивного контенту.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Увійти в систему",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Виникла проблема? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Зверніться до адміністратора сайту</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Відправлено одноразове посилання для входу в систему",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Ми відправили вам електронне повідомлення на {{ user_email }}. Воно містить посилання для входу в систему.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Якщо ви не бачите повідомлення, перевірте теку «Спам».",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Повторно надіслати посилання для входу в систему",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "або",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Натомість увійти за допомогою пароля",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Виникла проблема? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Зверніться до адміністратора сайту</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Підтвердьте адресу своєї електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Дякуємо за реєстрацію! Перевірте свою адресу електронної пошти та натисніть посилання на підтвердження для завершення реєстрації.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Виникла проблема? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Зверніться до адміністратора сайту</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Створіть пароль для завершення реєстрації",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Останній етап! Створивши надійний пароль, ви отримаєте змогу ввійти й отримати доступ до вмісту в {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Створити пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Або скопіюйте в буфер і вставте це посилання у свій браузер:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Якщо у вас виникли запитання, або ви отримали це повідомлення помилково, <a href=\"{{ membership_website_admin }}\">зверніться до адміністратора сайту</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Скиньте ваш пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Установіть новий пароль і ввійдіть до свого облікового запису.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Скиньте пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Якщо ви не робили цей запит, можете безпечно ігнорувати це електронне повідомлення. <br/>Якщо у вас виникли запитання, <a href=\"{{ membership_website_admin }}\">зверніться до адміністратора сайту</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Увійдіть в систему за одноразовим посиланням",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Продовжуйте входити у свій обліковий запис. Для вашої безпеки це посилання втратить чинність через 15 хвилин.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Увійти в систему",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Або скопіюйте в буфер і вставте це посилання у свій браузер:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Якщо ви не робили цей запит, можете безпечно ігнорувати це електронне повідомлення. <br/>Якщо у вас виникли запитання, <a href=\"{{ membership_website_admin }}\">зверніться до адміністратора сайту</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Ваш {{ membership_company_name }} пароль було успішно змінено",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Не хотіли робити цю зміну? Скористайтеся формою <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">забутого пароля</a> для скидання свого пароля зараз.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Якщо у вас виникли запитання, <a href=\"{{ membership_website_admin }}\">зверніться до адміністратора сайту</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Вашу реєстрацію завершено",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Дякуємо за реєстрацію! Все готово. Тепер ви можете зареєструватися в системі, щоб отримати доступ і розблокувати ще більше переваг.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Увійдіть до свого нового обілкового запису",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Якщо у вас виникли питання, або ви отримали це повідомлення помилково, <a href=\"{{ membership_website_admin }}\">зверніться до адміністратора сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Ласкаво просимо до {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Завершіть реєстрацію, створивши надійний пароль для свого облікового запису.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Створити пароль",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Або скопійювати у буфер та вставити це посилання у свій браузер:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Якщо у вас виникли питання, або ви отримали це повідомлення помилково, <a href=\"{{ membership_website_admin }}\">зверніться до адміністратора сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Підтвердьте адресу своєї електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Дякуємо за реєстрацію! Вам потрібно буде підтвердити свою адресу електронної пошти для завершення реєстрації для {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Підтвердьте адресу електронної пошти",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Якщо у вас виникли питання, або ви отримали це повідомлення помилково, <a href=\"{{ membership_website_admin }}\">зверніться до адміністратора сайта</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Підтвердьте свій запит на видалення",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Підтвердьте свій запит на видалення даних",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Привіт,{{ first_name }},",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Ми отримали запит на видалення ваших персональних даних із{{ company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Пристрій:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Дата та час:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Для оброблення вашого запиту підтвердьте своє бажання видалити свої дані.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Так, видаліть мої дані",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Це посилання чинне тільки впродовж 30 хвилин",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Якщо ви не просили про видалення, ви можете безпечно проігнорувати це повідомлення.",
+    "description": "",
+    "placeholders": null
+  }
+}

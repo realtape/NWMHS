@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Betal nå",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Betalingsknapp-tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Det skal være tydelig at det å trykke på denne knappen vil la kunden betale.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Det oppstod et problem med å konfigurere betalingen. Ta kontakt med personen som sendte deg dette tilbudet.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Betalingsfeilmelding",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Fortell kunden hva som kan gjøres ved problemer med å starte betaling.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Velg et overskriftsnivå. H1 er det største, etterfulgt av H2, og så videre",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Overskriftsnivå",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Overskriftsinnhold",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Gjør første betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Kunden din vil se dette i betalingsknappen frem til første avdrag er betalt.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Knappetekst for betalingsplaner",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Betalingen kan ikke gjennomføres fordi tilbudet ikke er fullstendig signert.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Forklaringstekst når det er behov for signaturer",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Hvis det er behov for signaturer før betaling, vil kunden din se denne meldingen til alle påkrevde signaturer er gjennomført.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Betalt",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Betalt-tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Betalt kl. [[ paid_time ]] den [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Betalingsbehandling",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Tekst for betalingsbehandling",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Det oppstod et problem med innlastingen av betalingsstatusen for dette tilbudet. Prøv å oppdater siden.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Feilmelding for betalingsstatus",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Be kunden om å oppdatere siden når henting av betalingsstatus mislykkes.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Dette er et testtilbud, så det kan ikke samle inn virkelige betalinger.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Du kan bestemme om du vil kreve inn betaling når du oppretter et tilbud med denne malen.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "For å betale, kan du kontakte personen som sendte deg dette tilbudet.",
+    "description": "",
+    "placeholders": null
+  }
+}

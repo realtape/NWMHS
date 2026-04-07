@@ -1,0 +1,233 @@
+:root {
+  --blur: 3px;
+  --unblur: 0;
+  --scale: 1.5;
+  --unscale: 1;
+  --grayscale: 100%;
+  --ungrayscale: 0%;
+  --transition: 0.3s ease-in-out;
+}
+
+.hs-image__grid__list {
+  display: flex;
+  padding-left: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.hs-image__grid__list__item {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  flex-basis: calc(30% - 10px);
+}
+
+button.hs-image__grid__list__item__button {
+  all: unset;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+}
+
+button.hs-image__grid__list__item__button:focus {
+  outline: 3px solid #0bf;
+  outline-offset: 3px;
+}
+
+button.hs-image__grid__list__item__button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.hs-image__grid__list__item__image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.hs-image__grid__item__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 0;
+  transition: background-color 0.5s, opacity 0.5s;
+}
+
+.hs-image__grid__item__overlay:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+}
+
+.hs-image__grid__item__overlay__content {
+  max-height: 100%;
+  width: 100%;
+  opacity: 1;
+  text-align: center;
+}
+
+.hs-image__grid__item__overlay__content * {
+  padding: initial;
+  margin: initial;
+}
+
+.hs-image__grid__item__overlay__content--fit {
+  display: inline-block;
+  /** For supporting fitty responsive text **/
+  width: 100%;
+  white-space: nowrap;
+}
+
+.hs-image__grid__item__overlay__content .hs-image__grid__item__overlay__content--fit * {
+  /** For handling a state where rich text for the overlay has child html tags for fitty responsive text */
+  font-size: inherit !important;
+}
+
+/** Image hover transitions; **/
+
+.hs-image__grid__item__image--zoom_out {
+  transform: scale(var(--scale));
+  transition: var(--transition);
+}
+
+.hs-image__grid__list__item:hover .hs-image__grid__item__image--zoom_out {
+  transform: scale(var(--unscale));
+}
+
+.hs-image__grid__item__image--blur {
+  filter: blur(var(--unblur));
+  transition: var(--transition);
+}
+
+.hs-image__grid__list__item:hover .hs-image__grid__item__image--blur {
+  filter: blur(var(--blur));
+}
+
+.hs-image__grid__item__image--grayscale {
+  filter: grayscale(var(--ungrayscale));
+  transition: var(--transition);
+}
+
+.hs-image__grid__list__item:hover .hs-image__grid__item__image--grayscale {
+  filter: grayscale(var(--grayscale));
+}
+
+.hs-image__grid__lightbox {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.hs-image__grid__lightbox__image {
+  max-height: 90vh;
+  max-width: 90vw;
+}
+
+.hs-image__grid__lightbox__button {
+  display: flex;
+  height: 48px;
+  width: 48px;
+  align-items: center;
+  justify-items: center;
+}
+
+.hs-image__grid__lightbox__button__icon {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.hs-image__grid__lightbox__button--close {
+  all: unset;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  height: 48px;
+  width: 48px;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+button.hs-image__grid__lightbox__button--close:focus {
+  outline: 3px solid #0bf;
+  outline-offset: 3px;
+}
+
+button.hs-image__grid__lightbox__button--close:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/** Below styles are to counter overly specific button styling in themes. **/
+button.hs-image__grid__lightbox__button {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  display: flex;
+  height: 2em;
+  width: 2em;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: #ccc;
+  cursor: pointer;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  opacity: 0.7;
+  transform: translateY(-50%);
+}
+
+/** These styles are unminified from the minified css mentioned above for ordering purposes. **/
+/* stylelint-disable */
+button.hs-image__grid__lightbox__button svg {
+  height: 1.2em;
+  width: 1.2em;
+  fill: #000;
+}
+
+button.hs-image__grid__lightbox__button:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+button.hs-image__grid__lightbox__button:disabled {
+  opacity: 0.3;
+}
+
+button.hs-image__grid__lightbox__button:focus {
+  outline: 3px solid #0bf;
+  outline-offset: 3px;
+}
+
+button.hs-image__grid__lightbox__button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+button.hs-image__grid__lightbox__button--prev {
+  left: 1em;
+}
+
+button.hs-image__grid__lightbox__button--next {
+  right: 1em;
+}
+
+button.hs-image__grid__lightbox__button--hide {
+  display: none;
+}
+/* stylelint-enable */

@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Tellimuse kinnitamise sõnum",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Olete edukalt oma meilieelistusi värskendanud.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Sõnum tellimuse värskenduses",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Alampäis",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Kui see pole teie aadress, eirake palun seda lehte, kuna selle lehega seotud meil edastati tõenäoliselt teile.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Olete edukalt loobunud igasugusest meili teel toimuvast suhtlusest.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Sõnum tellimusest loobumisel",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Päise tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Päis",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Hallake eelistuste nupu teksti",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Hallake eelistusi",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Hallake eelistuste tagastamise lahtiütlus",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Kas tegite vea? Ärge muretsege, saate oma eelistusi muuta.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Ühekordse tellimuse tühistamise kinnitustekst",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Olete edukalt loobunud järgmisest tellimusest:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Tellimuse kohatäite tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "teie valitud tellimuse tüüp",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Päise pealkirja tase",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Pealkiri 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Pealkiri 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Pealkiri 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Pealkiri 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Pealkiri 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Pealkiri 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "E-posti pealkirja tase",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Pealkiri 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Pealkiri 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Pealkiri 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Pealkiri 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Pealkiri 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Pealkiri 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Lõik",
+    "description": "",
+    "placeholders": null
+  }
+}

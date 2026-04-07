@@ -1,0 +1,132 @@
+{
+  "accessibility_options.label": {
+    "message": "Opțiuni accesibilitate",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.decorative": {
+    "message": "Decorativ - ignorat de cititorul de ecran",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.choices.semantic": {
+    "message": "Informativ - citit de cititorul de ecran",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.help_text": {
+    "message": "Clasificați scopul acestei pictograme pentru cititoarele de ecran. <a href='https://www.w3.org/WAI/tutorials/images/' target='_blank' rel='noopener noreferrer'>Aflați mai multe</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.purpose.label": {
+    "message": "Scop",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.help_text": {
+    "message": "Acest text va fi citit de cititoare de ecran pentru a descrie pictograma.",
+    "description": "",
+    "placeholders": null
+  },
+  "accessibility_options.title.label": {
+    "message": "Descriere",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Pictogramă",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Pictogramă",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Aliniere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Aliniere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Culoare",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Fundal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Colț",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Rază",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.custom": {
+    "message": "Personalizat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.round": {
+    "message": "Cerc",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.choices.square": {
+    "message": "Pătrat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.style.label": {
+    "message": "Stil",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.color.label": {
+    "message": "Culoare",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.fill.label": {
+    "message": "Umplere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiluri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.label": {
+    "message": "Dimensiune",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.size.size.label": {
+    "message": "Dimensiune",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Spațiere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Spațiere",
+    "description": "",
+    "placeholders": null
+  }
+}

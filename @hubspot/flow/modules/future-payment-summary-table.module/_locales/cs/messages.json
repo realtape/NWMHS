@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Souhrnná tabulka budoucích plateb",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Záhlaví tabulky",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Zobrazit záhlaví tabulky",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Záhlaví tabulky",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Zadejte záhlaví souhrnné tabulky budoucích plateb",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "Souhrn budoucích plateb",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Sloupce",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Záhlaví názvu položky řádku",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Položka",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Záhlaví souhrnu platby",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Platba",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Jednorázové",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ týden",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 týdny",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/měsíc",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/čtvrtletí",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 měsíců",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ rok",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 roky",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 roky",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "den",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "dny",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "týden",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "týdny",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "měsíc",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "měsíce",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "platba",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "platby",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} dne {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} se splatností {{ billing_delay_period }} {{ billing_delay_unit }} po zaplacení první platby",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} se začátkem {{ billing_delay_period }} {{ billing_delay_unit }} po zaplacení první platby",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} se začátkem placení dne {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} se začátkem placení {{ billing_delay_period }} {{ billing_delay_unit }} po zaplacení první platby, celkem {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} se začátkem placení dne {{ formatted_first_payment_date }}, celkem {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 roky",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 let",
+    "description": "",
+    "placeholders": null
+  }
+}

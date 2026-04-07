@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Séparateur",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Alignement",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Centre",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Gauche",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Droite",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Couleur",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Hauteur",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Type de ligne",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "En pointillés",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Solide",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Remplissage",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "20 pixels max",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Afficher le remplissage ?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Largeur",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Pourcentage de la zone dans laquelle est placé le séparateur.",
+    "description": "",
+    "placeholders": null
+  }
+}

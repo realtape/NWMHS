@@ -1,0 +1,27 @@
+<!--
+  templateType: email_subscriptions_confirmation_page
+  isAvailableForNewContent: true
+-->
+{% set template_css = "../css/templates/system.css" %}
+{% set pageTitle = "Subscription confirmation" %}
+{% set font_config = {
+  "Source Serif Pro": ["600"],
+  "Montserrat": ["400", "500", "700"]
+} %}
+{% extends "../system-base.html" %}
+
+{% block body %}
+  <section class="section-wrapper section-wrapper--centered">
+    <img class="success-image" src="{{ get_asset_url("../../img/success.svg") }}" height="76" width="76" loading="eager" alt="">
+
+    {% module "email_subscriptions_confirmation"
+      path="@hubspot/email_subscriptions_confirmation",
+      extra_classes="email-subscription-confirmation form-wrapper form-wrapper--subscription-confirmation",
+      email_heading_level="p"
+      header="",
+      unsubscribe_all_success={{ template_translations.subscription_confirmation_unsubscribe_all_success.message }},
+      subscription_update_success={{ template_translations.subscription_confirmation_sub_update_success.message }},
+      subheader_text=""
+    %}
+  </section>
+{% endblock body %}

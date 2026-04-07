@@ -1,0 +1,232 @@
+{
+  "name": {
+    "message": "Liên kết WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.label": {
+    "message": "Văn bản tham gia",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.help_text": {
+    "message": "Văn bản chọn tham gia cung cấp thông tin về loại tin nhắn mà người liên hệ của bạn sẽ nhận được từ công ty của bạn, cũng như các hướng dẫn và từ khóa để chọn tham gia. Để tìm hiểu thêm, hãy xem <a href='https://knowledge.hubspot.com/inbox/collect-consent-for-whatsapp-conversations' target='_blank' rel='noopener noreferrer'>bài viết cơ sở kiến thức này</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.label": {
+    "message": "Hiển thị",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text_and_icon": {
+    "message": "Văn bản và biểu tượng",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text": {
+    "message": "Chỉ văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.icon": {
+    "message": "Chỉ biểu tượng",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.label": {
+    "message": "Vị trí biểu tượng",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.left": {
+    "message": "Bên trái",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.right": {
+    "message": "Bên phải",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Văn bản trên nút",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Trò chuyện trên WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Kiểu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.label": {
+    "message": "Biểu tượng",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.size.label": {
+    "message": "Kích cỡ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.help_text": {
+    "message": "Khoảng cách giữa biểu tượng và văn bản trên nút.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.label": {
+    "message": "Chuyển đổi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.placeholder": {
+    "message": "Không có",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.capitalize": {
+    "message": "Viết hoa chữ cái đầu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.uppercase": {
+    "message": "Viết hoa",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.lowercase": {
+    "message": "Viết thường",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.label": {
+    "message": "Góc",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.radius.label": {
+    "message": "Bán kính",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.spacing.label": {
+    "message": "Giãn cách",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.label": {
+    "message": "Di chuột",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.label": {
+    "message": "Biểu tượng",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.label": {
+    "message": "Văn bản",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.font.label": {
+    "message": "Phông chữ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.label": {
+    "message": "Nền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.color.label": {
+    "message": "Màu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.border.label": {
+    "message": "Viền",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.label": {
+    "message": "Kết nối số Whatsapp",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.help_text": {
+    "message": "Tìm hiểu cách kết nối kênh WhatsApp với hộp thư đến của bạn bằng <a href='https://knowledge.hubspot.com/inbox/connect-whatsapp-to-the-conversations-inbox' target='_blank' rel='noopener noreferrer'>bài viết cơ sở kiến thức này</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.default": {
+    "message": "Biểu tượng WhatsApp",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.help_text": {
+    "message": "Bộ đọc màn hình sẽ đọc văn bản này để mô tả biểu tượng.",
+    "description": "",
+    "placeholders": null
+  }
+}

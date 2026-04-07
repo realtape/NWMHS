@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Logotyp-rutnät",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logotyper",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logotyp",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiler",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Logotypbild",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Max logotyphöjd",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Anger logotypernas maximala höjd.<br><br>Att ange en maximal logotyphöjd är bäst när man försöker göra flera logotyper som har väldigt olika mått lika stora.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Bakgrund",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Aspektförhållande",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Ange bildförhållandet för logotypbehållaren. Det är mest användbart om du använder bakgrundsfärgfältet och använder logotyper med väldigt olika mått.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Bakgrundsfärg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Blanksteg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Mellanslag",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Ange vaddering runt logotypen.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Eftersom webben är responsiv kan logotypernas återgivna höjd vara lägre än det inställda värdet baserat på en kombination av skärmstorlek, originalbildens storlek, logotypens vaddering, mellanrum i rutnätet och kolumnantal.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Logotyp-rutnät",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Antal kolumner i rutnätet",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Ange antalet kolumner i rutnätet på datorn. Standardvärdet är 1 på mobiler.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Att ange en bakgrundsfärg i <strong>Logotypbild > Bakgrund</strong> kan hjälpa dig att visualisera logotyprutnätet.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Mellanrum i rutnätet",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Ange avståndet mellan objekt i rutnätet.<br><br>Att ange en bakgrund i <strong>Logotypbild > Bakgrund</strong> kan hjälpa dig att visualisera logotyprutnätet.",
+    "description": "",
+    "placeholders": null
+  }
+}

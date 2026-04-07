@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Resultater for webstedssøgning",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Vis fremhævede billeder",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Beklager, der var ingen resultater for [[search_term]].</p><p>Prøv at omformulere din forespørgsel, eller gennemse vores websted.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Forrige side",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Næste side",
+    "description": "",
+    "placeholders": null
+  }
+}

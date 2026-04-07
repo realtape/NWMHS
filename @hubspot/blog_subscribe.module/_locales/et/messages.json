@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Blogimeili tellimus",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Vaikevalik kasutab praegust blogi, kui seda kasutatakse blogi mallis, või primaarset blogi, kui seda kasutatakse mujal.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Valige kuvatav blogi",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Telli siit!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Vormi kohal kuvatav pealkiri",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Tekstisisene vastus kasutajatele",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Aitäh tellimise eest!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Selleks, et blogi tellimisvorm ilmuks, peate oma blogi jaoks tellimused sisse lülitama. Seda saab teha seadetes. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Lisateave</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Pealkirja tase",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Valige pealkirja tase. Pealkirjad peaksid olema hierarhiliselt järjestatud vastavalt teie sisule. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Rohkem teavet</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

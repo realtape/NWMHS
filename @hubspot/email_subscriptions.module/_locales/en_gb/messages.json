@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Subscription preferences",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Update preferences button text",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Update email preferences",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Communication preferences",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Header",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Subheader",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "If this is not your email address, please ignore this page since the email associated with this page was most likely forwarded to you.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Yes, resubscribe me!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Resubscribe button text",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Unsubscribe all label",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Unsubscribe me from all mailing lists.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Untick the types of emails you do not want to receive:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Preference selection help text",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Or tick here to never receive any emails:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Unsubscribe all help text",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Unsubscribe all help text for a currently unsubscribed user",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "You are presently unsubscribed from all of our emails. Would you like to receive our emails again?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Single subscription button text",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Unsubscribe",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Single subscription confirmation text",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Do you want to unsubscribe from emails about:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Single subscription example name",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "your selected subscription type",
+    "description": "",
+    "placeholders": null
+  }
+}

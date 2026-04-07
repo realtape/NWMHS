@@ -1,0 +1,42 @@
+.scheduled-payments {
+  overflow-x: auto;
+}
+
+.scheduled-payments__table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 400px;
+  overflow-x: auto;
+  margin-bottom: 0;
+}
+
+.scheduled-payments__table thead {
+  border-bottom: 1px solid black;
+}
+
+.scheduled-payments__table tr>th:last-child,
+.scheduled-payments__table tr>td:last-child {
+  text-align: right;
+}
+
+.scheduled-payments__table td,
+.scheduled-payments__table th {
+  text-align: left;
+}
+
+.scheduled-payments__table td {
+  padding: 10px 0px;
+}
+
+.scheduled-payments__table td {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.scheduled-payments-paid-text--hidden,
+.scheduled-payments-due-text--hidden,
+.scheduled-payments-processing-text--hidden {
+  display: none;
+}

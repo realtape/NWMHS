@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Zobrazit jako webovou stránku",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<div style=\"padding-top: 15px; font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; text-align: right; font-size: 9px; line-height: 1.34em; color: {{ secondary_font_color }};\">Nezobrazuje se vám e-mail správně? Otevřete si ho <a target=\"_blank\" rel=\"noopener\" href=\"{{ view_as_page_url }}\" style=\"color: {{ secondary_font_color }}; text-decoration: underline; white-space: nowrap;\" data-viewaswebpage=\"true\">zde</a> jako webovou stránku.</div>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Zobrazit jako text na webové stránce",
+    "description": "",
+    "placeholders": null
+  }
+}

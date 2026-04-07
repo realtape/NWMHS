@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "লোগো গ্রিড",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "লোগো",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "লোগো",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "লোগো চিত্র",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "সর্বোচ্চ লোগো উচ্চতা",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "লোগোর সর্বোচ্চ উচ্চতা সেট করে।<br><br>একটি সর্বোচ্চ লোগো উচ্চতা সেট করা সবচেয়ে ভাল যখন বিভিন্ন মাত্রার একাধিক লোগো চাক্ষুষভাবে সমান আকারে করার চেষ্টা করা হয়।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "আনুমানিক অনুপাত",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "লোগো কন্টেইনারের আকৃতির অনুপাত সেট করুন। আপনি যদি ব্যাকগ্রাউন্ড কালার ফিল্ড ব্যবহার করেন এবং ব্যাপকভাবে ভিন্ন মাত্রার লোগো ব্যবহার করেন তাহলে এটি সবচেয়ে উপযোগী।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "ব্যাকগ্রাউন্ডের রং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "লোগোর চারপাশে প্যাডিং সেট করুন।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "ওয়েবের প্রতিক্রিয়াশীল প্রকৃতির কারণে, স্ক্রিনের আকার, আসল ছবির আকার, লোগো প্যাডিং, গ্রিড গ্যাপ এবং কলাম গণনার সমন্বয়ের ভিত্তিতে লোগোগুলির রেন্ডার করা উচ্চতা সেট মানের থেকে কম হতে পারে।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "লোগো গ্রিড",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "গ্রিড কলামের সংখ্যা",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "ডেস্কটপে গ্রিডে কলামের পরিমাণ সেট করুন। মোবাইলে 1 ডিফল্ট।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "<strong>লোগো ইমেজ > ব্যাকগ্রাউন্ড</strong>-এ একটি ব্যাকগ্রাউন্ডের রঙ সেট করা আপনাকে লোগো গ্রিডটি কল্পনা করতে সাহায্য করতে পারে।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "গ্রিড গ্যাপ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "গ্রিড আইটেমগুলির মধ্যে ব্যবধান সেট করুন। <br><br>লোগো ইমেজ > ব্যাকগ্রাউন্ড<strong>-এ একটি ব্যাকগ্রাউন্ড সেট করা</strong> আপনাকে লোগো গ্রিডটি কল্পনা করতে সহায়তা করতে পারে।",
+    "description": "",
+    "placeholders": null
+  }
+}

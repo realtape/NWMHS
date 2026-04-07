@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "ข้อความยืนยันการติดตาม",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "คุณอัปเดตการตั้งค่าอีเมลของคุณเรียบร้อยแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "ข้อความอัปเดตการติดตาม",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "ส่วนหัวย่อย",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "หากนี่ไม่ใช่อีเมลของคุณ โปรดเพิกเฉยหน้านี้ เนื่องจากเป็นไปได้อย่างยิ่งว่าอีเมลที่เกี่ยวข้องกับหน้านี้ได้ถูกส่งต่อถึงคุณ",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "คุณได้ยกเลิกการติดตามรับข้อมูลจากทุกอีเมลเรียบร้อยแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "ข้อความการยกเลิกการติดตาม",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "ข้อความส่วนหัว",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "ส่วนหัว",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "ข้อความบนปุ่มจัดการการตั้งค่า",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "จัดการการตั้งค่า",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "ข้อความปฏิเสธความรับผิดชอบการเปลี่ยนกลับการจัดการการตั้งค่า",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "ไม่ได้ตั้งใจใช่ไหม ไม่เป็นไร คุณสามารถเปลี่ยนการตั้งค่าได้",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "ข้อความยกเลิกการสมัครใช้บริการครั้งเดียวสำเร็จ",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "คุณยกเลิกสมัครใช้บริการเรียบร้อยแล้วจาก:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "ข้อความยึดตำแหน่งการสมัครใช้บริการ",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "ประเภทการสมัครใช้บริการที่เลือกของคุณ",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "ระดับหัวเรื่องของส่วนหัว",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "หัวเรื่อง 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "หัวเรื่อง 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "หัวเรื่อง 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "หัวเรื่อง 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "หัวเรื่อง 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "หัวเรื่อง 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "ระดับส่วนหัวของอีเมล",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "หัวเรื่อง 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "หัวเรื่อง 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "หัวเรื่อง 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "หัวเรื่อง 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "หัวเรื่อง 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "หัวเรื่อง 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "ย่อหน้า",
+    "description": "",
+    "placeholders": null
+  }
+}

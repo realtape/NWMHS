@@ -1,0 +1,62 @@
+<!--
+  templateType: quote_expiration
+  isAvailableForNewContent: false
+  label: Expiration
+  screenshotPath: ../images/flow-expired.png
+-->
+{% set template_css = "../../css/templates/expired.css" %}
+{% extends './layouts/base.html' %}
+
+{% block body %}
+  <body class="hs-quotes hs-quotes--expiration hs-quotes--flow">
+
+    {% module "banner_image" path="../modules/banner-image" export_to_template_context=True %}
+    <div class="banner" style="background-image: url('{{ widget_data.banner_image.banner_image.src }}');">
+
+      <div class="container banner__content">
+        <div class="row-fluid">  
+          <div class="column span6">
+            {% module "logo" path="../modules/logo" %}
+            {% module "quote_expired_title"
+              label="Quote expired title"
+              path="@hubspot/rich_text",
+              extra_classes="banner__title",
+              html={{ "<h1>" ~ template_translations.quote_expired.message ~ "</h1>" }}
+            %}
+            {% module "reference"
+              label="Reference number"
+              path="@hubspot/rich_text",
+              html={{ "<p>" ~ template_translations.quote_expired_on_date.message ~ "<br>" ~ template_translations.contact_sales_representative.message ~ "</p>"  }}
+            %}
+            
+            <div class="banner__dates">
+              {% module "quote_created"
+                label="Quote created text"
+                path="../modules/quote-created"
+              %}
+              {% module "quote_expires"
+                label="Quote expires text"
+                path="../modules/quote-expires"
+              %}
+            </div>
+          </div>
+          <div class="column span6">
+            <div class="banner__sender">
+              {% module "sender_company"
+                label="Sender company"
+                path="../modules/sender-company",
+                no_wrapper=True
+              %}
+              {% module "sender_user"
+                label="Sender user contact"
+                path="../modules/sender-user",
+                no_wrapper=True
+              %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+{% endblock body %}

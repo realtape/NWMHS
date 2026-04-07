@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "지금 결제하기",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "결제 버튼 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "이 버튼을 클릭하면 고객이 결제할 수 있는지 확인하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "체크아웃을 설정하는 동안 문제가 발생했습니다. 이 견적을 보낸 사람에게 문의하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "체크아웃 오류 메시지",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "체크아웃 시작 시 문제가 발생했을 때 대처 방안을 고객에게 알려 주십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "제목 수준을 선택합니다. H1이 가장 크고 H2는 그 다음으로 큰 순서입니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "제목 수준",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "결제",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "제목 콘텐츠",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "첫 결제 진행:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "고객은 첫 번째 할부금을 결제할 때까지 결제 버튼에서 이 문구를 보게 됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "결제 예약용 버튼 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "결제",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "견적서에 서명이 완료되지 않아 결제할 수 없습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "서명이 필요한 설명 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "결제하기 전에 서명이 필요한 경우 모든 필수 서명이 완료될 때까지 이 메시지가 고객에게 표시됩니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "결제됨",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "유료 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "[[ paid_date ]] [[ paid_time ]]에 결제됨",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "결제 처리",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "결제 처리 텍스트",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "견적서의 결제 상태를 로딩하는 동안 문제가 발생했습니다. 페이지를 새로 고침 하십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "결제 상태 오류 메시지",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "결제 상태를 가져오는 데 실패하는 경우 페이지를 새로 고침하라고 고객에게 알려 주십시오.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "이것은 테스트 견적이므로 실제 결제 내역을 수집할 수 없습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "이 템플릿을 사용하여 견적서를 만들 때 결제 내역을 수집할지 여부를 결정할 수 있습니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "체크아웃하려면 이 견적을 보낸 사람에게 문의하십시오.",
+    "description": "",
+    "placeholders": null
+  }
+}

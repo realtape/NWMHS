@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Główna treść e-maila",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Witaj, {{contact.firstname}},</p>\n<p>Opisz, co masz do zaoferowania klientom. Dlaczego powinni to przeczytać? Co im obiecano w temacie? Powiedz im coś miłego. Rozśmiesz ich. Doprowadź do łez. Choć tego może lepiej nie rób…</p>\n<p>Użyj listy, aby:</p>\n<ul>\n<li>Wyjaśnić klientom wartość swojej oferty.</li>\n<li>Przypomnieć czytelnikowi, co zyska, podejmując działanie.</li>\n<li>Pokazać, jak świetnie posługujesz się punktorami.</li>\n<li>Upewnić się, że treść jest łatwa do przejrzenia.</li>\n\n</ul>\n<p><a href=\"http://hubspot.com\">ŁĄCZE DO STRONY DOCELOWEJ TWOJEJ WITRYNY</a> (To jest najważniejsza część).</p>\n<p>Podsumuj wszystko króciutkim przypomnieniem, jak bardzo ich kochasz.</p>\n<p>Ach, Ty złotousty diable...</p>\n<p>Z poważaniem,</p>\n<p>Twoje imię</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Treść e-maili",
+    "description": "",
+    "placeholders": null
+  }
+}

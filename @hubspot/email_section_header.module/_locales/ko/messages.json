@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "섹션 제목",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "부각되지 않는 부제목",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "섹션 부제목",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "굵은체의 선명한 제목",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "섹션 제목 내용",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "제목 수준을 선택합니다. H1이 가장 크고 H2는 그 다음으로 큰 순서입니다.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "제목 수준",
+    "description": "",
+    "placeholders": null
+  }
+}

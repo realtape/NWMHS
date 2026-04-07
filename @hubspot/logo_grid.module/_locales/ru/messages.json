@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Сетка логотипа",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Логотипы",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Логотип",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Стили",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Изображение логотипа",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Максимальная высота логотипа",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Устанавливает максимальную высоту логотипов.<br><br>Установка максимальной высоты логотипа лучше всего подходит, если необходимо создать несколько логотипов совершенно разных размеров, но визуально одинаковых по размеру.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Соотношение сторон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Установите соотношение сторон контейнера с логотипом. Лучше всего использовать поле цвета фона и логотипы совершенно разных размеров.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Цвет фона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Интервал",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Интервал",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Установите заполнение вокруг логотипа.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Так как содержимое Интернета является адаптивным, отображаемая высота логотипов может быть меньше заданного значения. Это зависит от комбинации размера экрана, исходного размера изображения, заполнения логотипа, размера сетки и количества столбцов.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Сетка логотипа",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Количество столбцов сетки",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Задайте количество столбцов в сетке на рабочем столе. По умолчанию — «1» для мобильных устройств.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Путем задания цвета фона в <strong>Изображение логотипа > Фон</strong> можно визуализировать сетку логотипа.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Размер сетки",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Задайте расстояние между элементами сетки.<br><br>Путем задания фона в <strong>Изображение логотипа > Фон</strong> можно визуализировать сетку логотипа.",
+    "description": "",
+    "placeholders": null
+  }
+}

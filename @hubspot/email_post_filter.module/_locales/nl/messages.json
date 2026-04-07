@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Berichtenfilter",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Alles weergeven",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Weer te geven tekst wanneer er meer dan het maximum weer te geven aantal beschikbaar zijn. Laat leeg om link weg te laten.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Met de standaardinstelling wordt het huidige blog gebruikt bij gebruik in een blogtemplate of het primaire blog bij gebruik elders.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Weer te geven blog selecteren",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximum aantal weer te geven filterwaarden. Laat leeg om alles weer te geven.",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Lijst met waarden voor filterkoppelingen",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Tags",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Auteurs",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Maanden",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Berichten geordend op tag",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Weer te geven lijsttitel",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Naam",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Aantal berichten",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Zoeken",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordening van waarden voor filterkoppelingen",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Alle filters weergeven",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Görüntü galerisi",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Başlık",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Slayt",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Bağlantıyı yeni sekmede aç",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Altyazıyı göster",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Bağlantı URL'si",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Görüntü",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Değişken yükseklik",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Sabit yükseklik",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Değişken yükseklik",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Gezinme düğmelerini göster",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Küçük resimlerde gezinme",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standart kaydırıcı",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Işık kutusu galerisi",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Ekran modu",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Slaytları döngüye al",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Resimlerin üstüne başlıkları ekleyin",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Altyazıları daima resmin altında tut",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Başlık konumu",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Otomatik kaydırma arasındaki saniye cinsinden süre",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Karart",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Slayt",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Ara",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Slayt geçişleri",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Işık kutusu galerisi satırları",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Otomatik ilerleme",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Bu modül, iki yeni ve geliştirilmiş modül olan Image Slider ve Image Grid'in yararına kullanımdan kaldırılmıştır <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Daha fazla bilgi edinin.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Rozdělovač",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Zarovnání",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Na střed",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Doleva",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Doprava",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Výška",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Typ čáry",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Čárkovaná",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Tečkovaná",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Plná",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Odsazení obsahu",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maximum 20 pixelů",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Zobrazit odsazení?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Šířka",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Procento plochy, do které je rozdělovač umístěn.",
+    "description": "",
+    "placeholders": null
+  }
+}

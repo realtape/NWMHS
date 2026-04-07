@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Přepínač jazyků",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybridní verze",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Lokalizovaná verze",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "Jazyk stránky",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Jazyk textu v přepínači jazyků. Pokud zvolíte možnost „Jazyk stránky“, názvy jazyků se budou zobrazovat v nastaveném jazyce stránky. Pokud zvolíte možnost „Lokalizovaná verze“, názvy jazyků se budou zobrazovat ve vybraném jazyce. Nastavení „Hybridní verze“ tyto dvě možnosti kombinuje.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Režim zobrazení",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Αντίγραφο ασφαλείας κατάργησης εγγραφής",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Κείμενο κουμπιού",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Κατάργηση εγγραφής",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Κατάργηση εγγραφής σε email",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Επικεφαλίδα",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Κείμενο κράτησης θέσης εισαγωγής email",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Η διεύθυνση email σας:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Κείμενο βοήθειας εισαγωγής email",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Μήνυμα σφάλματος",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Υπήρξε κάποιο πρόβλημα κατά τη φόρτωση αυτής της σελίδας. Δοκιμάστε να χρησιμοποιήσετε τον ίδιο σύνδεσμο από ένα πιο πρόσφατο email ή επικοινωνήστε με την εταιρεία για να ενημερώσετε τις προτιμήσεις συνδρομής σας.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Δευτερεύουσα επικεφαλίδα",
+    "description": "",
+    "placeholders": null
+  }
+}

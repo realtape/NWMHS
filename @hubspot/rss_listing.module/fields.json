@@ -1,0 +1,195 @@
+[
+  {
+    "label": "RSS title",
+    "name": "title",
+    "id": "cf7209cd-a9e2-36d8-fe38-5990ac8eb89a",
+    "type": "text",
+    "validation_regex": "",
+    "default": "Title"
+  },
+  {
+    "label": "Add an RSS feed",
+    "name": "rss_feed_type",
+    "id": "44de159c-198b-105b-356f-1df0d343dc44",
+    "type": "choice",
+    "choices": [
+      ["external", "Use an external RSS feed"],
+      ["blog", "Use a HubSpot-hosted blog"]
+    ],
+    "display": "radio",
+    "placeholder": "Search",
+    "required": true,
+    "default": "blog"
+  },
+  {
+    "label": "RSS URL",
+    "name": "rss_url",
+    "id": "0cbeb648-1de9-ba95-0503-fb5f450bc505",
+    "type": "text",
+    "visibility": {
+      "controlling_field": "44de159c-198b-105b-356f-1df0d343dc44",
+      "controlling_value_regex": "external",
+      "operator": "MATCHES_REGEX",
+      "access": null,
+      "hidden_subfields": null
+    },
+    "required": true,
+    "validation_regex": ""
+  },
+  {
+    "label": "Blog",
+    "name": "content_group_id",
+    "id": "55d29dd1-133f-a7df-6bd8-5327f5168c8a",
+    "type": "blog",
+    "visibility": {
+      "controlling_field": "44de159c-198b-105b-356f-1df0d343dc44",
+      "controlling_value_regex": "blog",
+      "operator": "MATCHES_REGEX",
+      "access": null,
+      "hidden_subfields": null
+    },
+    "required": true
+  },
+  {
+    "label": "Filter by tag",
+    "name": "topic_id",
+    "id": "23b8825d-1d5b-608c-e851-5e6c5f17cf0b",
+    "type": "tag",
+    "visibility": {
+      "controlling_field": "44de159c-198b-105b-356f-1df0d343dc44",
+      "controlling_value_regex": "blog",
+      "operator": "MATCHES_REGEX",
+      "access": null,
+      "hidden_subfields": null
+    },
+    "tag_value": "ID",
+    "default": ""
+  },
+  {
+    "label": "Maximum number of posts to display",
+    "name": "number_of_items",
+    "id": "c138a117-787c-2e35-0939-4c24ca8c0249",
+    "type": "number",
+    "display": "text",
+    "min": 0,
+    "step": 1,
+    "default": 5
+  },
+  {
+    "label": "Include featured image",
+    "name": "include_featured_image",
+    "id": "829209cf-1ad9-f40c-4c9a-c6a4dc10659a",
+    "type": "boolean",
+    "default": false
+  },
+  {
+    "label": "Show author name",
+    "name": "show_author",
+    "id": "cfc27cc0-1369-4d48-a381-65a02d4e2362",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "label": "Author attribution text",
+    "name": "attribution_text",
+    "id": "d3f0797e-8daf-11ee-c090-e044f8f65768",
+    "type": "text",
+    "help_text": "The text that attributes an author to a post",
+    "visibility": {
+      "controlling_field": "cfc27cc0-1369-4d48-a381-65a02d4e2362",
+      "controlling_value_regex": "true",
+      "operator": null,
+      "access": null,
+      "hidden_subfields": null
+    },
+    "validation_regex": "",
+    "default": "by"
+  },
+  {
+    "label": "Show summary",
+    "name": "show_detail",
+    "id": "1fb24926-f77b-fde8-99b1-cf2e8711cd31",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "label": "Limit summary length (number of characters)",
+    "name": "limit_to_chars",
+    "id": "d1469c6f-3b00-e813-5e55-fe24e3767b3d",
+    "type": "number",
+    "visibility": {
+      "controlling_field": "1fb24926-f77b-fde8-99b1-cf2e8711cd31",
+      "controlling_value_regex": "true",
+      "operator": null,
+      "access": null,
+      "hidden_subfields": null
+    },
+    "display": "text",
+    "min": 0,
+    "step": 1,
+    "default": 200
+  },
+  {
+    "label": "Summary clickthrough text",
+    "name": "click_through_text",
+    "id": "02d7cfeb-8597-0eb9-80eb-d77b039e80ef",
+    "type": "text",
+    "help_text": "The text which will be displayed for the clickthrough link at the end of a post summary",
+    "visibility": {
+      "controlling_field": "1fb24926-f77b-fde8-99b1-cf2e8711cd31",
+      "controlling_value_regex": "true",
+      "operator": null,
+      "access": null,
+      "hidden_subfields": null
+    },
+    "validation_regex": "",
+    "default": "Read more"
+  },
+  {
+    "label": "Show publish date",
+    "name": "show_date",
+    "id": "c38045a3-6253-4a5b-29cf-4ef9440eefa4",
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "label": "Publish date format",
+    "name": "publish_date_format",
+    "id": "b2bac1dc-536a-32f1-6630-396d0ac60288",
+    "type": "choice",
+    "help_text": "Format for the publish date",
+    "visibility": {
+      "controlling_field": "c38045a3-6253-4a5b-29cf-4ef9440eefa4",
+      "controlling_value_regex": "true",
+      "operator": "MATCHES_REGEX",
+      "access": null,
+      "hidden_subfields": null
+    },
+    "choices": [
+      ["short", "06/11/06 12:00PM"],
+      ["medium", "Jun 6, 2006 12:00:00 pm"],
+      ["long", "June 6, 2017 12:00:00 pm EDT"],
+      ["MMMM d, yyyy 'at' h:mm a", "June 6, 2006 at 12:00 pm"],
+      ["h:mm a 'on' MMMM d, yyyy", "12:00 pm on June 6, 2006"]
+    ],
+    "display": "select",
+    "placeholder": "Select date format",
+    "default": "short"
+  },
+  {
+    "label": "Publish date indicator text",
+    "name": "publish_date_text",
+    "id": "1472a8cc-6dc3-cd7d-bbbc-228b17d304e7",
+    "type": "text",
+    "help_text": "The text that indicates when a post was published",
+    "visibility": {
+      "controlling_field": "c38045a3-6253-4a5b-29cf-4ef9440eefa4",
+      "controlling_value_regex": "true",
+      "operator": null,
+      "access": null,
+      "hidden_subfields": null
+    },
+    "validation_regex": "",
+    "default": "posted at"
+  }
+]

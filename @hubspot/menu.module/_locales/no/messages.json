@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horisontal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertikal",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Horisontale menyer viser elementene side ved side, og vertikale menyer vises nedover fra toppen",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Retning",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Søk",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Underordnede menyelementer vises når du beveger deg over den overordnede menyen. Hvis dette alternativet ikke er merket, vises alltid de underordnede menyelementene.",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Aktivere undermenyer?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Menytreet er sidestrukturen som genererer elementene i menyen. Et enkelt menytre kan brukes med flere menyer. Du kan opprette flere menyer for komplekse nettstedstrukturer. Menyene opprettes og administreres i innholdsinnstillingene.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Meny",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Avgjør antall underordnede elementer i menytreet som kan utvides i menyen",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Maksnivåer",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Søk",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Meny",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Meny med synlig søkebane (bruker horisontal flyt)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dynamisk etter side  Vis sider i menyen som er knyttet til siden som vises",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statisk - Vis alltid toppsider i menyen",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dynamisk etter del  Vis sider i menyen som er knyttet til valget som vises",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Avanserte menyer viser forskjellige deler av et menytre basert på hvilken side som vises.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Avansert menytype",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Søk",
+    "description": "",
+    "placeholders": null
+  }
+}

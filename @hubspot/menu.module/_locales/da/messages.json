@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Vandret",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Lodret",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Vandrette menuer viser elementerne ved siden af hinanden, mens lodrette menuer viser dem under hinanden",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Retning",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Søg",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Undermenuelementer vises, når du holder musen over den primære menu. Uden afkrydsning, vil undermenuelementerne altid være synlige",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Aktiver flyv ud?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Menutræet er den sidestruktur, der genererer elementerne i menuen. Et enkelt menutræ kan bruges sammen med flere menuer. Du kan lave flere menuer ved komplekse website-strukturer. Menuer oprettes og administreres i dine Indholdsindstillinger",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Fastsætter antallet af underniveauer, menuen kan udvides til",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Maks. antal niveauer",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Søg",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Brødkrummemenu (vises vandret)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dynamisk efter side - Vis sider i menuen, som relaterer sig til den side, der vises",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statisk - Vis altid sider fra øverste niveau i menuen",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dynamisk efter afsnit - Vis sider i menuen, som relaterer sig til den side, der vises.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Avancerede menuer viser forskellige dele af menutræet ud fra den aktuelle side.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Avanceret menutype",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Søg",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Képgaléria",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Képaláírás",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Dia",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Hivatkozás megnyitása új lapon",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Képaláírás megjelenítése",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Hivatkozás URL-címe",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Kép",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Változó magasság",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Rögzített magasság",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Keresés",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Változó magasság",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Navigációs gombok megjelenítése",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Előkép-navigáció",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Normál csúszka",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox galéria",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Keresés",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Megjelenítés módja",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Diák ismétlése",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Keresés",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Képaláírások ráhelyezése a képekre",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "A képaláírás mindig legyen a kép alatt",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Képaláírás pozíciója",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Automatikus léptetések közötti idő másodpercben",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Úsztatás",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Dia",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Keresés",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Diaátmenetek",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Lightbox galéria sorai",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Automatikus továbblépés",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Ezt a modult két új, továbbfejlesztett modul, az Image Slider (Képcsúszka) és az Image Grid (Képrács) váltotta fel. <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">További információ.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

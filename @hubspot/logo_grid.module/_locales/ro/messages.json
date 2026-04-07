@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Grilă logo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logouri",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiluri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Imagine logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Înălțime max. logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Setează înălțimea maximă a siglelor.<br><br>Setarea unei înălțimi maxime pentru sigle reprezintă cea mai bună opțiune atunci când încercați să faceți mai multe sigle de dimensiuni considerabil diferite să pară egale ca dimensiune vizuală.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Fundal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Raport de aspect",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Setați raportul de aspect al containerului siglei. Cel mai util dacă utilizați câmpul de culoare de fundal și utilizați sigle cu dimensiuni considerabil diferite.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Culoare fundal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Spațiere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Spațiere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Setați spațierea în jurul siglei.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Datorită naturii receptive a web-ului, înălțimea afișată a siglelor poate fi mai mică decât valoarea setată, în funcție de dimensiunea ecranului, dimensiunea imaginii inițiale, spațierea între sigle, spațiul dintre grile și numărul de coloane.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Grilă logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Număr de coloane grilă",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Setați numărul de coloane din grilă pe desktop. Implicit la 1 pe mobil.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Setarea unei culori de fundal în <strong>Imagine siglă > Fundal</strong> vă poate ajuta să vizualizați grila siglei.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Spațiu grilă",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Setați spațierea dintre elementele grilei.<br><br>Setarea unui fundal în <strong>Imagine siglă > Fundal</strong> vă poate ajuta să vizualizați grila siglei.",
+    "description": "",
+    "placeholders": null
+  }
+}

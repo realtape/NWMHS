@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "পেমেন্ট সময়সূচী",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.scheduled_payments.default": {
+    "message": "নির্ধারিত পেমেন্ট",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.default": {
+    "message": "পরিমাণ",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.label": {
+    "message": "পরিমাণ",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.default": {
+    "message": "বকেয়া",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.label": {
+    "message": "বকেয়া",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.label": {
+    "message": "পেমেন্ট সময়সূচী কলামগুলি",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.default": {
+    "message": "নাম",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.label": {
+    "message": "নাম",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.default": {
+    "message": "<h2>পেমেন্ট সময়সূচী</h2>",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.label": {
+    "message": "নির্ধারিত পেমেন্ট শিরোনাম",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.due_now.default": {
+    "message": "এখন বাকী আছে",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.paid.default": {
+    "message": "পে করা হয়েছে ",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.processing.default": {
+    "message": "পেমেন্ট প্রসেসিং",
+    "description": "",
+    "placeholders": null
+  }
+}

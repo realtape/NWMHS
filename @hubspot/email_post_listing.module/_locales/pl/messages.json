@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Ogłoszenie",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Najbardziej popularne – ostatnie sześć miesięcy",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Najpopularniejsze – od początku",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Najpopularniejsze – ostatni miesiąc",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Najpopularniejsze – ostatni rok",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Najnowsze",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Ułóż wpisy na blogu według",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Ustawienie domyślne zastosuje obecny blog w szablonie bloga lub blog podstawowy w każdym innym miejscu.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Wybierz blog do wyświetlenia",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maksymalna liczba wpisów na blogu do listy",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Najnowsze wpisy",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Tytuł listy do wyświetlenia",
+    "description": "",
+    "placeholders": null
+  }
+}

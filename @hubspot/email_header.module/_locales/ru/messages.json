@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Заголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "value.default": {
+    "message": "Четкий полужирный заголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "value.label": {
+    "message": "Содержимое заголовка",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.help_text": {
+    "message": "Выберите уровень заголовка. H1 — самый крупный, затем идет H2 и так далее",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.placeholder": {
+    "message": "Выберите тип заголовка",
+    "description": "",
+    "placeholders": null
+  },
+  "header_tag.label": {
+    "message": "Уровень заголовка",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.label": {
+    "message": "Скрыть элементы управления уровнем заголовка",
+    "description": "",
+    "placeholders": null
+  },
+  "hide_header_tag.help_text": {
+    "message": "Скрытие элементов управления уровнем заголовка предотвращает изменение уровня заголовка в инструментах выбора содержимого",
+    "description": "",
+    "placeholders": null
+  }
+}

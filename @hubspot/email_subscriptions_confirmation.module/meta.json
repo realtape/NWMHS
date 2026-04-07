@@ -1,0 +1,19 @@
+{
+  "label": "Subscriptions Confirmation Message",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "../img/icon/high-forms.svg",
+  "extra_classes": "widget-type-email_subscriptions_confirmation",
+  "master_language": "en",
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_EMAIL",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

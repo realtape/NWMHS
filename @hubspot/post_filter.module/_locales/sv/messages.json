@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Inläggsfilter",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Se alla",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Text att visa om mer än det maximala värdet att visa är tillgängligt. Lämna tomt för att utelämna länk",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Standardinställning kommer att använda nuvarade blogg när den används i en bloggmall eller den primära bloggen när den används någon annanstans.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Välj blogg att visa",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximalt antal filtervärden som ska visas",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Lista över värden för filterlänkar",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Taggar",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Upphovsmän",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Månader",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Inlägg efter tagg",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Listtitel att visa",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Namn",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Antal inlägg",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordning av värden för filterlänkar",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Visa alla filter",
+    "description": "",
+    "placeholders": null
+  }
+}

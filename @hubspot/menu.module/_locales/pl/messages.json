@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Poziomo",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Pionowo",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Menu poziome wyświetla elementy obok siebie, a pionowe od góry do dołu",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientacja",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Elementy podrzędne menu będą pokazywać się po najechaniu kursorem na element nadrzędny. Jeśli pole nie jest odznaczone, elementy podrzędne zawsze będą wyświetlane",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Umożliwić rozwijanie?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Drzewko menu to struktura strony, która generuje elementy menu. Jedno drzewko menu można zastosować do wielu menu. Można stworzyć wielokrotne menu do skomplikowanych struktur strony. Menu można tworzyć i zarządzać nim w ustawieniach treści.",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Określa liczbę elementów podrzędnych drzewka menu, które mogą być rozwinięte w menu",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Poziomy maksymalne",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Nawigacja okruszkowa (wykorzystuje przepływ poziomy)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dynamiczne według strony – pokaż w menu strony powiązane z przeglądaną stroną",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statyczne – zawsze pokazuj strony nadrzędne w menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dynamiczne według sekcji – pokaż w menu strony powiązane z przeglądaną sekcją",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Zaawansowane menu pokazuje różne fragmenty drzewa menu w zależności od tego, która strona jest przeglądana.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Zaawansowany typ menu",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Szukaj",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Jadual ringkasan bayaran masa hadapan",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Tajuk jadual",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Paparkan tajuk jadual",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Tajuk jadual",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Tambahkan pengepala pada jadual ringkasan bayaran masa hadapan",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "RIngkasan Bayaran Masa Hadapan",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Lajur",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Pengepala nama item baris",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Item",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Pengepala ringkasan bayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Bayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Sekali",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/ minggu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/ 2 minggu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ bulan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ suku tahun",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 bulan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ tahun",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 tahun",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 tahun",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "hari",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "hari",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "minggu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "minggu",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "bulan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "bulan",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "bayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "bayaran",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} pada {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} perlu dibayar {{ billing_delay_period }} {{ billing_delay_unit }} selepas bayaran awal",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} bermula dari {{ billing_delay_period }} {{ billing_delay_unit }} selepas bayaran awal",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }}{{ recurring_frequency }} bermula dari {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} bermula dari {{ billing_delay_period }} {{ billing_delay_unit }} selepas bayaran awal untuk {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }}{{ recurring_frequency }} bermula dari {{ formatted_first_payment_date }} untuk {{ number_of_payments }}{{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 tahun",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 tahun",
+    "description": "",
+    "placeholders": null
+  }
+}

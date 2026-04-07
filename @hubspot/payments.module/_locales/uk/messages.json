@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Платіж",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Додати іконку",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Посилання на кнопку",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Інше",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Використати посилання для платежу",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Мета кнопки",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Оформлення замовлення",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Текст кнопки",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Відкрити в новій вкладці",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Ковзне накладання",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Поведінка під час оформлення замовлення",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Закрити оформлення замовлення",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Значок",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Значок",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "По лівому краю",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "По правому краю",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Положення",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Посилання на платіж",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Вирівнювання",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Вирівнювання",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Колір",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Межа",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Межа",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Кут",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Радіус",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Колір",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Межа",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Межа",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Колір",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Значок",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "При наведенні",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Шрифт",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Текст",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Колір",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Значок",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Розмір",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Відстань між значком і текстом кнопки.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Інтервал",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Стилі",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Інтервал",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Інтервал",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Шрифт",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Текст",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Усі великі літери",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Малі літери",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Великі літери",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Перетворити",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Немає",
+    "description": "",
+    "placeholders": null
+  }
+}

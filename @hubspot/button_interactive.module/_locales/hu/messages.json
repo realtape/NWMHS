@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Gomb (interaktív)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "Hivatkozás URL-címe",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "E-mail-cím",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Fájl",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Akció véglegesítése",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "E-mail-cím",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonszám",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Fájl letöltése",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Megbeszélések hivatkozása",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Az Ön egyik oldala",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Az Ön egyik blogoldala",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL-cím",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Hivatkozás erre",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Megbeszélések hivatkozása",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Hivatkozás megnyitása új lapon",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Oldal",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Szín",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Rákattintva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Háttér",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Szegély",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Szegély",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Sarok",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Lekerekített sarok hozzáadása a gombhoz",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Sugár",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Szín",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Rámutatáskori háttér",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Szegély",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Rámutatáskori szegély",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Rámutatás",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Betűtípus",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Rámutatáskori szöveg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stílusok",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Betűtípus",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Szöveg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Szövegtávolság",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Itt hozzáadhat egy gombhivatkozást",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Gombfelirat",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Tinggi maksimal logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Ini tidak berlaku saat menimpa logo default",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Anda dapat memilih untuk menimpa logo yang diaplikasikan pada templat ini menggunakan tombol pengalihan ini.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Timpa logo default",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Secara default, penawaran harga Anda akan menampilkan logo perusahaan dari Kit Merek Anda di Default Akun atau Pengaturan Halaman Situs Web.",
+    "description": "",
+    "placeholders": null
+  }
+}

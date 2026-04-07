@@ -1,0 +1,112 @@
+{# Future Payments Summary Table #}
+{% macro recurring_frequency_text(frequency) %}
+  {% if frequency == 'weekly' %}
+    {{ module.default_text.every_week }}
+  {% elif frequency == 'biweekly' %}
+    {{ module.default_text.every_two_weeks }}
+  {% elif frequency == 'monthly' %}
+    {{ module.default_text.every_month }}
+  {% elif frequency == 'quarterly' %}
+    {{ module.default_text.every_quarter }}
+  {% elif frequency == 'per_six_months' %}
+    {{ module.default_text.every_six_months }}
+  {% elif frequency == 'annually' %}
+    {{ module.default_text.every_year }}
+  {% elif frequency == 'per_two_years' %}
+    {{ module.default_text.every_two_years }}
+  {% elif frequency == 'per_three_years' %}
+    {{ module.default_text.every_three_years }}
+  {% elif frequency == 'per_four_years' %}
+    {{ module.default_text.every_four_years }}
+  {% elif frequency == 'per_five_years' %}
+    {{ module.default_text.every_five_years }}
+  {% endif %}
+{% endmacro %}
+
+{% macro recurring_payment_text(future_line_item) %}
+  {% set formatted_price = future_line_item.amount|format_currency_value(locale=locale, currency=currency, maxDecimalDigits=max_decimal_digits) %}
+  {% set recurring_frequency = recurring_frequency_text(future_line_item.recurringbillingfrequency) %}
+  {% set number_of_payments = future_line_item.hs_recurring_billing_number_of_payments %}
+  {% set payment_pluralized = number_of_payments == 1 ? module.default_text.payment : module.default_text.payments %}
+  {% set is_fixed_billing = future_line_item.hs_recurring_billing_terms == 'FIXED' %}
+
+  {% if future_line_item.hs_billing_start_delay_type == 'hs_recurring_billing_start_date' %}
+    {% set formatted_first_payment_date = future_line_item.hs_recurring_billing_start_date|int|format_date('long', 'UTC', locale) %}
+    {% if future_line_item.recurringbillingfrequency %}
+      {{ is_fixed_billing ? module.default_text.future_recurring_date_delay_fixed : module.default_text.future_recurring_date_delay }}
+    {% else %}
+      {{ module.default_text.future_one_time_date_delay }}
+    {% endif %}
+  {% elif future_line_item.hs_billing_start_delay_type == 'hs_billing_start_delay_days' %}
+    {% set billing_delay_period = future_line_item.hs_billing_start_delay_days %}
+    {% set billing_delay_unit = billing_delay_period == 1 ? module.default_text.day : module.default_text.days %}
+    {% if future_line_item.recurringbillingfrequency %}
+      {{ is_fixed_billing ? module.default_text.future_recurring_relative_delay_fixed : module.default_text.future_recurring_relative_delay }}
+    {% else %}
+      {{ module.default_text.future_one_time_relative_delay }}
+    {% endif %}
+  {% elif future_line_item.hs_billing_start_delay_type == 'hs_billing_start_delay_months' %}
+    {% set billing_delay_period = future_line_item.hs_billing_start_delay_months %}
+    {% set billing_delay_unit = billing_delay_period == 1 ? module.default_text.month : module.default_text.months %}
+    {% if future_line_item.recurringbillingfrequency %}
+      {{ is_fixed_billing ? module.default_text.future_recurring_relative_delay_fixed : module.default_text.future_recurring_relative_delay }}
+    {% else %}
+      {{ module.default_text.future_one_time_relative_delay }}
+    {% endif %}
+  {% endif %}
+{% endmacro %}
+
+{% macro future_payments_summary_table_rows(future_line_items) %}
+  {% if future_line_items|length > 0 %}
+    {% for future_line_item in future_line_items %}
+      <tr class="{{ loop.first ? 'future-payment__group--first' : '' }} {{ loop.last ? 'future-payment__group--last' : '' }}">
+        <td>{{ future_line_item.name|sanitize_html }}</td>
+        <td>{{ recurring_payment_text(future_line_item)|render|sanitize_html }}</td>
+      </tr>
+    {% endfor %}
+  {% endif %}
+{% endmacro %}
+
+{% if future_charges|length > 0 %}
+  <div class="future-payment-summary">
+    {% if module.table_heading.display_heading %}
+      <h3>{{ module.table_heading.heading|sanitize_html }}</h3>
+    {% endif %}
+
+    {# One time line items do not have a recurringbillingfrequency, so we select line items where recurringbillingfrequency is null, undefined, or empty string #}
+    {# recurringbillingfrequency has a default value of undefined, but if the line item frequency is changed to monthly, and back to one time, the value becomes empty string #}
+    {% set future_one_time = FUTURE_PAYMENTS|selectattr('recurringbillingfrequency', 'within', [null, undefined, '']) %}
+    {% set future_weekly = future_charges|selectattr('recurringbillingfrequency', 'equalto', 'weekly') %}
+    {% set future_biweekly = future_charges|selectattr('recurringbillingfrequency', 'equalto', 'biweekly') %}
+    {% set future_monthly = future_charges|selectattr('recurringbillingfrequency', 'equalto', 'monthly') %}
+    {% set future_quarterly = future_charges|selectattr('recurringbillingfrequency', 'equalto', 'quarterly') %}
+    {% set future_per_six_months = future_charges|selectattr('recurringbillingfrequency', 'equalto', 'per_six_months') %}
+    {% set future_annually = future_charges|selectattr('recurringbillingfrequency', 'equalto', 'annually') %}
+    {% set future_per_two_years = future_charges|selectattr('recurringbillingfrequency', 'equalto', 'per_two_years') %}
+    {% set future_per_three_years = future_charges|selectattr('recurringbillingfrequency', 'equalto', 'per_three_years') %}
+    {% set future_per_four_years = future_charges|selectattr('recurringbillingfrequency', 'equalto', 'per_four_years') %}
+    {% set future_per_five_years = future_charges|selectattr('recurringbillingfrequency', 'equalto', 'per_five_years') %}
+
+    <table class="line-items__table line-items__future-payments-summary">
+      <thead class="line-items__table-header">
+        <tr>
+          <th scope="col">{{ module.columns.line_item_name_heading|sanitize_html }}</th>
+          <th scope="col">{{ module.columns.payment_summary_heading|sanitize_html }}</th>
+        </tr>
+      </thead>
+      <tbody id="line-items__table-body">
+        {{ future_payments_summary_table_rows(future_one_time) }}
+        {{ future_payments_summary_table_rows(future_weekly) }}
+        {{ future_payments_summary_table_rows(future_biweekly) }}
+        {{ future_payments_summary_table_rows(future_monthly) }}
+        {{ future_payments_summary_table_rows(future_quarterly) }}
+        {{ future_payments_summary_table_rows(future_per_six_months) }}
+        {{ future_payments_summary_table_rows(future_annually) }}
+        {{ future_payments_summary_table_rows(future_per_two_years) }}
+        {{ future_payments_summary_table_rows(future_per_three_years) }}
+        {{ future_payments_summary_table_rows(future_per_four_years) }}
+        {{ future_payments_summary_table_rows(future_per_five_years) }}
+      </tbody>
+  </table>
+  </div>
+{% endif %}

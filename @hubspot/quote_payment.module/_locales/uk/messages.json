@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Сплатити зараз",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Текст кнопки «Платіж»",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Упевніться, чи буде зрозуміло вашому клієнтові, що він зможе зробити платіж, натиснувши цю кнопку.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "Сталася помилка під час підготовки оформлення. Зверніться до відправника цієї цінової пропозиції.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Повідомлення про помилку стосовно оформлення",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Поясніть клієнтові, що робити, якщо виникла проблема на початку оформлення замовлення.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Виберіть рівень заголовка. Н1 — найбільший, за ним Н2 й далі",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Рівень заголовка",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Платіж",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Зміст заголовка",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Зробити перший платіж:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Ваш клієнт бачитиме це в кнопці \"Платіж\", поки вони не сплатять перший внесок.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Текст кнопки для графіків платежів",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Платіж",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Не можна виконати оплату, оскільки не повністю підписана цінова пропозиція.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Пояснювальний текст, коли потрібні підписи",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Якщо перед платежем треба поставити підписи, ваш клієнт бачитиме це повідомлення, доки він не проставить усі потрібні підписи.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Оплачено",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Текст «Оплачено»",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Сплачено о [[ paid_time ]] [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Оброблення платежу",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Текст щодо оброблення платежу",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "Сталася помилка під час завантаження статусу платежу для цієї цінової пропозиції. Спробуйте оновити сторінку.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Повідомлення про помилку статусу платежу",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Повідомте клієнту про необхідність оновити сторінку, якщо не вдається отримати статус платежу.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Це тестова цінова пропозиція, за якою не передбачено справжніх платежів.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Ви можете вирішити, чи хочете збирати оплату, коли створюєте цінову пропозицію за цим шаблоном.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Для оформлення замовлення зв’яжіться з особою, яка надіслала вам цю цінову пропозицію.",
+    "description": "",
+    "placeholders": null
+  }
+}

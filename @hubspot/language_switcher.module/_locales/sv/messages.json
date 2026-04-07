@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Språkomkopplare",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "Hybrid",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "Lokaliserad",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "Sidspråk",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "Textens språk i språkväxlaren . Sidspråk betyder namnen på språken som kommer att visas på språket för den sida som växlaren är inställd på. Lokaliserad betyder namnet på varje språk som kommer att visas på det språket. Hybrid är en kombination mellan de två.",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Visningsläge",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Sök",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Blog-e-posintekening",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Die verstekkeuse sal die huidige blog in 'n blogsjabloon gebruik, of die primêre blog as dit elders gebruik word.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Kies blog om te wys",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Teken hier in!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Titel om aan bokant van vorm te wys",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Inlynse antwoord vir gebruikers",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Dankie vir jou intekening!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Jy moet intekenings vir jou blog aanskakel om die blogintekeningsvorm te laat verskyn. Dit kan by instellings gedoen word. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Kom meer te wete</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Opskrifvlak",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Kies 'n opskrifvlak. Opskrifte moet op 'n hiërargiese wyse genestel word gebaseer op jou inhoud. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Meer inligting</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "O1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "O2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "O3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "O4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "O5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "O6",
+    "description": "",
+    "placeholders": null
+  }
+}

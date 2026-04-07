@@ -1,0 +1,242 @@
+{
+  "name": {
+    "message": "ট্যাব্‌ড কার্ড",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.label": {
+    "message": "ডিফল্ট টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.left_nudge_button_label.default": {
+    "message": "ট্যাবগুলিতে বাঁ দিকে স্ক্রোল করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.right_nudge_button_label.default": {
+    "message": "ট্যাবগুলিতে ডান দিকে স্ক্রোল করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tabs_list_aria_label.default": {
+    "message": "ট্যাবগুলির তালিকা",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.label": {
+    "message": "কনটেন্ট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "শৈলী",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.label": {
+    "message": "সক্রিয়",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_top_sides.label": {
+    "message": "উপরের/প্রান্তিক বর্ডার",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_bottom.label": {
+    "message": "নীচের সীমানা",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.label": {
+    "message": "হোভার করুন ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_top_sides.label": {
+    "message": "উপরের/প্রান্তিক বর্ডার",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_bottom.label": {
+    "message": "নীচের সীমানা",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.color.label": {
+    "message": "রং ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.label": {
+    "message": "ব্যাকগ্রাউন্ড ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.label": {
+    "message": "নিষ্ক্রিয়",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.font.label": {
+    "message": "ফন্ট ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.label": {
+    "message": "টেক্সট",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_top_sides.label": {
+    "message": "উপরের/প্রান্তিক বর্ডার",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_bottom.label": {
+    "message": "নীচের সীমানা",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.label": {
+    "message": "ট্যাব ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.label": {
+    "message": "ট্যাব্‌ড কার্ড",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.spacing.label": {
+    "message": "স্পেসিং",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.border.label": {
+    "message": "বর্ডার ",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.default": {
+    "message": "<p>ট্যাব হল আলাদা আলাদাভাবে শ্রেণীবদ্ধ করার প্রয়োজন এমন বিপুল পরিমাণ কন্টেন্ট সহ কোনো ওয়েবসাইট পৃষ্ঠায় থাকা তথ্যগুলি সংগঠিত করার একটি কার্যকর উপায়। প্রতিটি তথ্যের শ্রেণীকে বোঝার জন্য  একটি বা দুটি শব্দ ব্যবহার করে আপনার ট্যাবগুলি লেবেল করুন।</p><p>আপনার ট্যাবের শৈলী স্থির করার সময়, নির্বাচিত ট্যাবটিকে নির্বাচিত নয় এমন ট্যাবগুলি থেকে আলাদা করার জন্য একটি অন্য রঙ দিয়ে হাইলাইট করুন, যাতে আপনার পরিদর্শকদের পক্ষে নেভিগেট করতে সুবিধা হয়।</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.label": {
+    "message": "কনটেন্ট",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.label": {
+    "message": "ট্যাব ",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.default": {
+    "message": "ট্যাব আইটেম",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.label": {
+    "message": "লেবেল",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.label": {
+    "message": "টেক্সটের স্থির উচ্চতা",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.help_text": {
+    "message": "প্রতিটি ট্যাবের কন্টেন্টের একইরকম উচ্চতা স্থির করুন",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Button (interaktiv)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "Link-URL",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "E-Mail-Adresse",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Datei",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Call-to-Action schließen",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "E-Mail-Adresse",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonnummer",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Dateidownload",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Meetinglink",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Eine Ihrer Seiten",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Eine Ihrer Blogseiten",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Link zu",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Meetinglink",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Link in neuem Tab öffnen",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Seite",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Angeklickt",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Hintergrund",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Umrandung",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Umrandung",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Ecke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Fügen Sie Ihrem Button eine abgerundete Ecke hinzu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Farbe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Hintergrund beim Darüberbewegen des Mauszeigers",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Umrandung",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Umrandung beim Darüberbewegen des Mauszeigers",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Darüberbewegen des Mauszeigers",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Text beim Darüberbewegen des Mauszeigers",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stile",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Schriftart",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Textauffüllung",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Fügen Sie hier einen Button-Link hinzu",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Button-Text",
+    "description": "",
+    "placeholders": null
+  }
+}

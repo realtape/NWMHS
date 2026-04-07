@@ -1,0 +1,210 @@
+/** Base splide styles found here. https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.2/dist/css/splide.min.css **/
+
+.splide__slide {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.splide__slide--nav {
+  height: auto;
+}
+
+.splide__slide--nav-image {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.splide__track--nav > .splide__list > .splide__slide {
+  border: none !important; /* stylelint-disable-line declaration-no-important */
+  opacity: 0.6;
+}
+
+.splide__track--nav > .splide__list > .splide__slide.is-active {
+  border: none !important; /* stylelint-disable-line declaration-no-important */
+  opacity: 1 !important; /* stylelint-disable-line declaration-no-important */
+}
+
+.splide__slide__contents {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.splide__slide--image_caption__wrapper {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.splide__slide--image__wrapper {
+  height: 100%;
+}
+
+.splide__slide--image {
+  display: block;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.splide__pagination__page {
+  background: #ccc !important; /* stylelint-disable-line declaration-no-important */
+  opacity: 0.5 !important; /* stylelint-disable-line declaration-no-important */
+}
+
+.splide__pagination__page.is-active {
+  opacity: 1 !important; /* stylelint-disable-line declaration-no-important */
+}
+
+.splide__slide--caption {
+  box-sizing: border-box;
+  height: auto;
+  padding: 0.5rem 1rem 0;
+  align-self: flex-end;
+}
+
+.splide__toggle {
+  display: inline-flex;
+  height: 1.8rem;
+  width: 1.8rem;
+  padding: 1px 6px;
+  border: none;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: #ccc;
+  opacity: 0.7;
+  transition: background-color 0.2s ease;
+}
+
+.splide_toggle svg {
+  fill: initial;
+}
+
+.splide__toggle:hover {
+  opacity: 1;
+}
+
+.splide__controls {
+  display: flex;
+  margin-top: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.splide__controls .splide__pagination {
+  position: relative;
+  bottom: auto;
+  left: auto;
+  width: auto;
+  padding: 0 0.5rem;
+  transform: none;
+}
+
+.splide__toggle__play {
+  margin-left: 2px;
+}
+
+.splide__nav {
+  margin-top: 0.75rem;
+}
+
+/** Below styles are to counter overly specific button styling in themes. These styles are modified from https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.2/dist/css/splide.min.css  **/
+button.splide__arrow {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  display: flex;
+  height: 2em;
+  width: 2em;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: #ccc;
+  cursor: pointer;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  opacity: 0.7;
+  transform: translateY(-50%);
+}
+
+/** These styles are unminified from the minified css mentioned above for ordering purposes. **/
+/* stylelint-disable */
+button.splide__arrow svg {
+  height: 1.2em;
+  width: 1.2em;
+  fill: #000;
+}
+
+button.splide__arrow:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+button.splide__arrow:disabled {
+  opacity: 0.3;
+}
+
+button.splide__arrow:focus-visible {
+  outline: 3px solid #0bf;
+  outline-offset: 3px;
+}
+
+button.splide__arrow--prev {
+  left: 1em;
+}
+
+button.splide__arrow--prev svg {
+  transform: scaleX(-1);
+}
+
+button.splide__arrow--next {
+  right: 1em;
+}
+
+.splide__arrows--rtl button.splide__arrow--prev {
+  right: 1em;
+  left: auto;
+}
+
+.splide__arrows--rtl button.splide__arrow--prev svg {
+  transform: scaleX(1);
+}
+
+.splide__arrows--rtl button.splide__arrow--next {
+  right: auto;
+  left: 1em;
+}
+
+.splide__arrows--rtl button.splide__arrow--next svg {
+  transform: scaleX(-1);
+}
+
+.splide__arrows--ttb button.splide__arrow {
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.splide__arrows--ttb button.splide__arrow--prev {
+  top: 1em;
+}
+
+.splide__arrows--ttb button.splide__arrow--prev svg {
+  transform: rotate(-90deg);
+}
+
+.splide__arrows--ttb button.splide__arrow--next {
+  top: auto;
+  bottom: 1em;
+}
+
+.splide__arrows--ttb button.splide__arrow--next svg {
+  transform: rotate(90deg);
+}
+/* stylelint-enable */

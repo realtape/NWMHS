@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Underoverskrift for linjeelementtabell",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Gjentagende betalinger og engangsbetalinger som forfaller nå.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Tekst for underoverskrift",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Denne underoverskriften vises bare når det finnes fremtidige betalinger.",
+    "description": "",
+    "placeholders": null
+  }
+}

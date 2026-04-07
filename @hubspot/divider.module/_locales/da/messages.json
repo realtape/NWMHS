@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Skillelinje",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Justering",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Centreret",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Venstre",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Højre",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Farve",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Højde",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Linjetype",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Stiplet",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Prikket",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Fast",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Udfyldning",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maksimalt 20 pixels",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Vis udfyldning?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Bredde",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Procentdel af området, som opdeleren er placeret i.",
+    "description": "",
+    "placeholders": null
+  }
+}

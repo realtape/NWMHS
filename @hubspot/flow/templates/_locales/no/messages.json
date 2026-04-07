@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Dette tilbudet er utløpt",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Tilbudet {{ personalization_token('quote.hs_quote_number', '') }} utløp {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Kontakt <a href='#'>salgsrepresentanten</a> for mer informasjon.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Faktureringshyppighet",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Enhetspris",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Pris",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Produkter og tjenester",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Antall",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Utførelses-<br>oppsummering",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Vilkår og betingelser",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Kommentarer",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Prosjekt-<br>godkjennelse",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Undertittel",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Vår<br> historie",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Vi elsker<br>det vi gjør",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Hva kundene våre<br>sier om oss",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Prosjekt-<br>oppsummering",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Våre mål",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Arbeids-<br>beskrivelse",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Prosjekt-<br>estimat",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>Kontrakten",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Klargjort for",
+    "description": "",
+    "placeholders": null
+  }
+}

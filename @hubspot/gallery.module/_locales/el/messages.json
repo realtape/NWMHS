@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Γκαλερί εικόνων",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Λεζάντα",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Διαφάνεια",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Άνοιγμα συνδέσμου σε νέα καρτέλα",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Εμφάνιση λεζάντας",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL συνδέσμου",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Εικόνα",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Μεταβλητό ύψος",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Σταθερό ύψος",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Μεταβλητό ύψος",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Εμφάνιση κουμπιών πλοήγησης",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Πλοήγηση μικρογραφιών",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Τυπικό ρυθμιστικό",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Συλλογή προβολής εικόνων",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Λειτουργία προβολής",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Κυκλική αναπαραγωγή διαφανειών",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Τοποθέτηση λεζαντών επάνω από τις εικόνες",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Οι λεζάντες να διατηρούνται πάντα κάτω από την εικόνα",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Θέση λεζάντας",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Χρόνος σε δευτερόλεπτα μεταξύ αυτόματης κύλισης",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Σταδιακή εμφάνιση",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Διαφάνεια",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Αναζήτηση",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Εναλλαγή διαφανειών",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Γραμμές συλλογής προβολής εικόνων",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Αυτόματη προώθηση",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Αυτή η μονάδα έχει καταργηθεί υπέρ δύο νέων και βελτιωμένων μονάδων, Image Slider και Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Μάθετε περισσότερα.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

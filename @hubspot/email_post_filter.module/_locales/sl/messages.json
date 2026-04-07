@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filter objav",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Poglej vse",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Besedilo za prikaz, če je na voljo več kot največja vrednost za prikaz. Pustite prazno, če želite izpustiti povezavo",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Privzeto bo uporabljen trenutni spletni dnevnik, če se uporablja v predlogi spletnega dnevnika, ali primarni spletni dnevnik, če se uporablja drugje.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Izberite spletni dnevnik za prikaz",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Največje število vrednosti filtra za prikaz. Pustite prazno, da prikažete vse",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Išči",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Seznam vrednosti za povezave filtra",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Oznake",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Avtorji",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Meseci",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Objave po oznaki",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Naslov seznama za prikaz",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Ime",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Število objav",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Išči",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Razvrščanje vrednosti za povezave filtra",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Prikaži vse filtre",
+    "description": "",
+    "placeholders": null
+  }
+}

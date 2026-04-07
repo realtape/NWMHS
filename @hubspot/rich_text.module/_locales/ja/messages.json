@@ -1,0 +1,22 @@
+{
+  "html.default": {
+    "message": "<h2>インパクトがある見出し</h2>\n<h3>詳細を伝えます</h3>\n<p>見出しと小見出しが<a href=\"#\">オファー</a>の内容を説明するものなら、取引の成立に直結するのがフォームヘッダーです。ここでは、お客様がフォームに入力したくなるように、こちらのオファーがいかに素晴らしいかを説明します。</p>\n<p>注意：</p>\n<ul>\n<li>箇条書きは効果的です。</li>\n<li><a href=\"#\">利点</a>を挙げて、</li>\n<li>訪問者をリードに転換しましょう。</li>\n</ul>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.defaultEmail": {
+    "message": "<h2>見出し</h2><p>Eメールにテキストを追加します。</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "リッチテキストコンテンツ",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "リッチテキスト",
+    "description": "",
+    "placeholders": null
+  }
+}

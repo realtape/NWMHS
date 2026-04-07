@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "ईमेल एड्रेस",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "फ़ोन नंबर",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "फ़ाइल डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "मीटिंग्स का लिंक",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "आपके पेजों में से एक",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "लिंक",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "मीटिंग्स का लिंक",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "नए टैब में लिंक खोलें",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "पेज",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "इनलाइन HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "बटन कॉन्टेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML जिसे बटन में रेंडर किया जाएगा। आप केवल उन्हीं टैग का उपयोग कर सकते हैं जो किसी <a> टैग के भीतर मान्य हैं।",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "यहाँ क्लिक करें",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "नए टैब में लिंक खोलें",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "एडवांस्ड",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "कस्टम CSS नियम",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "चयनकर्ता",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "यह वैल्यू CTA के चयनकर्ता के साथ संयुक्त है। उदाहरण के लिए ':होवर' ${ctaSelector}:होवर बन जाता है",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "स्टाइल",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "अपने स्टाइल नियम के लिए कस्टम CSS जोड़ें. उदाहरण के लिए: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Custom CSS क्लासेज़",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "अपने CTA लिंक में कस्टम CSS क्लासेज़ जोड़ें।",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "कस्टम CSS स्टाइलशीट",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "अपने CTA में एक कस्टम CSS स्टाइलशीट ऐड करें। उदाहरण के लिए: border-bottom: 3px solid #3e4d68; color: yellow;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "लीगेसी मार्कअप का प्रयोग करें",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "मौजूदा CSS का समर्थन करने के लिए लीगेसी मार्कअप में HTML सम्मिलित करें",
+    "description": "",
+    "placeholders": null
+  }
+}

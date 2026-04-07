@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filtr příspěvků",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Zobrazit vše",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Upozornění pro případ, že je k dispozici více položek, než lze zobrazit. Pokud odkaz použít nechcete, pole nevyplňujte",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Je-li zvolena možnost Výchozí, v šabloně blogu se použije aktuální blog, v jiných případech primární blog.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Vyberte blog, který chcete zobrazit",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximální počet hodnot filtru, které se mají zobrazit",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Seznam hodnot pro odkazy na filtry",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Značky",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autoři",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Měsíce",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Příspěvky podle štítků",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Název seznamu, který se zobrazí",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Název",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Počet příspěvků",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Řazení hodnot pro odkazy na filtry",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Zobrazit všechny filtry",
+    "description": "",
+    "placeholders": null
+  }
+}

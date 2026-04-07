@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "عنوان البريد الإلكتروني",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "رقم الهاتف",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "تنزيل الملف",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "رابط الاجتماعات",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "إحدى صفحاتك",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "عنوان URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "الرابط إلى",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "رابط الاجتماعات",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "فتح الرابط في نافذة جديدة",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "الصفحة",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "HTML مضمنة",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "محتوى الزر",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "HTML الذي سيتم تقديمه ضمن الزر. يمكنك فقط استخدام العلامات الصالحة داخل <a> العلامة.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "انقر هنا",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "فتح الرابط في نافذة جديدة",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "متقدم",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "قواعد CSS المخصصة",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "المحدد",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "يتم دمج هذه القيمة مع محدد CTA. على سبيل المثال، يصبح \":hover\" هو ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "النمط",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "أضف CSS مخصصًا لقاعدة النمط الخاصة بك. على سبيل المثال: border-bottom: 3px Solid #3e4d68; اللون: أصفر.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "فئات CSS المخصصة",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "أضف فئات CSS مخصصة إلى رابط CTA الخاص بك.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "ورقة أنماط CSS مخصصة",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "أضف ورقة أنماط CSS مخصصة إلى CTA الخاص بك. على سبيل المثال: الحدود السفلية: 3px solid #3e4d68;  اللون: أصفر;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "استخدم التوصيف القديم",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "قم بإضفاء سمات على HTML باستخدام التوصيف القديم لدعم CSS الموجودة",
+    "description": "",
+    "placeholders": null
+  }
+}

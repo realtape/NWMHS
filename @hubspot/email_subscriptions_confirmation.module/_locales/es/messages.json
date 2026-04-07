@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Mensaje de confirmación de suscripciones",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Actualizaste correctamente tus preferencias de correo.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Mensaje sobre actualización de suscripción",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Subencabezado",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Si esta no es tu dirección de correo, ignora esta página, ya que lo más probable es que te hayamos enviado el correo asociado a esta página.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Cancelaste correctamente la suscripción a todas las comunicaciones por correo.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Mensaje sobre cancelación de suscripción",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Texto del encabezado",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Encabezado",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Texto del botón de gestionar preferencias",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Gestionar preferencias",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Gestionar preferencias de exención de responsabilidad de devolución",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "¿Te has equivocado? No te preocupes. Puedes cambiar tus preferencias.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Texto de éxito de suscripción y cancelación de suscripción único",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Cancelaste correctamente la suscripción de:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Texto genérico de la suscripción",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "tu tipo de suscripción seleccionado",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Nivel del encabezado",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Encabezado 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Encabezado 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Encabezado 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Encabezado 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Encabezado 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Encabezado 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Nivel del encabezado del correo electrónico",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Encabezado 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Encabezado 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Encabezado 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Encabezado 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Encabezado 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Encabezado 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Párrafo",
+    "description": "",
+    "placeholders": null
+  }
+}

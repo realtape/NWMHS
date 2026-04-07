@@ -1,0 +1,502 @@
+[
+  {
+    "label": "Image",
+    "name": "slides",
+    "type": "group",
+    "occurrence": {
+      "min": 0,
+      "max": 60,
+      "sorting_label_field": "slide.img",
+      "default": 9
+    },
+    "children": [
+      {
+        "label": "Image",
+        "name": "img",
+        "type": "image",
+        "inline_help_text": "For best results, use images with similar aspect ratios.",
+        "resizable": false
+      },
+      {
+        "label": "Link URL",
+        "name": "link_url",
+        "type": "link",
+        "inline_help_text": "If <strong>Settings &#8594; Click functionality</strong> is set to <strong>&ldquo;Navigate to url&rdquo;</strong> grid images will go to this link."
+      },
+      {
+        "label": "Hover message",
+        "name": "hover_message",
+        "type": "richtext",
+        "enabled_features": ["standard_emphasis", "alignment"],
+        "inline_help_text": "If <strong>Settings &#8594; Hover functionality</strong> is set to <strong>&ldquo;Show overlay&rdquo;</strong> this message will display on hover. Keep text brief for best results."
+      }
+    ],
+    "default": [
+      {
+        "img": {
+          "src": "",
+          "alt": ""
+        },
+        "hover_message": "Hover message"
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": ""
+        },
+        "hover_message": "Hover message"
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": ""
+        },
+        "hover_message": "Hover message"
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": ""
+        },
+        "hover_message": "Hover message"
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": ""
+        },
+        "hover_message": "Hover message"
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": ""
+        },
+        "hover_message": "Hover message"
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": ""
+        },
+        "hover_message": "Hover message"
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": ""
+        },
+        "hover_message": "Hover message"
+      },
+      {
+        "img": {
+          "src": "",
+          "alt": ""
+        },
+        "hover_message": "Hover message"
+      }
+    ]
+  },
+  {
+    "label": "Settings",
+    "name": "grid_settings",
+    "type": "group",
+    "children": [
+      {
+        "label": "Hover functionality",
+        "name": "group_image_hover",
+        "type": "group",
+        "children": [
+          {
+            "label": "Image hover effects",
+            "name": "image_hover_functionality",
+            "type": "choice",
+            "choices": [
+              ["zoom_out", "Zoom out"],
+              ["blur", "Blur"],
+              ["grayscale", "Grayscale"]
+            ],
+            "display": "checkbox",
+            "multiple": true,
+            "reordering_enabled": false,
+            "default": []
+          },
+          {
+            "label": "When to show overlay",
+            "name": "overlay_show_on",
+            "type": "choice",
+            "choices": [
+              ["always", "Always on"],
+              ["hover", "Hover"],
+              ["never", "Never"]
+            ],
+            "display": "select",
+            "required": true,
+            "default": "hover"
+          }
+        ]
+      },
+      {
+        "label": "Click functionality",
+        "name": "group_image_click",
+        "type": "group",
+        "children": [
+          {
+            "label": "Image click functionality",
+            "name": "image_click_functionality",
+            "type": "choice",
+            "choices": [
+              ["lightbox", "Open lightbox"],
+              ["navigate", "Navigate to URL"],
+              ["nothing", "Do nothing"]
+            ],
+            "display": "select",
+            "required": true,
+            "default": "lightbox"
+          }
+        ]
+      },
+      {
+        "label": "Grid type",
+        "name": "grid_type",
+        "type": "choice",
+        "choices": [["uniform", "Uniform grid"]],
+        "display": "select",
+        "locked": true,
+        "default": "uniform"
+      },
+      {
+        "label": "Columns",
+        "name": "group_uniform_display_options",
+        "type": "group",
+        "children": [
+          {
+            "label": "Number of columns",
+            "name": "number_of_columns",
+            "type": "number",
+            "display": "slider",
+            "max": 10,
+            "min": 1,
+            "step": 1,
+            "default": 3
+          },
+          {
+            "label": "Adjust mobile columns",
+            "name": "mobile_columns",
+            "type": "boolean",
+            "display": "checkbox",
+            "inline_help_text": "Show a different number of columns on mobile",
+            "default": true
+          },
+          {
+            "label": "Number of columns on mobile",
+            "name": "mobile_number_of_columns",
+            "type": "number",
+            "visibility": {
+              "controlling_field": "grid_settings.group_uniform_display_options.mobile_columns",
+              "controlling_value_regex": true,
+              "operator": "EQUAL"
+            },
+            "display": "slider",
+            "max": 4,
+            "min": 1,
+            "step": 1,
+            "default": 1
+          }
+        ]
+      },
+      {
+        "label": "Aspect ratio",
+        "name": "group_aspect_ratio",
+        "type": "group",
+        "children": [
+          {
+            "label": "",
+            "name": "aspect_ratio",
+            "type": "choice",
+            "choices": [
+              ["1/1", "1:1"],
+              ["3/2", "3:2"],
+              ["2/3", "2:3"],
+              ["4/3", "4:3"],
+              ["3/4", "3:4"],
+              ["16/9", "16:9"]
+            ],
+            "display": "select",
+            "default": "16/9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Default text",
+    "name": "default_text",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Default hover message",
+        "name": "default_hover_message",
+        "type": "text",
+        "locked": true,
+        "default": "<h3>Hover message title</h3><p>Here is a message to display on image hover.</p>"
+      },
+      {
+        "label": "Default lightbox message",
+        "name": "default_lightbox_message",
+        "type": "text",
+        "locked": true,
+        "default": "<h3>Lightbox message title</h3><p>Here is a message to display on the lightbox display of the image.</p>"
+      },
+      {
+        "label": "Default image alt text",
+        "name": "default_image_alt_text",
+        "type": "text",
+        "locked": true,
+        "default": "Default image alt text"
+      },
+      {
+        "label": "Grid aria label",
+        "name": "grid_aria_label",
+        "type": "text",
+        "locked": true,
+        "default": "Image grid with {{ image_count }} images."
+      },
+      {
+        "label": "Close button",
+        "name": "default_close_button",
+        "type": "text",
+        "locked": true,
+        "default": "Close lightbox"
+      },
+      {
+        "label": "Previous button",
+        "name": "lightbox_previous_button",
+        "type": "text",
+        "locked": true,
+        "default": "Previous image"
+      },
+      {
+        "label": "Next button",
+        "name": "lightbox_next_button",
+        "type": "text",
+        "locked": true,
+        "default": "Next image"
+      }
+    ]
+  },
+  {
+    "label": "Styles",
+    "name": "styles",
+    "type": "group",
+    "tab": "STYLE",
+    "children": [
+      {
+        "label": "Grid images",
+        "name": "grid_images",
+        "type": "group",
+        "children": [
+          {
+            "label": "Corner",
+            "name": "group_corner",
+            "type": "group",
+            "children": [
+              {
+                "label": "Radius",
+                "name": "corner",
+                "type": "number",
+                "display": "slider",
+                "max": 100,
+                "step": 1,
+                "suffix": "px"
+              }
+            ]
+          },
+          {
+            "label": "Spacing",
+            "name": "group_gap",
+            "type": "group",
+            "children": [
+              {
+                "label": "",
+                "name": "gap",
+                "type": "number",
+                "display": "text",
+                "inline_help_text": "Customize the space between your images.",
+                "max": 100,
+                "step": 2,
+                "suffix": "px",
+                "default": 10
+              }
+            ]
+          },
+          {
+            "label": "Overlay",
+            "name": "overlay",
+            "type": "group",
+            "children": [
+              {
+                "label": "Text",
+                "name": "text",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "",
+                    "name": "font",
+                    "type": "font",
+                    "visibility": {
+                      "hidden_subfields": {
+                        "bold": true,
+                        "italic": true,
+                        "underline": true
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "label": "Background",
+                "name": "background",
+                "type": "group",
+                "children": [
+                  {
+                    "label": "Background color",
+                    "name": "color",
+                    "type": "color"
+                  }
+                ]
+              },
+              {
+                "label": "Hover",
+                "name": "hover",
+                "type": "group",
+                "visibility": {
+                  "controlling_field": "grid_settings.group_image_hover.overlay_show_on",
+                  "controlling_value_regex": "always",
+                  "operator": "EQUAL"
+                },
+                "children": [
+                  {
+                    "label": "Text color",
+                    "name": "font",
+                    "type": "font",
+                    "visibility": {
+                      "hidden_subfields": {
+                        "font": true,
+                        "size": true,
+                        "bold": true,
+                        "italic": true,
+                        "underline": true
+                      }
+                    }
+                  },
+                  {
+                    "label": "Background color",
+                    "name": "color",
+                    "type": "color"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Lightbox images",
+        "name": "lightbox_images",
+        "type": "group",
+        "children": [
+          {
+            "label": "Aspect ratio",
+            "name": "group_aspect_ratio",
+            "type": "group",
+            "children": [
+              {
+                "label": "",
+                "name": "aspect_ratio",
+                "type": "choice",
+                "choices": [
+                  ["natural", "Natural aspect ratio"],
+                  ["1/1", "1:1"],
+                  ["3/2", "3:2"],
+                  ["2/3", "2:3"],
+                  ["4/3", "4:3"],
+                  ["3/4", "3:4"],
+                  ["16/9", "16:9"]
+                ],
+                "display": "select",
+                "default": "natural"
+              }
+            ]
+          },
+          {
+            "label": "Corner radius",
+            "name": "group_corner",
+            "type": "group",
+            "children": [
+              {
+                "label": "",
+                "name": "corner",
+                "type": "number",
+                "display": "slider",
+                "max": 100,
+                "step": 1,
+                "suffix": "px"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Lightbox navigation icons",
+        "name": "lightbox_navigation",
+        "type": "group",
+        "children": [
+          {
+            "label": "Left icon",
+            "name": "left_icon",
+            "type": "icon",
+            "default": {
+              "name": "angle-left",
+              "unicode": "f104",
+              "type": "SOLID"
+            }
+          },
+          {
+            "label": "Right icon",
+            "name": "right_icon",
+            "type": "icon",
+            "default": {
+              "name": "angle-right",
+              "unicode": "f105",
+              "type": "SOLID"
+            }
+          },
+          {
+            "label": "Icon color",
+            "name": "fill_color",
+            "type": "color"
+          },
+          {
+            "label": "Background color",
+            "name": "background_color",
+            "type": "color"
+          }
+        ]
+      },
+      {
+        "label": "Image grid",
+        "name": "container",
+        "type": "group",
+        "children": [
+          {
+            "label": "Spacing",
+            "name": "spacing",
+            "type": "spacing"
+          }
+        ]
+      }
+    ]
+  }
+]

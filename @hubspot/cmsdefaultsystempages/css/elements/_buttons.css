@@ -1,0 +1,59 @@
+.button-wrapper,
+.hs-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hs-button {
+  width: var(--button-width);
+  padding: var(--button-padding);
+  border: none;
+  background: var(--button-background-color);
+  color: var(--button-font-color);
+  cursor: pointer;
+  font-family: var(--button-font);
+  font-weight: var(--button-font-weight);
+  line-height: var(--standard-line-height);
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+}
+
+.hs-button:hover,
+.hs-button:focus {
+  background: var(--button-hover-background-color);
+  color: var(--button-font-color);
+}
+
+.hs-button:active {
+  background: var(--button-active-background-color);
+  color: var(--button-font-color);
+}
+
+.button-wrapper--secondary .hs-button {
+  border: var(--secondary-button-border);
+  background: var(--secondary-button-background-color);
+  color: var(--secondary-button-font-color);
+}
+
+.button-wrapper--secondary .hs-button:hover,
+.button-wrapper--secondary .hs-button:focus {
+  border: var(--secondary-button-hover-border);
+  background: var(--secondary-button-hover-background-color);
+  color: var(--secondary-button-hover-font-color);
+}
+
+.button-wrapper--secondary .hs-button:active {
+  border: var(--secondary-button-active-border);
+  background: var(--secondary-button-active-background-color);
+  color: var(--secondary-button-active-font-color);
+}
+
+.hs-button:disabled,
+.button-wrapper--secondary .hs-button:disabled {
+  border: none !important;
+  background: var(--button-disabled-background-color) !important;
+  color: var(--button-disabled-font-color) !important;
+  pointer-events: none;
+}

@@ -1,0 +1,39 @@
+<!--
+  templateType: error_page
+  isAvailableForNewContent: true
+-->
+{% set template_css = "../css/templates/error.css" %}
+{% set pageTitle = "Error 500 | Server error" %}
+{% set font_config = {
+  "Source Serif Pro": ["600"],
+  "Montserrat": ["300", "400", "500", "700"]
+} %}
+{% extends "../system-base.html" %}
+
+{% block body %}
+  <section class="section-wrapper section-wrapper--narrow section-wrapper--centered">
+    <div class="error-code">500</div>
+
+    {% module "error_heading"
+      path="@hubspot/rich_text",
+      html={{ "<h1>" ~ template_translations.error_500_heading.message ~ "</h1>" }}
+    %}
+
+    {% module "error_description"
+      path="@hubspot/rich_text",
+      html={{ "<p>" ~ template_translations.error_500_description.message ~ "</p>" }}
+    %}
+
+    {% module "return_button"
+      path="@hubspot/button",
+      extra_classes="button-wrapper",
+      button_text={{ template_translations.error_500_button.message }},
+      link={
+        "url": {
+          "type": "EXTERNAL",
+          "href": "/"
+        }
+      }
+    %}
+  </section>
+{% endblock body %}

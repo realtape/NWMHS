@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "Betalingskedule",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.scheduled_payments.default": {
+    "message": "Geskeduleerde betalings",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.default": {
+    "message": "Bedrag",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.label": {
+    "message": "Bedrag",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.default": {
+    "message": "Verskuldig",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.label": {
+    "message": "Verskuldig",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.label": {
+    "message": "Betalingskedulekolomme",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.default": {
+    "message": "Naam",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.label": {
+    "message": "Naam",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.default": {
+    "message": "<h2>Betalingskedule</h2>",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.label": {
+    "message": "Opskrif van geskeduleerde betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.due_now.default": {
+    "message": "Nou verskuldig",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.paid.default": {
+    "message": "Betaal",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.processing.default": {
+    "message": "Betaling word verwerk",
+    "description": "",
+    "placeholders": null
+  }
+}

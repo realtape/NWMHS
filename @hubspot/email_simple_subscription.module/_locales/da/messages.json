@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Afmeldelse af backup",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Knaptekst",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Afmeld",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Afmeld e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Overskrift",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "E-mail-input pladsholdertekst",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Din mailadresse",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "E-mail-input hjælpetekst",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Fejlmeddelelse",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Der var et problem med at indlæse siden. Prøv at bruge det samme link fra en nyere e-mail, eller kontakt virksomheden for at opdatere dine abonnementspræferencer.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Underoverskrift",
+    "description": "",
+    "placeholders": null
+  }
+}

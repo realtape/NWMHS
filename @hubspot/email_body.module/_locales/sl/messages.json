@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Jedro e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hi&nbsp;{{contact.firstname}},</p>\n<p>Opišite, kaj lahko ponudite stranki. Zakaj bi brali? Kaj ste jim obljubili v zadevi? Povej jim kaj zanimivega. Nasmejte jih. Spravite jih v jok. No, tega morda raje ne ...</p>\n<p>Uporabite seznam za:</p>\n<ul>\n<li>Pojasnite vrednost svoje ponudbe</li>\n<li>Bralca opomnite, kaj bo pridobil z dejanjem</li>\n<li>Opišite svoje spretnosti z naštetimi točkami</li>\n<li>Zagotovite preprost pregled vsebine</li>\n</ul>\n<p><a href=\"http://hubspot.com\">POVEZAVA DO STRANI NA VAŠEM SPLETNEM MESTU</a>  (To je resnično pomembno.)</p>\n<p>Zdaj pa vse skupaj zavijte z resničnim majhnim opomnikom, kako zelo jih imate radi.</p>\n<p>Kakšen priliznjenec ste.</p>\n<p>S spoštovanjem,</p>\n<p>Vaše ime</p> ",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Telo e-pošte",
+    "description": "",
+    "placeholders": null
+  }
+}

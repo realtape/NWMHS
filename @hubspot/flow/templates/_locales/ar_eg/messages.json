@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "لقد انتهت صلاحية هذا العرض",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "لقد انتهت صلاحية العرض {{ personalization_token('quote.hs_quote_number', '') }} في {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "يرجى <a href='#'>الاتصال بمندوب المبيعات الخاص بك</a> للحصول على مزيد من التفاصيل.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "تكرار الفوترة",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "سعر الوحدة",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "السعر",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "المنتجات والخدمات",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "الكمية",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "وحدة إدارة المخزون SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "ملخص<br>تنفيذي",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "الشروط والأحكام",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "التعليقات",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "قبول<br>المشروع",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "عنوان فرعي",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "قصتنا<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "نحن متحمسون<br>لما نفعله",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "ما يقوله<br>عملاؤنا عنا",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "ملخص<br>المشروع",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "أهدافنا",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "بيان<br>العمل",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "تقدير<br>المشروع",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "العقد<br>",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "تم الإعداد من أجل",
+    "description": "",
+    "placeholders": null
+  }
+}

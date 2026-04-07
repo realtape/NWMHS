@@ -1,0 +1,37 @@
+{
+  "logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Chiều cao tối đa của logo",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Không áp dụng khi thay thế logo mặc định",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.help_text": {
+    "message": "Bạn có thể chọn ghi đè logo được dùng trên mẫu này bằng cách sử dụng nút chuyển đổi này.",
+    "description": "",
+    "placeholders": null
+  },
+  "override_logo.label": {
+    "message": "Ghi đè logo mặc định",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Theo mặc định, báo giá của bạn sẽ hiện logo công ty từ Bộ công cụ thương hiệu trong phần Mặc định tài khoản hoặc Cài đặt trang website.",
+    "description": "",
+    "placeholders": null
+  }
+}

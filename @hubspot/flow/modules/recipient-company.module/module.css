@@ -1,0 +1,18 @@
+.recipient-company {
+  display: flex;
+  flex-direction: column;
+}
+
+.hs-quotes--quote .recipient-company {
+  align-items: flex-end;
+}
+
+.recipient-company__name {
+  font-weight: 600;
+}
+
+@media print, screen and (max-width: 1175px) {
+  .hs-quotes--quote .recipient-company {
+    align-items: flex-start;
+  }
+}

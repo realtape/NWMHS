@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Галерея зображень",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Супровідний підпис",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Відкрити посилання в новій вкладці",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Показати супровідний підпис",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL-адреса для посилання",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Зображення",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Змінна висота",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Фіксована висота",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Пошук",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Змінна висота",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Показати кнопки навігації",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Навігація по мініатюрах",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Стандартний бігунок",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Галерея спливних вікон із затемненням фона",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Пошук",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Режим показу",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Циклічно демонструвати слайди",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Пошук",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Накладіть супровідні підписи на зображення",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Завжди розміщувати супровідні підписи під зображенням",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Положення супровідного підпису",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Час у секундах між",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Затемнення",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Слайд",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Пошук",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Зміна слайдів",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Рядки для галереї спливних вікон із затемненням фону",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Автоматичний перехід вперед",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Цей модуль виведено з використанння на користь двох нових поліпшених модулів, Image Slider і Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Дізнатися більше.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

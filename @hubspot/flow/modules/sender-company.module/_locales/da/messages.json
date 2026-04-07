@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Afsendervirksomhed",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_image.inline_help_text": {
+    "message": "Hvis du vælger et billede, vil det blive vist som dit virksomhedslogo",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_image.label": {
+    "message": "Afsendervirksomhedens image",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_address.label": {
+    "message": "Afsenders virksomhedsadresse",
+    "description": "",
+    "placeholders": null
+  },
+  "sender_company_address.default": {
+    "message": "<span style='font-weight: bold;'>{{ personalization_token('template_data.quote.hs_sender_company_name', '') }}</span><br>{{ personalization_token('template_data.quote.hs_sender_company_address', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_address2', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_city', '')}}, {{ personalization_token('template_data.quote.hs_sender_company_state', '')}} {{ personalization_token('template_data.quote.hs_sender_company_zip', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_company_country', '') }}<br>",
+    "description": "",
+    "placeholders": null
+  }
+}

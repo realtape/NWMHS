@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Đăng ký email với blog",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Lựa chọn Mặc định sẽ sử dụng blog hiện tại khi được dùng trong mẫu blog hoặc blog chính khi được dùng ở nơi khác.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Chọn blog để hiển thị",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Đăng ký ở đây!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Tiêu đề để hiển thị ở phía trên biểu mẫu",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Phản hồi nội tuyến cho người dùng",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Cảm ơn bạn đã đăng ký!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Để biểu mẫu đăng ký blog xuất hiện, bạn cần bật tính năng đăng ký cho blog. Thao tác này có thể được thực hiện trong cài đặt. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Tìm hiểu thêm</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Mức đầu đề",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Chọn cấp độ tiêu đề. Các tiêu đề phải được lồng theo cách phân cấp dựa trên nội dung của bạn. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Thông tin khác</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

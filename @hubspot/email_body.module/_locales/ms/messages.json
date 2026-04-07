@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Isi E-mel Utama",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hai&nbsp;{{contact.firstname}},</p>\n<p>Terangkan perkara yang akan anda tawarkan kepada pelanggan. Mengapakah harus pelanggan membaca? Apakah yang anda janjikan dalam baris subjek? Beritahu pelanggan sesuatu yang hebat. Buatkan pelanggan tertawa. Buatkan pelanggan menangis. Baiklah, mungkin jangan buat begitu...</p>\n<p>Gunakan senarai untuk:</p>\n<ul>\n<li>Menerangkan nilai tawaran anda</li>\n<li>Mengingatkan pembaca tentang faedah yang akan mereka dapat jika mereka bertindak</li>\n<li>Menunjukkan kemahiran anda menggunakan titik bulet</li>\n<li>Menjadikan kandungan anda mudah untuk diimbas</li>\n</ul>\n<p><a href=\"http://hubspot.com\">PAUTAN KE HALAMAN PENDARATAN DI LAMAN WEB ANDA</a> (Bahagian ini amat penting.)</p>\n<p>Sekarang rumuskan semua perkara dengan peringatan bernas tentang betapa anda menghargai mereka.</p>\n<p>Oh. Manis mulut anda.</p>\n<p>Yang benar,</p>\n<p>Nama anda</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Isi e-mel",
+    "description": "",
+    "placeholders": null
+  }
+}

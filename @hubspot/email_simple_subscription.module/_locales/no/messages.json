@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Avslutt sikkerhetskopi",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Knappetekst",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Avslutt abonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Stopp e-postabonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Overskrift",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Plassholdertekst for e-post",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "E-postadressen din:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Hjelpetekst for e-post",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Feilmelding",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Det oppsto et problem ved lasting av siden. Prøv å bruke samme lenke fra en nyere e-post, eller ta kontakt med selskapet for å oppdatere foretrukne innstillinger for abonnementet.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Underoverskrift",
+    "description": "",
+    "placeholders": null
+  }
+}

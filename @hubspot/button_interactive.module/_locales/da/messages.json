@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Knap (interativ)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL til link",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "E-mailadresse",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Fil",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Luk CTA",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "E-mailadresse",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonnummer",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Fildownload",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Mødelink",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Én af dine sider",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Én af dine blogsider",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Link til",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Mødelink",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Åben link i ny fane",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Side",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Farve",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Klikket på",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Baggrund",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Kant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Kant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Hjørne",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Tilføj et afrundet hjørne til din knap",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Farve",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Svævende baggrund",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Kant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Svævende kant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Hold over",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Skrifttype",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Svævende tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stile",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Skrifttype",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Tekstudfyldning",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Tilføj et knap-link her",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Knaptekst",
+    "description": "",
+    "placeholders": null
+  }
+}

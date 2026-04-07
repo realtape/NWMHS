@@ -1,0 +1,56 @@
+{
+  "label": "Social Sharing",
+  "host_template_types": [
+    "EMAIL"
+  ],
+  "icon": "../img/icon/email-social-sharing.svg",
+  "other_assets": [
+    {
+      "resource_id": null,
+      "url": "../img/facebook-social-icon.png",
+      "name": "facebook-social-icon.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/linkedin-social-icon.png",
+      "name": "linkedin-social-icon.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/twitter-social-icon.png",
+      "name": "twitter-social-icon.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/pinterest-social-icon.png",
+      "name": "pinterest-social-icon.png",
+      "autoload": false
+    },
+    {
+      "resource_id": null,
+      "url": "../img/email-social-icon.png",
+      "name": "email-social-icon.png",
+      "autoload": false
+    }
+  ],
+  "extra_classes": "widget-type-social_sharing",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "is_available_for_new_content": false,
+  "categories": [
+    "social"
+  ],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

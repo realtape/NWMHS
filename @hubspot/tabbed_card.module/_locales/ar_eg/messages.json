@@ -1,0 +1,242 @@
+{
+  "name": {
+    "message": "بطاقة مبوبة",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.label": {
+    "message": "نص افتراضي",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.left_nudge_button_label.default": {
+    "message": "تمرير علامات التبويب إلى اليسار",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.right_nudge_button_label.default": {
+    "message": "تمرير علامات التبويب إلى اليمين",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tabs_list_aria_label.default": {
+    "message": "قائمة علامات التبويب",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.color.label": {
+    "message": "اللون",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.background.label": {
+    "message": "الخلفية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.border.label": {
+    "message": "الحد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.border.label": {
+    "message": "الحد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.label": {
+    "message": "المحتوى",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.label": {
+    "message": "التباعد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.content.spacing.spacing.label": {
+    "message": "التباعد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "الأنماط",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.color.label": {
+    "message": "اللون",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.background.label": {
+    "message": "الخلفية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.label": {
+    "message": "نشِط",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.font.label": {
+    "message": "الخط",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.text.label": {
+    "message": "النص",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_top_sides.label": {
+    "message": "الحدود العلوية/الجانبية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.active.group_bottom.label": {
+    "message": "الحد السُفلي",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.color.label": {
+    "message": "اللون",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.background.label": {
+    "message": "الخلفية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.label": {
+    "message": "التمرير",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.font.label": {
+    "message": "الخط",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.text.label": {
+    "message": "النص",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_top_sides.label": {
+    "message": "الحدود العلوية/الجانبية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.hover.group_bottom.label": {
+    "message": "الحد السُفلي",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.color.label": {
+    "message": "اللون",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.background.label": {
+    "message": "الخلفية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.label": {
+    "message": "غير نشط",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.font.label": {
+    "message": "الخط",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.text.label": {
+    "message": "النص",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_top_sides.label": {
+    "message": "الحدود العلوية/الجانبية",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.inactive.group_bottom.label": {
+    "message": "الحد السُفلي",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.label": {
+    "message": "علامات التبويب",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.label": {
+    "message": "التباعد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabs.spacing.spacing.label": {
+    "message": "التباعد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.label": {
+    "message": "بطاقة مبوبة",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.label": {
+    "message": "التباعد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.spacing.spacing.label": {
+    "message": "التباعد",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.tabbed_card.border.label": {
+    "message": "الحد",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.default": {
+    "message": "<p>تعتبر علامات التبويب طريقة فعالة لتنظيم المعلومات على صفحة موقع ويب عندما يكون هناك قدر كبير من المحتوى يحتاج إلى التقسيم إلى فئات مختلفة. قم بتسمية علامات التبويب الخاصة بك بكلمة أو كلمتين تحدد كل فئة من فئات المعلومات.</p><p>عند تصميم علامات التبويب الخاصة بك، قم بتمييز علامة التبويب المحددة بإعطائها لونًا يختلف عن علامات التبويب غير المحددة، بحيث يسهل على الزائرين التنقل.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.content.label": {
+    "message": "المحتوى",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.label": {
+    "message": "علامات التبويب",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.default": {
+    "message": "عنصر علامة التبويب",
+    "description": "",
+    "placeholders": null
+  },
+  "tabs.tab_label.label": {
+    "message": "تسمية",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.label": {
+    "message": "ارتفاع النص الثابت",
+    "description": "",
+    "placeholders": null
+  },
+  "fixed_height.help_text": {
+    "message": "يضبط محتوى كل علامة تبويب ليكون بنفس الارتفاع",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "label": "Password Prompt",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "icon": "../img/icon/edited-locked.svg",
+  "extra_classes": "widget-type-password_prompt",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "is_available_for_new_content": false,
+  "categories": ["functionality"],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_BLOG",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_PAGE",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

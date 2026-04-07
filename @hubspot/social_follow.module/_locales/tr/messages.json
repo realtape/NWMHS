@@ -1,0 +1,227 @@
+{
+  "inline_help_text": {
+    "message": "Sosyal medya profillerinize bağlantılar ekleyin. Yeniden sıralamak için sürükleyip bırakın. Simgeler URL'ye göre otomatik olarak doldurulacaktır, ancak geçersiz kılınabilirler.",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Sosyal takip",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.label": {
+    "message": "Sosyal bağlantılar",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.link.label": {
+    "message": "Bağlantı",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.open_in_new_window.label": {
+    "message": "Bağlantıyı yeni pencerede aç",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.is_podcast.label": {
+    "message": "Bu bağlantı bir podcast'tir",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.is_podcast.inline_help_text": {
+    "message": "Bir &ldquo;podcast&rdquo görüntülemek için bu kutuyu işaretleyin; varsayılan veya özel simge yerine simge.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_alt_text.label": {
+    "message": "Alternatif metni özelleştir",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_alt_text.inline_help_text": {
+    "message": "Alternatif metin otomatik olarak doldurulur ancak burada geçersiz kılınabilirler.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.aria_label.label": {
+    "message": "Aria etiketi",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.aria_label.help_text": {
+    "message": "Bu simgenin neyi temsil ettiği ile ilgili bir açıklama, örn. (Bizi Facebook'ta takip edin). Bu, ekran okuyucular tarafından simgeyi görme engelli olan kullanıcılara açıklamak amacı ile kullanılır.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_icon.label": {
+    "message": "Simgeyi özelleştir",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_icon.inline_help_text": {
+    "message": "Simgeler otomatik olarak doldurulur ancak burada geçersiz kılınabilirler.",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.custom_icon.label": {
+    "message": "Özel simge",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.facebook_link_aria_label.default": {
+    "message": "Bizi Facebook'ta takip et",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.twitter_link_aria_label.default": {
+    "message": "Bizi X üzerinden takip edin",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.youtube_link_aria_label.default": {
+    "message": "Bize YouTube’da abone olun",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.linkedin_link_aria_label.default": {
+    "message": "Bizi LinkedIn'de takip edin",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.instagram_link_aria_label.default": {
+    "message": "Bizi Instagram'da takip edin",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pinterest_link_aria_label.default": {
+    "message": "Bizi Pinterest'te takip edin",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.website_link_aria_label.default": {
+    "message": "Web sitemizi ziyaret edin",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.spotify_link_aria_label.default": {
+    "message": "Bizi Spotify'da dinleyin",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.yelp_link_aria_label.default": {
+    "message": "Yelp'teki yorumlarımızı okuyun",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.soundcloud_link_aria_label.default": {
+    "message": "Bizi SoundCloud'da dinleyin",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tiktok_link_aria_label.default": {
+    "message": "Bizi TikTok'ta takip edin",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.github_link_aria_label.default": {
+    "message": "Bizi GitHub'da takip edin",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.podcast_link_aria_label.default": {
+    "message": "Podcast'imizi dinleyin",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.email_link_aria_label.default": {
+    "message": "Bize e-posta gönderin",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiller",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.label": {
+    "message": "Simge",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.label": {
+    "message": "Boyut",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-small": {
+    "message": "küçük",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-regular": {
+    "message": "orta",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-large": {
+    "message": "büyük",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.color.label": {
+    "message": "Renk",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.label": {
+    "message": "Arka plan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.label": {
+    "message": "Şekil",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.none": {
+    "message": "hiçbiri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.square": {
+    "message": "kare",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.rounded": {
+    "message": "yuvarlak",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.circle": {
+    "message": "daire",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.color.label": {
+    "message": "Renk",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.label": {
+    "message": "Düzen",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.alignment.label": {
+    "message": "Hizalama",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.spacing.label": {
+    "message": "Aralık",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "לחצן ׁׁ(אינטראקטיבי)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "כתובת URL של קישור",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "כתובת דוא\"ל",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "קובץ",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "סגור קריאה לפעולה",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "כתובת דוא\"ל",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "מספר טלפון",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "הורדת קובץ",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "קישור לפגישות",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "אחד מהעמודים שלך",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "אחד הדפים בבלוג שלך",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "כתובת URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "צור קישור אל",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "קישור לפגישות",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "פתח קישור בכרטיסייה חדשה",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "עמוד",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "בלוג",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "צבע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "נלחץ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "רקע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "גבול",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "גבול",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "פינה",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "הוסף פינה מעוגלת ללחצן",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "רדיוס",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "צבע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "ריחוף - רקע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "גבול",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "ריחוף - גבול",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "ריחוף",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "גופן",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "ריחוף - טקסט",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "סגנונות",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "גופן",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "טקסט",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "ריווח טקסט",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "הוסף קישור ללחצן כאן",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "טקסט לחצן",
+    "description": "",
+    "placeholders": null
+  }
+}

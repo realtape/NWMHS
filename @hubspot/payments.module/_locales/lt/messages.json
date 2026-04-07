@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Mokėjimas",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Įtraukti piktogramą",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Mygtuko nuoroda",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Kita",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Naudoti apmokėjimo nuorodą",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Mygtuko objektas",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Pirkimo užbaigimas",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Mygtuko tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Atverti naujame lange",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Slankioji sanklota",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Atsiskaitymo elgsena",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Užverti atsiskaitymo langą",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Piktograma",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Piktograma",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Kairėje",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Dešinėje",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Padėtis",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Mokėjimo nuoroda",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Lygiuotė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Lygiuotė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Fonas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Kampas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Spindulys",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Fonas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Piktograma",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Laikyti virš",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Piktograma",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Dydis",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Tarpas tarp piktogramos ir mygtuko teksto.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Tarpai",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiliai",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Tarpai",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Tarpai",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  }
+}

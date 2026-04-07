@@ -1,0 +1,111 @@
+[
+  {
+    "name": "heading_text",
+    "label": "Heading content",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "Payment"
+  },
+  {
+    "name": "heading_tag",
+    "label": "Heading level",
+    "help_text": "Choose a heading level. H1 is the largest, followed by H2, and so on",
+    "required": false,
+    "locked": false,
+    "display": "select",
+    "choices": [
+      ["h1", "H1"],
+      ["h2", "H2"],
+      ["h3", "H3"],
+      ["h4", "H4"],
+      ["h5", "H5"],
+      ["h6", "H6"]
+    ],
+    "type": "choice",
+    "default": "h3"
+  },
+  {
+    "name": "checkout",
+    "label": "Payment button text",
+    "inline_help_text": "Make sure it’s clear that clicking this button will allow your customer to pay.",
+    "required": true,
+    "locked": false,
+    "type": "text",
+    "default": "Pay now"
+  },
+  {
+    "name": "need_signature",
+    "label": "Explanation text when signatures are needed",
+    "inline_help_text": "If signatures are required before payment, your customer will see this message until all required signatures are completed.",
+    "required": true,
+    "locked": false,
+    "type": "text",
+    "default": "Payment can't be made because the quote isn't fully signed."
+  },
+  {
+    "name": "make_first_payment",
+    "label": "Button text for payment schedules",
+    "inline_help_text": "Your customer will see this in the payment button until they've paid the first installment.",
+    "required": true,
+    "type": "text",
+    "default": "Make first payment:"
+  },
+  {
+    "name": "checkout_error",
+    "label": "Checkout error message",
+    "inline_help_text": "Tell your customer what to do when there's a problem starting checkout.",
+    "required": true,
+    "locked": false,
+    "type": "richtext",
+    "default": "There was a problem setting up checkout. Please contact the person who sent you this quote."
+  },
+  {
+    "name": "payment_status_error",
+    "label": "Payment status error message",
+    "inline_help_text": "Tell your customer to refresh the page when fetching payment status fails.",
+    "required": true,
+    "locked": false,
+    "type": "richtext",
+    "default": "There was a problem loading the payment status for this quote. Please try refreshing the page."
+  },
+  {
+    "name": "paid",
+    "label": "Paid text",
+    "required": true,
+    "locked": false,
+    "type": "text",
+    "default": "Paid"
+  },
+  {
+    "name": "payment_processing",
+    "label": "Payment processing text",
+    "required": true,
+    "locked": false,
+    "type": "text",
+    "default": "Payment processing"
+  },
+  {
+    "name": "test_mode",
+    "label": "Test mode",
+    "required": false,
+    "locked": true,
+    "type": "text",
+    "default": "This is a test quote, so it can't collect real payments."
+  },
+  {
+    "name": "payment_date_time",
+    "label": "Payment date time",
+    "required": false,
+    "locked": true,
+    "type": "text",
+    "default": "Paid at [[ paid_time ]] on [[ paid_date ]]"
+  },
+  {
+    "name": "payment_removed",
+    "label": "Checkout error message",
+    "locked": true,
+    "type": "text",
+    "default": "To checkout, please contact the person who sent you this quote."
+  }
+]

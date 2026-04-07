@@ -1,0 +1,29 @@
+[
+  {
+    "id": "c6be9c54-b3c7-c0ac-7989-8342e434eba5",
+    "name": "value",
+    "label": "Heading content",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "A clear and bold heading"
+  },
+  {
+    "id": "423adb89-a14b-a292-6c33-e3e2bc6d68d5",
+    "name": "header_tag",
+    "label": "Heading level",
+    "help_text": "Choose a heading level. H1 is the largest, followed by H2, and so on",
+    "sortable": false,
+    "required": false,
+    "locked": false,
+    "display": "select",
+    "placeholder": "Select a heading type",
+    "choices": [["h1", "H1"], ["h2", "H2"], ["h3", "H3"], ["h4", "H4"], ["h5", "H5"], ["h6", "H6"]],
+    "type": "choice",
+    "default": "h1"
+  }
+]

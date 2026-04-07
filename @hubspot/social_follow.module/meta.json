@@ -1,0 +1,8 @@
+{
+  "label": "Social follow",
+  "host_template_types": ["PAGE", "BLOG_LISTING", "BLOG_POST"],
+  "inline_help_text": "Add links to your social media profiles. Drag and drop to re-order. Icons will be auto-populated based on URL, but they can be overridden.",
+  "icon": "../img/icon/follow-me-module-icon.svg",
+  "smart_type": "NOT_SMART",
+  "categories": ["social"]
+}

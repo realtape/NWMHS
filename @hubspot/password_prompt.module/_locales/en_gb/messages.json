@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Password prompt",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Password placeholder",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Password",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Bad password message",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Sorry, please try again.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Submit",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Submit button text",
+    "description": "",
+    "placeholders": null
+  }
+}

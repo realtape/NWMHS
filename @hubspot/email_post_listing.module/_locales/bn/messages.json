@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "পোস্ট তালিকা করা",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "গত ছয় মাসে - সর্বাধিক জনপ্রিয়",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "সর্বকালের - সর্বাধিক জনপ্রিয়",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "গত মাসে - সর্বাধিক জনপ্রিয়",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "গত বছরে - সর্বাধিক জনপ্রিয়",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "অতি সাম্প্রতিক",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "সার্চ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "এর ভিত্তিতে ব্লগপোস্টগুলি তালিকাভুক্ত করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "যখন কোনও ব্লগ টেমপ্লেটে ব্যবহার করা হবে ডিফল্ট বর্তমান ব্লগটি ব্যবহার করবে অথবা যখন অন্যত্র ব্যবহৃত হবে তখন প্রাথমিক ব্লগ ব্যবহার করবে।",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "প্রদর্শন করার জন্য ব্লগ নির্বাচন করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "সর্বাধিক ব্লগ পোস্ট তালিকাভুক্ত করতে হবে",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "সাম্প্রতিক পোস্টগুলি ",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "প্রদর্শনের জন্য শিরোনাম তালিকা",
+    "description": "",
+    "placeholders": null
+  }
+}

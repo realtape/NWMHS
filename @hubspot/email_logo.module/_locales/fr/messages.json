@@ -1,0 +1,62 @@
+{
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "En-tête 5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "En-tête 6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Sélectionnez un niveau d'en-tête. L'en-tête 1 est le plus grand, suivi de l'en-tête 2, et ainsi de suite",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Niveau d'en-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "Si aucune URL n'est spécifiée, votre logo sera lié à votre domaine principal",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "URL du lien",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Ouvrir le lien dans un nouvel onglet lorsque les visiteurs cliquent dessus",
+    "description": "",
+    "placeholders": null
+  }
+}

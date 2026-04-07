@@ -1,0 +1,43 @@
+.hs-quotes--flow .description {
+  padding-top: 58px;
+}
+
+.hs-quotes--flow .line-items {
+  text-align: center;
+}
+
+.hs-quotes--flow .line-items .container {
+  display: inline-block;
+}
+
+.hs-quotes--quote .description,
+.hs-quotes--quote .line-items,
+.hs-quotes--quote .future-payment-summary,
+.hs-quotes--quote .comments,
+.hs-quotes--quote .terms,
+.hs-quotes--quote .signature {
+  padding-top: 50px;
+}
+
+.hs-quotes--quote {
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .hs-quotes.hs-quotes--flow .terms {
+    padding-top: 25px;
+  }
+}
+
+@media print {
+  .hs-quotes--quote .description,
+  .hs-quotes--quote .line-items,
+  .hs-quotes--quote .future-payment-summary,
+  .hs-quotes--quote .terms,
+  .hs-quotes--quote .signature {
+    padding-top: 20px;
+  }
+  .hs-quotes--flow .line-items .container {
+    display: block;
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Tiêu đề phần",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "Đầu đề phụ ít nổi bật hơn",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Đầu đề phụ của phần",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Đầu đề rõ ràng và in đậm",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Nội dung đầu đề của phần",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Chọn mức đầu đề. H1 là lớn nhất, sau đó là H2, v.v.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Mức đầu đề",
+    "description": "",
+    "placeholders": null
+  }
+}

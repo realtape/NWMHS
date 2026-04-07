@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Įrašo filtras",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Žr. visus",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Rodytinas tekstas, jei galima pateikti daugiau nei didžiausią reikšmę. Norėdami nuorodą praleisti, lauką palikite tuščią",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Taikant numatytąsias nuostatas, naudojant tinklaraščio šablone bus taikomas esamas tinklaraštis, o naudojant kitur – pirminis tinklaraštis.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Pasirinkite rodytiną tinklaraštį",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Didžiausias rodomų filtro reikšmių skaičius",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Paieška",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Filtro nuorodų reikšmių sąrašas",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Žymės",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autoriai",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Mėnesiai",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Įrašai pagal žymę",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Rodytinas sąrašo pavadinimas",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Mokėjimo pavadinimas",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Įrašų skaičius",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Paieška",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Filtro nuorodų reikšmių tvarka",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Rodyti visus filtrus",
+    "description": "",
+    "placeholders": null
+  }
+}

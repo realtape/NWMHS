@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "立即付款",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "付款按钮文本",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "确保明确告知客户，点击此按钮将付款。",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "设置结账时出现问题。请与向你发送此报价的人员联系。",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "结账错误消息",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "告诉你的客户在开始结账时遇到问题该怎么办。",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "选择标题级别。H1 最大，H2 次之，以此类推",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "标题级别",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "付款",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "标题内容",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "进行第一次付款：",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "你的客户将在付款按钮中看到这项，直到他们支付了第一期付款。",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "付款安排的按钮文本",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "付款",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "因报价未完全签名，无法付款。",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "需要签名时的说明文本",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "如果在付款前需要签名，则你的客户将在完成所有必需的签名后看到此消息。",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "已支付",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "付费文本",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "付款时间：[[ paid_date ]] [[ paid_time ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "正在处理付款",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "付款处理文本",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "加载此报价的付款状态时出错。请尝试重新刷新页面。",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "付款状态错误消息",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "告知你的客户，在获取付款状态失败时刷新页面。",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "这是测试报价，因此它无法收取实际付款。",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "你可以在使用此模板创建报价时决定是否要收集付款。",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "请联系发送此报价给你的人员结账。",
+    "description": "",
+    "placeholders": null
+  }
+}

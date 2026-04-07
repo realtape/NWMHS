@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Horizontálne",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Vertikálne",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Horizontálne ponuky zobrazujú položky vedľa seba, vertikálne zhora nadol",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientácia",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Položky podradenej ponuky sa zobrazia, keď podržíte kurzor myši nad nadradenou položkou. Ak možnosť nie je označená, položky podradenej ponuky sa budú zobrazovať vždy",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Povoliť rozbaľovaciu ponuku?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Strom ponúk je štruktúra stránky, ktorá generuje položky v ponuke. Možno použiť jeden strom ponúk s viacerými ponukami. Môžete vytvoriť viaceré ponuky pre komplexné štruktúry webu. Ponuky sa vytvárajú a spravujú v nastaveniach obsahu",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Ponuka",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Určuje počet podradených položiek stromu ponúk, ktoré možno v ponuke rozbaliť",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Max. úrovne",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Ponuka",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Ponuka štýlu popisu cesty (používa horizontálny tok)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dynamické podľa stránky – zobrazovať stránky v ponuke, ktoré súvisia so zobrazovanou stránkou",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statické – vždy zobrazovať stránky najvyššej úrovne v ponuke",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dynamické podľa sekcie – zobrazovať stránky v ponuke, ktoré súvisia so zobrazenou sekciou",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "Pokročilé ponuky zobrazujú rôzne časti stromu ponúk na základe toho, ktorá stránka sa zobrazuje.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Typ pokročilej ponuky",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  }
+}

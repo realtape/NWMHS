@@ -1,0 +1,137 @@
+{
+  "link_to.choices.email_address": {
+    "message": "E-mail-cím",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Telefonszám",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Fájl letöltése",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Megbeszélések hivatkozása",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Az Ön egyik oldala",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL-cím",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Hivatkozás erre",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Megbeszélések hivatkozása",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Hivatkozás megnyitása új lapon",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Oldal",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Beágyazott HTML",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Gomb tartalma",
+    "description": "",
+    "placeholders": null
+  },
+  "html.help_text": {
+    "message": "Az a HTML, amely a gombon belül renderelve lesz. Csak olyan címkék használhatók, amelyek egy <a> címkén belül érvényesek.",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "Kattintson ide",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Hivatkozás megnyitása új lapon",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.label": {
+    "message": "Speciális",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rule.label": {
+    "message": "Egyéni CSS szabályok",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.label": {
+    "message": "Választó",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.selector.help_text": {
+    "message": "Az érték kombinálva van a CTA választójával. Például: a ':hover' értékből ez lesz: ${ctaSelector}:hover",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.label": {
+    "message": "Stílus",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_rules.style.help_text": {
+    "message": "Egyéni CSS adható hozzá a stílusszabályhoz. Például: alsó szegély: 3px egyszínű #3e4d68; szín: sárga;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.label": {
+    "message": "Egyéni CSS osztályok",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_classes.help_text": {
+    "message": "Egyéni CSS osztályok adhatók hozzá a CTA-hivatkozáshoz.",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.label": {
+    "message": "Egyéni CSS stíluslap",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.custom_css_styles.help_text": {
+    "message": "Egyéni CSS-stíluslap adható hozzá a CTA-hoz. Például: alsó szegély: 3px egyszínű #3e4d68; szín: sárga;",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.label": {
+    "message": "Régebbi haszonkulcs használata",
+    "description": "",
+    "placeholders": null
+  },
+  "advanced.use_legacy_markup.inline_help_text": {
+    "message": "Ágyazza be a HTML-t a régebbi haszonkulcsba a meglévő CSS támogatásához",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Подзаголовок таблицы позиций",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>Регулярные и разовые платежи, подлежащие оплате сейчас.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "Текст подзаголовка",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "В этом подзаголовке отображаются только будущие платежи.",
+    "description": "",
+    "placeholders": null
+  }
+}

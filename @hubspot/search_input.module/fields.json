@@ -1,0 +1,125 @@
+[
+  {
+    "label": "Label text",
+    "name": "field_label",
+    "id": "d7644a33-944a-3b21-7faa-133195962602",
+    "type": "text"
+  },
+  {
+    "label": "Placeholder text",
+    "name": "placeholder",
+    "id": "e75bef76-6568-6550-8840-1d97bfc93c0b",
+    "type": "text",
+    "default": "Search"
+  },
+  {
+    "label": "Include search button",
+    "name": "include_search_button",
+    "id": "132b5655-eccf-c251-9ed4-d04901e91987",
+    "type": "boolean",
+    "default": false
+  },
+  {
+    "label": "Results",
+    "name": "results",
+    "type": "group",
+    "children": [
+      {
+        "label": "Use custom search results page",
+        "name": "use_custom_search_results_template",
+        "id": "results.user_custom_search_results_template",
+        "type": "boolean",
+        "display": "toggle",
+        "inline_help_text": "Turn this setting on to use a custom search results page instead of the default global search results page.",
+        "default": false
+      },
+      {
+        "label": "Search results page",
+        "name": "path_id",
+        "type": "page",
+        "visibility": {
+          "operator": "EQUAL",
+          "controlling_field": "results.user_custom_search_results_template",
+          "controlling_value_regex": "true"
+        },
+        "inline_help_text": "This is where people will go when they click to search their search term. Make sure to choose a page that contains the search results module."
+      }
+    ]
+  },
+  {
+    "label": "Search results include",
+    "name": "content_types",
+    "id": "346180f5-0d36-e8df-aca9-a74bfa2d79a4",
+    "type": "group",
+    "children": [
+      {
+        "label": "Website pages",
+        "name": "website_pages",
+        "id": "71d525ff-37c4-6c64-1f96-d99dbb529816",
+        "type": "boolean",
+        "visibility": {
+          "controlling_field": null,
+          "controlling_value_regex": null,
+          "operator": "NOT_EMPTY",
+          "access": {
+            "operator": "HAS_ALL",
+            "scopes": ["sitepages-access"]
+          },
+          "hidden_subfields": null
+        },
+        "default": true
+      },
+      {
+        "label": "Landing pages",
+        "name": "landing_pages",
+        "id": "d6212113-19b5-c9b9-2f92-12dfc122d00c",
+        "type": "boolean",
+        "default": false
+      },
+      {
+        "label": "Blog posts",
+        "name": "blog_posts",
+        "id": "7535615c-ed26-2e34-87ef-21c5c87ccbcb",
+        "type": "boolean",
+        "default": true
+      },
+      {
+        "label": "Knowledge articles",
+        "name": "knowledge_articles",
+        "id": "307d0eed-0cf9-7465-5715-a75c378ec61f",
+        "type": "boolean",
+        "visibility": {
+          "controlling_field": null,
+          "controlling_value_regex": null,
+          "operator": null,
+          "access": {
+            "operator": "HAS_ALL",
+            "scopes": ["service-knowledge-access"]
+          },
+          "hidden_subfields": null
+        },
+        "default": false
+      },
+      {
+        "label": "Case studies",
+        "name": "case_studies",
+        "type": "boolean",
+        "visibility": {
+          "access": {
+            "operator": "HAS_ALL",
+            "scopes": ["case-study-access"]
+          }
+        },
+        "display": "checkbox",
+        "default": false
+      }
+    ],
+    "default": {
+      "website_pages": true,
+      "landing_pages": false,
+      "blog_posts": true,
+      "knowledge_articles": false,
+      "case_studies": false
+    }
+  }
+]

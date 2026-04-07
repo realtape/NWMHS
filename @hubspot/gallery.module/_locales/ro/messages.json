@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Galerie de imagini",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Legendă",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Diapozitiv",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Deschidere link în filă nouă",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Afișare legendă",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL link",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Imagine",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Înălțime variabilă",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Înălțime fixă",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Căutare",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Înălțime variabilă",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Afișare butoane de navigare",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Navigare miniaturi",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Cursor standard",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Galerie cu casetă luminoasă",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Căutare",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Mod de afișare",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Diapozitive în buclă",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Căutare",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Suprapunere legende deasupra imaginilor",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Păstrați întotdeauna legendele sub imagine",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Poziție legendă",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Timpul în secunde la derularea automată",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Estompare",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Diapozitiv",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Căutare",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Tranziții între diapozitive",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rânduri pentru galeria cu casetă luminoasă",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Avansare automată",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Acest modul a fost înlocuit în favoarea a două module noi și îmbunătățite, Image Slider și Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Aflați mai multe.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

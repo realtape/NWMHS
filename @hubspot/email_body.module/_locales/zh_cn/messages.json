@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "主要电子邮件正文",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>尊敬的{{contact.firstname}}：</p>\n<p>你好！请讲讲你必须向客户提供什么。他们为什么会有兴趣阅读？你在主题行中向他们承诺过什么？给他们讲些有趣的事情，让他们开怀大笑，或是痛哭流涕。好吧，或许你不必这样做...</p>\n<p>请列个表：</p>\n<ul>\n<li>解释下产品或服务的价值</li>\n<li>提醒读者，如果他们采取行动，会得到什么回报</li>\n<li>条理分明地宣传你的技能</li>\n<li>确保你的内容简短、有吸引力</li>\n</ul>\n<p><a href=\"http://hubspot.com\">你的网站登陆页面的链接</a> （这部分非常重要。）</p>\n<p>现在，简短表达下你对客户的爱，以作最后总结。</p>\n<p>哇，你的口才真是超级棒。</p>\n<p>此致</p>\n<p>你的姓名</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "电子邮件正文",
+    "description": "",
+    "placeholders": null
+  }
+}

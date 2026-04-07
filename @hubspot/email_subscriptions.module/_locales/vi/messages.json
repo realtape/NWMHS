@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Tùy chọn đăng ký",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Văn bản trên nút Cập nhật tùy chọn",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Cập nhật tùy chọn email",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Tùy chọn thông tin liên lạc",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Tiêu đề",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Tiêu đề phụ",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Nếu đây không phải là địa chỉ email của bạn, vui lòng bỏ qua trang này vì rất có thể email được liên kết với trang này đã được chuyển tiếp đến bạn.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Có, hãy đăng ký lại cho tôi!",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Văn bản trên nút Đăng ký lại",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Nhãn Hủy đăng ký tất cả",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Hủy đăng ký cho tôi khỏi tất cả danh sách gửi thư.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Bỏ chọn các loại email bạn không muốn nhận:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Văn bản trợ giúp lựa chọn tùy chọn",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Hoặc chọn ở đây để không bao giờ nhận được bất kỳ email nào:",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Văn bản trợ giúp hủy đăng ký tất cả",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Văn bản trợ giúp hủy đăng ký tất cả cho người dùng vừa hủy đăng ký",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Bạn hiện đang hủy đăng ký khỏi tất cả các email của chúng tôi. Bạn có muốn nhận lại email từ chúng tôi không?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Văn bản trên nút đăng ký đơn lẻ",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Hủy đăng ký",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Văn bản xác nhận đăng ký đơn lẻ",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Bạn có muốn hủy đăng ký nhận email về:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Ví dụ về tên đăng ký đơn lẻ",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "hình thức đăng ký mà bạn đã chọn",
+    "description": "",
+    "placeholders": null
+  }
+}

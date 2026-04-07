@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filter príspevkov",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Zobraziť všetko",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Text na zobrazenie, ak je k dispozícii viac položiek, než je maximálna hodnota. Ponechajte prázdne, ak chcete odkaz vynechať",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Predvolená možnosť použije aktuálny blog pri použití v šablóne blogu alebo hlavný blog pri použití inde.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Vyberte blog na zobrazenie",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximálny počet zobrazovaných hodnôt filtra",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Zoznam hodnôt pre odkazy filtra",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Značky",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Autori",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Mesiace",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Príspevky podľa štítka",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Názov zoznamu na zobrazenie",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Meno",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Počet príspevkov",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Hľadať",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Radenie hodnôt pre odkazy filtra",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Zobraziť všetky filtre",
+    "description": "",
+    "placeholders": null
+  }
+}

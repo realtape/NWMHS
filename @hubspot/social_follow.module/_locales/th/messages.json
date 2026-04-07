@@ -1,0 +1,227 @@
+{
+  "inline_help_text": {
+    "message": "เพิ่มลิงก์ไปยังโปรไฟล์โซเชียลมีเดียของคุณ ลากและวางเพื่อเปลี่ยนเรือ ไอคอนจะถูกเพิ่มโดยอัตโนมัติตาม URL แต่คุณสามารถแก้ไขได้",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "ติดตามทางโซเชียล",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.label": {
+    "message": "ลิงก์สื่อสังคมออนไลน์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.link.label": {
+    "message": "ลิงก์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.open_in_new_window.label": {
+    "message": "เปิดลิงก์ในหน้าต่างใหม่",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.is_podcast.label": {
+    "message": "ลิงก์นี้เป็นพ็อดแคสต์",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.is_podcast.inline_help_text": {
+    "message": "ตรวจดูว่าช่องนี้แสดงไอคอน &ldquo;Podcast&rdquo; แทนที่ไอคอนตามค่าเริ่มต้นหรือไอคอนกำหนดเอง",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_alt_text.label": {
+    "message": "ข้อความอธิบายที่กำหนดเอง",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_alt_text.inline_help_text": {
+    "message": "ระบบจะเพิ่มข้อความอธิบายโดยอัตโนมัติ แต่คุณสามารถแก้ไขได้ที่นี่",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.aria_label.label": {
+    "message": "ป้าย Aria",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.aria_label.help_text": {
+    "message": "อธิบายความหมายของไอคอน เช่น (ติดตามเราบน Facebook) ซึ่งโปรแกรมอ่านหน้าจอเพื่อใช้ในการตีความไอคอนสำหรับผู้ใช้ที่มีความบกพร่องทางการมองเห็น",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_icon.label": {
+    "message": "กำหนดไอคอนเอง",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.customize_icon.inline_help_text": {
+    "message": "ระบบจะเพิ่มไอคอนโดยอัตโนมัติ แต่คุณสามารถแก้ไขได้ที่นี่",
+    "description": "",
+    "placeholders": null
+  },
+  "group_social_links.custom_icon.label": {
+    "message": "ไอคอนที่กำหนดเอง",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.facebook_link_aria_label.default": {
+    "message": "ติดตามเราบน Facebook",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.twitter_link_aria_label.default": {
+    "message": "ติดตามเราบน X",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.youtube_link_aria_label.default": {
+    "message": "สมัครติดตามเราบน YouTube",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.linkedin_link_aria_label.default": {
+    "message": "ติดตามเราบน LinkedIn",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.instagram_link_aria_label.default": {
+    "message": "ติดตามเราบน Instagram",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.pinterest_link_aria_label.default": {
+    "message": "ติดตามเราบน Pinterest",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.website_link_aria_label.default": {
+    "message": "เยี่ยมชมเว็บไซต์ของเรา",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.spotify_link_aria_label.default": {
+    "message": "ฟังเราบน Spotify",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.yelp_link_aria_label.default": {
+    "message": "อ่านรีวิวของเราบน Yelp",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.soundcloud_link_aria_label.default": {
+    "message": "ฟังเราบน SoundCloud",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.tiktok_link_aria_label.default": {
+    "message": "ติดตามเราบน TikTok",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.github_link_aria_label.default": {
+    "message": "ติดตามเราบน GitHub",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.podcast_link_aria_label.default": {
+    "message": "ฟังเราทาง Podcast",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.email_link_aria_label.default": {
+    "message": "ส่งอีเมลถึงเรา",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "รูปแบบ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.label": {
+    "message": "ไอคอน",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.label": {
+    "message": "ขนาด",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-small": {
+    "message": "เล็ก",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-regular": {
+    "message": "กลาง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.icon_size.choices.size-large": {
+    "message": "ใหญ่",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.color.label": {
+    "message": "สี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.label": {
+    "message": "พื้นหลัง",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.label": {
+    "message": "ขนาด",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.none": {
+    "message": "none",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.square": {
+    "message": "สี่เหลี่ยมจัตุรัส",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.rounded": {
+    "message": "ทรงกลม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.shape.choices.circle": {
+    "message": "วงกลม",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.color.label": {
+    "message": "สี",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.label": {
+    "message": "เลย์เอาท์",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.alignment.label": {
+    "message": "การจัดแนว",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_alignment.spacing.label": {
+    "message": "เว้นวรรค",
+    "description": "",
+    "placeholders": null
+  }
+}

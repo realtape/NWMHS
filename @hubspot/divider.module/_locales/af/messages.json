@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Skeier",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Belyning",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Middel",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Links",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Regs",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Hoogte",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Lyntipe",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Gestreepte",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Gespikkelde",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Vaste",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Vulling",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maksimum van 20 pieksels",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Wys opvulling?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Wydte",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Persentasie van die area waarin die skeier geplaas is.",
+    "description": "",
+    "placeholders": null
+  }
+}

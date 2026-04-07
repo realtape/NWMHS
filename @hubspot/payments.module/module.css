@@ -1,0 +1,145 @@
+/* Button Styles */
+.button {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button .button__icon svg {
+  display: block;
+  height: 1.25rem;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .button .button__icon svg {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+}
+
+.button--icon-right .button__icon {
+  order: 1;
+}
+
+/* Overlay Background Styles */
+.hs-overlay-background {
+  position: fixed;
+
+  /* One less than the overlay z-index value */
+  z-index: 999999;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.2);
+  inset: 0;
+  opacity: 0;
+  transition: opacity 500ms ease 0s, visibility 500ms ease 0s;
+  visibility: hidden;
+}
+
+.hs-overlay-background.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Overlay Styles */
+
+html.hs-payments--overlay-open {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.hs-overlay {
+  position: fixed;
+
+  /* Well below the maximum value, but high enough to cover most cases */
+  z-index: 1000000;
+  top: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: calc(100% - 50px);
+  width: 100vw;
+  background-color: #fff;
+  transform: translateY(0);
+  transition: transform 500ms ease 0s, visibility 500ms ease 0s;
+  visibility: hidden;
+}
+
+.hs-overlay.open {
+  transform: translateY(-100%);
+  transition: transform 500ms ease 0s, visibility 500ms ease 0s;
+  visibility: visible;
+}
+
+button.hs-overlay__close--top {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.75);
+  outline-color: #33475b;
+}
+
+button.hs-overlay__close--top svg {
+  fill: #7c98b6;
+}
+
+button.hs-overlay__close--top:hover svg,
+button.hs-overlay__close--top:focus svg {
+  fill: #33475b;
+}
+
+@media screen and (min-width: 768px) {
+  button.hs-overlay__close--top {
+    background: transparent;
+  }
+}
+
+button.hs-overlay__close--bottom {
+  position: absolute;
+  top: initial;
+  right: 16px;
+  bottom: 16px;
+  padding: 5px;
+  border: none;
+  background: none;
+  color: #33475b;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  opacity: 0;
+  outline-color: #33475b;
+}
+
+button.hs-overlay__close--bottom:focus {
+  opacity: 1;
+}
+
+.hs-overlay .payments-iframe-container {
+  height: 100%;
+  width: 100%;
+}
+
+.hs-overlay .payments-iframe-container iframe {
+  height: 100% !important;
+}
+
+.hs-screen-reader-only {
+  position: absolute;
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}

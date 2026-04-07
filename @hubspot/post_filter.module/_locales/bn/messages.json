@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "পোস্ট ফিল্টার",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "সব দেখুন",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "প্রদর্শনের জন্য সর্বাধিক মানের চেয়ে বেশি থাকলে প্রদর্শিত টেক্সট। লিঙ্ক বাদ দিতে খালি রেখে যান",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "যখন কোনও ব্লগ টেমপ্লেটে ব্যবহার করা হবে ডিফল্ট বর্তমান ব্লগটি ব্যবহার করবে অথবা যখন অন্যত্র ব্যবহৃত হবে তখন প্রাথমিক ব্লগ ব্যবহার করবে।",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "প্রদর্শন করার জন্য ব্লগ নির্বাচন করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "প্রদর্শনের জন্য ফিল্টার মানগুলির সর্বাধিক সংখ্যা",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "সার্চ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "ফিল্টার লিঙ্কগুলির জন্য মানগুলির তালিকা",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "ট্যাগগুলি ",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "লেখকরা",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "মাস",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "ট্যাগ দ্বারা পোস্টসমূহ",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "প্রদর্শনের জন্য শিরোনাম তালিকা",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "নাম",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "পোস্টের সংখ্যা",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "সার্চ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "ফিল্টার লিঙ্কগুলির জন্য মানগুলির ক্রম",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "সমস্ত ফিল্টার দেখান",
+    "description": "",
+    "placeholders": null
+  }
+}

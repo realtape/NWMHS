@@ -1,0 +1,232 @@
+{
+  "name": {
+    "message": "„WhatsApp“ nuoroda",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.label": {
+    "message": "Sutikimo tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.help_text": {
+    "message": "Sutikimo tekste pateikiama informacija, kokio tipo pranešimus jūsų kontaktas gaus iš jūsų įmonės, taip pat nurodymai, kaip sutikti, ir sutikimo raktažodžiai. Jei norite sužinoti daugiau, skaitykite <a href='https://knowledge.hubspot.com/inbox/collect-consent-for-whatsapp-conversations' target='_blank' rel='noopener noreferrer'>šį žinių bazės straipsnį</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.label": {
+    "message": "Rodyti",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text_and_icon": {
+    "message": "Tekstas ir piktograma",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text": {
+    "message": "Tik tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.icon": {
+    "message": "Tik piktograma",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.label": {
+    "message": "Piktogramos padėtis",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.left": {
+    "message": "Kairėje",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.right": {
+    "message": "Dešinėje",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Mygtuko tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Pokalbis „WhatsApp“ programoje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiliai",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.label": {
+    "message": "Piktograma",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.size.label": {
+    "message": "Dydis",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.label": {
+    "message": "Tarpai",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.help_text": {
+    "message": "Tarpas tarp piktogramos ir mygtuko teksto.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.label": {
+    "message": "Tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.label": {
+    "message": "Keisti",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.placeholder": {
+    "message": "Nėra",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.capitalize": {
+    "message": "Rašyti didžiąja raide",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.uppercase": {
+    "message": "Didžiosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.lowercase": {
+    "message": "Mažosios raidės",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.label": {
+    "message": "Fonas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.label": {
+    "message": "Kampas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.radius.label": {
+    "message": "Spindulys",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.label": {
+    "message": "Tarpai",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.spacing.label": {
+    "message": "Tarpai",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.label": {
+    "message": "Laikyti virš",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.label": {
+    "message": "Piktograma",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.label": {
+    "message": "Tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.font.label": {
+    "message": "Šriftas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.label": {
+    "message": "Fonas",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.color.label": {
+    "message": "Spalva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.border.label": {
+    "message": "Kraštinė",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.label": {
+    "message": "Susieti „WhatsApp“ telefono numerį",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.help_text": {
+    "message": "Kaip susieti „WhatsApp“ kanalą su savo pašto dėžute, sužinosite šiame <a href='https://knowledge.hubspot.com/inbox/connect-whatsapp-to-the-conversations-inbox' target='_blank' rel='noopener noreferrer'>žinių bazės straipsnyje</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.default": {
+    "message": "„WhatsApp“ piktograma",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.help_text": {
+    "message": "Šį piktogramą apibūdinantį tekstą skaitys ekrano skaitytojai.",
+    "description": "",
+    "placeholders": null
+  }
+}

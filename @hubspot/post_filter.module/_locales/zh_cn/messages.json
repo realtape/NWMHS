@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "帖子过滤器",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "查看所有",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "要显示的数量超过最大值时会显示的文本。留空可忽略链接",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "当在博客模板中使用时，默认将使用当前的博客；而在其他地方使用时，默认将使用主要博客。",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "选择要显示的博客",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "可显示的过滤器值的最大数量",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "过滤器链接值列表",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "标记",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "作者",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "月",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "按标记显示帖子",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "列出要显示的标题",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "名称",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "帖子数量",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "过滤器链接值排序",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "显示所有过滤器",
+    "description": "",
+    "placeholders": null
+  }
+}

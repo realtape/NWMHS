@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Varnostna kopija odjava",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Besedilo gumba",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Odjava",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Odjava po e-pošti",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Naslov",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Besedilo nadomestnega znaka za vnos e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Vaš e-poštni naslov:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Besedilo pomoči za vnos e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Sporočilo o napaki",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Pri nalaganju strani je prišlo do težave. Poskusite uporabiti isto povezavo iz novejšega e-poštnega sporočila ali pa se obrnite na podjetje, da posodobite svoje naročniške nastavitve.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Podnaslov",
+    "description": "",
+    "placeholders": null
+  }
+}

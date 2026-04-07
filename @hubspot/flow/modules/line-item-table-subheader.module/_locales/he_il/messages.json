@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "כותרת משנה בטבלת פריט שורה",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.default": {
+    "message": "<p style='text-align: center;'>תשלומים חוזרים וחד-פעמיים שיש לשלם כעת.<p>",
+    "description": "",
+    "placeholders": null
+  },
+  "subheading_text.label": {
+    "message": "טקסט של כותרת משנה",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "כותרת משנה זו מוצגת רק כאשר קייימים תשלומים עתידיים.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,21 @@
+/* Used to style on numbers on error pages like: 404, 500, etc. */
+
+.error-code {
+  margin: 0 0 var(--standard-margin);
+  font-size: 9rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .error-code {
+    font-size: 10rem;
+  }
+}
+
+/* Button overrides */
+
+.button-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}

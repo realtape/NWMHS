@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Отменить подписку на резервное копирование",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Текст кнопки",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Отменить подписку",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Отменить подписку на электронные сообщения",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Заголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Текст заполнителя электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Ваш адрес электронной почты:",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Текст справки электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Сообщение об ошибке",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "При загрузке страницы возникла проблема. Попробуйте использовать ту же ссылку из самого последнего письма электронной почты или свяжитесь со специалистами компании для обновления настроек подписки.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Подзаголовок",
+    "description": "",
+    "placeholders": null
+  }
+}

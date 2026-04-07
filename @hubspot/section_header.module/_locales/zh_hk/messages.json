@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "區塊標題",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.default": {
+    "message": "較低調的副標題",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "區塊副標題",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "清晰大膽的標題",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "區塊標題內容",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "選擇標題層級，H1 最大，然後是 H2，如此類推",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "標題層級",
+    "description": "",
+    "placeholders": null
+  }
+}

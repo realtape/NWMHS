@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Il preventivo è scaduto",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Il preventivo {{ personalization_token('quote.hs_quote_number', '') }} è scaduto il giorno {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "<a href='#'>Contatta il rappresentante delle vendite</a> per ulteriori dettagli.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Frequenza di fatturazione",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Prezzo unitario",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Prezzo",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Prodotti e servizi",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Quantità",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Riepilogo<br>generale",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Termini e condizioni",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Commenti",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Accettazione<br>progetto",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Sottotitolo",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "La nostra<br> storia",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Amiamo<br>ciò che facciamo",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Cosa dicono di noi<br>i clienti",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Riepilogo del<br>progetto",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "I nostri obiettivi",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Allegato<br>tecnico",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Stima del<br>progetto",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "Il<br>contratto",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Preparato per",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Бутон (интерактивен)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL адрес на връзка",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Имейл адрес",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Файл",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Затвори призива за действие",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Имейл адрес",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Телефонен номер",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Изтегляне на файл",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Връзка към срещи",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Една от вашите страници",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Една от страниците на вашия блог",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL адрес",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Връзка към",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Връзка към срещи",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Отваряне на връзката в нов раздел",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Страница",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Блог",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Цвят",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Щракнат",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Ъгъл",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Добавяне на заоблен ъгъл към бутона",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Радиус",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Цвят",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Посочване на фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Посочване на граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Посочване",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Шрифт",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Посочване на текст",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Стилове",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Шрифт",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Текст",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Допълване на текстово поле",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Добавете връзка на бутон тук",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Текст на бутон",
+    "description": "",
+    "placeholders": null
+  }
+}

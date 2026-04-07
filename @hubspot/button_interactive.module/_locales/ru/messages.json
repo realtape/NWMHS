@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Кнопка (интерактивная)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL-адрес ссылки",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Адрес электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Файл",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Закрыть призыв к действию",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Адрес электронной почты",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Номер телефона",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Загрузка файла",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Ссылка на собрания",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Одна из ваших страниц",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Одна из страниц вашего блога",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL-адрес",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Ссылка на",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Ссылка на собрания",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Открывать ссылку в новой вкладке",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Страница",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Блог",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Цвет",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Перешли по ссылке",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Фон",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Угол",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Добавить к кнопке закругленные углы",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Радиус",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Цвет",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Фон при наведении",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Граница",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Рамка при наведении",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "При наведении",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Шрифт",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Текст при наведении",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Стили",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Шрифт",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Текст",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Заполнение текстом",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Добавьте ссылку кнопки здесь",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Текст кнопки",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Iš viso",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Mokėjimo terminas suėjęs",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Naudojama bendrai pasiūlymo sumai žymėti, kai pasiūlyme numatyti būsimi mokėjimai.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Pranešimo apie suėjusį mokėjimo terminą tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Iš viso",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Bendrosios sumos tekstas",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Bendra sutarties vertė",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Pritaikykite tekstą taip, kad jis tiksliai apibūdintų šią vertę. (Jei nenustatytos jokios sąlygos, pagal numatytąsias nuostatas nurodoma metinė vertė.)",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Visos sutarties vertės tekstas",
+    "description": "",
+    "placeholders": null
+  }
+}

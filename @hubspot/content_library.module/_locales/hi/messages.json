@@ -1,0 +1,457 @@
+{
+  "name": {
+    "message": "कंटेन्ट लाइब्रेरी",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.label": {
+    "message": "संसाधन",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.label": {
+    "message": "नाम",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.title.default": {
+    "message": "संसाधन का नाम",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.label": {
+    "message": "विवरण",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.description.default": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.label": {
+    "message": "संसाधन का लिंक",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link.inline_help_text": {
+    "message": "फ़ाइल संसाधन पर क्लिक करने के बाद यूजर के डेस्कटॉप पर डाउनलोड हो जाएगी।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.label": {
+    "message": "इमेज",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.default": {
+    "message": "डिफ़ॉल्ट छवियों की सूची में से चुनें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.image_type.choices.custom": {
+    "message": "एक कस्टम छवि का प्रयोग करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.ebook": {
+    "message": "ई-बुक",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.pdf-document": {
+    "message": "पीडीएफ डॉक्यूमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.infographic": {
+    "message": "इंफ़ोग्राफ़िक",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.template": {
+    "message": "टेम्पलेट",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.guide": {
+    "message": "गाइड",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.course": {
+    "message": "कोर्स",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.webinar": {
+    "message": "वेबिनार",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.data-sheet": {
+    "message": "डेटा शीट",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.video": {
+    "message": "वीडियो",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.blog-post": {
+    "message": "ब्लॉग पोस्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.whitepaper": {
+    "message": "व्हाइट पेपर",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default_image.choices.case-study": {
+    "message": "केस स्टडी",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.custom_image.label": {
+    "message": "कस्टम इमेज",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.label": {
+    "message": "लिंक टेक्स्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.link_text.default": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.title": {
+    "message": "ई-बुक",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.0.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.title": {
+    "message": "पीडीएफ डॉक्यूमेंट",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.1.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.title": {
+    "message": "इंफ़ोग्राफ़िक",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.2.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.title": {
+    "message": "टेम्पलेट",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.3.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.title": {
+    "message": "गाइड",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.4.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.title": {
+    "message": "कोर्स",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.5.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.title": {
+    "message": "वेबिनार",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.6.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.title": {
+    "message": "डेटा शीट",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.7.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.title": {
+    "message": "वीडियो",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.8.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.title": {
+    "message": "ब्लॉग पोस्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.9.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.title": {
+    "message": "व्हाइट पेपर",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.10.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.title": {
+    "message": "केस स्टडी",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.description": {
+    "message": "संसाधन का विवरण शेयर किया जा रहा है। केवल कुछ वाक्य सही होने चाहिए।",
+    "description": "",
+    "placeholders": null
+  },
+  "group_resources.default.11.link_text": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.download_aria_label_prefix.default": {
+    "message": "डाउनलोड करें",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.content_aria_label_prefix.default": {
+    "message": "[[संसाधन_नाम]] सामग्री देखें",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.external_aria_label_prefix.default": {
+    "message": "ओपन करें",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.new_tab_aria_label_suffix.default": {
+    "message": "नए टैब में",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "स्टाइल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.label": {
+    "message": "लेआउट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.label": {
+    "message": "स्टाइल",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.cards": {
+    "message": "कार्ड",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.tiles": {
+    "message": "टाइल्स",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_layout.style.choices.minimal": {
+    "message": "कम से कम",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.label": {
+    "message": "नाम",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_name.font.label": {
+    "message": "फ़ॉन्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.label": {
+    "message": "विवरण",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_description.font.label": {
+    "message": "फ़ॉन्ट",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.label": {
+    "message": "इमेज",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.label": {
+    "message": "एस्पेक्ट रेशियो",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.label": {
+    "message": "प्राइमरी कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_primary.help_text": {
+    "message": "डिफ़ॉल्ट ग्राफ़िक्स के कलर को समायोजित करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.label": {
+    "message": "सेकंडरी कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_secondary.help_text": {
+    "message": "डिफ़ॉल्ट ग्राफ़िक्स के कलर को समायोजित करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.label": {
+    "message": "टर्शियरी कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_image.svg_tertiary.help_text": {
+    "message": "डिफ़ॉल्ट ग्राफ़िक्स के कलर को समायोजित करें।",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.label": {
+    "message": "लिंक",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.default_text_color.label": {
+    "message": "डिफ़ॉल्ट टेक्स्ट कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_link.hover_text_color.label": {
+    "message": "होवर टेक्स्ट का कलर",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "फ़ीचर्ड के रूप में चिह्नित कोई भी रिसोर्स पेज़ पर सबसे पहले दिखाई देगा।",
+    "description": "",
+    "placeholders": null
+  }
+}

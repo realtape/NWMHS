@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "帖子列表",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "最热门 - 过去六个月",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "最热门 - 所有时间",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "最热门 - 过去一个月",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "最热门 - 过去一年",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "最近",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "博客帖子列示方式",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "当在博客模板中使用时，默认将使用当前的博客；而在其他地方使用时，默认将使用主要博客。",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "选择要显示的博客",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "可列出的最大博客帖子数",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "近期文章",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "列出要显示的标题",
+    "description": "",
+    "placeholders": null
+  }
+}

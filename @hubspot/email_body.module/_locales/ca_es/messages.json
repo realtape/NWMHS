@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "Cos del correu electrònic principal",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hola,&nbsp;{{contact.firstname}}:</p>\n<p>Descriu el que tens per oferir als clients. Per què ho haurien de llegir? Què els has promès a l'assumpte? Explica'ls alguna cosa interessant. Fes-los riure. Fes-los plorar. Bé, potser no cal això...</p>\n<p>Utilitza una llista per:</p>\n<ul>\n<li>Explicar el valor de la teva oferta</li>\n<li>Recordar al lector el que obtindrà si passa a l'acció</li>\n<li>Presumir de la teva habilitat amb punts d'enumeració</li>\n<li>Fes que el teu contingut sigui fàcil d'analitzar</li>\n</ul>\n<p><a href=\"http://hubspot.com\">ENLLAÇ A UNA PÀGINA DE DESTINACIÓ DEL TEU LLOC</a> (Aquesta part és molt important)</p>\n<p>Acaba amb un recordatori breu de com te'ls estimes.</p>\n<p>Oh, diable persuasiu!</p>\n<p>Atentament,</p>\n<p>El teu nom</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Cos del correu electrònic",
+    "description": "",
+    "placeholders": null
+  }
+}

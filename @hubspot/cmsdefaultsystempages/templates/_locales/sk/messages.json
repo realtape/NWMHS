@@ -1,0 +1,582 @@
+{
+  "error_404_heading": {
+    "message": "Stránka sa nenašla",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_description": {
+    "message": "Nedokážeme nájsť stránku, ktorú ste hľadali.",
+    "description": "",
+    "placeholders": null
+  },
+  "error_404_button": {
+    "message": "Prejsť na domovskú stránku",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_heading": {
+    "message": "Táto stránka nefunguje",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_description": {
+    "message": "Vyskytla sa interná chyba servera, no pracujeme na tom!",
+    "description": "",
+    "placeholders": null
+  },
+  "error_500_button": {
+    "message": "Prejsť na domovskú stránku",
+    "description": "",
+    "placeholders": null
+  },
+  "header_logo_alt": {
+    "message": "Logo spoločnosti",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsub_all_success": {
+    "message": "Vaše e-mailové nastavenia boli aktualizované.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_unsubscribe_all_success": {
+    "message": "Úspešne ste sa odhlásili z odberu všetkých e-mailových správ.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_confirmation_sub_update_success": {
+    "message": "Vaše e-mailové nastavenia boli aktualizované.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_heading": {
+    "message": "Aktualizovať nastavenia e-mailov pre",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text": {
+    "message": "Vyberte, ktoré e-maily chcete dostávať od spoločnosti {{ site_settings.company_name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_single_text_business_unit": {
+    "message": "Vyberte, ktoré e-maily chcete dostávať od {{ business_unit().name }}:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_language_input_label": {
+    "message": "Vyberte jazyk:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_button_text": {
+    "message": "Aktualizovať predvoľby e-maiov",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_unsub_all_option": {
+    "message": "Zrušiť odber všetkých e-mailov",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_footer": {
+    "message": "Ak to nie je vaša adresa, e-mail vám pravdepodobne preposlal niekto iný a túto správu môžete pokojne ignorovať.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_text": {
+    "message": "Aktuálne nemáte aktívny odber žiadnych našich e-mailov. Chcete naše e-maily znova dostávať?",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_preferences_resubscribe_button_text": {
+    "message": "Áno, znova ma prihlásiť na odber.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_heading": {
+    "message": "Vyžaduje sa heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_subheading": {
+    "message": "Na zobrazenie tejto stránky zadajte heslo.",
+    "description": "",
+    "placeholders": null
+  },
+  "password_prompt_label": {
+    "message": "Heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "search_results_heading": {
+    "message": "Výsledky vyhľadávania pre výraz: \"[[search_term]]\"",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_heading": {
+    "message": "Ľutujeme, nemáte prístup",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_description": {
+    "message": "Nemáte povolenie na zobrazenie tejto stránky. V prípade otázok sa obráťte na správcu lokality.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_access_denied_button": {
+    "message": "Prejsť na domovskú stránku",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_heading": {
+    "message": "Prihlásiť sa",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_subheading": {
+    "message": "Stránka, ktorú sa pokúšate zobraziť, je dostupná len registrovaným používateľom.",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_password": {
+    "message": "Heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_remember_me": {
+    "message": "Zapamätať si ma",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_reset_password": {
+    "message": "Zabudli ste heslo?",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_submit": {
+    "message": "Prihlásiť sa",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_show_password": {
+    "message": "Zobraziť",
+    "description": "",
+    "placeholders": null
+  },
+  "member_login_contact_admin": {
+    "message": "Máte problémy? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_heading": {
+    "message": "Ste odhlásený",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_button": {
+    "message": "Znova sa prihlásiť",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_logout_alt": {
+    "message": "Alebo sa vráťte na <a href=\"{{ '//' ~ request.domain }}\">domovskú stránku</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_heading": {
+    "message": "Nastavte si heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_subheading": {
+    "message": "Vitajte! Dokončte registráciu nastavením hesla.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_confirm_password": {
+    "message": "Potvrdiť heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_password": {
+    "message": "Heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_save_password": {
+    "message": "Uložiť heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_show_password": {
+    "message": "Zobraziť",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_register_contact_admin": {
+    "message": "Máte problémy? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_heading": {
+    "message": "Resetujte si heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_subheading": {
+    "message": "Zadajte e-mailovú adresu, ktorú ste použili pri registrácii, a my vám pošleme e-mail s odkazom na obnovenie hesla.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_email": {
+    "message": "E-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_submit": {
+    "message": "Odoslať e-mail na resetovanie",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_alt": {
+    "message": "Spomenuli ste si? <a href=\"/_hcms/mem/login\">Prihláste sa</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_request_contact_admin": {
+    "message": "Máte problémy? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_heading": {
+    "message": "E-mail na obnovu hesla bol odoslaný",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_subheading": {
+    "message": "Ak sa našiel zhodný účet pre {{ user_email }}, odoslal sa e-mail s ďalšími krokmi na obnovu hesla. <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obráťte sa na administrátora</a>, ak ho do 20 minút nedostanete.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_success_button": {
+    "message": "Odoslať ďalší e-mail na obnovenie",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_heading": {
+    "message": "Vytvorte nové heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_subheading": {
+    "message": "Vaše nové heslo sa musí líšiť od predtým používaného hesla.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_new_password": {
+    "message": "Nové heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_confirm_password": {
+    "message": "Potvrďte nové heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_save_password": {
+    "message": "Uložiť heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_show_password": {
+    "message": "Zobraziť",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_reset_password_contact_admin": {
+    "message": "Máte problémy? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_heading": {
+    "message": "Vaša e-mailová adresa je potvrdená",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_description": {
+    "message": "Ďakujeme za overenie vašej e-mailovej adresy. Teraz sa môžete prihlásiť do svojho účtu a získať prístup k exkluzívnemu obsahu.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_button": {
+    "message": "Prihlásiť sa",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_registration_confirmation_contact_admin": {
+    "message": "Máte problémy? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_heading": {
+    "message": "Odoslané jednorazový odkaz na prihlásenie",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_description": {
+    "message": "<p>Poslali sme vám e-mail na adresu {{ user_email }}. Je v ňom odkaz, ktorý vás prihlási.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_fallback_instructions": {
+    "message": "Ak sa vám e-mail nezobrazuje, skontrolujte priečinok so spamom.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_resend_button": {
+    "message": "Znovu poslať odkaz na prihlásenie",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_or": {
+    "message": "alebo",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_signin_button": {
+    "message": "Prihlásiť sa namiesto toho pomocou hesla",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_passwordless_auth_confirmation_contact_admin": {
+    "message": "Máte problémy? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_heading": {
+    "message": "Overte svoju e-mailovú adresu",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_description": {
+    "message": "Ďakujeme za registráciu. Skontrolujte si poštu a kliknutím na potvrdzovací odkaz dokončite registráciu.",
+    "description": "",
+    "placeholders": null
+  },
+  "membership_verify_registration_contact_admin": {
+    "message": "Máte problémy? <a href=\"{{ 'mailto:' ~ site_settings.membershipWebsiteAdmin }}\">Obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_heading": {
+    "message": "Vytvorte heslo pre dokončenie registrácie",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_description": {
+    "message": "Posledný krok! Po vytvorení bezpečného hesla sa budete môcť prihlásiť a získať prístup k obsahu na {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_button": {
+    "message": "Vytvorte heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_directions": {
+    "message": "Alebo skopírujte a vložte toto prepojenie do prehliadača:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_incomplete_registration_followup_admin": {
+    "message": "Ak máte otázky alebo ste túto správu dostali omylom, <a href=\"{{ membership_website_admin }}\">obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_heading": {
+    "message": "Resetujte si heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_description": {
+    "message": "Nastavte nové heslo a prihláste sa do svojho účtu.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_button": {
+    "message": "Resetovať heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_reset_admin": {
+    "message": "Ak ste túto žiadosť nepodali, môžete tento e-mail pokojne ignorovať.<br/>Ak máte otázky, <a href=\"{{ membership_website_admin }}\">obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_heading": {
+    "message": "Prihlásenie pomocou jednorazového odkazu",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_description": {
+    "message": "Pokračujte v prihlasovaní do svojho účtu. Pre vašu bezpečnosť platnosť tohto odkazu vyprší za 15 minút.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_button": {
+    "message": "Prihlásiť sa",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_directions": {
+    "message": "Alebo skopírujte a vložte toto prepojenie do prehliadača:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_passwordless_auth_login_admin": {
+    "message": "Ak ste túto žiadosť nepodali, môžete tento e-mail pokojne ignorovať.<br/>Ak máte otázky, <a href=\"{{ membership_website_admin }}\">obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_heading": {
+    "message": "Vaše heslo ({{ membership_company_name }}) bolo úspešne zmenené",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_description": {
+    "message": "Nechceli ste urobiť túto zmenu? Pomocou formulára na obnovenie <a href=\"{{ membership_domain }}/_hcms/mem/reset/request\">zabudnutého hesla</a> si teraz obnovte heslo.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_password_saved_confirmation_admin": {
+    "message": "Ak máte otázky, <a href=\"{{ membership_website_admin }}\">obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_heading": {
+    "message": "Vaša registrácia je dokončená",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_description": {
+    "message": "Ďakujeme za registráciu! Všetko je pripravené. Teraz sa môžete prihlásiť, aby ste získali prístup a odomkli ešte väčšiu hodnotu.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_button": {
+    "message": "Prihláste sa do svojho nového účtu",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_completed_admin": {
+    "message": "Ak máte otázky alebo ste túto správu dostali omylom, <a href=\"{{ membership_website_admin }}\">obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_heading": {
+    "message": "Vitajte v spoločnosti {{ membership_company_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_description": {
+    "message": "Dokončite svoju registráciu vytvorením bezpečného hesla pre váš účet.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_button": {
+    "message": "Vytvorte heslo",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_directions": {
+    "message": "Alebo skopírujte a vložte toto prepojenie do prehliadača:",
+    "description": "",
+    "placeholders": null
+  },
+  "email_registration_admin": {
+    "message": "Ak máte otázky alebo ste túto správu dostali omylom, <a href=\"{{ membership_website_admin }}\">obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_heading": {
+    "message": "Overte svoju e-mailovú adresu",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_description": {
+    "message": "Ďakujeme, že ste sa zaregistrovali! Na dokončenie registrácie je potrebné overiť vašu e-mailovú adresu pre {{ membership_domain }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_button": {
+    "message": "Overiť e-mailovú adresu",
+    "description": "",
+    "placeholders": null
+  },
+  "email_verify_registration_admin": {
+    "message": "Ak máte otázky alebo ste túto správu dostali omylom, <a href=\"{{ membership_website_admin }}\">obráťte sa na správcu lokality</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_title": {
+    "message": "Potvrďte svoju žiadosť o odstránenie",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_heading": {
+    "message": "Potvrďte svoju žiadosť o odstránenie",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para1": {
+    "message": "Dobrý deň, {{ first_name }},.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para2": {
+    "message": "Prijali sme žiadosť o odstránenie vašich kontaktných údajov od spoločnosti {{ company_name }} na:",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list1": {
+    "message": "<strong>Zariadenie:</strong> {{ device_name }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_loaction_list2": {
+    "message": "<strong>Dátum a čas:</strong> {{ date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_para3": {
+    "message": "Aby sme mohli spracovať vašu žiadosť, potvrďte, že chcete vymazať svoje údaje.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_button_text": {
+    "message": "Áno, vymazať moje údaje",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_expiration_warning_text": {
+    "message": "Tento odkaz vyprší o 30 minút.",
+    "description": "",
+    "placeholders": null
+  },
+  "privacy_center_2FA_email_footer": {
+    "message": "Ak ste nepožiadali o vymazanie, môžete túto správu pokojne ignorovať.",
+    "description": "",
+    "placeholders": null
+  }
+}

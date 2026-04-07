@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Plată",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Adăugare pictogramă",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Link buton",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Altele",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Utilizați un link de plată",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Țintă buton",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Finalizare comandă",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Text buton",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Deschidere în filă nouă",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Suprapunere cu glisare",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Comportament la finalizare comandă",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Închidere finalizare comandă",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Pictogramă",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Pictogramă",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Stânga",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Dreapta",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Poziție",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Link de plată",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Aliniere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Aliniere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Culoare",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Fundal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Margine",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Margine",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Colț",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Rază",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Culoare",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Fundal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Margine",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Margine",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Culoare",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Pictogramă",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Trecere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Culoare",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Pictogramă",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Dimensiune",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Spațiere între pictogramă și textul butonului",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Spațiere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiluri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Spațiere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Spațiere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Scriere cu majusculă",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Literă mică",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Literă mare",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Transformare",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Niciuna",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "רשת לוגו",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "סמלים",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "סמל",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "סגנונות",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "תמונת סמל",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "גובה סמל מקסימלי",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "מגדיר את הגובה המרבי של הסמלים.<br><br>הגדרת גובה סמל מרבי מועילה במיוחד כשמנסים להשוות את הגודל המוצג של כמה סמלים שונים בעלי מידות שונות מאוד.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "רקע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "יחס רוחב-גובה",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "הגדר יחס רוחב-גובה עבור גורם מכיל של סמל. שימושי במיוחד אם משתמשים בשדה של צבע הרקע ובסמלים עם הבדלים גדולים מבחינת המידות.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "צבע רקע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "מרווח",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "מרווח",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "הגדר ריווח מסביב לסמל.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "עקב האופי הרגיש של האינטרנט, הגובה המוצג של הסמלים עשוי להיות קטן מהערך שהוגדר, עקב שילוב של הגורמים הבאים: גודל המסך, גודל התמונה המקורי, הריווח מסביב לסמל, מרווח הרשת ומספר העמודות.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "רשת לוגו",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "ספירת עמודות ברשת",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "הגדר את מספר העמודות שברשת במחשב שולחני. כברירת מחדל, הערך מוגדר כ-1 במכשירים ניידים.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "הגדרה של צבע רקע תחת <strong>תמונת סמל > רקע</strong> עשויה לעזור בהצגה החזותית של רשת הסמלים.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "מרווח רשת",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "הגדר את הריווח בין פריטים על הרשת.<br><br>הגדרה של רקע תחת <strong>תמונת סמל > רקע</strong> עשויה לעזור בהצגה החזותית של רשת הסמלים.",
+    "description": "",
+    "placeholders": null
+  }
+}

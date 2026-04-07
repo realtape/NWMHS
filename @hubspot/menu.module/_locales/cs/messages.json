@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "Vodorovná",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "Svislá",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "Ve vodorovných nabídkách se položky zobrazují vedle sebe, ve svislých nabídkách pod sebou",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "Orientace",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "Podřízené položky se v nabídce zobrazí po najetí na nadřazenou položku. Pokud tuto možnost nezvolíte, podřízené položky se budou zobrazovat vždy",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "Povolit vysouvací panely?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "Strom nabídky je struktura stránky, na jejímž základě se volí položky nabídky. Jeden strom nabídky lze použít pro několik nabídek. Pro webové stránky se složitou strukturou lze vytvořit více nabídek. Nabídky se vytvářejí a spravují v části Nastavení obsahu",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "Nabídka",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "Toto nastavení určuje, kolik podřízených položek ze stromu nabídky lze v nabídce rozbalit",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "Maximální počet úrovní",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Nabídka",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "Nabídka s popisem cesty (s vodorovným výpisem)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "Dynamická podle stránky – V nabídce se zobrazují stránky, které souvisejí s právě prohlíženou stránkou",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "Statická – V nabídce se vždy zobrazují stránky nejvyšší úrovně",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "Dynamická podle oddílu – V nabídce se zobrazují stránky, které souvisejí s právě prohlíženým oddílem",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "V pokročilých nabídkách se zobrazují různé části stromu nabídky podle toho, na které stránce se nabídka otevře.",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "Typ pokročilé nabídky",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  }
+}

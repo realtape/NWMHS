@@ -1,0 +1,32 @@
+{
+  "name": {
+    "message": "Logotyp",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Som standard kommer dina offerter att visa företagets logotyp från kontots standardinställningar eller webbsidorna om du har ställt in dem. Du kan välja att åsidosätta dessa med hjälp av växeln nedan.",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.label": {
+    "message": "Maxhöjd på logotyp",
+    "description": "",
+    "placeholders": null
+  },
+  "default_logo_max_height.help_text": {
+    "message": "Detta gäller inte när standardlogotypen skrivs över",
+    "description": "",
+    "placeholders": null
+  },
+  "override_default_logo.label": {
+    "message": "Åsidosätta standardlogotypen i den här mallen",
+    "description": "",
+    "placeholders": null
+  },
+  "company_logo_image.label": {
+    "message": "Bild av företagets logotyp",
+    "description": "",
+    "placeholders": null
+  }
+}

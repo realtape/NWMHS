@@ -1,0 +1,10 @@
+{% for item in module.text_block_unit %}
+  <div class="text-block" style="background-color: {{ item.block_text_unit_color.color|escape_attr }}">
+    {% if item.block_header %}
+      <h5 class="text-block__header">{{ item.block_header|sanitize_html }}</h5>
+    {% endif %}
+    {% if item.block_description %}
+      <p class="text-block__paragraph">{{ item.block_description|render|sanitize_html }}</p>
+    {% endif %}
+  </div>
+{% endfor %}

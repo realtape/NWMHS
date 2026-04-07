@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Pildigalerii",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Pealdis",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Slaid",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Avage link uuel vahekaardil",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Kuva pealdis",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Lingi URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Pilt",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Muudetav kõrgus",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Fikseeritud kõrgus",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Otsing",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Muudetav kõrgus",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Kuva navigeerimisnupud",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Pisipildi navigeerimine",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standardne liugur",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Valguskasti galerii",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Otsing",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Kuvarežiim",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Tsükkelslaidid",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Otsing",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Kattuvad pealdised piltide peal",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Hoidke pealdised alati pildi all",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Tiitrite positsioon",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Aeg sekundites automaatkerimise vahel",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Hajutamine",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Slaid",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Otsing",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Slaidi üleminekud",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Valguskasti galerii read",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Automaatne edasiliikumine",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "See moodul on kaotanud kehtivuse kahe uue ja täiustatud mooduli, Image Slider ja Image Grid, kasuks. <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Lisateave.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

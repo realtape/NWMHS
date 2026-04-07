@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Voeg ikoon by",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Knoppie-skakel",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Ander",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Gebruik 'n betalingskakel",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Knoppieteiken",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Betaalpunt",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Knoppieteks",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Maak in 'n nuwe oortjie oop",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Glyende oorlegsel",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Betalingsgedrag",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Sluit betaalpunt",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Links",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Regs",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Posisie",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Betalingskakel",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Belyning",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Belyning",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Agtergrond",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Raam",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Raam",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Hoek",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Agtergrond",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Raam",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Raam",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Sweef",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Teks",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Kleur",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Ikoon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Grootte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Spasiëring tussen die ikoon en knoppieteks.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Spasiëring",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Spasiëring",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Spasiëring",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Teks",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Hoofletters",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Kleinletters",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Hoofletters",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Transformeer",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Geen",
+    "description": "",
+    "placeholders": null
+  }
+}

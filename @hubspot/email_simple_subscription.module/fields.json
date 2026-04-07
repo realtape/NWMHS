@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Heading",
+    "name": "header",
+    "type": "text",
+    "default": "Email Unsubscribe"
+  },
+  {
+    "label": "Subheading",
+    "name": "subheader",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "label": "Error message",
+    "name": "error_info_text",
+    "type": "text",
+    "default": "There was a problem loading the page. Try using the same link from a more recent email, or contact the company to update your subscription preferences."
+  }
+]

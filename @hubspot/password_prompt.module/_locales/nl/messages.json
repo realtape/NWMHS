@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Vraag om wachtwoord",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Tijdelijke aanduiding wachtwoord",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Wachtwoord",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Bericht onjuist wachtwoord",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Sorry, probeer het opnieuw.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Verzenden",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Tekst verzendknop",
+    "description": "",
+    "placeholders": null
+  }
+}

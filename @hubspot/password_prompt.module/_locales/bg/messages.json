@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Подкана за парола",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.label": {
+    "message": "Контейнер на парола",
+    "description": "",
+    "placeholders": null
+  },
+  "password_placeholder.default": {
+    "message": "Парола",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.label": {
+    "message": "Съобщение за неправилна парола",
+    "description": "",
+    "placeholders": null
+  },
+  "bad_password_message.default": {
+    "message": "Съжаляваме, опитайте отново.",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.default": {
+    "message": "Подаване",
+    "description": "",
+    "placeholders": null
+  },
+  "submit_button_text.label": {
+    "message": "Текст на бутон за подаване",
+    "description": "",
+    "placeholders": null
+  }
+}

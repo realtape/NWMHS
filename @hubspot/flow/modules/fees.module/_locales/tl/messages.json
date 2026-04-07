@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Mga Singil",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_discount.default": {
+    "message": "{{ fee_amount }}% diskwento",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_fee.default": {
+    "message": "{{ fee_amount }}% fee",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.percent_tax.default": {
+    "message": "{{ fee_amount }}% buwis",
+    "description": "",
+    "placeholders": null
+  },
+  "other_fees_title.default": {
+    "message": "Iba pang Bayarin",
+    "description": "",
+    "placeholders": null
+  }
+}

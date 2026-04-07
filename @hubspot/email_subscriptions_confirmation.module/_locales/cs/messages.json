@@ -1,0 +1,162 @@
+{
+  "name": {
+    "message": "Zpráva k potvrzení odběrů",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.default": {
+    "message": "Změny vašich e-mailových předvoleb byly uloženy.",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_update_success.label": {
+    "message": "Zpráva o změně odběru",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Podnadpis",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Pokud toto není vaše e-mailová adresa, tuto stránku ignorujte. E-mail spojený s touto stránkou vám byl s největší pravděpodobností přeposlán.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.default": {
+    "message": "Odběr všech našich e-mailových sdělení byl odhlášen.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_success.label": {
+    "message": "Zpráva o odhlášení odběru",
+    "description": "",
+    "placeholders": null
+  },
+  "header.placeholder": {
+    "message": "Text nadpisu",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Nadpis",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.label": {
+    "message": "Text tlačítka správy předvoleb",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_button_text.default": {
+    "message": "Spravovat předvolby",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.label": {
+    "message": "Upozornění na možnost vrátit nastavení předvoleb zpět",
+    "description": "",
+    "placeholders": null
+  },
+  "manage_preferences_return_disclaimer.default": {
+    "message": "Udělali jste chybu? Nevadí, předvolby můžete změnit.",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.label": {
+    "message": "Text k úspěšnému odhlášení jednoho odběru",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_unsubscribe_success.default": {
+    "message": "Odběr je úspěšně odhlášen:",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Zástupný text pro odběr",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "zvolený typ odběru",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.label": {
+    "message": "Úroveň nadpisu záhlaví",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h1": {
+    "message": "Nadpis 1",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h2": {
+    "message": "Nadpis 2",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h3": {
+    "message": "Nadpis 3",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h4": {
+    "message": "Nadpis 4",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h5": {
+    "message": "Nadpis 5",
+    "description": "",
+    "placeholders": null
+  },
+  "header_heading_level.choices.h6": {
+    "message": "Nadpis 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.label": {
+    "message": "Úroveň nadpisu e-mailu",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h1": {
+    "message": "Nadpis 1",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h2": {
+    "message": "Nadpis 2",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h3": {
+    "message": "Nadpis 3",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h4": {
+    "message": "Nadpis 4",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h5": {
+    "message": "Nadpis 5",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.h6": {
+    "message": "Nadpis 6",
+    "description": "",
+    "placeholders": null
+  },
+  "email_heading_level.choices.p": {
+    "message": "Odstavec",
+    "description": "",
+    "placeholders": null
+  }
+}

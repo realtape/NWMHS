@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "लैंग्वेज स्विचर",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "हाइब्रिड",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "लोकलाइज़ड",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "पेजलैंग",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "भाषा स्विचर में टेक्स्ट की भाषा। PageLang का अर्थ है कि भाषाओं के नाम उस पेज की भाषा में प्रदर्शित होंगे जिस पर स्विचर चालू है। लोकलाइज़्ड का अर्थ है कि प्रत्येक भाषा का नाम उसी भाषा में प्रदर्शित होगा। हाइब्रिड इन दोनों का मिश्रण है।",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "डिस्प्ले मोड",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "खोजें",
+    "description": "",
+    "placeholders": null
+  }
+}

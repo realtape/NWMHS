@@ -1,0 +1,93 @@
+{# Module data #}
+
+{% set mock_data = {
+    quote: {
+      hs_currency: "USD",
+      hs_language: "en",
+      hs_locale: "en-US",
+      associated_objects: {
+        payment_schedule: {
+          hs_object_id: 1,
+          hs_label: "Payment Schedule 1",
+          hs_currency_code: "USD",
+          hs_amount: 1000,
+          associated_objects: {
+            payment_schedule_installments: [
+              {
+                hs_object_id: 1,
+                hs_label: "Payment Schedule Installment 1",
+                hs_currency_code: "USD",
+                hs_type: "FIXED",
+                hs_value: "500",
+                hs_amount: "500",
+                hs_billing_date: "1668142800000",
+                hs_billing_date_alternate_text: '',
+                hs_timezone: "US/Eastern",
+                hs_sort_order: '0'
+              },
+              {
+                hs_object_id: 2,
+                hs_label: "Payment Schedule Installment 2",
+                hs_currency_code: "USD",
+                hs_type: "FIXED",
+                hs_value: "500",
+                hs_amount: "500",
+                hs_billing_date_alternate_text: "Upon receipt",
+                hs_timezone: "US/Eastern",
+                hs_sort_order: '1'
+              }
+            ]
+          }
+       },
+      }
+    }
+  }
+%}
+{% set quote_data = template_data.quote or mock_data.quote %}
+{% set locale = quote_data.hs_locale or 'en-US' %}
+{% set payment_schedule = quote_data.associated_objects.payment_schedule %}
+{% set payment_installments = payment_schedule.associated_objects.payment_schedule_installments %}
+
+{% if payment_schedule %}
+
+  {{ module.scheduled_payment_heading|render|sanitize_html }}
+
+  <div class="scheduled-payments">
+
+    <table aria-label="{{ module.default_text.scheduled_payment_table|escape_attr }}" class="scheduled-payments__table">
+      <thead>
+        <tr>
+          <th>{{ module.payment_schedule_columns.schedule_name|sanitize_html }}</th>
+          <th>{{ module.payment_schedule_columns.due_date|sanitize_html }}</th>
+          <th>{{ module.payment_schedule_columns.amount|sanitize_html }}</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for payment_installment in payment_installments|sort(False, False, 'hs_sort_order') %}
+          {% set installment_label = payment_installment.hs_label %}
+          {% set installment_amount = payment_installment.hs_amount %}
+          {% set installment_currency = payment_installment.hs_currency_code or 'USD' %}
+
+          {# Due date column -- Can either be a due date or custom text #}
+          {% set timezone = payment_installment.hs_timezone %}
+          {% set installment_payment_date = payment_installment.hs_billing_date %}
+          {% set installment_payment_date_alternate_text = payment_installment.hs_billing_date_alternate_text %}
+          {% set installment_due_date = installment_payment_date ? installment_payment_date|int|format_date('long', 'UTC', locale) : installment_payment_date_alternate_text %}
+
+          <tr class="scheduled-payments__installment">
+            <td>{{ installment_label|sanitize_html }}</td>
+            <td>{{ installment_due_date|sanitize_html }}</td>
+            {% if installment_payment_date %}
+              <td>{{ installment_amount|format_currency_value(locale=locale, currency=installment_currency)|sanitize_html }}</td>
+            {% else %}
+              <td>{{ installment_amount|format_currency_value(locale=locale, currency=installment_currency)|sanitize_html }} <span class="scheduled-payments-paid-text--hidden">({{ module.due_text.paid|sanitize_html }})</span> <span class="scheduled-payments-due-text--hidden">({{ module.due_text.due_now|sanitize_html }})</span> <span class="scheduled-payments-processing-text--hidden">({{ module.due_text.processing|sanitize_html }})</span></td>
+            {% endif %}
+          </tr>
+
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+{% endif %}

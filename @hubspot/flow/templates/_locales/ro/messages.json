@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Această ofertă a expirat",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Oferta {{ personalization_token('quote.hs_quote_number', '') }} a expirat pe {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "<a href='#'>Contactați reprezentantul de vânzări</a> pentru mai multe detalii.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Frecvența facturării",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Preț unitar",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Preț",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Produse și servicii",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Cantitate",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU (unitate de stoc)",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Rezumat<br>executiv",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Termeni și condiții",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Comentarii",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Acceptare<br>proiect",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Titlu secundar",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Povestea<br> noastră",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Punem pasiune<br>în ceea ce facem",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Ce spun clienții noștri<br>despre acest lucru",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Rezumatul<br>proiectului",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Obiectivele noastre",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Specificații<br>de lucru",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Estimarea<br>proiectului",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>Contractul",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Pregătit pentru",
+    "description": "",
+    "placeholders": null
+  }
+}

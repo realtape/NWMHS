@@ -1,0 +1,24 @@
+{# Module variables #}
+
+{% if module.select_blog is number %}
+  {% set select_blog = module.select_blog %}
+{% else %}
+  {% set select_blog = "default" %}
+{% endif %}
+
+{% if module.show_all_filters == true %}
+  {% set max_link_param = "" %}
+{% else %}
+  {% set max_link_param = module.max_links %}
+{% endif %}
+
+{# Module content #}
+
+{% post_filter
+  select_blog="{{ select_blog }}",
+  expand_link_text="{{ module.expand_link_text }}",
+  list_title="{{ module.list_title }}",
+  filter_type="{{ module.filter_type }}",
+  order_by="{{ module.order_by }}",
+  max_links={{ max_link_param }}
+%}

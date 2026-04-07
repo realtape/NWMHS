@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Total text",
+    "name": "total_title",
+    "type": "text",
+    "default": "Total"
+  },
+  {
+    "label": "Due now text",
+    "name": "first_payment_title",
+    "type": "text",
+    "default": "Due now",
+    "inline_help_text": "This is used to label the quote total when the quote has future payments."
+  },
+  {
+    "label": "Total contract value text",
+    "name": "total_contract_value_title",
+    "type": "text",
+    "required": false,
+    "inline_help_text": "Customize the text to accurately describe this value. (The default is an annual value if no terms are set.)",
+    "locked": false,
+    "default": "Total contract value"  }
+]

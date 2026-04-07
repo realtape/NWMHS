@@ -1,0 +1,13 @@
+{
+  "label": "Product",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING", "CASE_STUDY"],
+  "icon": "../img/icon/credit-card.svg",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "placeholder": {
+    "show_module_icon": true,
+    "title": "No product selected",
+    "description": "Select a product from the dropdown menu in the left sidebar."
+  },
+  "categories": ["commerce"]
+}

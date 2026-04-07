@@ -1,0 +1,37 @@
+{
+  "img.default.alt": {
+    "message": "placeholder_200x200",
+    "description": "",
+    "placeholders": null
+  },
+  "img.label": {
+    "message": "Bild",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "Hierher werden Ihre Besucher weitergeleitet, wenn sie auf das Bild klicken. Bitte geben Sie ein gültiges Protokoll (d. h. „http://“.) in der URL an.",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "Link (optional)",
+    "description": "",
+    "placeholders": null
+  },
+  "link.placeholder": {
+    "message": "http://...",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Bild",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "Link in neuem Tab öffnen",
+    "description": "",
+    "placeholders": null
+  }
+}

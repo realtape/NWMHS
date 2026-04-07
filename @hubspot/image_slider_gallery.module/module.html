@@ -1,0 +1,410 @@
+{{ require_css( "https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.2/dist/css/splide.min.css" ) }}
+{{ require_js( "https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.2/dist/js/splide.min.js", "footer" ) }}
+
+{% set placeholder_images = {
+    'light_image': '@hubspot/img/slider-light-image.jpg',
+    'dark_image': '@hubspot/img/slider-dark-image.jpg'
+} %}
+
+{% set ratio_calculations = {
+    '3/2': 1.5,
+    '2/3': 0.66666667,
+    '4/3': 1.33333333,
+    '3/4': 0.75,
+    '16/9': 1.77777778
+} %}
+
+{% set html_direction = html_lang_dir is string_containing 'rtl' ? 'rtl' : 'ltr' %}
+
+{% set slides = [] %}
+
+{% set show_main_arrows = module.slideshow_settings.navigation.show_main_arrows %}
+
+{% set caption_position = module.slideshow_settings.slides.caption_position %}
+
+{% if module.slideshow_settings.slides.sizing == 'force_aspect_ratio' %}
+    {% set caption_position = "overlay" %}
+{% endif %}
+
+{% set main_arrows_styles =  module.styles.navigation.slider_arrows %}
+{% set using_custom_main_arrows = main_arrows_styles.left_icon.name is truthy %}
+{% set thumb_nav_styles =  module.styles.navigation.thumb_nav %}
+{% set using_custom_nav_arrows = thumb_nav_styles.left_icon.name is truthy %}
+
+{% set slide_styles = module.styles.slide %}
+
+{% set dots_styles = module.styles.navigation.dots %}
+
+{# Thumbnail navigation should only show if activated and showing one slide at a time. #}
+{% set show_thumbnails = false %}
+{% if module.slideshow_settings.navigation.show_thumbnails and
+        module.slideshow_settings.slides.per_page == 1 %}
+    {% set show_thumbnails = module.slideshow_settings.navigation.show_thumbnails %}
+{% endif %}
+
+{# Fade transition only works when displaying one slide at a time. #}
+{% set image_transition = 'slide' %}
+{% if module.slideshow_settings.movement.transition == 'fade' and
+        module.slideshow_settings.slides.per_page == 1  %}
+    {% set image_transition = module.slideshow_settings.movement.transition %}
+{% endif %}
+
+{# Captions should only show if activated and showing one slide at a time. #}
+{% set show_captions = false %}
+{% if module.slideshow_settings.slides.show_captions and
+        module.slideshow_settings.slides.per_page == 1 %}
+    {% set show_captions = module.slideshow_settings.slides.show_captions %}
+{% endif %}
+
+{% require_css %}
+    <style>
+        {% scope_css %}
+            .slider__container {
+                {{ module.styles.slider.spacing.spacing.css }}
+            }
+
+            {% if show_captions and caption_position == 'overlay' %}
+                .splide__slide--caption {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    background: rgba(44, 44, 44, 0.8);
+                    color: white;
+                    padding: 0.5rem 1rem;
+                }
+            {% endif %}
+
+            .hs-gallery-slider-main__arrow .splide__arrow {
+                {% if ( main_arrows_styles.background_color.color ) %}
+                    background-color: {{ main_arrows_styles.background_color.css }};
+                {% endif %}
+
+            }
+
+            .hs-gallery-slider-main__arrow .splide__arrow svg {
+                {% if ( main_arrows_styles.fill_color.color ) %}
+                    fill: {{ main_arrows_styles.fill_color.css }};
+                {% endif %}
+            }
+
+            {% if module.slideshow_settings.slides.sizing == 'force_aspect_ratio' %}
+                .splide__slide--image_caption__wrapper {
+                    width: 100%;
+                    height: 100%;
+                }
+            {% endif %}
+
+            .splide__slide--image {
+                {% if slide_styles.image.corner >= 0 %}
+                border-radius: {{ slide_styles.image.corner ~ "px" }};
+                {% endif %}
+
+                {% if module.slideshow_settings.slides.sizing == 'force_aspect_ratio' %}
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                    aspect-ratio: {{ module.slideshow_settings.slides.aspect_ratio }};
+
+                    {% if ( ratio_calculations[ module.slideshow_settings.slides.aspect_ratio ] and ratio_calculations[ module.slideshow_settings.slides.aspect_ratio ] gt 1 ) %}
+                        max-width: 100vw;
+                        max-height: {{ 100 / ratio_calculations[ module.slideshow_settings.slides.aspect_ratio ] }}vh;
+                    {% endif %}
+
+                    {% if ( ratio_calculations[ module.slideshow_settings.slides.aspect_ratio ] and ratio_calculations[ module.slideshow_settings.slides.aspect_ratio ] lt 1 ) %}
+                        max-height: 100vh;
+                        max-width: {{ 100 * ratio_calculations[ module.slideshow_settings.slides.aspect_ratio ] }}vw;
+                    {% endif %}
+                {% endif %}
+            }
+
+            {% if ( show_captions ) %}
+            .splide__slide--caption {
+                {{ slide_styles.caption.background.spacing.css }}
+                {% if ( slide_styles.caption.background.background.color ) %}
+                    background-color: {{ slide_styles.caption.background.background.css }};
+                {% endif %}
+                {{ slide_styles.caption.text.font.css }}
+            }
+            {% endif %}
+
+            {% if ( using_custom_main_arrows ) %}
+                {# splide tries to help by flipping the previous icon, so we'll flip it back. #}
+                .hs-gallery-slider-main__arrow .splide__arrow--prev svg {
+                    transform: {{ html_direction == 'rtl' ? 'scaleX(-1)' : 'scaleX(1)' }};
+                }
+
+                .hs-gallery-slider-main__arrow .splide__arrow svg {
+                    margin-top: 0.25rem;
+                }
+            {% endif %}
+
+            {% if ( dots_styles.color ) %}
+                .splide__pagination__page, .splide__toggle {
+                    background: {{ dots_styles.color.css }} !important;
+                }
+            {% endif %}
+
+            {% if show_thumbnails %}
+                .hs-gallery-slider-nav__arrow .splide__arrow {
+                    {% if ( thumb_nav_styles.arrow_background_color.color ) %}
+                        background-color: {{ thumb_nav_styles.arrow_background_color.css }};
+                    {% endif %}
+                }
+
+                .hs-gallery-slider-nav__arrow .splide__arrow svg {
+                    {% if ( thumb_nav_styles.fill_color.color ) %}
+                        fill: {{ thumb_nav_styles.fill_color.css }};
+                    {% endif %}
+                }
+
+                {% if ( using_custom_nav_arrows ) %}
+                    {# splide tries to help by flipping the previous icon, so we'll flip it back. #}
+                    .hs-gallery-slider-nav__arrow .splide__arrow--prev svg {
+                        transform: scaleX(1);
+                    }
+
+                    .hs-gallery-slider-nav__arrow .splide__arrow svg {
+                        margin-top: 0.25rem;
+                    }
+                {% endif %}
+
+                .splide__slide--nav-image {
+                    {% if thumb_nav_styles.thumbnail.aspect_ratio %}
+                    aspect-ratio: {{ thumb_nav_styles.thumbnail.aspect_ratio }};
+                    {% endif %}
+                    {% if thumb_nav_styles.thumbnail.radius >= 0 %}
+                    border-radius: {{ thumb_nav_styles.thumbnail.radius ~ "px" }};
+                    {% endif %}
+                }
+
+            {% endif %}
+
+        {% end_scope_css %}
+    </style>
+{% end_require_css %}
+
+{% if module.slides %}
+    {% for slide in module.slides %}
+        {% if ( slide.img.src ) %}
+            {% set slide_image_src = resize_image_url( slide.img.src, 1200, 0, 1200 ) %}
+        {% else %}
+            {% if loop.index is divisibleby 2 %}
+                {% set slide_image_src = get_asset_url(placeholder_images.dark_image) %}
+            {% else %}
+                {% set slide_image_src = get_asset_url(placeholder_images.light_image) %}
+            {% endif %}
+        {% endif %}
+        {% do slides.append({
+                "caption":  slide.caption,
+                "show_caption": show_captions,
+                "link_url": slide.link_url,
+                "alt_text": slide.img.alt,
+                "img_src": slide_image_src,
+                "open_in_new_tab": slide.link_url.open_in_new_tab
+            })
+        %}
+    {% endfor %}
+{% else %}
+    {% if is_in_editor or is_in_previewer %}
+        {% for x in range(0,5) %}
+            {% if loop.index is divisibleby 2 %}
+                {% set slide_image_src = get_asset_url(placeholder_images.dark_image) %}
+            {% else %}
+                {% set slide_image_src = get_asset_url(placeholder_images.light_image) %}
+            {% endif %}
+            {% do slides.append({
+                    "caption": "<strong>{{loop.index}}</strong> {{ module.default_text.default_caption }} ",
+                    "show_caption": show_captions,
+                    "link_url": "",
+                    "alt_text": "Alt text {{loop.index}}",
+                    "img_src": slide_image_src,
+                    "open_in_new_tab": true
+                })
+            %}
+        {% endfor %}
+    {% endif %}
+{% endif %}
+
+{% if slides %}
+{% set slide_count = slides|length %}
+{% if slide_count <= module.slideshow_settings.slides.per_page %}
+    {% set show_main_arrows = false %}
+{% endif %}
+{% set slider_aria_label = show_thumbnails ? module.default_text.slider_aria_label|render ~ ' ' ~ module.default_text.aria_label_thumbnails : module.default_text.slider_aria_label|render %}
+<div class="slider__container" data-gallery_slider="{{ name|escape_attr }}">
+    <section class="splide__main splide" aria-label="{{ slider_aria_label|escape_attr }}">
+
+        {% if ( using_custom_main_arrows ) %}
+        <div class="splide__arrows hs-gallery-slider-main__arrow">
+            <button
+                class="splide__arrow splide__arrow--prev">
+                {% icon "prev_icon"
+                    extra_classes="",
+                    name="{{ main_arrows_styles.left_icon.name }}",
+                    purpose="decorative",
+                    style="{{ main_arrows_styles.left_icon.type }}",
+                    unicode="{{ main_arrows_styles.left_icon.unicode }}"
+                %}
+            </button>
+            <button class="splide__arrow splide__arrow--next">
+                {% icon "next_icon"
+                    extra_classes="",
+                    name="{{ main_arrows_styles.right_icon.name }}",
+                    purpose="decorative",
+                    style="{{ main_arrows_styles.right_icon.type }}",
+                    unicode="{{ main_arrows_styles.right_icon.unicode }}"
+                %}
+            </button>
+        </div>
+        {% endif %}
+
+        <div class="splide__track">
+            <div class="splide__list">
+                {% for slide in slides %}
+                    {% if slide.img_src %}
+                        <div class="splide__slide">
+                            <div class="splide__slide__contents">
+                                <div class="splide__slide--image_caption__wrapper">
+                                    <div class="splide__slide--image__wrapper">
+                                    {% if slide.link_url and slide.link_url.url.href %}
+                                        <a href="{{ 'mailto:' ~ slide.link_url.url.href|escape_attr if slide.link_url.url.type == 'EMAIL_ADDRESS' else slide.link_url.url.href|escape_url }}"
+                                        {% if slide.link_url.rel %}
+                                            rel="{{ slide.link_url.rel|escape_attr }}"
+                                        {% endif %}
+                                        {% if slide.open_in_new_tab %}
+                                            target="_blank"
+                                        {% endif %} >
+                                    {% endif %}
+
+                                    <img
+                                        class="splide__slide--image"
+                                        {% if is_in_editor %}
+                                            src="{{ slide.img_src|escape_url }}"
+                                        {% else %}
+                                            data-splide-lazy="{{ slide.img_src|escape_url }}"
+                                        {% endif %}
+                                        alt="{{ slide.alt_text|escape_attr }}"
+                                    >
+
+                                    {% if slide.link_url %}
+                                        </a>
+                                    {% endif %}
+
+                                    </div>
+                                    {% if show_captions and slide.caption %}
+                                        <div class="splide__slide--caption">{{ slide.caption|sanitize_html }}</div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="splide__controls">
+            {% if module.slideshow_settings.movement.auto_advance %}
+                <button class="splide__toggle" type="button">
+                    <svg
+                        class="splide__toggle__play"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="m22 12-20 11v-22l10 5.5z"/>
+                    </svg>
+                    <svg
+                        class="splide__toggle__pause"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="m2 1v22h7v-22zm13 0v22h7v-22z"/>
+                    </svg>
+                </button>
+            {% endif %}
+            <div class="splide__pagination"></div>
+        </div>
+    </section>
+
+    {% if show_thumbnails %}
+        <section class="splide__nav splide" aria-label="{{ module.default_text.slider_nav_aria_label|escape_attr }}" >
+            {% if ( using_custom_nav_arrows ) %}
+            <div class="splide__arrows hs-gallery-slider-nav__arrow">
+                <button
+                    class="splide__arrow splide__arrow--prev">
+                    {% icon "thumb_prev_icon"
+                        extra_classes="",
+                        name="{{ thumb_nav_styles.left_icon.name }}",
+                        purpose="decorative",
+                        style="{{ thumb_nav_styles.left_icon.type }}",
+                        unicode="{{ thumb_nav_styles.left_icon.unicode }}"
+                    %}
+                </button>
+                <button class="splide__arrow splide__arrow--next">
+                    {% icon "thumb_next_icon"
+                        extra_classes="",
+                        name="{{ thumb_nav_styles.right_icon.name }}",
+                        purpose="decorative",
+                        style="{{ thumb_nav_styles.right_icon.type }}",
+                        unicode="{{ thumb_nav_styles.right_icon.unicode }}"
+                    %}
+                </button>
+            </div>
+            {% endif %}
+            <nav class="splide__track">
+                <div class="splide__list">
+                    {% for slide in slides %}
+                        {% if slide.img_src %}
+                        <div class="splide__slide splide__slide--nav">
+                            <img class="splide__slide--nav-image"
+                              {% if is_in_editor %}
+                                src="{{ slide.img_src|escape_url }}"
+                              {% else %}
+                                data-splide-lazy="{{ slide.img_src|escape_url }}"
+                              {% endif %}
+                                alt="{{ slide.alt_text|escape_attr }}">
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </nav>
+        </section>
+    {% endif %}
+</div>
+
+
+
+{% require_js position="head" %}
+    <script data-gallery_slider-config="config_{{ name|escape_attr }}" type="application/json">
+    {
+        "instance_name": "config_{{ name|escapejson }}",
+        "show_thumbnails": "{{ show_thumbnails|escapejson }}",
+        "show_main_arrows": "{{ show_main_arrows|escapejson }}",
+        "show_dots": "{{ module.slideshow_settings.navigation.show_dots|escapejson }}",
+        "loop_slides": "{{ module.slideshow_settings.movement.loop_slides|escapejson }}",
+        "auto_advance": "{{ module.slideshow_settings.movement.auto_advance|escapejson }}",
+        "image_transition": "{{ image_transition|escapejson }}",
+        "auto_advance_speed_seconds": "{{ module.slideshow_settings.movement.auto_advance_speed_seconds|escapejson }}",
+        "slides_sizing": "{{ module.slideshow_settings.slides.sizing|escapejson }}",
+        "slides_caption_position": "{{ caption_position|escapejson }}",
+        "thumbnail_width": "{{ thumb_nav_styles.thumbnail.width|escapejson }}",
+        "slides_per_page": {{ module.slideshow_settings.slides.per_page|escapejson }},
+        "gap_between_slides": "{{ slide_styles.image.gap|escapejson }}",
+        "direction": "{{ html_direction|escapejson }}",
+        "splide_i18n": {
+            "prev": "{{ module.default_text.prev|escapejson }}",
+            "next": "{{ module.default_text.next|escapejson }}",
+            "first": "{{ module.default_text.first|escapejson }}",
+            "slideX": "{{ module.default_text.slideX|escapejson }}",
+            "pageX": "{{ module.default_text.pageX|escapejson }}",
+            "play": "{{ module.default_text.play|escapejson }}",
+            "pause": "{{ module.default_text.pause|escapejson }}",
+            "carousel": "{{ module.default_text.carousel|escapejson }}",
+            "select": "{{ module.default_text.select|escapejson }}",
+            "slide": "{{ module.default_text.slide|escapejson }}",
+            "slideLabel": "{{ module.default_text.slideLabel|escapejson }}"
+        }
+    }
+    </script>
+{% end_require_js %}
+
+{% endif %}

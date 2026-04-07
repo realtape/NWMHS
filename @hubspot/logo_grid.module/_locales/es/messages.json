@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Cuadro de logotipos",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Logotipos",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Estilos",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Imagen del logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Altura máxima del logotipo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Establece la altura máxima de los logotipos.<br><br>Establecer una altura máxima del logotipo es lo más útil cuando se trata de hacer que varios logotipos de dimensiones considerablemente diferentes tengan un tamaño visualmente igual.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Fondo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Proporción",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Establece la relación de aspecto del contenedor del logotipo. Es más útil si utilizas el campo del color de fondo junto con logotipos de dimensiones considerablemente diferentes.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Color de fondo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Espaciado",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Espaciado",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Define el relleno alrededor del logotipo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Debido a la naturaleza adaptable de la web, la altura representada de los logotipos podría ser inferior al valor establecido en función de la combinación del tamaño de la pantalla, del tamaño de la imagen original, del relleno del logotipo, de la separación de cuadrícula y del recuento de columnas.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Cuadro de logotipos",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Columnas del cuadro",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Define la cantidad de columnas en la cuadrícula para el escritorio. Por defecto es 1 en móvil.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Establecer un color de fondo en <strong>Imagen del logotipo > Fondo</strong> puede ser útil para visualizar la cuadrícula del logotipo. ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Espacio de separación en la cuadrícula",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Establece el espacio entre los elementos de la cuadrícula. <br><br>Establecer un fondo en <strong>Imagen del logotipo > Fondo</strong> puede ser útil para visualizar la cuadrícula del logotipo.",
+    "description": "",
+    "placeholders": null
+  }
+}

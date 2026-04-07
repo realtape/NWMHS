@@ -1,0 +1,57 @@
+{
+  "name": {
+    "message": "Video",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.label": {
+    "message": "Typ videa",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.embed": {
+    "message": "Vložiť",
+    "description": "",
+    "placeholders": null
+  },
+  "video_type.choices.hubspot_video": {
+    "message": "Video v službe HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "hubspot_video.label": {
+    "message": "Video v službe HubSpot",
+    "description": "",
+    "placeholders": null
+  },
+  "embed_field.label": {
+    "message": "Vložiť",
+    "description": "",
+    "placeholders": null
+  },
+  "oembed_thumbnail.label": {
+    "message": "Vlastná miniatúra",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.label": {
+    "message": "Možnosti štýlu",
+    "description": "",
+    "placeholders": null
+  },
+  "style_options.oembed_thumbnail_play_button_color.label": {
+    "message": "Farba tlačidla Prehrať",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_title.default": {
+    "message": "Nie je vybrané žiadne video",
+    "description": "",
+    "placeholders": null
+  },
+  "placeholder_fields.placeholder_description.default": {
+    "message": "Vyberte na bočnej lište typ videa.",
+    "description": "",
+    "placeholders": null
+  }
+}

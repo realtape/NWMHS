@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Сплив строк дії цієї цінової пропозиції",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Строк дії цінової пропозиції {{ personalization_token('quote.hs_quote_number', '') }} сплив {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Заверніться до <a href='#'>свого торгового представника</a> для отримання докладної інформації.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Частота виставлення рахунків",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Ціна за одиницю",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Ціна",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Продукти й послуги",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Кількість",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "Номер SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Резюме для<br> керівництва",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Положення та умови",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Коментарі",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Прийняття<br> проєкту",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Підзаголовок",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Наша<br> розповідь",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Ми захоплюємось тим,<br>що робимо",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Що наші клієнти<br>кажуть про нас",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Коротке<br>зведення проєкту",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Наші цілі",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Технічне<br>завдання",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Кошторис<br>проєкту",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "<br>Контракт",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Підготовлено для",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Płatność",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Dodaj ikonę",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Łącze przycisku",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Inne",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Użyj łącza płatności",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Cel przycisku",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Finalizacja zamówienia",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Tekst przycisku",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Otwórz w nowej karcie",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Nakładka przesuwna",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Zachowanie podczas finalizacji",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Zamknij finalizację",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Do lewej",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Po prawej",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Pozycja",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Łącze płatności",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Wyrównanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Wyrównanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Tło",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Róg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Promień",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Tło",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Kursor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Rozmiar",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Odstęp pomiędzy ikoną a tekstem przycisku.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  }
+}

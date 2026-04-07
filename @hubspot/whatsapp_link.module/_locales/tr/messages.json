@@ -1,0 +1,232 @@
+{
+  "name": {
+    "message": "WhatsApp Bağlantısı",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.label": {
+    "message": "Etkinleştirme metni",
+    "description": "",
+    "placeholders": null
+  },
+  "optin_text.help_text": {
+    "message": "Etkinleştirme metni, iletişim kurduğunuz kişinin şirketinizden alacağı mesajların türü, aynı zamanda etkinleştirme talimatları ve anahtar sözcükler hakkında bilgi verir. Daha fazla bilgi edinmek için, <a href='https://knowledge.hubspot.com/inbox/collect-consent-for-whatsapp-conversations' target='_blank' rel='noopener noreferrer'>bu bilgi bankası makalesi</a>'ne bir göz atın",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.label": {
+    "message": "Göster",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text_and_icon": {
+    "message": "Metin ve simge",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.text": {
+    "message": "Sadece metin",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_display.choices.icon": {
+    "message": "Sadece simge",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.label": {
+    "message": "Simge konumu",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.left": {
+    "message": "Sol",
+    "description": "",
+    "placeholders": null
+  },
+  "icon_position.choices.right": {
+    "message": "Sağ",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Düğme metni",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "WhatsApp üzerinde sohbet et",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiller",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.label": {
+    "message": "Simge",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.size.label": {
+    "message": "Boyut",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.color.label": {
+    "message": "Renk",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.label": {
+    "message": "Aralık",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_icon.spacing.help_text": {
+    "message": "Simge ve düğme metni arasındaki boşluk.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.label": {
+    "message": "Metin",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.font.label": {
+    "message": "Yazı tipi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.label": {
+    "message": "Dönüştür",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.placeholder": {
+    "message": "Hiçbiri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.capitalize": {
+    "message": "Büyük harfe çevir",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.uppercase": {
+    "message": "Büyük harf",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_text.transform.choices.lowercase": {
+    "message": "Küçük harf",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.label": {
+    "message": "Arka plan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_background.color.label": {
+    "message": "Renk",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.label": {
+    "message": "Sınır",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_border.border.label": {
+    "message": "Sınır",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.label": {
+    "message": "Köşe",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_corner.radius.label": {
+    "message": "Yarıçap",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.label": {
+    "message": "Aralık",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_spacing.spacing.label": {
+    "message": "Aralık",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.label": {
+    "message": "Üzerine gel",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.label": {
+    "message": "Simge",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_icon.color.label": {
+    "message": "Renk",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.label": {
+    "message": "Metin",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_text.font.label": {
+    "message": "Yazı tipi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.label": {
+    "message": "Arka plan",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_background.color.label": {
+    "message": "Renk",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.label": {
+    "message": "Sınır",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_hover.group_border.border.label": {
+    "message": "Sınır",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.label": {
+    "message": "Whatsapp numarasını bağla",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_number.help_text": {
+    "message": "<a href='https://knowledge.hubspot.com/inbox/connect-whatsapp-to-the-conversations-inbox' target='_blank' rel='noopener noreferrer'>Bu bilgi bankası makalesi</a> üzerinden bir WhatsApp kanalını gelen kutunuza nasıl bağlayacağınızı öğrenin",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.default": {
+    "message": "WhatsApp Simgesi",
+    "description": "",
+    "placeholders": null
+  },
+  "whatsapp_icon_title.help_text": {
+    "message": "Bu metin, simgeyi tarif etmek için, ekran okuyucular tarafından okunacaktır.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Legg til ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Knappkobling",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Annet",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Bruk en betalingslenke",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Knappemål",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Kasse",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Knappetekst",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Åpne i ny fane",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Glidende overlegg",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Betalingsatferd",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Lukk betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Venstre",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Høyre",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Posisjon",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Betalingslenke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Innretting",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Justering",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Farge",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Bakgrunn",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Kant",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Kantlinje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Hjørne",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Radius",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Farge",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Bakgrunn",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Kantlinje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Kantlinje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Farge",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Pekerfølsom",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Skrifttype",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Farge",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Størrelse",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Mellomrom mellom ikonet og knappeteksten.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Mellomrom",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiler",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Mellomrom",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Mellomrom",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Skrifttype",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Bruk store bokstaver",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Små bokstaver",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Store bokstaver",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Transformer",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Ingen",
+    "description": "",
+    "placeholders": null
+  }
+}

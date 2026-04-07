@@ -1,0 +1,22 @@
+{
+  "html.default": {
+    "message": "<h2>Güçlü bir şey</h2>\n<h3>Okuyucuya daha fazlasını söyleyin</h3>\n<p>Başlık ve alt başlık bize ne <a href=\"#\">önerdiğinizi</a> gösterir ve form başlığı teklifi kapatır. Burada teklifinizin neden bir form doldurmaya değecek kadar harika olduğunu açıklayabilirsiniz.</p>\n<p>Unutmayın:</p>\n<ul>\n<li>Maddeler</li>\n<li><a href=\"#\">faydaları</a> açıklamada ve</li>\n<li>ziyaretçileri müşteri adayına çevirmede harikadır.</li>\n</ul>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.defaultEmail": {
+    "message": "<h2>Başlık</h2><p>E-postanıza metin ekleyin.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "Zengin metin içeriği",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Zengin metin",
+    "description": "",
+    "placeholders": null
+  }
+}

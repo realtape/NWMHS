@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "תשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "הוסף סמל",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "קישור לחצן",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "אחר",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "שימוש בקישור לתשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "יעד לחצן",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "קופה",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "טקסט לחצן",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "פתח בכרטיסיה חדשה",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "גלישת החלקה",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "התנהגות בקופה",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "סגירת קופה",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "סמל",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "סמל",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "שמאל",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "ימין",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "מיקום",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "קישור לתשלום",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "יישור",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "יישור",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "צבע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "רקע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "גבול",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "גבול",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "פינה",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "רדיוס",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "צבע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "רקע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "גבול",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "גבול",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "צבע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "סמל",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "ריחוף",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "גופן",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "טקסט",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "צבע",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "סמל",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "גודל",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "מרווח בין הסמל לטקסט הלחצן.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "מרווח",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "סגנונות",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "מרווח",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "מרווח",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "גופן",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "טקסט",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "הפוך לרישית",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "אות קטנה",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "אות רישית",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "שינוי צורה",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "ללא",
+    "description": "",
+    "placeholders": null
+  }
+}

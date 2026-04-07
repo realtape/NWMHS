@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Výpis příspěvků",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Nejpopulárnější – posledních 6 měsíců",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Nejpopulárnější – celkově",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Nejpopulárnější – poslední měsíc",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Nejpopulárnější – poslední rok",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Poslední",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Hledat",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Vypsat příspěvky podle",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Je-li zvolena možnost Výchozí, v šabloně blogu se použije aktuální blog, v jiných případech primární blog.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Vyberte blog, který chcete zobrazit",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maximální počet příspěvků, které se vypíšou",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Nejnovější příspěvky",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Název seznamu, který se zobrazí",
+    "description": "",
+    "placeholders": null
+  }
+}

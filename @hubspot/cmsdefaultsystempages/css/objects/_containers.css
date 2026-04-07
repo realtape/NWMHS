@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #fff;
+}
+
+.body-wrapper {
+  display: flex;
+  min-height: 100%;
+  flex-flow: column;
+}
+
+.body-container-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 2rem 0;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+  Fallback in case there is no header
+  Will only happen if no company name or logo
+  is specified in account. Will make full height
+  and centered content.
+*/
+.body-container-wrapper.no-header {
+  min-height: 100%;
+  padding: 2rem 0;
+}
+
+.section-wrapper {
+  width: min(95%, 655px);
+}
+
+.section-wrapper--narrow {
+  width: min(95%, 501px);
+}
+
+.section-wrapper--large {
+  width: min(95%, 700px);
+}
+
+.section-wrapper--centered {
+  text-align: center;
+}

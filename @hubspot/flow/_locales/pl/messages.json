@@ -1,0 +1,572 @@
+{
+  "name": {
+    "message": "Flow",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.label": {
+    "message": "Baner",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.label": {
+    "message": "Treść",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.none": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.body_font.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.label": {
+    "message": "Nagłówek",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.none": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.heading.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.label": {
+    "message": "Odniesienie",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.none": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.text.reference.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.label": {
+    "message": "Tło",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.label": {
+    "message": "Kolor tła",
+    "description": "",
+    "placeholders": null
+  },
+  "banner.background.background_color.inline_help_text": {
+    "message": "Ten kolor będzie widoczny tylko, gdy obraz banera będzie ukryty",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.background.label": {
+    "message": "Tło",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.label": {
+    "message": "Róg",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.corner.radius.label": {
+    "message": "Promień",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.label": {
+    "message": "Przyciski",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.spacing.spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.none": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "buttons.text.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.label": {
+    "message": "Kolory globalne",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.primary_color.label": {
+    "message": "Główny kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.secondary_color.label": {
+    "message": "Kolor dodatkowy",
+    "description": "",
+    "placeholders": null
+  },
+  "global_colors.tertiary_color.label": {
+    "message": "Kolor trzeciorzędny",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.label": {
+    "message": "Czcionki globalne",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.primary_font.label": {
+    "message": "Czcionka główna",
+    "description": "",
+    "placeholders": null
+  },
+  "global_fonts.secondary_font.label": {
+    "message": "Czcionka dodatkowa",
+    "description": "",
+    "placeholders": null
+  },
+  "spacing.vertical_spacing.help_text": {
+    "message": "Odstęp pionowy kontroluje odstępy na górze i dole szablonu wyceny oraz między sekcjami wewnątrz treści.",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.cells.spacing.spacing.label": {
+    "message": "Odstępy",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.background.label": {
+    "message": "Tło",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.footer.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.background.label": {
+    "message": "Tło",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.header.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.background.label": {
+    "message": "Tło",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "tables.table_body.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "text.body_font.label": {
+    "message": "Treść",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.label": {
+    "message": "Nagłówek pierwszy (H1)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.none": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h1.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.label": {
+    "message": "Nagłówek drugi (H2)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.none": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h2.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.label": {
+    "message": "Nagłówek trzeci (H3)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.none": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h3.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.label": {
+    "message": "Nagłówek czwarty (H4)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.none": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h4.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.label": {
+    "message": "Nagłówek piąty (H5)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.none": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h5.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.label": {
+    "message": "Nagłówek szósty (H6)",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.capitalize": {
+    "message": "Pisownia wielką i małą literą",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.lowercase": {
+    "message": "Małe litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.none": {
+    "message": "Brak",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.choices.uppercase": {
+    "message": "Wielkie litery",
+    "description": "",
+    "placeholders": null
+  },
+  "text.h6.transform.label": {
+    "message": "Przekształcenie",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "text.links.label": {
+    "message": "Łącza",
+    "description": "",
+    "placeholders": null
+  }
+}

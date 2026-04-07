@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "语言切换器",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "混合",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "本地化",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "页面语言",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "语言切换器文本所用的语言。 “页面语言”表示切换器所在页面支持显示的语言的名称。 “本地化”表示实际显示所用语言的名称。“混合”包含以上两种显示形式。",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "显示模式",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "搜索",
+    "description": "",
+    "placeholders": null
+  }
+}

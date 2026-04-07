@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "配信設定",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "設定更新のボタンテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Eメールの設定を更新",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "コミュニケーション設定",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "ヘッダー",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "サブヘッダー",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "このEメールアドレスが自分のものでない場合、このページに関連付けられたEメールが転送された可能性が非常に高いため、このページは無視してください。",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "配信に再登録する",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "配信再登録のボタンテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "全ての配信を停止のラベル",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "全てのメーリングリストの配信を停止します。",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "受信したくないEメールのタイプのチェックを外してください：",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "設定選択時のヘルプテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "または、今後Eメールを受信しない場合はここにチェックを付けます：",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "全ての配信を停止のヘルプテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "現在配信登録していないユーザーに対する全配信停止のヘルプテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "現在、全てのEメール配信を停止しています。Eメールを再び受信されますか？",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "単一の配信登録ボタンのテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "配信停止",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "単一の配信登録確認テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "以下に関するEメールの配信を停止しますか：",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "単一の配信登録例の名前",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "選択した配信カテゴリー",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Gumb (interaktivni)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL poveznica",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Adresa e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Datoteka",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Zatvori poziv na djelovanje",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Adresa e-pošte",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Broj telefona",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Preuzimanje datoteke",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Poveznica na sastanke",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Jedna od vaših stranica",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Jedna od stranica na vašem blogu",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Poveznica na",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Poveznica na sastanke",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Otvori poveznicu u novoj kartici",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Stranica",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Boja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Kliknuto",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Pozadina",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Obrub",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Obrub",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Kut",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Dodajte zaobljeni ugao svojem gumbu",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Polumjer",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Boja",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Pozadina pri držanju iznad tipke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Obrub",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Granica držanja iznad tipke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Drži iznad",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Tekst prikazan pri držanju iznad tipke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stilovi",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Odmak teksta",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Ovdje dodajte poveznicu gumba",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Tekst gumba",
+    "description": "",
+    "placeholders": null
+  }
+}

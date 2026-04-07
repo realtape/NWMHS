@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Фільтр публікацій",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Переглянути всі",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Текст для відображення, якщо для нього доступно більше за максимально допустиму кількість. Залиште порожнім, щоб пропустити посилання",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "За замовчуванням буде використаний поточний блог, коли він використовується в шаблоні блогу, або основний блог, коли він використовується в іншому місці.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Виберіть блог для показу",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Максимальна кількість значень фільтра для відображення. Залишити це поле порожнім, щоб показати всі",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Пошук",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Перелік значень для посилань фільтра",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Теги",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Автори",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Місяці",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Дописи по тегах",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Заголовок переліку для відображення",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Назва",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Лічильник поштових повідомлень",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Пошук",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Упорядкування значень для посилань фільтра",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Показати всі фільтри",
+    "description": "",
+    "placeholders": null
+  }
+}

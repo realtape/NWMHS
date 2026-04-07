@@ -1,0 +1,22 @@
+{
+  "label": "Heading",
+  "host_template_types": ["PAGE", "BLOG_POST", "BLOG_LISTING"],
+  "content_types": ["LANDING_PAGE", "SITE_PAGE", "BLOG_POST", "BLOG_LISTING", "QUOTE_TEMPLATE", "SUBSCRIPTION", "MEMBERSHIP"],
+  "icon": "../img/icon/high-header.svg",
+  "extra_classes": "widget-type-header",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": [
+    "text"
+  ],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}

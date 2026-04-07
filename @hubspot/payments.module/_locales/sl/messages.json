@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Plačilo",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Dodaj ikono",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Gumb povezave",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Drugo",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Uporabite povezavo za plačilo",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Cilj gumba",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Blagajna",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Besedilo gumba",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Odprite v novem zavihku",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Drsni prekrivni sloj",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Vedenje pri blagajni",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Zapri blagajno",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Levo",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Desno",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Položaj",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Povezava za plačilo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Poravnava",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Poravnava",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Ozadje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Obroba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Obroba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Kot",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Polmer",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Ozadje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Obroba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Obroba",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Lebdenje",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Barva",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Ikona",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Velikost",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Razmik med besedilom ikone in gumba.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Razmik",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stili",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Razmik",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Razmik",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Pisava",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Besedilo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Uporabi velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Male črke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Velike črke",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Preoblikuj",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Brez",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": {
+    "message": "E-mailens hovedbrødtekst",
+    "description": "",
+    "placeholders": null
+  },
+  "html.default": {
+    "message": "<p>Hi&nbsp;{{contact.firstname}},</p>\n<p>Beskriv, hvad du kan tilbyde kunden. Hvorfor skal de læse videre? Hvad lovede du dem i emnefeltet? Fortæl dem noget fedt. Få dem til at grine. Få dem til at græde. Ej, det skal du nok ikke gøre...</p>\n<p>Brug en liste til:</p>\n<ul>\n<li>Beskriv værdien af dit tilbud</li>\n<li>Mind læseren om, hvad de får ud af at handle</li>\n<li>Vis, hvad du kan, ved at bruge punktform</li>\n<li>Sørg for, at dit indhold er nemt at kigge igennem</li>\n</ul>\n<p><a href=\"http://hubspot.com\">LINK TIL EN LANDINGSSIDE PÅ DIT WEBSITE</a> (Det er det mest vigtige.)</p>\n<p>Afslut nu med en varm påmindelse om, hvor højt du elsker dem.</p>\n<p>Dine overtalelsesevner er helt i top, altså .</p>\n<p>Med venlig hilsen,</p>\n<p>Dit navn</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "html.label": {
+    "message": "E-mailens brødtekst",
+    "description": "",
+    "placeholders": null
+  }
+}

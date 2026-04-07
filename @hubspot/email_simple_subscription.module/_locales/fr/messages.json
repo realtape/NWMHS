@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Enregistrer le désabonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Texte du bouton",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Se désabonner",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Désabonnement aux e-mails",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "En-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Texte de l'espace réservé de la saisie d'e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Votre adresse e-mail :",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Texte d'aide de la saisie d'e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Message d'erreur",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "Une erreur est survenue lors du chargement de la page. Essayez d'utiliser le même lien à partir d'un e-mail plus récent, ou contactez l'entreprise pour mettre à jour votre page de gestion des inscriptions.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Sous-titre",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "E-postprenumeration för bloggen",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Standardinställning kommer att använda nuvarade blogg när den används i en bloggmall eller den primära bloggen när den används någon annanstans.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Välj blogg att visa",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Prenumerera här!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Titel att visa ovanför formuläret",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Inline-svar för användare",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Tack för att du prenumererar!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "För att prenumerationsformuläret för bloggen ska visas måste du aktivera prenumerationer för din blogg. Detta kan göras i inställningarna. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Läs mer</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Rubriknivå",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Välj en rubriknivå. Rubriker bör kapslas på ett hierarkiskt sätt baserat på ditt innehåll. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Mer information</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

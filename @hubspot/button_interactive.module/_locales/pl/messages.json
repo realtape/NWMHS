@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Przycisk (interaktywny)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "Adres URL łącza",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Adres e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Plik",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Zamknij wezwanie do działania",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Adres e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Numer telefonu",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Pobieranie plików",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Łącza do spotkań",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Jedna z Twoich stron",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Jedna z Twoich stron na blogu",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "Adres URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Łącze do",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Łącza do spotkań",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Otwórz łącze w nowej karcie",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Strona",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Kliknięte",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Tło",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Róg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Dodaj zaokrąglony róg do swojego przycisku",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Promień",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Kolor",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Tło po najechaniu kursorem",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Obramowanie",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Obramowanie po najechaniu kursorem",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Ustawienie wskaźnika myszy",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Tekst po najechaniu kursorem",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Style",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Czcionka",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Tekst",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Odstęp tekstu",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Tutaj dodaj łącze przycisku",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Tekst przycisku",
+    "description": "",
+    "placeholders": null
+  }
+}

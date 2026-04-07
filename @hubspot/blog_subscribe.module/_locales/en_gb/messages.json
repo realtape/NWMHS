@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Blog email subscription",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Default will use the current blog when used in a blog template or the primary blog when used elsewhere.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Select blog to display",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Subscribe here!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Title to display above form",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Inline response for users",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Thank you for subscribing!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "For the blog subscription form to appear, you need to turn on subscriptions for your blog. This can be done in settings. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Learn more</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Heading level",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Choose a heading level. Headings should be nested in a hierarchical way based on your content. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>More information</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

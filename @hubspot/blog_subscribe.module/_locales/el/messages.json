@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Συνδρομή email ιστολογίου",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Ως προεπιλογή θα χρησιμοποιηθεί το τρέχον ιστολόγιο όταν χρησιμοποιείται σε πρότυπο ιστολογίου ή το κύριο ιστολόγιο όταν χρησιμοποιείται αλλού.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Επιλέξτε ιστολόγιο για προβολή",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "Εγγραφείτε για συνδρομή εδώ!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "Τίτλος προς εμφάνιση πάνω από τη φόρμα",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "Απάντηση εντός του κειμένου για τους χρήστες",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "Ευχαριστούμε για την εγγραφή σας!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Για να εμφανιστεί η φόρμα εγγραφής στο blog, πρέπει να ενεργοποιήσετε τις συνδρομές για το blog σας. Αυτό μπορεί να γίνει στις ρυθμίσεις. <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>Μάθετε περισσότερα</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "Επίπεδο επικεφαλίδας",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "Επιλέξτε ένα επίπεδο κεφαλίδας. Οι κεφαλίδες θα πρέπει να είναι ταξινομημένες με ιεραρχικό τρόπο με βάση το περιεχόμενό σας. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>Περισσότερες πληροφορίες</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

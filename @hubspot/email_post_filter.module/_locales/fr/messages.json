@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "Filtrage des articles",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "Voir tout",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "Texte à afficher si le nombre d'articles disponibles est supérieur à la valeur maximale à afficher. Laisser vide pour omettre le lien.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Par défaut, utiliser le blog actuel lorsqu'il est utilisé dans un modèle de blog ou le blog principal lorsqu'il est utilisé ailleurs.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Sélectionner un blog à afficher",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Nombre maximal de valeurs de filtre à afficher. Laisser vide pour tout afficher",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "Liste de valeurs permettant de filtrer les liens",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "Balises",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "Auteurs",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "Mois",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Articles par balise",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Titre de liste à afficher",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "Nom",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "Nombre d'articles",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "Rechercher",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "Ordre des valeurs permettant de filtrer les liens",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "Afficher tous les filtres",
+    "description": "",
+    "placeholders": null
+  }
+}

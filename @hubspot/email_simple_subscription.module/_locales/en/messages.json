@@ -1,0 +1,62 @@
+{
+  "name": {
+    "message": "Backup Unsubscribe",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Button text",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Email Unsubscribe",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.label": {
+    "message": "Email input placeholder text",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.default": {
+    "message": "Your email address:",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Unsubscribe",
+    "description": "",
+    "placeholders": null
+  },
+  "input_placeholder.default": {
+    "message": "email@example.com",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "Heading",
+    "description": "",
+    "placeholders": null
+  },
+  "input_help_text.label": {
+    "message": "Email input help text",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.label": {
+    "message": "Error message",
+    "description": "",
+    "placeholders": null
+  },
+  "error_info_text.default": {
+    "message": "There was a problem loading the page. Try using the same link from a more recent email, or contact the company to update your subscription preferences.",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader.label": {
+    "message": "Subheading",
+    "description": "",
+    "placeholders": null
+  }
+}

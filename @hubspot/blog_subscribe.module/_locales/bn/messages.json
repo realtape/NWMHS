@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "ব্লগের ইমেল সাবস্ক্রিপশন",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "যখন কোনও ব্লগ টেমপ্লেটে ব্যবহার করা হবে ডিফল্ট বর্তমান ব্লগটি ব্যবহার করবে অথবা যখন অন্যত্র ব্যবহৃত হবে তখন প্রাথমিক ব্লগ ব্যবহার করবে।",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "প্রদর্শন করার জন্য ব্লগ নির্বাচন করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "title.default": {
+    "message": "এখানে সাবস্ক্রাইব করুন!",
+    "description": "",
+    "placeholders": null
+  },
+  "title.label": {
+    "message": "ফর্মের উপরে প্রদর্শনের জন্য শিরোনাম",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.label": {
+    "message": "ব্যবহারকারীদের জন্য ইনলাইন উত্তর",
+    "description": "",
+    "placeholders": null
+  },
+  "response_message.default": {
+    "message": "সাবস্ক্রাইব করার জন্য ধন্যবাদ!",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "ব্লগ সাবস্ক্রিপশন ফর্ম প্রদর্শিত হওয়ার জন্য, আপনাকে আপনার ব্লগের জন্য সাবস্ক্রিপশন চালু করতে হবে। এটি সেটিংসে করা যেতে পারে। <a href='https://knowledge.hubspot.com/blog/manage-your-blog-template-and-settings#manage-your-blog-subscriptions'>আরও জানুন</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.label": {
+    "message": "হেডিং স্তর",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.help_text": {
+    "message": "একটি হেডিং লেভেল নির্বাচন করুন। হেডিং আপনার কন্টেন্টের উপর ভিত্তি করে একটি ক্রমানুসারে উপযুক্তভাবে বসানো উচিত।<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>আরও তথ্য</a>",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_level.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "文章篩選",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "顯示全部",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "當可以顯示的項目超出顯示值上限時所展示的文字，若留空則省略連結",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "用於網誌範本時，將預設為現有網誌；用於其他地方時，則會預設為主要網誌。",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "選取要顯示的網誌",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "顯示的篩選值數目上限，留空則代表顯示全部",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "篩選連結的值清單",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "標記",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "作者",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "月份",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "以標記搜尋文章",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "列出要顯示的標題",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "名稱",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "文章數",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "搜尋",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "篩選連結的值順序",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "顯示所有篩選",
+    "description": "",
+    "placeholders": null
+  }
+}

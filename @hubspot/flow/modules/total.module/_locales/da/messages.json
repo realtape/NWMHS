@@ -1,0 +1,47 @@
+{
+  "name": {
+    "message": "Total",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.default": {
+    "message": "Forfalder nu",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.inline_help_text": {
+    "message": "Dette bruges til at angive tilbudssummen, når tilbuddet har fremtidige betalinger.",
+    "description": "",
+    "placeholders": null
+  },
+  "first_payment_title.label": {
+    "message": "Tekst for forfalder nu",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.default": {
+    "message": "Total",
+    "description": "",
+    "placeholders": null
+  },
+  "total_title.label": {
+    "message": "Tekst for total",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.default": {
+    "message": "Samlet kontraktværdi",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.inline_help_text": {
+    "message": "Tilpas teksten, så den beskriver denne værdi nøjagtigt (standarden er en årlig værdi, hvis der ikke angives vilkår).",
+    "description": "",
+    "placeholders": null
+  },
+  "total_contract_value_title.label": {
+    "message": "Tekst for samlet kontraktværdi",
+    "description": "",
+    "placeholders": null
+  }
+}

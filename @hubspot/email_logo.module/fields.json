@@ -1,0 +1,81 @@
+[
+  {
+    "label": "",
+    "name": "img",
+    "id": "12216f57-c9d2-9c7d-f634-68b45c16c4cf",
+    "type": "logo",
+    "resizable": true,
+    "show_loading": true,
+    "default": {
+      "override_inherited_src": false,
+      "src": null,
+      "alt": null,
+      "loading": "disabled"
+    }
+  },
+  {
+    "label": "Link URL",
+    "name": "link",
+    "id": "c9a2e678-7c48-f0c6-e65b-e885bd2c429b",
+    "type": "text",
+    "help_text": "If no url is specified, your logo will link to your primary domain",
+    "validation_regex": ""
+  },
+  {
+    "label": "Open link in new tab when visitors click",
+    "name": "open_in_new_tab",
+    "id": "0555927e-66cc-b51a-e43e-25e77ad6dd6d",
+    "type": "boolean",
+    "visibility": {
+      "controlling_field": "c9a2e678-7c48-f0c6-e65b-e885bd2c429b",
+      "controlling_value_regex": null,
+      "operator": null,
+      "access": null,
+      "hidden_subfields": null
+    },
+    "default": false
+  },
+  {
+    "label": "Heading level",
+    "name": "heading_level",
+    "id": "6f1c93f9-3615-283f-086d-f154bf01f125",
+    "type": "choice",
+    "help_text": "Choose a heading level. H1 is the largest, followed by H2, and so on",
+    "visibility": {
+      "controlling_field": "12216f57-c9d2-9c7d-f634-68b45c16c4cf",
+      "controlling_value_regex": "(?=.*\\\"override_inherited_src\\\"\\:true)(?=.*\\\"src\\\"\\:null)(^((?!suppress_company_name\\\"\\:true).)*$)",
+      "operator": "MATCHES_REGEX",
+      "access": null,
+      "hidden_subfields": null
+    },
+    "choices": [
+      [
+        "h1",
+        "H1"
+      ],
+      [
+        "h2",
+        "H2"
+      ],
+      [
+        "h3",
+        "H3"
+      ],
+      [
+        "h4",
+        "H4"
+      ],
+      [
+        "h5",
+        "H5"
+      ],
+      [
+        "h6",
+        "H6"
+      ]
+    ],
+    "display": "select",
+    "required": true,
+    "default": "h1"
+  }
+]

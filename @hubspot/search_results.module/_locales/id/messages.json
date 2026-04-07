@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Hasil Pencarian Situs",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Tampilkan gambar unggulan",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Maaf. Tidak ada hasil untuk [[search_term]].</p><p>Coba susun ulang kata-kata pada pertanyaan Anda, atau telusuri situs kami.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Halaman sebelumnya",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Halaman berikutnya",
+    "description": "",
+    "placeholders": null
+  }
+}

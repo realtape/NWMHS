@@ -1,0 +1,92 @@
+{
+  "name": {
+    "message": "ตัวกรองโพสต์",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.default": {
+    "message": "ดูทั้งหมด",
+    "description": "",
+    "placeholders": null
+  },
+  "expand_link_text.label": {
+    "message": "มีข้อความที่สามารถเลือกให้ปรากฏเมื่อเกินค่าสูงสุดที่จะสามารถแสดงได้ เว้นว่างไว้เพื่อไม่ใช้ลิงก์",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "ค่าเริ่มต้นจะใช้บล็อกปัจจุบันเมื่อใช้ในเทมเพลตบล็อก หรือบล็อกพื้นฐานเมื่อใช้ในส่วนอื่นๆ",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "เลือกบล็อกที่จะแสดง",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "จำนวนสูงสุดของค่าตัวกรองที่จะแสดง",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.placeholder": {
+    "message": "ค้นหา",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.label": {
+    "message": "รายการค่าสำหรับกรองลิงก์",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.tag": {
+    "message": "แท็ก",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.author": {
+    "message": "ผู้เขียน",
+    "description": "",
+    "placeholders": null
+  },
+  "filter_type.choices.month": {
+    "message": "เดือน",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "โพสต์ตามแท็ก",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "ลงรายการชื่อเรื่องที่จะแสดง",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.name": {
+    "message": "ชื่อ",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.choices.post_count": {
+    "message": "จำนวนโพสต์",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.placeholder": {
+    "message": "ค้นหา",
+    "description": "",
+    "placeholders": null
+  },
+  "order_by.label": {
+    "message": "การเรียงค่าเพื่อกรองลิงก์",
+    "description": "",
+    "placeholders": null
+  },
+  "show_all_filters.label": {
+    "message": "แสดงตัวกรองทั้งหมด",
+    "description": "",
+    "placeholders": null
+  }
+}

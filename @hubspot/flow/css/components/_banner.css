@@ -1,0 +1,174 @@
+/* Banner */
+
+/* :last/first/nth-of-type selectors utilized to faciliate hiding and showing modules in the editor and adjusting spacing within the banner */
+
+.hs-quotes--flow .banner {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top: 58px;
+}
+
+.hs-quotes--flow .banner__title {
+  margin-top: 75px;
+}
+
+.hs-quotes--flow .banner__dates {
+  align-items: center;
+  display: flex;
+}
+
+.hs-quotes--flow .banner__sender > div,
+.hs-quotes--flow .banner__recipient {
+  padding-top: 15px;
+  position: relative;
+}
+
+
+.hs-quotes--flow .banner__dates > div + div {
+  border-left-style: solid;
+  border-left-width: 1px;
+  margin-left: 35px;
+  padding-left: 35px;
+}
+
+.hs-quotes--flow .banner__sender {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.hs-quotes--flow .banner__sender > div:last-of-type {
+  margin-bottom: 73px;
+}
+
+.hs-quotes--flow .banner__sender .sender-user {
+  margin-left: 60px;
+}
+
+.hs-quotes--flow .banner__sender > div:after,
+.hs-quotes--flow .banner__recipient:after {
+  content: '';
+  display: inline-block;
+  height: 3px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45px;
+}
+
+.hs-quotes--flow .banner__recipient {
+  margin-bottom: 30px;
+  text-align: right;
+}
+
+.hs-quotes--flow .banner__recipient.banner__recipient--left-align {
+  text-align: left;
+}
+
+.hs-quotes--flow .banner__recipient.banner__recipient--left-align:after {
+  left: 0;
+  right: auto;
+  top: 0;
+}
+
+.hs-quotes--flow .banner__recipient .recipient-contact {
+  margin-top: 25px;
+}
+
+@media print, screen and (max-width: 1175px) {
+
+  .hs-quotes--flow .banner__title {
+    margin-top: 25px;
+  }
+
+  .hs-quotes--flow .banner__dates {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hs-quotes--flow .banner__dates > div {
+    margin-bottom: 15px;
+  }
+
+  .hs-quotes--flow .banner__dates > div + div {
+    border-left-style: solid;
+    border-left-width: 0;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .hs-quotes--flow .banner__sender {
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    text-align: left;
+  }
+
+  .hs-quotes--flow .banner__sender > div:first-of-type {
+    margin-top: 35px;
+  }
+
+  .hs-quotes--flow .banner__sender > div:last-of-type {
+    margin-bottom: 35px;
+  }
+
+  .hs-quotes--flow .banner__sender > div:nth-of-type(1):after,
+  .hs-quotes--flow .banner__recipient:after {
+    left: 0;
+    right: auto;
+  }
+
+  .hs-quotes--flow .banner__sender > div:nth-of-type(2):after {
+    display: none;
+  }
+
+  .hs-quotes--flow .banner__sender .sender-user {
+    margin-left: 0;
+  }
+
+  .hs-quotes--flow .banner_sender .sender-company__address {
+    margin-bottom: 15px;
+  }
+
+  .hs-quotes--flow .banner__recipient {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+}
+
+@media print {
+  .hs-quotes--flow .banner__sender {
+    display: block;
+    margin-top: 35px;
+    text-align: left;
+  }
+
+  .hs-quotes--flow .banner__sender > .sender-user:after {
+    display: none;
+  }
+
+  .hs-quotes--flow .banner__sender > .sender-company__address:after,
+  .hs-quotes--flow .banner__recipient:after {
+    left: 0;
+    right: auto;
+    top: 0;
+  }
+
+  .hs-quotes--flow .banner__sender .sender-user {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .hs-quotes--flow .banner__recipient {
+    margin-bottom: 30px;
+    margin-top: 35px;
+    text-align: left;
+  }
+
+  .hs-quotes--flow .banner__sender,
+  .hs-quotes--flow .banner__recipient {
+    page-break-inside: avoid;
+  }
+}

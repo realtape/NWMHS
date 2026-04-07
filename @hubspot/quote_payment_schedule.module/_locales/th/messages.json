@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "กำหนเวลาการชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.scheduled_payments.default": {
+    "message": "การชำระเงินที่กำหนดเวลาแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.default": {
+    "message": "จำนวนเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.label": {
+    "message": "จำนวนเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.default": {
+    "message": "วันที่ครบกำหนด",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.label": {
+    "message": "วันที่ครบกำหนด",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.label": {
+    "message": "คอลัมน์กำหนดเวลาการชำระเงิน",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.default": {
+    "message": "ชื่อ",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.label": {
+    "message": "ชื่อ",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.default": {
+    "message": "<h2>กำหนดเวลาการชำระเงิน</h2>",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.label": {
+    "message": "ส่วนหัวการชำระเงินที่กำหนดเวลาแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.due_now.default": {
+    "message": "ครบกำหนดแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.paid.default": {
+    "message": "ชำระแล้ว",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.processing.default": {
+    "message": "การดำเนินการชำระเงิน",
+    "description": "",
+    "placeholders": null
+  }
+}

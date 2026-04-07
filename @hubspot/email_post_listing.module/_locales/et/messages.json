@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "Postituse loetelu",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "Kõige populaarsemad – viimased kuus kuud",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "Kõige populaarsem – kogu aja jooksul",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "Kõige populaarsem – viimasel kuul",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "Kõige populaarsem – viimasel aastal",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "Kõige värskem",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "Otsing",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "Järjesta blogipostitused",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "Vaikevalik kasutab praegust blogi, kui seda kasutatakse blogi mallis, või primaarset blogi, kui seda kasutatakse mujal.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "Valige kuvatav blogi",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "Maksimaalne arv loetletavaid blogipostitusi",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "Värsked postitused",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "Kuvatav loetelu pealkiri",
+    "description": "",
+    "placeholders": null
+  }
+}

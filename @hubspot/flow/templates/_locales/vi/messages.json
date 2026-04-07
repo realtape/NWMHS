@@ -1,0 +1,117 @@
+{
+  "quote_expired": {
+    "message": "Báo giá này đã hết hạn",
+    "description": "",
+    "placeholders": null
+  },
+  "quote_expired_on_date": {
+    "message": "Báo giá {{ personalization_token('quote.hs_quote_number', '') }} đã hết hạn vào {{ quote.hs_expiration_date|int|format_date('long', quote.hs_timezone, quote.hs_locale) }}.",
+    "description": "",
+    "placeholders": null
+  },
+  "contact_sales_representative": {
+    "message": "Vui lòng <a href='#'>liên lạc với đại diện bán hàng của bạn</a> để biết thêm chi tiết.",
+    "description": "",
+    "placeholders": null
+  },
+  "billing_frequency": {
+    "message": "Tần suất thanh toán",
+    "description": "",
+    "placeholders": null
+  },
+  "unit_price": {
+    "message": "Giá đơn vị",
+    "description": "",
+    "placeholders": null
+  },
+  "price": {
+    "message": "Giá",
+    "description": "",
+    "placeholders": null
+  },
+  "products_and_services": {
+    "message": "Sản phẩm & dịch vụ",
+    "description": "",
+    "placeholders": null
+  },
+  "quantity": {
+    "message": "Số lượng",
+    "description": "",
+    "placeholders": null
+  },
+  "sku": {
+    "message": "SKU",
+    "description": "",
+    "placeholders": null
+  },
+  "executive_summary": {
+    "message": "Tóm tắt<br>điều hành",
+    "description": "",
+    "placeholders": null
+  },
+  "terms_and_conditions": {
+    "message": "Điều khoản và điều kiện",
+    "description": "",
+    "placeholders": null
+  },
+  "comments": {
+    "message": "Nhận xét",
+    "description": "",
+    "placeholders": null
+  },
+  "project_acceptance": {
+    "message": "Dự án<br>Chấp nhận",
+    "description": "",
+    "placeholders": null
+  },
+  "subhead": {
+    "message": "Tiêu đề phụ",
+    "description": "",
+    "placeholders": null
+  },
+  "our_story": {
+    "message": "Câu<br> chuyện của chúng tôi",
+    "description": "",
+    "placeholders": null
+  },
+  "we_are_passionate": {
+    "message": "Chúng tôi đam mê<br>công việc mà chúng tôi làm",
+    "description": "",
+    "placeholders": null
+  },
+  "client_thoughts": {
+    "message": "Đánh giá của<br>khách hàng về chúng tôi",
+    "description": "",
+    "placeholders": null
+  },
+  "project_summary": {
+    "message": "Tóm tắt<br>dự án",
+    "description": "",
+    "placeholders": null
+  },
+  "our_goals": {
+    "message": "Mục tiêu của chúng tôi",
+    "description": "",
+    "placeholders": null
+  },
+  "statement_of_work": {
+    "message": "Báo cáo trình tự<br>công việc",
+    "description": "",
+    "placeholders": null
+  },
+  "project_estimate": {
+    "message": "Dự toán<br>dự án",
+    "description": "",
+    "placeholders": null
+  },
+  "contract": {
+    "message": "Hợp<br>đồng",
+    "description": "",
+    "placeholders": null
+  },
+  "prepared_for": {
+    "message": "Được lập cho",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "name": {
+    "message": "Fizetés",
+    "description": "",
+    "placeholders": null
+  },
+  "add_icon.label": {
+    "message": "Ikon hozzáadása",
+    "description": "",
+    "placeholders": null
+  },
+  "button_link.label": {
+    "message": "Gombhivatkozás",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.custom_link": {
+    "message": "Más",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.choices.payment_link": {
+    "message": "Használjon fizetési hivatkozást",
+    "description": "",
+    "placeholders": null
+  },
+  "button_target.label": {
+    "message": "Gomb célpontja",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Megrendelés",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Gombfelirat",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.new_tab": {
+    "message": "Megnyitás új lapon",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.choices.overlay": {
+    "message": "Csúszó átfedés",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_location.label": {
+    "message": "Megrendelési viselkedés",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.close_checkout.default": {
+    "message": "Megrendelés lezárása",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.left": {
+    "message": "Bal",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.choices.right": {
+    "message": "Jobb",
+    "description": "",
+    "placeholders": null
+  },
+  "icon.position.label": {
+    "message": "Pozíció",
+    "description": "",
+    "placeholders": null
+  },
+  "payment.label": {
+    "message": "Fizetési hivatkozás",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.alignment.label": {
+    "message": "Igazítás",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.alignment.label": {
+    "message": "Igazítás",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Szín",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Háttér",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Szegély",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Szegély",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Sarok",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Sugár",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Szín",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Háttér",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Szegély",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Szegély",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.color.label": {
+    "message": "Szín",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Rámutatás",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Betűtípus",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Szöveg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.color.label": {
+    "message": "Szín",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.label": {
+    "message": "Ikon",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.size.label": {
+    "message": "Méret",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.help_text": {
+    "message": "Térköz az ikon és a gombfelirat között.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.icon.spacing.label": {
+    "message": "Térköz",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stílusok",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.label": {
+    "message": "Térköz",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.spacing.spacing.label": {
+    "message": "Térköz",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Betűtípus",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Szöveg",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.capitalize": {
+    "message": "Nagy kezdőbetű használata",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.lowercase": {
+    "message": "Kisbetűs",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.choices.uppercase": {
+    "message": "Nagybetűs",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.label": {
+    "message": "Átalakítás",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.transform.placeholder": {
+    "message": "Nincs",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Billedgalleri",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Billedtekst",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Dias",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Åben link i ny fane",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Vis billedtekst",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "URL til link",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Billede",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Justerbar højde",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Fast højde",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Søg",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Justerbar højde",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Vis navigationsknapper",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Miniaturenavigation",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standardskyder",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox-galleri",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Søg",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Visningstilstand",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Gentagne dias",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Søg",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Sæt billedtekster ovenpå billeder",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Behold altid billedtekst under billedet",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Placering af billedtekst",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tid i sekunder mellem automatisk skift",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Udtoning",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Dias",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Søg",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Diasovergange",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rækker til lightbox-galleri",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Gå automatisk videre",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Dette modul anbefales ikke længere. Det gør til gengæld to nye og forbedrede moduler: billedskyder og billedgitter <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Få mere at vide.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

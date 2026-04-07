@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "画像ギャラリー",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "キャプション",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "スライド",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "リンクを新しいタブで開く",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "キャプションを表示",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "リンクURL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "画像",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "高さ変更可能",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "高さ固定",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "高さ変更可能",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "ナビゲーションボタンを表示",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "サムネイルナビゲーション",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "標準スライダー",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightboxギャラリー",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "表示モード",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "スライドのループ",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "画像の上部にキャプションを重ね合わせる",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "画像の下に常にキャプションを表示",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "キャプション位置",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "自動スクロール間の秒数",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "フェード",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "スライド",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "スライド遷移効果",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Lightboxギャラリー用の行",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "自動先送り",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "画像スライダーと画像グリッドの2つの新しい機能強化されたモジュールが登場したため、このモジュールは非推奨になりました。<a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">もっと詳しく。</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

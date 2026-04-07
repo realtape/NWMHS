@@ -1,0 +1,122 @@
+{
+  "name": {
+    "message": "Grid ng logo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.label": {
+    "message": "Mga logo",
+    "description": "",
+    "placeholders": null
+  },
+  "group_logos.logo.label": {
+    "message": "Logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Mga estilo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.label": {
+    "message": "Imahe ng logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.label": {
+    "message": "Max na taas ng log",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.max_logo_height.help_text": {
+    "message": "Itinatakda ang maximum na taas ng mga logo.<br><br>Pinakamainam ang pagtatakda ng max na taas ng logo kapag sinusubukang gumawa ng maraming logo na may iba't ibang dimensyon kung saan biswal na magkakapantay-pantay ang laki.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.label": {
+    "message": "Background",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.label": {
+    "message": "Aspect ratio",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.help_text": {
+    "message": "Itakda ang aspect ratio ng lalagyan ng logo. Pinaka-kapaki-pakinabang kung ginagamit mo ang field ng kulay ng background at gumagamit ng mga logo na may iba't ibang dimensyon.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.1/1": {
+    "message": "1:1",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.4/3": {
+    "message": "4:3",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.aspect_ratio.choices.16/9": {
+    "message": "16:9",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_background.background_color.label": {
+    "message": "Kulay ng background",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.label": {
+    "message": "Agwat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.label": {
+    "message": "Agwat",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.group_spacing.padding.help_text": {
+    "message": "Itakda ang padding sa paligid ng logo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo.inline_help_text": {
+    "message": "Dahil sa pagiging responsive ng web, maaaring mas mababa ang nai-render na taas ng mga logo sa itinakdang value batay sa kombinasyon ng laki ng screen, orihinal na laki ng imahe, logo padding, grid gap, at bilang ng column.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.label": {
+    "message": "Grid ng logo",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.label": {
+    "message": "Bilang ng hanay ng grid",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.column_count.help_text": {
+    "message": "Itakda ang dami ng mga column sa grid sa desktop. Made-default sa 1 sa mobile.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.help_text": {
+    "message": "Ang pagtatakda ng kulay ng background sa <strong>Imahe ng logo > Background</strong> ay maaaring makatulong sa iyo na makita ang grid ng logo.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.label": {
+    "message": "Gap ng grid",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.group_logo_grid.grid_gap.help_text": {
+    "message": "Itakda ang espasyo sa pagitan ng mga grid item.<br><br>Ang pagtatakda ng background sa <strong>Image ng logo > Background</strong> ay maaaring makatulong sa iyo na makita ang grid ng logo.",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": {
+    "message": "الجدول الزمني للدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.scheduled_payments.default": {
+    "message": "المدفوعات المجدولة",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.default": {
+    "message": "المبلغ",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.amount.label": {
+    "message": "المبلغ",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.default": {
+    "message": "تاريخ الاستحقاق",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.due_date.label": {
+    "message": "تاريخ الاستحقاق",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.label": {
+    "message": "أعمدة الجدول الزمني للدفع",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.default": {
+    "message": "الاسم",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_schedule_columns.schedule_name.label": {
+    "message": "الاسم",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.default": {
+    "message": "<h2>الجدول الزمني للدفع</h2>",
+    "description": "",
+    "placeholders": null
+  },
+  "scheduled_payment_heading.label": {
+    "message": "عنوان المدفوعات المجدولة",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.due_now.default": {
+    "message": "مستحقة الآن",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.paid.default": {
+    "message": "المدفوع",
+    "description": "",
+    "placeholders": null
+  },
+  "due_text.processing.default": {
+    "message": "معالجة الدفع",
+    "description": "",
+    "placeholders": null
+  }
+}

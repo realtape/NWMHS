@@ -1,0 +1,40 @@
+[
+  {
+    "label": "Select blog to display",
+    "name": "select_blog",
+    "type": "blog",
+    "help_text": "Default will use the current blog when used in a blog template or the primary blog when used elsewhere."
+  },
+  {
+    "label": "Title to display above form",
+    "name": "title",
+    "type": "text",
+    "default": "Subscribe Here!"
+  },
+  {
+    "label": "Heading level",
+    "name": "heading_level",
+    "type": "choice",
+    "help_text": "Choose a heading level. Headings should be nested in a hierarchical way based on your content. <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements'>More information</a>",
+    "visibility": {
+      "controlling_field_path": "title",
+      "operator": "NOT_EMPTY"
+    },
+    "choices": [
+      ["h1", "H1"],
+      ["h2", "H2"],
+      ["h3", "H3"],
+      ["h4", "H4"],
+      ["h5", "H5"],
+      ["h6", "H6"]
+    ],
+    "display": "select",
+    "default": "h3"
+  },
+  {
+    "label": "Inline response for users",
+    "name": "response_message",
+    "type": "richtext",
+    "default": "Thanks for subscribing!"
+  }
+]

@@ -1,0 +1,63 @@
+<!--
+  templateType: search_results_page
+  isAvailableForNewContent: true
+-->
+{% set template_css = "../css/templates/system.css" %}
+{% set pageTitle = "Search results" %}
+{% set font_config = {
+  "Source Serif Pro": ["600"],
+  "Montserrat": ["400", "700"]
+} %}
+{% extends "../system-base.html" %}
+
+{% block body %}
+  <section class="section-wrapper">
+    {%- if (get_asset_version("@hubspot/search_results") == "0") -%}
+      {{ require_js(get_asset_url("../../js/search-results.js"), "head") }}
+
+      {% if request.query_dict.term %}
+        {% set search_query = request.query_dict.term %}
+      {% elif request.query_dict.q %}
+        {# v3 search api support #}
+        {% set search_query = request.query_dict.q %}
+      {% endif %}
+
+      {% set search_results_heading = template_translations.search_results_heading.message|replace("[[search_term]]", search_query) %}
+
+    {% if search_query %}
+      {% module "search_results_heading"
+        path="@hubspot/rich_text",
+        html={{ "<h1>" ~ search_results_heading ~ "</h1>" }}
+      %}
+    {% endif %}
+
+       {% module "search_results_input"
+        extra_classes="form-wrapper form-wrapper--search-input"
+        overrideable=true,
+        path="@hubspot/search_input"
+      %}
+
+      <p class="search-results__page-count"></p>
+
+      {% module "search_results"
+        path="@hubspot/search_results"
+      %}
+
+    {%- else -%}
+
+      {% module "search_results_input"
+        extra_classes="form-wrapper form-wrapper--search-input"
+        overrideable=true,
+        path="@hubspot/search_input"
+      %}
+
+      {% module "search_results"
+        path="@hubspot/search_results",
+        title={
+          "show_title": "true"
+        }
+      %}
+
+    {%- endif -%}
+  </section>
+{% endblock body %}

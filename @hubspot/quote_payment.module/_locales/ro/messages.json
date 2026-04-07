@@ -1,0 +1,172 @@
+{
+  "checkout.default": {
+    "message": "Plătiți acum",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.label": {
+    "message": "Text buton de plată",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout.inline_help_text": {
+    "message": "Asigurați-vă că este clar faptul că, dacă se face clic pe acest buton, clientului dvs. i se va permite să plătească.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.default": {
+    "message": "A apărut o problemă la configurarea finalizării comenzii. Contactați persoana care v-a trimis această ofertă.",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.label": {
+    "message": "Mesaj de eroare la finalizarea plății",
+    "description": "",
+    "placeholders": null
+  },
+  "checkout_error.inline_help_text": {
+    "message": "Spuneți-i clientului dvs. ce să facă atunci când există o problemă cu începerea finalizării comenzii.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h1": {
+    "message": "H1",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h2": {
+    "message": "H2",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h3": {
+    "message": "H3",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h4": {
+    "message": "H4",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h5": {
+    "message": "H5",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.choices.h6": {
+    "message": "H6",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.help_text": {
+    "message": "Alegeți un nivel de antet. H1 este cel mai mare, urmat de H2 ș.a.m.d.",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_tag.label": {
+    "message": "Nivel antet",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.default": {
+    "message": "Plată",
+    "description": "",
+    "placeholders": null
+  },
+  "heading_text.label": {
+    "message": "Conținut antet",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.default": {
+    "message": "Efectuați prima plată:",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.inline_help_text": {
+    "message": "Clientul va vedea acest lucru în butonul de plată până va achita prima tranșă.",
+    "description": "",
+    "placeholders": null
+  },
+  "make_first_payment.label": {
+    "message": "Text buton grafice de plată",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "Plată",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.default": {
+    "message": "Plata nu poate fi efectuată din cauză că oferta nu este complet semnată.",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.label": {
+    "message": "Text explicativ atunci când sunt necesare semnături",
+    "description": "",
+    "placeholders": null
+  },
+  "need_signature.inline_help_text": {
+    "message": "Dacă sunt necesare semnături înainte de plată, clientul dvs. va vedea acest mesaj până când sunt finalizate toate semnăturile necesare.",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.default": {
+    "message": "Plătit",
+    "description": "",
+    "placeholders": null
+  },
+  "paid.label": {
+    "message": "Text Plătit",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_date_time.default": {
+    "message": "Plătit la [[ paid_time ]] pe [[ paid_date ]]",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.default": {
+    "message": "Plată în procesare",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_processing.label": {
+    "message": "Text de procesare a plății",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.default": {
+    "message": "A apărut o problemă la încărcarea statusului plății pentru această ofertă. Încercați să reîmprospătați pagina.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.label": {
+    "message": "Mesaj de eroare status plată",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_status_error.inline_help_text": {
+    "message": "Spuneți-i clientului dvs. să reîmprospăteze pagina când eșuează obținerea stării plății.",
+    "description": "",
+    "placeholders": null
+  },
+  "test_mode.default": {
+    "message": "Aceasta este o ofertă test, nu poate colecta plăți reale.",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Puteți decide dacă doriți să colectați plata când creați o ofertă cu acest șablon.",
+    "description": "",
+    "placeholders": null
+  },
+  "payment_removed.default": {
+    "message": "Pentru finalizarea comenzii, vă rugăm să contactați persoana care v-a trimis această ofertă.",
+    "description": "",
+    "placeholders": null
+  }
+}

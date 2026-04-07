@@ -1,0 +1,117 @@
+{
+  "name": {
+    "message": "Préférences d'abonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.label": {
+    "message": "Modifier le texte du bouton des préférences",
+    "description": "",
+    "placeholders": null
+  },
+  "button_text.default": {
+    "message": "Modifier les préférences de courriel",
+    "description": "",
+    "placeholders": null
+  },
+  "header.default": {
+    "message": "Préférences en matière de communication",
+    "description": "",
+    "placeholders": null
+  },
+  "header.label": {
+    "message": "En-tête",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.label": {
+    "message": "Sous-titre",
+    "description": "",
+    "placeholders": null
+  },
+  "subheader_text.default": {
+    "message": "Si ce n'est pas votre adresse courriel, veuillez ignorer cette page car le courriel associé à cette page vous a très probablement été transféré.",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.default": {
+    "message": "Oui, réabonnez-moi !",
+    "description": "",
+    "placeholders": null
+  },
+  "resubscribe_button_text.label": {
+    "message": "Texte du bouton de réabonnement",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.label": {
+    "message": "Désabonnement de toutes les étiquettes",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_option.default": {
+    "message": "Désabonnez-moi de toutes les listes de diffusion.",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.default": {
+    "message": "Décochez les types de courriels que vous ne voulez pas recevoir :",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_single_text.label": {
+    "message": "Texte d'aide sur la sélection des préférences",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.default": {
+    "message": "Vous pouvez aussi cocher ici pour ne jamais recevoir de courriels : ",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_text.label": {
+    "message": "Se désabonner de tous les textes d'aide",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.label": {
+    "message": "Désinscrire tous les textes d'aide pour un utilisateur actuellement désabonné",
+    "description": "",
+    "placeholders": null
+  },
+  "unsubscribe_all_unsubbed_text.default": {
+    "message": "Vous êtes actuellement désabonné(e) de tous nos courriels. Souhaitez-vous recevoir à nouveau nos courriels?",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.label": {
+    "message": "Texte du bouton abonnement unique",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_button_text.default": {
+    "message": "Se désabonner",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.label": {
+    "message": "Texte de confirmation de l’abonnement unique",
+    "description": "",
+    "placeholders": null
+  },
+  "single_subscription_confirm_text.default": {
+    "message": "Souhaitez-vous vous désabonner des courriels portant sur :",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.label": {
+    "message": "Exemple de nom d’abonnement unique",
+    "description": "",
+    "placeholders": null
+  },
+  "subscription_placeholder_text.default": {
+    "message": "type d’abonnement sélectionné",
+    "description": "",
+    "placeholders": null
+  }
+}

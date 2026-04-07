@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "ボタン（インタラクティブ）",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "リンクURL",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Eメールアドレス",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "ファイル",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "CTAを閉じる",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Eメールアドレス",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "電話番号",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "ファイルダウンロード",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "ミーティングリンク",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "いずれかの自分のページ",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "いずれかの自分のブログページ",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "リンク先",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "ミーティングリンク",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "リンクを新しいタブで開く",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "ページ",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "ブログ",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "クリック済み",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "角",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "ボタンの角を丸める",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "半径",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "カラー",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "ホバー時の背景",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "ホバー時の境界線",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "ホバー",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "ホバーテキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "スタイル",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "フォント",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "テキスト",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "テキストのパディング",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "ここにボタンリンクを追加",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "ボタンテキスト",
+    "description": "",
+    "placeholders": null
+  }
+}

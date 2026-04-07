@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "Компания получателя",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.default": {
+    "message": "Подготовлено для",
+    "description": "",
+    "placeholders": null
+  },
+  "recipient_company_text.label": {
+    "message": "Текст компании получателя",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_address.label": {
+    "message": "Основной адрес компании получателя",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_city_state_zip.label": {
+    "message": "Город, штат и индекс компании получателя",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_country.label": {
+    "message": "Страна компании получателя",
+    "description": "",
+    "placeholders": null
+  },
+  "show_company_name.label": {
+    "message": "Название компании получателя",
+    "description": "",
+    "placeholders": null
+  }
+}

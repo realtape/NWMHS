@@ -1,0 +1,152 @@
+{
+  "name": {
+    "message": "Bildegalleri",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.caption.label": {
+    "message": "Bildetekst",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.label": {
+    "message": "Lysbilde",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.open_in_new_tab.label": {
+    "message": "Åpne kopling i ny fane",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.show_caption.label": {
+    "message": "Vis bildetekst",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.link_url.label": {
+    "message": "Koblings-URL",
+    "description": "",
+    "placeholders": null
+  },
+  "slides.img.label": {
+    "message": "Bilde",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.resize": {
+    "message": "Variabel høyde",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.choices.static": {
+    "message": "Fast høyde",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.placeholder": {
+    "message": "Søk",
+    "description": "",
+    "placeholders": null
+  },
+  "sizing.label": {
+    "message": "Variabel høyde",
+    "description": "",
+    "placeholders": null
+  },
+  "show_pagination.label": {
+    "message": "Vis navigasjonsknapper",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.thumbnail": {
+    "message": "Miniatyrbilde-navigasjon",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.standard": {
+    "message": "Standard glidebryter",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.lightbox": {
+    "message": "Lightbox-galleri",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "Søk",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "Visningsmodus",
+    "description": "",
+    "placeholders": null
+  },
+  "loop_slides.label": {
+    "message": "Gjentakende lysbilder",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.placeholder": {
+    "message": "Søk",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.superimpose": {
+    "message": "Vis bildetekst over bildene",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.choices.below": {
+    "message": "Ha alltid bildetekst under bildet",
+    "description": "",
+    "placeholders": null
+  },
+  "caption_position.label": {
+    "message": "Plassering av bildetekst",
+    "description": "",
+    "placeholders": null
+  },
+  "num_seconds.label": {
+    "message": "Tid i sekunder mellom automatisk rulling",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.fade": {
+    "message": "Toning",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.choices.slide": {
+    "message": "Lysbilde",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.placeholder": {
+    "message": "Søk",
+    "description": "",
+    "placeholders": null
+  },
+  "transition.label": {
+    "message": "Lysbildeoverganger",
+    "description": "",
+    "placeholders": null
+  },
+  "lightboxRows.label": {
+    "message": "Rader for lightbox-galleri",
+    "description": "",
+    "placeholders": null
+  },
+  "auto_advance.label": {
+    "message": "Automatisk flytting",
+    "description": "",
+    "placeholders": null
+  },
+  "inline_help_text": {
+    "message": "Denne modulen er utfaset til fordel for to nye og forbedrede moduler, Image SLider og Image Grid <a href=\"https://developers.hubspot.com/changelog/march-2023-rollup#deprecation-of-the-gallery-default-module\">Finn ut mer.</a>",
+    "description": "",
+    "placeholders": null
+  }
+}

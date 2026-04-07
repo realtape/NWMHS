@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Webhelyi keresés eredménye",
+    "description": "",
+    "placeholders": null
+  },
+  "display_featured_images.label": {
+    "message": "Kiemelt képek megjelenítése",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.no_results_message.default": {
+    "message": "<p>Sajnos nincs találat a(z) [[search_term]] kifejezésre.</p><p>Próbálja meg átfogalmazni a kérdést, vagy böngésszen a honlapon.</p>",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.previous_page_link_text.default": {
+    "message": "Előző oldal",
+    "description": "",
+    "placeholders": null
+  },
+  "group_default_text.next_page_link_text.default": {
+    "message": "Következő oldal",
+    "description": "",
+    "placeholders": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": {
+    "message": "רישום פוסט",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_six_months": {
+    "message": "הפופולרי ביותר - בששת החודשים האחרונים",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_all_time": {
+    "message": "הפופולרי ביותר - בכל הזמנים",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_month": {
+    "message": "הפופולרי ביותר - בחודש האחרון",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.popular_past_year": {
+    "message": "הפופולרי ביותר - בשנה האחרונה",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.choices.recent": {
+    "message": "האחרון ביותר",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.placeholder": {
+    "message": "חיפוש",
+    "description": "",
+    "placeholders": null
+  },
+  "listing_type.label": {
+    "message": "פרט פוסטים בבלוג לפי",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.help_text": {
+    "message": "אפשרות ברירת המחדל תשתמש בבלוג הנוכחי בעת השימוש בתבנית בלוג, או בבלוג הראשי בשימוש בכל מקום אחר.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_blog.label": {
+    "message": "בחר בלוג להצגה",
+    "description": "",
+    "placeholders": null
+  },
+  "max_links.label": {
+    "message": "מספר מקסימלי של פוסטים בבלוג להצגה",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.default": {
+    "message": "פוסטים אחרונים",
+    "description": "",
+    "placeholders": null
+  },
+  "list_title.label": {
+    "message": "כותרת רשימה להצגה",
+    "description": "",
+    "placeholders": null
+  }
+}

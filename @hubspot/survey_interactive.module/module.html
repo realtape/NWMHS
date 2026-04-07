@@ -1,0 +1,6 @@
+{% if module.form.form_id %}
+	{% form
+    form_to_use='{{ module.form.form_id }}',
+    is_survey="true"
+	%}
+{% endif %}

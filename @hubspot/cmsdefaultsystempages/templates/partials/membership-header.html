@@ -1,0 +1,23 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: false
+-->
+<!-- Begin partial -->
+{% if membership_logo.src or site_settings.company_name or site_settings.membershipCompanyName %}
+  {% if site_settings.membershipCompanyName %}
+    {% set company_name = site_settings.membershipCompanyName %}
+  {% elif business_unit().name %}
+    {% set company_name = business_unit().name %}
+  {% else %}
+    {% set company_name = site_settings.company_name %}
+  {% endif %}
+  <header class="system-logo">
+    {% if membership_logo.src %}
+      <img src="{{ membership_logo.src }}" {% if membership_logo.height and membership_logo.width %}height="{{ membership_logo.height }}" width="{{ membership_logo.width }}"{% else %}style="max-height: 200px; width: auto;"{% endif %} alt="{{ membership_logo.alt or template_translations.header_logo_alt.message }}" loading="eager">
+    {% elif company_name %}
+      <span class="system-logo__company-name">{{ company_name }}</span>
+    {% endif%}
+  </header>
+{% endif %}
+<!-- End partial -->
+

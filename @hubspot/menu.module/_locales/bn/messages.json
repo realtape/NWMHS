@@ -1,0 +1,152 @@
+{
+  "flow.choices.horizontal": {
+    "message": "অনুভূমিক",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.choices.vertical": {
+    "message": "উল্লম্ব",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.help_text": {
+    "message": "আনুভূমিক মেনুগুলি আইটেমগুলিকে পাশাপাশি দেখায়, এবং উল্লম্ব মেনুগুলি উপরে থেকে নীচে দেখায়",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.label": {
+    "message": "ওরিয়েন্টেশন",
+    "description": "",
+    "placeholders": null
+  },
+  "flow.placeholder": {
+    "message": "সার্চ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.help_text": {
+    "message": "যখন আপনি পেরেন্টে থাকবেন তখন চাইল্ড মেনু আইটেমগুলি উপস্থিত হবে। যদি চেক না করা থাকে, তবে চাইল্ড মেনু আইটেমগুলি সর্বদাই উপস্থিত হবে",
+    "description": "",
+    "placeholders": null
+  },
+  "flyouts.label": {
+    "message": "ফ্লাইআউট সক্রিয় করবেন?",
+    "description": "",
+    "placeholders": null
+  },
+  "id.help_text": {
+    "message": "মেনু ট্রি হ'ল সেই পৃষ্ঠা কাঠামো যা মেনুতে আইটেমগুলি জুড়তে থাকে। একটি মেনু ট্রি একাধিক মেনু সহ ব্যবহার করা যেতে পারে। জটিল ওয়েবসাইট কাঠামোর জন্য আপনি একাধিক মেনু তৈরি করতে পারেন। মেনুগুলি আপনার বিষয়বস্তু সেটিংসে তৈরি এবং পরিচালনা করা হয়",
+    "description": "",
+    "placeholders": null
+  },
+  "id.label": {
+    "message": "মেনু",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.1": {
+    "message": "1",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.2": {
+    "message": "2",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.3": {
+    "message": "3",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.4": {
+    "message": "4",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.5": {
+    "message": "5",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.6": {
+    "message": "6",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.7": {
+    "message": "7",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.8": {
+    "message": "8",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.9": {
+    "message": "9",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.choices.10": {
+    "message": "10",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.help_text": {
+    "message": "মেনুতে বিস্তৃত করা যাবে এরকম মেনু ট্রি চিল্ড্রেন-এর সংখ্যা নির্ধারণ করে",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.label": {
+    "message": "সর্বোচ্চ সীমা",
+    "description": "",
+    "placeholders": null
+  },
+  "max_levels.placeholder": {
+    "message": "সার্চ করুন",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "মেনু",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.breadcrumb": {
+    "message": "ব্রেডক্রাম্ব স্টাইলের পাথ মেনু (অনুভূমিক প্রবাহ ব্যবহার করে)",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.parent": {
+    "message": "পৃষ্ঠার দ্বারা ডায়নামিক - মেনুতে সেই পৃষ্ঠাগুলি দেখায় যেগুলি যে পৃষ্ঠাগুলি দেখা হচ্ছে তার সাথে সম্পর্কিত",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.site_root": {
+    "message": "স্ট্যাটিক - সর্বদা মেনুর সর্বোচ্চ স্তরের পৃষ্ঠাগুলি দেখায়",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.choices.top_parent": {
+    "message": "বিভাগ দ্বারা ডায়নামিক - মেনুতে সেইসব পৃষ্ঠাগুলি দেখায় যেগুলি যে বিভাগটি দেখা হচ্ছে তার সাথে সম্পর্কিত",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.help_text": {
+    "message": "উন্নত মেনুগুলি কোন পৃষ্ঠাটি দেখা হচ্ছে তার উপর ভিত্তি করে মেনু ট্রির বিভিন্ন অংশ দেখায়।",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.label": {
+    "message": "উন্নত মেনুর প্রকার",
+    "description": "",
+    "placeholders": null
+  },
+  "root_type.placeholder": {
+    "message": "সার্চ করুন",
+    "description": "",
+    "placeholders": null
+  }
+}

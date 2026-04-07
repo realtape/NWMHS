@@ -1,0 +1,95 @@
+[
+  {
+    "label": "Subtotal title",
+    "name": "subtotal_title",
+    "type": "text",
+    "default": "Subtotals",
+    "locked": true
+  },
+  {
+    "label": "Default text",
+    "name": "default_text",
+    "type": "group",
+    "locked": true,
+    "children": [
+      {
+        "label": "Weekly",
+        "name": "weekly",
+        "type": "text",
+        "default": "Weekly"
+      },
+      {
+        "label": "Per two weeks",
+        "name": "per_two_weeks",
+        "type": "text",
+        "default": "Per two weeks"
+      },
+      {
+        "label": "Monthly",
+        "name": "monthly",
+        "type": "text",
+        "default": "Monthly"
+      },
+      {
+        "label": "Quarterly",
+        "name": "quarterly",
+        "type": "text",
+        "default": "Quarterly"
+      },
+      {
+        "label": "Annual",
+        "name": "annual",
+        "type": "text",
+        "default": "Annual"
+      },
+      {
+        "label": "Per six months",
+        "name": "per_six_months",
+        "type": "text",
+        "default": "Per six months"
+      },
+      {
+        "label": "Per two years",
+        "name": "per_two_years",
+        "type": "text",
+        "default": "Per two years"
+      },
+      {
+        "label": "Per three years",
+        "name": "per_three_years",
+        "type": "text",
+        "default": "Per three years"
+      },
+      {
+        "label": "Per four years",
+        "name": "per_four_years",
+        "type": "text",
+        "default": "Per four years"
+      },
+      {
+        "label": "Per five years",
+        "name": "per_five_years",
+        "type": "text",
+        "default": "Per five years"
+      },
+      {
+        "label": "One-time",
+        "name": "one_time",
+        "type": "text",
+        "default": "One-time"
+      },
+      {
+        "label": "Frequency subtotal",
+        "name": "frequency_subtotal",
+        "type": "text",
+        "default": "{{ frequency_text }} subtotal"
+      },
+      {
+        "label": "after discount",
+        "name": "after_discount",
+        "type": "text",
+        "default": "after {{ discount_amount }} discount"
+      }
+    ]
+  }
+]

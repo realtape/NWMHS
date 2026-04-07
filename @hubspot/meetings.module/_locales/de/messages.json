@@ -1,0 +1,27 @@
+{
+  "name": {
+    "message": "Meetings",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting.label": {
+    "message": "Meetinglink auswählen",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting.help_text": {
+    "message": "Wählen Sie in der Seitenleiste ein vorhandenes Meeting aus oder erstellen Sie ein neues, indem Sie zum <a href='/l/meetings/'>Meetings-Tool</a> gehen.",
+    "description": "",
+    "placeholders": null
+  },
+  "select_meeting_title.default": {
+    "message": "Kein Meeting ausgewählt",
+    "description": "",
+    "placeholders": null
+  },
+  "select_meeting_description.default": {
+    "message": "Wählen Sie in der Seitenleiste ein vorhandenes Meeting aus oder erstellen Sie ein neues, indem Sie zum Meetings-Tool gehen.",
+    "description": "",
+    "placeholders": null
+  }
+}

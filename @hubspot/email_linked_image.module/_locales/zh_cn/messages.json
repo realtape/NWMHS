@@ -1,0 +1,37 @@
+{
+  "img.default.alt": {
+    "message": "placeholder_200x200",
+    "description": "",
+    "placeholders": null
+  },
+  "img.label": {
+    "message": "图片",
+    "description": "",
+    "placeholders": null
+  },
+  "link.help_text": {
+    "message": "这是你希望访问者点击图片后前往的网址。请在 URL 中添加协议（即“http://”）。",
+    "description": "",
+    "placeholders": null
+  },
+  "link.label": {
+    "message": "链接（可选）",
+    "description": "",
+    "placeholders": null
+  },
+  "link.placeholder": {
+    "message": "http://...",
+    "description": "",
+    "placeholders": null
+  },
+  "name": {
+    "message": "图片",
+    "description": "",
+    "placeholders": null
+  },
+  "target.label": {
+    "message": "在新标签页中打开链接",
+    "description": "",
+    "placeholders": null
+  }
+}

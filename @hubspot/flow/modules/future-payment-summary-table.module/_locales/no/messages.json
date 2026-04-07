@@ -1,0 +1,182 @@
+{
+  "name": {
+    "message": "Oppsummeringstabell for fremtidig betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.label": {
+    "message": "Tabelloverskrift",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.display_heading.label": {
+    "message": "Vis tabelloverskrift",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.label": {
+    "message": "Tabelloverskrift",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.inline_help_text": {
+    "message": "Legg til en overskrift for oppsummeringstabellen for fremtidige betalinger",
+    "description": "",
+    "placeholders": null
+  },
+  "table_heading.heading.default": {
+    "message": "Oppsummering av fremtidige betalinger",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.label": {
+    "message": "Kolonner",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.label": {
+    "message": "Overskrift for linjeelementnavn",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.line_item_name_heading.default": {
+    "message": "Element",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.label": {
+    "message": "Overskrift for betalingsoppsummering",
+    "description": "",
+    "placeholders": null
+  },
+  "columns.payment_summary_heading.default": {
+    "message": "Betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.one_time.default": {
+    "message": "Én gang",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_week.default": {
+    "message": "/uke",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_weeks.default": {
+    "message": "/2 uker",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_month.default": {
+    "message": "/ måned",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_quarter.default": {
+    "message": "/ kvartal",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_six_months.default": {
+    "message": "/ 6 måneder",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_year.default": {
+    "message": "/ år",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_two_years.default": {
+    "message": "/ 2 år",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_three_years.default": {
+    "message": "/ 3 år",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.day.default": {
+    "message": "dag",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.days.default": {
+    "message": "dager",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.week.default": {
+    "message": "uke",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.weeks.default": {
+    "message": "uker",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.month.default": {
+    "message": "måned",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.months.default": {
+    "message": "måneder",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payment.default": {
+    "message": "betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.payments.default": {
+    "message": "betalinger",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_date_delay.default": {
+    "message": "{{ formatted_price }} den {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_one_time_relative_delay.default": {
+    "message": "{{ formatted_price }} forfaller {{ billing_delay_period }} {{ billing_delay_unit }} etter innledende betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} begynner {{ billing_delay_period }} {{ billing_delay_unit }} etter første betaling",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} begynner {{ formatted_first_payment_date }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_relative_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} begynner {{ billing_delay_period }} {{ billing_delay_unit }} etter første betaling for {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.future_recurring_date_delay_fixed.default": {
+    "message": "{{ formatted_price }} {{ recurring_frequency }} begynner {{ formatted_first_payment_date }} for {{ number_of_payments }} {{ payment_pluralized }}",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_four_years.default": {
+    "message": "/ 4 år",
+    "description": "",
+    "placeholders": null
+  },
+  "default_text.every_five_years.default": {
+    "message": "/ 5 år",
+    "description": "",
+    "placeholders": null
+  }
+}

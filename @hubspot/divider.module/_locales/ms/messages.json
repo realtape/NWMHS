@@ -1,0 +1,82 @@
+{
+  "name": {
+    "message": "Pembahagi",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.label": {
+    "message": "Penjajaran",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.center": {
+    "message": "Tengah",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.left": {
+    "message": "Kiri",
+    "description": "",
+    "placeholders": null
+  },
+  "alignment.choices.right": {
+    "message": "Kanan",
+    "description": "",
+    "placeholders": null
+  },
+  "color.label": {
+    "message": "Warna",
+    "description": "",
+    "placeholders": null
+  },
+  "height.label": {
+    "message": "Tinggi",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.label": {
+    "message": "Jenis garis",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dashed": {
+    "message": "Bersempang",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.dotted": {
+    "message": "Bertitik",
+    "description": "",
+    "placeholders": null
+  },
+  "line_type.choices.solid": {
+    "message": "Padu",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.label": {
+    "message": "Pelapik",
+    "description": "",
+    "placeholders": null
+  },
+  "padding.inline_help_text": {
+    "message": "Maksimum 20 piksel",
+    "description": "",
+    "placeholders": null
+  },
+  "show_padding.label": {
+    "message": "Tunjukkan pelapik?",
+    "description": "",
+    "placeholders": null
+  },
+  "width.label": {
+    "message": "Lebar",
+    "description": "",
+    "placeholders": null
+  },
+  "width.help_text": {
+    "message": "Peratusan ruang yang mempunyai pembahagi.",
+    "description": "",
+    "placeholders": null
+  }
+}

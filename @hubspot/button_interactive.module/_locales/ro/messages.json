@@ -1,0 +1,197 @@
+{
+  "name": {
+    "message": "Buton (interactiv)",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.label": {
+    "message": "URL link",
+    "description": "",
+    "placeholders": null
+  },
+  "destination.placeholder": {
+    "message": "http://",
+    "description": "",
+    "placeholders": null
+  },
+  "email_address.label": {
+    "message": "Adresă de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "file.label": {
+    "message": "Fișier",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.close": {
+    "message": "Închidere efectuare acțiune",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.email_address": {
+    "message": "Adresă de e-mail",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.tel": {
+    "message": "Număr de telefon",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.file": {
+    "message": "Descărcare fișier",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.meetings_link": {
+    "message": "Link ședințe",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.page": {
+    "message": "Una din paginile dvs.",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.blog": {
+    "message": "Una dintre paginile dvs. de bloc",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.choices.url": {
+    "message": "URL",
+    "description": "",
+    "placeholders": null
+  },
+  "link_to.label": {
+    "message": "Link către",
+    "description": "",
+    "placeholders": null
+  },
+  "meeting_field.label": {
+    "message": "Link ședințe",
+    "description": "",
+    "placeholders": null
+  },
+  "open_in_new_tab.label": {
+    "message": "Deschidere link în filă nouă",
+    "description": "",
+    "placeholders": null
+  },
+  "page_field.label": {
+    "message": "Pagina",
+    "description": "",
+    "placeholders": null
+  },
+  "blog_field.label": {
+    "message": "Blog",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.color.label": {
+    "message": "Culoare",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.clicked.label": {
+    "message": "Cu clic făcut",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.background.label": {
+    "message": "Fundal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.border.label": {
+    "message": "Margine",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.border.label": {
+    "message": "Margine",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.label": {
+    "message": "Colț",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.help_text": {
+    "message": "Adăugați un colț rotunjit la butonul dvs.",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.corner.radius.label": {
+    "message": "Rază",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.color.label": {
+    "message": "Culoare",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.background.label": {
+    "message": "Trecere cursor peste fundal",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.border.label": {
+    "message": "Margine",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.border.label": {
+    "message": "Trecere cursor peste margine",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.label": {
+    "message": "Trecere",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.hover.text.label": {
+    "message": "Trecere cursor peste text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.label": {
+    "message": "Stiluri",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.font.label": {
+    "message": "Font",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.label": {
+    "message": "Text",
+    "description": "",
+    "placeholders": null
+  },
+  "styles.text.padding.label": {
+    "message": "Spațiere text",
+    "description": "",
+    "placeholders": null
+  },
+  "text.default": {
+    "message": "Adăugați un link la buton aici",
+    "description": "",
+    "placeholders": null
+  },
+  "text.label": {
+    "message": "Text buton",
+    "description": "",
+    "placeholders": null
+  }
+}

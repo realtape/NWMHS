@@ -1,0 +1,37 @@
+{
+  "name": {
+    "message": "言語切り替え機能",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.hybrid": {
+    "message": "ハイブリッド",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.localized": {
+    "message": "ローカライズ",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.choices.pagelang": {
+    "message": "ページ言語",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.help_text": {
+    "message": "言語切り替え機能でのテキストの言語。「ページ言語」の場合、言語名が、切り替え機能がオンになっているページの言語で表示されます。「ローカライズ」では、各言語名がその言語で表示されます。「ハイブリッド」はこの2つの組み合わせです。",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.label": {
+    "message": "表示モード",
+    "description": "",
+    "placeholders": null
+  },
+  "display_mode.placeholder": {
+    "message": "検索",
+    "description": "",
+    "placeholders": null
+  }
+}

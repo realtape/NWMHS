@@ -1,0 +1,11 @@
+/*
+  RTL languages scale incorrectly in PDF print view.
+  This overrides print stylings in ./shared.css to ensure
+  that RTL language templates don't overflow the horizontal frame.
+*/
+
+@media print {
+  html, body {
+    width: 190mm !important;
+  }
+}
