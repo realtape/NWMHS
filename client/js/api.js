@@ -1,7 +1,9 @@
 /* ── API client — all fetch calls go through here ────────── */
+// Update PROD_API_URL when you move to your final backend host
+const PROD_API_URL = '';  // e.g. 'https://api.nwmhs.com/api'
 const API_BASE = window.location.hostname === 'localhost'
   ? 'http://localhost:3000/api'
-  : '/api';
+  : (PROD_API_URL || '/api');
 
 async function request(method, path, body) {
   const token = localStorage.getItem('crm_token');
