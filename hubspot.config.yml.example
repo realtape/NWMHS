@@ -1,0 +1,15 @@
+# HubSpot CLI Configuration — EXAMPLE ONLY
+# Copy this file to hubspot.config.yml and fill in your Personal Access Key.
+# hubspot.config.yml is gitignored and should NEVER be committed.
+#
+# To generate a Personal Access Key:
+#   HubSpot → Account Settings → Integrations → Private Apps → Create app
+#   OR use: hs init
+
+defaultPortal: NWMHS
+
+portals:
+  - name: NWMHS
+    portalId: 51307244
+    authType: personalaccesskey
+    personalAccessKey: <YOUR_PERSONAL_ACCESS_KEY_HERE>
