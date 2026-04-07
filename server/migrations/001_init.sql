@@ -1,6 +1,8 @@
 -- ── NWMHS CRM — Initial Schema ───────────────────────────────
 -- Multi-tenant: every row scoped to an organization
 
+CREATE EXTENSION IF NOT EXISTS "pgcrypto";
+
 -- Organizations (tenants)
 CREATE TABLE IF NOT EXISTS organizations (
   id         UUID PRIMARY KEY DEFAULT gen_random_uuid(),
